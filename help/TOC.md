@@ -4,7 +4,7 @@ cloud: experience-cloud
 product: adobe experience manager
 sub-product: experience manager screens
 index: no
-user-guide-title: Adobe Contributor Guide
+user-guide-title: Best Practices Guide for AEM Screens Projects
 user-guide-url: https://www.adobe.com
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
