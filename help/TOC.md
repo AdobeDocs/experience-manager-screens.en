@@ -16,7 +16,10 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 
 ---
 
-# Experience Manager Screens Help {#using}
+# Best Practices Guide for AEM Screens Projects {#using}
 
-+ [Introduction](introduction.md)
-  
++ [Introduction to AEM Screens](introduction.md)
++ Overview {#overview}
+  + [Targeted Audience](targeted-audience.md)
+  + [Personas and Key Areas of Focus](personas.md)
+  + [Prerequisites](pre-requisites.md)

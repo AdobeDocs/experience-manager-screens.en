@@ -1,10 +1,11 @@
 ---
-title: Contributor guide for Adobe documentation
-seo-title: Contributor guide overview for [!UICONTROL Adobe Experience Cloud] technical documentation
+title: Introduction to [!UICONTROL AEM Screens]
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
-seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
+seo-description: The guide is a Best Practices Guide for [!UICONTROL AEM Screens] Projects
 ---
 
-# Replace Me
+# Introduction to AEM Screens {# introduction}
 
-Replace all this content.
+**AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.
+
