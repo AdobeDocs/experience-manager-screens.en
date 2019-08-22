@@ -5,7 +5,7 @@ description: The page describes who are the targeted audience for AEM Screens Be
 seo-description: The page describes who are the targeted audience for AEM Screens Best Practices Guide
 ---
 
-# Targeted Audience {# targeted-audience}
+# Targeted Audience {#targeted-audience}
 
 The intended audience for this document are
 
