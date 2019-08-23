@@ -21,11 +21,10 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 
 * **[AEM Core Concepts](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)**: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM.
 
-## Additional Resources specific to AEM Screens {#additional-resources}
+## Learning Product features and Personas in AEM Screens {#product-features}
 
 To learn the basics of an AEM Screens project, refer to the resources below:
 
 * **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Provides a detailed documentation on features and functionalities of varied personas used in an AEM Screens project.
-
 
 
