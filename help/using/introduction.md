@@ -1,8 +1,8 @@
 ---
 title: Introduction to [!UICONTROL AEM Screens]
 seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
-description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
-seo-description: The guide is a Best Practices Guide for [!UICONTROL AEM Screens] Projects
+description: This page is an introductory section to AEM Screens
+seo-description: This page is an introductory section to AEM Screens
 ---
 
 # Introduction to AEM Screens {#introduction}
@@ -13,13 +13,13 @@ seo-description: The guide is a Best Practices Guide for [!UICONTROL AEM Screens
 
 Creating and managing an application using AEM Screens is simple and intuitive. An application hosts web pages built for AEM Screens by customers or implementation partners. Locations manage pre-defined hierarchy and contains displays. Each display has a dashboard that shows different devices and screens attached. Content for AEM Screens is managed in channels. AEM Screens Player renders content present within channels onto displays.
 
-To understand the key terminologies associated with AEM Screens, see [Glossary](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+>[!NOTE]
+>
+>To understand the key terminologies associated with AEM Screens, visit [Glossary](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 ## Personas {#personas}
 
-Starting a new digital signage experience requires a cohesion of roles before it is ready for consumption. 
-
-The following roles provide a starting point for creating a new Screens project:
+Starting a new digital signage experience requires a cohesion of roles before it is ready for consumption. The following roles provide a starting point for creating a new Screens project:
 
 ### Author {#author}
 
@@ -35,8 +35,10 @@ A developer creates applications and components, works on API integrations and p
 
 ### System Administrator {#administrator}
 
-An AEM Screens Administrator or the Technician is responsible for installation of the physical devices, setting up the hardware, and configuring the Screens player for initial use. In some organizations, the role may expand to a system administrator who is responsible for assigning accounts, scheduling test sessions before deployment or may even be running tests for newly created channels or storing configurations. 
+An AEM Screens Administrator is responsible for installation of the physical devices, setting up the hardware, and configuring the Screens player for initial use. In some organizations, the role may expand to a system administrator who is responsible for assigning accounts, scheduling test sessions before deployment or may even be running tests for newly created channels or storing configurations. 
 
 An Administrator is responsible for installation and configuration, monitoring (involving tasks related to device dashboard, taking screenshots, updating firmware, and checking heartbeat), and troubleshooting or collecting logs.
 
-To learn in detail about different personas that fit into an AEM Screens project development and management, refer to [AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html).
+>[!NOTE]
+>
+>To learn in detail about different personas that fit into an AEM Screens project development and management, refer to **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.

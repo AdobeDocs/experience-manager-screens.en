@@ -12,7 +12,7 @@ The intended audience for this document are:
 * **Adobe**
 * **AEM Implementors**
 * **Project Managers**
-* **AV Integrator**
+* **AV Integrators**
 
 ## Adobe {#adobe-audience}
 
