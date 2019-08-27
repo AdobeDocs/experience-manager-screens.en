@@ -36,4 +36,6 @@ An AV Integrator is responsible for conducting discovery with end-customers to d
 
 To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
 
-Refer to [Part 1: Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html).
+>[!NOTE]
+>
+> To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
