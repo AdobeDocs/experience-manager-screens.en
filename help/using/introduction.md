@@ -39,5 +39,4 @@ An AEM Screens Administrator or the Technician is responsible for installation o
 
 An Administrator is responsible for installation and configuration, monitoring (involving tasks related to device dashboard, taking screenshots, updating firmware, and checking heartbeat), and troubleshooting or collecting logs.
 
-
 To learn in detail about different personas that fit into an AEM Screens project development and management, refer to [AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html).

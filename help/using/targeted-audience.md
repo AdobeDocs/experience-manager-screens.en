@@ -34,4 +34,6 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
-To learn in detail about different roles and responsibilities and the target audeience for a digital signage project. Refer to [Part 1: Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html).
+To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
+
+Refer to [Part 1: Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html).
