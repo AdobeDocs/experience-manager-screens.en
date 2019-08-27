@@ -27,4 +27,4 @@ To learn the basics of an AEM Screens project, refer to the resources below:
 
 * **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Provides a detailed documentation on features and functionalities of varied personas used in an AEM Screens project.
 
-* **[AEM Screens Implementation Essentials]**(https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)
+* **[AEM Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Provides a guided tutorial highlighting AEM Screens implementation essentials.

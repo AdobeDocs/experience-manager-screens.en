@@ -22,4 +22,3 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Recommended Approach](recommended-approach.md)
   + [Project Roles and Responsibilities](roles-responsibilities.md)
   + [RACI Chart](raci-chart.md)
-  
