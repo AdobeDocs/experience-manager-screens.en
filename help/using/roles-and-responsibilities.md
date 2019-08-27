@@ -5,4 +5,6 @@ description: The page describes roles and responsibilties in an AEM Screens proj
 seo-description: The page describes roles and responsibilties in an AEM Screens project
 ---
 
+# Roles and Responsibilities {#project-roles-responsibilities}
+
 A typical screens project involves a project manager, two AEM Screens developers, a UX designer, business stakeholder representatives, hardware partner, and additional server/IT support. 
