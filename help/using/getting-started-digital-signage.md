@@ -11,11 +11,17 @@ Before diving into AEM Screens implementation best practices,it is important to 
 
 It is critical to understand different components that are part of a digital signage project and the various partners involved.
 
-The following list of categories are essential catergories before implementation of a digital signage project:
+The following categories are essential requirements that you must consider before implementing a digital signage project:
 
-* Hardware
-* Connectivity
-* Installation
-* Contents
-* Procurement
-* Maintenance
+## Hardware {#hardware}
+
+## Connectivity {#connectivity}
+
+## Installation {#installation}
+
+## Contents {#contents}
+
+## Procurement {#procurement}
+
+## Maintenance {#maintenance}
+
