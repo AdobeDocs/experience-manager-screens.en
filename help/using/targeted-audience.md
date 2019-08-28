@@ -28,7 +28,7 @@ AEM Implementors will typically deploy custom functionality in phases over time 
 
 ## Project Managers {#project-managers}
 
-Project Managers typically manage the entire deployment for your AEM Screens deployment.
+Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and perform major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
 
 ## AV Integrators {#av-integrators}
 
