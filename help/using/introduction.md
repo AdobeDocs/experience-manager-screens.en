@@ -25,19 +25,39 @@ Starting a new digital signage experience requires a cohesion of roles before it
 
 An AEM Screens Author is responsible for creating and managing a user experience using the available components in AEM Screens. The author creates and reviews the content and provides an easy to use graphical user interface by configuring, deploying, and integrating the available segments of AEM Screens.
 
-An author typically begins the Screens project by creating a simple project, creating channels, adding components and assets to the channel, scheduling, creating locations and displays, followed by assigning channels to the displays. An author creates channels from the given sequences and knows the campaign audience and the desired focus. Thus, an AEM Screens author creates and orchestrates the end user experience by creating different channels and assigning sequences into timed channel experience.
+The following activities summarize the responsibilities of an author that typically begins the Screens project are:
+
+* *creating an AEM Screens project*
+* *creating channels*
+* *adding components and assets to the channel*
+* *scheduling*
+* *creating locations and displays*
+* *assigning channels to the displays*
+
+>[!NOTE]
+>
+>An author creates channels from the given sequences and knows the campaign audience and the desired focus. Thus, an AEM Screens author creates and orchestrates the end user experience by creating different channels and assigning sequences into timed channel experience.
 
 ### Developer {#developer}
 
 An AEM Screens Developer is responsible for designing and building an interactive system. Basically, a developer creates an application and creates content sequences or to develop apps or sequences which may be utilized for multiple channels.
+The following activities summarize the responsibilities of a developer:
 
-A developer creates applications and components, works on API integrations and plugin extensions, builds player extensions, integrates analytics and performs logging operations.
+* *creating applications and components*
+* *API integrations and plugin extensions*
+* *building player extensions*
+* *integrating analytics*
+* *performing logging operations*
 
 ### System Administrator {#administrator}
 
-An AEM Screens Administrator is responsible for installation of the physical devices, setting up the hardware, and configuring the Screens player for initial use. In some organizations, the role may expand to a system administrator who is responsible for assigning accounts, scheduling test sessions before deployment or may even be running tests for newly created channels or storing configurations. 
+An AEM Screens Administrator is responsible for installation of the physical devices, setting up the hardware, and configuring the Screens player for initial use. In some organizations, the role may expand to a system administrator who is responsible for assigning accounts, scheduling test sessions before deployment or may even be running tests for newly created channels or storing configurations.
+The following activities summarize the responsibilities of an administrator:
 
-An Administrator is responsible for installation and configuration, monitoring (involving tasks related to device dashboard, taking screenshots, updating firmware, and checking heartbeat), and troubleshooting or collecting logs.
+* *installating and configuring*
+* *monitoring (device dashboard, taking screenshots, updating firmware, and checking heartbeat)*
+* *troubleshooting*
+* *collecting logs*
 
 >[!NOTE]
 >

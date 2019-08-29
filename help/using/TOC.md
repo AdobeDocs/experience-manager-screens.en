@@ -17,7 +17,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Targeted Audience](targeted-audience.md)
   + [Prerequisites](pre-requisites.md)
 + Basics of Digital Signage {#basics-digital-signage}
-  + [Getting Started with a Digital Signage Project](getting-started-digital-signage.md)
+  + [Key Elements of a Digital Signage Project](getting-started-digital-signage.md)
   + [Project Stages](project-stages.md)
   + [Recommended Approach](recommended-approach.md)
   + [Project Roles and Responsibilities](roles-and-responsibilities.md)
