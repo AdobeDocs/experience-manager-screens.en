@@ -13,6 +13,7 @@ The intended audience for this document are:
 * **AEM Implementors**
 * **Project Managers**
 * **AV Integrators**
+* **Marketing Solution Partners**
 
 ## Adobe {#adobe-audience}
 
@@ -28,13 +29,17 @@ AEM Implementors will typically deploy custom functionality in phases over time 
 
 ## Project Managers {#project-managers}
 
-Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and perform major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
+Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and performs major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
 
 ## AV Integrators {#av-integrators}
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
 To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
+
+## Marketing Solution Partners {#marketing-partners}
+
+Marketing Solution Partners work closely with clients and agencies to help them achieve their marketing objectives.
 
 >[!NOTE]
 >
