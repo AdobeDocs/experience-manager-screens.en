@@ -51,4 +51,3 @@ Refer to the few recommendations before developing and deploying a digital signa
 * **Understanding Scope of Custom Integrations**:
  Interactive components with touch screen interaction, motion sensor, or RFID  will require significant custom development in the implementation method. A slideshow, video advertisement, or static menu can be delivered as graphical content or HTML on a Screens channel.
 
-![](assets/Elements.png)
