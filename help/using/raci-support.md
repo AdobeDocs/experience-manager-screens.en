@@ -5,7 +5,6 @@ description: The page describes RACI Support for AEM Screens Best Practices Guid
 seo-description: The page describes RACI Support for AEM Screens Best Practices Guide
 ---
 
-
 # RACI Support {#raci-support}
 
 This is an introduction.
