@@ -1,12 +1,10 @@
 ---
-
 user-guide-title: Best Practices Guide for AEM Screens Projects
 solution-title: Experience Cloud
 getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-
 ---
 
 # Best Practices Guide for AEM Screens Projects {#using}
@@ -25,7 +23,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 + Support Considerations as Projects are Scoped {#support-considerations}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
   + [RACI Chart for Day Zero](raci-support.md)
-  + Strategies for Business & Content {#strategies}
+  + Defining Strategies {#strategies}
     + [Business Content Strategy](business-content-strategy.md)
     + [Hardware and Retail Strategy](hardware-retail-strategy.md)
   + [Post Launch Support Requirements](post-launch-support.md)
