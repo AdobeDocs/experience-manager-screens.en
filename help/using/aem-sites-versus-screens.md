@@ -7,5 +7,4 @@ seo-description: The page describes the difference in AEM Sites and AEM Screens
 
 # AEM Sites versus AEM Screens {#aem-sites-screens}
 
-
 This is an introduction.

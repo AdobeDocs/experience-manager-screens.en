@@ -7,5 +7,4 @@ seo-description: The page describes device specifications
 
 # Device Specifications {#device-specifications}
 
-
 This is an introduction.
