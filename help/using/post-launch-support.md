@@ -7,7 +7,7 @@ seo-description: The page describes Post Launch Support for AEM Screens Best Pra
 
 # Post Launch Support {#post-launch-support}
 
-IMPORTANT!
+
 Post launch support must not be overlooked in the early stage. 
 
 Ensuring sites receive adequate support from your hardware vendor is crucial for their business operations. The **A/V Integrator** should work closely with business stakeholders and identify the requirements needed from different aspects.
