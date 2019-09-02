@@ -25,8 +25,9 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 + Support Considerations as Projects are Scoped {support-considerations}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
   + [RACI Chart for Day Zero](raci-support.md)
-  + [Business and Content Strategy](business-content-strategy.md)
-  + [Hardware and Retail Strategy](hardware-retail-strategy.md)
+  + Strategies for Business & Content {strategies}
+    + [Business Content Strategy](business-content-strategy.md)
+    + [Hardware and Retail Strategy](hardware-retail-strategy.md)
   + [Post Launch Support Requirements](post-launch-support.md)
 + Project Implementation {project-implementation}
   + [RACI Chart for Day One](raci-chart-day-one.md)
