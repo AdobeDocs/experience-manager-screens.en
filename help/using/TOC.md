@@ -24,8 +24,16 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [RACI Chart](raci-chart.md)
 + Support Considerations as Projects are Scoped {support-considerations}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
-  + [Defining RACI Charts](raci-support.md)
+  + [RACI Chart for Day Zero](raci-support.md)
   + [Business and Content Strategy](business-content-strategy.md)
   + [Hardware and Retail Strategy](hardware-retail-strategy.md)
   + [Post Launch Support Requirements](post-launch-support.md)
++ Project Implementation {project-implementation}
+  + [RACI Chart for Day One](raci-chart-day-one.md)
+  + [Requirements for Project Implementation](requirements-implementation.md)
+  + [AEM Sites versus AEM Screens](aem-sites-versus-screens.md)
+  + [Data Integration](data-integration.md)
+  + [Analytics](analytics.md)
+  + [Content Delivery](content-delivery.md)
+  + [Device Specifications](device-specifications.md)
   
