@@ -60,3 +60,5 @@ to the network?
 1. **Maintenance**
 
    As an existing customer, you will first need to upgrade your existing production and non-production environments to the AEM 6.4 release. At the same time you will perform the upgrade, you will be on-boarded and provided with the URL to access [!UICONTROL Cloud Manager]. Additionally, you will need to start using the Adobe Admin Console for managing your users and their respective permisions, for those users who need to access [!UICONTROL Cloud Manager].
+
+![](assets/Elements.png)
