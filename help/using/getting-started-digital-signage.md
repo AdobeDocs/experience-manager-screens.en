@@ -18,11 +18,21 @@ The *Key Elements* in a digital signage project are:
 
 ![](/help/assets/Elements-Revised.png)
 
-The following key elements are essential considerations before implementing a digital signage project:
+Defining the key elements is essential before implementing a digital signage project:
 
 1. **Hardware**
 
    Hardware defines what hardware components are ideal for your digital signage project implementation:
 
 1. **Connectivity**
+
+1. **Installation**
+
+1. **Content**
+
+1. **Interactive**
+
+1. **Environment**
+
+1. **Maintenance**
 
