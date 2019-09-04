@@ -22,5 +22,7 @@ The following key elements are essential considerations before implementing a di
 
 1. **Hardware**
 
-  Hardware defines what hardware components are ideal for your digital signage project implementation:
+   Hardware defines what hardware components are ideal for your digital signage project implementation:
+
+1. **Connectivity**
 
