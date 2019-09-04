@@ -24,6 +24,3 @@ The following key elements are essential considerations before implementing a di
 
   Hardware defines what hardware components are ideal for your digital signage project implementation:
 
-* What are the Screen Sizes?
-* Number of screens?
-* Screens orientation?
