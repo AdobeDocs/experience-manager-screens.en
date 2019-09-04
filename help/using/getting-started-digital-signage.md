@@ -22,22 +22,18 @@ The following key elements are essential considerations before implementing a di
 
 1. **Hardware**
 
-  Harware defines what hardware components are ideal for your digital signage project implementation:
-  
-  * Physical copper wire
-  * Size of screens 
-  * Number of screens
-     * orientation
-     * aspect ratio
-     * resolution preference
-  * What media types need to be played?
-     * Still images (jpeg, png, etc)
-     * Streaming data (RSS, internal database, social media)
-     * Live TV/Video
-     * Audio (on-demand)
-     * Flash/HTML5
-     * Video files (mpeg -4, avi, etc.)
-  * Have we allowed for video cable type and length?
+  Hardware defines what hardware components are ideal for your digital signage project implementation:
 
-
-
+* What are the Screen Sizes?
+* Number of screens?
+* Screens orientation?
+  * aspect ratio
+  * resolution preference
+* What media types need to be played?
+  * Still images (jpeg, png, etc)
+  * Streaming data (RSS, internal database, social media)
+  * Live TV/Video
+  * Audio (on-demand)
+  * Flash/HTML5
+  * Video files (mpeg -4, avi, etc.)
+* Have we allowed for video cable type and length?
