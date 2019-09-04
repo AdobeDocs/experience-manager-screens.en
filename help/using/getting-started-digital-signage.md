@@ -14,51 +14,85 @@ This section provides recommendations on major key elements that are critical  b
 
 ## Key Elements in Digital Signage {#key-elements}
 
+The *Key Elements* in a digital signage project are:
+
+![](/help/assets/Elements-Revised.png)
+
 The following key elements are essential considerations before implementing a digital signage project:
 
 1. **Hardware**
 
-   Harware defines what hardware components are ideal for your digital signage project implementation.
-
-   * physical copper wire
-
-
+   Harware defines what hardware components are ideal for your digital signage project implementation:
+   * Physical copper wire
+   * Size of screens 
+   * number of screens
+   * orientation
+   * aspect ratio
+   * resolution preference
+   * What media types need to be played?
+     * Still images (jpeg, png, etc)
+     * Streaming data (RSS, internal database, social media)
+     * Live TV/Video
+     * Audio (on-demand)
+     * Flash/HTML5
+     * Video files (mpeg -4, avi, etc.)
+   * Have we allowed for video cable type and length?
 
 1. **Connectivity**
 
-   Another key element is connectivity that requires you to consider the following questions before implementation:
-   * What is the network configuration?
-   * Are there any bandwidth limitations?
-o Will you be sharing a network with other applications outside digital signage?
-o Do you have special security concerns?
-o Do you need to integrate your digital signage with in-store or company-centric
-databases?
-o Who specifically will be responsible for installing the equipment and connecting it
-to the network?
-o Where will primary servers reside? Centrally or remotely?
-o What are the distances between the displays and your players?
-o For screens located far from a source, what kind of signal distribution are you
-considering?
-o Are you looking to integrate video from another source into your content feed?
-
+   Connectivity emphasizes on the following questions:
+   * Networked (cell or wi-fi) or standalone?
+     * do we need to allow for USB content updates?
+     * do we need to allow for usage data collection?
+  
 1. **Installation**
 
-   Refers to how you can install AEM Screens:
-   * whether displays are mounted landscape or potratit
-   * Who specifically will be responsible for installing the equipment and connecting it
-to the network?
-
+   Installation includes:
+   * Displays: landscape or portrait
+   * How will the screen be mounted?
+     * Portrait vs. landscape
+     * Full housing
+     * Cover plate
+   * Fixture support
+   * Personnel: responsible for installing the equipment and connecting it to the network
+   * How far away is the power source from the fixture?
 
 1. **Content**
 
-   As an existing customer, you will first need to upgrade your existing production and non-production environments to the AEM 6.4 release. At the same time you will perform the upgrade, you will be on-boarded and provided with the URL to access [!UICONTROL Cloud Manager]. Additionally, you will need to start using the Adobe Admin Console for managing your users and their respective permisions, for those users who need to access [!UICONTROL Cloud Manager]. 
+   Content includes
+   * Single zone or Multi-zone?
+     * How many media assets are on the screen at the same time?
+     * How many pages for interactive applications?
+     * Define the UI Loop
+     * Data Driven content?
+   * Version Control
+   
+1. **Interactive**
+  
+   Interactive includes
+   * Preferred touchscreen type?(resistive, capacitive, multi-touch)?
+     * Button press
+     * Gesture
+   * Data triggering (I/O)?
+     * Sending/Receiving serial commands (contact closure, PLC, etc.)
+     * Incoming data goes on the screen (RSS) or triggers content
+     * RFID/NFC/Bluetooth/iBeacon
 
-1. **Procurement**
+1. **Environment**
 
-   As an existing customer, you will first need to upgrade your existing production and non-production environments to the AEM 6.4 release. At the same time you will perform the upgrade, you will be on-boarded and provided with the URL to access [!UICONTROL Cloud Manager]. Additionally, you will need to start using the Adobe Admin Console for managing your users and their respective permisions, for those users who need to access [!UICONTROL Cloud Manager].
+   Environment emphasizes on:
+   * Display location?
+     * Inside
+     * Outside
+   * Special temp requirement?
+   * Vandal proof?
+   * High ambient light?
 
 1. **Maintenance**
 
-   As an existing customer, you will first need to upgrade your existing production and non-production environments to the AEM 6.4 release. At the same time you will perform the upgrade, you will be on-boarded and provided with the URL to access [!UICONTROL Cloud Manager]. Additionally, you will need to start using the Adobe Admin Console for managing your users and their respective permisions, for those users who need to access [!UICONTROL Cloud Manager].
+   Maintenance emphasizes on:
+   * Are detailed installation guides/user guides required?
+   * Are we configuring (programming) the device prior to shipment?
+   * Do we need to capture each serial number for tracking purposes?
+   * Are there any back-up power requirements (uninterruptable power supply)?
 
-![](assets/Elements.png)
