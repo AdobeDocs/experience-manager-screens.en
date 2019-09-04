@@ -22,77 +22,22 @@ The following key elements are essential considerations before implementing a di
 
 1. **Hardware**
 
-   Harware defines what hardware components are ideal for your digital signage project implementation:
-   * Physical copper wire
-   * Size of screens 
-   * number of screens
-   * orientation
-   * aspect ratio
-   * resolution preference
-   * What media types need to be played?
+  Harware defines what hardware components are ideal for your digital signage project implementation:
+  
+  * Physical copper wire
+  * Size of screens 
+  * Number of screens
+     * orientation
+     * aspect ratio
+     * resolution preference
+  * What media types need to be played?
      * Still images (jpeg, png, etc)
      * Streaming data (RSS, internal database, social media)
      * Live TV/Video
      * Audio (on-demand)
      * Flash/HTML5
      * Video files (mpeg -4, avi, etc.)
-   * Have we allowed for video cable type and length?
+  * Have we allowed for video cable type and length?
 
-1. **Connectivity**
 
-   Connectivity emphasizes on the following questions:
-   * Networked (cell or wi-fi) or standalone?
-     * do we need to allow for USB content updates?
-     * do we need to allow for usage data collection?
-  
-1. **Installation**
-
-   Installation includes:
-   * Displays: landscape or portrait
-   * How will the screen be mounted?
-     * Portrait vs. landscape
-     * Full housing
-     * Cover plate
-   * Fixture support
-   * Personnel: responsible for installing the equipment and connecting it to the network
-   * How far away is the power source from the fixture?
-
-1. **Content**
-
-   Content includes
-   * Single zone or Multi-zone?
-     * How many media assets are on the screen at the same time?
-     * How many pages for interactive applications?
-     * Define the UI Loop
-     * Data Driven content?
-   * Version Control
-   
-1. **Interactive**
-  
-   Interactive includes
-   * Preferred touchscreen type?(resistive, capacitive, multi-touch)?
-     * Button press
-     * Gesture
-   * Data triggering (I/O)?
-     * Sending/Receiving serial commands (contact closure, PLC, etc.)
-     * Incoming data goes on the screen (RSS) or triggers content
-     * RFID/NFC/Bluetooth/iBeacon
-
-1. **Environment**
-
-   Environment emphasizes on:
-   * Display location?
-     * Inside
-     * Outside
-   * Special temp requirement?
-   * Vandal proof?
-   * High ambient light?
-
-1. **Maintenance**
-
-   Maintenance emphasizes on:
-   * Are detailed installation guides/user guides required?
-   * Are we configuring (programming) the device prior to shipment?
-   * Do we need to capture each serial number for tracking purposes?
-   * Are there any back-up power requirements (uninterruptable power supply)?
 
