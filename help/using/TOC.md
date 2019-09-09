@@ -10,24 +10,23 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 # Best Practices Guide for AEM Screens Projects {#using}
 
 + [About this Guide](about-guide.md)
-+ [Introduction to AEM Screens](introduction.md)
 + Overview {#overview}
-  + [Targeted Audience](targeted-audience.md)
+  + [Introduction to AEM Screens](introduction.md)
+  + [Target Audience](targeted-audience.md)
   + [Prerequisites](pre-requisites.md)
-+ Basics of Digital Signage {#basics-digital-signage}
   + [Key Elements of a Digital Signage Project](getting-started-digital-signage.md)
   + [Project Stages](project-stages.md)
   + [Recommended Approach](recommended-approach.md)
   + [Defining Project Roles and Responsibilities](roles-and-responsibilities.md)
   + [RACI Chart](raci-chart.md)
-+ Support Considerations as Projects are Scoped {#support-considerations}
++ Strategic Briefing {#strategic-brief}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
   + [RACI Chart for Day Zero](raci-support.md)
-  + Defining Strategies {#strategies}
-    + [Business Content Strategy](business-content-strategy.md)
-    + [Hardware and Retail Strategy](hardware-retail-strategy.md)
+  + [Business Content Strategy](business-content-strategy.md)
+  + [Hardware and Retail Strategy](hardware-retail-strategy.md)
++ Design Briefing {#design-brief}
   + [Post Launch Support Requirements](post-launch-support.md)
-+ Project Implementation {#project-implementation}
++ Deployment Briefing {#deployment-brief}
   + [RACI Chart for Day One](raci-chart-day-one.md)
   + [Requirements for Project Implementation](requirements-implementation.md)
   + [AEM Sites versus AEM Screens](aem-sites-versus-screens.md)
@@ -35,7 +34,6 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Integration with Analytics](analytics.md)
   + [Content Delivery](content-delivery.md)
   + [Device Specifications](device-specifications.md)
-+ Architecture Design and Topology {#architecture-design}
   + [Recommended Topology](recommended-topology.md)
   + [Integrating with Existing AEM](integrating-with-aem.md)
   + [Dispatcher Configurations](dispatcher-configurations.md)
