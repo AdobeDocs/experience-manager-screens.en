@@ -21,21 +21,22 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [RACI Chart](raci-chart.md)
 + Strategic Briefing {#strategic-brief}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
-  + [RACI Chart for Day Zero](raci-support.md)
   + [Business Content Strategy](business-content-strategy.md)
   + [Hardware and Retail Strategy](hardware-retail-strategy.md)
-+ Design Briefing {#design-brief}
-  + [Post Launch Support Requirements](post-launch-support.md)
-+ Deployment Briefing {#deployment-brief}
-  + [RACI Chart for Day One](raci-chart-day-one.md)
-  + [Requirements for Project Implementation](requirements-implementation.md)
   + [AEM Sites versus AEM Screens](aem-sites-versus-screens.md)
   + [Data Integration](data-integration.md)
   + [Integration with Analytics](analytics.md)
   + [Content Delivery](content-delivery.md)
-  + [Device Specifications](device-specifications.md)
++ Design Briefing {#design-brief}
+  + [Post Launch Support Requirements](post-launch-support.md)
   + [Recommended Topology](recommended-topology.md)
   + [Integrating with Existing AEM](integrating-with-aem.md)
   + [Dispatcher Configurations](dispatcher-configurations.md)
   + [Working with Content Delivery Network](content-delivery-network.md)
-  
+  + [Requirements for Project Implementation](requirements-implementation.md)
++ Deployment Briefing {#deployment-brief}
+  + [RACI Chart for Day One](raci-chart-day-one.md)
+  + [Testing and Quality Assurance](testing-quality-assurance.md)
+  + [Device Specifications](device-specifications.md)
+  + [Site Deployment](site-deployment.md)
+  + [Ongoing Support and Monitoring](support-monitoring.md)
