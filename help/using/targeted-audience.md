@@ -1,19 +1,25 @@
 ---
 title: Targeted Audience
 seo-title: Target Audience for AEM Screens
-description: The page describes who are the targeted audience for AEM Screens Best Practices Guide
-seo-description: The page describes who are the targeted audience for AEM Screens Best Practices Guide
+description: The page describes who are the target audience for AEM Screens Best Practices Guide
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
 ---
 
-# Targeted Audience {#targeted-audience}
+# Target Audience {#targeted-audience}
 
-The intended audience for this document are:
+The intended audience for this document is development teams working with AEM Screens. However, it should be highlighted that many other roles will also benefit from reading this guide.
+As an experienced AEM implementor, you will likely have seen the roles being referred to as *Authors*, *Developers*, and *IT/Technicians*.
 
-* **Adobe**
-* **AEM Implementors**
-* **Project Managers**
-* **AV Integrators**
-* **Marketing Solution Partners**
+In a typical AEM Screens project, the roles are further refined as they each serves important purpose in the project.
+
+The diagram below shows the roles that we will refer to throughout the guide.
+
+![](/help/assets/Roles.png)
+
+>[!NOTE]
+> Many of these roles could be either in-house or outsourced, depending on how each project is set up.
+
+# Defining Roles {#roles}
 
 ## Adobe {#adobe-audience}
 
@@ -40,6 +46,8 @@ To learn in detail about different roles and responsibilities and the target aud
 ## Marketing Solution Partners {#marketing-partners}
 
 Marketing Solution Partners work closely with clients and agencies to help them achieve their marketing objectives.
+
+The following diagram shows the roles that we will refer to throughout the guide. 
 
 >[!NOTE]
 >
