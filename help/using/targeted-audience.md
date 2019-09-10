@@ -5,7 +5,7 @@ description: The page describes who are the target audience for AEM Screens Best
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
 ---
 
-# Target Audience {#targeted-audience}
+# Target Audience {#target-audience}
 
 The intended audience for this document is development teams working with AEM Screens. However, it should be highlighted that many other roles will also benefit from reading this guide.
 As an experienced AEM implementor, you will likely have seen the roles being referred to as *Authors*, *Developers*, and *IT/Technicians*.
@@ -19,13 +19,15 @@ The diagram below shows the roles that we will refer to throughout the guide.
 >[!NOTE]
 > Many of these roles could be either in-house or outsourced, depending on how each project is set up.
 
-# Defining Roles {#roles}
+## Defining Roles {#roles}
 
-## Adobe {#adobe-audience}
+The following section provides an overview on the target audience:
+
+### Adobe {#adobe-audience}
 
 Adobe includes Adobe Managed Services resources like the CSE (Customer Success Engineer) and Adobe Support.
 
-## AEM Implementors {#aem-implementors}
+### AEM Implementors {#aem-implementors}
 
 AEM Implementors are responsible for performing development and integration tasks to develop the user experience, custom templates, and back-end integrations for AEM.
 
@@ -33,17 +35,17 @@ Custom features required to address end-customer UX (User Experience) parameters
 
 AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase might include enabling the ability to support playback of  localized content through dynamic templates and metadata tags, with additional phases incorporating support for interactive elements via touch screens, sensors, dynamic triggers, and so on.
 
-## Project Managers {#project-managers}
+### Project Managers {#project-managers}
 
 Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and performs major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
 
-## AV Integrators {#av-integrators}
+### AV Integrators {#av-integrators}
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
 To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
 
-## Marketing Solution Partners {#marketing-partners}
+### Marketing Solution Partners {#marketing-partners}
 
 Marketing Solution Partners work closely with clients and agencies to help them achieve their marketing objectives.
 
