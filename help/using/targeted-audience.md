@@ -1,5 +1,5 @@
 ---
-title: Targeted Audience
+title: Target Audience
 seo-title: Target Audience for AEM Screens
 description: The page describes who are the target audience for AEM Screens Best Practices Guide
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
@@ -35,21 +35,33 @@ Custom features required to address end-customer UX (User Experience) parameters
 
 AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase might include enabling the ability to support playback of  localized content through dynamic templates and metadata tags, with additional phases incorporating support for interactive elements via touch screens, sensors, dynamic triggers, and so on.
 
-### Project Managers {#project-managers}
-
-Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and performs major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
-
 ### AV Integrators {#av-integrators}
+
+The A/V Integrator is the Hardware Vendor/Partner. This is the party that deals with retail design and site preparation, including hardware acquisition, configuration, and deployment. It is typically a contracted 3rd party who has access to a Network Operations Center (NOC). In many cases the A/V Integrator is the project owner due to its continuous involvement post-launch.
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
 To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
 
-### Marketing Solution Partners {#marketing-partners}
+### Business Strategist {#business-strategist}
 
-Marketing Solution Partners work closely with clients and agencies to help them achieve their marketing objectives.
+The Business Strategy represents the decision makers at the company. This role is heavily involved in the discovery and requirements stages and is the main driver of the project. 
 
-The following diagram shows the roles that we will refer to throughout the guide. 
+They are the ones defining requirements and setting up KPI metrics. Business Strategy could be the following:
+
+* Marketing or,
+* Sales Manager Digital Strategy Manager Creatives / Content Management.
+
+The Creatives and Content Management team work closely with the Strategy team and turn requirements into client experiences. They drive the overall UX design and curate contents that complements the brand.
+
+The Creatives and Content Management could be the following:
+
+* Creative Agency or,
+* Brand Manager
+
+### Project Managers {#project-managers}
+
+Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project and performs major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
 
 >[!NOTE]
 >

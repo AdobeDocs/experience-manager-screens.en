@@ -17,7 +17,6 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Key Elements of a Digital Signage Project](getting-started-digital-signage.md)
   + [Project Stages](project-stages.md)
   + [Recommended Approach](recommended-approach.md)
-  + [Defining Project Roles and Responsibilities](roles-and-responsibilities.md)
   + [RACI Chart](raci-chart.md)
 + Strategic Briefing {#strategic-brief}
   + [Pre-Sales Considerations](pre-sales-considerations.md)
