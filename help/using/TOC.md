@@ -39,7 +39,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Testing and Quality Assurance](testing-quality-assurance.md)
   + [Device Specifications](device-specifications.md)
   + [Site Deployment](site-deployment.md)
-+ [Ongoing Support and Maintenance] {#ongoing-support}
++ Support and Maintenance {#ongoing-support}
   + [Support and Monitoring](support-monitoring.md)
   + [Content Update Workflows](content-update-workflows.md)
   + [Planning Software Feature Improvements](software-features-improvements.md)
