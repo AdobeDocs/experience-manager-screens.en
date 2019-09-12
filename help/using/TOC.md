@@ -26,6 +26,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Data Integration](data-integration.md)
   + [Integration with Analytics](analytics.md)
   + [Content Delivery](content-delivery.md)
+  + [Data Triggers](data-triggers.md)
 + Design Briefing {#design-brief}
   + [Post Launch Support Requirements](post-launch-support.md)
   + [Recommended Topology](recommended-topology.md)
@@ -38,4 +39,8 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Testing and Quality Assurance](testing-quality-assurance.md)
   + [Device Specifications](device-specifications.md)
   + [Site Deployment](site-deployment.md)
-  + [Ongoing Support and Monitoring](support-monitoring.md)
++ [Ongoing Support and Maintenance] {#ongoing-support}
+  + [Support and Monitoring](support-monitoring.md)
+  + [Content Update Workflows](content-update-workflows.md)
+  + [Planning Software Feature Improvements](software-features-improvements.md)
+  + [Planning Server and Hardware Upgrades](server-hardware-upgrades.md)
