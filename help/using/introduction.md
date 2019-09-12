@@ -2,25 +2,27 @@
 title: Introduction to [!UICONTROL AEM Screens]
 seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: This page is an introductory section to AEM Screens
-seo-description: This page is an introductory section to AEM Screens
+seo-description: This page provides an introduction to AEM Screens
 ---
 
 # Introduction to AEM Screens {#introduction}
 
 **AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.
 
-**AEM Screens** is a powerful web-based solution that allows you to create:
+**AEM Screens** is a powerful web-based solution that helps to to expand customer interaction and deliver unified and useful brand experiences into physical venues such as stores, hotels, banks, healthcare and educational institutions, and many more – from the same AEM platform.
+
+AEM Screens allows you to create:
 
 * **dedicated digital menu boards**
 * **product recommenders**
-* **background lifestyle imagery**: to expand customer interaction and deliver unified and useful brand experiences into physical venues such as stores, hotels, banks, healthcare and educational institutions, and many more – from the same AEM platform.
+* **background lifestyle imagery**
 
-Additionally, Screens provide many unique applications such as:
+Additionally, Screens provide many unique applications for customers and employees based on the domain where these are deployed, such as:
 
 * **interactive displays**
 * **wayfinding**
 * **branding**
-* **adding ambience to your environment** for customers and employees based on the domain where these are deployed.
+* **adding ambience to your environment**
 
 Creating and managing an application using AEM Screens is simple and intuitive. An application hosts web pages built for AEM Screens by customers or implementation partners. *Locations* manage pre-defined hierarchy and contains displays. Each *display* has a dashboard that shows different devices and screens attached. Content for AEM Screens is managed in *channels*. *AEM Screens Player* renders content present within channels onto displays.
 
