@@ -1,11 +1,11 @@
 ---
-title: Target Audience
-seo-title: Target Audience for AEM Screens
-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
+title: AEM Screens Project Roles  and Responsibilities
+seo-title: AEM Screens Project Roles  and Responsibilities
+description: The page describes AEM Screens Project Roles  and Responsibilities
+seo-description: The page describes AEM Screens Project Roles  and Responsibilities
 ---
 
-# Target Audience {#target-audience}
+# Project Roles and Responsibilities {#roles-responsibilities}
 
 As an experienced AEM implementor, you will likely have seen the roles being referred to as *Authors*, *Developers*, and *IT/Technicians*.
 
@@ -65,3 +65,22 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 >[!NOTE]
 >
 > To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+
+
+## RACI Chart {#raci-chart}
+
+The following is a sample RACI chart using the role definitions. 
+
+>[!NOTE]
+>
+> This chart is not intended to be followed exactly but to provide an example of common tasks and considerations in an AEM Screens projects.
+
+### RACI definitions {raci-definitions}
+
+1. Responsible: Does the work to complete the task.
+
+1. Accountable: Delegates work and is the last party to review the task before it is complete.
+
+1. Consulted: Reviews the task or deliverable to provide input.
+
+1. Informed: Kept informed of progress on the task but is not involved in the details of the deliverable.

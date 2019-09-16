@@ -15,7 +15,7 @@ Consider how the Screens application can help to achieve this and determine KPIs
 
 You must refer to these few questions that should be answered when building a content strategy for your AEM Screens project:
 
-* Who is the target audience?
+* Who is the target audience and what is the anticipated dwell time?
 * What content needs to be shown to them?
 * Where will content be most impactful?
 * When is the ideal time to engage the audience?
