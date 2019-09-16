@@ -23,6 +23,12 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 
 ## Learning Product Features and Personas in AEM Screens {#product-features}
 
+>[!NOTE]
+>
+> In this Guide (in context of AEM Screens):
+> **UX**, defines the digital experience being delivered to end customers.
+> **UI**, defines the user interface, that allows you to create and manage your projects in Screens.
+
 To learn the basics of an AEM Screens project, refer to the resources below:
 
 * **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Provides a detailed documentation on features and functionalities of varied personas used in an AEM Screens project.
