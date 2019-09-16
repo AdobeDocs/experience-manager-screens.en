@@ -75,7 +75,7 @@ The following is a sample RACI chart using the role definitions.
 >
 > This chart is not intended to be followed exactly but to provide an example of common tasks and considerations in an AEM Screens projects.
 
-### RACI definitions {raci-definitions}
+### RACI definitions {#raci-definitions}
 
 1. Responsible: Does the work to complete the task.
 
