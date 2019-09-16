@@ -20,7 +20,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 + Strategic Briefing {#strategic-brief}
   + [Considerations as Projects are Scoped](pre-sales-considerations.md)
   + [Business Content in UX Strategies](business-content-strategy.md)
-  + [UX Dependencies](hardware-retail-strategy.md)
+  + [UX Dependencies](ux-dependencies.md)
   + [Integration with Analytics](analytics.md)
   + [Data Triggers](data-triggers.md)
 + Design Briefing {#design-brief}

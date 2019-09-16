@@ -1,13 +1,13 @@
 ---
-title: Hardware Content Strategy for [!UICONTROL AEM Screens]
-seo-title: Hardware Content Strategy for [!UICONTROL AEM Screens]
-description: The guide describes the Hardware Content Strategy
-seo-description: The guide describes Hardware Content Strategy
+title: UX Dependencies for [!UICONTROL AEM Screens]
+seo-title: UX Dependencies for [!UICONTROL AEM Screens]
+description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
 ---
 
-# Hardware Content Strategy {#hardware-content}
+# UX Dependencies {#ux-dependencies}
 
-Hardware Content Strategy defines where and how content is strategized so it is most impactful.
+UX Dependencies defines where and how content is strategized so it is most impactful.
 
 The following questions should be considered while defining hardware content strategy:
 

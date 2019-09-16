@@ -11,7 +11,11 @@ Content is a major factor in driving engagement, and in pre-sales phase it is im
 
 A well-defined business content strategy sets a path to create, distribute, and track the usage of content in relation to the buyer’s journey and the marketing touch points in the sales funnel. Getting the right message to the right customer at the right time is crucial. 
 
-Consider how the Screens application can help to achieve this and determine KPIs to help measure the success of the application in delivering that content:
+Consider how the Screens application can help to achieve this and determine KPIs to help measure the success of the application in delivering that content.
+
+>[!NOTE]
+>
+>You must consider that the experience must operate offline with limited bandwidth.
 
 You must refer to these few questions that should be answered when building a content strategy for your AEM Screens project:
 
