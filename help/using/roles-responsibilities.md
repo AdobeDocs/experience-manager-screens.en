@@ -69,7 +69,7 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 
 ## RACI Chart {#raci-chart}
 
-The following is a sample RACI chart using the role definitions. 
+The following is a sample RACI chart using the role definitions.
 
 >[!NOTE]
 >
@@ -77,10 +77,23 @@ The following is a sample RACI chart using the role definitions.
 
 ### RACI definitions {#raci-definitions}
 
-1. Responsible: Does the work to complete the task.
+* **Responsible**: Does the work to complete the task.
 
-1. Accountable: Delegates work and is the last party to review the task before it is complete.
+* **Accountable**: Delegates work and is the last party to review the task before it is complete.
 
-1. Consulted: Reviews the task or deliverable to provide input.
+* **Consulted**: Reviews the task or deliverable to provide input.
 
-1. Informed: Kept informed of progress on the task but is not involved in the details of the deliverable.
+* **Informed**: Kept informed of progress on the task but is not involved in the details of the deliverable.
+
+The following is a sample RACI chart using the role definitions and provides an example of common tasks and considerations in an AEM Screens project.
+
+| **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+|---|---|---|---|---|
+| *Day Zero: Pre-sales Considerations* |
+| Team Formation and Vendor Selection | I |I | RA |  RA |
+| Agreement on Roles and Responsibilities |  RA |  RA | RA |  RA |
+| Alignment on Strategic Goals |  CI |  I | RA |  RA |
+| Reporting Needs and ROI Identification |  I |  C | RA |  C |
+| Site Visit and Hardware Requirements |  RA |  I | C |  C |
+| Support Process Definition |  C |  I | RA |  I |
+| Define Scope of Work and Project Plan |  RA |  RA | C |  C |
