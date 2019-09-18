@@ -19,6 +19,8 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 
 * **[AEM 6.5 Tutorials and Videos](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)**: A collection of tutorials and videos highlighting both new and updated capabilities for AEM Sites, Assets, Forms, Screens, and Foundation with the release of AEM 6.5.
 
+* **[First Steps for Authors](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/first-steps.html)**: This section provides an overview of the main tasks that you will be using when starting to author content with Adobe Experience Manager (AEM).
+
 * **[AEM Core Concepts](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)**: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM.
 
 ## Learning Product Features and Personas in AEM Screens {#product-features}
@@ -26,7 +28,7 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 >[!NOTE]
 >
 > In this Guide (in context of AEM Screens):
-> **UX**, defines the digital experience being delivered to end customers.
+> **UX**, defines the digital signage experiences delivered to end customers.
 > **UI**, defines the user interface, that allows you to create and manage your projects in Screens.
 
 To learn the basics of an AEM Screens project, refer to the resources below:
@@ -34,3 +36,5 @@ To learn the basics of an AEM Screens project, refer to the resources below:
 * **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Provides a detailed documentation on features and functionalities of varied personas used in an AEM Screens project.
 
 * **[AEM Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Provides a guided tutorial highlighting AEM Screens implementation essentials.
+
+* **[Videos on Digital Signage Network Basics](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)**: Provides five basic videos highlighting the concepts in an AEM Screens Digital signage project.
