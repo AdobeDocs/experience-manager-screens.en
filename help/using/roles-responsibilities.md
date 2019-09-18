@@ -116,16 +116,15 @@ The following is a sample RACI chart using the role definitions and provides an 
 | *Day One: Project Implementation (Retail Readiness)* |
 | Hardware Ordering and Storage | AR |I | I |  I |
 | Retail Onboarding Schedule |  I |  I | C |  AR |
-| Staging - User Acceptance Testing |  I |  C | AR |   |
+| Staging User Acceptance Testing |  I |  C | AR |   |
 | Hardware Bulk Configuration |  AR |  I | C |  I |
 | Agreement on Post Launch Support |  AR |  C | AR |  C |
 | *Day One: Day One: Project Implementation (Hardware)* |
-| Agreement on Roles and Responsibilities |  RA |  RA | RA |  RA |
-| Retail Design (Includes wiring,
-operations) |  - |  - | - |  - |
-| Player Hardware Selection |  RAC |  - | - |  - |
-| Master Device Management |  RA |  I | - |  - |
-| Device Ordering, Storing, and Configuring | RA |  CI | I | - |
+| Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
+| Retail Design includes wiring operations | - |  - | - |  - |
+| Player Hardware Selection | RAC |  - | - |  - |
+| Master Device Management | RA |  I | - |  - |
+| Device Ordering & Storing & Configuring | RA |  CI | I | - |
 | Support Process Definition | RA |  I | RA |  C |
 
 >[!NOTE]
