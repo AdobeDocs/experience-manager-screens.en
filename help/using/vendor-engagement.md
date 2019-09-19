@@ -11,6 +11,8 @@ You must try to identify all the key partner dependencies:
 
 * Identify what kind of vendor is involved: hardware or software?
 
+* What are the requirements?
+
 * What are the partners planning to implement?
 
 * What is the lead time?
