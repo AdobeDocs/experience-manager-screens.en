@@ -129,13 +129,15 @@ The following is a sample RACI chart using the role definitions and provides an 
 
 >[!NOTE]
 >
-> Roles change during Day Two (Post Launch Support) to
+> Roles change during Day Two (Post Launch Support).
 
 * **Author**: Content Management + Strategy
 
 * **Developer**: Typically a member of the AEM Screens implementation team, or handoff to internal development team
 
 * **Technician**: Either contracted by the AV integrator, or is part of the same company.
+
+The following table summarizes the **Day Two: Post Launch Support RACI Chart**:
 
 | **Phase** | **Author** |**Developer** | **Technician** |
 |---|---|---|---|
