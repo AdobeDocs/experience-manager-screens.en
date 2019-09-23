@@ -18,5 +18,6 @@ This guide not only provides a comprehensive insight and practical advice to ima
 >[!NOTE]
 >
 > In this Guide (in context of AEM Screens):
-> **UX**, defines the digital signage experiences delivered to end customers.
-> **UI**, defines the user interface, that allows you to create and manage your projects in Screens.
+>
+> * **UX** defines the digital signage experiences delivered to end customers.
+> * **UI** defines the user interface, that allows you to create and manage your projects in Screens.
