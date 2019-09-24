@@ -26,8 +26,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [UX Journey Map](journey-map.md)
   + [UX Prototyping](prototypes.md)
   + [UX Wireframing](wireframes.md)
-  + [Transition to Platform]
-  (transition-platform.md)
+  + [Transition to Platform](transition-platform.md)
   + [Dynamic Creative Optimization](data-triggers.md)
 + Deployment Briefing {#deployment-brief}
   + [AEM Platform Configurations](aem-platform-configurations.md)
