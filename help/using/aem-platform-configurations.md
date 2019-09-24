@@ -42,7 +42,7 @@ Install FFMpeg following the steps for the appropriate OS (usually RHEL):
 The password policy of AEM needs to be disabled on the AMS instance. This can be alternately configured in the web console using the Screens device service *com.adobe.cq.screens.device.impl.DeviceService*
 Refer to **Password Restrictions** section in[Configuring Author and Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)
 
-## Setting up the Environments {setting-up-environments}
+## Setting up the Environments {#setting-up-environments}
 
 Install and run the most current versions of the following packages for your version of Adobe Experience Manager (AEM):
 
