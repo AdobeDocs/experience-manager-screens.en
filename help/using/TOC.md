@@ -22,12 +22,13 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Business Content in UX Strategies](business-content-strategy.md)
   + [UX Dependencies](ux-dependencies.md)
   + [Integration with Analytics](analytics.md)
-  + [Dynamic Platform Driven Content](data-triggers.md)
 + Design Briefing {#design-brief}
   + [UX Journey Map](journey-map.md)
   + [UX Prototyping](prototypes.md)
   + [UX Wireframing](wireframes.md)
-  + [Transition to Platform](transition-platform.md)
+  + [Transition to Platform]
+  (transition-platform.md)
+  + [Dynamic Content](data-triggers.md)
 + Deployment Briefing {#deployment-brief}
   + [AEM Platform Configurations](aem-platform-configurations.md)
   + [Project Taxonomy and Implementation](project-taxonomy-implementation.md)
