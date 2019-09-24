@@ -28,7 +28,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [UX Wireframing](wireframes.md)
   + [Transition to Platform]
   (transition-platform.md)
-  + [Dynamic Content](data-triggers.md)
+  + [Dynamic Creative Optimization](data-triggers.md)
 + Deployment Briefing {#deployment-brief}
   + [AEM Platform Configurations](aem-platform-configurations.md)
   + [Project Taxonomy and Implementation](project-taxonomy-implementation.md)
