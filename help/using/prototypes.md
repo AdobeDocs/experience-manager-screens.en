@@ -7,12 +7,17 @@ seo-description: The page describes Prototypes for an AEM Screens Project
 
 # Prototypes {#prototypes}
 
-During UX design and prototyping phase, consider:
+User Experience Prototyping:
 
-* **Analytics**: based on the interactions, what will be tracked and how?
-* **Data**: what data is being used to generate these interactions?
-* **Request input**: from the client about the composition of the user interface as early as possible.
-* **Development team review**: the proposed UX design, so they can work out a rough plan for implementation and identify possible problems before beginning development work. Both parties should approve the UX design before development work begins.
+It is important to test the ideas, assumptions and dependencies previously defined in the UX Journey Map through the use of UX prototyping. In this phase of the project, we are concerned more about core functionality and less about refining the actual UX. 
+Typically, sample or FPO content is used in this stage to help the project manager and key stakeholders identify any major gaps in the UX flow as well as any timing problems with the playback and related trigger events.
+This phase can also reveal potential problems with asset positioning, scale and size.
+
+By prototyping the experience on actual hardware, we can simulate various scenarios for how the content will be consumed, what interactions may occur and what external data dependencies may cause a disruption to the intended flow of the experience.
+
+Various example Use Cases have been created to serve as a reference or starting point for prototyping specific experiences.
+
+
 
 >[!NOTE]
 >
