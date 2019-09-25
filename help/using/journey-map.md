@@ -7,11 +7,18 @@ seo-description: The page describes Journey Map for AEM Screens
 
 # Journey Map {#journey-map}
 
-Building UX Jouney map provides tips, tools and the platform to improve your understanding of the customer experience.
+A User Experience Jouney Map is designed to provide visability into how and why users will experience the digital content delivered by the network.
 
-A major factor in the success of the project will be the pace at which the development team can develop and deploy features. If the desired solution is ambitious, it is recommended that you divide the deliverables into discrete phases to control the scope of the project.
+Building the UX Journey Map
 
-Based on UX Requirements set out in Day Zero, meet with the client UX team (or third-party contractor) to review the application mocks. Walk through designs together to provide additional context. You can send a pdf, but the added context will be invaluable for having a smooth-running project.
+Having a strong understanding of how consumers will interact with a digital signage network in a physical space is critical to the success and value delivered by that network. It also helps to understand how the digital experiences will be consumed within the context of all the other channels a customer may encounter.
+
+The UX Journey map is a very good way of visualizing how a visitor may move through a physical space, what elements they may encounter and how the digital experience delivered by the network may fill any gaps in the overall journey.
+
+In this phase of the project we may choose to define options and dependencies for dynamic or interactive content so that we can prototype them later. This would include a storyboard for each interaction, data trigger or loop segment that the network will deliver along with the KPI’s defined in the Strategy Brief.
+
+It is encouraged that project leaders and key stake holders be allowed to experiment with the physical placement of digital elements along various parts of the store journey as well as the actual digital experiences that may be delivered.
+
 
 
 >[!NOTE]
