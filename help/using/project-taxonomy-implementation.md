@@ -7,14 +7,12 @@ seo-description: The page describes Project Taxonomy
 
 # Project Taxonomy {#project-taxonomy}
 
-Before you create an AEM Screens project, it is important to understand and strategize the components required for your digital signage use case.
+Before you create an AEM Screens project, it is important to understand and strategize all the components defined in the UX Wireframing phase of the project.
 
-You must consider how the content will be used in various places - and how it has to be distributed across location or within locations.
-
-Make sure you consider the following parameters before implementing your AEM Screens digital signage solution:
+Make sure you consider the following elements before implementing your AEM Screens digital signage solution:
 
 * **Locations**
-* **Zones**
+* **MediaZones**
 * **Displays**
 * **Scheduling**
 * **Previewing the content**
