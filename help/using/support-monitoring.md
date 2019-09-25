@@ -8,7 +8,8 @@ seo-description: The page describes Support Monitoring for AEM Screens Best Prac
 # Support Monitoring {#support-monitoring}
 
 This section provides best practices related to managing device and content anomalies in a digital signage project.
-Support monitoring allows you to monitor your content at two levels:
+
+Support monitoring includes:
 
 * **Device Monitoring**
 * **Content Monitoring**
