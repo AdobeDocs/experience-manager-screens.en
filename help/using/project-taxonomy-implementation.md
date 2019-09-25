@@ -13,13 +13,13 @@ You must consider how the content will be used in various places - and how it ha
 
 Make sure you consider the following parameters before implementing your AEM Screens digital signage solution:
 
-* Locations
-* Location zones
-* Displays
-* Display zones
-* Broadcasting to Display
-* Scheduling
-* Previewing the content
+* **Locations**
+* **Zones**
+* **Displays**
+* **Scheduling**
+* **Previewing the content**
+
+To learn about these terms, refer to [Glossary](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
