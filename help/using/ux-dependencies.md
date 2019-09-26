@@ -31,16 +31,4 @@ The following questions should be considered while defining hardware content str
 
 1. What are the environmental considerations such as brightness, temperature, and seasonality.?
 
-## Considering Harware Partner {#selecting-hardware-partner}
 
-It is crucial to select the right Hardware Partner. The following questions must be considered:
-
-1. What are the terms of Service level agreement?
-
-1. What is Global coverage? 
-
-1. Is it 24 hour support?
-
-1. How will the devices be managed?
-
-1. What are the active monitoring and warning systems?
