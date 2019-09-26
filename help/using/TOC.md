@@ -34,6 +34,6 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Device Configurations](device-configurations.md)
   + [Testing and Quality Assurance](testing-quality-assurance.md)
   + [Vendor Engagement Strategy](vendor-engagement.md)
-  + [Planning Software Feature Improvements](software-features-improvements.md)
 + Support and Maintenance {#ongoing-support}
   + [Support and Monitoring](support-monitoring.md)
+  + [Day Two Support and Maintenance](day-two-support-maintenance.md)
