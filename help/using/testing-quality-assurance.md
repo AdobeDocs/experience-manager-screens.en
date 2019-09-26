@@ -12,9 +12,24 @@ As we get closer to actual deployment of the digital signage network, we should 
 In the phase, entire test systems should be built and fully tested.
 
 A checklist should be created which identifies all the previously defined KPI's and measured the deliverable against them.
-This would include:
 
-1) Mechanical considerations for display mounting, player mounting, ventilation, peripheral attachements, cable management and device networking.
-2) Software considerations for device registration, media publishing, playback and any previously defined database dependencies
+The following elements should be considered:
 
-This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+1. **Mechanical considerations** for:
+     * display mounting
+     * player mounting
+     * ventilation
+     * peripheral attachments
+     * cable management
+     * device networking
+
+1. **Software considerations** for:
+     * device registration
+     * media publishing
+     * playback
+     * database dependencies (previously defined)
+
+
+>[!NOTE]
+> This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+

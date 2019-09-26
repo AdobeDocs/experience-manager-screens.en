@@ -9,10 +9,10 @@ seo-description: The page describes Vendor Engagement for AEM Screens Best Pract
 
 In this activity, it is important to identify all the key vendors required in assembling and delivering the network as well as any partner dependencies:
 
-* Identify vendors for all HW including displays, player PC's, mounts and related peripherals.
+* Identify vendors for all hardware including displays, player PC's, mounts and related peripherals.
 
 * Define capabilities and tasks for each vendor as it relates to the product category they support.
 
-* Confirm delivery leadtimes for all deliveribles and create a deployment plan that accomodates for all leadtimes working backwards from the desired install date(s) of the first required installations.
+* Confirm delivery *leadtimes* for all deliveribles and create a deployment plan that accomodates for all leadtimes working backwards from the desired install date(s) of the first required installations.
 
-By completing all the previous steps, we should now have a comprehensive Day 1 Deployment Plan ready to execute.
+By completing all the previous steps, we should now have a comprehensive *Day 1* Deployment Plan ready to execute.

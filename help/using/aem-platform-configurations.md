@@ -61,6 +61,4 @@ Install the same software packages on your local development environments. Instr
 
 Setting up ACLs explains how to segregate projects so that each individual or team handles their own project.
 
-As an AEM administrator, you must ensure that team members of a project do not interfere with other projects and each of the users are assigned sepecific roles as per project requirements.
-
 Refer  to [Setting up ACLs](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) for more details.
