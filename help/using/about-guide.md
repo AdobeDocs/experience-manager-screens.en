@@ -22,12 +22,13 @@ However, it should be highlighted that many other roles will also benefit from r
 The AEM Screens is a new extension to Adobe Experience Manager (AEM) and because the tools are new and their potential applications varied, it is critical to identify important considerations and common risk factors involved in development and deployment of AEM Screens.
 
 This guide not only provides a comprehensive insight and practical advice to imagine, design and bring intentional customer experiences into your digital signage implementation but also guides you how to create a positive impact on your business using some of the best practices followed while deploying a digital signage project in AEM Screens.
->[!NOTE]
+>[!IMPORTANT]
 > This Guide is designed to identify common pitfalls while implementing an AEM Screens project and the material focuses primarily on the following topics:
-
+>
 > * **[Project Roles and Responsibilties](roles-responsibilities.md)**
+> * **[RACI Chart for different roles and responsibilties](roles-responsibilities.md)**
 > * **[AEM Platform Configurations](aem-platform-configurations.md)**
-
+> * **[Support and Monitoring](support-monitoring.md)**
 
 >[!NOTE]
 > Terms used in this Guide (in context of AEM Screens):
