@@ -67,6 +67,21 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 > To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
+## Project Stages {#project-stages}
+
+To support a successful Digital Signage deployment, it is customary to segment the project into 3 stages.  These stages are commonly referred to as **Days**. These are not literal days but designations for each major stage of the project.
+
+1. The first stage is referred to as *Day Zero*. This stage includes all pre-sales and discovery efforts required to fully define project scope.
+
+1. The second stage, *Day One*, refers to all activities included in the deployment effort.
+
+1. The third and final stage *Day Two* refers to all ongoing operations and support elements as part of the total solution.
+
+>[!NOTE]
+>
+> While this guide puts emphasis primarily on *Day One* and *Day Two*, attention to all three stages is necessary to execute a successful digital signage project.
+Follow an additional video on **[Project Management and Deployment](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** to learn about project pre-production, project initiation, and project progression.
+
 ## RACI Chart {#raci-chart}
 
 The following is a sample RACI chart using the role definitions.

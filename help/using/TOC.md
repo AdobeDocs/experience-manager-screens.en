@@ -15,7 +15,6 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Project Roles & Responsibilities](roles-responsibilities.md)
   + [Prerequisites](pre-requisites.md)
   + [Key Elements of a Digital Signage Project](getting-started-digital-signage.md)
-  + [Project Stages](project-stages.md)
   + [Recommended Approach](recommended-approach.md)
 + Strategic Briefing {#strategic-brief}
   + [Considerations as Projects are Scoped](pre-sales-considerations.md)
