@@ -7,6 +7,10 @@ seo-description: The page describes Project Taxonomy
 
 # Project Taxonomy {#project-taxonomy}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an AEM Implementor.
+
 Before you create an AEM Screens project, it is important to understand and strategize all the components defined in the UX Wireframing phase of the project.
 
 Make sure you consider the following elements before implementing your AEM Screens digital signage solution:

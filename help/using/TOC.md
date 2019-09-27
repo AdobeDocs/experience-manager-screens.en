@@ -26,7 +26,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [UX Prototyping](prototypes.md)
   + [UX Wireframing](wireframes.md)
   + [Transition to Platform](transition-platform.md)
-  + [Dynamic Creative Optimization](data-triggers.md)
+  + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Deployment Briefing {#deployment-brief}
   + [AEM Platform Configurations](aem-platform-configurations.md)
   + [Project Taxonomy and Implementation](project-taxonomy-implementation.md)
@@ -35,4 +35,4 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Vendor Engagement Strategy](vendor-engagement.md)
 + Support and Maintenance {#ongoing-support}
   + [Support and Monitoring](support-monitoring.md)
-  + [Day Two Support and Maintenance](day-two-support-maintenance.md)
+  + [Day Two Platform Support and Maintenance](day-two-support-maintenance.md)

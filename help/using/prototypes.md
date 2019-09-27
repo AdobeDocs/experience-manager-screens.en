@@ -7,6 +7,10 @@ seo-description: The page describes Prototypes for an AEM Screens Project
 
 # User Experience Prototyping {#prototypes}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategists.
+
 It is important to test the ideas, assumptions and dependencies previously defined in the UX Journey Map through the use of UX prototyping. 
 
 In this phase of the project, we are concerned more about core functionality and less about refining the actual UX. 

@@ -7,6 +7,10 @@ seo-description: The guide describes Business Content Strategy
 
 # Business Content Strategy {#business-content}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategist.
+
 Content is a major factor in driving engagement, and in pre-sales phase it is important to define a business content strategy that considers how the application will leverage hardware, software, and connectivity resources to successfully deliver the intended value to your client’s customers.
 
 A well-defined business content strategy sets a path to create, distribute, and track the usage of content in relation to the buyer’s journey and the marketing touch points in the sales funnel. Getting the right message to the right customer at the right time is crucial. 

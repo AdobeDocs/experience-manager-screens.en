@@ -13,7 +13,7 @@ In a typical AEM Screens project, the roles are further refined as they each ser
 
 The diagram below shows the roles that we will refer to throughout the guide.
 
-![](/help/assets/roles-updates.png)
+![](/help/assets/Roles1.png)
 
 >[!NOTE]
 > Many of these roles could be either in-house or outsourced, depending on how each project is set up.

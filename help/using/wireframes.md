@@ -7,6 +7,10 @@ seo-description: The page describes Wireframes for an AEM Screens project
 
 # Wireframes {#wireframes}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategist.
+
 Wireframes are a visual representation of the anticipated digital experience that we intend to deliver. 
 
 This process can be applied to:

@@ -7,6 +7,10 @@ seo-description: The page describes data triggers
 
 # Dynamic Creative Optimization {#dynamic-creative}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an AEM Implementor.
+
 **Dynamic Creative Optimization** or DCO, is used to create digital signage experiences that reflect the unique circumstances of any given location at any given time and for any given user.
 
 This is also refered to as Client Side flattening of content.

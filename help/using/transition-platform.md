@@ -7,6 +7,10 @@ seo-description: The page describes Transition to Platform
 
 # Transition to Platform {#transition-platform}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an AEM Implementor.
+
 As our project has progressed from a strategic vision to a wireframed reality, we should now start preparing for the tasks necessary to actually create a Screens project in AEM that we can deploy.
 
 This will include the mapping of platform-specific configurations to loosely defined requirements defined in the prototyping phase.
