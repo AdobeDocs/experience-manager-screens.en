@@ -7,6 +7,10 @@ seo-description: The page describes Considerations as Projects are Scoped
 
 # Considerations as Projects are Scoped {#pre-sales-considerations}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategist.
+
 This stage includes all pre-sales and discovery efforts required to fully define the project scope. The work done during Day Zero sets the tone for the rest of the project and influences the overall success of the application being built.
 At this stage, key vendors are identified and brought together to help formulate the project plan. It is important during this stage that buy-in is also established with key project stakeholders within the client company, such as Sales Executives, Marketing Managers, and IT teams as they will all have an important part to play in the development of the application and its continued maintenance.
 

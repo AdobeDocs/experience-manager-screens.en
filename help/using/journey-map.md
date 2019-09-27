@@ -7,6 +7,10 @@ seo-description: The page describes Journey Map for AEM Screens
 
 # UX Journey Map {#journey-map}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategists.
+
 A User Experience Jouney Map is designed to provide visability into how and why users will experience the digital content delivered by the network.
 
 ## Building the UX Journey Map {#building-map}

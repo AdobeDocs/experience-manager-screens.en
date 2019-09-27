@@ -7,6 +7,9 @@ seo-description: The page describes Testing and Quality Assurance for AEM Screen
 
 # Testing and Quality Assurance {#testing-quality}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an A/V Integrator.
 
 As we get closer to actual deployment of the digital signage network, we should create a Test and QA Plan that addresses every element of the network including all hardware components, all software components and all networking components.
 In the phase, entire test systems should be built and fully tested.
@@ -29,7 +32,5 @@ The following elements should be considered:
      * playback
      * database dependencies (previously defined)
 
-
 >[!NOTE]
 > This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
-

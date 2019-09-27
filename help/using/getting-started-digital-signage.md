@@ -11,7 +11,6 @@ Before diving into AEM Screens implementation best practices,it is important to 
 
 This section provides recommendations on major key elements that are critical  before an AEM Screens project implementation.
 
-
 ## Key Elements in Digital Signage {#key-elements}
 
 The *Key Elements* in a digital signage project are:

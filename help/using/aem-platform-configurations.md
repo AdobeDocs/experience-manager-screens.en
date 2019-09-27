@@ -6,6 +6,10 @@ seo-description: The page describes AEM Platform Configurations
 ---
 # AEM Platform Configurations  {#platform-configurations}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an AEM Implementor.
+
 Follow the sections below to set up AEM platform configurations to get started with AEM Screens.
 
 ## Server Configurations {#server-configurations}

@@ -7,6 +7,10 @@ seo-description: The page describes Vendor Engagement for AEM Screens Best Pract
 
 # Vendor Engagement {#vendor-engagement}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an A/V Integrator.
+
 In this activity, it is important to identify all the key vendors required in assembling and delivering the network as well as any partner dependencies:
 
 * Identify vendors for all hardware including displays, player PC's, mounts and related peripherals.

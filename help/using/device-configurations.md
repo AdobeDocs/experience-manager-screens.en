@@ -7,6 +7,10 @@ seo-description: The page describes device specifications
 
 # Device Configurations {#device-configurations}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is an A/V Integrator.
+
 Based on the information gathered during *Day Zero*, confirm the following information before beginning development:
 
 * What is the orientation, dimensions, and resolution of the screens being used?

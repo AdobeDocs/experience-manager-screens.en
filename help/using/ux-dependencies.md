@@ -7,6 +7,10 @@ seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens
 
 # UX Dependencies {#ux-dependencies}
 
+>[!NOTE]
+>
+>Typical stakeholder for this activity is a Marketing/Business Strategist.
+
 UX Dependencies defines where and how content is strategized so it is most impactful.
 
 The following questions should be considered while defining hardware content strategy:
