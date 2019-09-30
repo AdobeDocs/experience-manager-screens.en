@@ -43,7 +43,7 @@ Refer to the few recommendations before developing and deploying a digital signa
   > Start collecting analytics during the pilot to help business teams validate the success of the solution against the specific metrics they are trying to achieve. Knowing how the pilot is performing helps the business team determine what improvements need to be made.
 
 * **Splitting Deliverables into measurable tasks**:
- Split the delivery of features into measurable tasks will allow timely feedback, provide more achievable targets, and reduce overall project risks. 
+ Splitting the delivery of features into measurable tasks will allow timely feedback, provide more achievable targets, and reduce overall project risks. 
 
 * **Developing a Roadmap**:
  If your client wants a feature rich product, deliver a slice of the planned functionality early in the project and schedule other features for future phases. A feature-heavy first deliverable carries greater risk and will be more difficult to validate with the client.

@@ -29,7 +29,7 @@ You must refer to these few questions that should be answered when building a co
 * When is the ideal time to engage the audience?
 * Who will create the content?
 * Why should the target audience care about the content?
-* What problems is the content helping them solve? (For example, does the Screens application help a customer find the most suitable shoes to wear for extreme mountain climbing? or the perfect appliance for their new home?)
+* What problems is the content helping them solve? (For example, does the Screens application help a customer find the most suitable shoes to wear for extreme mountain climbing or a perfect appliance for their new home?)
 * How does the customer interact with the application or how is the user experience?
 * What is your update and upgrade strategy?
 * How often will new content be needed?

@@ -33,6 +33,6 @@ The following questions should be considered while defining hardware content str
 
 1. Are multiple devices required for one display (such as, multi-zones, extra large boards)?
 
-1. What are the environmental considerations such as brightness, temperature, and seasonality.?
+1. What are the environmental considerations such as brightness, temperature, and the season?
 
 
