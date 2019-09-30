@@ -40,20 +40,18 @@ The A/V Integrator is the Hardware Vendor/Partner. This is the party that deals 
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
-To learn in detail about different roles and responsibilities and the target audeience for a digital signage project.
-
 ### Business Strategist {#business-strategist}
 
-The Business Strategy represents the decision makers at the company. This role is heavily involved in the discovery and requirements stages and is the main driver of the project. 
+The Business Strategists represent the decision makers at the company. This role is heavily involved in the discovery and requirements stages and is the main driver of the project. 
 
-They are the ones defining requirements and setting up KPI metrics. Business Strategy could be the following:
+They are the ones defining requirements and setting up KPI metrics. A Business Strategist could be the following:
 
 * Marketing or,
 * Sales Manager Digital Strategy Manager Creatives / Content Management.
 
 The Creatives and Content Management team work closely with the Strategy team and turn requirements into client experiences. They drive the overall UX design and curate contents that complements the brand.
 
-The Creatives and Content Management could be the following:
+The Creatives and Content Management could be one the following:
 
 * Creative Agency or,
 * Brand Manager

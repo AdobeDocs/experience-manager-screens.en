@@ -7,7 +7,7 @@ seo-description: The guide describes the basics of a digital signage project
 
 # Basics of a Digital Signage Project {#basics-digital-signage}
 
-Before diving into AEM Screens implementation best practices,it is important to think of the project as a digital signage project, instead of a traditional software development.
+Before diving into AEM Screens implementation best practices, it is important to think of the project as a digital signage project, instead of a traditional software development.
 
 This section provides recommendations on major key elements that are critical  before an AEM Screens project implementation.
 
@@ -23,7 +23,7 @@ Defining the key elements is essential before implementing a digital signage pro
 
    Hardware defines what hardware components are ideal for your digital signage project implementation:
    * Have we allowed for video cable type and length?
-   * Physical copper wire
+   * Usage of physical copper wire
    * Size of screens
    * Number of screens
      * orientation

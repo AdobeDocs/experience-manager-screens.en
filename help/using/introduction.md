@@ -22,7 +22,7 @@ Additionally, Screens provide many unique applications for customers and employe
 * **branding**
 * **adding ambience to your environment**
 
-Creating and managing a digital signage network using AEM Screens is simple and intuitive. An player application hosts content channels built for AEM Screens by customers or implementation partners. *Locations* manage a pre-defined location hierarchy and contains displays. Each *display* has a dashboard that shows different devices and screens attached. Content for AEM Screens is managed in *channels*. *AEM Screens Player* renders content present within channels onto displays.
+Creating and managing a digital signage network using AEM Screens is simple and intuitive. A player application hosts content channels built for AEM Screens by customers or implementation partners. *Locations* manage a pre-defined location hierarchy and contains displays. Each *display* has a dashboard that shows different devices and screens attached. Content for AEM Screens is managed in *channels*. *AEM Screens Player* renders content present within channels onto displays.
 
 
 
