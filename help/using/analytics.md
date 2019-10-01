@@ -13,7 +13,7 @@ seo-description: The page describes the anaytics with AEM Screens
 
 AEM Screens offers the ability to locally capture every trackable event that each player device executes. This data will be locally stored until it can be uploaded to the cloud for processing. In addition to all the event data, a deviceID and timestamp are also added. This ensures that data from one player can be distinguished from another player and data executed at different times of the day can be evaluated separately if desired.
 
-There are two fundamental reasons we may want to capture this data. 
+There are two fundamental reasons we may want to capture this data.
 
 The first involves **feedback loops and machine learning** while the second involves the **creation of graphs, dashboards and reports** that are intended for human consumption.
 
