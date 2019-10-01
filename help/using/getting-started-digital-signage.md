@@ -22,7 +22,8 @@ Defining the key elements is essential before implementing a digital signage pro
 1. **Hardware**
 
    Hardware defines what hardware components are ideal for your digital signage project implementation:
-   * Have we allowed for video cable type and length?
+   * Does the device have enough storage space to run all variations of the experiences offline?
+   * Have we allowed for video cable type and length? And does the device support both the desired resolutions (HD, FullHD, 4K, etc.) and video codecs I'm planning to deploy (h.264, h.265, etc.)
    * Usage of physical copper wire
    * Size of screens
    * Number of screens
@@ -48,6 +49,7 @@ Defining the key elements is essential before implementing a digital signage pro
    * Fixture support
    * Personnel: responsible for installing the equipment and connecting it to the network
    * How far away is the power source from the fixture?
+   * How far away is the physical panel from the actual device?
 
 1. **Content**
 
@@ -69,16 +71,17 @@ Defining the key elements is essential before implementing a digital signage pro
      * Sending/Receiving serial commands (contact closure, PLC, etc.)
      * Incoming data goes on the screen (RSS) or triggers content
      * RFID/NFC/Bluetooth/iBeacon
+     * External services (weather, traffice, etc.)
 
 1. **Environment**
 
    Environment emphasizes on:
    * Display location?
-     * Inside
-     * Outside
+     * Inside vs. Outside
+     * Out-of-reach or directly exposed
    * Special temp requirement?
    * Vandal proof?
-   * High ambient light?
+   * High ambient light? Strong contrasts?
 
 1. **Maintenance**
 
@@ -88,3 +91,4 @@ Defining the key elements is essential before implementing a digital signage pro
    * Are we configuring (programming) the device prior to shipment?
    * Do we need to capture each serial number for tracking purposes?
    * Are there any back-up power requirements (uninterruptable power supply)?
+   * How are system updates deployed? And how are devices monitored remotely? Is an MDM solution required?
