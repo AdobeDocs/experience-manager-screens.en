@@ -7,7 +7,7 @@ seo-description: The page describes recommended approach in an AEM Screens proje
 
 # Recommended Approach {#recommended-approach}
 
-It is a recommended best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or will be deployed to a variety of devices.
+It is a recommended best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or will be deployed to a variety of devices and locations.
 
 ## Guidelines before Developing a Digital Signage Strategy {#signage-strategy}
 
