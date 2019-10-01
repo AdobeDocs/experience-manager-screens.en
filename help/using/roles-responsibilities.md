@@ -40,7 +40,7 @@ The A/V Integrator is the Hardware Vendor/Partner. This is the party that deals 
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
-### Business Strategist {#business-strategist}
+### Business Strategists {#business-strategist}
 
 The Business Strategists represent the decision makers at the company. This role is heavily involved in the discovery and requirements stages and is the main driver of the project. 
 
