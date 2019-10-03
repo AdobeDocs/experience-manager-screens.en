@@ -8,7 +8,7 @@ getting-started-url: https://helpx.adobe.com/experience-manager/6-5/screens/user
 tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.en
-index: no
+index: yes
 ---
 
 # Metadata for internal use
