@@ -25,7 +25,7 @@ The following questions should be considered while defining hardware content str
    * Is it wayfinding?
    * Does it show advertisements?
 
-1. How are connections and network wiring set up
+1. How are connections and network wiring set up?
 
 1. How often will the computers and connection be on and off?
 
