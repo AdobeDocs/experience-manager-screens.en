@@ -9,7 +9,7 @@ seo-description: The page describes Prototypes for an AEM Screens Project
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is a Marketing/Business Strategists.
+>Typical stakeholder for this activity is a Marketing/Business Strategist.
 
 It is important to test the ideas, assumptions and dependencies previously defined in the UX Journey Map through the use of UX prototyping. 
 
