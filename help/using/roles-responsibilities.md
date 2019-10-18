@@ -157,7 +157,7 @@ The following table summarizes the **Day Two: Post Launch Support RACI Chart**:
 | *Day Two: Post Launch Support* |
 | Agreement on Roles and Responsibilities |  RA |  RA | RA |
 | Tier 1 Support |  I |  I | RA |
-| Tier 1 Support |  I |  C | RA |
-| Tier 1 Support |  I |  RA | C |
+| Tier 2 Support |  I |  C | RA |
+| Tier 3 Support |  I |  RA | C |
 | Content Update |  RA |  I | I |
 | Evaluate UX success and identify areas of improvements |  RA |  C | I |
