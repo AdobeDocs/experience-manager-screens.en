@@ -20,17 +20,3 @@ In this activity, it is important to identify all the key vendors required in as
 * Confirm delivery *leadtimes* for all deliveribles and create a deployment plan that accomodates for all leadtimes working backwards from the desired install date(s) of the first required installations.
 
 By completing all the previous steps, we should now have a comprehensive *Day 1* Deployment Plan ready to execute.
-
-## Considering Hardware Partner {#selecting-hardware-partner}
-
-It is crucial to select the right Hardware Partner. The following questions must be considered:
-
-1. What are the terms of Service level agreement?
-
-1. What is Global coverage?
-
-1. Is it 24 hour support?
-
-1. How will the devices be managed?
-
-1. What are the active monitoring and warning systems?

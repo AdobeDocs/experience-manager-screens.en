@@ -40,6 +40,20 @@ The A/V Integrator is the Hardware Vendor/Partner. This is the party that deals 
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
+### Considering Hardware Partner {#selecting-hardware-partner}
+
+It is crucial to select the right Hardware Partner. The following questions must be considered:
+
+1. What are the terms of Service level agreement?
+
+1. What is Global coverage?
+
+1. Is it 24 hour support?
+
+1. How will the devices be managed?
+
+1. What are the active monitoring and warning systems?
+
 ### Business Strategists {#business-strategist}
 
 The Business Strategists represent the decision makers at the company. This role is heavily involved in the discovery and requirements stages and is the main driver of the project. 
@@ -110,28 +124,31 @@ The following is a sample RACI chart using the role definitions and provides an 
 | Site Visit and Hardware Requirements |  RA |  I | C |  C |
 | Support Process Definition |  C |  I | RA |  I |
 | Define Scope of Work and Project Plan |  RA |  RA | C |  C |
+
+| **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+|---|---|---|---|---|
 | *Day One: Project Implementation (Application Design)* |
 | Agreement on Roles an Responsibilities | RA |RA | RA |  RA |
 | Alignment on Project Plan and Schedule |  RA |  RA | C |  C |
 | Evaluate Current Server Environments |  I |  RA | I |  I |
-| UX Design Requirements |  I |  AR | C |  AR |
+| UX Design Requirements |  I |  RA | C |  RA |
 | Technical Requirements Validation |  I |  RA | RA |  C |
-| Architecture Design |  I |  AR | I |  I |
-| Validate Data Structure with UI Design |  I |  AR | C |  C |
+| Architecture Design |  I |  RA | I |  I |
+| Validate Data Structure with UI Design |  I |  RA | C |  C |
 | Application Development | RA |RA | RA |  RA |
-| AEM Screens Project Set Up |  I |  AR | C |  I |
-| Analytics Implementation |  I |  AR | C |  - |
-| Testing and Deployment |  AR |  C | AR |  I |
-| Server Configurationn |  I |  AR | I |  I |
-| Content Update Plan |  I |  AR | C |  C |
-| Plan for pilot to production transitionn |  AR |  AR | I |  I |
-| Knowledge Transfer |  AR |  AR | I |  I |
+| AEM Screens Project Set Up |  I |  RA | C |  I |
+| Analytics Implementation |  I |  RA | C |  - |
+| Testing and Deployment |  RA |  C | RA |  I |
+| Server Configurationn |  I |  RA | I |  I |
+| Content Update Plan |  I |  RA | C |  C |
+| Plan for pilot to production transitionn |  RA |  RA | I |  I |
+| Knowledge Transfer |  RA |  RA | I |  I |
 | *Day One: Project Implementation (Retail Readiness)* |
-| Hardware Ordering and Storage | AR |I | I |  I |
-| Retail Onboarding Schedule |  I |  I | C |  AR |
-| Staging User Acceptance Testing |  I |  C | AR |   |
-| Hardware Bulk Configuration |  AR |  I | C |  I |
-| Agreement on Post Launch Support |  AR |  C | AR |  C |
+| Hardware Ordering and Storage | RA |I | I |  I |
+| Retail Onboarding Schedule |  I |  I | C |  RA |
+| Staging User Acceptance Testing |  I |  C | RA |   |
+| Hardware Bulk Configuration |  RA |  I | C |  I |
+| Agreement on Post Launch Support |  RA |  C | RA |  C |
 | *Day One: Day One: Project Implementation (Hardware)* |
 | Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
 | Retail Design includes wiring operations | - |  - | - |  - |
