@@ -40,7 +40,7 @@ The A/V Integrator is the Hardware Vendor/Partner. This is the party that deals 
 
 An AV Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
-### Considering Hardware Partner {#selecting-hardware-partner}
+#### Considering Hardware Partner {#selecting-hardware-partner}
 
 It is crucial to select the right Hardware Partner. The following questions must be considered:
 
@@ -143,12 +143,18 @@ The following is a sample RACI chart using the role definitions and provides an 
 | Content Update Plan |  I |  RA | C |  C |
 | Plan for pilot to production transitionn |  RA |  RA | I |  I |
 | Knowledge Transfer |  RA |  RA | I |  I |
+
+| **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+|---|---|---|---|---|
 | *Day One: Project Implementation (Retail Readiness)* |
 | Hardware Ordering and Storage | RA |I | I |  I |
 | Retail Onboarding Schedule |  I |  I | C |  RA |
 | Staging User Acceptance Testing |  I |  C | RA |   |
 | Hardware Bulk Configuration |  RA |  I | C |  I |
 | Agreement on Post Launch Support |  RA |  C | RA |  C |
+
+| **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+|---|---|---|---|---|
 | *Day One: Day One: Project Implementation (Hardware)* |
 | Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
 | Retail Design includes wiring operations | - |  - | - |  - |
