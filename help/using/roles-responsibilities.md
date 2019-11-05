@@ -114,9 +114,10 @@ The following is a sample RACI chart using the role definitions.
 
 The following is a sample RACI chart using the role definitions and provides an example of common tasks and considerations in an AEM Screens project.
 
+The following table summarizes the **Day Zero: Pre-sales Considerations**:
+
 | **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
-| *Day Zero: Pre-sales Considerations* |
 | Team Formation and Vendor Selection | I |I | RA |  RA |
 | Agreement on Roles and Responsibilities |  RA |  RA | RA |  RA |
 | Alignment on Strategic Goals |  CI |  I | RA |  RA |
@@ -125,9 +126,10 @@ The following is a sample RACI chart using the role definitions and provides an 
 | Support Process Definition |  C |  I | RA |  I |
 | Define Scope of Work and Project Plan |  RA |  RA | C |  C |
 
+The following table summarizes the **Day One: Project Implementation (Application Design)**:
+
 | **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
-| *Day One: Project Implementation (Application Design)* |
 | Agreement on Roles an Responsibilities | RA |RA | RA |  RA |
 | Alignment on Project Plan and Schedule |  RA |  RA | C |  C |
 | Evaluate Current Server Environments |  I |  RA | I |  I |
@@ -144,18 +146,20 @@ The following is a sample RACI chart using the role definitions and provides an 
 | Plan for pilot to production transitionn |  RA |  RA | I |  I |
 | Knowledge Transfer |  RA |  RA | I |  I |
 
+The following table summarizes the **Day One: Project Implementation (Retail Readiness)**:
+
 | **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
-| *Day One: Project Implementation (Retail Readiness)* |
 | Hardware Ordering and Storage | RA |I | I |  I |
 | Retail Onboarding Schedule |  I |  I | C |  RA |
 | Staging User Acceptance Testing |  I |  C | RA |   |
 | Hardware Bulk Configuration |  RA |  I | C |  I |
 | Agreement on Post Launch Support |  RA |  C | RA |  C |
 
+The following table summarizes the **Day One: Day One: Project Implementation (Hardware)**:
+
 | **Phase** | **A/V Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
-| *Day One: Day One: Project Implementation (Hardware)* |
 | Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
 | Retail Design includes wiring operations | - |  - | - |  - |
 | Player Hardware Selection | RAC |  - | - |  - |
