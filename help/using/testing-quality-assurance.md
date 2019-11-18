@@ -18,19 +18,60 @@ A checklist should be created which identifies all the previously defined KPI's 
 
 The following elements should be considered:
 
-1. **Mechanical considerations** for:
-     * display mounting
-     * player mounting
-     * ventilation
-     * peripheral attachments
-     * cable management
-     * device networking
+## 1. Mechanical considerations {#mechanical-considerations}
 
-1. **Software considerations** for:
-     * device registration
-     * media publishing
-     * playback
-     * database dependencies (previously defined)
+The following mechanical considerations are recommended:
+
+* display mounting
+* player mounting
+* ventilation
+* peripheral attachments
+* cable management
+* device networking
+
+## 2. Software considerations {#software-considerations}
+
+The following software considerations are recommended:
+
+* device registration
+* media publishing
+* playback
+* database dependencies (previously defined)
 
 >[!NOTE]
 > This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+
+## 3. Device Management Considerations {#device-management-considerations}
+
+  
+AEM Screens includes a Device Control Center module which allows for the management of Screens player application end points.
+      
+This refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
+This module allows you to:
+
+1. Monitor application error logs
+1. Manage remote screen shots
+1. Manage content downloads
+1. Application restarts
+
+>[!CAUTION]
+> YOU SHOULD NPT USE Device Control Center TO:
+>
+> 1. Install new versions of the player application
+> 1. Monitor system level resources
+> 1. Configure system level configurations
+> 1. Allow for remote desktop intervention.
+
+
+>[!NOTE]
+> Adobe recommends that dedicated, 3rd party Device Management platforms should be used for all deployments.
+
+The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.
+     
+Few examples are:
+
+* Google Chrome Device Management
+* TeamViewer
+* AirWatch42
+* Gears
+* Soti
