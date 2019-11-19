@@ -50,7 +50,7 @@ AEM Screens includes a Device Control Center module which allows for the managem
 This refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
 This module allows you to:
 
-1. Monitor application error logs
+1. Monitor player application error logs
 1. Manage remote screen shots
 1. Manage content downloads
 1. Manage application restart issues
@@ -62,8 +62,8 @@ To learn  in detail about ***Device Control Center***, refer to [Troubleshooting
 >
 > 1. Install new versions of the player application
 > 1. Monitor system level resources
-> 1. Configure system level configurations
-> 1. Allow for remote desktop intervention.
+> 1. Troubleshoot system level errors
+> 1. Allow for remote desktop intervention
 
 
 >[!NOTE]
@@ -75,6 +75,6 @@ Few examples are:
 
 * Google Chrome Device Management
 * TeamViewer
-* AirWatch42
-* Gears
-* Soti
+* AirWatch
+* 42Gears
+* Proprietary AV Integrator Middleware
