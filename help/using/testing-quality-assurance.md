@@ -53,7 +53,7 @@ This module allows you to:
 1. Monitor application error logs
 1. Manage remote screen shots
 1. Manage content downloads
-1. Application restarts
+1. Manage application restart issues
 
 To learn  in detail about ***Device Control Center***, refer to [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
 
