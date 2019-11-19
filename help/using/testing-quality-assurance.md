@@ -16,9 +16,12 @@ In the phase, entire test systems should be built and fully tested.
 
 A checklist should be created which identifies all the previously defined KPI's and measured the deliverable against them.
 
+>[!NOTE]
+> This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+
 The following elements should be considered:
 
-## 1. Mechanical considerations {#mechanical-considerations}
+## 1. Mechanical Considerations {#mechanical-considerations}
 
 The following mechanical considerations are recommended:
 
@@ -29,7 +32,7 @@ The following mechanical considerations are recommended:
 * cable management
 * device networking
 
-## 2. Software considerations {#software-considerations}
+## 2. Software Considerations {#software-considerations}
 
 The following software considerations are recommended:
 
@@ -38,8 +41,6 @@ The following software considerations are recommended:
 * playback
 * database dependencies (previously defined)
 
->[!NOTE]
-> This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
 
 ## 3. Device Management Considerations {#device-management-considerations}
 
@@ -54,8 +55,10 @@ This module allows you to:
 1. Manage content downloads
 1. Application restarts
 
+To learn  in detail about ***Device Control Center***, refer to [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
+
 >[!CAUTION]
-> YOU SHOULD NPT USE Device Control Center TO:
+> You should not use Device Control Center to:
 >
 > 1. Install new versions of the player application
 > 1. Monitor system level resources
