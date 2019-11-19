@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens 6.5 Help
 ---
 
-# AEM 6.5 Screens User Guide {#user-guide}
+# AEM Screens User Guide {#user-guide}
 
 + [Introduction to Screens](aem-screens-introduction.md)
 + Overview {#overview}
