@@ -13,7 +13,7 @@ docset: aem65
 
 ---
 
-# Glossary{#glossary}
+# Glossary {#glossary}
 
 **Application Channel** An Application Channel shows an application created by a developer that displays interactive content.
 
@@ -25,9 +25,9 @@ docset: aem65
 
 **Live Copy** A Live Copy is a copy of specific site content for which a live relationship with the original source is maintained. This live relationship allows the live copy to inherit content and page properties from the source.
 
-**Location** Locations host the configuration of the displays according to where the various screens are.
+**Location/Location Folder** Locations or locations inside location folder host the configuration of the displays according to where the various screens are.
 
-**Player Software** The player is the software running on a device that will allow you to show a channel on a display.
+**Player Software** The player is the software application running on a device that will allow you to show a channel on a display.
 
 **Screen** A screen is a physical monitor or any other system capable of producing visual output, that shows the content coming from its device.
 
