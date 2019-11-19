@@ -8,6 +8,9 @@ contentOwner: jsyal
 
 # Installing AEM Screens Player {#installing-player}
 
+This page describes how to install AEM Screens player.
+
+## Available Screens Player {#available-players}
 
 The AEM Screens player is available for Android, Chrome OS, iOS, and Windows.
 
