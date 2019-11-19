@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 ---
 
 # AEM Screens User Guide {#user-guide}
