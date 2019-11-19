@@ -20,16 +20,16 @@ user-guide-title: Adobe Experience Manager Screens Help
 + Administering {#administering}
     + [Screens Server Configurations](configuring-screens-introduction.md)
     + [Setting up Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
-    + Connecting and Installing Screens Player {#screens-player}
-        + [Installing Screens Player](installing-screens-player.md)
-        + [Device Registration](device-registration.md)
+    + [Installing Screens Player](installing-screens-player.md)
+    + [Connecting Screens Player Application](working-with-screens-player.md)
+    + [Device Registration](device-registration.md)
+    + [Setting up ACLs](setting-up-acls.md)
+    + [Transitioning from ContentSync to SmartSync](smartsync.md)
+    + Installing Client {#screens-player}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
         + [Android Player](implementing-android-player.md)
-        + [Windows Player](implementing-windows-player.md)
-        + [Connecting Screens Player](working-with-screens-player.md)
-    + [Setting up ACLs](setting-up-acls.md)
-    + [Transitioning from ContentSync to SmartSync](smartsync.md)
+        + [Windows Player](implementing-windows-player.md)    
     + Author Publish {#author-publish}
         + [Author-Publish Architectural Overview](author-publish-architecture-overview.md)
         + [Configuring Author and Publish](author-and-publish.md)  
