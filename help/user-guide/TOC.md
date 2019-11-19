@@ -25,7 +25,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Device Registration](device-registration.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
-    + Installing Client {#screens-player}
+    + Installing Client {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
         + [Android Player](implementing-android-player.md)
