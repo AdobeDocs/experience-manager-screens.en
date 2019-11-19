@@ -14,7 +14,6 @@ noindex: true
 
 # Asset Level Scheduling {#asset-level-scheduling}
 
-
 This section describes asset level scheduling for the assets used in Channels.
 
 The following topics are covered in this section:
