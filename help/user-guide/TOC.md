@@ -25,6 +25,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Device Registration](device-registration.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
+    + [New Project Importer from File](project-importer.md)
     + Client Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
@@ -45,7 +46,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Creating and Managing Schedules](managing-schedules.md)
         + [Managing Devices](managing-devices.md)
         + [Channel Assignment](channel-assignment.md)
-    + Using Product Features {#product-features}
+    + Using Core Product Features {#product-features}
         + [Text Overlay](text-overlay.md)
         + [Bulk Offline Update](bulk-offline-update.md)
         + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -59,9 +60,11 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Multi-zone Layout](multi-zone-layout-aem-screens.md)
         + [Video Renditions](generating-renditions.md)
         + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md) 
-        + [Launches](launches.md)
-        + [New Project Importer from File](project-importer.md)
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
+    + Managing Content Updates {#content-updates}
+        + [On-Demand Content Update](on-demand-content.md)
+        + [Content Update As a Service](content-update-as-a-service.md)
+        + [Content Update Using Launches](launches.md)
     + Use Case Examples {#use-case-examples}
         + [Emergency Channels](emergency-channel.md)
         + [Travel Center Temperature Activation](local-temperature-activation.md)
