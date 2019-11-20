@@ -319,6 +319,22 @@ Follow the steps below to deliver content updates from author to publish to devi
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
+   **Understanding Include Children dialog box**
+ 
+     The step mentioned above shows how you can publish the entire content. In case, you want to use the other three alternatives available, you will have to check that particular option.
+     For example, the following image allows you to manage and update only the modified pages in your project:
+     ![image](assets/author-publish-manage.png)
+
+     Follow the explanations below to understand the options available:
+
+    1. **Include only immediate children**:
+       This option allows you to manage updates only to the sub-nodes in your project structure.
+    1. **Include only modified pages**:
+       This option allows you to manage updates only to the modified pages of the project where the changes are found in your project structure.
+    1. **Include only already updates pages**:
+       This options allows to manage updates only to the pages that were published before.
+
+
 1. Click **Publish** from the **Manage Publication wizard.**
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
