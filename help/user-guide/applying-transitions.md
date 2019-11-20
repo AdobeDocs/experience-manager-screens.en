@@ -16,7 +16,7 @@ This section describes how a **Transition** component allows you to add a transi
 >
 >To learn in detail about the properties for the Transition component, refer to  [Transitions](adding-components-to-a-channel.md#transition)
 
-## Adding a Transition Component {adding-transition}
+## Adding a Transition Component {#adding-transition}
 
 Follow the steps below to add a transition component to your AEM Screens project:
 
@@ -29,13 +29,13 @@ with a channel **TestTransition**. Additionally, set up a location and a display
 
 1. Navigate to the Channel **TestTransition** and click **Edit** from the action bar.
 
-   ![image](assets/)
+   
 
    >[!NOTE]
    >
    >The **TestTransition** channel already has few assets (images and videos) in it. For example, the **TestTransition** channel includes five images and a video, as shown below:
 
-   ![image](assets/)
+   
 
 1. Drag and drop the **Transition** component to your editor.
 
@@ -43,8 +43,7 @@ with a channel **TestTransition**. Additionally, set up a location and a display
    >
    >By default, the transition component is set to Type as **Normal** with **Duration** set to *600 ms*.
 
-   ![image](assets/)
-
+   
    >[!CAUTION]
    >
    >Before you add the transition to your assets in your channel, make sure:
