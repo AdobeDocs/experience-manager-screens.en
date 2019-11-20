@@ -63,7 +63,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
-        + [Content Update As a Service](content-update-as-a-service.md)
+        + [Content as-a-service Update](content-update-as-a-service.md)
         + [Content Update Using Launches](launches.md)
     + Use Case Examples {#use-case-examples}
         + [Emergency Channels](emergency-channel.md)
