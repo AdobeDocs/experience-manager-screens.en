@@ -21,19 +21,22 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Screens Server Configurations](configuring-screens-introduction.md)
     + [Setting up Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
     + [Installing Screens Player](installing-screens-player.md)
-    + [Connecting Screens Player Application](working-with-screens-player.md)
+    + [Connecting Screens Player](working-with-screens-player.md)
     + [Device Registration](device-registration.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
-    + Installing Client {#installing-client}
+    + Client Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
         + [Android Player](implementing-android-player.md)
         + [Windows Player](implementing-windows-player.md)    
     + Author Publish {#author-publish}
         + [Author-Publish Architectural Overview](author-publish-architecture-overview.md)
-        + [Configuring Author and Publish](author-and-publish.md)  
-+ Authoring {#authoring}
+        + [Configuring Author and Publish](author-and-publish.md)
+    + Analytics Integration with AEM Screens {#analytics-integration} 
+        + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
+        + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
++ Authoring and Use Case Examples {#authoring}
     + Setting up a Screens Project {#setting-up-projects}
         + [Creating and Managing Projects](creating-a-screens-project.md)
         + [Creating and Managing Channels](managing-channels.md)
@@ -59,9 +62,11 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Launches](launches.md)
         + [New Project Importer from File](project-importer.md)
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
-    + Analytics Integration with AEM Screens {#analytics-integration} 
-        + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
-        + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
+    + Use Case Examples {#use-case-examples}
+        + [Emergency Channels](emergency-channel.md)
+        + [Travel Center Temperature Activation](local-temperature-activation.md)
+        + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
+        + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
 + Developing {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -70,11 +75,6 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Creating Components](creating-components.md)
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
     + [Creating Custom Templates MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
-+ Use Case Examples {#use-case-examples}
-    + [Emergency Channels](emergency-channel.md)
-    + [Travel Center Temperature Activation](local-temperature-activation.md)
-    + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
-    + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
 + Troubleshooting {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
