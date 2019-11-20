@@ -331,7 +331,7 @@ Follow the steps below to deliver content updates from author to publish to devi
        This option allows you to manage updates only to the sub-nodes in your project structure.
     1. **Include only modified pages**:
        This option allows you to manage updates only to the modified pages of the project where the changes are found in your project structure.
-    1. **Include only already updates pages**:
+    1. **Include only already published pages**:
        This options allows to manage updates only to the pages that were published before.
 
 
