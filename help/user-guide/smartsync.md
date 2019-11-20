@@ -12,7 +12,7 @@ docset: aem65
 
 ---
 
-# Transitioning from ContentSync to SmartSync{#transitioning-from-contentsync-to-smartsync}
+# Transitioning from ContentSync to SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 This section povides an overview to SmartSync feature and how it minimizes server load/storage and network traffic to reduce cost.
 
@@ -71,18 +71,17 @@ Follow the steps below to transition from ContentSync to SmartSync:
    >
    >All content cache must be cleared before using SmartSync for the first time.
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration **via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Adobe Experience Manager Web Console Configuration **opens. Search for *offlinecontentservices*.
 
-   For searching the **Screens Offline Content Service **property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+   For searching the **Screens Offline Content Service** property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Click **Save** to enable the **Screens Offline Content Services* ***property and hence use SmartSync for AEM Screens.
+1. Click **Save** to enable the **Screens Offline Content Services** property and hence use SmartSync for AEM Screens.
 1. Once you have enabled SmartSync, you must navigate to your project and click **Update Offline Content** *(from the action bar),* as shown in the figure below.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-

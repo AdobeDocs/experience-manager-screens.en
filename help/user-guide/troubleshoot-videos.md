@@ -50,7 +50,7 @@ Check ffmpeg is installed and the video profiles.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Upload a test video and click **Ok **to begin the transcoding.
+1. Upload a test video and click **Ok** to begin the transcoding.
 
    If the transcode fails, expand the ffmpeg output to understand any errors in the console output of ffmpeg.
 
