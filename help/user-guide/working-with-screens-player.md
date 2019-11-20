@@ -61,6 +61,10 @@ Additionally, you can specify the number of maximum log files to keep for an AEM
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
+>[!NOTE]
+>
+>It is recommended that the **Admin UI** be disabled in Production Deployments.
+
 You can clear cache for channels and applications from the Admin UI in AEM Screens player.
 
 Select the **Content Cache** from the side rail to update the cache.
