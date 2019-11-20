@@ -8,7 +8,7 @@ user-guide-title: Adobe Experience Manager Screens Help
 # AEM Screens User Guide {#user-guide}
 
 + [Introduction to Screens](aem-screens-introduction.md)
-+ Overview {#overview}
++ Overview and Kickstart Guide {#overview}
     + [Kickstart Guide](kickstart-for-aem-screens.md)
     + [Key Terms](screens-glossary.md)
 + Digital Signage Network Basics {#digital-signage-network}
@@ -17,7 +17,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Part 3: Testing, POCs, Pilots & Rollouts](testing-pocs-pilots-rollouts.md)
     + [Part 4: Project Management and Deployment](project-management-and-deployment.md)
     + [Part 5: Support Considerations](support-considerations.md)
-+ Administering {#administering}
++ Configuration and Administration {#administering}
     + [Screens Server Configurations](configuring-screens-introduction.md)
     + [Setting up Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
     + [Installing Screens Player](installing-screens-player.md)
@@ -67,7 +67,8 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Travel Center Temperature Activation](local-temperature-activation.md)
         + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
         + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
-+ Developing {#developing}
+        + [Applying Transitions](applying-transitions.md)
++ Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
     + [Offline Channels](offline-channels.md)
@@ -75,7 +76,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Creating Components](creating-components.md)
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
     + [Creating Custom Templates MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
-+ Troubleshooting {#troubleshooting}
++ Troubleshooting and FAQ's {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
