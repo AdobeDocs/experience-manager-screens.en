@@ -10,6 +10,7 @@ user-guide-title: Adobe Experience Manager Screens Help
 + [Introduction to Screens](aem-screens-introduction.md)
 + Overview and Kickstart Guide {#overview}
     + [Kickstart Guide](kickstart-for-aem-screens.md)
+    + [Screens Best Practices Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
     + [Key Terms](screens-glossary.md)
 + Digital Signage Network Basics {#digital-signage-network}
     + [Part 1: Project Roles and Responsibilities](project-roles-responsibilities.md)
