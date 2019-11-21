@@ -65,7 +65,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
-        + [Content Update Using Launches](launches.md)
+        + [Content Update using Launches](launches.md)
     + Use Case Examples {#use-case-examples}
         + [Emergency Channels](emergency-channel.md)
         + [Travel Center Temperature Activation](local-temperature-activation.md)
