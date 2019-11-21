@@ -78,6 +78,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Offline Channels](offline-channels.md)
     + [Extending an AEM Screens Component](extending-component-tutorial-develop.md)
     + [Creating Components](creating-components.md)
+    + [Embedding a REACT application using AEM SPA Editor & Integrating with AEM Screens Analytics](embedding-react-app.md)
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
     + [Creating Custom Templates MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
 + Troubleshooting and FAQ's {#troubleshooting}
