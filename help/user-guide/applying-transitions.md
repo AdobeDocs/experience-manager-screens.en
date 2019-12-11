@@ -9,12 +9,12 @@ contentOwner: jsyal
 
 # Applying Transitions {#applying-transitions}
 
-This section describes how a **Transition** component allows you to add a transition to your Screens project.
+This section describes how you can apply the **Transition** component in-between different assets (images and videos) in a channel.
 
 
 >[!CAUTION]
 >
->To learn in detail about the properties for the Transition component, refer to  [Transitions](adding-components-to-a-channel.md#transition)
+>To learn in detail about the properties for the Transition component, refer to [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Adding Transition Component to Assets in a Channel {#adding-transition}
 
@@ -41,16 +41,14 @@ with a channel **TestTransition**. Additionally, set up a location and a display
 1. Drag and drop the **Transition** component to your editor.
    >[!CAUTION]
    >
-   >Before you add the transition to your assets in your channel, make sure:
-       You do not add transition before the first asset in the sequential channel. The first item in your channel must be an asset and not a transition.
+   >Before you add the transition to your assets in your channel, make sure you do not add transition before the first asset in the sequential channel. The first item in your channel must be an asset and not a transition.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >By default, the transition component is set to Type as **Normal** with **Duration** set to *600 ms*.  Additionally,  it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
+   >By default, the properties of the transition component such as **Type** is set to **Normal** and the **Duration** is set to *600 ms*.  Additionally,  it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
  
-   
 ## Adding Transition Component to Videos in a Channel {#adding-transition-videos}
 
 When applying transition component between videos, always set the **Type** to **Fade** and the **Sequence Duration** to **1600 ms**.
