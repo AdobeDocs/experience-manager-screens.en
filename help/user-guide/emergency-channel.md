@@ -47,7 +47,7 @@ Follow the steps below to set up an emergency channel:
 
     1. Select the **Channels** folder and click **Create** to open the wizard to create a channel.
 
-    1. Select **Sequence Channel **from the wizard and create the channel titled as **MainAdChannel**.
+    1. Select **Sequence Channel** from the wizard and create the channel titled as **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
@@ -62,7 +62,7 @@ Follow the steps below to set up an emergency channel:
 
     1. Select the **Channels** folder.
     1. Click on **Create** to open the wizard to create a channel.
-    1. Select **Sequence Channel **from the wizard and create the channel titled as **EmergencyChannel**.
+    1. Select **Sequence Channel** from the wizard and create the channel titled as **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -99,9 +99,9 @@ Follow the steps below to set up an emergency channel:
 
 1. Assign both the Displays to your Schedule and set Priorities
 
-    1. Select the schedule** (StoreSchedule)** and click **Dashboard** from the action bar.
+    1. Select the schedule **(StoreSchedule)** and click **Dashboard** from the action bar.
 
-    1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS **panel.
+    1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
 
     1. From the **Channel Assignment** dialog box:
 
@@ -118,7 +118,7 @@ Follow the steps below to set up an emergency channel:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS **panel.
+1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
 
 1. From the **Channel Assignment** dialog box:
 
@@ -137,7 +137,7 @@ Follow the steps below to set up an emergency channel:
 
 1. **Assigning Schedule to each Display**
 
-    1. Navigate to the each display, such as **EmergencyChannel** --&gt; **Locations** --&gt; **Store **--&gt;**StoreFront**.
+    1. Navigate to the each display, such as **EmergencyChannel** --&gt; **Locations** --&gt; **Store** --&gt;**StoreFront**.
 
     1. Click **Dashboard** from the action to open the display dashboard.
     1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
