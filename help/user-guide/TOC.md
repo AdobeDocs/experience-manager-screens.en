@@ -71,8 +71,6 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Travel Center Temperature Activation](local-temperature-activation.md)
         + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
         + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
-        + [MultiZone to SingleZone Transition](multizone-to-singlezone.md)
-        + [MarQuee Takeover](marquee-takeover.md)
         + [Applying Transitions](applying-transitions.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
