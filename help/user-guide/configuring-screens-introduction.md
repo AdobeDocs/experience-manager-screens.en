@@ -31,7 +31,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration **via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -54,7 +54,7 @@ AEM Screens requires TOUCH UI and will not work with CLASSIC UI of Adobe Experie
 1. Navigate to *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
 
-Alternatively, you can also perform the same setting using*&lt;yourAuthorInstance&gt; *-&gt;* tools (hammer icon)* -&gt; **Operations** -&gt;** Web Console** and search for **WCM Authoring UI Mode Service**.
+Alternatively, you can also perform the same setting using *&lt;yourAuthorInstance&gt; *-&gt;* tools (hammer icon)* -&gt; **Operations** -&gt; **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -80,7 +80,7 @@ You can configure ***DeviceServiceImpl*** from the link below to enable password
 
 Follow the steps below to configure ***DeviceServiceImpl***:
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration **via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
 1. **Adobe Experience Manager Web Console Configuration **opens. Search for deviceservice. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 

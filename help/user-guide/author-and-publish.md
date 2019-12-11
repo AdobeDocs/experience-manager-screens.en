@@ -44,7 +44,7 @@ You can set up a simple example, where you host an author and two publish instan
 
 * Author --&gt; localhost:4502
 * Publish 1 (pub1) --&gt; localhost:4503
-* Publish (pub2) --&gt; localhost:4504
+* Publish 2 (pub2) --&gt; localhost:4504
 
 ## Setting up Replication Agents on Author {#setting-replication-agents}
 
@@ -81,6 +81,10 @@ Follow the steps below to create a default replication agent:
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Click **Edit** to open the **Agent Settings** dialog box to enter the details.
+
+   >[!NOTE]
+   >
+   >User needs to check **Enabled** to enable replication agent. You must check this option on Default, Screens and Reverse Replication Agents.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
