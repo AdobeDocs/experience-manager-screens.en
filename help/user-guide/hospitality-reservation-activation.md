@@ -21,7 +21,7 @@ The following use case demonstrates the usage of hospital reservation activation
 
 For this Use Case, the Google Sheet is populated with percentage of reservation on two restaurants **Restaurant1** and **Restaurant2**. A formula is applied based on values of Restaurant1 and Restaurant2 and based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
 
-If the value of **Restaurant1** &gt; **Restaurant2**, then **AdTaget** is assigned value** 1 **otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value 2 results in display of *Thai food* option on your display screen.
+If the value of **Restaurant1** &gt; **Restaurant2**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value 2 results in display of *Thai food* option on your display screen.
 
 ## Preconditions {#preconditions}
 
@@ -41,18 +41,18 @@ Follow the steps below to implement the hospitality reservation activation use c
 
 1. **Configuring the segments in Audiences as per the requirements**
 
-    1. Navigate to the segments in your audience (Refer to ***Step 2: Setting up Audience Segmentation*** in ** [Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
+    1. Navigate to the segments in your audience (Refer to ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
 
     1. Select the **Sheets A1 1** and click **Edit**.
 
     1. Select the comparison property and click the configure icon to edit the properties.
     1. Select **googlesheets/value/1/2** from the drop-down in **Property name**
 
-    1. Select the **Operator** as **equal **from the drop-down menu
+    1. Select the **Operator** as **equal** from the drop-down menu
 
     1. Enter the **Value** as **1**
 
-    1. Similarly, Select the** Sheets A1 2 **and click **Edit**.
+    1. Similarly, Select the **Sheets A1 2** and click **Edit**.
 
     1. Select the comparison property and click the configure icon to edit the properties.
     1. Select **googlesheets/value/1/2** from the drop-down in **Property name**

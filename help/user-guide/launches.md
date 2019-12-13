@@ -103,7 +103,7 @@ Follow the steps below to implement future publish functionality to your AEM Scr
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the** Launch Date**, as shown in the figure below. Click **Create**.
+1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
 
    >[!NOTE]
    >
@@ -136,7 +136,7 @@ Follow the steps below to edit the launch properties:
 
    >[!NOTE]
    >
-   >Select the **Content Tree **option from the left rail to open the launch you created.
+   >Select the **Content Tree** option from the left rail to open the launch you created.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 

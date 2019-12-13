@@ -31,7 +31,7 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Select the **DAM Update Asset **model and click Edit from the action bar to open the **DAM Update Asset **window.
+1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -43,7 +43,7 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Click **Save **on the top left of the **DAM Update Asset **screen.
+1. Click **Save** on the top left of the **DAM Update Asset** screen.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
@@ -69,11 +69,11 @@ Follow the steps below to manually generate full HD renditions:
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset **model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click the **Run**.
+1. Select the desired video in the **Payload** and click **Run**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 

@@ -65,7 +65,7 @@ Follow the steps below to assign a channel to a display:
 
    Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
-   The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment **dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
+   The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
 
    **Supported Events**:
 
