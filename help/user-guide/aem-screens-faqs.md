@@ -71,7 +71,7 @@ Please check for the following possibilities to troubleshoot the blank screen is
 You need to enable the Apache Sling Referrer Filter Allow Empty. This is required for optimal operation of the control protocol between AEM Screens Player and AEM Screens server.
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**
-1. Check the **allow.empty **option.
+1. Check the **allow.empty** option.
 1. Click **Save**.
 
 ### 3. How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}

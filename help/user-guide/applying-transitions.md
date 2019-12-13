@@ -9,12 +9,12 @@ contentOwner: jsyal
 
 # Applying Transitions {#applying-transitions}
 
-This section describes how you can apply the **Transition** component in-between different assets (images and videos) in a channel.
+This section describes how you can apply the **Transition** component in-between different assets (images and videos) and embedded sequences in a channel.
 
 
 >[!CAUTION]
 >
->To learn in detail about the properties for the Transition component, refer to [Transitions](adding-components-to-a-channel.md#transition).
+>To learn in detail about the properties for the **Transition** component, refer to [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Adding Transition Component to Assets in a Channel {#adding-transition}
 
@@ -48,9 +48,13 @@ with a channel **TestTransition**. Additionally, set up a location and a display
    > [!NOTE]
    >
    >By default, the properties of the transition component such as **Type** is set to **Normal** and the **Duration** is set to *600 ms*.  Additionally,  it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
+
+1. Additionally, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end, so that the content plays in order, as demonstrated in the figure below:
+
+   ![image3](assets/transitions5.png)
  
 ## Adding Transition Component to Videos in a Channel {#adding-transition-videos}
 
-When applying transition component between videos, always set the **Type** to **Fade** and the **Sequence Duration** to **1600 ms**.
+When applying transition component between videos, it is recommended that you set the **Type** to **Fade** and the **Sequence Duration** to **1600 ms**.
 
 ![image3](assets/transitions4.png)
