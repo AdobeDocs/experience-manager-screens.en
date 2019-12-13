@@ -65,11 +65,11 @@ The device registration process is done on 2 separate machines:
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. If the **Registration Code** is the same on both machines, tap/click **Validate** button in AEM, as shown in the step (6).
-1. Set the desired name for the device, and click** Register**.
+1. Set the desired name for the device, and click **Register**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click** Finish** to complete the registration process.
+1. Tap/click **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 

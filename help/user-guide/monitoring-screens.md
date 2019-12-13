@@ -83,9 +83,9 @@ Click **Properties** to view the **Device Properties** dialog box. You can edit 
 
 ### View Player Screenshot {#view-player-screenshot}
 
-You can view the player screenshot from the device from the **PLAYER SCREENSHOT **panel.
+You can view the player screenshot from the device from the **PLAYER SCREENSHOT** panel.
 
-Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot **to view the snapshot of the running player.
+Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -131,7 +131,7 @@ Currently some of these features are only available if the *Apache Sling Referre
 Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Check the **allow.empty **option.
+1. Check the **allow.empty** option.
 1. Click **Save**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)

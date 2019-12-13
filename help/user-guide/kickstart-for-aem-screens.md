@@ -54,7 +54,7 @@ The following steps allow you to create a sample project for Screens and publish
     1. Click **Create** to create a new Screens project (see the figure below).
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-    1. Enter the title as *Test_Project *and click **Create**.
+    1. Enter the title as *Test_Project*  and click **Create**.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -76,8 +76,8 @@ The following steps allow you to create a sample project for Screens and publish
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-    1. Click** Create** from the action bar (see the figure below). A wizard will open.
-    1. Choose the **Sequence Channel **and click **Next**.
+    1. Click **Create** from the action bar (see the figure below). A wizard will open.
+    1. Choose the **Sequence Channel** and click **Next**.
 
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
@@ -95,9 +95,9 @@ The following steps allow you to create a sample project for Screens and publish
 
    Follow the steps below to add content to the channel (*TestChannel*) in your project:
 
-    1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-    1. Click **Edit** from the action bar (see the figure below). The editor for the* TestChannel* opens.
+    1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
     1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.
     1. Drag and drop the components you want to add to your channel.
@@ -116,7 +116,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    Follow the steps below to create a new location for your project:
 
-    1. Navigate to the *Test_Project* you created and select the **Locations **folder.
+    1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
     1. Click **Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
     1. Select **Location** from the wizard and click **Next**.
@@ -137,8 +137,8 @@ The following steps allow you to create a sample project for Screens and publish
 
     1. Navigate to the location where you want to create your display (*Test_Projec*t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
 
-    1. Click** Create **from the action bar.
-    1. Select **Display **from the **Create** wizard and click **Next**.
+    1. Click **Create** from the action bar.
+    1. Select **Display** from the **Create** wizard and click **Next**.
 
     1. Enter **Name** and **Title** for your display location (enter the title as *TestDisplay*).
 
@@ -165,7 +165,7 @@ The following steps allow you to create a sample project for Screens and publish
 
     1. Navigate to the **Schedules** folder from Test_Project --&gt; **Schedules**.
 
-    1. Click** Create **from the action bar. A wizard will open.
+    1. Click **Create** from the action bar. A wizard will open.
     1. Select **Schedule** from the **Create** wizard page.
 
     1. Enter the **Name** and **Title** as *MorningSchedule* in the properties page.
@@ -192,13 +192,13 @@ The following steps allow you to create a sample project for Screens and publish
 
     1. Enter the **Channel Role** as *LiveStream*.
 
-    1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
+    1. Select the **Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
 
     1. Select the **Priority** for this channel as *1*.
 
-    1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+    1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-    1. Enter **Schedule **and select the dates in **active from** and **active until**.
+    1. Enter **Schedule** and select the dates in **active from** and **active until**.
 
     1. Click **Save**.
 
@@ -249,7 +249,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Click **Finish** to complete the device registration step.
 
