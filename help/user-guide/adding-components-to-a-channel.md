@@ -225,7 +225,7 @@ The image asset has three tabs namely **Image**, **Accessibility**, and **Sequen
 | **Accessibility** |
 | ***Alternative Text*** |Alternative text to the image. |
 | **Sequence** |
-| ***Duration*** |Select the entire duration of the image. Setting the duration as -1 indicates that the embedded image will run its full length in a particular channel. |
+| ***Duration*** |By default the duration is set to *8000 ms*. If you want to change the playback duration of the image, update the **Duration** field. |
 
 ### Transition {#transition}
 
