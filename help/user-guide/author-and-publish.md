@@ -249,14 +249,14 @@ Follow the steps below to replicate the device user:
 You can also activate the device from the Device Management Console. Follow the steps below:
 
 1. Navigate to your Screens project --&gt; **Devices**.
-1. Click **Device Manager **from the action bar.
+1. Click **Device Manager** from the action bar.
 1. Select the device and click **Activate** from the action bar, as in shown in the figure below.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL **from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+>Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -290,7 +290,7 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 1. Navigate to your AEM Screens project and select the **Devices** folder.
 1. Click **Device Manager** from the action bar.
-1. Select the device and click **Edit server URL **from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
