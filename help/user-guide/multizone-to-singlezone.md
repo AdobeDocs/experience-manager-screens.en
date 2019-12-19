@@ -5,12 +5,12 @@ seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
 ---
 
-# MultiZone to SingleZone Transition {#multizone-to-singlezone-use-case}
+# Multi-Zone to Single-Zone Transition {#multizone-to-singlezone-use-case}
 
 
 ## Use Case Description {#use-case-description}
 
-This section describes a use case example that emphasizes on how to set up a multizone layout channel that alternates with a singlezone layout channel. Each channel has sequencing image/video assets.
+This section describes a use case example that emphasizes on how to set up a multi-zone layout channel that alternates with a single-zone layout channel. The multi-zone channel has sequencing image/video assets and it shows how you can set up project that alternates from multi-zone to single-zone and vice-versa.
 
 ### Preconditions {#preconditions}
 
@@ -29,16 +29,16 @@ Content Authors
 
 Follow the steps below to set up a project:
 
-1. Create an AEM Screens Project named as **TakeOverLoop**, as shown below.
+1. Create an AEM Screens Project named as **TakeoverLoop**, as shown below.
 
    ![asset](assets/mz-to-sz1.png)
 
 
-1. **Creating a Multi-zone Screens Channel**
+1. **Creating a Multi-Zone Screens Channel**
 
     1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
     1. Select **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
-    1. Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a **MultiZoneLayout** channel comprising of a video, an image and a text banner, as shown below.
+    1. Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a **MultiZoneLayout** channel comprising of a video, an image and a text banner (in an embedded sequence), as shown below.
 
     ![asset](assets/mz-to-sz2.png)
 
@@ -47,7 +47,7 @@ Follow the steps below to set up a project:
     >To learn more about creating a multi-zone layout in your channel, refer to [Multi-zone Layout](multi-zone-layout-aem-screens.md).
 
       
-1. Create another channel titled as **TakeOverChannel** in your channels folder.
+1. Create another channel titled as **TakeoverChannel** to your **Channels** folder.
 
    ![asset](assets/mz-to-sz3.png)
 
@@ -76,5 +76,5 @@ The following output demonstrates how a multi-zone layout plays for *10000 ms* a
    ![video](assets/sz-mzvideo.mov) 
 
 >[!NOTE]
-    >
-    >You can customize your channel transition (from multi-zone to single-zone layout or vice-versa), as per your requirements.  
+>
+>You can customize your channel transition (from multi-zone to single-zone layout or vice-versa), as per your requirements.  
