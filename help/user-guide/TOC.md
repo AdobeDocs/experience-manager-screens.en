@@ -72,7 +72,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
         + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
         + [Applying Transitions](applying-transitions.md)
-        + [MultiZone to SingleZone Transitions](multizone-to-singlezone.md)
+        + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
