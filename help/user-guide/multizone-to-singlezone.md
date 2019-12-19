@@ -75,6 +75,6 @@ You can view the desired output from the player or just by clicking on the Previ
 
 The following output demonstrates how a multi-zone layout plays for 10000 ms and then switches to single zone layout that has playback duration of 3000 ms and then switches back to the multi-zone layout.
 
-   ![video](assets/sz-mzvideo) 
+   ![video](assets/sz-mzvideo.mov) 
 
     
