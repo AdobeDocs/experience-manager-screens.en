@@ -41,7 +41,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Check the **Allow Empty **option, as shown in the figure below.
+1. Check the **Allow Empty** option, as shown in the figure below.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 

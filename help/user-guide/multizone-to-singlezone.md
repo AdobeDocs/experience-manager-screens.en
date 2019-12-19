@@ -29,46 +29,52 @@ Content Authors
 
 Follow the steps below to set up a project:
 
-1. Create an AEM Screens Project named as **ChannelTransition**, as shown below.
+1. Create an AEM Screens Project named as **TakeOverLoop**, as shown below.
 
-   
+   ![asset](assets/mz-to-sz1.png)
 
-1. **Creating a Split Screen Channel**
+
+1. **Creating a Multi-zone Screens Channel**
 
     1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
     1. Select **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
+    
+    Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a MultiZoneLayout channel comprising of a video, an image and a text banner, as shown below.
+
+    ![asset](assets/mz-to-sz2.png)
+
+
+    >[!NOTE]
+    >
+    >To learn more about how to create a multi-zone layput in your channel, refer to [Multi-zone Layout](multi-zone-layout-aem-screens.md).
 
       
+1. Create another channel titled as **TakeOverChannel** in your channels folder.
 
-    1. Select the **MultiZoneLayout** channel and click **Edit** from the action bar to open the editor. Drag and drop the assets to each of the zones. The following example shows a video, image and a text banner in the channel, as shown below.
-        
+   ![asset](assets/mz-to-sz3.png)
 
-1. **Creating a 2X2 Channel with four images**
+1. Click **Edit** from the action bar to add content to this channel. Add a **Channel** component and an image asset that you want to switch to, to this channel, as shown in the figure below:
 
-    1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
+   ![asset](assets/mz-to-sz4.png)
 
-    1. Select **2X2 Split Screen Channel** template from the wizard and create the channel titled as **TwobyTwoChannel**.
+1. Open the settings for the Channel component and point it to the **MultiZoneLayout** channel that you created  in *step 2*.
 
-       
-    1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop four images (four different zones) to that channel, as shown below.
-       
+   ![asset](assets/mz-to-sz5.png)
 
-1. **Creating a 1X2 Split Screen Channel with two images**
+1. Set the duration from the **Sequence** field to **10000 ms**
 
-    1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
+   ![asset](assets/mz-to-sz6.png)   
 
-    1. Select **1X2 Split Screen Channel** template from the wizard and create the channel titled as **OnebyTwoChannel**.
+1. Similarly, open the settings for the Image (asset you added)  and set its duration from the **Sequence** field to **3000 ms**
 
-       
-    1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop two images (two different zones) to that channel, as shown below.
-        
+   ![asset](assets/mz-to-sz7.png)   
 
-1. **Creating a Channel with one full screen video**
+## Checking the Preview {#checking the-preview}
 
-    1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
+You can view the desired output from the player or just by clicking on the Preview from the editor.
 
-    1. Select **Sequence Channel** template from the wizard and create the channel titled as **FullScreensVideo**.
+The following output demonstrates how a multi-zone layout plays for 10000 ms and then switches to single zone layout that has playback duration of 3000 ms and then switches back to the multi-zone layout.
 
-      
-    1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop the video component to that channel and then add the desired video, as shown below.
-       
+   ![video](assets/sz-mzvideo) 
+
+    
