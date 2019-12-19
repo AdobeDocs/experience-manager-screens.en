@@ -38,15 +38,13 @@ Follow the steps below to set up a project:
 
     1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
     1. Select **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
-    
-    Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a MultiZoneLayout channel comprising of a video, an image and a text banner, as shown below.
+    1. Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a **MultiZoneLayout** channel comprising of a video, an image and a text banner, as shown below.
 
     ![asset](assets/mz-to-sz2.png)
 
-
     >[!NOTE]
     >
-    >To learn more about how to create a multi-zone layput in your channel, refer to [Multi-zone Layout](multi-zone-layout-aem-screens.md).
+    >To learn more about creating a multi-zone layout in your channel, refer to [Multi-zone Layout](multi-zone-layout-aem-screens.md).
 
       
 1. Create another channel titled as **TakeOverChannel** in your channels folder.
@@ -61,20 +59,22 @@ Follow the steps below to set up a project:
 
    ![asset](assets/mz-to-sz5.png)
 
-1. Set the duration from the **Sequence** field to **10000 ms**
+1. Set the duration from the **Sequence** field to **10000 ms**.
 
    ![asset](assets/mz-to-sz6.png)   
 
-1. Similarly, open the settings for the Image (asset you added)  and set its duration from the **Sequence** field to **3000 ms**
+1. Similarly, open the settings for the Image (asset you added)  and set its duration from the **Sequence** field to **3000 ms**.
 
    ![asset](assets/mz-to-sz7.png)   
 
 ## Checking the Preview {#checking-the-preview}
 
-You can view the desired output from the player or just by clicking on the Preview from the editor.
+You can view the desired output from the player or just by clicking on the **Preview** from the editor.
 
-The following output demonstrates how a multi-zone layout plays for 10000 ms and then switches to single zone layout that has playback duration of 3000 ms and then switches back to the multi-zone layout.
+The following output demonstrates how a multi-zone layout plays for *10000 ms* and then switches to single zone layout that has playback duration of *3000 ms* and then switches back to the multi-zone layout.
 
    ![video](assets/sz-mzvideo.mov) 
 
-    
+>[!NOTE]
+    >
+    >You can customize your channel transition (from multi-zone to single-zone layout or vice-versa), as per your requirements.  
