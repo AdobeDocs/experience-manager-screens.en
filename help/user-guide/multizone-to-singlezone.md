@@ -69,7 +69,7 @@ Follow the steps below to set up a project:
 
    ![asset](assets/mz-to-sz7.png)   
 
-## Checking the Preview {#checking the-preview}
+## Checking the Preview {#checking-the-preview}
 
 You can view the desired output from the player or just by clicking on the Preview from the editor.
 
