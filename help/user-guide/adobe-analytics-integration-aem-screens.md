@@ -88,19 +88,19 @@ The following table highlights the properties with their description for configu
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>URL to post analytics data from the player<br /> </td>
+   <td>URL to post analytics data from the player. <br>For development/stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/<br /> </td>
   </tr>
   <tr>
    <td><strong>Analytics API Key</strong></td>
-   <td>API key to authenticate to the Adobe Analytics server (provided by the Accounts Manager)</td>
+   <td>API key to authenticate to the Adobe Analytics server (provided by the Accounts Manager).</td>
   </tr>
   <tr>
    <td><strong>Analytics Project</strong></td>
-   <td>AEM Screens project configured on your analytics to receive data (provided by the Accounts Manager)</td>
+   <td>AEM Screens project configured on your analytics to receive data (provided by the Accounts Manager).</td>
   </tr>
   <tr>
    <td><strong>Environment</strong></td>
-   <td><p>Stage or Production environment.</p> <p><em>For development/stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>Stage or Production environment.</p> <p><em>Choose Stage or Production environment</p> </td>
   </tr>
   <tr>
    <td><strong>Analytics Send Frequency</strong></td>
@@ -111,7 +111,7 @@ The following table highlights the properties with their description for configu
 
 >[!NOTE]
 >
->By default, the **Analytics Send Frequency **is 15 minutes.
+>By default, the **Analytics Send Frequency** is 15 minutes.
 
 #### Using Adobe Analytics Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
