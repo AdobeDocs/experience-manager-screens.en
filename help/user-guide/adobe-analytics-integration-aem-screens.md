@@ -19,7 +19,7 @@ docset: aem65
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 
->
+>[!NOTE]
 >To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
 This section covers the following topics:
@@ -88,7 +88,8 @@ The following table highlights the properties with their description for configu
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>URL to post analytics data from the player. <br>For development/stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/<br /> </td>
+   <td>URL to post analytics data from the player. <br>
+   For development/stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API Key</strong></td>
@@ -100,7 +101,7 @@ The following table highlights the properties with their description for configu
   </tr>
   <tr>
    <td><strong>Environment</strong></td>
-   <td><p>Stage or Production environment.</p> <p><em>Choose Stage or Production environment</p> </td>
+   <td><p>Stage or Production environment (choose either Stage or Production).</p></td>
   </tr>
   <tr>
    <td><strong>Analytics Send Frequency</strong></td>
