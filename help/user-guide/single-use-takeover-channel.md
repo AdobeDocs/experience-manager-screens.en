@@ -8,9 +8,8 @@ contentOwner: jsyal
 
 # Single Use TakeOver Channel {#single-use-takeover-channel}
 
-The following page describes a use case that emphasizes on setting up a project on how to create a takeover channel that plays just once.
+The following page showcases a use case that emphasizes on setting up a project on how to create a Single TakeOver channel that plays just once for a specific time.
 
-Up for Review.
 
 ## Use Case Description {#use-case-description}
 
@@ -36,7 +35,7 @@ Follow the steps below to set up a project:
 
 **Setting up the Channels and Display**
 
-1. Create an AEM Screens Project titled as **TakeoverLoop**, as shown below.
+1. Create an AEM Screens Project titled as **SingleUseTakeOver**, as shown below.
 
    ![asset](assets/single-takeover1.png)
 
@@ -48,8 +47,9 @@ Follow the steps below to set up a project:
 
    ![asset](assets/single-takeover2.png)
 
-   >[!Note]
-   > The **MainAdChannel** in this example demonstrates a sequence channel that plays content continuously.
+
+   >[!NOTE]
+   >The **MainAdChannel** in this example demonstrates a sequence channel that plays content continuously.
 
    ![asset](assets/single-takeover3.png)
 
