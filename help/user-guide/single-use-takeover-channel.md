@@ -10,6 +10,8 @@ contentOwner: jsyal
 
 The following page describes a use case that emphasizes on setting up a project on how to create a takeover channel that plays just once.
 
+Up for Review.
+
 ## Use Case Description {#use-case-description}
 
 This Use Case explains how to create a channel that *takes over* from the normally playing channel for a display or group of displays. The takeover will only occur once and for a specific time.
