@@ -72,7 +72,7 @@ Follow the steps below to set up a project:
    >[!NOTE]
    >To learn how to assign a channel to a display, refer to **[Channel Assignment](channel-assignment.md)**.
 
-1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**)from the **Channel Assignment** dialog box and click **Save**. Now, you have assigned the **MainAdChannel** to your display.
+1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save**. You have now assigned the **MainAdChannel** to your display.
 
    ![asset](assets/single-takeover7.png)
 
@@ -87,6 +87,13 @@ Follow the steps below to set up a project:
     The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
 
       ![asset](assets/single-takeover8.png)
+
+      Navigate to the display from **SingleUseTakeOver** --> **Locations** --> **Lobby** --> **Main Lobby Display** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
+
+      >[!NOTE]
+      >It is mandatory to set the priority of the takeover channel as the highest.
+
+      ![asset](assets/single-takeover9.png)
 
        >[!NOTE]
        >You can mention the schedule for different use cases. Refer to Perpetual Use Case for more details.
