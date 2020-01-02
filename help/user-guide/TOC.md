@@ -73,6 +73,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
         + [Applying Transitions](applying-transitions.md)
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
+        + [Single Use TakeOver Channel](single-use-takeover-channel.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
