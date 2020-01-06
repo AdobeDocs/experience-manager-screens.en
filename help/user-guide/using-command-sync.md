@@ -15,8 +15,5 @@ Digital signage solutions need to support video walls and synchronized playback 
 
 To use Content Sync, one player acts as a *master* and send command and all the other players act as *clients* and play when they receive the command. The *master* sends a command to all registered clients when it is about to start playback of an item. The payload of this can be the index of the item to be played and/or the outer html of the element to be played.
 
-# Using Command Sync in an AEM Screens Project {#command-sync-screens-project}
-
-Follow the steps below to use Command Sync from an AEM Screens project:
 
 
