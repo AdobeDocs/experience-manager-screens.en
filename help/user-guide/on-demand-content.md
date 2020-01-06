@@ -66,27 +66,24 @@ Follow the steps below to deliver content updates from author to publish to devi
    >Wait for a few seconds/minutes so that the content reaches publish instance.
    >
    >
-   >The **Manage Publication** with update offline content is a two-step process and the steps must be in correct order.
-   >
-   >
-   >
-   >    1. The workflow will not work if **Update Offline Content** is triggered before publish using **Manage Publication**.
-   >
    >    1. The workflow will not work if there are no changes in the project and nothing for **Update Offline Content**.
-   >    1. The workflow will not work if author does not completes the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
-   >
-   >
-   >
+   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
 
-1. Once you have completed the manage publication workflow, you must trigger the update offline content in author, that will create the update offline on the author instance.
+   > [!CAUTION]
+   > If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
 
-   Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on the publish instance as well.
+1. Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on the publish instance as well.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
+
+   >[!NOTE]
+   >
+   >Once you have completed the manage publication workflow, and if there is a player pointing to author instance, you must trigger the update offline content in author, that will create the update offline on the author instance.
+
    >[!CAUTION]
    >
-   >You must first publish and then trigger the update offline content, as summarized in the preceding steps.
+   >You have to trigger the update offline content in author instance, if you have a player registered to the author server. Update offline content is not required for the player registered to the publish instance.
 
 ### Managing Publication for a Channel {#managing-publication-for-a-channel}
 

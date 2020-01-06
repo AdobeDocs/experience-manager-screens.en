@@ -14,7 +14,6 @@ docset: aem65
 
 # Launches {#launches}
 
-
 Content authors can create future version of the channel(s), known as **Launch** and further setting live date for this launch allows content to be live in devices or players.
 
 With the help of launches, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
@@ -154,12 +153,8 @@ Follow the steps below to edit the launch properties:
    >
    >Understanding the Launches entries under **Auto-Promotion**:
 
-   >
-   >
-   >
    >    * **Launch Date**, refers to the live date, that is, the date/time the content will play in the Screens player as per the player's timezone.
    >    * **Production Ready**, allows the channels to be promoted and means that the launch is ready to be used.
-   >
    >    * **Scope**, refers to the channels that can be promoted during a launch. 
    
    The following three options are available to setup the scope:    
