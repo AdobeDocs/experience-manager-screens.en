@@ -48,9 +48,9 @@ AEM Screens provides a unified Authoring/Playback platform for deploying content
 
 * **Interactive Experiences**: A touch enabled, kiosk application can be authored and delivered in a Screens channel using AEM and the SPA editor. It is a best practice to apply consistent omnichannel design properties, an inactivity timer to reset the experience and a clear call to action for what tasks the application can execute. The landing page should consist of key digital elements designed to convey value, attract the user to the screen and prompt the user to engage.
 
-AEM Screens provides a framework to deploy content to physical devices. Content is assigned to Channels in Screens, which can contain media content or touch screen applications. Within this framework, an AEM Site application could be delivered as content through a Channel.
+AEM Screens provides a framework to deploy content to physical devices. Content is assigned to Channels in Screens, which can contain media content or touch screen applications. Within this framework, an AEM Sites application could be delivered as content through a Channel.
 
-Before being dropped into a Channel in Screens, an AEM Site must be formatted for use at the dimensions of the display device it is intended for.
+Before being dropped into a Channel in Screens, an AEM Sites must be formatted for use at the dimensions of the display device it is intended for.
 
 > [!NOTE]
 >
