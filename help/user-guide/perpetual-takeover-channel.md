@@ -2,7 +2,7 @@
 title: Perpetual TakeOver Channel
 seo-title: Perpetual TakeOver Channel
 description: Follow this Use Case for creating a Perpetual TakeOver Channel.
-seo-description: Follow this Use Case for creating Perpetual TakeOver Channel.
+seo-description: Follow this Use Case on setting up a project that creates a Perpetual TakeOver channel that plays for a specific time day and time continuously.
 contentOwner: jsyal
 ---
 
@@ -36,61 +36,69 @@ Follow the steps below to set up a project:
 
 1. Create an AEM Screens Project titled as **PerpetualTakeOver**, as shown below.
 
-   ![asset](assets/single-takeover1.png)
+   ![asset](assets/Use-Case-Perpetual/P_usecase1.png)
 
 1. Create a **MainAdChannel** in the **Channels** folder.
 
-    ![asset](assets/single-takeover2.png)
+    ![asset](assets/Use-Case-Perpetual/P_usecase2.png)
 
 1. Select the **MainAdChannel** and click **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
 
-   ![asset](assets/single-takeover2.png)
+   ![asset](assets/Use-Case-Perpetual/P_usecase3.png)
 
 
    >[!NOTE]
    >The **MainAdChannel** in this example demonstrates a sequence channel that plays content continuously.
 
-   ![asset](assets/single-takeover3.png)
-
-1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and will play only for a specific day and time.
+1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and will play every Wednesday from 2:00 to 4:00 pm.
 
 1. Select the the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
-   ![asset](assets/single-takeover4.png)
+   ![asset](assets/Use-Case-Perpetual/P_usecase4.png)
 
-1. Set up a location and display for your channels. For instance, the following location **Lobby** and display **MainLobbyDisplay** is set up for this project.
+1. Set up a location and display for your channels. For instance, the following location **MainLobby** and display **MainLobbyDisplay** is set up for this project.
 
-   ![asset](assets/single-takeover5.png)
+   ![asset](assets/Use-Case-Perpetual/P_usecase5.png)
 
 **Assigning Channels to a Display**
 
-1. Select the display **MainLobbyDisplay** from the **Locations** folder. Click **Assign Channel** from the action bar. 
-
-   ![asset](assets/single-takeover6.png)
+1. Select the display **MainLobbyDisplay** from the **Locations** folder. Click **Assign Channel** from the action bar to open **Channel Assignment** dialog box.
 
    >[!NOTE]
    >To learn how to assign a channel to a display, refer to **[Channel Assignment](channel-assignment.md)**.
 
-1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save**. You have now assigned the **MainAdChannel** to your display.
+1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save** to assign the **MainAdChannel** to your display.
 
-   ![asset](assets/single-takeover7.png)
+    * **Channel Path**: Select the path to the **MainAdChannel** channel
+    * **Priority**: Set the priority of this channel as 1.
+    * **Supported Events**: Select the **Initial Load** and **Idle Screen**.
 
-1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar to assign the single use takeover chanel.
+   ![asset](assets/Use-Case-Perpetual/P_usecase6.png)
+
+1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar to assign the takeover chanel.
 
 1. To assign the **TakeOver** channel to your display at a scheduled time and populate the following fields from the **Channel Assignment** dialog box and click **Save**:
 
-    * **Channel Path**: Select the path to the TakeOver channel
+    * **Channel Path**: Select the path to the **TakeOver** channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 am on Dec 31 until 12:01 am.
-    The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
+    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
+    The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
 
-      ![asset](assets/single-takeover8.png)
+      ![asset](assets/Use-Case-Perpetual/P_usecase7.png)
 
-      Navigate to the display from **SingleUseTakeOver** --> **Locations** --> **Lobby** --> **Main Lobby Display** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **TakeOver** --> **Locations** --> **MainLobby** --> **MainLobbyDisplay** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.
 
-      ![asset](assets/single-takeover9.png)
+      ![asset](assets/Use-Case-Perpetual/P_usecase8.png)
+    Now, the **TakeOver** channel will take over the **MainAdChannel** at 2:00 pm for two hours until 4:00 pm every Wednesday and play its content from Jan 09' 2020 until Jan 31' 2020.
 
+### Example Expressions {#example-expressions}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| after 12:15  and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |

@@ -74,6 +74,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Applying Transitions](applying-transitions.md)
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
         + [Single Use TakeOver Channel](single-use-takeover-channel.md)
+        + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
