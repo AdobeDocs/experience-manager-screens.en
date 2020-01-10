@@ -82,8 +82,12 @@ Follow the steps below to set up a project:
     * **Channel Path**: Select the path to the **TakeOver** channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
-    The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
+    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
+    * **active from**: Start date and time.
+    * **active until**: End date and time.
+    
+    For example, the text in **Schedule** and **active from** and **active until** date and time here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
+    
 
       ![asset](assets/p_usecase7.png)
 
