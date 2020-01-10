@@ -105,4 +105,11 @@ The following table summarizes few example expressions that you can add to the s
 
 | **Expression** | **Interpretation** |
 |---|---|
-| after 12:15  and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 8:00 am | the channel plays before 8:00 am everyday |
+| after 2:00 pm | the channel plays after 2:00 pm everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+| on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the channel starts playing after 12:45 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
+| on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the channel starts player after 12:45 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 12:45 pm and continues playing until 3:00 am on January 3rd |
+
+Note that you can also use _military time_ notation (i.e. 14:00) instead of am/pm notation (i.e. 2:00 pm)
