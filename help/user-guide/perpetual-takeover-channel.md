@@ -84,7 +84,7 @@ Follow the steps below to set up a project:
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
          >[!NOTE]
-         >To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](#example-expressions) section below
+         >To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](#example-expressions) section below.
     * **active from**: Start date and time.
     * **active until**: End date and time.
     
@@ -115,4 +115,4 @@ The following table summarizes few example expressions that you can add to the s
 | on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the channel starts player after 12:45 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 12:45 pm and continues playing until 3:00 am on January 3rd |
 
 >[!NOTE]
->You can also use _military time_ notation (that is, 14:00) instead of am/pm notation (that is, 2:00 pm).
+>You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
