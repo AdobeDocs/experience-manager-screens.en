@@ -84,7 +84,7 @@ Follow the steps below to set up a project:
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
          [!NOTE]
-         > To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](help/user-guide/perpetual-takeover-channel.md###example-expressions) section below
+         > To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](#example-expressions) section below
     * **active from**: Start date and time.
     * **active until**: End date and time.
     
