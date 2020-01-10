@@ -13,7 +13,7 @@ The following page showcases a use case that emphasizes on setting up a project 
 ## Use Case Description {#use-case-description}
 
 This Use Case explains how to create a channel that *takes over* from the normally playing channel for a display or group of displays. The takeover will occur for a specific day and time perpetually.
-For example, there is a Perpetual TakeOver channel that plays every Friday from 9AM to 10AM. During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for 2 hours from 5:00 pm until 7:00 pm.
+For example, there is a Perpetual TakeOver channel that plays every Friday from 9AM to 10AM. During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for 2 hours from 2:00 pm until 4:00 pm.
 
 ### Preconditions {#preconditions}
 
@@ -83,6 +83,8 @@ Follow the steps below to set up a project:
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
+         [!NOTE]
+         > To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](#example-expressions) section below
     * **active from**: Start date and time.
     * **active until**: End date and time.
     
