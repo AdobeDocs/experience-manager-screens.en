@@ -36,15 +36,15 @@ Follow the steps below to set up a project:
 
 1. Create an AEM Screens Project titled as **PerpetualTakeOver**, as shown below.
 
-   ![asset](assets/use-case-perpetual/P_usecase1.png)
+   ![asset](assets/use-case-perpetual/p_usecase1.png)
 
 1. Create a **MainAdChannel** in the **Channels** folder.
 
-    ![asset](assets/use-case-perpetual/P_usecase2.png)
+    ![asset](assets/use-case-perpetual/p_usecase2.png)
 
 1. Select the **MainAdChannel** and click **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
 
-   ![asset](assets/use-case-perpetual/P_usecase3.png)
+   ![asset](assets/use-case-perpetual/p_usecase3.png)
 
 
    >[!NOTE]
@@ -54,11 +54,11 @@ Follow the steps below to set up a project:
 
 1. Select the the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
-   ![asset](assets/use-case-perpetual/P_usecase4.png)
+   ![asset](assets/use-case-perpetual/p_usecase4.png)
 
 1. Set up a location and display for your channels. For instance, the following location **MainLobby** and display **MainLobbyDisplay** is set up for this project.
 
-   ![asset](assets/use-case-perpetuall/P_usecase5.png)
+   ![asset](assets/use-case-perpetuall/p_usecase5.png)
 
 **Assigning Channels to a Display**
 
@@ -73,7 +73,7 @@ Follow the steps below to set up a project:
     * **Priority**: Set the priority of this channel as 1.
     * **Supported Events**: Select the **Initial Load** and **Idle Screen**.
 
-   ![asset](assets/use-case-perpetual/P_usecase6.png)
+   ![asset](assets/use-case-perpetual/p_usecase6.png)
 
 1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar to assign the takeover chanel.
 
@@ -85,14 +85,14 @@ Follow the steps below to set up a project:
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
     The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
 
-      ![asset](assets/use-case-perpetual/P_usecase7.png)
+      ![asset](assets/use-case-perpetual/p_usecase7.png)
 
       Navigate to the display from **TakeOver** --> **Locations** --> **MainLobby** --> **MainLobbyDisplay** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.
 
-      ![asset](assets/use-case-perpetual/P_usecase8.png)
+      ![asset](assets/use-case-perpetual/p_usecase8.png)
     Now, the **TakeOver** channel will take over the **MainAdChannel** at 2:00 pm for two hours until 4:00 pm every Wednesday and play its content from Jan 09' 2020 until Jan 31' 2020.
 
 ### Example Expressions {#example-expressions}
