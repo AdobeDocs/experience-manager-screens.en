@@ -110,9 +110,7 @@ Follow the steps below to deliver content updates from author to publish to devi
    >
    >Wait for a few seconds/minutes so that the content reaches publish instance.
 
-1. Once you have completed the manage publication workflow, you must trigger the update offline content in author, that will create the update offline on the author instance.
-
-   Navigate to the channel dashboard and click **Update Offline Content**. This action forwards the same command to publish instance, so that the offline zips are created on the publish instance as well.
+1. Trigger **Update Offline Content** in channel dashboard will only push the offline content to author instance but not publish instance. Steps 1-4 are for pushing offline content to publish instance.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 

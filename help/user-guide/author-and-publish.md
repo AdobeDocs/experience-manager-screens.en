@@ -122,7 +122,9 @@ For each publish instance:
 
 1. Navigate to `https://<host>:<port>/system/console/configMgr`
 1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
-1. Update Topology connector URLs: add URLs of all partaking publish instances that is, `https://localhost:4502/libs/sling/topology/connector`
+1. Update Topology connector URLs: add URLs of all partaking publish instances that is:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Topology connector Whitelist: adapt to IPs or subnets covering partaking publish instances
 1. Enable **Auto-Stop Local-Loops**
 
@@ -233,7 +235,7 @@ Check your player and you will see the content that you added in your channel.
 
 **Verifying the Device**
 
-Before, you perform the steps below, make sure to verify the Device ID. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/{project}/devices*.
+Before, you perform the steps below, make sure to verify the Device ID. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
 
 Follow the steps below to replicate the device user:
 
@@ -271,11 +273,15 @@ The following points summarizes the Publishing Check list:
 * *Schedule* - if using a schedule ensure this is published
 * *Location, Schedules, and Channel Folder* - if the corresponding resources are inside a folder.
 
-Once you verify the checklist, you need to verify the following changes/behavior in your channel:
+Follow the steps below to verify the author/publish behavior:
 
-* After publishing the device config open the Screens player config and point it to the Publish instance. Also, you can also activate the device from the device management console.
-* Update some channel content on Author and publish it and verify that the updated channel now displays on the AEM Screens player.
-* Connect the Screens player to a different publish instance and verify behavior above.
+1. Update some channel content on author instance
+1. Perform **Manage Publication** to publish new changes to all publish instances
+1. Press **Activate** to activate the device from **Device Manager**
+1. **Edit URL** from author instance URL to one of the publish instances URL
+1. Verify the updated channel content displays on the AEM Screens player
+1. Repeat these steps using a different publish instance
+
 
 #### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -292,5 +298,7 @@ Alternatively, you can also update/edit the server URL from the device managemen
 1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+The **Manage Publication** feature allows you to deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channel, location, device, application, or a schedule. To learn more about this feature, refer to [On-Demand Content Update](on-demand-content.md).
 
 
