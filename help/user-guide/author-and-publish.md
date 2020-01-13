@@ -130,7 +130,7 @@ The configuration should be identical for each publish instance and the auto-sto
 
 #### Step 2: Verify Publish Topology {#step-verify-publish-topology}
 
-For any of the Publish instances navigate to `https://<host>:<port>/system/console/topology`. You should see each publish instance represented in the topology.
+For any of the publish instances navigate to `https://:/system/console/topology`. You should see each publish instances represented in the topology under **Outgoing topology connectors**.
 
 #### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
 
@@ -146,12 +146,9 @@ On each Publish Instance:
 
 Since each publish instance by default has unique crypto keys you need to perform this step on each pub instance and save the unique key for the next configuration.
 
->Note:
+>[!NOTE]
 >The password should start and end with curly brackets.
-
-*For example:*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>For example:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
 
 #### Step 4: Activate ActiveMQ Artemis Cluster {#step-activate-activemq-artemis-cluster}
 
