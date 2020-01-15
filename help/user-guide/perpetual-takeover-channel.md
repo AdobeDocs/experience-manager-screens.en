@@ -101,7 +101,7 @@ Follow the steps below to set up a project:
       ![asset](assets/p_usecase8.png)
     Now, the **TakeOver** channel will take over the **MainAdChannel** at 2:00 pm for two hours until 4:00 pm every Wednesday and play its content from Jan 09' 2020 until Jan 31' 2020.
 
-# Example Expressions {#example-expressions}
+## Example Expressions {#example-expressions}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
