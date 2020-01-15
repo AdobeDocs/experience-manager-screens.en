@@ -88,10 +88,10 @@ Follow the steps below to set up a project:
     * **active from**: Start date and time.
     * **active until**: End date and time.
     
-    For example, the text in **Schedule** and **active from** and **active until** date and time here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
+       For example, the text in **Schedule** and **active from** and **active until** date and time here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
     
 
-      ![asset](assets/p_usecase7.png)
+        ![asset](assets/p_usecase7.png)
 
       Navigate to the display from **TakeOver** --> **Locations** --> **MainLobby** --> **MainLobbyDisplay** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
 
