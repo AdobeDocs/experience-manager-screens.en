@@ -48,7 +48,7 @@ Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screen
 
    ![assets](assets/health-check2.png)
 
-   If one or both the filters are disabled, then an alert is displayed for the user, as hown in the figure below.
+   If one or both the filters are disabled, then an alert is displayed for the user, as shown in the figure below.
 
    The following alert showcases if both the filters are disabled:
     ![assets](assets/health-check3.png)

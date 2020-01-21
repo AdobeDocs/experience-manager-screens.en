@@ -15,7 +15,7 @@ AEM Screens released AEM 6.4 Feature Pack 7 and AEM 6.5 Feature Pack 3 with the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 201912 is January 20, 2020.
+The Release Date for AEM Screens Feature Pack 201912 is January 21, 2020.
 
 ### What's New {#what-s-new}
 
@@ -23,12 +23,13 @@ The Release Date for AEM Screens Feature Pack 201912 is January 20, 2020.
 
 
 * **Health check framework to show status of https and allow empty referrer**
-   
-   
+The Health Check framework allows the user to check if two necessary configurations (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are set up before running an AEM Screens project. 
+
+   To learn more about Health Check Framework, refer to [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates to Default Transition Types**
+The properties of the transition component such as **Type** is now set to **Fade** and the **Duration** as **1600 ms**, by default.
 
-   
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
