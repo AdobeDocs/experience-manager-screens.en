@@ -15,7 +15,7 @@ ChromeOS player can be installed as Chrome Browser plugin in developer mode with
 
 Follow this page to learn about installing the chrome player as a browser extension.
 
-1. Click here to download the latest Chrome Player.
+1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 
 1. Unzip and save it on disk.
 
