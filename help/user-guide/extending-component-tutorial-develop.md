@@ -29,7 +29,17 @@ Custom Poster component is created by extending the Image component.
 
 ## Prerequisites {#prerequisites}
 
+To complete this tutorial the following is needed:
+
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) or [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screens Feature Pack
+1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
+1. Local Development Environment
+
+The tutorial steps and screen shots are performed using CRXDE-Lite. [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) or [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDEs can also be used to complete the tutorial. More information on using an IDE to [develop with AEM can be found here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
+
 ## Project Setup {#project-setup}
+
+A Screens project's source code is typically managed as a multi-module Maven project. To expedite the tutorial, a project was pre-generated using the [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). More details on [creating a project with Maven AEM Project Archetype can be found here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
 1. Download and install the following packages using **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
