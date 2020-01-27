@@ -34,7 +34,7 @@ If there is no rendition, make sure you have ffmpeg installed on the OS where AE
 >
 >If there is no rendition, make sure you have ffmpeg installed on the OS where AEM is running.
 >
->Click [here](https://evermeet.cx/ffmpeg/) to install ffmpeg.
+>Click [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
 
 ## Video Assets {#video-assets}
 
@@ -145,7 +145,7 @@ Follow the steps below to set up an absolute strategy:
 **Aligning Clocks on OS X** Follow the steps below to align the clocks on OSX:
 
 1. Open **Date & Time** preferences on each OSX box
-1. Check** Set date and time automatically**
+1. Check **Set date and time automatically**
 1. Paste value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in the dropdown or simply run *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Start the 2+ players
 
