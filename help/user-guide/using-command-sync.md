@@ -77,28 +77,33 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
 1. Navigate to the display dashboard from **CommandSyncDemo** --> **Locations**  --> **Lobby** --> **LobbyDisplay** and click on **Dashboard** from the action bar.
 You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
-
-   ![image1](assets/command-sync7.png)
+      ![image1](assets/command-sync/command-sync10.png)
 
 1. From the **DEVICES** panel,select the device you want to set as master. The following example demonstrates setting up the Chrome device as the master. Click on **Set as master device**.
 
-   ![image1](assets/command-sync8.png)
+    ![image1](assets/command-sync/command-sync11.png)
 
 1. Enter the IP address in **Set as master device** and click on **Save**. 
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> You can set up multiple devices as master.
 
 ### Syncing up with Master {#sync-up-master}
 
-1. Once you have set the Chrome device as master, you can sync the other device to sync with the master.
-Select the other device from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
+1. Once you have set the Chrome device as master, you can sync the other device (in this case, the windows player) to sync with the master.
+Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to master device**, as shown in the figure below.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. Select the device from the list and click **Save**.
 
+1. Once the device (Windows player) is synced to the master (Chrome player), you will see the device synced in the **DEVICES** panel.
 
-1. Navigate to the [Web Player](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### Removing or De-Syncing with the Master {#desync-up-master}
 
-
-
+Once you have synced a device or devices to a master, you can de-sync or remove the assignment from that device. In order to remove the syncing from the master device select the device and click on **Desync** from the **DEVICES** panel.
 
