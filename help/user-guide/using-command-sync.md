@@ -19,7 +19,7 @@ The *master* sends a command to all registered clients when it is about to start
 
 ## Implementing Command Sync {#using-command-sync}
 
-The following section describbes how you can use Command Sync in an AEM Screens project.
+The following section describes how you can use Command Sync in an AEM Screens project.
 
 ### Setting up the Project {#setting-up}
 
