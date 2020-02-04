@@ -20,7 +20,8 @@ The Release Date for AEM Screens Feature Pack 201912 is January 21, 2020.
 ### What's New {#what-s-new}
 
 * **Command Sync for Asset Playback**
-
+Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.
+   To learn more about Command Sync and how to set the master and clients, refer to [Using Command Sync](using-command-sync.md).
 
 * **Health check framework to show status of https and allow empty referrer**
 The Health Check framework allows the user to check if two necessary configurations (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are set up before running an AEM Screens project. 
