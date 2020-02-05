@@ -49,14 +49,14 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
 1. Navigate to **Devices** folder and click **Device Manager** from the action bar to register the devices.
 
-   ![image1](assets/command-sync5-1.png)
+   ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
 
 1. For demo purposes, this example showcases a chrome device and a windows player as two separate devices. Both the devices point to the same display.
-   ![image1](assets/command-sync6-1.png)
+   ![image1](assets/command-sync6.png)
 
 ### Updating Channel Settings
 
