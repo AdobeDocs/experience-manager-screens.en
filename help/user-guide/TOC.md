@@ -62,7 +62,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Video Renditions](generating-renditions.md)
         + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md) 
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
-        + [Using Command Sync](using-command-sync.md)
+        + [Command Sync](using-command-sync.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
