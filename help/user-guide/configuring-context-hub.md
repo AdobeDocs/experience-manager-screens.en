@@ -37,7 +37,7 @@ The following diagram provides a visual representation of how ContextHub Configu
 
 ## Preconditions {#preconditions}
 
-Before you start setting up a data store for configuring Context Hub Configurations for an AEM Screens project, you must set up Google Sheets (for demonstration purposes).
+Before you start configuring Context Hub Configurations for an AEM Screens project, you must set up Google Sheets (for demonstration purposes).
 
 >[!CAUTION]
 >
@@ -46,8 +46,15 @@ Before you start setting up a data store for configuring Context Hub Configurati
 >For more information, refer to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
 
 ## Step 1: Setting up a Data Store {#step-setting-up-a-data-store}
+You can set up the data store as a Local I/O event or as a local database event.
 
-Follow the steps below to set up a data store that allows you to use ContextHub configurations and segments path to AEM Screens channel.
+### Local I/O Event {#local-io-event}
+
+Follow the steps below to set up a data store such as an ASCII event that allows you to use ContextHub configurations and segments path to AEM Screens channel.
+
+### Local Database Event {#local-db-event}
+
+Follow the steps below to set up a data store such as an excel sheet that allows you to use ContextHub configurations and segments path to AEM Screens channel.
 
 1. **Navigating to ContextHub**
 
@@ -181,7 +188,7 @@ Once you have set up a data store and defined your brand, follow the steps below
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channel**. **The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
 
 1. Select the channel **DataDrivenRetail** and click **Properties** from the action bar.
 
