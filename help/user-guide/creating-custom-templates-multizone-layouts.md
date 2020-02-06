@@ -8,7 +8,7 @@ contentOwner: Jyotika Syal
 
 # Creating Custom Templates in MultiZone Layouts {#creating-custom-templates-multizone}
 
-The following example showcases how you can create a custom templates in a multiZone layouts.
+The following example showcases how you can create a custom template in a multiZone layouts.
 
 For example, the section below demonstrates the creation of custom template in a multizone layout with the following configurations:
 
@@ -21,9 +21,9 @@ Follow the steps below to create a custom template.
 
 1. Create the template in `/apps/<project>/templates/my-custom-layout`
 
-```shell
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   ```shell
+    <?xml version="1.0" encoding="UTF-8"?>
+    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="My Custom 3-zones layout "
     jcr:primaryType="cq:Template"
     jcr:title="3-zones layout"
@@ -54,8 +54,8 @@ Follow the steps below to create a custom template.
         </cq:responsive>
         <offline-config/>
     </jcr:content>
-</jcr:root>
-```
+   </jcr:root>
+   ```
 
 1. Create a Page Design in `/apps/settings/wcm/designs/<project>`.
 
@@ -67,12 +67,12 @@ Follow the steps below to create a custom template.
 
 1. Add a **static.css** file in the `/apps/settings/wcm/designs/<project>` folder and set its content to
 
-```shell
-.cq-Screens-channel--multizone.my-CustomLayout {}
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-```
+   ```shell
+   .cq-Screens-channel--multizone.my-CustomLayout {}
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
+   ```
 
 ## Inserting an image as the Background Layer  {#inserting-image}
 
@@ -94,3 +94,6 @@ Or, you can follow the steps below:
 To change the background color, add the following code to the xml file:
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+

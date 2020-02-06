@@ -99,11 +99,24 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 1. Select the device from the list and click **Save**.
 
+   >[NOTE:]
+   > The **Sync to master device** dialog will show the list of master devices. You can select the desired one of your preference.
+
 1. Once the device (Windows player) is synced to the master (Chrome player), you will see the device synced in the **DEVICES** panel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Removing or De-Syncing with the Master {#desync-up-master}
+### De-Syncing with the Master {#desync-up-master}
 
-Once you have synced a device or devices to a master, you can de-sync or remove the assignment from that device. In order to remove the syncing from the master device select the device and click on **Desync** from the **DEVICES** panel.
+Once you have synced a device or devices to a master, you can de-sync the assignment from that device. In order to remove the syncing from the master device, follow the steps below:
 
+1. Navigate to the **DEVICES** panel  and select the device.
+
+1. Click on **Desync device(s)** to se-sync the client from the master device.
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. Click **Confirm** to de-sync the selected device from the master.
+
+   >[NOTE:]
+   > If you select the master device and use the desync option, then all the devices connected to the master, will be desynced in one step.
