@@ -46,6 +46,7 @@ Before you start configuring Context Hub Configurations for an AEM Screens proje
 >For more information, refer to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
 
 ## Step 1: Setting up a Data Store {#step-setting-up-a-data-store}
+
 You can set up the data store as a Local I/O event or as a local database event.
 
 ### Local I/O Event {#local-io-event}
