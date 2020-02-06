@@ -112,11 +112,12 @@ Once you have synced a device or devices to a master, you can de-sync the assign
 
 1. Navigate to the **DEVICES** panel  and select the device.
 
-1. Click on **Desync device(s)** to se-sync the client from the master device.
+1. Click on **Desync device(s)** to desync the client from the master device.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Click **Confirm** to de-sync the selected device from the master.
+1. Click **Confirm** to desync the selected device from the master.
 
    >[NOTE:]
    > If you select the master device and use the desync option, then all the devices connected to the master, will be desynced in one step.
+   
