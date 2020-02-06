@@ -10,8 +10,6 @@ contentOwner: Jyotika Syal
 
 The following example showcases how you can create a custom template in a multiZone layouts.
 
-
-
 For example, the section below demonstrates the creation of custom template in a multizone layout with the following configurations:
 
 ![image](assets/custom-template1.png)
@@ -98,5 +96,4 @@ To change the background color, add the following code to the xml file:
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
 
-## Creating Custom Template {creating-custom}
 
