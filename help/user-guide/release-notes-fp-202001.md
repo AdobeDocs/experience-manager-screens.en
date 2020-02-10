@@ -1,11 +1,11 @@
 ---
-title: Release Notes for Feature Pack 201912
-seo-title: Release Notes for Feature Pack 201912
-description: Follow this page to get information for AEM Screens Feature Pack 201912 released on January 31, 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201912 released on January 31, 2020.
+title: Release Notes for Feature Pack 202001
+seo-title: Release Notes for Feature Pack 202001
+description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
 ---
 
-# Release Notes for Feature Pack 201912{#release-notes-for-feature-pack}
+# Release Notes for Feature Pack 202001{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -15,7 +15,7 @@ AEM Screens released AEM 6.4 Feature Pack 7 and AEM 6.5 Feature Pack 3 with the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 201912 is January 31, 2020.
+The Release Date for AEM Screens Feature Pack 202001 is January 31, 2020.
 
 ### What's New {#what-s-new}
 
