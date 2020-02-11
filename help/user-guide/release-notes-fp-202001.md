@@ -31,6 +31,8 @@ The Health Check framework allows the user to check if two necessary configurati
 * **Updates to Default Transition Types**
 The properties of the transition component such as **Type** is now set to **Fade** and the **Duration** as **1600 ms**, by default.
 
+   Refer to [Applying Transitions](/help/user-guide/applying-transitions.md) use case for more details.
+
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
