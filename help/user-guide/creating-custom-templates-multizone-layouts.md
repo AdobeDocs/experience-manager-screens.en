@@ -8,9 +8,48 @@ contentOwner: Jyotika Syal
 
 # Creating Custom Templates in MultiZone Layouts {#creating-custom-templates-multizone}
 
-The following example showcases how you can create a custom template in a multiZone layouts.
+This page showcases how you can create a custom template in a multi-zone layout.
 
-For example, the section below demonstrates the creation of custom template in a multizone layout with the following configurations:
+## Naming Convention {#name-terms}
+
+Before you understand how to create custom multi-zone templates to use in an AEM Screens project, it is manadatory to understand the verbiage of the templates you would want to create.
+
+| **Layout Name** | **Description** |
+|---|---|
+| Left20-LandscapeHD3Zone | Refers to a 3-zone landscape layout that allows you to create 3 zones with zone 1 as 20% of the horizontal and vertical screen from the left, zone 2 as 80 % of the horizontal screen and 20 % of vertical screen right justified, zone 3 as 100 % of horizontal and 80 % of the vertical screen with aspect ratio of 16:9 |
+| Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
+| Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
+
+##  Example Use Cases {#example-use-cases}
+
+## Creating a Left20-LandscapeHD3Zone Layout {#landscape-layout-one}
+
+Follow the section below demonstrates to create a custom template with the following configuration:
+
+*  **Left20** refers to the to the top zone on the left covering 20% of horizontal and vertical screen size.
+* **Landscape** refers to the screen orientation
+* **HD** refers to the aspect ratio as 16:9
+* **3Zone** refers to three zones of the display
+
+## Visual Representation of MultiZone Layout {#multi-layout-visual-one}
+
+The Left20-LandscapeHD3Zone Layout allows you to create the following multi-zone layout in your project:
+
+![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Creating a Upper20-PortraitHD2Zone Layout {#landscape-layout-two}
+
+Follow the section below demonstrates to create a custom template with the following configuration:
+
+
+
+
+
 
 ![image](assets/custom-template1.png)
 
