@@ -20,7 +20,7 @@ Before you understand how to create custom multi-zone templates to use in an AEM
 | Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
 | Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
 
-##  Example Use Cases {#example-use-cases}
+## Example Use Cases {#example-use-cases}
 
 ## Creating a Left20-LandscapeHD3Zone Layout {#landscape-layout-one}
 
