@@ -19,43 +19,59 @@ This basically comes down to manually publishing:
 
 ## Steps for Replicating Data Triggers to Publish Server {#replicating-data-triggers-publish}
 
-Follow the steps below to replicate the data triggers to publish server:
+Follow the steps below to replicate the data triggers to publish server.
 
-### Replicating ContextHub Configurations {#replicating-contexthub-configurations}
+### Step 1: Replicating ContextHub Configurations {#replicating-contexthub-configurations}
 
-1. Navigate to **Tools** > **Deployment** > **Distribution** > **Publish Agent**
-http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish
-1. Click the Test Connection button to validate the author can properly communicate with the publish instance
-1. If the test fails, you need to fix the replication agent config between author and publish
-1. Ensure the endpoint URL is also pointing to the publish server URL in Distribution Agent
-1. Edit > Importer Endpoints 
-1. Click the Distribute tab
-1. Select Add tree radio button
-1. In the path browser, select the configuration path for your project (i.e. /conf/screens/settings/cloudsettings/configuration)
-1. Click Submit
+1. Navigate to **Tools** > **Deployment** > **Distribution** > **Publish Agent** and click on the publish agent to configure your settings.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
+
+   >[!Note]
+   >Alternatively, you can use the [link](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) to navigate to the screen directly to configure and test the connection.
+
+1. Click **Test Connection** from the action bar to validate the communication of the author with the publish instance, as shown in the figure  below.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
+
+   >[!Note]
+   >If the test fails, you need to fix the replication agent configuration between the author and publish instance. Refer to [Troubleshooting Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) for more details.
+
+1. Click **Edit** from the screen above and ensure the endpoint URL in **Importer Endpoints** field is also pointing to the publish server URL in Distribution Agent.
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, that  is, `/conf/screens/settings/cloudsettings/configuration)`.
+
+1. Click **Submit**
 
 ### Replicating the Audiences {#replicating-audiences}
 
-1. Navigate to Tools > Personalization > Audiences
-http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html
-1. Drill down into your project folder (i.e. /conf/screens/)
-1. Select all audiences/segments in the UI
-1. Click Manage Publication
-1. Click Next
-1. Click Publish
+1. Navigate to **Tools** > **Personalization** > **Audiences** or use the [link](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html) to navigate direcly.
+
+1. Drill down into your project folder, that is, `/conf/screens/`.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+
+1. Select all audiences and segments from the the user interface.
+
+1. Click **Manage Publication** from the action bar.
+
+1. Click **Next** and **Publish**.
 
 ### Replicating the Activities  {#replicating-activities}
 
-1. Navigate to Tools > Personalization > Activities
-http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html
-1. Drill down into your project folder (i.e. /content/campaigns/screens/…)
-1. Select all activities in the UI
-1. Click Manage Publication
-1. Click Next
-1. Click Publish
+1. Navigate to **Tools** > **Personalization** > **Activities** or use the [link](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html) to navigate direcly.
 
-> [!Note] 
->Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
+1. Drill down into your project folder, that is, `/content/campaigns/screens/…`.
+
+1. Select all activities from the user interface.
+
+1. Click **Manage Publication** from the action bar.
+
+1. Click **Next** and **Publish**.
+
+   > [!Note] 
+   >Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
 
 #### Result {#result}
 
@@ -64,3 +80,31 @@ If replication is successful, you should view the following structure on the pub
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
+
+## Troubleshooting Test Connection {#troubleshoot-test}
+
+If the test connection fails while replicating the ContextHub configurations, follow the section below for troubleshooting the issue:
+
+1. Navigate to **Importer Endpoints** field and ensure the endpoint URL is pointing to the publish server URL in Distribution Agent.
+
+1. If you not using the default credentials, then you need to configure the distribution agent with a different admin password.
+    Follow the steps below:
+    
+      1. Navigate to Tools > **Operations** > Web Console** `http://localhost:4502/system/console/configMgr`to open the **Adobe Experience Manager Web Console screen**.
+
+      1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
+
+         ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+
+      1. Create a configuration, by populating **Name**, **User name** and **password**, for example, *slingTransportSecretProvider*. 
+      .
+      1. Click **Save**
+
+      1. Search for the name of your distribution agent using `Cmd +F`.
+
+      1. Click to open the distribution agent osgi config.
+
+      1. Look for Transport Secret Provider in osgi config and update it with `"(name=slingTransportSecretProvider)"`.
+
+      1. Click **Save** and run the test connection.
+
