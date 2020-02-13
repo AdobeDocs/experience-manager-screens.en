@@ -85,9 +85,9 @@ If the test connection fails while replicating the ContextHub configurations, fo
 1. Navigate to Tools > **Deployment** > **Distribution** > **Publish Agent**.
 
 1. Click **Edit** from the action bar and ensure the endpoint URL in **Importer Endpoints** field is also pointing to the publish server URL in Distribution Agent.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. If you not using the default admin credentials, then you need to configure the distribution agent with a different admin password.
+1. If you not using the default admin credentials, then you need to configure the distribution agent with a different username and password.
     Follow the steps below:
 
       1. Navigate to Tools > **Operations** > **Web Console** `http://localhost:4502/system/console/configMgr`to open the **Adobe Experience Manager Web Console screen**.
