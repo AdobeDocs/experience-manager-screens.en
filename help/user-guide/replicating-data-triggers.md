@@ -37,7 +37,7 @@ Follow the steps below to replicate the data triggers to publish server.
    >[!Note]
    >If the test fails, you need to fix the replication agent configuration between the author and publish instance. Refer to [Troubleshooting Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) for more details.
 
-1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, for example, `/conf/screens/settings/cloudsettings/configuration)`.
+1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, for example, `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Click **Submit**
 
@@ -47,7 +47,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Drill down into your project folder, for example, `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Select all audiences and segments from the the user interface.
 
@@ -110,3 +110,6 @@ If the test connection fails while replicating the ContextHub configurations, fo
 
       1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
 
+     1. The user will need to re-visit the **Distribution Agent** page from the AEM instance to update/replace the default URL from `localhost:4503` to their own publish url.
+
+        ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
