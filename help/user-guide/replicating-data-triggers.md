@@ -67,8 +67,9 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Click **Next** and **Publish**.
 
-   > [!Note] 
-   >Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
+> [!Note] 
+> **Important**:
+>Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
 
 #### Result {#result}
 
@@ -109,7 +110,3 @@ If the test connection fails while replicating the ContextHub configurations, fo
       1. Update the `(name=default)` with `(name=slingTransportSecretProvider)`.
 
       1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
-
-     1. The user will need to re-visit the **Distribution Agent** page from the AEM instance to update/replace the default URL from `localhost:4503` to their own publish url.
-
-        ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
