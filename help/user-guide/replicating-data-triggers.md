@@ -7,7 +7,7 @@ seo-description: Replicate data-triggers to publish server.
 
 # Replicating Data Triggers to Publish Servers {#replicating-data-triggers}
 
-When using ContextHub and AEM Targeting Engine to customize content based on data triggers in an author/publish setup, all the ContextHub and Personalization related configurations are not automatically replicated with the channels when they are published. 
+When using ContextHub and AEM Targeting Engine to customize content based on data triggers in an author/publish setup, all the ContextHub and Personalization related configurations are not automatically replicated with the channels when they are published.
 
 Follow this page to learn the manuals steps required to publish these configurations separately.
 
@@ -39,7 +39,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, for example, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Click **Submit**
+1. Click **Submit**.
 
 ### Replicating the Audiences {#replicating-audiences}
 
@@ -67,8 +67,8 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Click **Next** and **Publish**.
 
-> [!Note] 
-> **Important**:
+>[!IMPORTANT] 
+>
 >Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
 
 #### Result {#result}
@@ -89,24 +89,22 @@ If the test connection fails while replicating the ContextHub configurations, fo
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. If you not using the default admin credentials, then you need to configure the distribution agent with a different username and password.
-    Follow the steps below:
 
-      1. Navigate to Tools > **Operations** > **Web Console** `http://localhost:4502/system/console/configMgr`to open the **Adobe Experience Manager Web Console screen**.
+   Follow the steps below:
 
-      1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
+   1. Navigate to Tools > **Operations** > **Web Console** `http://localhost:4502/system/console/configMgr`to open the **Adobe Experience Manager Web Console screen**.
+   1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
 
-         ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-      1. Create a configuration, by populating **Name**, **User name** and **password**, for example, *slingTransportSecretProvider*.
+   1. Create a configuration, by populating **Name**, **User name** and **password**, for example, *slingTransportSecretProvider*.
 
-         ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-      1. Click **Save**
+   1. Click **Save**
+   1. Use `Cmd +F` to search for **Apache Sling Distribution Agent - Forward Agents Factory** to open the configurations and search for for **Transport Secret Provider**.
 
-      1. Use `Cmd +F` to search for **Apache Sling Distribution Agent - Forward Agents Factory** to open the configurations and search for for **Transport Secret Provider**.
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-         ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
-
-      1. Update the `(name=default)` with `(name=slingTransportSecretProvider)`.
-
-      1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
+   1. Update the `(name=default)` with `(name=slingTransportSecretProvider)`.
+   1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
