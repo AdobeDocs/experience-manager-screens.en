@@ -27,6 +27,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Setting up ACLs](setting-up-acls.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [New Project Importer from File](project-importer.md)
+    + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
     + Client Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
