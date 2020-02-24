@@ -91,24 +91,24 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
 1. Copy the content to static.css file:
 
-   ```shell
-       /*my-custom-layout styles*/
-      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
-       width:20%;
-        height: 36%;
-       float: left !important;
-      }
-      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
-      width:80%;
-      height: 36%;
-      float: left !important;
-      }
-      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
-      width:100%;
-      height: 64%;
-      }
-   ```
-   
+      ```shell
+          /*my-custom-layout styles*/
+         .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+          width:20%;
+          height: 36%;
+         float: left !important;
+         }
+        .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+         width:80%;
+         height: 36%;
+        float: left !important;
+        }
+        .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+        width:100%;
+        height: 64%;
+        }
+      ```
+
    >[!NOTE]
    > You can update the percentages to match requirements for your custom template.
 
