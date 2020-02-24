@@ -12,7 +12,7 @@ This page showcases how you can create a custom template in a multi-zone layout.
 
 ## Naming Convention {#name-terms}
 
-Before you understand how to create custom multi-zone templates to use in an AEM Screens project, it is manadatory to understand the verbiage of the templates you would want to create.
+Before you understand how to create custom multi-zone templates to use in an AEM Screens project, it is recommended to understand the verbiage of the templates you would want to create.
 
 | **Layout Name** | **Description** |
 |---|---|
@@ -22,9 +22,9 @@ Before you understand how to create custom multi-zone templates to use in an AEM
 
 ## Example Use Cases {#example-use-cases}
 
-## Creating a Left20-LandscapeHD3Zone Layout {#landscape-layout-one}
+## Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
-Follow the section below demonstrates to create a custom template with the following configuration:
+Follow the section below to create a custom template *Left20-LandscapeHD3Zone* with the following configuration:
 
 *  **Left20** refers to the to the top zone on the left covering 20% of horizontal and vertical screen size.
 * **Landscape** refers to the screen orientation
@@ -37,24 +37,50 @@ The Left20-LandscapeHD3Zone Layout allows you to create the following multi-zone
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## Creating a Left20-LandscapeHD3Zone Layout {#landscape-layout-one}
 
+Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Screens project:
 
+1. Create an AEM Screens project titled as **customtemplate**.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
+   
+1. Navigate to **CRXDE Lite** from your AEM instance --> Tools --> **CRXDE Lite**.
 
+1. Create a folder under **apps** titled as **customtemplate**. Similarly, create another folder titled as **template** under **customtemplate**, as shown in the figure below.
 
-## Creating a Upper20-PortraitHD2Zone Layout {#landscape-layout-two}
+   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-Follow the section below demonstrates to create a custom template with the following configuration:
+   > [!NOTE]
+   > It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
 
+1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
+1. Rename the copied **lbar-left** (`/apps/customtemplate/template`) to **my-custom-layout**.
 
+1. Navigate to `/apps/customtemplate/template/my-custom-layout` and update the properties **jcr:description** to *Template for Left20-LandscapeHD3Zone* and **jcr:title** to *Left20-LandscapeHD3Zone*.
 
+1. Navigate to the **offline-config** node from `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` and update the **jcr:title** to *Left20-LandscapeHD3Zone*.
 
+1. Navigate to the *jcr:content* property of **my-custom-template** from `/apps/customtemplate/template/my-custom-layout/jcr:content` and update the **cq:cssClass** property to **aem-Layout my-custom-layout**.
 
-![image](assets/custom-template1.png)
+1. Referring to step (4), in which, you copied the lbar-left template, you will view 3 responsive grids under `my-custom-layout/jcr:content`. Add custom css class to each of the responsive grid in the *cq:cssClass* property, for example, *my-custom-layout--top-left*, *my-custom-layout--top-right*, *my-custom-layout--bottom*.
 
+   >[!NOTE]
+   >These custom classes will be used in the css to set the width/height for these responsive grids.
+
+   >[!NOTE]
+   > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r2c1).
+
+1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename as **custom-template-designs**
+
+1. Navigate to `/apps/settings/wcm/designs/custom-template-designs` and update the property *jcr:title* of **custom-template-designs** to **customtemplate-design**.
+
+1. update the `/apps/settings/wcm/designs/<project>-designs/static.css` content to match the following
 
 ## Creating Custom Template with a Specific Configuration {#basic-flow-setting}
+
+![image](assets/custom-template1.png)
 
 Follow the steps below to create a custom template.
 
