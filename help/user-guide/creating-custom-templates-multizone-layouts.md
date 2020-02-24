@@ -70,11 +70,13 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
    >These custom classes will be used in the css to set the width/height for these responsive grids.
 
    >[!NOTE]
-   > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r3c1).
+   > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r2c1).
 
-1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename as <project>-designs and update the jcr:title of this designs
+1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename as **custom-template-designs**
 
-1. update the /apps/settings/wcm/designs/<project>-designs/static.css content to match the following
+1. Navigate to `/apps/settings/wcm/designs/custom-template-designs` and update the property *jcr:title* of **custom-template-designs** to **customtemplate-design**.
+
+1. update the `/apps/settings/wcm/designs/<project>-designs/static.css` content to match the following
 
 ## Creating Custom Template with a Specific Configuration {#basic-flow-setting}
 
