@@ -57,14 +57,25 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
 1. Rename the copied **lbar-left** (`/apps/customtemplate/template`) to **my-custom-layout**.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navigate to `/apps/customtemplate/template/my-custom-layout` and update the properties **jcr:description** to *Template for Left20-LandscapeHD3Zone* and **jcr:title** to *Left20-LandscapeHD3Zone*.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. Navigate to the **offline-config** node from `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` and update the **jcr:title** to *Left20-LandscapeHD3Zone*.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navigate to the *jcr:content* property of **my-custom-template** from `/apps/customtemplate/template/my-custom-layout/jcr:content` and update the **cq:cssClass** property to **aem-Layout my-custom-layout**.
 
-1. Referring to step (4), in which, you copied the lbar-left template, you will view 3 responsive grids under `my-custom-layout/jcr:content`. Add custom css class to each of the responsive grid in the *cq:cssClass* property, for example, *my-custom-layout--top-left*, *my-custom-layout--top-right*, *my-custom-layout--bottom*.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. Referring to step (4), in which, you copied the lbar-left template, you will view 3 responsive grids under `my-custom-layout/jcr:content`. Add custom css class to each of the responsive grid in the *cq:cssClass* property, for example, *my-custom-layout--top-left* for *r1c1* node.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   Similarly, add *my-custom-layout--top-right* for *r1c2*  and, *my-custom-layout--bottom* for *r2c1* node.
 
    >[!NOTE]
    >These custom classes will be used in the css to set the width/height for these responsive grids.
@@ -72,76 +83,53 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
    >[!NOTE]
    > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r2c1).
 
-1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename as **custom-template-designs**
+1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename the copied design as **custom-template-designs**.
 
 1. Navigate to `/apps/settings/wcm/designs/custom-template-designs` and update the property *jcr:title* of **custom-template-designs** to **customtemplate-design**.
 
-1. update the `/apps/settings/wcm/designs/<project>-designs/static.css` content to match the following
+1. Navigate to `/apps/settings/wcm/designs/custom-template-designs` and create a file static.css.
 
-## Creating Custom Template with a Specific Configuration {#basic-flow-setting}
-
-![image](assets/custom-template1.png)
-
-Follow the steps below to create a custom template.
-
-1. Create the template in `/apps/<project>/templates/my-custom-layout`
-
-   ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+1. Copy the content to static.css file:
+    ```shell
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+        height: 36%;
+       float: left !important;
+      }
+    .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+    width:80%;
+    height: 36%;
+    float: left !important;
+   }
+    .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+    width:100%;
+    height: 64%;
+   }
    ```
+   >[!NOTE]
+   > You can update the percentages to match requirements for your custom template.
 
-1. Create a Page Design in `/apps/settings/wcm/designs/<project>`.
+1. Navigate to `/apps/<project>/templates/my-custom-layout/jcr:content` and update the property *cq:designPath* to `/apps/settings/wcm/designs/customtemplate-designs` to load the styles configured in static.css
 
    >[!NOTE]
-   >
-   >Make sure the `cq:designPath` above matches the path.
+   > It is recommended that you type all the styles rather than copy or pasting, that can cause white spaces resulting in css styling issues.
 
-1. Update the **offline-config** node for the design to point to the new path as well
+## Viewing the Result {#viewing-result}
 
-1. Add a **static.css** file in the `/apps/settings/wcm/designs/<project>` folder and set its content to
+Follow the steps below to use the above customized template in your AEM Screens project:
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+1. Navigate to your Screens project that you created in step (1) and select the **Channels** folder.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. Click **Create** from the action bar and select the template **Left20-LandscapeHD3Zone** from the **Create** wizard.
+
+1. Once you have created a channel with the customized template, you can add assets to your channel from the editor.
 
 ## Inserting an image as the Background Layer  {#inserting-image}
 
-You can inset an image as a background layer to the layout:
+You can insert an image as a background layer to the layout:
 
 You can adjust the CSS rule to use what is called “data-uri” and directly inline the image (Base64 encoded) in the CSS file. 
 
