@@ -54,7 +54,7 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
    > [!NOTE]
    > It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
 
-1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template` 
+1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
 1. Rename the copied **lbar-left** (`/apps/customtemplate/template`) to **my-custom-layout**.
 
@@ -66,14 +66,13 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
 1. Referring to step (4), in which, you copied the lbar-left template, you will view 3 responsive grids under `my-custom-layout/jcr:content`. Add custom css class to each of the responsive grid in the *cq:cssClass* property, for example, *my-custom-layout--top-left*, *my-custom-layout--top-right*, *my-custom-layout--bottom*.
 
-   These custom classes will be used in the css to set the width/height for these responsive grids.
+   >[!NOTE]
+   >These custom classes will be used in the css to set the width/height for these responsive grids.
 
    >[!NOTE]
-   > You can add or remove the responsive grids based on the number of total grids you want. In our example, we need 2 grids in the first row and 1 grid in the second row, so we'll keep the 3 responsive grids (r1c1, r1c2, r3c1) as-is
+   > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r3c1).
 
-1. Do #6 for each of the responsive grid sub node under jcr:content
-
-1. Copy `/libs/settings/wcm/designs/screens to /apps/settings/wcm/designs/` and rename as <project>-designs and update the jcr:title of this designs
+1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename as <project>-designs and update the jcr:title of this designs
 
 1. update the /apps/settings/wcm/designs/<project>-designs/static.css content to match the following
 
