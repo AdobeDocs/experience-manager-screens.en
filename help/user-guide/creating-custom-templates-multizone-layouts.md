@@ -16,10 +16,10 @@ There are two important considerations that you must be aware before creating cu
 
 1. **Fixed Pixel Size or Percentages**:
 
-   You must decide whether to use fixed pixel size for different zones in your custom layout or if you want to create a custom layout using percentages. 
+   You must decide whether to use fixed pixel size for different zones for your custom layout or if you want to create a custom layout using percentages.
 
-   >[!Note]
-   >The benefit of using pencentage to set zones in your custom layout allows you to reuse the template on a variety of screen sizes.
+      >[!Note]
+      >The benefit of using percentage to set zones for your custom layout allows you to reuse the template on a variety of screen sizes.
 
 1. **Naming Convention**:
 
@@ -31,8 +31,8 @@ There are two important considerations that you must be aware before creating cu
    | Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
    | Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
 
-   >[!Important]
-   >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
+      >[!Important]
+      >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
 
 ## Example Use Case Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
