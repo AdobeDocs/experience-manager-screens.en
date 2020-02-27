@@ -6,23 +6,35 @@ seo-description: Follow this page to learn about creating custom templates in Mu
 contentOwner: Jyotika Syal
 ---
 
-# Creating Custom Templates in MultiZone Layouts {#creating-custom-templates-multizone}
+# Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}
 
-This page showcases how you can create a custom template in a multi-zone layout.
+This page showcases how you can create a custom template for a multi-zone layout.
 
-## Naming Convention {#name-terms}
+## Important Considerations {#considerations}
 
-Before you understand how to create custom multi-zone templates to use in an AEM Screens project, it is recommended to understand the verbiage of the templates you would want to create.
+There are two important considerations that you must be aware before creating custom template in multi-zone layout:
 
-| **Layout Name** | **Description** |
-|---|---|
-| Left20-LandscapeHD3Zone | Refers to a 3-zone landscape layout that allows you to create 3 zones with zone 1 as 20% of the horizontal and vertical screen from the left, zone 2 as 80 % of the horizontal screen and 20 % of vertical screen right justified, zone 3 as 100 % of horizontal and 80 % of the vertical screen with aspect ratio of 16:9 |
-| Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
-| Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
+1. **Fixed Pixel Size or Percentages**:
 
-## Example Use Cases {#example-use-cases}
+   You must decide whether to use fixed pixel size for different zones in your custom layout or if you want to create a custom layout using percentages. 
 
-## Left20-LandscapeHD3Zone Layout {#custom-template-one}
+   >[!Note]
+   >The benefit of using pencentage to set zones in your custom layout allows you to reuse the template on a variety of screen sizes.
+
+1. **Naming Convention**:
+
+   Before you understand how to create custom multi-zone templates to use in an AEM Screens project, it is recommended to understand the verbiage of the templates you would want to create.
+
+   | **Layout Name** | **Description** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Refers to a 3-zone landscape layout that allows you to create 3 zones with zone 1 as 20% of the horizontal and vertical screen from the left, zone 2 as 80 % of the horizontal screen and 20 % of vertical screen right justified, zone 3 as 100 % of horizontal and 80 % of the vertical screen with aspect ratio of 16:9 |
+   | Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
+   | Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
+
+   >[!Important]
+   >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
+
+## Example Use Case Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
 Follow the section below to create a custom template *Left20-LandscapeHD3Zone* with the following configuration:
 

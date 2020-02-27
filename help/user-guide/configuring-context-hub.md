@@ -67,14 +67,14 @@ Follow the steps below to set up a data store such as an excel sheet that allows
 
     1. Navigate to **global** &gt; **default** &gt; **ContextHub Configuration**.
 
-    1. Click** Create &gt; Configuration Container **and enter the title as** ContextHubDemo**.
+    1. Click **Create** &gt; **Configuration Container** and enter the title as **ContextHubDemo**.
 
     1. **Navigate** to **ContextHubDemo** &gt; **ContentHub Store Configuration...** to open the **Configure wizard**.
 
     1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp**
 
     1. Click **Next**
-    1. Enter your specific json configuration**.** For example, you can use the following json for demo purposes.
+    1. Enter your specific json configuration. For example, you can use the following json for demo purposes.
     1. Click **Save**.
 
    ```
