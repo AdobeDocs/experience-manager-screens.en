@@ -12,7 +12,7 @@ discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 ---
 
-# Channel Level Activation - Single Event Playback {#channel-level-activation-single-event-playback}
+# Channel Level Activation {#channel-level-activation-single-event-playback}
 
 Using Channel Level Activation covers the following topics:
 
