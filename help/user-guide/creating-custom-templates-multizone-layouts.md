@@ -139,13 +139,17 @@ Follow the steps below to use the above customized template in your AEM Screens 
 
 1. Click **Create** from the action bar and select the template **Left20-LandscapeHD3Zone** from the **Create** wizard.
 
-1. Once you have created a channel with the customized template, you can add assets to your channel from the editor.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Once you have created a channel with the customized template, you can add assets to your channel from the editor. The following preview shows the images in a custom template.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Inserting an image as the Background Layer  {#inserting-image}
 
 You can insert an image as a background layer to the layout:
 
-You can adjust the CSS rule to use what is called “data-uri” and directly inline the image (Base64 encoded) in the CSS file. 
+You can adjust the CSS rule to use what is called “data-uri” and directly inline the image (Base64 encoded) in the CSS file, you created in (step 13), *static.css*. 
 
 This is done as follows:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -158,7 +162,7 @@ Or, you can follow the steps below:
 
 ## Updating Background Color {#updating-color}
 
-To change the background color, add the following code to the xml file:
+To change the background color, add the following code to the xml file (step 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
