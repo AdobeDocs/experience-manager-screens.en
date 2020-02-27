@@ -85,7 +85,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Creating Components](creating-components.md)
     + [Embedding a REACT application using AEM SPA Editor & Integrating with AEM Screens Analytics](embedding-react-app.md)
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
-    + [Creating Custom Templates MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
+    + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
 + Troubleshooting and FAQ's {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
