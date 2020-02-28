@@ -76,30 +76,31 @@ Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm
 ### Day Parting {#day-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
-1. After entering the start date/time and end/date time, you can use a cron expression or a natural text version to specify your recurrence schedule.
+1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
 
-   You can search the web for a free cron expression generator and then copy and paste the cron expression into the **Schedule** and your asset will display for the particular interval of day and time.
-
-   *Alternatively*, instead of using cron expression, you can also use the natural text version such as *after 6:00 and before 18:00* on Friday to accomplish your task. Enter the text in the **Schedule** to display your asset.
+   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+   *For example:*
+   Enter the expression **before 8:00 am** in the **Schedules** field and the channel plays before 8:00 am everyday.
 
 ### Week Parting {#week-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
-1. After entering the start date/time and end/date time, you can use a cron expression or a natural text version to specify your recurrence schedule.
+1. After entering the start date/time and end/date time, you can use a natural text version to specify your recurrence schedule.
 
-   You can search the web for a free cron expression generator and then copy and paste the cron expression into the **Schedule** and your asset will display for the particular interval of day and time.
-
-   *Alternatively*, instead of using cron expression, you can also use the natural text version such as *after 6:00 and before 18:00* on Friday to accomplish your task. Enter the text in the **Schedule** to display your asset.
+   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time every week.
+   *For example:*
+   Enter the expression **On Monday,Wednesday,Friday** in the **Schedules** field and the channel plays every Monday, Wednesday, Friday.
 
 ### Month Parting {#month-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
-1. After entering the start date/time and end/date time, you can use a cron expression or a natural text version to specify your recurrence schedule.
+1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
 
-   You can search the web for a free cron expression generator and then copy and paste the cron expression into the **Schedule** and your asset will display for the particular interval of day and time.
+   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time every month.
+   *For example:*
+   Enter the expression **On Monday,Wednesday,Friday** in the **Schedules** field and the channel plays every Monday, Wednesday, Friday for two months.
 
-   *Alternatively*, instead of using cron expression, you can also use the natural text version such as *after 6:00 and before 18:00* on Friday to accomplish your task. Enter the text in the **Schedule** to display your asset.
-
+   
 ## Multi-asset Activation {#multi-asset-scheduling}
 
 >[!CAUTION]
@@ -139,3 +140,18 @@ Follow the steps below to select multiple assets and schedule their display in a
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
+## Example Expressions {#example-expressions}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| before 8:00 am | the channel plays before 8:00 am everyday |
+| after 2:00 pm | the channel plays after 2:00 pm everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+| on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the channel starts playing after 2:00 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
+| on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
+
+>[!NOTE]
+>You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
