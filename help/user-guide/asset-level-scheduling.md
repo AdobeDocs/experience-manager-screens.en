@@ -34,7 +34,7 @@ The following topics are covered in this section:
 
 With this feature, not only can you specify start and end date and time but also a recurrence pattern.
 
-## Single Event Playback {#single-event-playback}
+## Activation Window {#single-event-playback}
 
 Asset Level Activation is done by configuring the **Activation** tab while accessing properties of an asset.
 
