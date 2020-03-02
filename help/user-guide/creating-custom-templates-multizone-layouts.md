@@ -63,8 +63,8 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-   > [!NOTE]
-   > It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
+      > [!NOTE]
+      > It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
 
 1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
