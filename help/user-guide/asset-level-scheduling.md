@@ -84,7 +84,7 @@ Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Day Parting {example-one}
+#### Example Expressions for Day Parting {#example-one}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
@@ -107,7 +107,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Week Parting {example-two}
+#### Example Expressions for Week Parting {#example-two}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
@@ -129,7 +129,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Month Parting {example-three}
+#### Example Expressions for Month Parting {#example-three}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
