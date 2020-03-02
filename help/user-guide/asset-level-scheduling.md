@@ -71,36 +71,78 @@ Follow the steps below to perform asset level scheduling:
 
 You can schedule assets to recur at certain intervals on daily, weekly, or monthly basis too as per your requirement.
 
-Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm. You can use the Activation tab to set the desired recurring interval for your asset.
+Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm. You can use the **Activation** tab to set the desired recurring interval for your asset.
 
 ### Day Parting {#day-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
-1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
 
-   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
-   *For example:*
-   Enter the expression **before 8:00 am** in the **Schedules** field and the channel plays before 8:00 am everyday.
+1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
+   
+   > [!NOTE]
+   > You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+
+1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+
+#### Example Expressions for Day Parting {#example-one}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| before 8:00 am | the channel plays before 8:00 am everyday |
+| after 2:00 pm | the channel plays after 2:00 pm everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+| Mon,Tue,Wed or Mon-Wed | the asset plays in the channel from Monday until Wednesday |
 
 ### Week Parting {#week-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
-1. After entering the start date/time and end/date time, you can use a natural text version to specify your recurrence schedule.
 
-   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time every week.
-   *For example:*
-   Enter the expression **On Monday,Wednesday,Friday** in the **Schedules** field and the channel plays every Monday, Wednesday, Friday.
+1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
+   
+   > [!NOTE]
+   > You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+
+1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+
+#### Example Expressions for Week Parting {#example-two}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| before 8:00 am | the channel plays before 8:00 am everyday |
+| after 2:00 pm | the channel plays after 2:00 pm everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+
 
 ### Month Parting {#month-parting}
 
 1. Select the asset and click on **Configure** icon to open the properties dialog box.
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
-
-   Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time every month.
-   *For example:*
-   Enter the expression **On Monday,Wednesday,Friday** in the **Schedules** field and the channel plays every Monday, Wednesday, Friday for two months.
-
    
+   > [!NOTE]
+   > You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+
+1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+
+#### Example Expressions for Month Parting {#example-three}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| of February,May,August,November | the asset plays in the channel in February,May,August,November |
+| after 2:00 pm | the channel plays after 2:00 pm everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+
+   > [!NOTE]
+   > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
+
 ## Multi-asset Activation {#multi-asset-scheduling}
 
 >[!CAUTION]
