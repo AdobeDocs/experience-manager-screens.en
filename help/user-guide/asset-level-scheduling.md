@@ -42,7 +42,7 @@ Follow the steps below to perform asset level scheduling:
 
 1. Select any channel and click **Edit** from the action bar to add or edit content in your channel.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -53,13 +53,13 @@ Follow the steps below to perform asset level scheduling:
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 
-    ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+    ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Click the **Activation** tab.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. You can specify the date from the date picker using **Active from** and **Active until** fields.
 
