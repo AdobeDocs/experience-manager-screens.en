@@ -7,7 +7,7 @@ seo-description: Follow this page to learn how to activate a specific asset in a
 
 # Asset Level Activation {#asset-level-scheduling}
 
-This section describes asset level activation for the assets used in Channels.
+This page describes asset level activation for the assets used in Channels.
 
 The following topics are covered in this section:
 
@@ -53,9 +53,9 @@ Follow the steps below to perform asset level scheduling:
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+    ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Select the asset and click on top left **Configure** icon to open the properties of the image.
+1. Select the asset and click on top left **Configure** (wrench icon) to open the properties of the image.
 
    Click the **Activation** tab.
 
@@ -75,7 +75,7 @@ Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm
 
 ### Day Parting {#day-parting}
 
-1. Select the asset and click on **Configure** icon to open the properties dialog box.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -103,7 +103,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### Week Parting {#week-parting}
 
-1. Select the asset and click on **Configure** icon to open the properties dialog box.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -130,7 +130,8 @@ The following table summarizes few example expressions that you can add to the s
 
 ### Month Parting {#month-parting}
 
-1. Select the asset and click on **Configure** icon to open the properties dialog box.
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
    > [!NOTE]
