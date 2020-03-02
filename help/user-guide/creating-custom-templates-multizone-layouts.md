@@ -47,7 +47,7 @@ Follow the section below to create a custom template *Left20-LandscapeHD3Zone* w
 
 The Left20-LandscapeHD3Zone Layout allows you to create the following multi-zone layout in your project:
 
-![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Creating a Left20-LandscapeHD3Zone Layout {#landscape-layout-one}
 
