@@ -168,10 +168,7 @@ The following table summarizes few example expressions that you can add to the s
 | on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
 
    > [!NOTE]
-   > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
-   
-   >[!NOTE]
-   >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+   > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 
 ## Multi-asset Activation {#multi-asset-scheduling}
