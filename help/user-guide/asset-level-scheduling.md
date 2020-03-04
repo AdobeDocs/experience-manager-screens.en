@@ -94,9 +94,7 @@ The following table summarizes few example expressions that you can add to the s
 | after 2:00 pm | the asset in the channel plays after 2:00 pm everyday |
 | after 12:15 and before 12:45 | the asset in the channel plays after 12:15 pm everyday for 30 minutes |
 | before 12:15 also after 12:45 | the asset in the channel plays before 12:15 pm everyday and then also after 12:45 pm |
-| Mon,Tue,Wed or Mon-Wed | the asset plays in the asset in the channel from Monday until Wednesday |
-| on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the asset in the channel starts playing after 2:00 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
-| on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
+
 
 >[!NOTE]
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
@@ -118,14 +116,11 @@ The following table summarizes few example expressions that you can add to the s
 
 | **Expression** | **Interpretation** |
 |---|---|
-| Mon,Tue,Wed or Mon-Wed | the asset plays in the asset in the channel from Monday until Wednesday |
-| before 8:00 am | the asset in the channel plays before 8:00 am everyday |
-| after 2:00 pm | the asset in the channel plays after 2:00 pm everyday |
-| after 12:15 and before 12:45 | the asset in the channel plays after 12:15 pm everyday for 30 minutes |
-| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
+| Mon,Wed,Fri | the asset plays in the channel from on Mondays, Wednesdays and Fridays |
+| Mon-Thu | the asset plays in the channel from on Mondays to Thursdays |
 
 >[!NOTE]
->You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+>You can also use _full_ notation (that is, Monday,Wednesday,Friday) instead of _short-hand_ notation (that is, Mon,Wed,Fri).
 
 
 ### Month Parting {#month-parting}
@@ -145,13 +140,39 @@ The following table summarizes few example expressions that you can add to the s
 
 | **Expression** | **Interpretation** |
 |---|---|
-| of February,May,August,November | the asset plays in the channel in February,May,August,November |
+| of February,May,August,November | the asset plays in the channel in February, May, August and November |
+| of February-July | the asset plays in the channel from February all the way until end of July |
 
    > [!NOTE]
    > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
 
+### Combinations of Partings {#combined-parting}
+
+1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
+
+1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
+   
+   > [!NOTE]
+   > You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+
+1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+
+#### Example Expressions for Combinations of Partings {#example-four}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| after 6:00 and before 18:00 on Mon,Wed of Jan-Mar | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to end of March |
+| on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the asset in the channel starts playing after 2:00 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
+| on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
+
+   > [!NOTE]
+   > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
+   
    >[!NOTE]
-   > You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+   >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+
 
 ## Multi-asset Activation {#multi-asset-scheduling}
 
