@@ -30,7 +30,7 @@ The following topics are covered in this section:
 
 ## Overview {#overview}
 
-***Channel Level Activation*** allows the channels to switch after a particluar set schedule. The single event channel replaces the main channel after a set schedule and plays for a particular time, until the main channel plays its content again.
+***Channel Level Activation*** allows the channels to switch after a particular set schedule. The single event channel replaces the main channel after a set schedule and plays for a particular time, until the main channel plays its content again.
 
 The following example provides a solution by focusing on the following key terms:
 
