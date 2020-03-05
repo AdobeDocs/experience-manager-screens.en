@@ -18,6 +18,7 @@ The following topics are covered in this section:
    * Day Parting
    * Week Parting
    * Month Parting
+   * Combination of Partings
 * Multi-asset Activation
 
 >[!CAUTION]
@@ -146,7 +147,7 @@ The following table summarizes few example expressions that you can add to the s
    > [!NOTE]
    > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
 
-### Combinations of Partings {#combined-parting}
+### Combination of Partings {#combined-parting}
 
 1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
@@ -157,7 +158,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Combinations of Partings {#example-four}
+#### Example Expressions for Combination of Partings {#example-four}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
