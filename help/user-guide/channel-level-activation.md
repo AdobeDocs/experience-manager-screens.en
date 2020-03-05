@@ -25,6 +25,7 @@ The following topics are covered in this section:
    * Day Parting
    * Week Parting
    * Month Parting
+   * Combination of Partings
 * Using Channel Level Activation as a Single Event Playback
 
 ## Overview {#overview}
@@ -237,4 +238,28 @@ The following table summarizes few example expressions that you can add to the s
 
    >[!NOTE]
    > You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+
+### Combination of Partings {#combined-parting}
+
+1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
+
+1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
+   
+   > [!NOTE]
+   > You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+
+1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
+
+#### Example Expressions for Combination of Partings {#example-four}
+
+The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+
+| **Expression** | **Interpretation** |
+|---|---|
+| after 6:00 and before 18:00 on Mon,Wed of Jan-Mar | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to end of March |
+| on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the asset in the channel starts playing after 2:00 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
+| on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
+
+   > [!NOTE]
+   > When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
