@@ -56,7 +56,7 @@ The spreadsheet (CSV/XLS) file, thus requires the following columns:
 * **path {string}** The path for the location to be imported, where the root of the path is the location folder for the project (that is, */foo* will be imported to */content/screens/&lt;project&gt;/locations/foo*)
 
 * **template {string}** The template to use for the new location, for now the only allowed value is "location", but this will be extended to all the Screens templates in the future ("display", "sequencechannel, and so on)
-* [**./&#42;] {string}** Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). The current release allows no filtering at this time
+* **[./*] {string}** Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). The current release allows no filtering at this time
 
 >[!NOTE]
 >
