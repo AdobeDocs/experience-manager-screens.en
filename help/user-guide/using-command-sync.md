@@ -9,6 +9,9 @@ seo-description: Follow this page to learn about how to use Command Sync.
 
 The following page describes how to use Command Sync. Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.
 
+>[!IMPORTANT]
+>This feature does not support Embedded Sequences, Dynamic Embedded Sequences, Application Channels, or Transitions.
+
 ## Overview {#overview}
 
 Digital signage solutions need to support video walls and synchronized playback to support scenarios like New Year countdowns or large video sliced up to play across multiple screens and this is where Command Sync comes into play.
@@ -20,6 +23,9 @@ The *master* sends a command to all registered clients when it is about to start
 ## Implementing Command Sync {#using-command-sync}
 
 The following section describes how you can use Command Sync in an AEM Screens project.
+
+>[!NOTE]
+>For synchronized playback, it is required that all the hardware devices have the same hardware specifications and preferably the same operating system. Synchronizing between different hardware and operating systems is not recommended.
 
 ### Setting up the Project {#setting-up}
 
@@ -108,16 +114,20 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 ### De-Syncing with the Master {#desync-up-master}
 
-Once you have synced a device or devices to a master, you can de-sync the assignment from that device. In order to remove the syncing from the master device, follow the steps below:
+Once you have synced a device or devices to a master, you can de-sync the assignment from that device. 
+
+>[!NOTE]
+>If you de-sync a master device, it will also unlink all client devices associated with that master device.
+
+In order to remove the syncing from the master device, follow the steps below:
 
 1. Navigate to the **DEVICES** panel  and select the device.
 
-1. Click on **Desync device(s)** to desync the client from the master device.
+1. Click on **Desync device(s)** to de-sync the client from the master device.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Click **Confirm** to desync the selected device from the master.
+1. Click **Confirm** to de-sync the selected device from the master.
 
    >[NOTE:]
-   > If you select the master device and use the desync option, then all the devices connected to the master, will be desynced in one step.
-   
+   > If you select the master device and use the de-sync option, then all the devices connected to the master, will be de-synced in one step.
