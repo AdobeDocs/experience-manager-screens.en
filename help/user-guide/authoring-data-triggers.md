@@ -4,7 +4,6 @@ seo-title: Authoring with Data Triggers
 description: Follow this page to learn how to author with data triggers.
 ---
 
-
 # Authoring with Data Triggers {#authoring-with-data-triggers}
 
 This section highlights how to enable targeting in your channels.
@@ -19,7 +18,7 @@ Before you follow the steps below to enable targeting in channels, you must lear
 
 Once you have completed the preceding steps, you can ready to enable targeting in your channels.
 
-## Authoring with Data Triggers Overview {authoring-targeting}
+## Authoring with Data Triggers Overview {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921
 )
