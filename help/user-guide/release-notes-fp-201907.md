@@ -33,7 +33,7 @@ The player switches to a channel showing the emergency info upon receiving an ev
 
 Refer to [Emergency Channel](emergency-channel.md) Use Case for implementation.
 
-* **Targeting Enabled for asynchronous components (*such as videos, embedded sequence*)**
+* **Targeting Enabled for asynchronous components
 
 Targeting can now be enabled for assets used in AEM Screens project.
 
