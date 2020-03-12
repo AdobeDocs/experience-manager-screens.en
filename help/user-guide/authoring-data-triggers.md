@@ -8,26 +8,32 @@ description: Follow this page to learn how to author with data triggers.
 
 This section highlights how to enable targeting in your channels.
 
+>>[!Important]
+> The minimum version that supports data triggers in an AEM Screens channel is AEM 6.4.3 Feature Pack 3.
+
 ## Prerequisites {#prereqs}
 
-Before you follow the steps below to enable targeting in channels, you must learn the following topics:
+Before you follow the steps below to enable targeting in channels, you must learn the [Key Terms in Configuring in AEM Screens](configuring-context-hub.md) required for understanding ContextHub and Targeting in AEM Screens.
 
-1. Key Terms in Configuring in AEM Screens
-1. Set up Data Store
-1. Set up Audience Segmentation
+>[!Important]
+> It is recommended that you understand and set up ContextHub configurations, before enabling targeting in an AEM Screens channel.
 
-Once you have completed the preceding steps, you can ready to enable targeting in your channels.
+Follow the links below for more information:
+
+1. **[Setting up Data Store](configuring-context-hub.md)**
+1. **[Setting up Audience Segmentation](configuring-context-hub.md)**
+
+Once you have completed the preceding steps, you are ready to enable targeting in your channels.
 
 ## Authoring with Data Triggers Overview {#author-targeting}
 
->[!VIDEO](https://video.tv.adobe.com/v/31921
-)
+>[!VIDEO](https://video.tv.adobe.com/v/31921)
 
 ## Enabling Targeting in an AEM Screens Channel {#enabling-targeting}
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
 
 1. Select the channel **DataDrivenRetail** and click **Properties** from the action bar.
 
