@@ -13,15 +13,15 @@ This section highlights how to enable targeting in your channels.
 
 ## Prerequisites {#prereqs}
 
-Before you follow the steps below to enable targeting in channels, you must learn the [Key Terms in Configuring in AEM Screens](authoring-data-triggers.md#key-terms) required for understanding ContextHub and Targeting in AEM Screens.
+Before you follow the steps below to enable targeting in channels, you must learn the [Key Terms in Configuring in AEM Screens](configuring-context-hub.md#key-terms) required for understanding ContextHub and Targeting in AEM Screens.
 
 >[!Important]
 > It is recommended that you understand and set up ContextHub configurations, before enabling targeting in an AEM Screens channel.
 
 Follow the links below for more information:
 
-1. **[Setting up Data Store](authoring-data-triggers.md##step-setting-up-a-data-store)**
-1. **[Setting up Audience Segmentation](authoring-data-triggers.md##step-setting-up-audience-segmentation)**
+1. **[Setting up Data Store](configuring-context-hub.md##step-setting-up-a-data-store)**
+1. **[Setting up Audience Segmentation](configuring-context-hub.md##step-setting-up-audience-segmentation)**
 
 Once you have completed the preceding steps, you are ready to enable targeting in your channels.
 
