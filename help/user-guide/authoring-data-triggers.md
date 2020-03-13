@@ -9,7 +9,7 @@ description: Follow this page to learn how to author with data triggers.
 This section highlights how to enable targeting in your channels.
 
 >[!IMPORTANT]
-> The minimum version that supports data triggers in an AEM Screens channel is AEM 6.4.3 Feature Pack 3.
+> The minimum version that supports data triggers in an AEM Screens channel is AEM 6.5.3 Feature Pack 3.
 
 ## Prerequisites {#prereqs}
 
