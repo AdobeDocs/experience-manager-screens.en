@@ -53,7 +53,7 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** &gt; **Channels** and click **Edit** from the action bar.
+1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** &gt; **Channels** and click **Edit** from the action bar. Drag and drop the assets in your channel editor.
 
    >[!NOTE]
    >
@@ -61,9 +61,9 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Once you have configured the ContextHub configurations for your channel, make sure you follow preceding steps from 1 through 4, for the other three sequence channels too if you want to follow all the use cases below.
+1. Click **Targeting**.
+
+1. Select **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
 
 ### Learn More: Example Use Cases {#learn-more-example-use-cases}
 

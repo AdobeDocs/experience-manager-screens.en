@@ -51,16 +51,16 @@ Follow the steps below to implement the Retail Inventory Activation use case:
     1. Drag and drop the **Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
     1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**
 
-    1. Select the **Operator** as **greater-than **from the drop-down menu
+    1. Select the **Operator** as **greater-than** from the drop-down menu
 
     1. Seelect **Data Type** as **number**
 
-    1. Select **googlesheets/value/1/1** from the drop-down in **Second Property name**
+    1. Select **googlesheets/value/1/1** from the drop-down in **Second Property name**.
 
-    1. Drag and drop **another Comparison : Property - Property **to the editor and click the configure icon to edit the properties.
-    1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**
+    1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
+    1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
 
-    1. Select the **Operator** as **greater-than **from the drop-down menu
+    1. Select the **Operator** as **greater-than** from the drop-down menu
 
     1. Select **Data Type** as **number**
 
