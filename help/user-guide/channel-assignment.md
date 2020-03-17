@@ -40,7 +40,7 @@ Follow the steps below to assign a channel to a display:
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel **in the action bar
+1. Tap/click **Assign Channel** in the action bar
 
    Or,
 
