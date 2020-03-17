@@ -450,7 +450,7 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
 ## Template for Custom Handlers {#custom-handlers}
 
-The section below highlights the Template for custom handler and the minimum requirements in the pom.xml for that specific project.
+The section below showcases the template for custom handler and the minimum requirements in the pom.xml for that specific project.
 
 ```java
    package …;
