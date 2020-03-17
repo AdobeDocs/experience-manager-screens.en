@@ -89,7 +89,7 @@ Follow the steps below to assign a channel to a display:
 
 ### Dayparting {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of dayparting within a day, week, or month as per the requirement.
 
