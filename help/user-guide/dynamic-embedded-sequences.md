@@ -122,7 +122,7 @@ Follow the steps below to implement the functionality:
 
    >[!CAUTION]
    >
-   >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A **and the **Name** as **region**.
+   >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A** and the **Name** as **region**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -149,7 +149,7 @@ Follow the steps below to implement the functionality:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Similarly, create a display as **Store2Display** and a channel **Store2Channel** under** Store 2** (with name as **store**).
+   Similarly, create a display as **Store2Display** and a channel **Store2Channel** under **Store 2** (with name as **store**).
 
    >[!NOTE]
    >
@@ -201,7 +201,7 @@ Follow the steps below to implement the functionality:
     1. Navigate to **Demo** --&gt; **Schedules** --&gt; **AdSchedule** and click **Dashboard** from the action bar.
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Demo*** --&gt; ***Channels*** --&gt; ***Global***.
+    1. Select the **Channel Path** as **Demo** --&gt; ***Channels*** --&gt; ***Global***.
     1. Enter the **Channel Role** as **GlobalAdSegment**.
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen**, and **User Interaction**.
     1. Click **Save**.
@@ -210,11 +210,11 @@ Follow the steps below to implement the functionality:
 
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
     1. Select **Reference Channel**.. by name.
-    1. Enter the **Channel Name** as **region***.*
+    1. Enter the **Channel Name** as **region***.
     1. Enter the **Channel Role** as **RegionAdSegment**.
     1. Click **Save**.
 
-   **Assign Channel by Role for Store:**
+   **Assign Channel by Role for Store:
 
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
     1. Select **Reference Channel**.. by name.
@@ -272,7 +272,7 @@ If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region 
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region B** --&gt;** Store 3** --&gt; **Store3Display**, the following content will display on your AEM Screens player.
+If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region B** --&gt; **Store 3** --&gt; **Store3Display**, the following content will display on your AEM Screens player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -367,7 +367,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
    **For Region-Author:**
 
     1. Navigate to the **Permissions** tab.
-    1. Navigate to ***/content/screens/demo*** and check only the** Read** permissions.
+    1. Navigate to ***/content/screens/demo*** and check only the **Read** permissions.
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.
     1. Navigate to ***/content/screens/demo/channels ***and un-check the permissions for **Global** channel.***
     1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
@@ -393,7 +393,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A **and **Region B**) channels.
+   The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A** and **Region B**) channels.
 
    ![store](assets/store.gif)
 
