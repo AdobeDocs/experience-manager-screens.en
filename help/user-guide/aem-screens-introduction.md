@@ -65,8 +65,12 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 * **AEM 6.5 Tutorials and Videos**: A collection of tutorials and videos highlighting both new and updated capabilities for AEM Sites, Assets, Forms, Screens, and Foundation with the release of AEM 6.5.
 * **AEM Core Concepts**: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM.
 
-### Guided Implementation Essentials {#guided-implementation-essentials}
+## Additional Resources {#additional-resources}
+
+* **Guided Implementation Essentials**
 
 Follow the guided learning path **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, that covers foundational as well as advanced features supported in AEM Screens.
 
-While creating a new project, different functions may overlap depending on your organizational and business requirements. 
+* **Best Practices Guide for AEM Screens Projects**
+
+Follow [Best Practices Guide for AEM Screens Projects](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) that is designed to identify common pitfalls while implementing an AEM Screens project and the material focuses primarily on Project Roles and Responsibilities, RACI Chart for Different Roles AEM Platform Configurations, and Support and Monitoring.

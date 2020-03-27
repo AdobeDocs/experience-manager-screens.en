@@ -45,17 +45,34 @@ Before you start configuring Context Hub Configurations for an AEM Screens proje
 >
 >For more information, refer to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
 
+
 ## Step 1: Setting up a Data Store {#step-setting-up-a-data-store}
 
-You can set up the data store as a Local I/O event or as a local database event.
+You can set up the data store as a Local I/O event or as a local database event. 
 
-### Local I/O Event {#local-io-event}
+The following asset level data triggers example showcases a local database event that sets up a data store such as an excel sheet that allows you to use ContextHub configurations and segments path to AEM Screens channel.
 
-Follow the steps below to set up a data store such as an ASCII event that allows you to use ContextHub configurations and segments path to AEM Screens channel.
+Once you have set up the google sheet correctly for example as shown below: 
 
-### Local Database Event {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Follow the steps below to set up a data store such as an excel sheet that allows you to use ContextHub configurations and segments path to AEM Screens channel.
+The following validation is what you will view when you check your connection by entering the google sheet ID and API key in the format below:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Using the Google Sheet values in AEM**
+>The Google Sheets will expose its values in the ContextHub Store, and will be available under `<store-name>/values/<i>/<j>`, where `<i>` and `<j>` are the row and column indexes in the spreadsheet (starting from 0).
+>
+> * /values/0/0 points to A1
+> * /values/5/0 points to A5
+> * /values/0/5 points to E1
+
+The specific example below shows the the excel sheet as a data store that will trigger asset change if the value is higher than 100 or less than 50.
+
 
 1. **Navigating to ContextHub**
 
@@ -82,14 +99,14 @@ Follow the steps below to set up a data store such as an excel sheet that allows
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -102,10 +119,10 @@ Follow the steps below to set up a data store such as an excel sheet that allows
 
    >[!CAUTION]
    >
-   >If you create your Google Sheets store configurations outside of the legacy folder (for instance in your own project folder), then targeting will not work out of the box.
+   >If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
    >
    >
-   >In case, you want to configure the Google Sheets store configurations outside the global legacy folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Additionally, you have to skip the process of defining the json as defined above.
+   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Additionally, you have to skip the process of defining the json as defined above.
 
 1. **Creating a Brand in Activities**
 
@@ -147,7 +164,7 @@ Once you have set up a data store and defined your brand, follow the steps below
 
 1. **Creating Segments in Audiences**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **We.Retail**.
+    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
 
     1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
 
@@ -155,7 +172,7 @@ Once you have set up a data store and defined your brand, follow the steps below
 
 1. **Editing the Segments**
 
-    1. Select the segment **Sheets A1 1** (created in step (5)), and click **Edit** from the action bar.
+    1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
     1. Click the wrench icon to open the **Comparing a property with value** dialog box.
@@ -181,9 +198,6 @@ Once you have set up a data store and defined your brand, follow the steps below
 
     1. Enter the **Value** as **2**.
 
-   >[!NOTE]
-   >
-   >The rules applied in the preceding steps are just an example as to how you set up segments for implementing the following use cases.
 
 ## Step 3: Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
