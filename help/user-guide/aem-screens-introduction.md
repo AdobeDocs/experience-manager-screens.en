@@ -73,4 +73,4 @@ Refer to the following tutorials and resources to learn Adobe Experience Manager
 
 * **Best Practices Guide for AEM Screens Projects**
 
-   Follow [Best Practices Guide for AEM Screens Projects](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) that is designed to identify common pitfalls while implementing an AEM Screens project. The material focuses primarily on Project Roles and Responsibilities, RACI Chart for Different Roles AEM Platform Configurations, and Support and Monitoring.
+   Follow **[Best Practices Guide for AEM Screens Projects](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)** that is designed to identify common pitfalls while implementing an AEM Screens project. The material focuses primarily on Project Roles and Responsibilities, RACI Chart for Different Roles AEM Platform Configurations, and Support and Monitoring.
