@@ -25,7 +25,7 @@ This guide not only provides a comprehensive insight and practical advice to ima
 >[!IMPORTANT]
 > This Guide is designed to identify common pitfalls while implementing an AEM Screens project and the material focuses primarily on the following topics:
 >
-> * **[Project Roles and Responsibilties](roles-responsibilities.md)**
+> * **[Project Roles and Responsibilities](roles-responsibilities.md)**
 > * **[RACI Chart for Different Roles](roles-responsibilities.md#raci-chart)**
 > * **[AEM Platform Configurations](aem-platform-configurations.md)**
 > * **[Support and Monitoring](support-monitoring.md)**
