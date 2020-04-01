@@ -56,70 +56,72 @@ Once you have set up the google sheet correctly for example as shown below:
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-The following validation is what you will view when you check your connection by entering the google sheet ID and API key in the format below:
+The following validation is what you will view when you check your connection by entering the two values, *google sheet ID* and *API key* in the format below:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**Using the Google Sheet values in AEM**
->The Google Sheets will expose its values in the ContextHub Store, and will be available under `<store-name>/values/<i>/<j>`, where `<i>` and `<j>` are the row and column indexes in the spreadsheet (starting from 0).
->
-> * /values/0/0 points to A1
-> * /values/5/0 points to A5
-> * /values/0/5 points to E1
+> The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
 
-The specific example below shows the the excel sheet as a data store that will trigger asset change if the value is higher than 100 or less than 50.
-
+## Step 2: Connecting the Google Sheets to AEM instance {#step-connecting-aem-instance}
 
 1. **Navigating to ContextHub**
 
    Navigate to your AEM instance and click the tools icon from left sidebar. Click **Sites** --&gt; **ContextHub**, as shown in the figure below.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Creating a new ContextHub Store Configuration**
 
-    1. Navigate to **global** &gt; **default** &gt; **ContextHub Configuration**.
+    1. Navigate to the configuration container titled as **screens**.
 
-    1. Click **Create** &gt; **Configuration Container** and enter the title as **ContextHubDemo**.
+    1. Click **Create** &gt; **Create Configuration Container** and enter the title as **ContextHubDemo**.
 
-    1. **Navigate** to **ContextHubDemo** &gt; **ContentHub Store Configuration...** to open the **Configure wizard**.
+       ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-    1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp**
+    1. **Navigate** to **ContextHubDemo** &gt; **Create** **ContentHub Configuration** and click **Save**.
 
-    1. Click **Next**
-    1. Enter your specific json configuration. For example, you can use the following json for demo purposes.
-    1. Click **Save**.
+        >[!NOTE]
+        > After you click **Save** you will be in the **ContextHub Configuration** screen.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. From the **ContextHub Configuration** screen, click **Create** &gt; **ContentHub Store Configuration..**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+   
+   1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp** and click **Next**.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Enter your specific json configuration. For example, you can use the following json for demo purposes and click **Save** and you will see the store configuration titled as **Google Sheets** in ContextHub configuration.
+
+      >[!IMPORTANT]
+      >Make sure to replace the code with your *&lt;Sheet ID&gt;* and *&lt;API Key&gt;*, that you fetched while setting up the Google Sheets.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >In the above sample code, **pollInterval** defines the frequency at which the values are refreshed (in ms).
-   >
-   >
-   >Replace the code with your *&lt;Sheet ID&gt;* and *&lt;API Key&gt;*, that you fetched while setting up the Google Sheets.
+      >[!NOTE]
+      >
+      >In the above sample code, **pollInterval** defines the frequency at which the values are refreshed (in ms).
+      >Replace the code with your *&lt;Sheet ID&gt;* and *&lt;API Key&gt;*, that you fetched while setting up the Google Sheets.
 
-   >[!CAUTION]
-   >
-   >If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
+      >[!CAUTION]
+      >
+      >If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
    >
    >
    >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Additionally, you have to skip the process of defining the json as defined above.
