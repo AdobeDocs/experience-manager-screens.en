@@ -39,12 +39,11 @@ The following diagram provides a visual representation of how ContextHub Configu
 
 Before you start configuring Context Hub Configurations for an AEM Screens project, you must set up Google Sheets (for demonstration purposes).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets is used in the following example as a sample database system from where the values are fetched and is solely for educational purposes. Adobe does not endorse using Google Sheets for production environments.
 >
 >For more information, refer to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
-
 
 ## Step 1: Setting up a Data Store {#step-setting-up-a-data-store}
 
@@ -65,7 +64,7 @@ The following validation is what you will view when you check your connection by
 >[!NOTE]
 > The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
 
-## Step 2: Connecting the Google Sheets to AEM instance {#step-connecting-aem-instance}
+## Step 2: Setting up Store Configurations {#step-setting-store-configurations}
 
 1. **Navigating to ContextHub**
 
@@ -122,9 +121,19 @@ The following validation is what you will view when you check your connection by
       >[!CAUTION]
       >
       >If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
-   >
-   >
-   >In case, you want to configure the Google Sheets store configurations outside the global folder, then you should must set the **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. Additionally, you have to skip the process of defining the json as defined above.
+
+1. **Setting up Store Segmentation**
+
+   1. Navigate to **ContentHub Store Configuration..** and create another store configuration in the screens configuration container and set the **Title** as **segmentation-contexthub**, **Store Name** as **segmentation** and **Store Type** as **aem.segmentation**. 
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+      >You have to skip the process of defining the json and leave it as blank.
+
+## Step 3: Setting Up Brand and Area {#setting-brand-area}
 
 1. **Creating a Brand in Activities**
 
@@ -134,20 +143,16 @@ The following validation is what you will view when you check your connection by
 
     1. Select **Brand** from the **Create Page** wizard and click **Next**
 
-    1. Enter the **Title** as **ContextHubDemo** and click **Create**. Your brand is now created as shown below.
+    1. Enter the **Title** as **ScreensBrand** and click **Create**. Your brand is now created as shown below.
 
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+       ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   >
-   >Known Issue:
-   >
-   >
-   >To add an area, remove the master from the URL, such as
-   >
-   >
-   >`https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+       >[!CAUTION]
+       >
+       >Known Issue:
+       >To add an area, remove the master from the URL, such as
+       >`https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Creating an Area in your Brand**
 
@@ -160,7 +165,7 @@ The following validation is what you will view when you check your connection by
       1. Enter the **Title** as **GoogleSheets** and click **Create**. 
        Your area will be created in your activity.
 
-## Step 2: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
+## Step 4: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
 
 Once you have set up a data store and defined your brand, follow the steps below to set up audience segments.
 
@@ -201,7 +206,7 @@ Once you have set up a data store and defined your brand, follow the steps below
     1. Enter the **Value** as **2**.
 
 
-## Step 3: Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
+## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
 Follow the steps below to enable targeting in your channels.
 
