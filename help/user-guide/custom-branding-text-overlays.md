@@ -32,7 +32,8 @@ Follow the steps below to create custom branding and styling for text overlays:
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
 1. Navigate to static.css file and set the following css rules. Also shown in the figure below.
-   ```
+
+   ```shell
     //global styles
     .cq-Screens-textOverlay
     { … }
@@ -46,7 +47,7 @@ Follow the steps below to create custom branding and styling for text overlays:
     ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Copy the path to your project, in this case, the path will be ``
+1. Copy the path to your project, in this case, the path will be `/apps/settings/wcm/designs/customstyle`.
 
 1. Navigate to the channel titled as titled as **DemoBrand** (created in step(1)) and click **Properties** from the action bar after selecting the channel.
 
