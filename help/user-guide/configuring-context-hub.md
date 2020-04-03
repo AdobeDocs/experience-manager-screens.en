@@ -134,14 +134,25 @@ The following validation is what you will view when you check your connection by
       >You have to skip the process of defining the json and leave it as blank.
 
 
-## Step 3: Setting Up Audience {#setting-brand-area}
+## Step 3: Setting Up Audience {#setting-up-audience}
 
-add properties
+Pending: to add properties
+
+1. **Creating Segments in Audiences**
+
+    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+
+    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+
+    1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+       ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 
 ## Step 4: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
 
-add editing the
+Pending to add editing
 
 Once you have set up a data store and defined your activity (brand and area), follow the steps below to set up audience segments:
 
@@ -220,8 +231,6 @@ Follow the steps below to create a brand in your activities and area under the b
       1. Enter the **Title** as **ScreensValue** and click **Create**. 
        An area will be created in your brand.
 
-
-
 ## Step 6: Setting up the Activity {#step-setting-up-activity}
 
 Follow the steps below to create an area in the brand:
@@ -237,8 +246,6 @@ Follow the steps below to create an area in the brand:
    1. Similarly, From the **Audiences**, select the **TargetValue2** and click **Add Experience** and enter the **Title** as **valuecheck** **Name** as **valuecheck2**.
 
    1. Click **Next** and then **Save**.
-
-
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
