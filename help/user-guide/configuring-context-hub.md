@@ -133,15 +133,79 @@ The following validation is what you will view when you check your connection by
       >[!NOTE]
       >You have to skip the process of defining the json and leave it as blank.
 
-## Step 3: Setting Up Brand and Area {#setting-brand-area}
+
+## Step 3: Setting Up Audience {#setting-up-audience}
+
+Pending: to add properties
+
+1. **Creating Segments in Audiences**
+
+    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+
+    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+
+    1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+       ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Step 4: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
+
+Pending to add editing
+
+Once you have set up a data store and defined your activity (brand and area), follow the steps below to set up audience segments:
+
+1. **Creating Segments in Audiences**
+
+    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+
+    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+
+    1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+
+       ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+1. **Editing the Segments**
+
+    1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
+
+    1. Drag and drop the **Comparison: Property - Value** component to the editor.
+    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
+
+    1. Select the **Operator** as **equal** from the drop-down menu.
+
+    1. Enter the **Value** as **1**.
+
+   >[!NOTE]
+   >
+   >The AEM validates your data from the Google Sheet by showing your segment as green.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Similarly, edit the property values to **TargetValue2**.
+
+    1. Drag and drop the **Comparison: Property - Value** component to the editor.
+    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
+
+    1. Select the **Operator** as **Equal** from the drop-down menu.
+
+    1. Enter the **Value** as **2**.
+
+## Step 5: Setting Up Brand and Area {#setting-brand-area}
+
+Follow the steps below to create a brand in your activities and area under the brand:
 
 1. **Creating a Brand in Activities**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Activities**
+    1. Navigate from your AEM instance to **Personalization** &gt; **Activities**.
 
-    1. Click **Create** &gt; **Create Brand**
+    1. Click **Create** &gt; **Create Brand**.
 
-    1. Select **Brand** from the **Create Page** wizard and click **Next**
+    1. Select **Brand** from the **Create Page** wizard and click **Next**.
 
     1. Enter the **Title** as **ScreensBrand** and click **Create**. Your brand is now created as shown below.
 
@@ -152,59 +216,36 @@ The following validation is what you will view when you check your connection by
        >
        >Known Issue:
        >To add an area, remove the master from the URL, such as
-       >`https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+       >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Creating an Area in your Brand**
 
     Follow the steps below to create an area in the brand:
 
-      1. Click **Create** and then **Create Area**
+      1. Click **Create** and then **Create Area**.
 
-      1. Select **Area** from the **Create Page** wizard and click Next
+         ![image](/help/user-guide/assets/context-hub/context-hub9.png)
 
-      1. Enter the **Title** as **GoogleSheets** and click **Create**. 
-       Your area will be created in your activity.
+      1. Select **Area** from the **Create Page** wizard and click **Next**.
 
-## Step 4: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
+      1. Enter the **Title** as **ScreensValue** and click **Create**. 
+       An area will be created in your brand.
 
-Once you have set up a data store and defined your brand, follow the steps below to set up audience segments.
+## Step 6: Setting up the Activity {#step-setting-up-activity}
 
-1. **Creating Segments in Audiences**
+Follow the steps below to create an area in the brand:
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+   1. Navigate to **ScreensValue** (created in the preceding step) and click **Create** &gt; **Create Activity**.
 
-    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+   1. The **Configure Activity Wizard** opens. Enter the **Title** as **targetvaluecheck** and **Name** as **targetvaluecheck**. Select the **Targeting engine** as **ContextHub (AEM)** from the drop-down and click **Next**.
 
-    1. Enter the **Title** as **SheetA1 1** and click **Create**. Similarly, create another segment titled as **SheetA2 2**.
+   1. Click **Add Experience** from the **Configure Activity Wizard**.
 
-1. **Editing the Segments**
+   1. From the **Audiences**, select the **TargetValue1** and click **Add Experience** and enter the **Title** as **valuecheck** **Name** as **valuecheck**.
 
-    1. Select the segment **Sheets A1 1**, and click **Edit** from the action bar.
+   1. Similarly, From the **Audiences**, select the **TargetValue2** and click **Add Experience** and enter the **Title** as **valuecheck** **Name** as **valuecheck2**.
 
-    1. Drag and drop the **Comparison: Property - Value** component to the editor.
-    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
-    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
-
-    1. Select the **Operator** as **Equal** from the drop-down menu.
-
-    1. Enter the **Value** as **1**.
-
-   >[!NOTE]
-   >
-   >The AEM validates your data from the Google Sheet by showing your segment as green.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Similarly, edit the property values to **Sheets A1 2**.
-
-    1. Drag and drop the **Comparison: Property - Value** component to the editor.
-    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
-    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
-
-    1. Select the **Operator** as **Equal** from the drop-down menu.
-
-    1. Enter the **Value** as **2**.
-
+   1. Click **Next** and then **Save**.
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
