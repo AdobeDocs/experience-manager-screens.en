@@ -134,9 +134,7 @@ The following validation is what you will view when you check your connection by
       >You have to skip the process of defining the json and leave it as blank.
 
 
-## Step 3: Setting Up Audience {#setting-up-audience}
-
-Pending: to add properties
+## Step 3: Setting Up Segments in Audience {#setting-up-audience}
 
 1. **Creating Segments in Audiences**
 
@@ -144,58 +142,20 @@ Pending: to add properties
 
     1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
 
-    1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
+    1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
 
-       ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+       ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Select the segment **Higherthan50** and click **Properties** from the action bar.
+       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Select the **Personalization** tab from the **Segment Properties**. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` and **Segments Path** to `/conf/screens/settings/wcm/segments` and click **Save**, as shown in the figure below.
 
-## Step 4: Setting Up Audience Segmentation {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-Pending to add editing
+   1. Similarly, set the **ContextHub Path** and **Segments Path** for **Lowerthan50** segment too.
 
-Once you have set up a data store and defined your activity (brand and area), follow the steps below to set up audience segments:
-
-1. **Creating Segments in Audiences**
-
-    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
-
-    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
-
-    1. Enter the **Title** as **TargetValue1** and click **Create**. Similarly, create another segment titled as **TargetValue2**.
-
-       ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Editing the Segments**
-
-    1. Select the segment **TargetValue1**, and click **Edit** from the action bar.
-
-    1. Drag and drop the **Comparison: Property - Value** component to the editor.
-    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
-    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
-
-    1. Select the **Operator** as **equal** from the drop-down menu.
-
-    1. Enter the **Value** as **1**.
-
-   >[!NOTE]
-   >
-   >The AEM validates your data from the Google Sheet by showing your segment as green.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Similarly, edit the property values to **TargetValue2**.
-
-    1. Drag and drop the **Comparison: Property - Value** component to the editor.
-    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
-    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
-
-    1. Select the **Operator** as **Equal** from the drop-down menu.
-
-    1. Enter the **Value** as **2**.
-
-## Step 5: Setting Up Brand and Area {#setting-brand-area}
+## Step 4: Setting Up Brand and Area {#setting-brand-area}
 
 Follow the steps below to create a brand in your activities and area under the brand:
 
@@ -231,21 +191,64 @@ Follow the steps below to create a brand in your activities and area under the b
       1. Enter the **Title** as **ScreensValue** and click **Create**. 
        An area will be created in your brand.
 
-## Step 6: Setting up the Activity {#step-setting-up-activity}
+## Step 5: Creating the Segments in an Activity {#step-setting-up-audience-segmentation}
 
-Follow the steps below to create an area in the brand:
+Once you have set up a data store and defined your activity (brand and area), follow steps below to create segments in your activity.
 
-   1. Navigate to **ScreensValue** (created in the preceding step) and click **Create** &gt; **Create Activity**.
+1. **Creating Segments in Activities**
 
-   1. The **Configure Activity Wizard** opens. Enter the **Title** as **targetvaluecheck** and **Name** as **targetvaluecheck**. Select the **Targeting engine** as **ContextHub (AEM)** from the drop-down and click **Next**.
+    1. Navigate from your AEM instance to **Personalization** &gt; **Activities** &gt; **ScreensBrand** &gt;**ScreensValue**.
+
+    1. Click **Create** &gt; **Create Activity.** The **Configure Activity Wizard** opens.
+
+    1. Enter the **Title** as **ValueCheck50** and **Name** as **valuecheck50**. Select the **Targeting engine** as **ContextHub (AEM)** from the drop-down and click **Next**.
+
+       ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
    1. Click **Add Experience** from the **Configure Activity Wizard**.
 
-   1. From the **Audiences**, select the **TargetValue1** and click **Add Experience** and enter the **Title** as **valuecheck** **Name** as **valuecheck**.
+   1. From the **Audiences**, select the **Higherthan50** and click **Add Experience** and enter the **Title** as **higherthan50** **Name** as **higherthan50**. Click **Ok**.
 
-   1. Similarly, From the **Audiences**, select the **TargetValue2** and click **Add Experience** and enter the **Title** as **valuecheck** **Name** as **valuecheck2**.
+   1. From the **Audiences**, select the **Lowerthan50** and click **Add Experience** and enter the **Title** as **lowerthan50** **Name** as **lowerthan50**. Click **Ok**.
 
-   1. Click **Next** and then **Save**.
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **ValueCheck50** activity is now created and configured.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Step 5: Editing the Segments {#editing-audience-segmentation}
+
+1. **Editing the Segments**
+
+    1. 1. Navigate from your AEM instance to **Personalization** &gt; **Activities** &gt; **ScreensBrand** &gt;**ScreensValue** &gt;**ValueCheck50**.
+
+    1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+
+    1. Drag and drop the **Comparison: Property - Value** component to the editor.
+    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
+
+    1. Select the **Operator** as **equal** from the drop-down menu.
+
+    1. Enter the **Value** as **1**.
+
+   >[!NOTE]
+   >
+   >The AEM validates your data from the Google Sheet by showing your segment as green.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Similarly, edit the property values to **TargetValue2**.
+
+    1. Drag and drop the **Comparison: Property - Value** component to the editor.
+    1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
+
+    1. Select the **Operator** as **Equal** from the drop-down menu.
+
+    1. Enter the **Value** as **2**.
+
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
 
