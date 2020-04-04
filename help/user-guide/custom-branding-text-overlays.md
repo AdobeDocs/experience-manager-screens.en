@@ -14,7 +14,7 @@ Follow this page to learn how to apply custom branding and styling for Text Over
 
 Follow the steps below to create custom branding and styling for text overlays:
 
-1. Create an AEM Screens project titled as **customstyle** and a channel titled as **DemoBrand**, as shown in the figure below.
+1. Create an AEM Screens project. This example showcases the functionality by creating a project named **customstyle** and a channel titled **DemoBrand** , as shown in the figure below.
 
     ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -34,16 +34,26 @@ Follow the steps below to create custom branding and styling for text overlays:
 1. Navigate to *static.css* file and set the following css rules. Also shown as an example in the figure below the css rules.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
     ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -63,6 +73,13 @@ Follow the steps below to create custom branding and styling for text overlays:
 
 1. Click **Save & Close** to update the design path.
 
+### Updating ACLs {#updating-acls}
+
+You must update the ACLs for these designs so that they can be downloaded by the player.
+
+1. Navigate to useradmin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
+
+1. Provide `screens-<project>-administrators` group read and modify permissions to this path.
 
 ## Viewing the Result {#viewing-the-result}
 
