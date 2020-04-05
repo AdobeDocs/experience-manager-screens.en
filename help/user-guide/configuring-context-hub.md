@@ -217,21 +217,23 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Step 5: Editing the Segments {#editing-audience-segmentation}
+## Step 5: Editing the Segments in Audiences{#editing-audience-segmentation}
 
 1. **Editing the Segments**
 
-    1. 1. Navigate from your AEM instance to **Personalization** &gt; **Activities** &gt; **ScreensBrand** &gt;**ScreensValue** &gt;**ValueCheck50**.
+    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
 
-    1. Select the segment **ValueCheck50**, and click **Edit** from the action bar.
+    1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
+
     1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
 
-    1. Select the **Operator** as **equal** from the drop-down menu.
+    1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-    1. Enter the **Value** as **1**.
+    1. Enter the **Value** as **50**.
 
    >[!NOTE]
    >
@@ -239,15 +241,17 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Similarly, edit the property values to **TargetValue2**.
+   Similarly, edit the property values to **Lowerthan50**.
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
+    
     1. Click the wrench icon to open the **Comparing a property with value** dialog box.
+
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
 
-    1. Select the **Operator** as **Equal** from the drop-down menu.
+    1. Select the **Operator** as **less-than** from the drop-down menu.
 
-    1. Enter the **Value** as **2**.
+    1. Enter the **Value** as **50**.
 
 
 ## Enabling Targeting in Channels {#step-enabling-targeting-in-channels}
