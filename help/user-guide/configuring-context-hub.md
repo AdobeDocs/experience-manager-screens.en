@@ -149,7 +149,7 @@ The following validation is what you will view when you check your connection by
    1. Select the segment **Higherthan50** and click **Properties** from the action bar.
        ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Select the **Personalization** tab from the **Segment Properties**. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` and **Segments Path** to `/conf/screens/settings/wcm/segments` and click **Save**, as shown in the figure below.
+   1. Select the **Personalization** tab from the **Segment Properties**. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` and **Segments Path** to `/conf/screens/settings/wcm/segments` and click **Save**, as shown in the figure below.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -240,11 +240,11 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
     1. Enter the **Value** as **70**.
 
-   >[!NOTE]
-   >
-   >The AEM validates your data from the Google Sheet by showing your segment as green.
+       >[!NOTE]
+       >
+       >The AEM validates your data from the Google Sheet by showing your segment as green.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+       ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Similarly, edit the property values to **Lowerthan50**.
 
@@ -263,11 +263,11 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
 
-1. Select the channel **DataDrivenRetail** and click **Properties** from the action bar.
+1. Select the channel **TargetChannel** and click **Properties** from the action bar.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Select the **Personalization** tab to setup the ContextHub configurations.
 
@@ -277,23 +277,19 @@ Follow the steps below to enable targeting in your channels.
 
     1. Click **Save & Close**.
 
-   >[!NOTE]
-   >
-   >Use the ContextHub and the Segments path, where you initially saved your context hub configurations and segments.
+       >[!NOTE]
+       >
+       >Use the ContextHub and the Segments path, where you initially saved your context hub configurations and segments.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+       ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** &gt; **Channels** and click **Edit** from the action bar.
+   1. Navigate and select the **TargetChannel** channel and click **Edit** from the action bar.
 
-   >[!NOTE]
-   >
-   >If you have set up everything correctly, you will see **Targeting** option in the drop-down from the editor, as shown in the figure below.
+      >[!NOTE]
+      >
+      >If you have set up everything correctly, you will see **Targeting** option in the drop-down from the editor, as shown in the figure below.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
-
-   >[!NOTE]
-   >
-   >Once you have configured the ContextHub configurations for your channel, make sure you follow preceding steps from 1 through 4, for the other three sequence channels too if you want to follow all the use cases below.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Learn More: Example Use Cases {#learn-more-example-use-cases}
 
