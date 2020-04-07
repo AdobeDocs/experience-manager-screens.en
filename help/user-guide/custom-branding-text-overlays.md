@@ -81,7 +81,7 @@ Follow the steps below to create custom branding and styling for text overlays:
     1. Overlay `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
     1. Modify the *cq:designPath* property in `/apps/screens/core/templates/sequencechannel/jcr:content` to point to the new design.
 
-1. To create their own template altogether:
+1. To create your own template altogether:
      1. Copy `/libs/screens/core/templates/sequencechannel` to `/apps/customstyle/templates/styled-sequencechannel`.
      1. Modify the *cq:designPath* property in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` to point to the new design.
  
