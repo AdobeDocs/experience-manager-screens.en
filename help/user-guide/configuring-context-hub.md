@@ -231,20 +231,25 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
 
+       >[!NOTE]
+       > The **googlesheets/value/1/0** refers to row 2 and column as populated in the google sheets in the figure below:
+
+       ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
     1. Select the **Operator** as **greater-than** from the drop-down menu.
 
-    1. Enter the **Value** as **50**.
+    1. Enter the **Value** as **70**.
 
    >[!NOTE]
    >
    >The AEM validates your data from the Google Sheet by showing your segment as green.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Similarly, edit the property values to **Lowerthan50**.
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
-    
+
     1. Click the wrench icon to open the **Comparing a property with value** dialog box.
 
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
