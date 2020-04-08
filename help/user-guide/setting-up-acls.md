@@ -15,7 +15,7 @@ discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 
 The following section explains how to segregate projects using ACLs so that each individual or team handles their own project.
 
-As an AEM administrator, you want ensure that team members of a project do not interfere with other projects and each of the users are assigned sepecific roles as per project requirements.
+As an AEM administrator, you want ensure that team members of a project do not interfere with other projects and each of the users are assigned specific roles as per project requirements.
 
 ## Setting up Permissions {#setting-up-permissions}
 
@@ -127,7 +127,7 @@ The following table summarizes the groups with description and permissions for a
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Players<br /> <em>screens-we-retail-devices</em></td>
+   <td>Screens Players<br /> <em>screens-&lt;project&gt;-devices</em></td>
    <td>Groups all players and all players/devices are member of the contributors automatically.</td>
    <td><p> Member of Contributors</p> </td>
   </tr>
