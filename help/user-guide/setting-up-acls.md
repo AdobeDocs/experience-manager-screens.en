@@ -127,7 +127,7 @@ The following table summarizes the groups with description and permissions for a
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Players<br /> <em>screens-<project>-devices</em></td>
+   <td>Screens Players<br /> <em>screens-&lt;project&gt;-devices</em></td>
    <td>Groups all players and all players/devices are member of the contributors automatically.</td>
    <td><p> Member of Contributors</p> </td>
   </tr>
