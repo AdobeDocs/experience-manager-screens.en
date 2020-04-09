@@ -10,11 +10,17 @@ seo-description: The page describes Security Checklist for AEM Screens
 This page highlights the System Security Considerations for AEM Screens.
 
 
+## White Paper for AEM Screens Security {#faqs-screens}
+
+This section describes the white paper.
+
+
 ## FAQs for AEM Screens Security {#faqs-screens}
 
 The following FAQs assume an authenticated, registered player architecture using HTTPS as the communication protocol between player and AEM Server.
 
 ### FAQ 1 {#faq1}
+
 Can player traffic be re-routed to a malicious server and instructed to download and play malicious media content?
 
 **Answer**
@@ -22,12 +28,14 @@ It is not possible because the HTTPs connection identifies both ends of the conn
 
   
 ### FAQ 2 {#faq2}
+
 Should I use HTTP or HTTPs?
 **Answer**
 Use HTTPs. This is a must-have if you are concerned about security. With HTTPs the communication is encrypted between player and server, and intercepting the content or modifying it will pretty much be impossible.
 
 
 ### FAQ 3 {#faq3}
+
 On a content download, is there any sort of signing of the content or hash?
 **Answer**
 Every asset is signed (SHA) by the server and then validated by the player for the same hash to guarantee integrity.
@@ -35,12 +43,14 @@ If the hash does not match, we try to re-validate 3 times. After 3 attempts, we 
 
 
 ### FAQ 4 {#faq4}
+
 Is AEM Server secure?
 **Answer**
 Ans 4. Assuming you are on AMS, we take care of all the server security using the same features as Sites or Assets.
 
 
 ### FAQ 5 {#faq5}
+
 Is the Device secure?
 **Answer**
 A physically compromised player can theoretically be manipulated to play any content. You could also just plug the player out and plug in a USB/HDMI stick.
@@ -55,6 +65,7 @@ Also would recommend putting them on a private network, not exposed to the publi
 
   
 ### FAQ 6 {#faq6}
+
 How would a hacker attempt to compromise a player?
 **Answer**
 The only way to compromise a player device is to:
@@ -72,7 +83,6 @@ We are thus only as secure as their network and their premises.
 >Even if a device is compromised, you can still easily revoke it's credentials so that it can't connect to AEM anymore.
 
 
-## White Paper for AEM Screens Security {#faqs-screens}
 
 
 
