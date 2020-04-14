@@ -56,8 +56,9 @@ Follow the steps below to assign a channel to a display:
 
 Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
 
-   * **by path**: you provide an explicit reference using the absolute path of the channel.
-    * **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **by path**: you provide an explicit reference using the absolute path of the channel.
+
+* **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 #### Channel Role {#role-channel}
 
@@ -97,7 +98,7 @@ Schedule allows you to provide a description in text when the channel should app
    Show attraction tooltip defines if the attraction tooltip ("*Touch anywhere to begin*") must be shown or not while the channel is running.
 
 
-## Dayparting {#dayparting}
+### Dayparting {#dayparting}
 
 Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
