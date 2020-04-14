@@ -37,7 +37,7 @@ This section only showcases how to use and leverage the poster component in an A
 
 The following section describes the use of text overlay in an AEM Screens project.
 
-### Prerequisites {#prerequisites}
+**Prerequisites**
 
 Before you start implementing this functionality, please make sure you have set up a project as a prerequisite to start implementing text overlay. For example,
 
@@ -50,8 +50,6 @@ Before you start implementing this functionality, please make sure you have set 
 The following image shows the **TextOverlayDemo** project with **TextSample** channel in **Channels** folder.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
-
-### Using Text Overlay {#using-text-overlay}
 
 Follow the steps below to use text overlay in an AEM Screens channel:
 
