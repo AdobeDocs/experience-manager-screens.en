@@ -271,9 +271,7 @@ Follow the steps below to enable targeting in your channels.
 
 1. Select the **Personalization** tab to setup the ContextHub configurations.
 
-    1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
-
-    1. Select the **Segments Path** as **conf** &gt; **We.Retail** &gt; **settings** &gt; **wcm** &gt; **segments** and click **Select**.
+    1. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` and **Segments Path** to `/conf/screens/settings/wcm/segments` and click **Save**.
 
     1. Click **Save & Close**.
 
