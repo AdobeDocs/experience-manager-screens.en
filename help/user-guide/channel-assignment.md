@@ -84,12 +84,13 @@ Priority is used to order the assignments in case multiple ones match the playin
 > This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
-The following options are available to set the interruption method from the **Channel Assignment** dialog box:
+
+Select from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 
 * **Immediately**: whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
 * **At the end of the current item**: when a new schedule activates or an update is received, you have the option to wait for the current item in the sequence to finish playing, and only after that you refresh or play the new content
    >[!NOTE]
-   >This is the default option that is selected.
+   >This option is selected by default.
 * **At the end of the sequence**: when a new schedule activates or an update is received, you have the option to wait for the whole sequence to reach its end, and just before the desired sequence, you loop back to the 1st element, you refresh or play the new content
 
 #### Schedule {#schedule-channel}
