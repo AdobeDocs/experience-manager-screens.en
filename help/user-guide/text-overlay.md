@@ -115,7 +115,7 @@ Once you have set up the required configurations for your project, follow the st
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Add an image and text overlay component to your image as described in [Using Text Overlay](#using-text-overlay) section of this page.
+1. Add an image and text overlay component to your image as described in **Using Text Overlay** section of this page.
 
 1. Click on **Configure** (wrench icon) to open the **Image** dialog box.
 
@@ -142,7 +142,7 @@ Once you have set up the required configurations for your project, follow the st
 1. Click on **Preview** to view the desired output.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-   
+
 
 
 
