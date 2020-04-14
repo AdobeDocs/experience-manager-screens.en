@@ -18,8 +18,8 @@ This section covers the following topics:
 
 * **Overview**
 * **Using Text Overlay**
-* **Prerequisites**
 * **Understanding Text Overlay Properties**
+* **Using ContextHub Values in Text Overlay**
 
 >[!CAUTION]
 >
