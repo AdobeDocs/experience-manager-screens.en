@@ -43,13 +43,17 @@ Before you start implementing this functionality, please make sure you have set 
 
 * Create an AEM Screens project (in this example, **TextOverlayDemo**)
 
-* Create a channel as **TextSample** under **Channels** folder
+* Create a sequence channel titled as **TextSample** under **Channels** folder
 
 * Add content to your **TextSample** Channel
 
 The following image shows the **TextOverlayDemo** project with **TextSample** channel in **Channels** folder.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
+
+### Using Text Overlay {#using-text-overlay}
+
+Follow the steps below to use text overlay in an AEM Screens channel:
 
 1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
 
