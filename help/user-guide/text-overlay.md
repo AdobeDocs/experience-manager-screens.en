@@ -37,19 +37,21 @@ This section only showcases how to use and leverage the poster component in an A
 
 The following section describes the use of text overlay in an AEM Screens project.
 
-### Prerequisites {#prerequisites}
+**Prerequisites**
 
 Before you start implementing this functionality, please make sure you have set up a project as a prerequisite to start implementing text overlay. For example,
 
 * Create an AEM Screens project (in this example, **TextOverlayDemo**)
 
-* Create a channel as **TextSample** under **Channels** folder
+* Create a sequence channel titled as **TextSample** under **Channels** folder
 
 * Add content to your **TextSample** Channel
 
 The following image shows the **TextOverlayDemo** project with **TextSample** channel in **Channels** folder.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
+
+Follow the steps below to use text overlay in an AEM Screens channel:
 
 1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
 
@@ -78,4 +80,78 @@ You can add a text to the text box and add typographical emphasis such as bold, 
 >[!NOTE]
 >
 >To properly use fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200px. The result of this expression will be 200 pixels from start point.
+
+## Using ContextHub Values in Text Overlay {#using-text-overlay-context-hub}
+
+The following section describes the usage of values from a data store, for example, google sheets in text overlay component. 
+
+**Prerequisites**
+
+You must set up ContextHub configurations for your AEM Screens project. 
+
+To learn how to setup and manage data driven asset changes using a a data store, refer to [Configuring ContextHub in AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+
+Once you have set up the required configurations for your project, follow the steps below to use values from the google sheets: 
+
+1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Properties** from the action bar.
+
+1. Select the **Personalization** tab to setup the ContextHub configurations.
+
+    1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
+
+    1. Select the **Segments Path** as **conf** &gt; **screens** &gt; **settings** &gt; **wcm** &gt; **segments** and click **Select**.
+
+    1. Click **Save & Close**.
+
+       >[!NOTE]
+       >
+       >Use the ContextHub and the Segments path, where you initially saved your context hub configurations and segments.
+
+       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+
+1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+
+1. Add an image and text overlay component to your image as described in **Using Text Overlay** section of this page.
+
+1. Click on **Configure** (wrench icon) to open the **Image** dialog box.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+
+1. Navigate to the **ContextHub** tab from the **Image** dialog box. Click **Add**.
+
+   >[!NOTE]
+   >If you have not setup your ContextHub configurations, this option will be disabled for your project.
+
+1. Enter **Value** in the **Placeholder** field, select the row that you want to get the value from your google sheet in **ContextHub Variable** (in this case, the value is retrieved from row 2 and column 1 from the google sheets), and enter the **Default Value** as **20**, a shown in the figure below. Once you are done click on the check-mark.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+
+   >[!NOTE]
+   >For your reference, the following image showcases the value that is retrieved from the google sheets:
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+
+1. Navigate back to the **Text Overlay** tab from the Image dialog box and add the text *Current Temperature {Value}*, as shown in the figure below.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+
+1. Click on **Preview** to view the desired output.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
