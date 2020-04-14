@@ -46,46 +46,57 @@ Follow the steps below to assign a channel to a display:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box:
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Channel Role**:
+### Understanding Channel Properties {#channel-properties}
 
-   Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.
+#### Reference Channel {#ref-channel}
 
-   **Reference Channel**:
+Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
 
-   Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
+* **by path**: you provide an explicit reference using the absolute path of the channel.
 
-    * **by path**: you provide an explicit reference using the absolute path of the channel.
-    * **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   **Priority:**
+#### Channel Role {#role-channel}
 
-   Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
+Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.
 
-   The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
+#### Priority {#priority-channel}
 
-   **Supported Events**:
+Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
-    * **Initial Load**: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule
-    * **Idle Screen**: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule
-    * **Timer**: needs to be set when a schedule is provided
-    * **User Interaction**: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched
+   >[!NOTE]
+   >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
 
-   **Schedule**:
+#### Supported Events {#supported-events-channel}
 
-   Schedule allows you to provide a description in text when the channel should appear. It also let's you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. The syntax for the schedule expression is based on later.js' text and cron syntaxes:
+* **Initial Load**: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule
+* **Idle Screen**: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule
+* **Timer**: needs to be set when a schedule is provided
+* **User Interaction**: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched
 
-    * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-    * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
+#### Interruption Method {#interruption-method-channel}
 
-   **Show Attraction Tooltip**:
+As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
+The following options are available to set the interruption method from the **Channel Assignment** dialog box:
+
+* **Immediately**: whenever the schedule activates or an update is received, we cut off the playback and immediately refresh or play the new content
+* **At the end of the current item**: when a new schedule activates or an update is received, we wait for the current item in the sequence to finish playing, and only after that we refresh or play the new content
+   >[!NOTE]
+   >This is the default option that is selected.
+* **At the end of the sequence**: when a new schedule activates or an update is received, we wait for the whole sequence to reach its end, and just before we loop back to the 1st element we refresh or play the new content
+
+#### Schedule {#schedule-channel}
+
+Schedule allows you to provide a description in text when the channel should appear. It also let's you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 
+
+**Show Attraction Tooltip**:
 
    Show attraction tooltip defines if the attraction tooltip ("*Touch anywhere to begin*") must be shown or not while the channel is running.
 
-1. Click **Save** to assign the created channel to a display.
 
 ### Dayparting {#dayparting}
 
@@ -157,4 +168,9 @@ This examples shows the dayparting for a store that displays their winter collec
 |---|---|---|---|
 | A |Winter |1 |Dec 01, 2017 - Dec 31, 2017 |
 | B |Christmas |2 |Dec 24, 2017 - Dec 31, 2017 |
+
+>[!IMPORTANT]
+> To learn more about dayparting, refer to the sections below:
+>* [Handling Recurrence in Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Handling Recurrence for Assets in a Channel](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
