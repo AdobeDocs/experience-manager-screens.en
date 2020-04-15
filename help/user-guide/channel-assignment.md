@@ -93,6 +93,9 @@ Select from one of following options that are available to set the interruption 
    >This option is selected by default.
 * **At the end of the sequence**: when a new schedule activates or an update is received, you have the option to wait for the whole sequence to reach its end, and just before the desired sequence, you loop back to the 1st element, you refresh or play the new content
 
+   >[!NOTE]
+   >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred as the player will wait for the end of the item or sequence (after the specified time) before refreshing. The delay will depend on the playback duration of the item.
+
 #### Schedule {#schedule-channel}
 
 Schedule allows you to provide a description in text when the channel should appear. It also let's you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 
