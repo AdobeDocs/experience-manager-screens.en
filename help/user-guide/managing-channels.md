@@ -129,6 +129,28 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
+#### Viewing the Manifest {view-manifest}
+
+You can view the manifest from the channel dashboard.
+
+>[IMPORTANT]
+> This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
+
+Follow these steps to enable this option from the channel dashboard:
+1. **Set the Channel to Offline**
+   1. Select the channel and select **Properties** from the action bar
+   1. Navigate to **Channel** tab and make sure that you un-check **Developer Mode (force channel to be online)** option
+   1. Click **Save & Close**
+1. **Update Offline Content**
+   1. Select the channel and select **Dashboard** from the action bar
+   1. Navigate to **CHANNEL INFORMATION** panel and click *...*
+   1. Click **Update Offline Content**
+
+Now you should be able to see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
+
+![image1](assets/channel-one.png)
+
+
 ### Online and Offline Channels {#online-and-offline-channels}
 
 >[!NOTE]
