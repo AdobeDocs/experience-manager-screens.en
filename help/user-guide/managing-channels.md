@@ -129,7 +129,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
-#### Viewing the Manifest {view-manifest}
+#### Viewing the Manifest {#view-manifest}
 
 You can view the manifest from the channel dashboard.
 
