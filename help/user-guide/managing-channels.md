@@ -57,7 +57,7 @@ The following template options are available while using the wizard such as:
 >
 >The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side-by-side. The experiences can either be static assets/text or embedded sequences.
 
-The following example shows the creation of a Sequence Channel (C*hannelOne*) for a Screens project (*DemoProject*).
+The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -65,9 +65,8 @@ The following example shows the creation of a Sequence Channel (C*hannelOne*) fo
 >
 >You can create different zones using the template options such as 1x2, 2x2, or 2 to 3 split screen channels mentioned above.
 
-***Important***:
-
-Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore you need to assign that channel to a display. See the resources below at the end of the section to learn more.
+>[!IMPORTANT]
+> Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore you need to assign that channel to a display. See the resources below at the end of the section to learn more.
 
 ## Working with Channels {#working-with-channels}
 
@@ -75,7 +74,7 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 
 >[!NOTE]
 >
->Click on the icon on the left to select an item. For example, click on the icon for channel and perform the following actions, as shown in the figure below.
+>Select the channel, as shown in the figure below.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -83,7 +82,7 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 
 To add or edit content in a channel, follow the steps below:
 
-1. Click on the Channel you want to edit (as shown in the figure above).
+1. Select the channel you want to edit (as shown in the figure above).
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
 
 >[!NOTE]
@@ -92,7 +91,9 @@ To add or edit content in a channel, follow the steps below:
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Uploading Videos to the Channel** Follow the steps below to upload videos to your channel:
+**Uploading Videos to the Channel** 
+
+Follow the steps below to upload videos to your channel:
 
 1. Select the channel where you want to upload the video.
 1. Click **Edit** from the action bar to open the editor.
@@ -115,8 +116,8 @@ To view or edit properties of a channel, follow the steps below:
 
 To view dashboard of a channel, follow the steps below:
 
-1. Click on the Channel you want to edit.
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Select the channel you want to edit.
+1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -124,7 +125,7 @@ To view dashboard of a channel, follow the steps below:
 
 The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you the information on whether the channel is offline or online.
 
-Click on the (**...**) in the **Channel Information** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -146,7 +147,7 @@ Follow the steps below to make the channel online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. The **CHANNEL INFORMATION **panel provides information on whether the channel is online or offline.
+   Click **Dashboard** from the action bar to view the status of the player. The **CHANNEL INFORMATION** panel provides information on whether the channel is online or offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
