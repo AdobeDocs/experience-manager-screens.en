@@ -198,7 +198,7 @@ Follow the steps below to edit the launch properties:
     * Check **Production Ready**
     * Select **Promote approved pages** from **Scope**
 
-**Understanding the Launches entries under Auto-Promotion:**
+   **Understanding the Launches entries under Auto-Promotion:**
 
    * **Launch Date**, refers to the live date, that is, the date/time the content will play in the Screens player as per the player's timezone.
    * **Production Ready**, allows the channels to be promoted and means that the launch is ready to be used.
@@ -206,13 +206,13 @@ Follow the steps below to edit the launch properties:
    
    The following three options are available to setup the scope:
 
-   1. **Promote full launch**: All the channels of the launch are promoted at the set live date.
-   1. **Promote modified pages**: Only edited launch resources will be promoted. It is recommended to use this option when the launch review is not required. It allows the modifications in the launch channels to be promoted.
-   1. **Promote approved pages**: Only approved pages are promoted at the set live date.
+   * **Promote full launch**: All the channels of the launch are promoted at the set live date.
+   * **Promote modified pages**: Only edited launch resources will be promoted. It is recommended to use this option when the launch review is not required. It allows the modifications in the launch channels to be promoted.
+   * **Promote approved pages**: Only approved pages are promoted at the set live date.
    
-   >[!CAUTION]
-   >
-   >Launch promotion respects player/device's timezone rather than server's.
+      >[!CAUTION]
+      >
+      >Launch promotion respects player/device's timezone rather than server's.
 
 1. Click **Save & Close** to navigate back to **FutureLaunch** channel.
 
