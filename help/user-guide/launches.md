@@ -74,27 +74,30 @@ Follow the section below to implement launches in your AEM Screens project. This
 1. **Creating a Screens Launch**
 1. **Editing a Screens Launch to set live date and scope**
 
-### Creating a Future Publish {#creating-a-launch}
+### Creating a Screens Launch {#creating-a-launch}
 
 Follow the steps below to implement launches functionality to your AEM Screens project:
 
-1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --&gt; **Channels** --&gt; **FutureLaunch**, as shown below.
+1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --&gt; **Channels** --&gt; **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
    >You must create a launch from a pre-existing channel in your AEM Screens project.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or click **+ Add Pages** to select the Screens channel for which you want to create the launch.
+   ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >The following example showcases creating a launch for the existing channel in the wizard.
+1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or click **+ Add Channels** to add the channel for which you want to create the launch.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Using the Existing Channel {#existing-channel-launch}
+   
+1. Select the channel that already exists in the **Create Launch** wizard and click **Next**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Select the channel and click **Next** from the action bar.
 
@@ -123,6 +126,49 @@ Follow the steps below to implement launches functionality to your AEM Screens p
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### Using the Add Channels option {#add-channel-launch}
+   
+1. Click **+ Add Channels** to add the channel for which you want to create the launch.
+
+      ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+      >[!NOTE]
+      >The **Select** option will be disabled if you try to select multiple channels or a folder for adding the launch.
+
+1. Navigate to the channel for which you want to create the launch and click **Select**.
+
+    ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Now you can select that channel you added to create a launch for and click **Next**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
+
+   >[!NOTE]
+   >
+   >*Enabling or checking* the option **Inherit source page live data** allows the channels to be created as live copies in the launch. If any changes are made in the original channel, those changes are automatically applied to launch channels.
+   >
+   >
+   >*Disabling or unchecking* **Inherit source page live data** allows the channels to be be copied without any live relationship in the launch. So, if any changes are made to the original channel, those changes are not applied to launch channels.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >You can set the live launch date in this step or can set it up later while editing the properties of the launch once it has already been created.
+
+1. You will see that your launch is created. You can either click **Open** to view the pages in the editor or click **Done** to navigate back to your project.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
+
+   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### Editing the launch properties to set the live date and scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
