@@ -21,12 +21,15 @@ The Release Date for AEM Screens Feature Pack 202004 is April 15, 2020.
 
 * **Playback Interruption Strategy Options**
 
-    As an author, you can now specify when a channel is interrupted or not so that the content author can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
-   
+    As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
 
-* **Launches**
+    Refer to the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)** to learn more about options available from **Channel Assignment** dialog box to implement this feature in your AEM Screens project.
+
+* **Screens Launches**
 
    The content author user experience flow has been improved and reduced the number of clicks to use future publish. 
+
+   Refer to **[Content Update using Screens Launch](launches.md)** for more details.
 
 * **Channel Dashboard**
 
@@ -35,11 +38,15 @@ The Release Date for AEM Screens Feature Pack 202004 is April 15, 2020.
 
 * **View Manifest**
 
-   You can view the manifest from the channel dashboard.
+   You can now view the manifest file from the channel dashboard.
+   
+   Refer to **[Viewing the Manifest](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Text Overlay**
 
-   While adding test to the text overlay function, the font size is now much more precise and updated. 
+   While adding test to the text overlay function, the font size is precise and improved.
+
+   Refer to **[Text Overlay](text-overlay.md)** to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. 
 
 * **Improvements in Command Sync**
 
