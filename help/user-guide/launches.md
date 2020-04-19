@@ -176,45 +176,43 @@ Once you have created the launch, you need to edit the launch properties to set 
 
 Follow the steps below to edit the launch properties:
 
-1. Navigate to the channel (**FutureLaunch**) and select the channel, as shown in the figure below. Open the **References** rail fromtheleft side-rail.
+1. Navigate to the channel **FutureLaunch**, *(that is the pending launch)* and select the channel, as shown in the figure below.
 
-   >[!NOTE]
-   >
-   >Select the **Content Tree** option from the left rail to open the launch you created.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Click on **Dashboard** from the action bar and you see the **PENDING LAUNCHES** panel from the channel dashboard.
 
-1. Navigate to **Launches** and select the launch (**SummerPromotions**) you created. Click **Edit Properties**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Select the launch and click on any of the desired actions from the **PENDING LAUNCHES** panel.
 
-1. The launch **SummerPromotions** dialog box opens. Populate the following fields:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. For instance, you click on **Launch Properties** to edit the properties for the launch **SummerPromotions**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. You can edit the **Luanch Title** and populate the following fields:
 
     * Select the **Launch Date**
     * Check **Production Ready**
     * Select **Promote approved pages** from **Scope**
 
-   >[!NOTE]
-   >
-   >Understanding the Launches entries under **Auto-Promotion**:
+**Understanding the Launches entries under Auto-Promotion:**
 
-   >    * **Launch Date**, refers to the live date, that is, the date/time the content will play in the Screens player as per the player's timezone.
-   >    * **Production Ready**, allows the channels to be promoted and means that the launch is ready to be used.
-   >    * **Scope**, refers to the channels that can be promoted during a launch. 
+   * **Launch Date**, refers to the live date, that is, the date/time the content will play in the Screens player as per the player's timezone.
+   * **Production Ready**, allows the channels to be promoted and means that the launch is ready to be used.
+   * **Scope**, refers to the channels that can be promoted during a launch. 
    
-   The following three options are available to setup the scope:    
+   The following three options are available to setup the scope:
+
    1. **Promote full launch**: All the channels of the launch are promoted at the set live date.
    1. **Promote modified pages**: Only edited launch resources will be promoted. It is recommended to use this option when the launch review is not required. It allows the modifications in the launch channels to be promoted.
    1. **Promote approved pages**: Only approved pages are promoted at the set live date.
    
-
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
-
    >[!CAUTION]
    >
    >Launch promotion respects player/device's timezone rather than server's.
 
 1. Click **Save & Close** to navigate back to **FutureLaunch** channel.
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
