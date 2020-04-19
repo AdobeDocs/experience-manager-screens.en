@@ -76,9 +76,9 @@ Follow the section below to implement launches in your AEM Screens project. This
 
 ### Creating a Future Publish {#creating-a-launch}
 
-Follow the steps below to implement future publish functionality to your AEM Screens project:
+Follow the steps below to implement launches functionality to your AEM Screens project:
 
-1. Navigate to the channel in your AEM Screens project, for example **LaunchesDemo** --&gt; **Channels** --&gt; **FutureLaunch**, as shown below.
+1. Navigate to a sequence channel in your AEM Screens project, for example **LaunchesDemo** --&gt; **Channels** --&gt; **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >
@@ -86,21 +86,22 @@ Follow the steps below to implement future publish functionality to your AEM Scr
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Select the channel **FutureLaunch** and and click **Create**. Select **Launch** from the drop-down menu.
+1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or click **+ Add Pages** to select the Screens channel for which you want to create the launch.
 
-1. The **Create Launch** wizard opens. Click **+ Add Pages** to select the AEM Screens channels for which you want to create the launch.
+   >[!NOTE]
+   >The following example showcases creating a launch for the existing channel in the wizard.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Navigate to the channel and click **Select**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Select the channel and click **Next** from the action bar.
 
-1. Once you have the page selected, click **Next** to move one step further in **Create Launch** wizard.
+   >[!NOTE]
+   >**Include subpages** option is selected by default.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
 
@@ -111,7 +112,7 @@ Follow the steps below to implement future publish functionality to your AEM Scr
    >
    >*Disabling or unchecking* **Inherit source page live data** allows the channels to be be copied without any live relationship in the launch. So, if any changes are made to the original channel, those changes are not applied to launch channels.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -121,9 +122,7 @@ Follow the steps below to implement future publish functionality to your AEM Scr
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Clicking **Done** allows you to navigate back to your **LaunchesDemo** project.
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
 
 ### Editing the launch properties to set the live date and scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
