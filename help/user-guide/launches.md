@@ -1,6 +1,6 @@
 ---
-title: Launches
-seo-title: Launches
+title: Content Update using Screens Launch
+seo-title: Content Update using Screens Launch
 description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -12,23 +12,23 @@ discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 ---
 
-# Launches {#launches}
+# Content Update using Screens Launch {#launches}
 
-Content authors can create future version of the channel(s), known as **Launch** and further setting live date for this launch allows content to be live in devices or players.
+Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
 
-With the help of launches, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
+With the help of future publish, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
 
 For example, if the author wants to create future versions of c1, c2 (channels), a launch is created and a live date is set (for instance, Nov 10th 8:00 AM). Any further updates in the content is sent out for review. Once approved and on live date (Nov 10th, 8:00 AM), this launch plays the content on the devices or players.
 
 ## Requirements {#requirements}
 
-Before you start the implementation of Launches in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
+Before you start the implementation of future publish in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
 
 The following section explains the Grace Period and further how to configure it out-of-the-box. You can also download a sample test configuration to understand its usage.
 
 ### Understanding Grace Period {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in Launches.
+The following setup allows the admin to configure the ***Grace Period***, required in future publish.
 
 **Grace Period**, includes:
 
@@ -67,14 +67,14 @@ If you want to change the above configuration, follow the below instructions bel
 
 It means that when you set live date for any launch for the resources under */content/screens*, the promotion will start with this offset. For example, if the live date is set as Nov 24th, 9:00 AM and grace period is 600 seconds, the promotion job will start at Nov 24th, 8:50 AM.
 
-## Using Launches {#using-launches}
+## Using Screens Launch {#using-launches}
 
-Follow the section below to implement Launches in your AEM Screens project. This section covers these topics:
+Follow the section below to implement launches in your AEM Screens project. This section covers these topics:
 
-1. **Creating a Launch**
-1. **Editing a Launch to set live date and scope**
+1. **Creating a Screens Launch**
+1. **Editing a Screens Launch to set live date and scope**
 
-### Creating a Launch {#creating-a-launch}
+### Creating a Future Publish {#creating-a-launch}
 
 Follow the steps below to implement future publish functionality to your AEM Screens project:
 
