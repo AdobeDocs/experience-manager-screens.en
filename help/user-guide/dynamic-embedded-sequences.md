@@ -214,7 +214,7 @@ Follow the steps below to implement the functionality:
     1. Enter the **Channel Role** as **RegionAdSegment**.
     1. Click **Save**.
 
-   **Assign Channel by Role for Store:
+   **Assign Channel by Role for Store:**
 
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
     1. Select **Reference Channel**.. by name.
@@ -266,7 +266,7 @@ The following output confirms your channel content in AEM Screens player, depend
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region A** --&gt;** Store 1** --&gt; **Store1Display**, the following content will display on your AEM Screens player.
+If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region A** --&gt; **Store 1** --&gt; **Store1Display**, the following content will display on your AEM Screens player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -355,7 +355,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to the **Permissions** tab
     1. Navigate to ***/content/screens/demo*** and check all the permissions
     1. Navigate to ***/content/screens/demo/locations*** and check all the permissions
-    1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
+    1. Navigate to ***/content/screens/demo/locations/region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
 
    Please refer to the figure below for understanding the steps:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
@@ -369,7 +369,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to the **Permissions** tab.
     1. Navigate to ***/content/screens/demo*** and check only the **Read** permissions.
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.
-    1. Navigate to ***/content/screens/demo/channels ***and un-check the permissions for **Global** channel.***
+    1. Navigate to ***/content/screens/demo/channels*** and un-check the permissions for **Global** channel.
     1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
 
    Please refer to the figure below for understanding the steps:
