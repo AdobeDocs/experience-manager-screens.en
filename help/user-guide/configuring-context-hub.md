@@ -91,11 +91,12 @@ The following validation is what you will view when you check your connection by
    
    1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp** and click **Next**.
 
+      >[!CAUTION]
+      >If you are using Adobe Experience Manager (AEM) 6.4, enter the **Configuration Title** as **googlesheets** and the **Store Type** as **contexthub.generic-jsonp**.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >In AEM 6.4, enter the **Configuration Title** as **googlesheets** and the **Store Type** as **contexthub.generic-jsonp**.
+      
 
    1. Enter your specific json configuration. For example, you can use the following json for demo purposes and click **Save** and you will see the store configuration titled as **Google Sheets** in ContextHub configuration.
 
