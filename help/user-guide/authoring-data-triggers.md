@@ -39,7 +39,7 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Select the **Personalization** tab to setup the ContextHub configurations.
+1. Select the **Personalization** tab to setup the ContextHub configurations and select the ContextHub and Segments path.
 
     1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
 
