@@ -90,6 +90,10 @@ The specific example below shows the the excel sheet as a data store that will t
 
     1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp**
 
+   >[!CAUTION]
+   >
+   >In AEM 6.4, please use the **Configuration Title** as **googlesheets** and and **Store Type** as **contexthub.generic-jsonp**
+   
     1. Click **Next**
     1. Enter your specific json configuration. For example, you can use the following json for demo purposes.
     1. Click **Save**.
