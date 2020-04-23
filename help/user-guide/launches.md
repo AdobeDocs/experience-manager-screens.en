@@ -14,58 +14,59 @@ docset: aem65
 
 # Content Update using Screens Launch {#launches}
 
-Content authors can create future version of the channel(s), known as **Screens Launch** and further setting live date for this launch allows content to be live in devices or players.
+Content authors can create future version of the channel(s), known as **Screens Launch** and further set the live date for this launch. This allows allows the content to be live in devices or players on the specified live date.
 
-With the help of future publish, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
+With the help of **Screens Launches**, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
 
 For example, if the author wants to create future versions of c1, c2 (channels), a launch is created and a live date is set (for instance, Nov 10th 8:00 AM). Any further updates in the content is sent out for review. Once approved and on live date (Nov 10th, 8:00 AM), this launch plays the content on the devices or players.
 
 ## Requirements {#requirements}
 
-Before you start the implementation of future publish in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
+Before you start leveraging Screens Launches in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
 
-The following section explains the Grace Period and further how to configure it out-of-the-box. You can also download a sample test configuration to understand its usage.
+Running an experience on the set live date on the player involves:
+
+* promotion of the launch (typically takes a few seconds)
+
+* publishing the resources to publish instances (typically takes a few minutes, depends on the size of the channels or assets that needs to be published)
+
+* time taken by the update offline content to complete (typically takes a few minutes)
+
+* time taken by the players to download the content from the publish instance (typically takes minutes depending on the n/w bandwidth and size of the assets that needs to be downloaded)
+
+* any time differences of the server and the player
 
 ### Understanding Grace Period {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in future publish.
+In order for the player to be able to start playing the content on the set live date, we need to start the before mentioned activities before the live date. 
 
-**Grace Period**, includes:
-
-* promotion of the launch
-* publishing of the resources to publish instances
-* time taken by the devices to download the content from the publish instance and any time differences of the server and the player
+If the live date is *Nov 24th, 9:00 AM* and grace period is *24 hours*, then the above sequence of actions will start at (live date - grace period),that is, Nov 23rd, 9:00 AM server time. This gives 24 hours time to complete all the above mentioned actions and the content will reach the players. Players will understand that this is a launch content, so the content will not play immediately, but players will store this content as a future version and will start playing exactly at the set live date on the player's time zone.
 
 For example let's say, server is in PST and the devices are in EST, max time difference is 3 hours in this case and assume that promotion will take 1 min and publishing from author to publish takes 10 min and player can download the resources typically in 10-15 min. Then grace period = time difference (3 hours) + time to promote the launch (1 min) + time to publish the launch (10 min) + time to download at player (10-15 min) + buffer (to be safe, say 30 min) = 3 hours 56 min = 14160 seconds. So, when ever we schedule any launch live, the promotion will start early by this offset. In the above equation, most of the items doesn't take much time, we can use a decent guess for this offset once we know the max time difference b/w the server and any player.
 
-### Configuring out-of-the-box Grace Period {#configuring-out-of-the-box-grace-period}
-
-Out-of-the-box, the grace period for a launch is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset. For example, if the liveDate is set as Nov 24th, 9:00 AM and grace period is 24 hours, the promotion job will start at Nov 23Rd, 09:00 AM.
-
-### Downloading Configurations {#downloading-configurations}
-
-Download the following test configurations:
-
-[Get File](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->The above mentioned configuration has 600 seconds as the Grace Period in this test configuration.
+>Out-of-the-box, the grace period for screens launches is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
-#### Updating the Configurations {#updating-the-configurations}
+### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
 
-If you want to change the above configuration, follow the below instructions below:
+This section explains how you can update an out-of-the-box Grace Period to 10 minutes:
 
-* create the ***sling:OsgiConfig/ nt:file in /apps/system/config*** with name **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** and content
+1.  Navigate to CRXDE Lite and then to `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+ 2. Right click and copy the file.
+ 3. Navigate to `/apps/system/config` and right-click and paste.
+ 4. Double click on `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` to open the file in the editor in CRXDE Lite. It must show the grace period for the path */content/screens/* as 86400. Change that value to **600**.
 
-  *launches.eventhandler.updatelastmodification=B"false"
-  launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"]
-  launches.eventhandler.threadpool.maxsize=I"5"
-  launches.eventhandler.threadpool.priority="MIN"*
+ Now the content in the text file should look similar to:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, allows you to set a grace period of 600 seconds in the path */content/screens*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-It means that when you set live date for any launch for the resources under */content/screens*, the promotion will start with this offset. For example, if the live date is set as Nov 24th, 9:00 AM and grace period is 600 seconds, the promotion job will start at Nov 24th, 8:50 AM.
+Since you have set the grace period to 10 minutes in the preceding example, when you set live date for any launch for the resources under */content/screens*, the promotion will start with this offset. 
+
+For example, if the live date is set as Nov 24th, 9:00 AM and grace period is 600 seconds, the promotion job will start on Nov 24th at 8:50 AM.
 
 ## Using Screens Launch {#using-launches}
 
