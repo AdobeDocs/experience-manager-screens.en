@@ -74,7 +74,7 @@ For example, if the live date is set as Nov 24th, 9:00 AM and grace period is 60
 
 ## Using Screens Launch {#using-launches}
 
-Follow the section below to implement Screens Launch in your AEM Screens project.
+This section demonstrates how to implement Screens Launch in your AEM Screens project.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -100,8 +100,6 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
 
    >[!NOTE]
    >You can use **+ Add Channels** option to add another channel for which you want to create the launch for.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    To use **Add Channels** option, navigate to the channel for which you want to create the launch for and click **Select**. 
    
@@ -169,13 +167,13 @@ Follow the steps below to edit the launch properties:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Editing the Screens Launch to Add or Remove Channels  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Editing the Screens Launch to Add or Remove Channels  {#editing-the-screens-launch-to-add-or-remove-channels}
 
-After you have created the launch, you can add or remove channels to the existing launch using **Edit Launch** action.
+After you have created the launch, you can add or remove channels to the existing launch using **Edit Launch** option.
 
 Once you are done, click **Save** to navigate back to **FutureLaunch** channel.
 
-#### Promote the Screens Launch Manually{#promote-the-screens-launch-manually}
+### Promote the Screens Launch Manually{#promote-the-screens-launch-manually}
 
 You can promote the launch manually using the **Promote Launch** option from the **PENDING LAUNCHES** panel.
 
@@ -192,11 +190,10 @@ You can choose the resources you want to promote as part of this manual promotio
 1. Click **Next** in the **Promote Launch** wizard.
 1. Click **Promote** to promote the launch.
 
+### Deleting the Screens Launch {#deleting-the-screens-launch}
 
-#### Deleting the Screens Launch {#deleting-the-screens-launch}
-
-You can delete the launch using **Delete Launch** action.
+You can delete the launch using **Delete Launch** option from the **PENDING LAUNCHES** panel.
 
 >[CAUTION]
->This action will delete all the descendant nested launches also.
+>This action will delete all the descendants (nested launches) also.
 
