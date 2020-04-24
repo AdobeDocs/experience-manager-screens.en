@@ -173,7 +173,7 @@ After you have created the launch, you can add or remove channels to the existin
 
 Once you are done, click **Save** to navigate back to **FutureLaunch** channel.
 
-### Promote the Screens Launch Manually{#promote-the-screens-launch-manually}
+### Promoting the Screens Launch Manually{#promote-the-screens-launch-manually}
 
 You can promote the launch manually using the **Promote Launch** option from the **PENDING LAUNCHES** panel.
 
