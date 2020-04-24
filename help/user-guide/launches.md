@@ -70,10 +70,7 @@ For example, if the live date is set as Nov 24th, 9:00 AM and grace period is 60
 
 ## Using Screens Launch {#using-launches}
 
-Follow the section below to implement launches in your AEM Screens project. This section covers these topics:
-
-1. **Creating a Screens Launch**
-1. **Editing a Screens Launch to set live date and scope**
+Follow the section below to implement launches in your AEM Screens project.
 
 ### Creating a Screens Launch {#creating-a-launch}
 
@@ -93,60 +90,19 @@ Follow the steps below to implement launches functionality to your AEM Screens p
 
 1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or click **+ Add Channels** to add the channel for which you want to create the launch.
 
-
-#### Using the Existing Channel {#existing-channel-launch}
-   
-1. Select the channel that already exists in the **Create Launch** wizard and click **Next**.
+1. Click **Next** from the **Create Launch** wizard. The **Include subpages** option is selected by default.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Select the channel and click **Next** from the action bar.
-
    >[!NOTE]
-   >**Include subpages** option is selected by default.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
-
-   >[!NOTE]
-   >
-   >*Enabling or checking* the option **Inherit source page live data** allows the channels to be created as live copies in the launch. If any changes are made in the original channel, those changes are automatically applied to launch channels.
-   >
-   >
-   >*Disabling or unchecking* **Inherit source page live data** allows the channels to be be copied without any live relationship in the launch. So, if any changes are made to the original channel, those changes are not applied to launch channels.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >You can set the live launch date in this step or can set it up later while editing the properties of the launch once it has already been created.
-
-1. You will see that your launch is created. You can either click **Open** to view the pages in the editor or click **Done** to navigate back to your project.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Clicking **Done** allows you to navigate back to your **FutureLaunch** channel.
-
-   ![Image](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Using the Add Channels option {#add-channel-launch}
-   
-1. Click **+ Add Channels** to add the channel for which you want to create the launch.
+   >You can use **+ Add Channels** option to add the channel for which you want to create the launch.
 
       ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-      >[!NOTE]
-      >The **Select** option will be disabled if you try to select multiple channels or a folder for adding the launch.
+      >1. Navigate to the channel for which you want to create the launch and click **Select**. The **Select** option will be disabled if you try to select multiple channels or a folder for adding the launch.
+      >
+      >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Navigate to the channel for which you want to create the launch and click **Select**.
-
-    ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Now you can select that channel you added to create a launch for and click **Next**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
 
@@ -171,7 +127,8 @@ Follow the steps below to implement launches functionality to your AEM Screens p
 
    ![Image](/help/user-guide/assets/launches-images/launches-16.png)
 
-### Editing the launch properties to set the live date and scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Editing the Launch Properties to Set the Live Date and Scope {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Once you have created the launch, you need to edit the launch properties to set the live date the scope of the launch.
 
@@ -185,35 +142,23 @@ Follow the steps below to edit the launch properties:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Select the launch and click on any of the desired actions from the **PENDING LAUNCHES** panel.
+1. Select the launch and click **Launch Properties** from the **PENDING LAUNCHES** panel.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. For instance, you click on **Launch Properties** to edit the properties for the launch **SummerPromotions**.
+#### Editing the Screens Launch to Add or Remove Channels  {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+After you have created the launch, you can add or remove channels to the existing launch using **Edit Launch** action.
 
-1. You can edit the **Luanch Title** and populate the following fields:
+Once you are done, click **Save & Close** to navigate back to **FutureLaunch** channel.
 
-    * Select the **Launch Date**
-    * Check **Production Ready**
-    * Select **Promote approved pages** from **Scope**
+#### Promote the Screens Launch Manually{#promote-the-screens-launch-manually}
 
-   **Understanding the Launches entries under Auto-Promotion:**
+You can promote the launch manually using the **Promote Launch** action. 
 
-   * **Launch Date**, refers to the live date, that is, the date/time the content will play in the Screens player as per the player's timezone.
-   * **Production Ready**, allows the channels to be promoted and means that the launch is ready to be used.
-   * **Scope**, refers to the channels that can be promoted during a launch. 
-   
-   The following three options are available to setup the scope:
+You can choose the resources you want to promote as part of this manual promotion in the **Launch Promotion Wizard**.
 
-   * **Promote full launch**: All the channels of the launch are promoted at the set live date.
-   * **Promote modified pages**: Only edited launch resources will be promoted. It is recommended to use this option when the launch review is not required. It allows the modifications in the launch channels to be promoted.
-   * **Promote approved pages**: Only approved pages are promoted at the set live date.
-   
-      >[!CAUTION]
-      >
-      >Launch promotion respects player/device's timezone rather than server's.
+#### Deleting the Screens Launch {#deleting-the-screens-launch}
 
-1. Click **Save & Close** to navigate back to **FutureLaunch** channel.
+You can delete the launch using **Delete Launch** action.
 
