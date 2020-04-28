@@ -1,8 +1,8 @@
 ---
 title: Release Notes for Feature Pack 202004
 seo-title: Release Notes for Feature Pack 202004
-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 28, 2020.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 28, 2020.
 ---
 
 # Release Notes for Feature Pack 202004 {#release-notes-for-feature-pack}
@@ -15,7 +15,7 @@ AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4 with the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
+The Release Date for AEM Screens Feature Pack 202004 is April 28, 2020.
 
 ### What's New {#what-s-new}
 
