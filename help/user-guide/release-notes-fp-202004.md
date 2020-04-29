@@ -1,8 +1,8 @@
 ---
 title: Release Notes for Feature Pack 202004
 seo-title: Release Notes for Feature Pack 202004
-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 28, 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 28, 2020.
+description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
 ---
 
 # Release Notes for Feature Pack 202004 {#release-notes-for-feature-pack}
@@ -11,11 +11,19 @@ seo-description: Follow this page to get information for AEM Screens Feature Pac
 >
 >It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
 
-AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4 with the following details.
+## Availability {#availability}
+
+AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4.
+
+You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from *pending link*.
+
+>[!NOTE]
+>Refer to [How to Work With Packages](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) to learn how packages enable the importing and exporting of repository content and how you can access and/or maintain the packages from Package Manager or Package Share. 
+
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202004 is April 28, 2020.
+The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
 ### What's New {#what-s-new}
 
