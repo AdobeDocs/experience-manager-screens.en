@@ -61,7 +61,7 @@ user-guide-title: Adobe Experience Manager Screens Help
         + [Embedded Sequences](embedded-sequences.md)
         + [Multi-zone Layout](multi-zone-layout-aem-screens.md)
         + [Video Renditions](generating-renditions.md)
-        + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md) 
+        + [Dynamic Embedded Sequence](dynamic-embedded-sequences.md) 
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
         + [Command Sync](using-command-sync.md)
         + [Authoring with Data Triggers](authoring-data-triggers.md)

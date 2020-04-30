@@ -41,7 +41,7 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
 * **Channel Dashboard**
 
-   Update Instructions in channel dashboard & offline dialog box to read... "Update offline content" replaces the word "Update cache" 
+   Reflects updates to instructions in channel dashboard in the **CHANNEL INFORMATION** panel.
 
 
 * **View Manifest**
@@ -60,6 +60,8 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
    With this feature pack release, improvements in Command sync delay between asset changes are reflected.
 
+   Refer to **[Command Sync](using-command-sync.md)** for more details.
+
 ### Released AEM Screens Players {#released-aem-screens-players}
 
 The following AEM Screens Players are released for AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4:
@@ -70,4 +72,4 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.4 
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
