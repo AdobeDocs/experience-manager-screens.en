@@ -517,7 +517,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
      }
    }
 }
-   ```
+```
 
 The following code provides the minimum requirements in the `pom.xml` for that specific project:
 
