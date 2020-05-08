@@ -90,7 +90,8 @@ The following validation is what you will view when you check your connection by
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
-      >As part of AEM 6.5 Feature Pack 4 or AEM 6.4 Feature Pack 8, customers should update `/conf/screens/settings/cloudsettings` to `sling:Folder`. 
+      >As part of AEM 6.5 Feature Pack 4 or AEM 6.4 Feature Pack 8, customers should update `/conf/screens/settings/cloudsettings` to `sling:Folder`.
+      > 
       >Follow the steps below:
       >
       >1. Navigate to CRXDE Lite and then to `/conf/screens/settings/cloudsettings`. 
