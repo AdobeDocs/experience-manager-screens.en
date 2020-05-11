@@ -123,7 +123,10 @@ If you want the zones to display sequence of images or content and a static imag
 
 Once you implement multi-zone layouts using the preceding steps, the following output displays, as shown in the figure below.
 
-The following output in Screens Player displays the content in three different zones. The left and the right zones (both use embedded sequence as a component) display sequence of images and the zone below displays a static image.
+Click on **Preview** from the channel editor to view the following output that displays the content in two different zones. The left and the right zones (both use embedded sequence as a component).
+
+>[!NOTE]
+>If you are trying to view the content in the Screens player, make sure you click **Update Offline Content** from the channel dashboard.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
