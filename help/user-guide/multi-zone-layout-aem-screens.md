@@ -63,13 +63,9 @@ You can use single assets such as an image or a video in all three different zon
     1. Navigate to **Zones** --&gt; **Channels **--&gt;** MultiZone**.
     1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
-
 1. **Adding Images to the Channel**
 
-   To play a single image or a video in all three zones, simply drag and drop the image in the channel editor, as shown below.
-
-   ![new1-1](assets/new1-1.gif)
+   To play a single image or a video in all three zones, simply drag and drop the image in the channel editor.
 
 ### Using Sequenced Content in one or more Zones {#using-sequenced-content-in-one-or-more-zones}
 
