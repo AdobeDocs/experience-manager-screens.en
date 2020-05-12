@@ -85,16 +85,18 @@ If you want the zones to display sequence of images and a video in two different
     1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
     1. Select **Zone1** and click **Edit** from the action bar to open the editor.
     1. Drag and drop few images to this channel.
+    1. Similarly, create another sequence channel titled as **Zone2** in **EmbeddedChannels** folder.
+    1. Drag and drop a video to this channel.
 
-   Similarly, create another sequence channel titled as **Zone2** in **EmbeddedChannels** folder.
-
+    The following figure shows the channels **Zone1** and **Zone2**:
+   
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
    The images added to editor of **Zone1** sequence channel are shown below:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Add a video to editor of **Zone2** sequence channel as shown in the figure below:
+   The video added to editor of **Zone2** sequence channel is shown below:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -102,7 +104,7 @@ If you want the zones to display sequence of images and a video in two different
 
     1. Navigate to **Zones** --&gt; **Channels** --&gt; **MultiZone**.
     1. Click **Edit** from the action bar to open the editor.
-    1. Drag and drop the **Embedded Sequence** component to two of the zones.
+    1. Drag and drop the **Embedded Sequence** component to both the zones.
     1. Select the embedded sequence in one of the zones.
     1. Click the **Configure** (wrench) icon to one of the embedded sequences in the editor.
     1. Select the channel path as **Zones** --&gt; **Channels** --&gt; **EmbeddedChannels** --&gt; **Zone1**, as shown in the figure below.
@@ -152,7 +154,7 @@ You must assign the channels to the display to view the content. Follow the step
 
 ### Registering the Device {#registering-device}
 
-Once you have set up a location and a display,follow the steps below to register the device and assign display to the device.
+Once you have set up a location and a display, follow the steps below to register the device and assign display to the device.
 
 1. **Registering the Device**
 
