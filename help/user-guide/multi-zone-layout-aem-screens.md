@@ -147,7 +147,7 @@ You must assign the channels to the display to view the content. Follow the step
    1. Set the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**.
    1. Click **Save**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Similary, you must assign the other two embedded channels (**Zone1** and **Zone2**) to this display using the step (2).
    1. Once you assign all three channels to the **Lobby** display, you should be able to view the assigned channels from the display dashboard.
 
