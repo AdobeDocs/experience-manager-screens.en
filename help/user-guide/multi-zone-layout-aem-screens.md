@@ -172,7 +172,7 @@ Once you have set up a location and a display, follow the steps below to registe
     >[!NOTE]
     >If you are trying to view the content in the Screens player, make sure you click **Update Offline Content** from the channel dashboard.
 
-#### Viewing the Result {#viewing-the-result}
+### Viewing the Result {#viewing-the-result}
 
 Once you implement multi-zone layouts using the preceding steps, the following output displays.
 
