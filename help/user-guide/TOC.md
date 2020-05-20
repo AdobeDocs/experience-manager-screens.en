@@ -25,6 +25,7 @@ user-guide-title: Adobe Experience Manager Screens Help
     + [Connecting Screens Player](working-with-screens-player.md)
     + [Device Registration](device-registration.md)
     + [Setting up ACLs](setting-up-acls.md)
+    + [AEM Screens Security Checklist](security-checklist.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [New Project Importer from File](project-importer.md)
     + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
