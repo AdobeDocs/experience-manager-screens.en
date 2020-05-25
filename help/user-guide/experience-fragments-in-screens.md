@@ -36,22 +36,21 @@ As an example, the following workflow demonstrates the use of experience fragmen
 
 ### Pre-requisites {#pre-requisites}
 
-**Creating a demo project with a Channel**
+**Creating a Demo Project with a Channel**
 
 ***Creating a Project***
 
-1. Click Screens and select **Create** --&gt; **Create Project **to create a new project. 
-
-1. Select **Screens **from the **Create Screens Project **wizard.
-
+1. Click **Create Screens Project** to create a new project. 
 1. Enter the Title as **DemoProject**.
-1. Click **Create**.
+1. Click **Save**.
 
-A **DemoProject** will be added to your AEM Screens.  ***Creating a Channel***
+A **DemoProject** will be added to your AEM Screens.
+
+***Creating a Channel***
 
 1. Navigate to the **DemoProject** you created and select the **Channels** folder.
 
-1. Click **Create** from the action bar (see the figure below). A wizard will open.
+1. Click **Create** from the action bar to open the wizard.
 1. Choose the **Sequence Channel** template from the wizard and click **Next**.
 
 1. Enter the **Title** as **TestChannel** and click **Create**.
@@ -60,18 +59,17 @@ A **TestChannel** will be added to your **DemoProject**.
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-
 ### Creating an Experience Fragment {#creating-an-experience-fragment}
 
 Follow the steps below to leverage the content from **We.Retail** to your **TestChannel** in **DemoProject**.
 
 1. **Navigate to a Sites page in We.Retail**
 
-    1. Navigate to Sites and select **We.Retail **-&gt;** United States **-&gt;**English **and select **Equipment** page to use this as an experience fragment for your Screens channel. 
+    1. Navigate to Sites and select **We.Retail In-Store** -&gt; **United States** -&gt;**English** and select **Equipment** page to use this as an experience fragment for your Screens channel. 
     
     1. Click **Edit** from the action bar to open the page you want to use as an experience fragment for your Screens channel.
 
-   ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
+       ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Re-using the Content**
 
@@ -85,9 +83,9 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
     1. Choose the **Action** as **Create a new Experience Fragment**.
     
     1. Select the **Parent path**.
-    1. Select the **Template**. Choose the **Experience Fragment - Screens Variation **template here.  
+    1. Select the **Template**. Choose the **Experience Fragment - Screens Variation** template here.  
     
-    1. Enter the **Fragment Title **as **ScreensFragment**.
+    1. Enter the **Fragment Title** as **ScreensFragment**.
     
     1. Click the check mark to complete the creation of a new experience fragment.
 
@@ -100,7 +98,7 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the** ScreensFragment **from** Create Live Copy** wizard and click **Next**.
+   c. Select the** ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    d. Enter the **Title** and **Name** as **Screens**.
 
@@ -136,15 +134,15 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
    e. Select the **Experience Fragment** component and select the top left (wrench) icon to open the **Experience Fragment** dialog box.
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Path **field.
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment **field.
+   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Enter the seconds in the** Duration** field.
+   h. Enter the milliseconds in **Duration**.
 
    i. Select the **Offline Config** from the **Experience Fragments** dialog box to define the client-side libraries and the static files.
 
@@ -170,7 +168,7 @@ You will view the content from the **Sites** page (live-copy of the experience f
 
 ***Live Copy*** refers to the copy (of the source), maintained by synchronization actions as defined by the rollout configurations.
 
-Since the Experience Fragment, we created is a live copy from the **Sites** pages, so if you make changes to that particluar fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.
+Since the Experience Fragment, we created is a live copy from the **Sites** pages, so if you make changes to that particular fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.
 
 >[!NOTE]
 >
