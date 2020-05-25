@@ -55,6 +55,7 @@ Follow the steps below to create custom branding and styling for text overlays:
        background-color: rgba(255, 255, 255, .6);
      }
     ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Copy the path to your project, in this case, the path will be `/apps/settings/wcm/designs/customstyle`.
