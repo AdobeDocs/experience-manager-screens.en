@@ -31,7 +31,7 @@ As per the project requirements, sometimes you need multiple zones in a channel 
 
 ### Prerequisites {#prerequisites}
 
-Before you start implementing this functionality, please make sure you the conceptual knowledge on:
+Before you start implementing this functionality, please make sure you have the conceptual knowledge on:
 
 * [Creating an AEM Screens Project](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Creating a Display](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -54,7 +54,7 @@ While creating a channel, you can use different templates in order to create zon
 
 ### Using Single Assets in one or more Zones {#using-single-assets-in-one-or-more-zones}
 
-You can use single assets such as an image or a video in all three different zones. Follow the steps below for implementation:
+You can use single assets such as an image or a video in all individual zones. Follow the steps below for implementation:
 
 1. **Adding Content to the Channel**
 
@@ -69,7 +69,7 @@ You can use single assets such as an image or a video in all three different zon
 
 ### Using Sequenced Content in one or more Zones {#using-sequenced-content-in-one-or-more-zones}
 
-If you want the zones to display sequence of images and a video in two different zones, follow steps below for details.
+If you want the zones to display sequence of images and a video in the different zones, follow steps below for details.
 
 1. **Creating a Channel Folder**
 
@@ -130,7 +130,7 @@ You must create a location and a display to view the content in the Screens play
    1. Select **Display** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **Lobby** and click **Create**.
 
-### Assigning Channel to the Display {#channel-channel}
+### Assigning Channels to the Display {#channel-channel}
 
 You must assign the channels to the display to view the content. Follow the steps below to assign the channel to the display.
 
@@ -170,7 +170,7 @@ Once you have set up a location and a display, follow the steps below to registe
    1. Select **Assign Display** and select the path to the device config.
 
     >[!NOTE]
-    >If you are trying to view the content in the Screens player, make sure you click **Update Offline Content** from the channel dashboard.
+    >If you are trying to view the content in the Screens player, make sure you click **Update Offline Content** from the channel dashboard for each of the channels assigned to the display.
 
 ### Viewing the Result {#viewing-the-result}
 
