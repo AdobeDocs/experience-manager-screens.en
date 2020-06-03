@@ -14,7 +14,7 @@ docset: aem65
 
 # Transitioning from ContentSync to SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-This section povides an overview to SmartSync feature and how it minimizes server load/storage and network traffic to reduce cost.
+This section provides an overview to SmartSync feature and how it minimizes server load/storage and network traffic to reduce cost.
 
 ## Overview {#overview}
 
@@ -75,7 +75,7 @@ Follow the steps below to transition from ContentSync to SmartSync:
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console Configuration **opens. Search for *offlinecontentservices*.
+1. **Adobe Experience Manager Web Console Configuration **opens. Search for *offlinecontentservice*.
 
    For searching the **Screens Offline Content Service** property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 

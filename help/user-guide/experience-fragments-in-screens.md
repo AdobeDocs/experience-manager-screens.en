@@ -65,11 +65,9 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
 1. **Navigate to a Sites page in We.Retail**
 
-    1. Navigate to Sites and select **We.Retail In-Store** -&gt; **United States** -&gt;**English** and select **Equipment** page to use this as an experience fragment for your Screens channel. 
+    1. Navigate to Sites and select **We.Retail In-Store** -&gt; **Channels** -&gt;**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel. 
     
     1. Click **Edit** from the action bar to open the page you want to use as an experience fragment for your Screens channel.
-
-       ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Re-using the Content**
 
