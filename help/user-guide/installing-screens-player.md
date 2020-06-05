@@ -12,7 +12,7 @@ This page describes how to install AEM Screens player.
 
 ## Available Screens Player {#available-players}
 
-The AEM Screens player is available for Android, Chrome OS, and Windows.
+The AEM Screens player is available for Android, Chrome OS and Windows.
 
 To download **AEM Screens Player**, visit the [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) page.
 
