@@ -15,11 +15,7 @@ seo-description: Follow this page to get information for AEM Screens Feature Pac
 
 AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4.
 
-You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&$$login$$=%24%24login%24%24) using your Adobe ID.
-
->[!NOTE]
->Refer to [How to Work With Packages](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) to learn how packages enable the importing and exporting of repository content and how you can access and/or maintain the packages from Package Manager or Package Share. 
-
+You can download the latest feature pack for AEM Screens 6.4.8 or AEM Screens 6.5.4 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack.
 
 ## Release Date {#release-date}
 
