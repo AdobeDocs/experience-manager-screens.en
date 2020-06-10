@@ -125,7 +125,7 @@ For each publish instance:
 1. Update Topology connector URLs: add URLs of all partaking publish instances that is:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Topology connector Whitelist: adapt to IPs or subnets covering partaking publish instances
+1. Topology connector Allowed List: adapt to IPs or subnets covering partaking publish instances
 1. Enable **Auto-Stop Local-Loops**
 
 The configuration should be identical for each publish instance and the auto-stop Local-loop prevents an infinite loop.

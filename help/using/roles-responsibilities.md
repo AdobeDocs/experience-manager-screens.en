@@ -163,7 +163,7 @@ The following table summarizes the **Day One: Day One: Project Implementation (H
 | Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
 | Retail Design includes wiring operations | - |  - | - |  - |
 | Player Hardware Selection | RAC |  - | - |  - |
-| Master Device Management | RA |  I | - |  - |
+| Device Management of master  | RA |  I | - |  - |
 | Device Ordering & Storing & Configuring | RA |  CI | I | - |
 | Support Process Definition | RA |  I | RA |  C |
 
