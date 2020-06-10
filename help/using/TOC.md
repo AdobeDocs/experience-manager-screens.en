@@ -1,10 +1,9 @@
 ---
 user-guide-title: Best Practices Guide for AEM Screens Projects
-solution-title: Experience Cloud
+solution-title: AEM Screens
 getting-started-title: Experience League
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
+product: experience manager
+audience: end-user
 ---
 
 # Best Practices Guide for AEM Screens Projects {#using}
