@@ -1,7 +1,7 @@
 ---
 user-guide-title: Best Practices Guide for AEM Screens Projects
 solution-title: AEM Screens
-getting-started-title: Experience League
+getting-started-title: AEM Screens Best Practices Guide
 product: experience manager
 audience: end-user
 ---
