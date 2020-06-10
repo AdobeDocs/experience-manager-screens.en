@@ -79,7 +79,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Setting up a Master {#setting-up-master}
+### Setting up a master {#setting-up-master}
 
 1. Navigate to the display dashboard from **CommandSyncDemo** --> **Locations**  --> **Lobby** --> **LobbyDisplay** and click on **Dashboard** from the action bar.
 You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.

@@ -19,7 +19,7 @@ This page covers the following topics:
 
 * **Overview**
 * **Using Experience Fragments in AEM Screens**
-* **Propagating Changes from the Master Page**
+* **Propagating Changes to the Page**
 
 ## Overview {#overview}
 
@@ -162,7 +162,7 @@ After completion of preceding steps, you can validate your experience fragment i
 You will view the content from the **Sites** page (live-copy of the experience fragment) in your channel, as shown in the figure below:   
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png) 
 
-## Propagating Changes from the Master Page {#propagating-changes-from-the-master-page}
+## Propagating Changes to the Page {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** refers to the copy (of the source), maintained by synchronization actions as defined by the rollout configurations.
 
@@ -172,9 +172,9 @@ Since the Experience Fragment, we created is a live copy from the **Sites** page
 >
 >For more information on Live Copy, see Reusing Content: Multi Site Manager and Live Copy.
 
-Follow the steps below to propagate changes from the Master channel to your destination channel:
+Follow the steps below to propagate changes from the master channel to your destination channel:
 
-1. Select the Experience Fragment from the **Sites** (Master) page and click the pencil icon to edit the items in the Experience Fragment.
+1. Select the Experience Fragment from the **Sites** (master) page and click the pencil icon to edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
