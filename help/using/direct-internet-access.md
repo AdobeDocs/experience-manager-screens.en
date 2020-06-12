@@ -48,7 +48,7 @@ For those use-cases where there are more interactions with sensors or other trig
 
 The following table provides an overview on network connectivity key data:
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >The information allows you to view the consumption of each device in the network requesting and downloading an internet source. So each of those request do add up and extend the download Time.
