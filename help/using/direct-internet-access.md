@@ -29,7 +29,7 @@ The configuration also includes an Internet Access by any Internet service Provi
 
 The Direct Access Network Setup an be logically separated in two block. The WAN/Outer World/Internet Connection Block and the internal LAN/Local Area Network.
 
-### WAN / Internet Connection {wan-connection}
+### WAN / Internet Connection {#wan-connection}
 
 The performance of the Internet Connection has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly. In detail, “sufficient” depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
 Keep in mind that all of the devices do have a concurrent access to the Internet connection and bandwidth is usually linearly decreasing whilst adding more consumers/computers to the network.
