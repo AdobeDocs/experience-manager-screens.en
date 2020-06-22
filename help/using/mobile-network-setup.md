@@ -5,11 +5,13 @@ description: The page describes Mobile Network Setup
 
 # Mobile Network Setups {#mobile-network-setup}
 
-Adobe AEM Screens Players can also be connected using Mobile/Cellular Networks running at least a 3G network.
-Within the AEM Screens, the needed content is physically downloaded to the Player Controller/Computer and properly stored within the underlying Operating System. Therefor the given bandwidth is only impacting initial download times and doesn’t influence the Display Systems performance at all.
-Connection of AEM Screens Players with a Cellular 3/4/5G Connect to your Mobile Service Data Provider. The Benefit of this Setup is that the Mobile Router can be placed in a optimized spot to ensure best available Network coverage. This is usually in an elevated and open position with as less surrounding concrete or metal construction as possible.
-This SetUp allows AEM Screen Users a great flexibility as there is no landline required to connect AEM Screens.
+AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
 
+Within the AEM Screens, the required content is physically downloaded to the Player Controller or Computer and properly stored within the underlying Operating System. Therefor the given bandwidth is only impacts initial download times and does not influence the performance of Displays.
+
+Connection of AEM Screens Players with a Cellular 3/4/5G Connect to your Mobile Service Data Provider. The benefit of this Setup is that the Mobile Router can be placed in a optimized spot to ensure best available Network coverage. This is usually in an elevated and open position with as less surrounding concrete or metal construction as possible.
+
+This SetUp allows AEM Screen Users a great flexibility as there is no landline connection required to connect AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -19,7 +21,6 @@ This SetUp allows AEM Screen Users a great flexibility as there is no landline r
 >
 >1. Check in your Internet Router Firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 >1. Make sure that all needed Ports are allowed and retry.
-
 
 
 ## Requirements for Setting Up Mobile Network SetUp {#requirements-direct}
