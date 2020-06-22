@@ -20,7 +20,7 @@ The configuration also includes an Internet Access by any Internet Service Provi
 
 >[!NOTE]
 >**Troubleshooting Tip**
->If AEM Screens does not connect properly and shows the expected content:
+>If AEM Screens does not connect properly and does not show the expected content:
 >
 >1. Check in your Internet Router Firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 >1. Make sure that all needed Ports are allowed and retry.
