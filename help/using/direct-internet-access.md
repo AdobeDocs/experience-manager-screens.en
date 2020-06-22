@@ -16,7 +16,7 @@ Ports may vary due to configuration of your dedicated AEM configuration. Within 
 
 ![](/help/assets/direct-access-2.png)
 
-The configuration also includes an Internet Access by any Internet service Provider and it’s Internet Line. Most ISP’s do provide an Internet Router covering the Internet Modem, Network Switch, WIFI Access-point, Firewall and other Network functionalities (depending on manufacturer and model).
+The configuration also includes an Internet Access by any Internet Service Provider (ISP) and it’s Internet Line. Most ISP’s provide an Internet Router covering the Internet Modem, Network Switch, WIFI Access-point, Firewall and other Network functionalities (depending on manufacturer and model).
 
 >[!NOTE]
 >**Troubleshooting Tip**
