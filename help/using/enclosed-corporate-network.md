@@ -38,3 +38,5 @@ For normal operation, e.g. having defined playlist that aren’t changed very of
 The following tables offer a good overview what network connectivity key data means for the performance that can be expected and potential waiting times.
 
 All information has to bee seen as the consumption of each Device in the network requesting and downloading an internet source. So each of those request do add up and extend the Download Time.
+
+![](/help/using/assets/enclosed-network-download.png)
