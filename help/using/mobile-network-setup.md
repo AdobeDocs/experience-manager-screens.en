@@ -11,7 +11,18 @@ Connection of AEM Screens Players with a Cellular 3/4/5G Connect to your Mobile 
 This SetUp allows AEM Screen Users a great flexibility as there is no landline required to connect AEM Screens.
 
 
-## Requirements for Setting Up Direct Access Network {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**Troubleshooting Tip**
+>If AEM Screens does not connect properly and does not show the expected content:
+>
+>1. Check in your Internet Router Firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
+>1. Make sure that all needed Ports are allowed and retry.
+
+
+
+## Requirements for Setting Up Mobile Network SetUp {#requirements-direct}
 
 The network Setup as described in 5.5 can be logically separated in three block. The WAN/Outer World/Internet Connection Block(here mobile Data Connection), the internal LAN/Local Area Network and optional subsections of the LAN separated by Active Network Components.
 To provide best possible performance it has to be ensured that both section do match to recommended minimum standards.
