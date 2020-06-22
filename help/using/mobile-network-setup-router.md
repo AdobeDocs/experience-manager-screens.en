@@ -18,20 +18,19 @@ Follow the steps below to connect of AEM Screen players in this configuration:
 
 The configuration contains of an Internet Access of any of the AEM Screens Controllers by direct Internet Access using an own 3/4/5G Data Link.
 The proper connection of the AEM Screen players in this configuration is simple:
-1. Make sure that the Mobile Data Router is properly connected to the cellular Data Network as indicated within the Operating System.
-2. Make sure that each of the AEM Screen players is connected to the Routers Network
-3. Test the internet connection by calling an URL e.g. http://www.adobe.com in your systems Browser.
-a. In case that you get an error message, check the network settings:
-i. There are basically 2 Options for a proper network connection
-1. DHCP
-2. Manual IP Configuration
-ii. Make sure that the Network Adapter Setting does match to your Router Setting.
-iii. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can usually also be identified using a Signal LED on Standard Routers.
 
-If this isn’t looking OK, please contact your ISP Service to check your Router remotely.
+1. Make sure that the Mobile Data Router is properly connected to the cellular Data Network as indicated within the Operating System.
+1. Make sure that each of the AEM Screen players is connected to the Routers Network
+1. Test the internet connection by calling an URL in your systems Browser.
+   >[!NOTE]
+   >In case that you get an error message, check the network settings.There are basically two options for a proper network connection:
+   >* DHCP
+   >* Manual IP Configuration
+
+1. Make sure that the Network Adapter Setting does match to your Router Setting.
+1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can usually also be identified using a Signal LED on Standard Routers. If this isn’t looking OK, please contact your ISP Service to check your Router remotely.
 iv. If all the above is configured correctly and an error message is still appearing, check on your active network components like Switches or additional Routers if there is any Port restriction.
-4. In case that the URL call was successful you can continue installing the AEM Screens and register it accordingly
-5. Start AEM Screens
+1. In case that the URL call was successful you can continue installing the AEM Screens and register it accordingly. Start AEM Screens
 
    >[!NOTE]
    >**Troubleshooting Tip**
@@ -55,7 +54,7 @@ The performance of the Internet Connection has, besides to the already described
 Keep in mind that all of the devices do have a concurrent access to the Internet connection and Bandwith is usually linearily decreasing whilst adding more consumers/computers to the network.
 Besides the specific theoretical Network connection it has to be ensured, that the coverage of the mobile Router is at least “good” (please refer to your Mobile Router Manual). Also the underlying Monthly Plan has to cover enough Data Capacity and sufficient Bandwith to serve all connected clients within the connected LAN.
 The Data networks provide standard Bandwith’s having approx.. up to:
-• 3G
+* 3G
 o 42Mbit/sec
 • 4G
 o 150Mbit/sec
@@ -65,7 +64,7 @@ While considering which Data Network should be used it is recommended to answer 
 • How many clients are connected to the Router?
 • How many Content Changes do I excpect and what are those average File Sizes?
 As a follow up the needed Data Package has to be at least:
-Data Package Capacity = # of Clients * (# of Content Files * Average File Size)
+`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 Please make sure that there is enough Buffer.
 Attention: For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions.
 
