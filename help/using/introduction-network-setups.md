@@ -1,8 +1,8 @@
 ---
-title: Understand Proxy Servers
-seo-title: Understand Proxy Servers
-description: The page describes Proxy Servers
-seo-description: The page describes Proxy Servers
+title: Introduction to Standard Network Setups
+seo-title: Introduction to Standard Network Setups
+description: The page describes Standard Network Setups
+seo-description: The page describes Standard Network Setups
 ---
 
 # Introduction to Standard Network Setups {#intro-standard-networks}
@@ -10,6 +10,10 @@ seo-description: The page describes Proxy Servers
 A Network Setup can have various structures. This section provides an overview of the network structures deployed in an environment. There are different setups that are sometimes implemented from scratch.
 
 This section highlights an introduction to proxy servers followed by the different network structures that are setup withing different organizations. 
+
+>[!NOTE]
+>**AEM Screens Network Requirements**
+>The AEM Screens Communicates directly with the AEM Cloud Service, therefore there is a need to establish a stable connection between those two nodes. Firewalls are absolutely mandatory for commercial Internet Access and the Customer needs to know which Communication Ports need to be opened in Firewalls and other IT-Security related network components that are within control of the Customer.
 
 ## Proxy Servers {#proxy-servers}
 
@@ -19,13 +23,14 @@ An advantage of a proxy server is that it's cache can serve all users. If one or
 
 ## Understanding the Network Setups {#network-setups}
 
-To implement a Network Setup, you must refer to the following scenarios with pros and cons. 
+To implement a network Setup, you must refer to the following scenarios with strengths and deployment details. 
 
 There are three major types of Network setups:
 
-1. Internet Access Setup
-1. Mobile Network Setup
-1. Enclosed Corporate Network Setup
+1. [Direct Internet Access](/help/using/direct-internet-access.md)
+1. [Direct Mobile Network](/help/using/mobile-network-setup.md)
+1. [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-setup-router.md)
+1. [Enclosed Corporate Network](/help/using/enclosed-corporate-network.md)
 
 The following table outlines the different types of network setups with advantages and disadvantages:
 
@@ -37,7 +42,7 @@ The following table outlines the different types of network setups with advantag
    <td><strong>Disadvantages</strong></td>
   </tr>
   <tr>
-   <td><strong>Internet Access Setup</strong></td>
+   <td><strong>Direct Internet Access</strong></td>
    <td>Easy and straight forward to SetUp
 <br>Good choice for mid-size or larger Installations
 <br>Dedicated Network can be encapsulated
@@ -47,16 +52,27 @@ The following table outlines the different types of network setups with advantag
    <td>Appropriate Internet Data Plan mandatory</td>
   </tr>
     <tr>
-   <td><strong>Mobile Network Setup</strong></td>
+   <td><strong>Direct Mobile Network</strong></td>
+   <td>Easy and straight forward to SetUp
+<br>Good choice for mid-size or larger installations
+<br>Good scalability
+<br>Encapsulated Screens
+</td>
+   <td>Appropriate Internet connection mandatory</td>
+  </tr>
+    <tr>
+<tr>
+   <td><strong>Mobile Network with Mobile Data Router and Active Network Components</strong></td>
    <td>Easy and straight forward to SetUp
 <br>Good choice for mid-size or larger installations
 <br>Dedicated Network can be encapsulated
 <br>Few Points of failure
 <br>Relatively Cheap
 <br>Good scalability</br></td>
-   <td>Appropriate Internet connection mandatory</td>
+   <td>Appropriate Internet Data Plan mandatory</td>
   </tr>
     <tr>
+
    <td><strong>Enclosed Corporate Network</strong></td>
    <td>High flexibility and scalability
 <br>Highly secure due to different Lines of Defense

@@ -63,7 +63,7 @@ The performance of the internet connection besides to the network reachability, 
 The performance of the Local Area Network (LAN), besides the network reachability, provides sufficient bandwidth to operate AEM Screens nice and smoothly. 
 
 The LAN network is usually at least matching a 100 MBit/sec network, so that there is sufficient bandwidth to connect many devices with good performance to the system.
-In case that a WIFI solution is envisaged to connect AEM Screens to the internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbit. Any *newer* Standards like 802.11h-n are of better quality. 
+In case that a WIFI solution is envisaged to connect AEM Screens to the internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like 802.11h-n are of better quality. 
 
 >[!NOTE]
 >If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar. Other WiFi repeating technologies ends up in a massive loss of bandwidth in the overall network.
