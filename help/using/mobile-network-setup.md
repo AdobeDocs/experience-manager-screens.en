@@ -29,7 +29,8 @@ Follow the steps below to connect of AEM Screen players in this configuration:
    >* Manual IP Configuration
 
 1. Make sure that the Network Adapter Setting match to your Router Setting.
-1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can usually also be identified using a Signal LED on Standard Routers.
+
+1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can also be identified using a Signal LED on Standard Routers.
 
 1. In case that the URL call is successful you can continue installing the AEM Screens and register it accordingly. Start AEM Screens.
 
