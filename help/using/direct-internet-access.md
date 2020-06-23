@@ -33,8 +33,7 @@ Follow the steps below to connect of AEM Screen players in this configuration:
 1. Make sure that the Network Adapter Setting does match to your Router Setting and check if the Maximum amount of available IP addresses in your network is not reached.
 
 1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can usually also be identified using a Signal LED on Standard Routers.
-1. In case that the URL call was successful you can continue installing the AEM Screens and register it accordingly
-1. Start AEM Screens.
+1. In case that the URL call is successful, you can continue installing the AEM Screens and register it accordingly. Start AEM Screens.
 
    >[!NOTE]
    >**Troubleshooting Tip**
@@ -53,7 +52,9 @@ The Direct Access Network Setup an be logically separated in two blocks:
 
 ### Wide Area Network {#wan-connection}
 
-The performance of the internet connection besides to the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly. In detail, “sufficient” depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
+The performance of the internet connection besides to the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
+
+*Sufficient* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
 
 >[!NOTE]
 >All of the devices do have a concurrent access to the internet connection and bandwidth usually linearly decreases when you add more consumers/computers to the network.
@@ -74,9 +75,10 @@ AEM Screens provides a big advantage to Digital Signage Users. It downloads and 
 For normal operation, for example, having defined playlist that are not changing very often during the day, this offers a close to network independent operation, once all the files have been saved on the player.
 For those use-cases where there are more interactions with sensors or other triggers and content is very dynamic a fast and reliable network connection is essential for an immediate screen reaction to ensure best possible Customer Experience.
 
-The following table provides an overview on network connectivity key data:
+The following table provides an overview on network connectivity key data.
+
+>[!NOTE]
+>The information allows you to view the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->The information allows you to view the consumption of each device in the network requesting and downloading an internet source. So each of those request do add up and extend the Download Time.
