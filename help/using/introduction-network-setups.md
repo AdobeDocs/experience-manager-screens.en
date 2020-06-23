@@ -5,7 +5,7 @@ description: The page describes Standard Network Setups
 seo-description: The page describes Standard Network Setups
 ---
 
-# Introduction to Standard Network Setups {#intro-standard-networks}
+# Managing Network Traffic {#managing-network-traffic}
 
 A Network Setup can have various structures. This section provides an overview of the network structures deployed in an environment. There are different setups that are sometimes implemented from scratch.
 
@@ -21,7 +21,7 @@ A proxy server is a dedicated computer or a software system running on a compute
 
 An advantage of a proxy server is that it's cache can serve all users. If one or more Internet sites are frequently requested, these are likely to be in the proxy's cache, which will improve user response time. A proxy can also log its interactions, which can be helpful for troubleshooting.
 
-## Understanding the Network Setups {#network-setups}
+## Understanding the Standard Network Setups {#network-setups}
 
 To implement a network Setup, you must refer to the following scenarios with strengths and deployment details. 
 
