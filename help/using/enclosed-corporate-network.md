@@ -5,29 +5,38 @@ description: Enclosed Corporate Network
 
 # Enclosed Corporate Networks {#enclosed-corporate-networks}
 
-The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise Businesses. It can be theoretically more complex, but the logical Setup is always as shown below in a simplified example. 
-
-## Requirements for Setting Up Enclosed Corporate Networks {#requirements-enclosed-networks}
-
-The Enclosed Corporate Network Setup an be logically separated in two blocks. The Wide Area Network (WAN) and the internal Local Area Network (LAN).
+The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise Businesses. It can be theoretically more complex, but the logical Setup is shown in the figure below.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+## Requirements for Setting Up Enclosed Corporate Networks {#requirements-enclosed-networks}
+
+The Enclosed Corporate Network Setup an be logically separated in two blocks:
+
+* Wide Area Network (WAN) 
+* Internal Local Area Network (LAN).
+
 ### Wide Area Network {#wan-connection}
 
-The performance of the Internet Connection has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
-In detail, “sufficient” depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
-Keep in mind that all of the devices do have a concurrent access to the Internet connection and bandwidth is usually linearly decreasing whilst adding more consumers/computers to the network.
+The performance of the internet connection  besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
+*Sufficient bandwidth* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
+
+>[!NOTE]
+>All of the devices have a concurrent access to the internet connection and bandwidth is usually linearly decreases when you add more consumers or computers to the network.
 
 ### Local Area Network {#lan-connection}
 
-The performance of the LAN has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly. In these days the LAN network within corporate organizations is usually at least matching a 1000 MBit/sec network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. Whilst using other active Network Component it is mandatory that all of those do match to the network bandwidth requirements. E.g. the Network Components should at least match 1000 Mbit/s standard and match the bandwidth provided by the Internet Access/Router specification.
+The performance of the Local Area Network (LAN) has, besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly. 
+
+In these days the LAN network within corporate organizations is usually at least matching a 1000 MBit/sec network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. While using other active network Components it is mandatory that all of those do match to the network bandwidth requirements. 
+
+For example,the network components should at least match 1000 Mbps standard and match the bandwidth provided by the Internet Access/Router specification.
 
 ### Other Corporate Networks Specifics {#other-networks}
 
 Usually Corporate Networks do have load of devices connected, might be separated into various sub-networks and might have redundant or multiplexed Internet connections to provide sufficient performance for many thousand concurrent accesses.
 The above schema is simplified and does fit in most cases to the environment available for the client.
-In case that an WiFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbit. Any “newer” Standards like 802.11h-n are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
+In case that an WiFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbps. Any “newer” Standards like 802.11h-n are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
 Other WiFi repeating technologies ends up in a massive loss of bandwidth in the overall network.
 
 ## Downloading Media and Assets {#download}
