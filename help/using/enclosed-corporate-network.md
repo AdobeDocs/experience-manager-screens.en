@@ -3,7 +3,7 @@ title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 ---
 
-# Enclosed Corporate Networks {#enclosed-corporate-networks}
+# Enclosed Corporate Networks (Wired/Wireless) {#enclosed-corporate-networks}
 
 The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise Businesses. It can be theoretically more complex, but the logical Setup is shown in the figure below.
 

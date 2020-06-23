@@ -27,10 +27,10 @@ To implement a network Setup, you must refer to the following scenarios with str
 
 There are three major types of Network setups:
 
-1. [Direct Internet Access](/help/using/direct-internet-access.md)
-1. [Direct Mobile Network](/help/using/mobile-network-setup.md)
-1. [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-setup-router.md)
-1. [Enclosed Corporate Network](/help/using/enclosed-corporate-network.md)
+1. [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
+1. [Direct Mobile Network](/help/using/mobile-network.md)
+1. [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md)
+1. [Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
 
 The following table outlines the different types of network setups with advantages and disadvantages:
 

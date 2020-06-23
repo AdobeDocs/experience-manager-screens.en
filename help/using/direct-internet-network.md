@@ -3,7 +3,7 @@ title: Direct Internet Access
 description: Direct Internet Access
 ---
 
-# Direct Internet Access {#direct-internet-access}
+# Direct Internet Network (Wired/Wireless) {#direct-internet-access}
 
 The Direct Internet Access SetUp contains an entry access point for internet access in order to reach the AEM Cloud services that AEM Screens needs to connect to. 
 
