@@ -29,6 +29,11 @@ audience: end-user
 + Deployment Briefing {#deployment-brief}
   + [AEM Platform Configurations](aem-platform-configurations.md)
   + [Project Taxonomy and Implementation](project-taxonomy-implementation.md)
+  + Managing Network Traffic {#manage-network-traffic}
+      + [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
+      + [Direct Mobile Network](/help/using/mobile-network.md)
+      + [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md)
+      + [Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
   + [Device Configurations](device-configurations.md)
   + [Testing and Quality Assurance](testing-quality-assurance.md)
   + [Vendor Engagement Strategy](vendor-engagement.md)
