@@ -34,9 +34,10 @@ For example,the network components should at least match 1000 Mbps standard and 
 
 ### Other Corporate Networks Specifics {#other-networks}
 
-Usually Corporate Networks do have load of devices connected, might be separated into various sub-networks and might have redundant or multiplexed Internet connections to provide sufficient performance for many thousand concurrent accesses.
-The above schema is simplified and does fit in most cases to the environment available for the client.
-In case that an WiFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbps. Any “newer” Standards like 802.11h-n are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
+Usually Corporate Networks have a load of devices connected, might be separated into various sub-networks and might have redundant or multiplexed Internet connections to provide sufficient performance for many thousand concurrent accesses.
+This schema is simplified and fits in most cases to the environment available for the client.
+
+In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
 Other WiFi repeating technologies ends up in a massive loss of bandwidth in the overall network.
 
 ## Downloading Media and Assets {#download}
