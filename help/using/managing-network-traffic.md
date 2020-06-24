@@ -1,6 +1,6 @@
 ---
-title: Introduction to Standard Network Setups
-description: The page describes Standard Network Setups
+title: Managing Network Traffic
+description: The page describes Standard Network Setups and how to manage network traffic.
 ---
 
 # Managing Network Traffic {#managing-network-traffic}
