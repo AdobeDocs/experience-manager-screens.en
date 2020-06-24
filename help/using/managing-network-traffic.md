@@ -1,6 +1,6 @@
 ---
-title: Introduction to Standard Network Setups
-description: The page describes Standard Network Setups
+title: Managing Network Traffic
+description: The page describes Standard Network Setups and how to manage network traffic.
 ---
 
 # Managing Network Traffic {#managing-network-traffic}
@@ -10,7 +10,9 @@ A Network Setup can have various structures. This section describes the most usu
 This guide highlights an introduction to proxy servers followed by the varied network structures that are setup within different organizations. 
 
 >[!NOTE]
+>
 >**AEM Screens Network Requirements**
+>
 >The AEM Screens communicates directly with the AEM as a Cloud Service, therefore there is a need to establish a stable connection between the two nodes. Firewalls are absolutely mandatory for commercial Internet access and as a customer you must understand which communication ports are required to be opened in firewalls and other IT-Security related network components.
 
 ## Overview to Proxy Servers {#proxy-servers}
@@ -32,56 +34,9 @@ There are four major types of Network setups:
 
 The following table outlines the different types of network setups with advantages and disadvantages:
 
-<table>
- <tbody>
-  <tr>
-   <td><strong>Network Setup</strong></td>
-   <td><strong>Advantages</strong></td>
-   <td><strong>Disadvantages</strong></td>
-  </tr>
-  <tr>
-   <td><strong>Direct Internet Network (Wired/Wireless)</strong></td>
-   <td>Easy and straight forward to SetUp
-<br>Good choice for mid-size or larger Installations
-<br>Dedicated Network can be Encapsulated
-<br>Few Points of failure
-<br>Relatively Inexpensive
-<br>Good Scalability</td>
-   <td>Mandatory Internet Data Plan </td>
-  </tr>
-    <tr>
-   <td><strong>Direct Mobile Network</strong></td>
-   <td>Easy to SetUp
-<br>Good Choice for Mid-size or Larger Installations
-<br>Good Scalability
-<br>Encapsulated Screens
-</td>
-   <td>Mandatory Internet connection</td>
-  </tr>
-    <tr>
-<tr>
-   <td><strong>Mobile Network with Mobile Data Router and Active Network Components</strong></td>
-   <td>Easy to SetUp
-<br>Good Choice for Mid-size or Larger Installations
-<br>Dedicated Network can be Encapsulated
-<br>Few Points of Failure
-<br>Relatively Inexpensive
-<br>Good scalability</br></td>
-   <td>Mandatory Internet Data Plan</td>
-  </tr>
-    <tr>
-
-   <td><strong>Enclosed Corporate Network (Wired/Wireless)</strong></td>
-   <td>High flexibility and scalability
-<br>Highly Secure due to Different Lines of Defense
-<br>Encapsulated Networks
-<br>Easy to Monitor and Maintain
-<br>Reliable</td>
-   <td>Complicated and Expensive
-<br>Recommended for Network Specialists or System Integrators</td>
-  </tr>
-  </tr>
- </tbody>
-</table>
-
-
+|Network Setup|Advantages|Disadvantages|
+|--- |--- |--- |
+|Direct Internet Network (Wired/Wireless)|Easy and straight forward to SetUp<br>Good choice for mid-size or larger Installations<br>Dedicated Network can be Encapsulated<br>Few Points of failure<br>Relatively Inexpensive<br>Good Scalability|Mandatory Internet Data Plan|
+|Direct Mobile Network|Easy to SetUp<br>Good Choice for Mid-size or Larger Installations<br>Good Scalability<br>Encapsulated Screens|Mandatory Internet connection|
+|Mobile Network with Mobile Data Router and Active Network Components|Easy to SetUp<br>Good Choice for Mid-size or Larger Installations<br>Dedicated Network can be Encapsulated<br>Few Points of Failure<br>Relatively Inexpensive<br>Good scalability|Mandatory Internet Data Plan|
+|Enclosed Corporate Network (Wired/Wireless)|High flexibility and scalability<br>Highly Secure due to Different Lines of Defense<br>Encapsulated Networks<br>Easy to Monitor and Maintain<br>Reliable|Complicated and Expensive<br>Recommended for Network Specialists or System Integrators|
