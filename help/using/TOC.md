@@ -30,6 +30,7 @@ audience: end-user
   + [AEM Platform Configurations](aem-platform-configurations.md)
   + [Project Taxonomy and Implementation](project-taxonomy-implementation.md)
   + Network Traffic Management {#manage-network-traffic}
+      + [Managing Network Traffic](/help/using/introduction-network-setups.md)
       + [Direct Internet Network (Wired/Wireless)](/help/using/direct-internet-network.md)
       + [Direct Mobile Network](/help/using/mobile-network.md)
       + [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md)
