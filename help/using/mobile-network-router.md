@@ -5,41 +5,40 @@ description: The page describes Mobile Network with Mobile Data Router and Activ
 
 # Mobile Network with Mobile Data Router and Active Network Components {#mobile-network-setup}
 
-Adobe AEM Screens Players can also be connected using Mobile or cellular networks running at least a 3G network.
+Adobe AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
 
-Within the AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts the initial download times and does not influence the Display Systems performance at all.
+Within AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts the initial download times and does not influence the Display Systems performance at all.
 
 The benefit of this Setup is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as less surrounding concrete or metal construction as possible.
 This SetUp allows AEM Screen users flexibility as there is no landline required to connect to AEM Screens.
 
-The following diagram shows the Mobile Network with Mobile Data Router and Active Network Components configuration and contains an Internet Access of any of the AEM Screens controllers by direct Internet Access using an own 3/4/5G Data Link.
+The following diagram shows the Mobile Network with Mobile Data Router and Active Network Components configuration and contains an Internet access of any of the AEM Screens controllers by direct Internet access using an own 3/4/5G Data Link.
 
 ![](/help/using/assets/mobile-network-1.png)
 
 ## Connecting AEM Screens Player to Mobile Network with Mobile Data Router and Active Network Components {#connecting-aem-screens-players}
 
-Follow the steps below to connect of AEM Screen players in this configuration:
+Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
 The configuration contains of an Internet Access of any of the AEM Screens Controllers by direct Internet Access using an own 3/4/5G Data Link.
 
 1. Make sure that the Mobile Data Router is properly connected to the cellular Data Network as indicated within the Operating System and each of the AEM Screen players is connected to the Routers Network.
 1. Test the internet connection by calling an URL in your systems Browser.
    >[!NOTE]
-   >In case that you get an error message, check the network settings.There are basically two options for a proper network connection:
+   >In case that you receive an error, check the network settings.There are basically two options for a proper network connection:
    >* DHCP
    >* Manual IP Configuration
 
 1. Make sure that the Network Adapter Setting matches your Router Setting.
 
 1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can also be identified using a Signal LED on Standard Routers.
-1. In case that the URL call was successful you can continue installing the AEM Screens and register it accordingly. Start AEM Screens.
+1. In case the URL call is successful, you can continue installing the AEM Screens and register. Start AEM Screens.
 
    >[!NOTE]
    >**Troubleshooting Tip**
-   >If AEM Screens does not connect properly and does not show the expected content:
+   >If AEM Screens does not connect properly and the expected content is not displayed:
    >
-   >1. Check in your Internet Router Firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
-   >1. Make sure that all needed Ports are allowed.
+   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 
 
 ## Requirements for Setting Up Mobile Network with Mobile Data Router and Active Network Components {#requirements-direct}
@@ -52,21 +51,19 @@ The network Setup can be logically separated in two blocks:
 
 ### Mobile Internet Connection {#mobile-internet-connection}
 
-The performance of the Internet Connection has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
+The performance of the Internet connection has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
 
-*Sufficient* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
+*Sufficient* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest Wi-Fi networks.
 Keep in mind that all of the devices do have a concurrent access to the Internet connection and bandwidth is usually linearly decreasing whilst adding more consumers/computers to the network.
 Besides the specific theoretical Network connection it has to be ensured, that the coverage of the mobile Router is at least “good”. Also the underlying Monthly Plan has to cover enough Data Capacity and sufficient bandwidth to serve all connected clients within the connected LAN.
-The Data networks provide standard bandwidth with:
 
-**3G**
-* 42 Mbps
+The following table highlights the ata networks with their standard bandwidth:
 
-**4G**
-* 150 Mbps
-
-**5G**
-* 1000 Mbps-10000 Mbps
+|Data Network|Bandwidth|
+|--- |--- |
+|3G|42 Mbps|
+|4G|150 Mbps|
+|5G|1000 - 10000 Mbps|
 
 While considering which Data Network should be used it is recommended to answer the following questions:
 
@@ -88,7 +85,7 @@ The performance of the LAN has, besides to the already described network reachab
 
 For example, the Network Components should at least match 100 Mbps standard and match the bandwidth provided by the Internet Access/Router specification.
 
-In case that an WIFI solution is envisaged to connect screen to the Internet Link it is recommended to use modern WIFI standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like 802.11h-n are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
+In case that an Wi-Fi solution is envisaged to connect screen to the Internet Link it is recommended to use modern Wi-Fi standards like IEEE 802.11g as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like 802.11h-n are of better quality. If a Wi-Fi Repeater is required we do strongly recommend Mesh Wi-Fi Access-point technologies like Google Nest Mesh Wi-Fi or similar.
 
 ## Downloading Media and Assets {#download}
 

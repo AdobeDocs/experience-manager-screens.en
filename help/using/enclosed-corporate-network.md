@@ -9,6 +9,31 @@ The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterp
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## Connecting AEM Screens Player to Direct Internet Access {#connecting-aem-screens-players}
+
+Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
+
+1. Make sure that each of the AEM Screen players is connected to the Routers Network.
+1. Test the internet connection by calling an URL in your systems browser.
+
+   >[!NOTE]
+   >In case that you receive an error, check the network settings.There are basically two options for a proper network connection:
+   >* DHCP
+   >* Manual IP Configuration
+
+1. Make sure that the Network Adapter Setting does match your Router Settings and check if the maximum amount of available IP addresses in your network is not reached.
+
+1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link). This can also be identified using a Signal LED on Standard Routers.
+1. In case the URL call is successful, you can continue installing the AEM Screens and register. Start AEM Screens.
+
+   >[!NOTE]
+   >**Troubleshooting Tip**
+   >If AEM Screens does not connect properly and the expected content is not displayed:
+   >
+   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
+   >1. Make sure that all required Ports are allowed.
+
 ## Requirements for Setting Up Enclosed Corporate Networks {#requirements-enclosed-networks}
 
 The Enclosed Corporate Network Setup an be logically separated in two blocks:
@@ -19,7 +44,7 @@ The Enclosed Corporate Network Setup an be logically separated in two blocks:
 ### Wide Area Network {#wan-connection}
 
 The performance of the internet connection  besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
-*Sufficient bandwidth* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
+*Sufficient bandwidth* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest Wi-Fi networks.
 
 >[!NOTE]
 >All of the devices have a concurrent access to the internet connection and bandwidth is usually linearly decreases when you add more consumers or computers to the network.
@@ -37,8 +62,8 @@ For example,the network components should at least match 1000 Mbps standard and 
 Usually Corporate Networks have a load of devices connected, might be separated into various sub-networks and might have redundant or multiplexed Internet connections to provide sufficient performance for many thousand concurrent accesses.
 This schema is simplified and fits in most cases to the environment available for the client.
 
-In case that an WIFI solution is envisaged to connect screen to the internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. If a WIFI Repeater is required we do strongly recommend Mesh WIFI Access-point technologies like Google Nest Mesh WIFI or similar.
-Other WiFi repeating technologies ends up in a massive loss of bandwidth in the overall network.
+In case that an Wi-Fi solution is envisaged to connect screen to the internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. If a Wi-Fi Repeater is required we do strongly recommend Mesh Wi-Fi Access-point technologies like Google Nest Mesh Wi-Fi or similar.
+Other Wi-Fi repeating technologies ends up in a massive loss of bandwidth in the overall network.
 
 ## Downloading Media and Assets {#download}
 
