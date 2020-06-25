@@ -41,7 +41,7 @@ The configuration contains of an Internet Access of any of the AEM Screens Contr
    >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 
 
-## Requirements for Setting Up Mobile Network with Mobile Data Router and Active Network Components {#requirements-direct}
+## Setting Up Mobile Network with Mobile Data Router and Active Network Components {#requirements-direct}
 
 The network Setup can be logically separated in two blocks:
 

@@ -34,7 +34,7 @@ Follow the steps below to ensure proper connection of the AEM Screen players in 
    >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
    >1. Make sure that all required Ports are allowed.
 
-## Requirements for Setting Up Enclosed Corporate Networks {#requirements-enclosed-networks}
+## Setting Up Enclosed Corporate Networks {#requirements-enclosed-networks}
 
 The Enclosed Corporate Network Setup an be logically separated in two blocks:
 

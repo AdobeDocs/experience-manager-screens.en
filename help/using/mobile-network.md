@@ -30,7 +30,7 @@ Follow the steps below to ensure proper connection of the AEM Screen players in 
 
 1. In case that the URL call is successful you can continue installing the AEM Screens and register. Start AEM Screens.
 
-## Requirements for Setting Up Mobile Network SetUp {#requirements-direct}
+## Setting Up Direct Mobile Network {#requirements-direct}
 
 The network Setup can be logically separated in two blocks:
 
