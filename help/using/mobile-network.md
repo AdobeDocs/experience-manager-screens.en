@@ -5,44 +5,30 @@ description: The page describes Direct Mobile Network Setup
 
 # Direct Mobile Network {#mobile-network-setup}
 
-AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
+AEM Screens Players can also be connected using mobile or cellular networks running at least on a 3G network.
 
 Within the AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts initial download times and does not influence the performance of Displays.
 
-Connection of AEM Screens Players with a Cellular 3/4/5G connect to your Mobile Service Data Provider. The benefit of this Setup is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as optimum surrounding concrete or metal construction as possible.
+The benefit of connecting of AEM Screens Players with a Cellular 3/4/5G connect to your Mobile Service Data Provider is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as optimum surrounding concrete or metal construction as possible.
 
 This SetUp allows AEM Screen users a great flexibility as there is no landline connection required to connect to AEM Screens.
 
-The following diagram shows the Direct Mobile Network Setup and consists of one singular network connection segment, the connection of each player to the mobile/cellular data network.
+The following diagram shows the Direct Mobile Network Setup and consists of one singular network connection segment and the connection of each player to the mobile or cellular data Network.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
 ## Connecting AEM Screens Player to Direct Mobile Network {#connecting-aem-screens-players}
 
-Follow the steps below to connect AEM Screens players in this configuration:
+Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
 1. Make sure that each of the AEM Screen players is connected to the Routers Network.
 
 1. Test the internet connection by calling an URL in your systems browser.
 
    >[!NOTE]
-   >In case that you get an error message, check the network settings.There are basically two options for a proper network connection:
-   >* DHCP
-   >* Manual IP Configuration
-
-1. Make sure that the Network Adapter Setting match to your Router setting.
-
-1. Check if the Router is properly connected to the ISP Wide Area Network (Internet Link) This can also be identified using a Signal LED on Standard Routers.
+   >In case that you get an error message, check the network settings and cross-check if there is a sufficient network link and the Operating System firewall is configured to allow network access using the configured AEM Screens communication Ports.
 
 1. In case that the URL call is successful you can continue installing the AEM Screens and register. Start AEM Screens.
-
-   >[!NOTE]
-   >**Troubleshooting Tip**
-   >If AEM Screens does not connect properly and does not show the expected content:
-   >
-   >1. Check in your Internet Router Firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
-   >1. Make sure that all needed Ports are allowed.
-
 
 ## Requirements for Setting Up Mobile Network SetUp {#requirements-direct}
 
@@ -54,52 +40,49 @@ The network Setup can be logically separated in two blocks:
 
 ### Mobile Internet Connection {#mobile-internet-connection}
 
-The performance of the Internet Connection besides network reachability provides sufficient bandwidth to operate AEM Screens smoothly. 
+The performance of the Internet connection besides network reachability provides sufficient bandwidth to operate AEM Screens smoothly. 
 
-*Sufficient* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest WIFI networks.
+In Direct Mobile Network, each Player is connected with a singular Mobile Data Card to the providers data Network.
 
->[!NOTE]
->All of the devices have a concurrent access to the Internet connection and bandwidth linearly decreases while adding more consumers or computers to the network.
+The following table highlights the ata networks with their standard bandwidth:
 
-The Data networks provide standard bandwidth with:
-
-**3G**
-* 42 Mbps
-
-**4G**
-* 150 Mbps
-
-**5G**
-* 1000 Mbps-10000 Mbps
+|Data Network|Bandwidth|
+|--- |--- |
+|3G|42 Mbps|
+|4G|150 Mbps|
+|5G|1000 - 10000 Mbps|
 
 While considering which Data Network should be used it is recommended to answer the following questions:
 
-* How many clients are connected to the Router?
+The available Network speed depends on the specific Mobile Data provider plan and with the available coverage that is reached at the location of the AEM Screens Controller.
+While following this setup, it has also to be taken into consideration that besides the available bandwidth some Mobile Data Provider Plans limit the available amount of Data coming across the connecting within a specific period of time. It has to be ensured that there is enough capacity in amount of Data and bandwidth.
+As a follow up the needed Data Package has to be at least:
 
-* How many Content Changes are expected and what are those average File Sizes?
-
->[!NOTE]
->The needed Data Package has to be at least:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
+
 >[!IMPORTANT]
->Make sure that there is enough Buffer.
 >For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions.A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
+
+>[!NOTE]
+>A minimum 3G plan with good network coverage should lead to acceptable download performance for an AEM Screens player. If there is only fair coverage available at a specific location it is to take into consideration to switch the overall Network Setup to [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md).
 
 
 ### Local Area Network {#lan-connection}
 
-The performance of the Local Area Network (LAN) besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens smoothly. The LAN network is usually at least matches a 100 Mbps network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. 
+The performance of the Local Area Network (LAN) besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens smoothly. The LAN network is usually matches a 100 Mbps network, so that there is sufficient bandwidth to connect many devices with good performance to the system. 
 
-While using other active network components, it is mandatory that all of those do match to the network bandwidth requirements. For example, the network components should at least match 100 Mbps standard and match the bandwidth provided by the Internet Access/Router specification.
+While using other active network components, it is mandatory that all of those do match to the network bandwidth requirements. For example, the network components should at least match 100 Mbps standard and match the bandwidth provided by the Internet access or Router specification.
 
 ## Downloading Media and Assets {#download}
 
-AEM Screens provides a big advantage to Digital Signage Users. It downloads and locally saves all necessary media files, such as images and videos. Due to this, major network traffic occurs in case there is new content to be displayed on a specific screen.
-For normal operation, for instance, a defined playlist that is not frequently updated during the day, offers a close to network independent operation, once all the files have been saved on the player.
-For those use-cases where there are more interactions with Sensors or other Triggers and content is very dynamic a fast and reliable network connection is essential for an immediate screen reaction to ensure best possible Customer Experience.
+AEM Screens provides a big advantage to Digital Signage Users. It downloads and locally saves all necessary media files, such as images and videos. The major network traffic occurs when there is new content to be displayed on a specific display.
 
-The following table provides an overview of network connectivity key data responsible for the performance that can be expected and potential waiting times.
+For normal operations, for example, a defined playlist that updates frequently during the day - offers a close to network independent operation, once all the files have been saved on the player.
+
+For scenarios, where there are more interactions with sensors or triggers and dynamic content, a fast and reliable network connection is essential for an immediate screen reaction to ensure best possible customer experience.
+
+The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
 >All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.

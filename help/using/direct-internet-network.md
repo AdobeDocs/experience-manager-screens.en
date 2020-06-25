@@ -17,7 +17,7 @@ Ports may vary due to configuration of your dedicated AEM configuration set up. 
 
 ![](/help/assets/direct-access-2.png)
 
-The configuration also includes an Internet access by any Internet Service Provider (ISP) and it’s Internet line. Most ISP’s provide an Internet Router covering the Internet Modem, Network Switch, WIFI access point, firewall and other Network functionalities (depending on manufacturer and model).
+The configuration also includes an Internet access by any Internet Service Provider (ISP) and it’s Internet line. Most ISP’s provide an Internet Router covering the Internet Modem, Network Switch, Wi-Fi access point, firewall and other Network functionalities (depending on manufacturer and model).
 
 ## Connecting AEM Screens Player to Direct Internet Access {#connecting-aem-screens-players}
 
@@ -55,7 +55,7 @@ The Direct Internet Network is logically separated into two blocks:
 
 The performance of the Internet connection besides the network's reachability is to provide sufficient bandwidth to operate AEM Screens.
 
-*Sufficient* depends on the number of connected AEM screens and on the usage of other consumers within the network, such as smartphones, tablets, cashiers, computers or guest WIFI networks.
+*Sufficient* depends on the number of connected AEM screens and on the usage of other consumers within the network, such as smartphones, tablets, cashiers, computers or guest Wi-Fi networks.
 
 >[!NOTE]
 >All of the devices mentioned above, have a concurrent access to the Internet connection and the bandwidth decreases linearly when you add more consumers or computers to the network.
@@ -65,10 +65,10 @@ The performance of the Internet connection besides the network's reachability is
 The performance of the Local Area Network (LAN), besides the network's reachability provides sufficient bandwidth to operate AEM Screens. 
 
 The LAN network usually at least matches a 100 Mbps network, so that there is sufficient bandwidth to connect many devices with good performance to the system.
-In case that a WIFI solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern WIFI standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. 
+In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. 
 
 >[!NOTE]
->If a WIFI Repeater is required, it is strongly recommended a Mesh WIFI access point like Google Nest Mesh WIFI or similar. Other WiFi repeating technologies end up in a massive loss of bandwidth in the overall network.
+>If a Wi-Fi Repeater is required, it is strongly recommended a Mesh Wi-Fi access point like Google Nest Mesh Wi-Fi or similar. Other Wi-Fi repeating technologies end up in a massive loss of bandwidth in the overall network.
 
 ## Downloading Media and Assets {#download}
 

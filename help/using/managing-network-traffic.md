@@ -5,7 +5,7 @@ description: The page describes Standard Network Setups and how to manage networ
 
 # Managing Network Traffic {#managing-network-traffic}
 
-A Network Setup can have various structures. This section describes the most usual network setups and generalized approaches followed within an Organization. 
+A Network Setup can have various structures. This section describes the most usual network setups and generalized approaches followed within an Organization.
 
 This guide highlights an introduction to proxy servers followed by the varied network structures that are setup within different organizations. 
 
