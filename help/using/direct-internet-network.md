@@ -43,7 +43,7 @@ Follow the steps below to ensure proper connection of the AEM Screen players in 
    >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
    >1. Make sure that all required Ports are allowed.
 
-## Requirements for Setting Up Direct Access Network {#requirements-direct}
+## Setting Up Direct Access Network {#requirements-direct}
 
 The Direct Internet Network is logically separated into two blocks:
 
