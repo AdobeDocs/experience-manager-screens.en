@@ -8,10 +8,10 @@ description: Direct Internet Access
 The Direct Internet Network contains an entry access point for Internet access in order to reach the AEM Cloud Services that AEM Screens needs to connect to. 
 
 The standard Ports for AEM Screens communication are:
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
 <br>Or,</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, if your particular use case doesn't require that level of security.
 
 Ports may vary due to configuration of your dedicated AEM configuration set up. Within this SetUp, all devices are directly connected to your Internet router as shown in the figure below.
 
@@ -23,8 +23,8 @@ The configuration also includes an Internet access by any Internet Service Provi
 
 Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
-1. Make sure that each of the AEM Screen players is connected to the Routers Network.
-1. Test the internet connection by calling an URL in your systems browser.
+1. Make sure that each of the AEM Screen players is connected to the Router's Network.
+1. Test the internet connection by calling a URL in your systems browser.
 
    >[!NOTE]
    >In case that you receive an error, check the network settings.There are basically two options for a proper network connection:
