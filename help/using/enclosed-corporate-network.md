@@ -5,7 +5,7 @@ description: Enclosed Corporate Network
 
 # Enclosed Corporate Network (Wired/Wireless) {#enclosed-corporate-networks}
 
-The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise businesses. It can be theoretically more complex, and the logical Setup is shown in the figure below.
+The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise businesses. It can be theoretically more complex, and the logical setup is shown in the figure below.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -15,7 +15,7 @@ The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterp
 Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
 1. Make sure that each of the AEM Screen players is connected to the Routers Network.
-1. Test the internet connection by calling an URL in your systems browser.
+1. Test the internet connection by calling a URL in your systems browser.
 
    >[!NOTE]
    >In case that you receive an error, check the network settings.There are basically two options for a proper network connection:
@@ -43,7 +43,7 @@ The Enclosed Corporate Network Setup an be logically separated in two blocks:
 
 ### Wide Area Network {#wan-connection}
 
-The performance of the Internet connection  besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
+The performance of the Internet connection, besides the network reachability, has to provide sufficient bandwidth to operate AEM Screens content updates smoothly.
 *Sufficient bandwidth* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as smartphones, tablets, cashiers, computers or guest Wi-Fi Networks.
 
 >[!NOTE]
@@ -51,11 +51,11 @@ The performance of the Internet connection  besides the network reachability, is
 
 ### Local Area Network {#lan-connection}
 
-The performance of the Local Area Network (LAN) has, besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens smoothly. 
+The performance of the Local Area Network (LAN), besides the network reachability, has to provide sufficient bandwidth to operate AEM Screens content updates smoothly. 
 
 The LAN network within corporate organizations is usually at least 1000 MBit/sec network, so that there is sufficient bandwidth to connect many devices with good performance to the system. While using other active Network components it is mandatory that all of those do match to the Network bandwidth requirements. 
 
-For example,the Network components should at least match 1000 Mbps standard and match the bandwidth provided by the Internet access/router specification.
+For example,the Network components should at least match 100 Mbps standard and match the bandwidth provided by the Internet access/router specification.
 
 ### Other Corporate Networks Specifics {#other-networks}
 
