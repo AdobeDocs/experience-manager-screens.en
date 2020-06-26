@@ -7,10 +7,10 @@ description: The page describes Mobile Network with Mobile Data Router and Activ
 
 Adobe AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
 
-Within AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts the initial download times and does not influence the Display Systems performance at all.
+Within AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts the initial download times, as well as content updates, and does not influence the performance of regular playback of Displays.
 
-The benefit of this Setup is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as less surrounding concrete or metal construction as possible.
-This SetUp allows AEM Screen users flexibility as there is no landline required to connect to AEM Screens.
+The benefit of this setup is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as few surrounding concrete or metal construction as possible.
+This setup allows AEM Screen users flexibility as there is no landline required to connect to AEM Screens. This is particularly interesting for ephemeral or mobile setups.
 
 The following diagram shows the Mobile Network with Mobile Data Router and Active Network Components configuration and contains an Internet access of any of the AEM Screens controllers by direct Internet access using an own 3/4/5G Data Link.
 
@@ -20,10 +20,10 @@ The following diagram shows the Mobile Network with Mobile Data Router and Activ
 
 Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
-The configuration contains of an Internet Access of any of the AEM Screens Controllers by direct Internet Access using an own 3/4/5G Data Link.
+The configuration allocates an Internet Access for every AEM Screens Controller by direct Internet Access using a dedicated 3/4/5G Data Link.
 
 1. Make sure that the Mobile Data Router is properly connected to the cellular Data Network as indicated within the Operating System and each of the AEM Screen players is connected to the Routers Network.
-1. Test the internet connection by calling an URL in your systems Browser.
+1. Test the internet connection by calling a URL in your systems Browser.
    >[!NOTE]
    >In case that you receive an error, check the network settings.There are basically two options for a proper network connection:
    >* DHCP
@@ -51,11 +51,11 @@ The network Setup can be logically separated in two blocks:
 
 ### Mobile Internet Connection {#mobile-internet-connection}
 
-The performance of the Internet connection has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly.
+The performance of the Internet connection, besides the already described network reachability, has to provide sufficient bandwidth to perform AEM Screens content downloads smoothly.
 
-*Sufficient* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest Wi-Fi networks.
-Keep in mind that all of the devices do have a concurrent access to the Internet connection and bandwidth is usually linearly decreasing whilst adding more consumers/computers to the network.
-Besides the specific theoretical Network connection it has to be ensured, that the coverage of the mobile Router is at least “good”. Also the underlying Monthly Plan has to cover enough Data Capacity and sufficient bandwidth to serve all connected clients within the connected LAN.
+*Sufficient* depends on the amount of connected AEM screens devices and on the usage of other consumers within the network, such as Smartphones, Tablets, Cashiers, Computers or Guest Wi-Fi networks.
+Keep in mind that all the devices do have a concurrent access to the Internet connection and bandwidth is usually linearly decreasing whilst adding more consumers/computers to the network.
+Besides the specific theoretical Network connection, it has to be ensured that the coverage of the mobile Router is at least “good”. Also the underlying Monthly Plan has to cover enough Data Capacity and sufficient bandwidth to serve all connected clients within the connected LAN.
 
 The following table highlights the ata networks with their standard bandwidth:
 
@@ -81,7 +81,7 @@ While considering which Data Network should be used it is recommended to answer 
 
 ### Local Area Network {#lan-connection}
 
-The performance of the LAN has, besides to the already described network reachability, to provide sufficient bandwidth to operate AEM Screens nice and smoothly. In these days the LAN network is usually at least matching a 100 Mbps network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. While using other active network component it is mandatory that all of those do match to the network bandwidth requirements.
+The performance of the LAN, besides the already described network reachability, has to provide sufficient bandwidth to operate AEM Screens content downloads smoothly. In these days the LAN network is usually at least matching a 100 Mbps network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. While using other active network component it is mandatory that all of those do match to the network bandwidth requirements.
 
 For example, the Network Components should at least match 100 Mbps standard and match the bandwidth provided by the Internet Access/Router specification.
 
