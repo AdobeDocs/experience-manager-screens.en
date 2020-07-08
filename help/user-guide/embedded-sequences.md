@@ -52,6 +52,7 @@ Follow the steps below to add an embedded sequence to your channel:
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
+>
 >You must assign the channel (used in embedded sequence), to the same display.
 >
 >Follow the steps below after you have added an embedded sequence to your channel from the preceding steps:

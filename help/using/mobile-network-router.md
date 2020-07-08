@@ -72,10 +72,12 @@ While considering which Data Network should be used it is recommended to answer 
 * How many Content Changes are expected and what are those average File Sizes?
 
 >[!NOTE]
+>
 >The needed Data Package has to be at least:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >For initial upload of Media Files, for example, while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions. A 4G network with *good* coverage and unlimited Data should match the most common installations in this Network Setup.
 
 
@@ -95,6 +97,7 @@ For those use-cases where there are more interactions with Sensors or other Trig
 The following tables offer a good overview what network connectivity key data means for the performance that can be expected and potential waiting times.
 
 >[!NOTE]
+>
 >All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/mobile-router-download.png)

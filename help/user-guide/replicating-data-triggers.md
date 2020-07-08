@@ -67,7 +67,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Click **Next** and **Publish**.
 
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
 >Replicating ContextHub configurations and audiences is done during the project setup, while replicating activities and will be required every time targeting is changed inside a channel.
 

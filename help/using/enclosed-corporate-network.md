@@ -47,6 +47,7 @@ The performance of the Internet connection, besides the network reachability, ha
 *Sufficient bandwidth* depends on the amount of connected AEM screens and on the usage of other consumers within the network, such as smartphones, tablets, cashiers, computers or guest Wi-Fi Networks.
 
 >[!NOTE]
+>
 >All of the devices have a concurrent access to the internet connection and bandwidth linearly decreases when you add more consumers or computers to the network.
 
 ### Local Area Network {#lan-connection}
@@ -76,6 +77,7 @@ For scenarios, where there are more interactions with sensors or triggers and dy
 The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
+>
 >The information allows you to view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/enclosed-network-download.png)

@@ -36,6 +36,7 @@ The section below explains how to edit the playback duration of content in an AE
 
 
 >[!NOTE]
+>
 >If you want to update an image or channel level playback duration, refer to [Channel Level Image Playback Duration](channel-level-image-playback.md).
 
 Follow the steps below to learn how to update Project Level Image Playback Duration:
