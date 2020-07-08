@@ -17,7 +17,8 @@ In the phase, entire test systems should be built and fully tested.
 A checklist should be created which identifies all the previously defined KPI's and measured the deliverable against them.
 
 >[!NOTE]
-> This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+>
+>This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
 
 The following elements should be considered:
 
@@ -58,6 +59,7 @@ This module allows you to:
 To learn  in detail about ***Device Control Center***, refer to [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
 
 >[!CAUTION]
+>
 > You should not use Device Control Center to:
 >
 > 1. Install new versions of the player application
@@ -67,6 +69,7 @@ To learn  in detail about ***Device Control Center***, refer to [Troubleshooting
 
 
 >[!NOTE]
+>
 > Adobe recommends that dedicated, 3rd party Device Management platforms should be used for all deployments.
 
 The specific platform chosen depends on a number of factors including the ***target operating system***, ***project requirements*** and ***number of end points***.

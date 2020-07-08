@@ -16,6 +16,7 @@ The diagram below shows the roles that we will refer to throughout the guide.
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > Many of these roles could be either in-house or outsourced, depending on how each project is set up.
 
 ## Defining Roles {#roles}
@@ -76,7 +77,7 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 
 >[!NOTE]
 >
-> To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Project Stages {#project-stages}
@@ -91,7 +92,7 @@ To support a successful Digital Signage deployment, it is customary to segment t
 
 >[!NOTE]
 >
-> While this guide puts emphasis primarily on *Day One* and *Day Two*, attention to all three stages is necessary to execute a successful digital signage project.
+>While this guide puts emphasis primarily on *Day One* and *Day Two*, attention to all three stages is necessary to execute a successful digital signage project.
 Follow an additional video on **[Project Management and Deployment](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** to learn about project pre-production, project initiation, and project progression.
 
 ## RACI Chart {#raci-chart}
@@ -100,7 +101,7 @@ The following is a sample RACI chart using the role definitions.
 
 >[!NOTE]
 >
-> This chart is not intended to be followed exactly but to provide an example of common tasks and considerations in an AEM Screens projects.
+>This chart is not intended to be followed exactly but to provide an example of common tasks and considerations in an AEM Screens projects.
 
 ### RACI definitions {#raci-definitions}
 
@@ -169,7 +170,7 @@ The following table summarizes the **Day One: Day One: Project Implementation (H
 
 >[!NOTE]
 >
-> Roles change during Day Two (Post Launch Support).
+>Roles change during Day Two (Post Launch Support).
 
 * **Author**: Content Management + Strategy
 

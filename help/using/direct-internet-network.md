@@ -58,6 +58,7 @@ The performance of the Internet connection besides the network's reachability is
 *Sufficient* depends on the number of connected AEM screens and on the usage of other consumers within the network, such as smartphones, tablets, cashiers, computers or guest Wi-Fi networks.
 
 >[!NOTE]
+>
 >All of the devices mentioned above, have a concurrent access to the Internet connection and the bandwidth decreases linearly when you add more consumers or computers to the network.
 
 ### Local Area Network {#lan-connection}
@@ -68,6 +69,7 @@ The LAN network usually at least matches a 100 Mbps network, so that there is su
 In case that a Wi-Fi solution is envisaged to connect AEM Screens to the Internet Link it is recommended to use modern Wi-Fi standards like `IEEE 802.11g` as a minimum. This standard supports connections up to 54 Mbps. Any *newer* Standards like `802.11h-n` are of better quality. 
 
 >[!NOTE]
+>
 >If a Wi-Fi Repeater is required, it is strongly recommended a Mesh Wi-Fi access point like Google Nest Mesh Wi-Fi or similar. Other Wi-Fi repeating technologies end up in a massive loss of bandwidth in the overall network.
 
 ## Downloading Media and Assets {#download}
@@ -81,6 +83,7 @@ For scenarios, where there are more interactions with sensors or triggers and dy
 The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
+>
 >The information allows you to view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/assets/download-times-direct.png)

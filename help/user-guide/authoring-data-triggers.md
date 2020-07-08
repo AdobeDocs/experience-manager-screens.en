@@ -9,14 +9,16 @@ description: Follow this page to learn how to author with data triggers.
 This section highlights how to enable targeting in your channels.
 
 >[!IMPORTANT]
-> The minimum version that supports data triggers in an AEM Screens channel is AEM 6.5.3 Feature Pack 3.
+>
+>The minimum version that supports data triggers in an AEM Screens channel is AEM 6.5.3 Feature Pack 3.
 
 ## Prerequisites {#prereqs}
 
 Before you follow the steps below to enable targeting in channels, you must learn the [Key Terms in Configuring in AEM Screens](configuring-context-hub.md) required for understanding ContextHub and Targeting in AEM Screens.
 
 >[!IMPORTANT]
-> It is recommended that you understand and set up ContextHub configurations, before enabling targeting in an AEM Screens channel.
+>
+>It is recommended that you understand and set up ContextHub configurations, before enabling targeting in an AEM Screens channel.
 
 Follow the links below for more information:
 

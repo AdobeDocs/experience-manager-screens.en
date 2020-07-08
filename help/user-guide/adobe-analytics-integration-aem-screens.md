@@ -20,6 +20,7 @@ docset: aem65
 >This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
+>
 >To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
 This section covers the following topics:

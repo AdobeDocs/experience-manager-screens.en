@@ -16,7 +16,8 @@ The diagram below shows the roles that we will refer to throughout the guide.
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> Many of these roles could be either in-house or outsourced, depending on how each project is set up.
+>
+>Many of these roles could be either in-house or outsourced, depending on how each project is set up.
 
 ## Defining Roles {#roles}
 
@@ -62,4 +63,4 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 
 >[!NOTE]
 >
-> To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>To learn in detail about different roles and responsibilities and the target audience for a digital signage project, visit **[Project Roles and Responsibilities](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.

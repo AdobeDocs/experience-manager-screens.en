@@ -66,6 +66,7 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 >You can create different zones using the template options such as 1x2, 2x2, or 2 to 3 split screen channels mentioned above.
 
 >[!IMPORTANT]
+>
 > Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore you need to assign that channel to a display. See the resources below at the end of the section to learn more.
 
 ## Working with Channels {#working-with-channels}

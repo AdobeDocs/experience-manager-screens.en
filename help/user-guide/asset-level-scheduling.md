@@ -98,6 +98,7 @@ The following table summarizes few example expressions that you can add to the s
 
 
 >[!NOTE]
+>
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 ### Week Parting {#week-parting}
@@ -121,6 +122,7 @@ The following table summarizes few example expressions that you can add to the s
 | Mon-Thu | the asset plays in the channel from on Mondays to Thursdays |
 
 >[!NOTE]
+>
 >You can also use _full_ notation (that is, Monday,Wednesday,Friday) instead of _short-hand_ notation (that is, Mon,Wed,Fri).
 
 

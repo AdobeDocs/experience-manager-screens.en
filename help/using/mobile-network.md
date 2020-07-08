@@ -62,9 +62,11 @@ As a follow up the needed Data Package has to be at least:
 
 
 >[!IMPORTANT]
+>
 >For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions.A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
 
 >[!NOTE]
+>
 >A minimum 3G plan with good network coverage should lead to acceptable download performance for an AEM Screens player. If there is only fair coverage available at a specific location it is to take into consideration to switch the overall Network Setup to [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md).
 
 
@@ -85,6 +87,7 @@ For scenarios, where there are more interactions with sensors or triggers and dy
 The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
+>
 >All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/download-times-mobile.png)

@@ -177,7 +177,9 @@ This examples shows the dayparting for a store that displays their winter collec
 | B |Christmas |2 |Dec 24, 2017 - Dec 31, 2017 |
 
 >[!IMPORTANT]
+>
 > To learn more about dayparting, refer to the sections below:
+>
 >* [Handling Recurrence in Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Handling Recurrence for Assets in a Channel](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 

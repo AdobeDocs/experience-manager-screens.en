@@ -75,6 +75,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 1. Click **Save & Close** to update the design path.
 
 >[!IMPORTANT]
+>
 > You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. Refer to the steps below for more details.
 
 1. To overlay the existing Screens templates to inject your own designs by default: 

@@ -149,8 +149,9 @@ On each Publish Instance:
 Since each publish instance by default has unique crypto keys you need to perform this step on each pub instance and save the unique key for the next configuration.
 
 >[!NOTE]
->The password should start and end with curly brackets.
->For example:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
+>
+>The password should start and end with curly brackets. For example:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Step 4: Activate ActiveMQ Artemis Cluster {#step-activate-activemq-artemis-cluster}
 

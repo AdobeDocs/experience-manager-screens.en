@@ -10,6 +10,7 @@ seo-description: Follow this page to learn about how to use Command Sync.
 The following page describes how to use Command Sync. Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.
 
 >[!IMPORTANT]
+>
 >This feature does not support Embedded Sequences, Dynamic Embedded Sequences, Application Channels, or Transitions.
 
 ## Overview {#overview}
@@ -25,6 +26,7 @@ The *master* sends a command to all registered clients when it is about to start
 The following section describes how you can use Command Sync in an AEM Screens project.
 
 >[!NOTE]
+>
 >For synchronized playback, it is required that all the hardware devices have the same hardware specifications and preferably the same operating system. Synchronizing between different hardware and operating systems is not recommended.
 
 ### Setting up the Project {#setting-up}
@@ -94,7 +96,8 @@ You will see the two devices (chrome and windows player) in **DEVICES** panel, a
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> You can set up multiple devices as master.
+>
+>You can set up multiple devices as master.
 
 ### Syncing up with Master {#sync-up-master}
 
@@ -117,6 +120,7 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 Once you have synced a device or devices to a master, you can de-sync the assignment from that device. 
 
 >[!NOTE]
+>
 >If you de-sync a master device, it will also unlink all client devices associated with that master device.
 
 In order to remove the syncing from the master device, follow the steps below:
