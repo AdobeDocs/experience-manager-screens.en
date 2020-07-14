@@ -32,9 +32,9 @@ Creating and managing a digital signage network using AEM Screens is simple and 
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> If your implementation team has experience working with AEM Sites applications, it is important to understand the difference between AEM Sites and AEM Screens.
+>If your implementation team has experience working with AEM Sites applications, it is important to understand the difference between AEM Sites and AEM Screens.
 
 AEM Screens provides a unified Authoring/Playback platform for deploying content to digital signage devices in public spaces. While the experience author should strive to maintain consistency across the web and in-venue channels, there are some differences that should be noted.
 
@@ -52,6 +52,6 @@ AEM Screens provides a framework to deploy content to physical devices. Content 
 
 Before being dropped into a Channel in Screens, an AEM Sites must be formatted for use at the dimensions of the display device it is intended for.
 
-> [!NOTE]
+>[!NOTE]
 >
-> Many AEM Sites components are not compatible with AEM Screens. AEM Screens comes with many of its own out-of-the-box components allowing you to build digital experiences without requiring customization. If project requirements allow, use built-in AEM Screens functionality where possible.
+>Many AEM Sites components are not compatible with AEM Screens. AEM Screens comes with many of its own out-of-the-box components allowing you to build digital experiences without requiring customization. If project requirements allow, use built-in AEM Screens functionality where possible.

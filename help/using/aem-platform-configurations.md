@@ -22,7 +22,7 @@ To set up author-publish, refer to [Configuring Author and Publish in AEM Screen
 
 >[!NOTE]
 >
-> If there is only one author and one publish you only need to follow the steps under **Setting up Replication Agents on Author** in [Configuring Author and Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html) page.
+>If there is only one author and one publish you only need to follow the steps under **Setting up Replication Agents on Author** in [Configuring Author and Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html) page.
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
@@ -59,7 +59,8 @@ components) or third-party toolkits (for example, SAP Hybris) that are required.
 Install the same software packages on your local development environments. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations will create problems when deploying and testing.
 
 >[!NOTE]
-> To install the latest Feature Pack for AEM Screens, refer to [Release Notes](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>
+>To install the latest Feature Pack for AEM Screens, refer to [Release Notes](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
 
 ## Setting up ACLs {#setting-up-acls}
 

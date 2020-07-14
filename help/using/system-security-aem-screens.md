@@ -8,6 +8,7 @@ seo-description: The page describes Security Checklist for AEM Screens
 # System Security Considerations for AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >This is an internal Git Resource.
 
 This page highlights the System Security Considerations for AEM Screens.
@@ -70,7 +71,9 @@ A physically compromised player can theoretically be manipulated to play any con
 So it is recommended putting the devices out of reach, preferably in a secured container, with cabling secured as well. Also disable any IR-remote ports.
 
 If device OS is not updated regularly, the OS may be left exposed to security holes and allow remote attacks over the network.
+
 >[!NOTE]
+>
 >It is recommended to instrument the devices with decent remote update and control capabilities (remote desktop, MDM solution, etc.). It is also recommended to use a private network, not exposed to the public WIFI for instance.
 
   

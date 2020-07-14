@@ -22,12 +22,14 @@ Direct Placement Workflow Configuration maps an AEM Screens project channel to a
 Alternatively, as a content author you can manually click **Update Offline Content**.
 
 >[!NOTE]
-> To learn how to use bulk offline update, refer to [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
+>
+>To learn how to use bulk offline update, refer to [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuring Direct Placement Workflow {#configuring-workflow}
 
 >[!IMPORTANT]
-> Before you start the configuration, you must install the [Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Once you have installed the package, you should be able to view and access it from your AEM instance --> Tools (icon) --> **Workflow** --> **Workflow Models**.
+>
+>Before you start the configuration, you must install the [Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Once you have installed the package, you should be able to view and access it from your AEM instance --> Tools (icon) --> **Workflow** --> **Workflow Models**.
 
 Follow the steps below to configure the direct placement workflow:
 

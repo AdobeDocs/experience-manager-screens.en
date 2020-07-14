@@ -20,7 +20,9 @@ Dispatcher is Adobe Experience Manager's caching and/or load balancing tool.
 The following page provides the guidelines for configuring dispatcher for an AEM Screens project.
 
 >[!NOTE]
+>
 >If a dispatcher is available, connections to the registration servlet can be prevented by filtering in the dispatcher rules.
+>
 >If there is no dispatcher, disable the registration servlet in the OSGi components listing.
 
 ## Pre-requisites {#pre-requisites}

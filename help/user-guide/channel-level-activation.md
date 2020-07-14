@@ -185,6 +185,7 @@ The following table summarizes few example expressions that you can add to the s
 | on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
 
 >[!NOTE]
+>
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 ### Week Parting {#week-parting}
@@ -211,6 +212,7 @@ The following table summarizes few example expressions that you can add to the s
 | before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
 
 >[!NOTE]
+>
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 

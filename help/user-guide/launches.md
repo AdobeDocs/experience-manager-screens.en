@@ -49,6 +49,7 @@ For example let's say, server is in PST and the devices are in EST, max time dif
 So, whenever we schedule any launch live, the promotion will start early by this offset. In the above equation, most of the items does not take much time, we can use a decent guess for this offset once we know the maximum time difference between the server and any player.
 
 >[!NOTE]
+>
 >Out-of-the-box, the grace period for Screens Launch is set to 24 hours which means that when we set live date for any launch for the resources under */content/screens*, the promotion will start with this offset.
 
 ### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
