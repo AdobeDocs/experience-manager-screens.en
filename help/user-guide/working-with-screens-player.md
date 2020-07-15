@@ -51,19 +51,33 @@ To view the admin UI from the Screens player, long press on the top left corner 
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-If you select the **Configuration** option from the side menu, you can also reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+#### Accessing the Configuration Menu Options {#configuration-options}
 
-Additionally, you can specify the number of maximum log files to keep for an AEM Screens player in **Max No. of log files to keep**. Please see the screenshot below for more details.
+You can update your configurations, if you select the **Configuration** option from the side menu, as shown in the figure below:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+The Configuration menu allows you to modify the following settings:
+
+* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+
+* Specify the number of maximum log files to keep for an AEM Screens player in **Max No. of log files to keep**.
+
+* Enable or disable **Admin Menu**, **Channel Switcher**, and **Activity UI** for the Screens player.
+
+   If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens player displays the *synced* messages in the top right-hand corner of the player, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >The **Update Firmware** option only works on the cordova, such as Android players.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >It is recommended that the **Admin UI** be disabled in Production Deployments.
+
+#### Accessing the Content Cache Menu Options {#content-cache-options}
 
 You can clear cache for channels and applications from the Admin UI in AEM Screens player.
 
