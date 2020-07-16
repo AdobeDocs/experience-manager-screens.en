@@ -65,7 +65,7 @@ The Configuration menu allows you to modify the following settings:
 
 * Enable or disable **Admin Menu**, **Channel Switcher**, and **Activity UI** for the Screens player.
 
-   If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens player displays the *synced* messages in the top right-hand corner of the player, as shown in the figure below.
+   If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens player displays the *player activity notifications* in the top right-hand corner of the player, as shown in the figure below.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
