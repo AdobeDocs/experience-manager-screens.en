@@ -5,13 +5,13 @@ description: The page describes Direct Mobile Network Setup
 
 # Direct Mobile Network {#mobile-network-setup}
 
-AEM Screens Players can also be connected using mobile or cellular networks running at least on a 3G network.
+AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
 
-Within the AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts initial download times and does not influence the performance of Displays.
+Within AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts initial download times, as well as content updates, and does not influence the performance of regular playback of Displays.
 
-The benefit of connecting of AEM Screens Players with a Cellular 3/4/5G connect to your Mobile Service Data Provider is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as optimum surrounding concrete or metal construction as possible.
+The benefit of connecting AEM Screens Players over Cellular 3/4/5G to your Mobile Service Data Provider is that the Mobile Router can be placed in a optimized spot to ensure best available network coverage. This is usually in an elevated and open position with as few surrounding concrete or metal construction as possible.
 
-This SetUp allows AEM Screen users a great flexibility as there is no landline connection required to connect to AEM Screens.
+This setup allows AEM Screen users a great flexibility as there is no landline connection required to connect to AEM Screens. This is particularly interesting for ephemeral or mobile setups.
 
 The following diagram shows the Direct Mobile Network Setup and consists of one singular network connection segment and the connection of each player to the mobile or cellular data Network.
 
@@ -21,7 +21,7 @@ The following diagram shows the Direct Mobile Network Setup and consists of one 
 
 Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
-1. Make sure that each of the AEM Screen players is connected to the Routers Network.
+1. Make sure that each of the AEM Screen players is connected to the Router's Network.
 
 1. Test the internet connection by calling an URL in your systems browser.
 
@@ -63,7 +63,7 @@ As a follow up the needed Data Package has to be at least:
 
 >[!IMPORTANT]
 >
->For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions.A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
+>For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions. A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
 
 >[!NOTE]
 >
@@ -72,9 +72,9 @@ As a follow up the needed Data Package has to be at least:
 
 ### Local Area Network {#lan-connection}
 
-The performance of the Local Area Network (LAN) besides the network reachability, is to provide sufficient bandwidth to operate AEM Screens smoothly. The LAN network is usually matches a 100 Mbps network, so that there is sufficient bandwidth to connect many devices with good performance to the system. 
+The performance concerns of the Local Area Network (LAN), besides the network reachability, are to provide sufficient bandwidth to operate AEM Screens smoothly. The recommendation for the LAN network speeds is to start at 100 Mbps networks at least, so that there is sufficient bandwidth to connect many devices with good performance to the system. 
 
-While using other active network components, it is mandatory that all of those do match to the network bandwidth requirements. For example, the network components should at least match 100 Mbps standard and match the bandwidth provided by the Internet access or Router specification.
+While using other active network components, it is mandatory that all of those do match to the network bandwidth requirements. For example, the network components should at least match 100 Mbps standard and match the bandwidth provided by the Internet access or Router specification. Otherwise the total bandwidth will be limited by the weakest link in the network chain.
 
 ## Downloading Media and Assets {#download}
 
