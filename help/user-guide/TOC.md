@@ -3,6 +3,7 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 ---
 
 # AEM Screens User Guide {#user-guide}
