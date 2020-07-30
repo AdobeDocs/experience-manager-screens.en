@@ -18,8 +18,8 @@ There are two important considerations that you must be aware before creating cu
 
    You must decide whether to use fixed pixel size for different zones for your custom layout or if you want to create a custom layout using percentages.
 
-      > [!NOTE]
-      > The benefit of using percentage to set zones for your custom layout allows you to reuse the template on a variety of screen sizes.
+      >[!NOTE]
+      >The benefit of using percentage to set zones for your custom layout allows you to reuse the template on a variety of screen sizes.
 
 1. **Naming Convention**:
 
@@ -31,8 +31,8 @@ There are two important considerations that you must be aware before creating cu
    | Upper20-PortraitHD2Zone | Refers to a 2-zone portrait template that covers 20% of the screen from the top, with aspect ratio of 16:9 | 
    | Right20-LandscapeSD3Zone | Refers to a 3-zone template that covers 20% of the screen from the right, with aspect ratio of 4:3 | 
 
-      > [!IMPORTANT]
-      > The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
+      >[!IMPORTANT]
+      >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
 
 ## Example Use Case Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
@@ -63,8 +63,8 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-      > [!NOTE]
-      > It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
+      >[!NOTE]
+      >It is recommended that you click on **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes, otherwise you will not be able to commit the updates.
 
 1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
@@ -93,7 +93,7 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
    >These custom classes will be used in the css to set the width/height for these responsive grids.
 
    >[!NOTE]
-   > You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r2c1).
+   >You can add or remove the responsive grids based on the number of total grids you want. In this example, we showcase 2 grids in the first row and 1 grid in the second row, so there are a total of 3 responsive grids (r1c1, r1c2, r2c1).
 
 1. Copy `/libs/settings/wcm/designs/screens` to `/apps/settings/wcm/designs/` and rename the copied design as **custom-template-designs**.
 
@@ -122,12 +122,12 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
       ```
 
    >[!NOTE]
-   > You can update the percentages to match requirements for your custom template.
+   >You can update the percentages to match requirements for your custom template.
 
 1. Navigate to `/apps/<project>/templates/my-custom-layout/jcr:content` and update the property *cq:designPath* to `/apps/settings/wcm/designs/customtemplate-designs` to load the styles configured in static.css
 
    >[!NOTE]
-   > It is recommended that you type all the styles rather than copy or pasting, that can cause white spaces resulting in css styling issues.
+   >It is recommended that you type all the styles rather than copy or pasting, that can cause white spaces resulting in css styling issues.
 
 ## Viewing the Result {#viewing-result}
 

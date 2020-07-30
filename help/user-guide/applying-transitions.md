@@ -46,7 +46,7 @@ with a channel **TestTransition**. Additionally, set up a location and a display
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >By default, the properties of the transition component such as **Type** is set to **Fade** and the **Duration** is set to *1600 ms*.  Additionally,  it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
 
