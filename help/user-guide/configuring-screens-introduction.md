@@ -36,8 +36,7 @@ It allows the user to verify the following two configuration checks to run an AE
 
 Follow the steps below to check if these two vital configurations are enabled for AEM Screens:
 
-1. Navigate to [Adobe Experience Manager Web Console
-Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+1. Navigate to [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
 
    ![assets](assets/health-check1.png)
 
