@@ -1,40 +1,24 @@
 ---
 title: Channel Assignment
 seo-title: Channel Assignment
-description: Follow this page to learn about Channel Assignment and Dayparting.
-seo-description: Follow this page to learn about Channel Assignment and Dayparting.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Follow this page to learn about Channel Assignment and Day-parting.
 ---
 
 # Channel Assignment {#channel-assignment}
 
-This section covers the following topics:
+Once you define a display, you need to assign a channel to a display.
 
-* **Assigning a Channel**
-* **Understanding Properties of Channel Assignment dialog box**
-* **Dayparting**
+This page shows assigning a channel to your display.
 
-Once you defined a display, you need to assign a channel to a display.
+>[!NOTE]
+>You can assign multiple channels to a display.
 
-This page shows assigning channel to your displays.
-
-**Pre-requisites**:
-
-* [Configuring and Deploying Screens](configuring-screens-introduction.md)
-* [Create and Manage Screens Project](creating-a-screens-project.md)
-* [Create and Manage Channels](managing-channels.md)
-* [Create and Manage Locations](managing-locations.md)
-* [Create and Manage Displays](managing-displays.md)
-
-## Assign a Channel {#assign-a-channel}
+## Assigning a Channel {#assign-a-channel}
 
 Follow the steps below to assign a channel to a display:
+
+ >[!Important]
+>The following dialog box for channel assignment is different for Adobe Experience 6.5.5 Screens Feature Pack Release and higher. Refer to [Channel Assignment](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) for more details.
 
 1. Navigate to the required display, for example, **DemoProject** --&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
 
@@ -48,7 +32,29 @@ Follow the steps below to assign a channel to a display:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can understand and  configure the properties from the **Channel Assignment** dialog box from the section below.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
+
+## Assigning a Channel for AEM 6.5.5 Screens Feature Pack Release {#assign-a-channel-new-release}
+
+Follow the steps below to assign a channel to a display:
+
+1. Navigate to the required display, for example, **DemoProject** --&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   Or,
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS & SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. From the Setting option, you can choose the channel by path or by name, enter the channel role, priority, Supported Events.
+
+   >[!NOTE]
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
+
+1. From the **Schedules** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
+
+1. Click **Save** once you have configured your preferences.
 
 ### Understanding Channel Properties from Channel Assignment {#channel-properties}
 
@@ -104,18 +110,17 @@ Schedule allows you to provide a description in text when the channel should app
 
    Show attraction tooltip defines if the attraction tooltip ("*Touch anywhere to begin*") must be shown or not while the channel is running.
 
+### Day-parting {#dayparting}
 
-### Dayparting {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of day-parting within a day, week, or month as per the requirement.
 
-DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of dayparting within a day, week, or month as per the requirement.
-
-The following examples explain dayparting in channels in three different scenarios:
+The following examples explain day-parting in channels in three different scenarios:
 
 #### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-This example shows how a Restaurant uses dayparting to showcase its breakfast, lunch and dinner menu.
+This example shows how a Restaurant uses day-parting to showcase its breakfast, lunch and dinner menu.
 
 Here, we will divide each day into three different time slots, so that channel content plays as per the specified time of the day:
 
@@ -154,9 +159,9 @@ This example shows the dayparting achieved in a casino where live event occurs e
 
 #### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
 
-This example shows the dayparting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
+This example shows the day-parting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
 
-Here, you will create dayparting as per months, so that channel content plays as per the specified months of the year.
+Here, you will create day-parting as per months, so that channel content plays as per the specified months of the year.
 
 | **Channel** |**Role** |**Priority** |**Schedule** |
 |---|---|---|---|
@@ -169,16 +174,17 @@ Here, you will create dayparting as per months, so that channel content plays as
 
 #### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
 
-This examples shows the dayparting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
+This examples shows the day-parting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
 | **Channel** |**Role** |**Priority** |**Schedule** |
 |---|---|---|---|
 | A |Winter |1 |Dec 01, 2017 - Dec 31, 2017 |
 | B |Christmas |2 |Dec 24, 2017 - Dec 31, 2017 |
 
+
 >[!IMPORTANT]
 >
-> To learn more about dayparting, refer to the sections below:
+> To learn more about day-parting, refer to the sections below:
 >
 >* [Handling Recurrence in Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Handling Recurrence for Assets in a Channel](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
