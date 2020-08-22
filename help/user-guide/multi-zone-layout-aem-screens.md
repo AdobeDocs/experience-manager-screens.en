@@ -149,7 +149,8 @@ You must assign the channels to the display to view the content. Follow the step
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
   
-      >[!Important]
+      >[!IMPORTANT]
+      >
       > Once you assign the main channel (in this case, **MultiZone**) to the display, it is mandatory to assign the other two embedded channels **Zone1** and **Zone2** also to the same display.
 
 ### Registering the Device {#registering-device}

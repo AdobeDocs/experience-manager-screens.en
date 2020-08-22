@@ -17,7 +17,8 @@ This page shows assigning a channel to your display.
 
 Follow the steps below to assign a channel to a display:
 
- >[!Important]
+>[!IMPORTANT]
+>
 >The following dialog box for channel assignment is different for Adobe Experience 6.5.5 Screens Feature Pack Release and higher. Refer to [Channel Assignment](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) for more details.
 
 1. Navigate to the required display, for example, **DemoProject** --&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
@@ -86,7 +87,8 @@ Priority is used to order the assignments in case multiple ones match the playin
 
 #### Interruption Method {#interruption-method-channel}
 
->[IMPORTANT]
+>[!IMPORTANT]
+>
 > This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.

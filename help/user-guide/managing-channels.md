@@ -134,8 +134,9 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 You can view the manifest from the channel dashboard.
 
->[IMPORTANT]
-> This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 Follow these steps to enable this option from the channel dashboard:
 1. **Set the Channel to Offline**

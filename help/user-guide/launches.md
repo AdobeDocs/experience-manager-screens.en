@@ -195,6 +195,7 @@ You can choose the resources you want to promote as part of this manual promotio
 
 You can delete the launch using **Delete Launch** option from the **PENDING LAUNCHES** panel.
 
->[CAUTION]
+>[!CAUTION]
+>
 >This action will delete all the descendants (nested launches) also.
 

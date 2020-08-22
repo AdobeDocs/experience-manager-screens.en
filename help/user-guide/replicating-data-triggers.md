@@ -27,14 +27,16 @@ Follow the steps below to replicate the data triggers to publish server.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Alternatively, you can use the `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` to navigate to the screen directly to configure and test the connection.
 
 1. Click **Test Connection** from the action bar to validate the communication of the author with the publish instance, as shown in the figure  below.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >If the test fails, you need to fix the replication agent configuration between the author and publish instance. Refer to [Troubleshooting Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) for more details.
 
 1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, for example, `/conf/screens/settings/cloudsettings/configuration`.
