@@ -16,21 +16,60 @@ This page shows assigning a channel to your display.
 >[!NOTE]
 >You can assign multiple channels to a display.
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-Follow the steps below to assign a channel to a display:
+Follow the sections below to create an AEM Screens project and assign a channel to a display.
 
-1. Navigate to the required display, for example, **DemoProject** --&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
+### Creating an AEM Screens Project and Channels {#creating project}
 
+Follow the steps below to set up a project and a channel:
 
-1. Tap/click **Assign Channel** from the action bar
+1. Create an AEM Screens Project titled as **DemoScreens**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Refer to [Creating and Managing Projects](creating-a-screens-project.md) to learn how to create an AEM Screens project.
+
+1. Create a sequence channel titled as **Cafeteria** in the **Channels** folder.
+
+1. Select the channel and click **Edit** from the action bar to add content to your channel.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   For example, the **Cafeteria** channel now displays the following images:
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Create a Location titled as **SanJose** and a display as **Lobby**.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Assigning Channel to a Display {#assigning-channel-to-display}
+
+Once you have the project set up complete, you must assign the channel to a display to view the content.
+
+1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Or,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS & SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+   
+1. The **Channel Assignment** dialog box opens.
 
-1. From the Setting option, you can choose the channel by path or by name, enter the channel role, priority, Supported Events.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
+1. From the **Settings** option, you can choose the channel by path or by name, enter the channel role, priority, supported events, and interruption methods. Additionally, you can enable the attraction tooltip option from this dialog box.
+
+    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+    
    >[!NOTE]
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
 
@@ -38,7 +77,9 @@ Follow the steps below to assign a channel to a display:
 
 1. Click **Save** once you have configured your preferences.
 
-## Understanding Channel Properties from Channel Assignment {#channel-properties}
+### Viewing the Content in Chrome Player {#viewing-content-output}
+
+### Understanding Channel Properties from Channel Assignment {#channel-properties}
 
 ### Reference Channel {#ref-channel}
 
