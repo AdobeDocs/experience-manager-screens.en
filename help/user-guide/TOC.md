@@ -50,8 +50,8 @@ user-guide-description: Learn to use AEM Screens to publish interactive digital 
         + [Creating and Managing Schedules](managing-schedules.md)
         + [Managing Devices](managing-devices.md)
         + Assigning Channels {#assigning-channels}
-          + [Channel Assignment: AEM 6.5.5 Screens FP and later](channel-assignment-latest-fp.md)
-          + [Channel Assignment: Older FP](channel-assignment.md)
+          + [Channel Assignment](channel-assignment-latest-fp.md)
+          + [Channel Assignment: Older AEM Screens Feature Packs](channel-assignment.md)
     + Using Core Product Features {#product-features}
         + [Text Overlay](text-overlay.md)
         + [Bulk Offline Update](bulk-offline-update.md)
