@@ -9,7 +9,8 @@ description: The page describes voice recognition feature in AEM Screens.
 
 The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-A content author can configure a display to be voice enabled. This allows all players registered against the display understand speech. You must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
+A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
+
 
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.
@@ -19,6 +20,9 @@ A content author can configure a display to be voice enabled. This allows all pl
 
 ## Implementing Voice Recognition {#implementing}
 
+
+To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
+
 The following section describes how you can enable and use the Voice Recognition feature in an AEM Screens project.
 
 ### Setting up the Project {#setting-up}
@@ -27,19 +31,27 @@ Before you use Voice Recognition feature, make sure you have a project and a cha
 
 1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, as shown in the figure below.
 
+   ![image](assets/voice-recognition/vr-1.png)
+
    >[!NOTE]
    >
    >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
 
 1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
 
-   The channels now contain the following content, as shown in the figures below.
+   The channels now contain assets (images), as shown in the figures below.
 
    **Main**:
 
+   ![image](assets/voice-recognition/vr-4.png)
+
    **ColdDrinks**:
+
+   ![image](assets/voice-recognition/vr-3.png)
    
    **HotDrinks**:
+
+   ![image](assets/voice-recognition/vr-2.png)
 
 ### Setting up Tags for Channels {#setting-tags}
 
@@ -51,10 +63,27 @@ Follow the steps below to add tags to your channel:
 
 1. Click **Properties** from the action bar.
 
+   ![image](assets/voice-recognition/vr-5.png)
+   
 1. Navigate to **Basics** tab and select an already existing tag from the **Tags** field or create a new one.
+
+   You can either create a new tag by typing in a new name for you tag, as shown in the figure below:
+
+   ![image](assets/voice-recognition/vr-6.png)
+
+   Or,
+
+   You can create tags from your AEM instance beforehand for your project and select those too.
+   
+   Follow the steps below to create tags:
+
+      1. Navigate to your AEM instance.
+      1. Click on tools --> **Tagging**.
+         ![image](assets/voice-recognition/vr-7.png)
 
 1. Click **Save & Close** once you are done.
 
+Similarly, add tag titled as **hot** to the **HotDrinks** channel and **cold** to the **ColdDrinks** channel.
 
 ### Assigning Channel to a Display {#channel-assignment}
 
