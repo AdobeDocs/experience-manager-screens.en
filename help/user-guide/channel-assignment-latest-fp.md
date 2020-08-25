@@ -7,7 +7,7 @@ description: Follow this page to learn about Channel Assignment and Day-parting.
 # Channel Assignment {#channel-assignment}
 
 >[!IMPORTANT]
->This section highlights the Channel assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
+>This section highlights the channel assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
 
 Once you have set up a display, you must assign a channel to a display to view your content.
 
@@ -66,18 +66,18 @@ Once you have the project set up complete, you must assign the channel to a disp
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel by path or by name, enter the channel role, priority, supported events, and interruption methods. Additionally, you can enable the attraction tooltip option from this dialog box.
+1. From the **Settings** option, you can choose the channel by path or by name, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the **Attraction tooltip** from this dialog box.
 
     ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. From the **Schedules** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
     >[!NOTE]
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. Click **Save** once you have configured your preferences.
 
@@ -89,7 +89,9 @@ Refer to [Device Registration](device-registration.md) to learn how to register 
 
 You will view the following output on your choice of player:
 
-### Understanding Channel Properties from Channel Assignment {#channel-properties}
+ ![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 The following properties are set from the **Settings** option in the **Channel Assignment** dialog box.
 
@@ -178,18 +180,27 @@ The following examples explain DayParting in channels in three different scenari
 
 This example shows how a Restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
 
-Here, we will divide each day into three different time slots, so that channel content plays as per the specified time of the day. The will set the following properties of the Recurrence Schedule to play the content as per this use case.
+Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule to play the content as per this use case.
 
 |**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
 |Breakfast|Daily|6:00 AM|11:00 AM|  
-|Breakfast|Daily|11:02 AM|3:00 PM|  
-|Breakfast|Daily|3:01 PM|8:00 PM|  
+|Lunch|Daily|11:02 AM|3:00 PM|  
+|Dinner|Daily|3:01 PM|8:00 PM|  
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the DayParting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
+|**Name**|**Repeat**|**Start**|**End**|
+|---|---|---|---|
+|Weekend|Weekly|8:00 PM|10:00 PM|  
+|Special|Daily|10:00 PM|1:00 AM| 
+
+**Weekend**
+
+
+**Special**
 
 #### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
 
@@ -206,6 +217,11 @@ Here, you will create DayParting as per months, so that channel content plays as
 
 This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
+## Timeline View {#timeline-view}
+
+Once you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+
+Follow the steps below to navigate to the timeline view:
 
 
 
