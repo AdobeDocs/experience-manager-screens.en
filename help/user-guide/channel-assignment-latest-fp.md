@@ -181,17 +181,17 @@ This example shows how a Restaurant uses DayParting to showcase its breakfast, l
 
 Here, we will divide each day into three different time slots, so that channel content plays as per the specified time of the day. The will set the following properties of the Recurrence Schedule to play the content as per this use case.
 
-| **Name** |**Repeat** |**Start** |**End**|
+|**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
-| Breakfast |Daily |6:00 AM |11:01 AM |  
-| Breakfast |Daily |11:02 AM |3:00 PM |  
-| Breakfast |Daily |3:01 PM |8:00 PM |  
+|Breakfast|Daily|6:00 AM|11:00 AM|  
+|Breakfast|Daily |11:02 AM|3:00 PM|  
+|Breakfast|Daily |3:01 PM|8:00 PM|  
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
 This example shows the DayParting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
-| **Name** |**Repeat** |**Start** |**End**|
+|**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
 
 
@@ -201,13 +201,8 @@ This example shows the DayParting for a store that displays their summer collect
 
 Here, you will create DayParting as per months, so that channel content plays as per the specified months of the year.
 
-| **Name** |**Repeat** |**Start** |**End**|
+|**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
-
-| **Channel** |**Role** |**Priority** |**Schedule** |
-|---|---|---|---|
-| SummerCollection |Summer |  |June 01, 2017 - Aug 31, 2017 |
-| FallCollection |Fall |  |Sep 01, 2017 - Oct 30, 2017 |
 
 >[!NOTE]
 >
@@ -217,10 +212,7 @@ Here, you will create DayParting as per months, so that channel content plays as
 
 This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
-| **Name** |**Repeat** |**Start** |**End**|
+|**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
 
-| **Channel** |**Role** |**Priority** |**Schedule** |
-|---|---|---|---|
-| A |Winter |1 |Dec 01, 2017 - Dec 31, 2017 |
-| B |Christmas |2 |Dec 24, 2017 - Dec 31, 2017 |
+
