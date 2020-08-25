@@ -165,9 +165,8 @@ You can set the following options:
 * **Repeat**: Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
 * **Start**: The start time for your schedule.
 * **End**: The ending time for your schedule. You can set the it by:
-   * **Time**: The schedule will end at a specified time.
-   Or,
-   * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
+* **Time**: The schedule will end at a specified time.
+* **Duration**: The schedule runs for a particular duration of time in hours or minutes.
 
 ### DayParting {#dayparting}
 
@@ -184,15 +183,12 @@ Here, we will divide each day into three different time slots, so that channel c
 |**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
 |Breakfast|Daily|6:00 AM|11:00 AM|  
-|Breakfast|Daily |11:02 AM|3:00 PM|  
-|Breakfast|Daily |3:01 PM|8:00 PM|  
+|Breakfast|Daily|11:02 AM|3:00 PM|  
+|Breakfast|Daily|3:01 PM|8:00 PM|  
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
 This example shows the DayParting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
-
-|**Name**|**Repeat**|**Start**|**End**|
-|---|---|---|---|
 
 
 #### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
@@ -201,8 +197,6 @@ This example shows the DayParting for a store that displays their summer collect
 
 Here, you will create DayParting as per months, so that channel content plays as per the specified months of the year.
 
-|**Name**|**Repeat**|**Start**|**End**|
-|---|---|---|---|
 
 >[!NOTE]
 >
@@ -212,7 +206,6 @@ Here, you will create DayParting as per months, so that channel content plays as
 
 This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
-|**Name**|**Repeat**|**Start**|**End**|
-|---|---|---|---|
+
 
 
