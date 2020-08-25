@@ -21,7 +21,7 @@ This page shows assigning a channel to your display.
 
 Follow the sections below to create an AEM Screens project and assign a channel to a display.
 
-### Creating an AEM Screens Project and Channels {#creating project}
+### Creating an AEM Screens Project and Channels {#creating-project}
 
 Follow the steps below to set up a project and a channel:
 
@@ -69,7 +69,7 @@ Once you have the project set up complete, you must assign the channel to a disp
 1. From the **Settings** option, you can choose the channel by path or by name, enter the channel role, priority, supported events, and interruption methods. Additionally, you can enable the attraction tooltip option from this dialog box.
 
     ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
-    
+
    >[!NOTE]
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
 
