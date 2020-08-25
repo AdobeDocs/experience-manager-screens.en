@@ -74,40 +74,55 @@ Once you have the project set up complete, you must assign the channel to a disp
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
 
 1. From the **Schedules** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+    >[!NOTE]
+   >Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
 
 1. Click **Save** once you have configured your preferences.
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
+This example showcases the output on a Chrome Player. Once you have assigned the channel to your display, you must register the device to a player.
+
+Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
+
+You will view the following output on your choice of player:
+
+
 ### Understanding Channel Properties from Channel Assignment {#channel-properties}
 
-### Reference Channel {#ref-channel}
+The following properties are set from the **Settings** option in the **Channel Assignment** dialog box.
 
-Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### Select a Channel {#select-channel}
+
+Selecting a channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
 
 * **by path**: you provide an explicit reference using the absolute path of the channel.
 
 * **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-### Channel Role {#role-channel}
+#### Channel Role {#role-channel}
 
 Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.
 
-### Priority {#priority-channel}
+#### Priority {#priority-channel}
 
 Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
    >[!NOTE]
    >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
 
-### Supported Events {#supported-events-channel}
+#### Supported Events {#supported-events-channel}
 
 * **Initial Load**: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule
 * **Idle Screen**: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule
 * **Timer**: needs to be set when a schedule is provided
 * **User Interaction**: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched
 
-### Interruption Method {#interruption-method-channel}
+#### Interruption Method {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -125,3 +140,90 @@ Select from one of following options that are available to set the interruption 
 
    >[!NOTE]
    >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred as the player will wait for the end of the item or sequence (after the specified time) before refreshing. The delay will depend on the playback duration of the item.
+
+
+The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
+
+#### Reference Timezone {#reference-timezone}
+
+The Reference Timezone allows you to select the timezone for your content display.
+
+#### Activation Window {#activation-window}
+
+The Activation Window allows you to select a **Start date** and an **End date** to display your content.
+
+#### Recurrence Schedule {#recurrence-schedule}
+
+The Recurrence Schedule allows you to set a recurring schedule for your content. Click on **+ Add Schedule** to add a recurrence schedule to your channel.
+
+>[!NOTE]
+>You can add multiple recurring schedules to your channel.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
+>
+>Refer to the [DayParting](#dayparting) section below for more details.
+
+You can set the following options:
+
+* **Name**: Title of your recurrence schedule.
+* **Repeat**: Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
+* **Start**: The start time for your schedule.
+* **End**: The ending time for your schedule. You can set the it by:
+   * **Time**: The schedule will end at a specified time.
+   Or,
+   * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
+
+### DayParting {#dayparting}
+
+DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
+
+The following examples explain DayParting in channels in three different scenarios:
+
+#### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+This example shows how a Restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
+
+Here, we will divide each day into three different time slots, so that channel content plays as per the specified time of the day. The will set the following properties of the Recurrence Schedule to play the content as per this use case.
+
+| **Name** |**Repeat** |**Start** |**End**|
+|---|---|---|---|
+| Breakfast |Daily |6:00 AM |11:01 AM |  
+| Breakfast |Daily |11:02 AM |3:00 PM |  
+| Breakfast |Daily |3:01 PM |8:00 PM |  
+
+#### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
+
+This example shows the DayParting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+
+| **Name** |**Repeat** |**Start** |**End**|
+|---|---|---|---|
+
+
+#### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
+
+This example shows the DayParting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
+
+Here, you will create DayParting as per months, so that channel content plays as per the specified months of the year.
+
+| **Name** |**Repeat** |**Start** |**End**|
+|---|---|---|---|
+
+| **Channel** |**Role** |**Priority** |**Schedule** |
+|---|---|---|---|
+| SummerCollection |Summer |  |June 01, 2017 - Aug 31, 2017 |
+| FallCollection |Fall |  |Sep 01, 2017 - Oct 30, 2017 |
+
+>[!NOTE]
+>
+>Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
+
+#### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
+
+This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
+
+| **Name** |**Repeat** |**Start** |**End**|
+|---|---|---|---|
+
+| **Channel** |**Role** |**Priority** |**Schedule** |
+|---|---|---|---|
+| A |Winter |1 |Dec 01, 2017 - Dec 31, 2017 |
+| B |Christmas |2 |Dec 24, 2017 - Dec 31, 2017 |

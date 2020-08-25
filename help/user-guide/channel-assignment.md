@@ -90,9 +90,9 @@ Schedule allows you to provide a description in text when the channel should app
 
    Show attraction tooltip defines if the attraction tooltip ("*Touch anywhere to begin*") must be shown or not while the channel is running.
 
-### Day-parting {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of day-parting within a day, week, or month as per the requirement.
 
@@ -112,7 +112,7 @@ Here, we will divide each day into three different time slots, so that channel c
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the dayparting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+This example shows the dayParting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
 <table>
  <tbody>
@@ -139,7 +139,7 @@ This example shows the dayparting achieved in a casino where live event occurs e
 
 #### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
 
-This example shows the day-parting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
+This example shows the DayParting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
 
 Here, you will create day-parting as per months, so that channel content plays as per the specified months of the year.
 
@@ -154,7 +154,7 @@ Here, you will create day-parting as per months, so that channel content plays a
 
 #### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
 
-This examples shows the day-parting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
+This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
 | **Channel** |**Role** |**Priority** |**Schedule** |
 |---|---|---|---|
@@ -164,7 +164,7 @@ This examples shows the day-parting for a store that displays their winter colle
 
 >[!NOTE]
 >
-> To learn more about day-parting, refer to the sections below:
+> To learn more about DayParting, refer to the sections below:
 >
 >* [Handling Recurrence in Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Handling Recurrence for Assets in a Channel](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
