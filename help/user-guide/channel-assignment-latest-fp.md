@@ -89,7 +89,6 @@ Refer to [Device Registration](device-registration.md) to learn how to register 
 
 You will view the following output on your choice of player:
 
-
 ### Understanding Channel Properties from Channel Assignment {#channel-properties}
 
 The following properties are set from the **Settings** option in the **Channel Assignment** dialog box.
@@ -159,8 +158,6 @@ The Recurrence Schedule allows you to set a recurring schedule for your content.
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
->
->Refer to the [DayParting](#dayparting) section below for more details.
 
 You can set the following options:
 
