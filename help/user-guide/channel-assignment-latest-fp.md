@@ -180,7 +180,7 @@ The following examples explain DayParting in channels in three different scenari
 
 This example shows how a Restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
 
-Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule to play the content as per this use case.
+Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule for your channel to play the content as per this use case.
 
 |**Name**|**Repeat**|**Start**|**End**|
 |---|---|---|---|
