@@ -82,6 +82,7 @@ user-guide-description: Learn to use AEM Screens to publish interactive digital 
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
         + [Single Use TakeOver Channel](single-use-takeover-channel.md)
         + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
+        + [Voice Recognition](voice-recognition.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
