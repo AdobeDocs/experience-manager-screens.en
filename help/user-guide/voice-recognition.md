@@ -5,8 +5,10 @@ description: The page describes voice recognition feature in AEM Screens.
 
 # Voice Recognition in AEM Screens {#voice-recognition}
 
->[IMPORTANT]
+>[!IMPORTANT]
+>
 >**Important Privacy Information**
+>
 >When using the Voice Recognition feature follow all the applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes a wave form of your speech is sent to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
 >
 >Refer to [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
@@ -92,11 +94,11 @@ Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
    1. Click on tools --> **Tagging**.
-         ![image](assets/voice-recognition/vr-7.png)
+       ![image](assets/voice-recognition/vr-7.png)
    1. Click **Create** --> **Create Namespace**.
-         ![image](assets/voice-recognition/vr-tag3.png)
+       ![image](assets/voice-recognition/vr-tag3.png)
    1. Enter the name of your project, for example: **VoiceDemo** and click **Create**.
-          ![image](assets/voice-recognition/vr-tag2.png)
+       ![image](assets/voice-recognition/vr-tag2.png)
    1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
           ![image](assets/voice-recognition/vr-tag4.png)
    1. Enter the name of your tag and click **Submit**.
@@ -133,8 +135,8 @@ Now, you can use these tags in your AEM Screens project.
 
    ![image](assets/voice-recognition/vr-disp.png)
 
-      >[!IMPORTANT]
-      >It is mandatory to enable the voice recognition feature from the display.
+   >[!IMPORTANT]
+   >It is mandatory to enable the voice recognition feature from the display.
 
 #### Viewing the Content in the Chrome Player {#viewing-content}
 
