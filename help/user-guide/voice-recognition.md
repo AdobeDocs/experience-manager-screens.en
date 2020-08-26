@@ -18,15 +18,13 @@ The Voice Recognition feature allows content change in an AEM Screens channel dr
 
 A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
 
-
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.
 
->[!IMPORTANT]
-> The Voice Recognition feature is available only on Chrome and Electron players.
-
 ## Implementing Voice Recognition {#implementing}
 
+>[!IMPORTANT]
+> The Voice Recognition feature is available only on Chrome and Electron players.
 
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
@@ -96,11 +94,15 @@ Follow the steps below to create tags:
    1. Click on tools --> **Tagging**.
          ![image](assets/voice-recognition/vr-7.png)
    1. Click **Create** --> **Create Namespace**.
-         ![image](assets/voice-recognition/vr-7.png)
-   1. Enter the name of your project, for example: **VoiceDemo** and click Create.
+         ![image](assets/voice-recognition/vr-tag3.png)
+   1. Enter the name of your project, for example: **VoiceDemo** and click **Create**.
+          ![image](assets/voice-recognition/vr-tag2.png)
    1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
-1. Click **Submit**.
+          ![image](assets/voice-recognition/vr-tag4.png)
+   1. Enter the name of your tag and click **Submit**.
+         ![image](assets/voice-recognition/vr-tag5.png)
 
+Now, you can use these tags in your AEM Screens project.
 
 ### Assigning Channel to a Display and Enabling Voice Recognition {#channel-assignment}
 
@@ -142,6 +144,10 @@ Once the preceding steps are complete,  you can register your chrome device and 
 >Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
 This example showcases the output on a Chrome Player.
+
+The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
+
+Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the the channel starts playing the contents of the **ColdDrinks** channel.
 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
