@@ -5,6 +5,13 @@ description: The page describes voice recognition feature in AEM Screens.
 
 # Voice Recognition in AEM Screens {#voice-recognition}
 
+>[IMPORTANT]
+>**Important Privacy Information**
+>When using the Voice Recognition feature follow all the applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes a wave form of your speech is sent to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
+>
+>Refer to [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
+
+
 ## Overview {#overview}
 
 The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
@@ -73,30 +80,45 @@ Follow the steps below to add tags to your channel:
 
    Or,
 
-   You can create tags from your AEM instance beforehand for your project and select those too.
-   
-   Follow the steps below to create tags:
+   You can create tags from your AEM instance beforehand for your project and select those too. Once you follow the steps explained in [Creating Tags](#creating-tags), you can select the tag from the location and add it to your channel, as shown in the figure below:
 
-      1. Navigate to your AEM instance.
-      1. Click on tools --> **Tagging**.
-         ![image](assets/voice-recognition/vr-7.png)
+   ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Click **Save & Close** once you are done.
 
-Similarly, add tag titled as **hot** to the **HotDrinks** channel and **cold** to the **ColdDrinks** channel.
+Similarly, add tag titled as **hot** to the **HotDrinks** channel.
 
-### Assigning Channel to a Display {#channel-assignment}
+#### Creating Tags {#creating-tags}   
+   
+Follow the steps below to create tags:
+
+   1. Navigate to your AEM instance.
+   1. Click on tools --> **Tagging**.
+         ![image](assets/voice-recognition/vr-7.png)
+   1. Click **Create** --> **Create Namespace**.
+         ![image](assets/voice-recognition/vr-7.png)
+   1. Enter the name of your project, for example: **VoiceDemo** and click Create.
+   1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
+1. Click **Submit**.
+
+
+### Assigning Channel to a Display and Enabling Voice Recognition {#channel-assignment}
 
 1. Create a display in the **Locations** folder, as shown in the figure below.
 
+   ![image](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
    
 1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**.
   
+1. Set the following properties to each of the channel, while assigning the channel.
 
-1. Set the following properties to each of the channel.
+   * Main
+   * HotDrinks
+   * ColdDrinks
+
 
    >[!NOTE]
    >
@@ -106,16 +128,26 @@ Similarly, add tag titled as **hot** to the **HotDrinks** channel and **cold** t
 
 1. Navigate to the **Display** tab and enable **Voice enabled** option under **Content**.
 
-      >[!NOTE]
+   ![image](assets/voice-recognition/vr-disp.png)
+
+      >[!IMPORTANT]
       >It is mandatory to enable the voice recognition feature from the display.
 
-## Viewing the Content in the Chrome Player {#viewing-content}
+#### Viewing the Content in the Chrome Player {#viewing-content}
 
 Once the preceding steps are complete,  you can register your chrome device and view the output.
 
-Follow the steps below:
+>[!NOTE]
+>Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
-1. Navigate to **Devices** folder and click **Device Manager** from the action bar to register the devices.
+This example showcases the output on a Chrome Player.
+
+![newimage](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
