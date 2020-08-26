@@ -74,7 +74,7 @@ Follow the steps below to add tags to your channel:
    
 1. Navigate to **Basics** tab and select an already existing tag from the **Tags** field or create a new one.
 
-   You can either create a new tag by typing in a new name for you tag, as shown in the figure below:
+   You can either create a new tag by typing in a new name for you tag and hit `return` key, as shown in the figure below:
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -115,10 +115,11 @@ Follow the steps below to create tags:
   
 1. Set the following properties to each of the channel, while assigning the channel.
 
-   * Main
-   * HotDrinks
-   * ColdDrinks
-
+   |**Channel Name**|**Priority**|**Supported Events**|
+   |---|---|---|
+   |Main|2|Initial Load, Idle Screen, Timer|
+   |HotDrinks|1|User Interaction|
+   |ColdDrinks|1|User Interaction|
 
    >[!NOTE]
    >
