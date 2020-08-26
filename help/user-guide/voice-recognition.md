@@ -115,9 +115,9 @@ Follow the steps below to create tags:
   
 1. Set the following properties to each of the channel, while assigning the channel.
 
-  * Main:
-  * HotDrinks
-  * ColdDrinks
+   * Main
+   * HotDrinks
+   * ColdDrinks
 
 
    >[!NOTE]
