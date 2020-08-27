@@ -110,6 +110,22 @@ Follow the steps below to enable Kiosk mode:
 1. Run the PowerShell script as an administrator.
 1. Reboot and login as the Kiosk user and the player application should start right up.
 
+### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
+
+You must set up an environment for Windows player if  you are using AEM Screens 6.5.5 Feature Pack.
+
+Follow the steps below:
+
+1. Navigate to to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Search for *Adobe Granite Token Authentication Handler*.
+
+1. Set the **SameSite attribute for the login-token cookies** from **Lax** to **None**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
+
 ### Troubleshooting {#troubleshooting}
 
 If you get a black screen when you login as the Kiosk user it means that you may have incorrectly specified the path to the windows player executable. Log back in as the administrator and verify and re-run the script.
