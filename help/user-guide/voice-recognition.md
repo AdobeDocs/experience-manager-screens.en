@@ -14,7 +14,6 @@ description: The page describes voice recognition feature in AEM Screens.
 >Refer to [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
 
 
-# Overview {#overview}
 
 The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
@@ -23,7 +22,7 @@ A content author can configure a display to be voice enabled. The purpose of thi
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.
 
-# Implementing Voice Recognition {#implementing}
+## Implementing Voice Recognition {#implementing}
 
 >[!IMPORTANT]
 > The Voice Recognition feature is available only on Chrome and Electron players.
@@ -31,8 +30,6 @@ A content author can configure a display to be voice enabled. The purpose of thi
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
 The following section describes how you can enable and use the Voice Recognition feature in an AEM Screens project.
-
-## Setting up the Project {#setting-up}
 
 You can set up your project either using of the two templates::
 
