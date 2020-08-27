@@ -272,7 +272,12 @@ Once the preceding steps are complete,  you can register your chrome device to v
 
 This example showcases the output on a Chrome Player.
 
-The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel.
+The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel. If you say *back to main menu*, it switches back to the main channel.
+
+![newimage](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
