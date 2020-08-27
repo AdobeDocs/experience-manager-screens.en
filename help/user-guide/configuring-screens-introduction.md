@@ -65,19 +65,18 @@ The following key points below helps to configure and AEM server to be ready to 
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![image](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web Console Configuration** opens. Search for sling referrer.
 
    For searching the sling referrer property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Check the **Allow Empty** option, as shown in the figure below.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
-
+    ![image](assets/config/empty-ref2.png)
+    
 1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
+
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
