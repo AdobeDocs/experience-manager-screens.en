@@ -51,6 +51,9 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.5 
 * Windows
 * Android
 
+>[!IMPORTANT]
+>If you have installed AEM Service Pack 6.5.5, you might encounter replication issues in your Screens players. Install [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) to fix the issue.
+
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
 To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
