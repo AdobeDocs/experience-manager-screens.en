@@ -107,7 +107,6 @@ Follow the steps below to create tags:
        ![image](assets/voice-recognition/vr-tag3.png)
 
    1. Enter the name of your project, for example, **VoiceDemo** and click **Create**.
-       ![image](assets/voice-recognition/vr-tag2.png)
 
    1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
        ![image](assets/voice-recognition/vr-tag4.png)
