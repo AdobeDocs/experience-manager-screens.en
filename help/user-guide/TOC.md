@@ -98,6 +98,7 @@ user-guide-description: Learn to use AEM Screens to publish interactive digital 
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
+    + [Release Notes for Feature Pack 202008](release-notes-fp-202008.md)
     + [Release Notes for Feature Pack 202004](release-notes-fp-202004.md)
     + [Release Notes for Feature Pack 202001](release-notes-fp-202001.md)
     + [Release Notes for Feature Pack 201909](release-notes-fp-201909.md)
