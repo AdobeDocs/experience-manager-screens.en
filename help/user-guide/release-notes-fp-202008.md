@@ -19,7 +19,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 The Release Date for AEM Screens Feature Pack 202008 is August 31, 2020.
 
-### What's New {#what-s-new}
+### What's New {#what-is-new}
 
 * **Timeline View on Schedule Dashboard**
 
@@ -41,18 +41,16 @@ The Release Date for AEM Screens Feature Pack 202008 is August 31, 2020.
 
    See [Voice Recognition](voice-recognition.md) for more details.
 
-* **Device preferences update in author/publish mode**
-
 ### Released AEM Screens Players {#released-aem-screens-players}
 
-The following AEM Screens Players are released for AEM Screens released AEM 6.5 Feature Pack 5:
+The following AEM Screens Players are released for AEM Screens released AEM 6.5 Feature Pack 5.
+
+>[!IMPORTANT]
+>If you have installed AEM Service Pack 6.5.5, you might encounter replication issues in your Screens players. Install [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) to fix the issue.
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->If you have installed AEM Service Pack 6.5.5, you might encounter replication issues in your Screens players. Install [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) to fix the issue.
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
