@@ -25,7 +25,7 @@ A content author can configure a display to be voice enabled. The purpose of thi
 ## Implementing Voice Recognition {#implementing}
 
 >[!IMPORTANT]
-> The Voice Recognition feature is available only on Chrome and Electron players.
+> The Voice Recognition feature is available only on Chrome OS and Electron players.
 
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
@@ -94,21 +94,26 @@ Follow the steps below to add tags to your channel:
 1. Click **Save & Close** once you are done.
 
 
-### Creating Tags {#creating-tags}   
+### Creating Tags {#creating-tags}
    
 Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
+
    1. Click on tools --> **Tagging**.
        ![image](assets/voice-recognition/vr-7.png)
+
    1. Click **Create** --> **Create Namespace**.
        ![image](assets/voice-recognition/vr-tag3.png)
-   1. Enter the name of your project, for example: **VoiceDemo** and click **Create**.
+
+   1. Enter the name of your project, for example, **VoiceDemo** and click **Create**.
        ![image](assets/voice-recognition/vr-tag2.png)
+
    1. Select the **VoiceDemo** project and click **Create Tag** from the action bar.
-         ![image](assets/voice-recognition/vr-tag4.png)
+       ![image](assets/voice-recognition/vr-tag4.png)
+
    1. Enter the name of your tag and click **Submit**.
-         ![image](assets/voice-recognition/vr-tag5.png)
+       ![image](assets/voice-recognition/vr-tag5.png)
 
 Now, you can use these tags in your AEM Screens project.
 
