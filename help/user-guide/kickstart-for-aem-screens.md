@@ -2,50 +2,49 @@
 title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Follow this page to create a demo AEM Screens project. It helps you create a digital signage experience starting from installation and setting up a new project to viewing your content in AEM Screens player.
-seo-description: Follow this page to create a demo AEM Screens project. It helps you create a digital signage experience starting from installation and setting up a new project to viewing your content in AEM Screens player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
-
 ---
 
 # Kickstart Guide {#kickstart-guide}
 
-This section is a kickstart to AEM Screens and shows how to achieve basic actions. It walks you through setting up a basic digital signage experience with content/assets and publishing to a Screens player. For an in-depth understanding of all the components for Screens development, see the resources at the end of the page.
+This section is a kickstart to AEM Screens and shows how to achieve basic actions. It walks you through setting up a basic digital signage experience with content/assets and publishing to a Screens player. 
 
 ## Creating a Digital Signage Experience in 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 The following steps allow you to create a sample project for Screens and publish content to Screens player.
 
-1. To download **AEM Screens Player**, click [here](https://download.macromedia.com/screens/).
+To download **AEM Screens Player**, click [here](https://download.macromedia.com/screens/).
 
-   AEM Screens is also available in **Google Play**.
 
-   For implementation of Chrome OS Player, see [Chrome Management Console](implementing-chrome-os-player.md) for more information.
+For implementation of Chrome OS Player, see [Chrome Management Console](implementing-chrome-os-player.md) for more information.
 
-   See [Installing and Configuring Screens](configuring-screens-introduction.md) for more details.
+For installing and configuring the Screens players on your devices, see [Installing and Configuring Screens](configuring-screens-introduction.md) for more details.
 
-   >[!NOTE]
-   >
-   >**OSGI Settings**
-   >
-   >
-   >You need to enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the Apache Sling Referrer Filter Allow Empty is enabled in the OSGI Config. The dashboard may display a warning that security settings may prevent some of these features from working.
+>[!NOTE]
+>**OSGI Settings**
+>You need to enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the Apache Sling Referrer Filter Allow Empty is enabled in the OSGI Config. The dashboard may display a warning that security settings may prevent some of these features from working.
    >
    >
    >Follow the steps below to enable the ***Apache Sling Referrer Filter Allow Empty***:
-   >
-   >
-   >
-   >    1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Check the **allow.empty** option.
-   >    1. Click **Save**.
-   >
-   >
+
+
+## Allow Empty Referrer Requests {#allow-empty-referrer-requests}
+
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+
+   ![image](assets/config/empty-ref1.png)
+
+1. **Adobe Experience Manager Web Console Configuration** opens. Search for sling referrer.
+
+   For searching the sling referrer property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+
+1. Check the **Allow Empty** option, as shown in the figure below.
+
+    ![image](assets/config/empty-ref2.png)
+
+1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
+
+
+## Tutorial {#tutorial}
 
 1. **Creating a new project**
 
