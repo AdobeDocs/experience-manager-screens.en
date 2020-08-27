@@ -89,11 +89,10 @@ Follow the steps below to add tags to your channel:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
+1. Similarly, add tag titled as **hot** to the **HotDrinks** channel.
+
 1. Click **Save & Close** once you are done.
 
-Similarly, add tag titled as **hot** to the **HotDrinks** channel.
-
-If you using a using a Split Screens Channel as a Template, then make sure you add both the tags (**hot** and **cold**) to your Channel properties.
 
 ### Creating Tags {#creating-tags}   
    
@@ -269,7 +268,7 @@ Once the preceding steps are complete,  you can register your chrome device to v
 
 This example showcases the output on a Chrome Player.
 
-The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreens** channel.
+The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel.
 
 
 
