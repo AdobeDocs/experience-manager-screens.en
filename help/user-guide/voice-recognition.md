@@ -34,6 +34,13 @@ The following section describes how you can enable and use the Voice Recognition
 
 ### Setting up the Project {#setting-up}
 
+You can set up your project either using of the two templates::
+
+* [Sequence Channel](#sequence-channel)
+* [Split Screens Channel](#split-channel)
+
+#### Using Sequence Channel as Template {#sequence-channel}
+
 Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
 
 1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, as shown in the figure below.
@@ -59,6 +66,34 @@ Before you use Voice Recognition feature, make sure you have a project and a cha
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
+
+#### Using Split Screens Channel as a Template {#split-channel}
+
+Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
+
+1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, **SplitChannel** as shown in the figure below.
+
+ 
+
+   >[!NOTE]
+   >
+   >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
+
+1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
+
+   The channels now contain assets (images), as shown in the figures below.
+
+   **Main**:
+
+   
+
+   **ColdDrinks**:
+
+   
+   **HotDrinks**:
+
+1. Navigate to **SplitChannel** and add content. Drag and drop two embedded sequences and add path to both the **ColdDrinks** and **HotDrinks** channel as shown in the figure below.
+
 
 ### Setting up Tags for Channels {#setting-tags}
 
@@ -87,6 +122,8 @@ Follow the steps below to add tags to your channel:
 1. Click **Save & Close** once you are done.
 
 Similarly, add tag titled as **hot** to the **HotDrinks** channel.
+
+If you using a using a Split Screens Channel as a Template, then make sure you add both the tags (**hot** and **cold**) to your Channel properties.
 
 #### Creating Tags {#creating-tags}   
    
@@ -138,14 +175,16 @@ Now, you can use these tags in your AEM Screens project.
    >[!IMPORTANT]
    >It is mandatory to enable the voice recognition feature from the display.
 
-#### Viewing the Content in the Chrome Player {#viewing-content}
+### Viewing the Content in the Chrome Player {#viewing-content}
 
-Once the preceding steps are complete,  you can register your chrome device and view the output.
+Once the preceding steps are complete,  you can register your chrome device to view the output.
 
 >[!NOTE]
 >Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
 This example showcases the output on a Chrome Player.
+
+#### For Sequential Channel {#sequential-output}
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
 
@@ -154,10 +193,12 @@ Similarly, if you use word with a keyword **cold** such as *I would like to have
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
+#### For Split Screens Channel {#split-screen-output}
 
 
+The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
 
-
+Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the the channel starts playing the contents of the **ColdDrinks** channel.
 
 
 
