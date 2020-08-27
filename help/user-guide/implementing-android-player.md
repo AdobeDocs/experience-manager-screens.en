@@ -25,6 +25,23 @@ To implement Android Player for AEM Screens, please install Android Player for A
 
 Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
+### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
+
+You must set up an environment for Android player if  you are using AEM Screens 6.5.5 Feature Pack.
+
+Follow the steps below:
+
+1. Navigate to **Adobe Experience Manager Web Console
+Configuration** using `http://localhost:4502/system/console/configMgr`.
+
+1. Search for *Adobe Granite Token Authentication Handler*.
+
+1. Set the **SameSite attribute for the login-token cookies** from **Lax** to **None**.
+   ![image](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
+
+
 ### Ad-Hoc Method {#ad-hoc-method}
 
 The Ad-Hoc method allows you to install the latest Android Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
