@@ -11,7 +11,7 @@ description: Follow this page to learn about Channel Assignment and Day-parting.
 
 Once you have set up a display, you must assign a channel to a display to view your content.
 
-This page shows assigning a channel to your display.
+This page shows assigning a channel to your display, understand channel properties, and DayParting.
 
 >[!NOTE]
 >You can assign multiple channels to a display.
@@ -48,7 +48,7 @@ Follow the steps below to set up a project and a channel:
 
 ### Assigning Channel to a Display {#assigning-channel-to-display}
 
-Once you have the project set up complete, you must assign the channel to a display to view the content.
+Once the project set up is complete, you must assign the channel to a display to view the content.
 
 1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
 
@@ -58,7 +58,7 @@ Once you have the project set up complete, you must assign the channel to a disp
 
    Or,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
    
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
    
@@ -66,7 +66,7 @@ Once you have the project set up complete, you must assign the channel to a disp
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel by path or by name, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the **Attraction tooltip** from this dialog box.
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the attraction tooltip from this dialog box.
 
     ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -91,13 +91,31 @@ You will view the following output on your choice of player:
 
  ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
+## Timeline View {#timeline-view}
+
+Once you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+
+Follow the steps below to navigate to the timeline view:
+
+1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Or,
+
+   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   
+1. Pending Images (to be fixed)
+
+## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
 The following properties are set from the **Settings** option in the **Channel Assignment** dialog box.
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Select a Channel {#select-channel}
+### Select a Channel {#select-channel}
 
 Selecting a channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
 
@@ -105,25 +123,25 @@ Selecting a channel allows you to provide a reference to the desired channel, ei
 
 * **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Channel Role {#role-channel}
+### Channel Role {#role-channel}
 
 Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.
 
-#### Priority {#priority-channel}
+### Priority {#priority-channel}
 
 Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
    >[!NOTE]
    >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
 
-#### Supported Events {#supported-events-channel}
+### Supported Events {#supported-events-channel}
 
 * **Initial Load**: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule
 * **Idle Screen**: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule
 * **Timer**: needs to be set when a schedule is provided
 * **User Interaction**: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched
 
-#### Interruption Method {#interruption-method-channel}
+### Interruption Method {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -145,16 +163,15 @@ Select from one of following options that are available to set the interruption 
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
-
-#### Reference Timezone {#reference-timezone}
+### Reference Timezone {#reference-timezone}
 
 The Reference Timezone allows you to select the timezone for your content display.
 
-#### Activation Window {#activation-window}
+### Activation Window {#activation-window}
 
 The Activation Window allows you to select a **Start date** and an **End date** to display your content.
 
-#### Recurrence Schedule {#recurrence-schedule}
+### Recurrence Schedule {#recurrence-schedule}
 
 The Recurrence Schedule allows you to set a recurring schedule for your content. Click on **+ Add Schedule** to add a recurrence schedule to your channel.
 
@@ -204,23 +221,4 @@ This example shows the DayParting implemented in a casino where live event occur
 >[!NOTE]
 >
 >Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
-
-## Timeline View {#timeline-view}
-
-Once you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
-
-Follow the steps below to navigate to the timeline view:
-
-1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Or,
-
-   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
-   
-1. Pending Images (to be fixed)
-
 
