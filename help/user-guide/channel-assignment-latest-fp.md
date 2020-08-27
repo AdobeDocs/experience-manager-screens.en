@@ -73,8 +73,8 @@ Once you have the project set up complete, you must assign the channel to a disp
    >[!NOTE]
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. From the **Schedules** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. From the **Schedule** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
     >[!NOTE]
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
@@ -145,6 +145,7 @@ Select from one of following options that are available to set the interruption 
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
+
 #### Reference Timezone {#reference-timezone}
 
 The Reference Timezone allows you to select the timezone for your content display.
@@ -156,6 +157,9 @@ The Activation Window allows you to select a **Start date** and an **End date** 
 #### Recurrence Schedule {#recurrence-schedule}
 
 The Recurrence Schedule allows you to set a recurring schedule for your content. Click on **+ Add Schedule** to add a recurrence schedule to your channel.
+
+ ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
@@ -197,25 +201,9 @@ This example shows the DayParting implemented in a casino where live event occur
 |Weekend|Weekly|8:00 PM|10:00 PM|  
 |Special|Daily|10:00 PM|1:00 AM| 
 
-**Weekend**
-
-
-**Special**
-
-#### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
-
-This example shows the DayParting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
-
-Here, you will create DayParting as per months, so that channel content plays as per the specified months of the year.
-
-
 >[!NOTE]
 >
 >Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
-
-#### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
-
-This examples shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 
 ## Timeline View {#timeline-view}
 
@@ -223,5 +211,16 @@ Once you have assigned a channel to a display and set up a recurrence schedule, 
 
 Follow the steps below to navigate to the timeline view:
 
+1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Or,
+
+   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   
+1. Pending Images (to be fixed)
 
 
