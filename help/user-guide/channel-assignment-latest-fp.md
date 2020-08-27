@@ -163,6 +163,8 @@ Select from one of following options that are available to set the interruption 
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
+![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Reference Timezone {#reference-timezone}
 
 The Reference Timezone allows you to select the timezone for your content display.
@@ -175,9 +177,6 @@ The Activation Window allows you to select a **Start date** and an **End date** 
 
 The Recurrence Schedule allows you to set a recurring schedule for your content. Click on **+ Add Schedule** to add a recurrence schedule to your channel.
 
- ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
@@ -187,9 +186,9 @@ You can set the following options:
 * **Name**: Title of your recurrence schedule.
 * **Repeat**: Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
 * **Start**: The start time for your schedule.
-* **End**: The ending time for your schedule. You can set the it by:
-* **Time**: The schedule will end at a specified time.
-* **Duration**: The schedule runs for a particular duration of time in hours or minutes.
+* **End**: The ending time for your schedule. You can set the it by time or duration.
+   * **Time**: The schedule will end at a specified time.
+   * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
 
 ### DayParting {#dayparting}
 
