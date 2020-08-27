@@ -36,7 +36,7 @@ You can set up your project either using of the two templates::
 * [Sequence Channel](#sequence-channel)
 * [Split Screens Channel](#split-channel)
 
-## Using Sequence Channel as Template {#sequence-channel}
+## Using Sequence Channel as a Template {#sequence-channel}
 
 Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
 
