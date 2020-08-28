@@ -9,15 +9,14 @@ description: The page describes voice recognition feature in AEM Screens.
 >
 >**Important Privacy Information**
 >
->When using the Voice Recognition feature follow all the applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes a wave form of your speech is sent to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
+>When using the voice recognition feature follow all applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes this API sends a wave form of your speech to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
 >
 >Refer to [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
 
 
+The voice recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
-
-A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
+A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as a method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
 
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.
@@ -25,18 +24,13 @@ A content author can configure a display to be voice enabled. The purpose of thi
 ## Implementing Voice Recognition {#implementing}
 
 >[!IMPORTANT]
-> The Voice Recognition feature is available only on Chrome OS and Electron players.
+> The Voice Recognition feature is available only on Chrome OS and Windows players.
 
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
 The following section describes how you can enable and use the Voice Recognition feature in an AEM Screens project.
 
-You can set up your project either using of the two templates::
-
-* [Sequence Channel](#sequence-channel)
-* [Split Screens Channel](#split-channel)
-
-## Using Sequence Channel as a Template {#sequence-channel}
+## Use Case 1: Viewing Content in Full Screen Channel Switch {#sequence-channel}
 
 Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
 
@@ -164,7 +158,7 @@ Similarly, if you use word with a keyword **cold** such as *I would like to have
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Using Split Screens Channel as a Template {#split-channel}
+## Use Case 2: Viewing Content in Split Screen Channel Switch {#split-channel}
 
 Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
 
