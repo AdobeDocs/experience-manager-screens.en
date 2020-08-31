@@ -211,7 +211,7 @@ This example shows the day-parting implemented in a casino where live event occu
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
 |Weekend|Weekly: Saturday,Sunday|8:00 PM|10:00 PM|  
-|Specials|Daily: Monday-Frdiday|10:00 PM|1:00 AM| 
+|Specials|Daily: Monday-Friday|10:00 PM|1:00 AM| 
 
 >[!NOTE]
 >
