@@ -3,13 +3,6 @@ title: Configuring Author and Publish in AEM Screens
 seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
-contentOwner: jsyal
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
-docset: aem65
 ---
 
 # Configuring Author and Publish in AEM Screens {#configuring-author-and-publish-in-aem-screens}
