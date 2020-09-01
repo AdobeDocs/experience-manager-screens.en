@@ -11,7 +11,7 @@ description: Follow this page to learn about Channel Assignment and Day-parting.
 
 Once you have set up a display, you must assign a channel to a display to view your content.
 
-This page shows assigning a channel to your display, understand channel properties, and DayParting.
+This page shows assigning a channel to your display, understand channel properties, and day-parting.
 
 >[!NOTE]
 >You can assign multiple channels to a display.
@@ -73,7 +73,7 @@ Once the project set up is complete, you must assign the channel to a display to
    >[!NOTE]
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. From the **Schedule** option select the **Reference Timezone**, **Activation Window** and **Recurrence Schedule**.
+1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
     >[!NOTE]
@@ -165,10 +165,6 @@ The following properties are set from the **Schedule** option in the **Channel A
 
 ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Reference Timezone {#reference-timezone}
-
-The Reference Timezone allows you to select the timezone for your content display.
-
 ### Activation Window {#activation-window}
 
 The Activation Window allows you to select a **Start date** and an **End date** to display your content.
@@ -179,7 +175,7 @@ The Recurrence Schedule allows you to set a recurring schedule for your content.
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
 
 You can set the following options:
 
@@ -190,32 +186,32 @@ You can set the following options:
    * **Time**: The schedule will end at a specified time.
    * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
 
-### DayParting {#dayparting}
+### Day-parting {#dayparting}
 
-DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
+Day-parting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of day-parting within a day, week, or month as per the requirement.
 
-The following examples explain DayParting in channels in three different scenarios:
+The following examples explain day-parting in channels in three different scenarios:
 
 #### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-This example shows how a Restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
+This example shows how a restaurant uses day-parting to showcase its breakfast, lunch and dinner menu everyday.
 
 Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule for your channel to play the content as per this use case.
 
-|**Name**|**Repeat**|**Start**|**End**|
+|**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
 |Breakfast|Daily|6:00 AM|11:00 AM|  
-|Lunch|Daily|11:02 AM|3:00 PM|  
-|Dinner|Daily|3:01 PM|8:00 PM|  
+|Lunch|Daily|11:00 AM|3:00 PM|  
+|Dinner|Daily|3:00 PM|8:00 PM|  
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+This example shows the day-parting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
-|**Name**|**Repeat**|**Start**|**End**|
+|**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
-|Weekend|Weekly|8:00 PM|10:00 PM|  
-|Special|Daily|10:00 PM|1:00 AM| 
+|Weekend|Weekly: Saturday,Sunday|8:00 PM|10:00 PM|  
+|Specials|Daily: Monday-Friday|10:00 PM|1:00 AM| 
 
 >[!NOTE]
 >
