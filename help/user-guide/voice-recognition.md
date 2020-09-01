@@ -24,13 +24,13 @@ A content author can configure a display to be voice enabled. The purpose of thi
 ## Implementing Voice Recognition {#implementing}
 
 >[!IMPORTANT]
-> The Voice Recognition feature is available only on Chrome OS and Windows players.
+> The voice recognition feature is available only on Chrome OS and Windows players.
 
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
 The following section describes how you can enable and use the Voice Recognition feature in an AEM Screens project.
 
-## Use Case 1: Viewing Content in Full Screen Channel Switch {#sequence-channel}
+## Viewing Content in Full Screen or Split Screen Channel Switch {#sequence-channel}
 
 Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
 
@@ -41,6 +41,12 @@ Before you use Voice Recognition feature, make sure you have a project and a cha
    >[!NOTE]
    >
    >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
+
+   Or,
+
+   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screen channel **SplitScreen** as shown in the figure below.
+
+   ![image](assets/voice-recognition/vr-emb-1.png)
 
 1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
 
@@ -57,6 +63,9 @@ Before you use Voice Recognition feature, make sure you have a project and a cha
    **HotDrinks**:
 
    ![image](assets/voice-recognition/vr-2.png)
+
+   If you have added Split Screens channel to your project, navigate to **SplitScreen** and drag and drop two embedded sequences and add paths to both the **ColdDrinks** and **HotDrinks** channel as shown in the figure below.
+   ![image](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Setting up Tags for Channels {#setting-tags}
@@ -84,6 +93,10 @@ Follow the steps below to add tags to your channel:
    ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Similarly, add tag titled as **hot** to the **HotDrinks** channel.
+
+1. If you are using a Split Screen channel, add both the tags (**hot** and **cold**) to the **SplitScreen** channel properties.
+
+   ![image](assets/voice-recognition/vr-emb-7.png)
 
 1. Click **Save & Close** once you are done.
 
@@ -120,6 +133,9 @@ Now, you can use these tags in your AEM Screens project.
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
    
 1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**.
+
+   >[!NOTE]
+   >If you have created a split screen channel, assign the **SplitScreen** channel too to your display.
   
 1. Set the following properties to each of the channel, while assigning the channel.
 
@@ -156,113 +172,6 @@ The **Main** channel is playing its content, but when you use words with keyword
 Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the the channel starts playing the contents of the **ColdDrinks** channel.
 
 ![newimage](assets/voice-recognition/voice-video.gif)
-
-
-## Use Case 2: Viewing Content in Split Screen Channel Switch {#split-channel}
-
-Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
-
-1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one 1x2 Split Screen channel **SplitScreen** as shown in the figure below.
-
-   ![image](assets/voice-recognition/vr-emb-1.png)
-
-   >[!NOTE]
-   >
-   >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
-
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and the **HotDrinks** channel.
-
-   The channels now contain assets (images), as shown in the figures below.
-
-   **Main**:
-   
-   ![image](assets/voice-recognition/vr-emb-3.png)
-   
-
-   **ColdDrinks**:
-   ![image](assets/voice-recognition/vr-3.png)
-   
-   **HotDrinks**:
-
-   ![image](assets/voice-recognition/vr-2.png)
-
-1. Navigate to **SplitScreen** and drag and drop two embedded sequences and add paths to both the **ColdDrinks** and **HotDrinks** channel as shown in the figure below.
-   ![image](assets/voice-recognition/vr-emb-6.png)
-
-
-### Setting up Tags for Channels {#setting-tags-split}
-
-Once you have added content to your channels, you need to navigate to each of the channels and add appropriate tags that would trigger the voice recognition.
-
-Follow the steps below to add tags to your channel:
-
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel.
-
-1. Click **Properties** from the action bar.
-
-   ![image](assets/voice-recognition/vr-5.png)
-   
-1. Navigate to **Basics** tab and select an already existing tag from the **Tags** field or create a new one.
-
-   You can either create a new tag by typing in a new name for you tag and hit `return` key, as shown in the figure below:
-
-   ![image](assets/voice-recognition/vr-6.png)
-
-   Or,
-
-   You can create tags from your AEM instance beforehand for your project and select those too. Once you follow the steps explained in [Creating Tags](#creating-tags), you can select the tag from the location and add it to your channel, as shown in the figure below:
-
-   ![image](assets/voice-recognition/vr-tag1.png)
-
-1. Similarly, add tag titled as **hot** to the **HotDrinks** channel.
-
-1. Add both the tags (**hot** and **cold**) to the **SplitScreen** channel properties.
-
-   ![image](assets/voice-recognition/vr-emb-7.png)
-   
-
-1. Click **Save & Close** once you are done.
-
-### Assigning Channel to a Display and Enabling Voice Recognition {#channel-assignment-split}
-
-1. Create a display in the **Locations** folder, as shown in the figure below.
-
-   ![image](assets/voice-recognition/vr-loc.png)
-
-   >[!NOTE]
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
-   
-1. Assign the channels **Main**, **ColdDrinks**, **HotDrinks**, and **SplitScreen** to your **Lobby** display.
-  
-1. Set the following properties to each of the channel, while assigning the channel.
-
-   |**Channel Name**|**Priority**|**Supported Events**|
-   |---|---|---|
-   |Main|2|Initial Load, Idle Screen, Timer|
-   |HotDrinks|1|User Interaction|
-   |ColdDrinks|1|User Interaction|
-   |SplitScreen|1|User Interaction|
-
-   >[!NOTE]
-   >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
-
-1. Once you have assigned channels to a display, navigate to the **Lobby** display and select the display. Select **Properties** from the action bar.
-
-1. Navigate to the **Display** tab and enable **Voice enabled** option under **Content**.
-
-   ![image](assets/voice-recognition/vr-disp.png)
-
-   >[!IMPORTANT]
-   >It is mandatory to enable the voice recognition feature from the display.
-
-
-### Viewing the Content in the Chrome Player {#viewing-content-split}
-
-Once the preceding steps are complete,  you can register your chrome device to view the output.
-
->[!NOTE]
->Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
 This example showcases the output on a Chrome Player.
 

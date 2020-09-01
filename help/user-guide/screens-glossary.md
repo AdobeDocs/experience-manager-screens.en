@@ -3,19 +3,13 @@ title: Glossary
 seo-title: Glossary
 description: Follow this page to understand the key terms associated with AEM Screens.
 seo-description: Follow this page to understand the key terms associated with AEM Screens.
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
-
 ---
 
 # Glossary {#glossary}
 
 **Application Channel** An Application Channel shows an application created by a developer that displays interactive content.
+
+**Attract Loop** An attract loop is defined as the *home* or *idle* state when the display has two or more states that it can exist in. Its role is to *attract* customers over to the display and encourage them to engage, usually by touching the screen but could also be by interacting with a product.
 
 **Device** A device has the ability to run the player software to produce a visual output. It is able to control displaying a cropped, scaled, translated portion of common content or experience. The screen configuration is bound to a display but can be replaced in case a technical defect occurs.
 

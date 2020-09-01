@@ -69,6 +69,7 @@ user-guide-description: Learn to use AEM Screens to publish interactive digital 
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
         + [Command Sync](using-command-sync.md)
         + [Authoring with Data Triggers](authoring-data-triggers.md)
+        + [Voice Recognition](voice-recognition.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
@@ -82,7 +83,6 @@ user-guide-description: Learn to use AEM Screens to publish interactive digital 
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
         + [Single Use TakeOver Channel](single-use-takeover-channel.md)
         + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
-        + [Voice Recognition](voice-recognition.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
