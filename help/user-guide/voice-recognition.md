@@ -44,7 +44,7 @@ Before you use Voice Recognition feature, make sure you have a project and a cha
 
    Or,
 
-   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screen channel **SplitScreen** as shown in the figure below.
+   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
@@ -88,13 +88,13 @@ Follow the steps below to add tags to your channel:
 
    Or,
 
-   You can create tags from your AEM instance beforehand for your project and select those too. Once you follow the steps explained in [Creating Tags](#creating-tags), you can select the tag from the location and add it to your channel, as shown in the figure below:
+   You can also create tags from your AEM instance beforehand for your project and select those. Once you follow the steps explained in [Creating Tags](#creating-tags), you can select the tag from the location and add it to your channel, as shown in the figure below:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
 1. Similarly, add tag titled as **hot** to the **HotDrinks** channel.
 
-1. If you are using a Split Screen channel, add both the tags (**hot** and **cold**) to the **SplitScreen** channel properties.
+1. If you are using a Split Screens channel, add both the tags (**hot** and **cold**) to the **SplitScreen** channel properties, as shown in the figure below.
 
    ![image](assets/voice-recognition/vr-emb-7.png)
 
@@ -107,7 +107,7 @@ Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
 
-   1. Click on tools --> **Tagging**.
+   1. Click on tools icon --> **Tagging**.
        ![image](assets/voice-recognition/vr-7.png)
 
    1. Click **Create** --> **Create Namespace**.
@@ -132,7 +132,7 @@ Now, you can use these tags in your AEM Screens project.
    >[!NOTE]
    >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
    
-1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**.
+1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**. Additionally, if you are using the **SplitScreen** channel for your project, make sure you assign that too to the display.
 
    >[!NOTE]
    >If you have created a split screen channel, assign the **SplitScreen** channel too to your display.
@@ -144,6 +144,7 @@ Now, you can use these tags in your AEM Screens project.
    |Main|2|Initial Load, Idle Screen, Timer|
    |HotDrinks|1|User Interaction|
    |ColdDrinks|1|User Interaction|
+   |SplitScreen|1|User Interaction|
 
    >[!NOTE]
    >
@@ -165,25 +166,15 @@ Once the preceding steps are complete,  you can register your chrome device to v
 >[!NOTE]
 >Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
-This example showcases the output on a Chrome Player.
+**Desired Output for Sequence Channel**
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
 
 Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the the channel starts playing the contents of the **ColdDrinks** channel.
 
-![newimage](assets/voice-recognition/voice-video.gif)
-
-This example showcases the output on a Chrome Player.
+**Desired Output for Split Screens Channel**
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel. If you say *back to main menu*, it switches back to the main channel.
-
-![newimage](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
