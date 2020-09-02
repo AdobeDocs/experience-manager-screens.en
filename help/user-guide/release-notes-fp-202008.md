@@ -47,7 +47,7 @@ You must set up an environment for Windows or Android player, if you are using A
 
 * See [Implementing Windows 10 Player](implementing-windows-player.md#fp-environment-setup) for more details.
 
-* See [Implementing Android Player](implementing-android-player.md.md#fp-environment-setup) for more details.
+* See [Implementing Android Player](implementing-android-player.md#fp-environment-setup) for more details.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
