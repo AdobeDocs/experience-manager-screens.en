@@ -25,6 +25,9 @@ Before getting started with author and publish servers, you should have prior kn
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
+>[!Important]
+>If you want to use more than one publish instances with dispatcher, you must update the dispatcher.any file in your dispatcher. See [Enabling Sticky Sessions](dispatcher-configurations-aem-screens.md#enable-sticky-session) for more details.
+
 ## Configuring Author and Publish instances {#configuring-author-and-publish-instances}
 
 >[!NOTE]

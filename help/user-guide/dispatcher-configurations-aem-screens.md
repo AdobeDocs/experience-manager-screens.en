@@ -27,6 +27,21 @@ Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experie
 
 Follow the steps below to configure dispatcher for an AEM Screens project.
 
+### Enabling Sticky Sessions {#enable-sticky-session}
+
+If anyone want to use more than one publish instances with dispatcher, they have to update the dispatcher.any file in their dispatcher.
+
+``` xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
+
 ### Step 1: Configuring Client Headers {#step-configuring-client-headers}
 
 Add the following to `/clientheaders`section:
@@ -69,7 +84,7 @@ Screens players uses authenticated session, so the dispatcher does not cache any
 To enable the cache for the assets so that the assets are served from dispatcher cache, you must:
 
 * Add `/allowAuthorization 1` in `/cache` section
-* Add the below rules to `/rule`s section of `/cache`
+* Add the below rules to `/rules` section of `/cache`
 
 ``` xml
 /0000
