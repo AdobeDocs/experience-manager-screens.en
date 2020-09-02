@@ -17,7 +17,7 @@ You can download the latest feature pack for AEM Screens 6.5.5 Release from the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202008 is August 31, 2020.
+The Release Date for AEM Screens Feature Pack 202008 is September 03, 2020.
 
 ### What's New {#what-is-new}
 
@@ -40,6 +40,14 @@ The Release Date for AEM Screens Feature Pack 202008 is August 31, 2020.
    A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as method of interacting with their displays.
 
    See [Voice Recognition](voice-recognition.md) for more details.
+
+### Known Issues & Fixes {#known-issues}
+
+You must set up an environment for Windows or Android player, if you are using AEM Screens 6.5.5 Feature Pack.
+
+* See [Implementing Windows 10 Player](implementing-windows-player.md#fp-environment-setup) for more details.
+
+* See [Implementing Android Player](implementing-android-player.md#fp-environment-setup) for more details.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 

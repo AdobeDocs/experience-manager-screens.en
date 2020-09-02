@@ -25,7 +25,7 @@ Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens
 
 ### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
 
-You must set up an environment for Windows player if  you are using AEM Screens 6.5.5 Feature Pack.
+You must set up an environment for Windows player if you are using AEM Screens 6.5.5 Feature Pack.
 
 Follow the steps below:
 
