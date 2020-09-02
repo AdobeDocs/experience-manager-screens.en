@@ -53,9 +53,6 @@ You must set up an environment for Windows or Android player, if you are using A
 
 The following AEM Screens Players are released for AEM Screens released AEM 6.5 Feature Pack 5.
 
->[!IMPORTANT]
->If you have installed AEM Service Pack 6.5.5, you might encounter replication issues in your Screens players. Install [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) to fix the issue.
-
 * Chrome OS
 * Windows
 * Android
