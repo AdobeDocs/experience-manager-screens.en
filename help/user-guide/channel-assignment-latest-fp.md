@@ -1,7 +1,7 @@
 ---
 title: Channel Assignment - Latest FP
 seo-title: Channel Assignment - Latest FP
-description: Follow this page to learn about Channel Assignment and Day-parting.
+description: Follow this page to learn about Channel Assignment and DayParting.
 ---
 
 # Channel Assignment {#channel-assignment}
@@ -11,7 +11,7 @@ description: Follow this page to learn about Channel Assignment and Day-parting.
 
 Once you have set up a display, you must assign a channel to a display to view your content.
 
-This page shows assigning a channel to your display, understand channel properties, and day-parting.
+This page shows assigning a channel to your display, understand channel properties, and DayParting.
 
 >[!NOTE]
 >You can assign multiple channels to a display.
@@ -101,13 +101,11 @@ Follow the steps below to navigate to the timeline view:
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Or,
 
    Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
-   
-1. Pending Images (to be fixed)
+
+   ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Understanding Channel Properties from Channel Assignment Dialog Box {#channel-properties}
 
@@ -175,7 +173,7 @@ The Recurrence Schedule allows you to set a recurring schedule for your content.
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
 
 You can set the following options:
 
@@ -186,15 +184,15 @@ You can set the following options:
    * **Time**: The schedule will end at a specified time.
    * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
 
-### Day-parting {#dayparting}
+### DayParting {#dayparting}
 
-Day-parting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of day-parting within a day, week, or month as per the requirement.
+DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
 
-The following examples explain day-parting in channels in three different scenarios:
+The following examples explain DayParting in channels in three different scenarios:
 
 #### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-This example shows how a restaurant uses day-parting to showcase its breakfast, lunch and dinner menu everyday.
+This example shows how a restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
 
 Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule for your channel to play the content as per this use case.
 
@@ -206,7 +204,7 @@ Here, we will divide each day into different time slots, so that channel content
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the day-parting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
