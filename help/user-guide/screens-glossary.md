@@ -11,6 +11,8 @@ seo-description: Follow this page to understand the key terms associated with AE
 
 **Attract Loop** An attract loop is defined as the *home* or *idle* state when the display has two or more states that it can exist in. Its role is to *attract* customers over to the display and encourage them to engage, usually by touching the screen but could also be by interacting with a product.
 
+**DayParting** DayParting refers to splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
+
 **Device** A device has the ability to run the player software to produce a visual output. It is able to control displaying a cropped, scaled, translated portion of common content or experience. The screen configuration is bound to a display but can be replaced in case a technical defect occurs.
 
 **Display** A display is a virtual grouping of screens that are usually positioned next to each other. The display is usually permanent in respect to an installation. This will be the object content authors will work with and always reference to as logical display rather than their physical counter part(s).

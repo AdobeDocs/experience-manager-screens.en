@@ -13,7 +13,7 @@ description: The page describes Release Notes for Feature Pack 202008.
 
 AEM Screens released AEM 6.5 Feature Pack 5.
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack.
+You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack.
 
 ## Release Date {#release-date}
 
