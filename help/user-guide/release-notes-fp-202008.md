@@ -43,7 +43,10 @@ The Release Date for AEM Screens Feature Pack 202008 is September 03, 2020.
 
 ### Known Issues & Fixes {#known-issues}
 
-You must set up an environment for Windows or Android player, if you are using AEM Screens 6.5.5 Feature Pack.
+You must set up an environment for Windows or Android player, if you are using AEM Screens 6.5.5 Service Pack. 
+
+Set the **SameSite attribute for the login-token cookies** from **Lax** to **None** from **Adobe Experience Manager Web Console
+Configuration** on all AEM author and publish instances.
 
 * See [Implementing Windows 10 Player](implementing-windows-player.md#fp-environment-setup) for more details.
 
