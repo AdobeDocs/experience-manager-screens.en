@@ -186,7 +186,7 @@ You can set the following options:
 
 ### DayParting {#dayparting}
 
-DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
+DayParting refers to splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
 
 The following examples explain DayParting in channels in three different scenarios:
 
