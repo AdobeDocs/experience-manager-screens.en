@@ -29,7 +29,7 @@ Follow the steps below to configure dispatcher for an AEM Screens project.
 
 ### Enabling Sticky Sessions {#enable-sticky-session}
 
-If anyone want to use more than one publish instances with dispatcher, they have to update the dispatcher.any file in their dispatcher.
+If you want to use more than one publish instance with dispatcher, you will have to update the `dispatcher.any` file.
 
 ``` xml
 /stickyConnections {
