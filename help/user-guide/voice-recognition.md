@@ -28,11 +28,11 @@ A content author can configure a display to be voice enabled. The purpose of thi
 
 To implement voice recognition in your AEM Screens project, you must enable the voice recognition for the Display and associate each channel with a unique tag to trigger a channel transition.
 
-The following section describes how you can enable and use the Voice Recognition feature in an AEM Screens project.
+The following section describes how you can enable and use the voice recognition feature in an AEM Screens project.
 
 ## Viewing Content in Full Screen or Split Screen Channel Switch {#sequence-channel}
 
-Before you use Voice Recognition feature, make sure you have a project and a channel with content set up for your project.
+Before you use voice recognition feature, make sure you have a project and a channel with content set up for your project.
 
 1. The following example showcases a demo project named **VoiceDemo** and three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, as shown in the figure below.
 
@@ -170,7 +170,7 @@ Once the preceding steps are complete,  you can register your chrome device to v
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
 
-Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the the channel starts playing the contents of the **ColdDrinks** channel.
+Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
 
 **Desired Output for Split Screens Channel**
 
