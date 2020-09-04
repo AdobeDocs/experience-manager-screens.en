@@ -28,7 +28,8 @@ Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens
 
 ### Setting up Environment for AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-You must set up an environment for Windows player if you are using AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>You must set up an environment for Windows player if you are using AEM Screens 6.5.5 Service Pack.
 
 Set the **SameSite attribute for the login-token cookies** from **Lax** to **None** from **Adobe Experience Manager Web Console
 Configuration** on all AEM author and publish instances.
