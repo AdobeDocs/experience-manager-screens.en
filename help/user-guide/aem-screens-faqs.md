@@ -118,6 +118,10 @@ Follow the steps below to turn on Stay Awake in on any Android player:
 1. Navigate to **Developer Options**
 1. Enable **Stay Awake**
 
+### 4. How to enable window mode for the Windows player?
+
+There is no window mode in Windows player. It is always full screen mode.
+
 ## General Troubleshooting Tips {#general-troubleshooting-tips}
 
 ### 1. How to Disable Livefyre to avoid A/P Screens Error? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}

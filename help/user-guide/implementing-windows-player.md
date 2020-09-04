@@ -23,6 +23,9 @@ To implement Windows Player for AEM Screens, please install Windows Player for A
 
 Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
+>[!NOTE]
+>There is no window mode in Windows player. It is always full screen mode.
+
 ### Setting up Environment for AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 You must set up an environment for Windows player if you are using AEM Screens 6.5.5 Service Pack.
