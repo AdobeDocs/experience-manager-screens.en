@@ -197,22 +197,51 @@ Once your ChromeOS player is on, follow the steps below to register a Chrome dev
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![image](assets/kickstart/demo-register1.png)   
+
 1. Tap/click the **Device Registration** from the top right.
 
 1. Select the required device and tap/click **Register Device**.
 
+   ![image](assets/kickstart/demo-register2.png)   
+
 1. Wait for the device to send its registration code and simultaneously, check the **Registration Code** from your Chrome device.
+   ![image](assets/kickstart/demo-register3.png)
 
 1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
 
-1. Set the desired name for the device, and click **Register**.
+1. Set the desired name as **ChromeDeviceforDemo** for the device, and click **Register**.
+
+   ![image](assets/kickstart/demo-register4.png)
+
+1. Click **Assign Display** from the **Device Registration Successful** dialog box.
+
+   ![image](assets/kickstart/demo-register5.png)
+
+1. Select the path to your display as **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay** and click **Assign**.
+ 
+   ![image](assets/kickstart/demo-device6.png)
+
+1. Once the device is successfully assigned you will see the following confirmation.
+
+   ![image](assets/kickstart/demo-register8.png)
 
 1. Tap/click **Finish** to complete the registration process.
 
+1. You should be able to view your registered device from the display dashboard.
+
+   ![image](assets/kickstart/demo-register9.png)
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
-This example showcases the output on a Chrome Player. Once you have assigned the channel to your display, you must register the device to a player.
+All the assets in your channel are now playing on your Chrome device.
+
+Congratulations you are now playing content an AEM Screens channel!
+
+![image](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
