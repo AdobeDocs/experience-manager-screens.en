@@ -106,33 +106,28 @@ The display dashboard provides you with different panels for managing display de
 
 The **DISPLAY INFORMATION** Panel provides the display properties.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION** panel to view the properties and preview the display.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Viewing Properties {#viewing-properties}
 
 Click **Properties** to view or change the properties of your display.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. The default value is set to *300 seconds*.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Assigned Channels Panel {#assigned-channels-panel}
 
 The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Devices Panel {#devices-panel}
 
 The **DEVICES** Panel provides information on the device configs.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
 Additionally, click on the device config to view properties, assign a device, or delete it completely.
 

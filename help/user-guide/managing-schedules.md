@@ -1,10 +1,10 @@
 ---
 title: Creating and Managing Schedules
 seo-title: Managing Schedules
-description: Follow this page to learn about Schedules, that lets you organise channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
-seo-description: Follow this page to learn about Schedules, that lets you organise channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+seo-description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
@@ -13,9 +13,9 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 
 # Creating and Managing Schedules {#creating-and-managing-schedules}
 
-**Schedules**, in AEM Screens, lets you organise channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+**Schedules**, in AEM Screens, lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 >[!NOTE]
 >
@@ -36,7 +36,6 @@ Follow the steps below to create schedule for your channel:
 
 You will see a schedules folder with designated name and title in your project.
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## Viewing Dashboard {#viewing-dashboard}
 
@@ -56,7 +55,7 @@ Follow the steps below to view the schedules dashboard. The following example sh
 
    **Schedule Information Panel** Click Properties from the top right corner from the SCHEDULE INFORMATION Panel to view/change properties of the schedule.
 
-   **Assigned Channels Panel** Click +Assign Channel from the top right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. See Asigning Channels for more details.
+   **Assigned Channels Panel** Click +Assign Channel from the top right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. 
 
    **Assigned Displays Panel** Select any of the displays from the ASSIGNED DISPLAYS Panel to open the display dashboard.
 
