@@ -84,9 +84,9 @@ Once you have your channel in place, you need to add content to your channel tha
 
 Follow the steps below to add content to the channel (*TestChannel*) in your project:
 
-1. Navigate to the *DemoProject* you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **Channels** folder.
 
-1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
    ![image](assets/kickstart/demo-6.png)
 
@@ -105,7 +105,7 @@ Once you have your channel in place, you need to create a location.
 
 Follow the steps below to create a new location for your project:
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar. 
 
@@ -113,7 +113,7 @@ Follow the steps below to create a new location for your project:
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**. 
 
-The *TestLocation* is created and added to your **Locations** folder.
+The **TestLocation** is created and added to your **Locations** folder.
 
 
 ### Creating a Display for Location {#creating-display}
@@ -129,51 +129,41 @@ Once you have created a location, you need to create a new display for your loca
 
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. Enter the **Title** (*LobbyDisplay*).
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. Click **Create**.
-
-A new display (*TestDisplay*) is added to your location *TestLocation)*, as shown in the figure below.
+A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
 ### Assigning a Channel {#assigning-channel}
 
-1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+Once the project set up is complete, you must assign the channel to a display to view the content.
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay**.
 
-1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment** dialog box opens.
+1. Tap/click **Assign Channel** from the action bar.
 
-1. Select **Reference Channel** by **path**
+   Or,
 
-1. Enter the **Channel Role** as *LiveStream*.
+   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+      
+1. The **Channel Assignment** dialog box opens.
 
-1. Select the **Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the attraction tooltip from this dialog box.
 
-1. Select the **Priority** for this channel as *1*.
 
-1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
+   >[!NOTE]
+   >Refer to [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
 
-1. Enter **Schedule** and select the dates in **active from** and **active until**.
+1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
 
-1. Click **Save**.
-
-The channel is created and added to the panel.
-
-   
+1. Click **Save** once you have configured your preferences.
 
 ### Registering a Device {#registering-device}
 
 You need to register your device using the AEM dashboard.
 
->[!NOTE]
->You can open the Screens player using the AEM Screens app you downloaded or using the web browser.
+### Viewing the Content in Chrome Player {#viewing-content-output}
 
-   
-
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-Once you have added the above configurations, the player should automatically show the default channel for the display on your device.
+This example showcases the output on a Chrome Player. Once you have assigned the channel to your display, you must register the device to a player.
 
 
 
-See [AEM Screens Player](working-with-screens-player.md) to get more detailed information on AEM Screens player.
