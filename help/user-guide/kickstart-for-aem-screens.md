@@ -11,7 +11,7 @@ This section is a kickstart to AEM Screens and demonstrates how to set up and ru
 >[!NOTE]
 >Before you start working on the project details, make sure you have installed the latest Feature Pack. You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
-## Creating a Digital Signage Experience in 5 minutes {#creating-a-digital-signage-experience-in-minutes}
+## Prerequisites {#prerequisites}
 
 Follow the steps below to create a sample project for AEM Screens and further publish content to Screens player.
 
@@ -41,7 +41,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
 
 
-## Tutorial {#tutorial}
+## Creating a Digital Signage Experience in 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -127,11 +127,19 @@ Once you have created a location, you need to create a new display for your loca
 
 1. Click **Create** from the action bar.
 
+   ![image](assets/kickstart/demo-disp1.png)
+
 1. Select **Display** from the **Create** wizard and click **Next**.
+
+   ![image](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![image](assets/kickstart/demo-disp3.png)
+
 A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+
+   ![image](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
