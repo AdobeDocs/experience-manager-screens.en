@@ -145,29 +145,69 @@ A new display titled as **TestDisplay** is now added to your location **TestLoca
 
 Once the project set up is complete, you must assign the channel to a display to view the content.
 
-1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay**.
+1. Navigate to the required display from **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay**.
 
 1. Tap/click **Assign Channel** from the action bar.
+
+   ![image](assets/kickstart/demo-assign1.png)
 
    Or,
 
    Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+  
+     ![image](assets/kickstart/demo-assign2.png)
       
 1. The **Channel Assignment** dialog box opens.
 
-1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the attraction tooltip from this dialog box.
+1. From the **Settings** option, choose the channel **by path**  and **Supported Events** as **Initial Load** and **Idle Screen**.
 
+   >[NOTE]
+   >The **Channel Role**, **Priority**, and **Interruption Methods** are all populated by default. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
+
+   ![image](assets/kickstart/demo-assign3.png)
+
+   Additionally, you can also select the **Activation Window** and **Recurrence Schedule**.
 
    >[!NOTE]
-   >Refer to [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
-
-1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+   >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
+   >See [Recurrence Schedule](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) for more details.
 
 1. Click **Save** once you have configured your preferences.
 
-### Registering a Device {#registering-device}
+### Registering a Device and Assigning Device to a Display{#registering-device}
 
-You need to register your device using the AEM dashboard.
+You need to register your device using the AEM dashboard. 
+
+>[!IMPORTANT]
+>ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
+>
+>1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
+>1. Unzip and save it on disk.
+>1. Open Chrome browser and select **Extensions** from the menu or directly navigate to ***chrome://extensions***.
+>1. Switch on the **Developer mode** from top right corner.
+>1. Click on **Load Unpacked** from top left corner and load unzipped Chrome Player.
+>1. Check **AEM Screens Chrome Player** plugin if is available in the list of extensions.
+>1. Open a new tab and click the **Apps** icon from the top left corner, or directly navigate to ***chrome://apps***.
+>1. Click on **AEM Screens** Plugin to launch Chrome Player. By default, the player is launched in full screen mode. Press **esc** to exit full screen mode.
+
+Once your ChromeOS player is on, follow the steps below to register a Chrome device.
+
+1. Navigate to the **Devices** folder of your project from your AEM instance.
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. Tap/click the **Device Registration** from the top right.
+
+1. Select the required device and tap/click **Register Device**.
+
+1. Wait for the device to send its registration code and simultaneously, check the **Registration Code** from your Chrome device.
+
+1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
+
+1. Set the desired name for the device, and click **Register**.
+
+1. Tap/click **Finish** to complete the registration process.
+
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
