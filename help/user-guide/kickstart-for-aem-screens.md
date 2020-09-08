@@ -161,7 +161,8 @@ Once the project set up is complete, you must assign the channel to a display to
 
 1. From the **Settings** option, choose the channel **by path**  and **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   >[NOTE]
+   >[!NOTE]
+   >
    >The **Channel Role**, **Priority**, and **Interruption Methods** are all populated by default. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section to learn more about channel assignment properties.
 
    ![image](assets/kickstart/demo-assign3.png)
