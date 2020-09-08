@@ -74,7 +74,7 @@ Follow the steps below to create a new channel for your project:
 
    ![image](assets/kickstart/demo-4.png)
 
-The *TestChannel* is created and added to your channels folder, as shown in the figure below.
+   The *TestChannel* is created and added to your channels folder, as shown in the figure below.
 
    ![image](assets/kickstart/demo-5.png)
 
@@ -137,7 +137,7 @@ Once you have created a location, you need to create a new display for your loca
 
    ![image](assets/kickstart/demo-disp3.png)
 
-A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
+   A new display titled as **TestDisplay** is now added to your location **TestLocation**, as shown in the figure below.
 
    ![image](assets/kickstart/demo-disp4.png)
 
@@ -175,7 +175,7 @@ Once the project set up is complete, you must assign the channel to a display to
 
 1. Click **Save** once you have configured your preferences.
 
-### Registering a Device and Assigning Device to a Display{#registering-device}
+### Registering a Device and Assigning Device to a Display {#registering-device}
 
 You need to register your device using the AEM dashboard. 
 
@@ -236,7 +236,7 @@ Once your ChromeOS player is on, follow the steps below to register a Chrome dev
 
 All the assets in your channel are now playing on your Chrome device.
 
-Congratulations you are now playing content an AEM Screens channel!
+Congratulations you are now playing content in an AEM Screens channel!
 
 ![image](assets/kickstart/demo-video-screens.gif)
 
