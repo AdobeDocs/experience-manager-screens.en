@@ -74,9 +74,8 @@ Check the list of profiles from the page design if the video component is not co
 
 1. Select the video and open the **Edit** dialog. Open the **Profiles** tab.
 
-   >[!NOTE
+   >[!NOTE]
    >Select different profiles (at least "High Quality H.264" profile should be there).
-
 
 ### Checking the Video in the Web Player {#checking-the-video-in-the-web-player}
 
