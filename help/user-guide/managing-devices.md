@@ -45,7 +45,6 @@ Follow the steps below to assign a device to a display:
 
 1. Tap/click the **Finish** to complete the assignment process.
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    The display dashboard displays the assigned device in the **DEVICES** panel.
 

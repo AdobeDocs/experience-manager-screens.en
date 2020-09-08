@@ -38,7 +38,7 @@ If there is no rendition, make sure you have ffmpeg installed on the OS where AE
 
 ## Video Assets {#video-assets}
 
-If you do not see a source attribute under video, it could be that the video did not get transcoded. If the video is transcoded properly, it will appear in the dashboard, as shown in the figure below.
+If you do not see a source attribute under video, it could be that the video did not get trans-coded. If the video is trans-coded properly, it will appear in the dashboard, as shown in the figure below.
 
 Check ffmpeg is installed and the video profiles.
 
@@ -74,9 +74,9 @@ Check the list of profiles from the page design if the video component is not co
 
 1. Select the video and open the **Edit** dialog. Open the **Profiles** tab.
 
-   Select different profiles (at least "High Quality H.264" profile should be there).
+   >[!NOTE
+   >Select different profiles (at least "High Quality H.264" profile should be there).
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Checking the Video in the Web Player {#checking-the-video-in-the-web-player}
 
@@ -136,11 +136,10 @@ Follow the steps below to set up an absolute strategy:
 1. Open its configuration dialog.
 1. Edit the **Strategy** and add absolute.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->The OS of the players must have the same clock.
+   >[!NOTE]
+   >The OS of the players must have the same clock.
 
 **Aligning Clocks on OS X** Follow the steps below to align the clocks on OSX:
 
