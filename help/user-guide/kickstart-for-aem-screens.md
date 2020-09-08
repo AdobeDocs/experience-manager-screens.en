@@ -43,7 +43,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 ## Tutorial {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 The first step is creating a new AEM Screens project.
 
@@ -57,7 +57,7 @@ The first step is creating a new AEM Screens project.
    >Once you create the project, it brings you back to the Screens Project home page. You can now select your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
 
 
-### Creating a new Channel {#creating-channel}
+### Creating a Channel {#creating-channel}
 
 Once you have your project in place, you need to create a new channel where you manage the content.
 
@@ -84,73 +84,62 @@ Once you have your channel in place, you need to add content to your channel tha
 
 Follow the steps below to add content to the channel (*TestChannel*) in your project:
 
-1. Navigate to the *Test_Project* you created and select the **Channels** folder.
+1. Navigate to the *DemoProject* you created and select the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
-1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.
+   ![image](assets/kickstart/demo-6.png)
+
+1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.  
 
 1. Drag and drop the components you want to add to your channel.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![image](assets/kickstart/demo-7.png)
 
-In this example, the editor shows an image added to the channel.
+### Creating a Location {#creating-location}
 
-   ![chlimage_1-9](assets/chlimage_1-9.png)
+Once you have your channel in place, you need to create a location.
 
-### Creating a new location {#creating-location}
-
-Once you have your channel in place, you need to create your location.
-
-***Locations*** compartmentalize your various digital signage experiences and contains the configurations of the displays according to where the various screens are.
+>[!NOTE]
+>***Locations*** compartmentalize your various digital signage experiences and contains the configurations of the displays according to where the various screens are.
 
 Follow the steps below to create a new location for your project:
 
-1. Navigate to the *Test_Project* you created and select the **Locations** folder.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. Click **Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
+1. Click **+ Create** from the action bar. 
+
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**. 
 
 The *TestLocation* is created and added to your **Locations** folder.
 
-   ![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Creating a new display for TestLocation {#creating-display}
+### Creating a Display for Location {#creating-display}
 
 Once you have created a location, you need to create a new display for your location.
 
-***Displays*** represent the digital experience that run on one or multiple screens.
+>[!NOTE]
+>***Displays*** represent the digital experience that run on one or multiple screens.
 
-1. Navigate to the location where you want to create your display (*Test_Projec*t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
+1. Navigate to the **TestLocation** and select it. 
 
 1. Click **Create** from the action bar.
+
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. Enter **Name** and **Title** for your display location (enter the title as *TestDisplay*).
+1. Enter the **Title** (*LobbyDisplay*).
 
-1. Under the **Display** tab, choose the details of the Layout.
-
-   1. Choose the **Resolution** as **Full HD**.
-
-   1. Choose the **Number of Devices Horizontally** as 1.
-
-   1. Choose the **Number of Devices Vertically** as 1.
-
-   1. Click **Create**.
+1. Click **Create**.
 
 A new display (*TestDisplay*) is added to your location *TestLocation)*, as shown in the figure below.
 
-   ![chlimage_1-12](assets/chlimage_1-12.png)
-
-### Assigning a channel {#assigning-channel}
+### Assigning a Channel {#assigning-channel}
 
 1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
 
-1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment** dialog box opens.
 
@@ -170,9 +159,9 @@ A new display (*TestDisplay*) is added to your location *TestLocation)*, as show
 
 The channel is created and added to the panel.
 
-   ![chlimage_1-15](assets/chlimage_1-15.png)
+   
 
-### Registering a device {#registering-device}
+### Registering a Device {#registering-device}
 
 You need to register your device using the AEM dashboard.
 
@@ -185,6 +174,6 @@ You need to register your device using the AEM dashboard.
 
 Once you have added the above configurations, the player should automatically show the default channel for the display on your device.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 See [AEM Screens Player](working-with-screens-player.md) to get more detailed information on AEM Screens player.
