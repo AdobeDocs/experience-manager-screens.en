@@ -117,13 +117,11 @@ Additionally, you can adjust the event timer value for your interactive channel 
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Assigned Channels Panel {#assigned-channels-panel}
 
 The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Devices Panel {#devices-panel}
 
