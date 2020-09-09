@@ -55,7 +55,7 @@ Once you download the application, follow the steps on the player to complete th
 1. Long-press on the top left corner to open the admin panel.
 1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
 
-1. Navigate to the **Device** **Registration** link from the left action menu to check the status ofthedevice registration process.
+1. Navigate to the **Device** **Registration** link from the left action menu to check the status of the device registration process.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Due to Android's architecture, rebooting the device requires that the applicatio
 
 ### Signage of Android apks using Manufacturer Keys {#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to signtheandroid apk using the manufacturer's keys.
+To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer's keys.
 
 >[!CAUTION]
 >

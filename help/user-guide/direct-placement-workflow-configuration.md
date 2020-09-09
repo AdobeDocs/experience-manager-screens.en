@@ -37,4 +37,3 @@ Follow the steps below to configure the direct placement workflow:
 
 1. Create a channel titled as **Workflow-Assets** under **Channels** folder.
 
-1. 

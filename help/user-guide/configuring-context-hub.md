@@ -62,7 +62,7 @@ The following validation is what you will view when you check your connection by
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
+>The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
 
 ## Step 2: Setting up Store Configurations {#step-setting-store-configurations}
 

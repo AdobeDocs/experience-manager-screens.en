@@ -75,14 +75,14 @@ This allows authors to continue to manage the device such as, send device update
 
 In many cases a command is only meant to be sent to a device a single time. However in a load-balanced publish architecture it is unknown which publish instance the device is connecting to.
 
-Therefore, the author instance sends the message to all Publish instances. However only a single message should then be relayed to the device. To ensure correct messaging some communication must take place between publish instances. This is achieved using *Apache ActiveMQ Artemis. *Each publish instance is placed in a loosely coupled Toplogy using Oak-based Sling discovery service and ActiveMQ is configured so that each publish instance can communicate and create a single message queue. The Screens device polls the publish farm via the load balancer and picks up the command from the top of the queue.
+Therefore, the author instance sends the message to all Publish instances. However only a single message should then be relayed to the device. To ensure correct messaging some communication must take place between publish instances. This is achieved using *Apache ActiveMQ Artemis*. Each publish instance is placed in a loosely coupled Topology using Oak-based Sling discovery service and ActiveMQ is configured so that each publish instance can communicate and create a single message queue. The Screens device polls the publish farm via the load balancer and picks up the command from the top of the queue.
 
 ### Reverse Replication {#reverse-replication}
 
 In many cases, following a command, some sort of response is expected from the Screens device to be forwarded to the Author instance. In order to achieve this AEM ***Reverse replication*** is used.
 
 * Create a reverse replication agent for each publish instance, akin to the standard replication agents and the screens replication agents.
-* A workflow launcher configuration listens for nodes modified on the publish intance and in turn triggers a workflow to place the Device's response in the Publish instance's outbox.
+* A workflow launcher configuration listens for nodes modified on the publish instance and in turn triggers a workflow to place the Device's response in the Publish instance's outbox.
 * A reverse replication in this context is only used for binary data ( such as, log files and screenshots) provided by the devices. Non-binary data is retrieved by polling.
 * Reverse replication polled from the AEM author instance retrieves the response and saves it to the author instance.
 
@@ -90,7 +90,7 @@ In many cases, following a command, some sort of response is expected from the S
 
 The author instance needs to be able to poll the devices to get a heartbeat and know the health status of a connected device.
 
-Devices ping the load balancer and get routed to a publish instance. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/stati** for all active devices and **api/screens-dcc/devices/&lt;device_id&gt;/status.json** for a single device.
+Devices ping the load balancer and get routed to a publish instance. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/static** for all active devices and **api/screens-dcc/devices/&lt;device_id&gt;/status.json** for a single device.
 
 The author instance polls all publish instances and merges the device status responses into a single status. The scheduled job that polls on author is `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` and can be configured based on a cron expression.
 
@@ -98,7 +98,7 @@ The author instance polls all publish instances and merges the device status res
 
 Registration continues to originate on the AEM author instance. AEM Screens Device is pointed to the author instance and registration is completed.
 
-Once a device has been registered on the author environment the device configuration and channel/schedule assignments are replicated to the AEM publish instances. The AEM Screens Device configuration is then updated to point to the Load Balancer in front the AEM publish farm. This is intended to be a one-time setup, once the Screens Device is successfully connected to the publish environment it can continue to recieve commands originating from the author environment and there should be no need to ever connect the Screens device to the author environment directly.
+Once a device has been registered on the author environment the device configuration and channel/schedule assignments are replicated to the AEM publish instances. The AEM Screens Device configuration is then updated to point to the Load Balancer in front the AEM publish farm. This is intended to be a one-time setup, once the Screens Device is successfully connected to the publish environment it can continue to receive commands originating from the author environment and there should be no need to ever connect the Screens device to the author environment directly.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 

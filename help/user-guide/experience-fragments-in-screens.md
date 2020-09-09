@@ -29,7 +29,6 @@ An ***Experience Fragment*** is a group of one or more components including cont
 ## Using Experience Fragments in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
 >The following example uses **We.Retail** as a demo project from where the Experience Fragment is leveraged from a **Sites** page to an AEM Screens project.
 
 As an example, the following workflow demonstrates the use of experience fragments from We.Retail in Sites. You can choose a web page and leverage that content in your AEM Screens channel in one of your projects.
@@ -96,7 +95,7 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the** ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. Select the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    d. Enter the **Title** and **Name** as **Screens**.
 

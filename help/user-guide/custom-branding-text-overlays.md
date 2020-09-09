@@ -25,7 +25,7 @@ Follow the steps below to create custom branding and styling for text overlays:
    >[!NOTE]
    >To learn how to add a text overlay to your asset in a channel editor, refer to [Text Overlay](/help/user-guide/text-overlay.md).
    
-1. Navigate to CRXDE Lite from your AEM instance --> Tools --> **CRXDE Lite**.
+1. Navigate to CRXDE Lite from your AEM instance --> tools --> **CRXDE Lite**.
 
 1. You have to create a custom design in `/apps/settings/wcm/designs/<your-project>/`, for example, in this case, navigate to `/apps/settings/wcm/designs/customstyle/`
 
@@ -92,7 +92,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 
 You must update the ACLs for these designs so that they can be downloaded by the player.
 
-1. Navigate to useradmin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
+1. Navigate to user admin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
 
 1. Provide `screens-<project>-administrators` group read and modify permissions to this path.
 

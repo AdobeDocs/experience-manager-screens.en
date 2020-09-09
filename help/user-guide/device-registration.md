@@ -29,7 +29,7 @@ The device registration process is done on 2 separate machines:
 >
 >1. Long-press on the top left corner to open the admin panel.
 >1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
->1. Click on the **Registration** link from the left action menu and the steps below to complete the device registation process.
+>1. Click on the **Registration** link from the left action menu and the steps below to complete the device registration process.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)

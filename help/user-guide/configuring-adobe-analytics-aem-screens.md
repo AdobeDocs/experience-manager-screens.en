@@ -202,7 +202,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL of the web property or mobile schema - must inclued fully qualified URL</td> 
+   <td>URL of the web property or mobile schema - must include fully qualified URL</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -262,7 +262,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td> </td> 
    <td>Device</td> 
    <td>source.device</td> 
-   <td>required w/execeptions</td> 
+   <td>required w/exceptions</td> 
    <td>string</td> 
    <td> </td> 
    <td>Player Name</td> 
@@ -271,7 +271,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td> </td> 
    <td>OS version</td> 
    <td>source.os_version</td> 
-   <td>required w/execeptions</td> 
+   <td>required w/exceptions</td> 
    <td>string</td> 
    <td> </td> 
    <td>O/S version</td> 

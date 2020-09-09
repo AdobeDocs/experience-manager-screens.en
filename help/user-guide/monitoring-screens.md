@@ -94,7 +94,6 @@ Click (**...**) on the top right corner of the Player Screenshot panel and selec
 The **PREFERENCES** panel allows the user to change preferences for **Admin UI**, **Channel Switcher**, and **Remote Debugging** for the device.
 
 >[!NOTE]
->
 >To learn more on these option, See [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -110,23 +109,20 @@ Additionally, click **Settings** from the top right corner to update device pref
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >You can select any one of the following Log levels:
->
 >* **Disable**
 >* **Debug**
 >* **Info**
 >* **Warning**
 >* **Error**
->
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Troubleshoot OSGI Settings {#troubleshoot-osgi-settings}
+## Troubleshoot OSGi Settings {#troubleshoot-osgi-settings}
 
 You need to enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back.
 
-Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGI Config. The dashboard may display a warning that security settings may prevent some of these features from working.
+Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
 
 Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 

@@ -101,7 +101,6 @@ Follow the steps below to upload videos to your channel:
 1. Select **Videos** under Assets and drag and drop the required videos.
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### Viewing Properties {#viewing-properties}
@@ -139,6 +138,7 @@ You can view the manifest from the channel dashboard.
 >This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 Follow these steps to enable this option from the channel dashboard:
+
 1. **Set the Channel to Offline**
    1. Select the channel and select **Properties** from the action bar
    1. Navigate to **Channel** tab and make sure that you un-check **Developer Mode (force channel to be online)** option

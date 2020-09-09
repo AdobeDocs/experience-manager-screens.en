@@ -15,9 +15,9 @@ The following topics are covered in this section:
 * Activation Window
 * Single Event Playback
 * Handling Recurrence in Assets
-   * Day Parting
-   * Week Parting
-   * Month Parting
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combination of Partings
 * Multi-asset Activation
 
@@ -101,7 +101,7 @@ The following table summarizes few example expressions that you can add to the s
 >
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
-### Week Parting {#week-parting}
+### WeekParting {#week-parting}
 
 1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
@@ -112,7 +112,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Week Parting {#example-two}
+#### Example Expressions for WeekParting {#example-two}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
@@ -126,7 +126,7 @@ The following table summarizes few example expressions that you can add to the s
 >You can also use _full_ notation (that is, Monday,Wednesday,Friday) instead of _short-hand_ notation (that is, Mon,Wed,Fri).
 
 
-### Month Parting {#month-parting}
+### MonthParting {#month-parting}
 
 1. Select the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
@@ -137,7 +137,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Month Parting {#example-three}
+#### Example Expressions for MonthParting {#example-three}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 

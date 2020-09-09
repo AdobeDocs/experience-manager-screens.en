@@ -74,4 +74,3 @@ After you have configured ContextHub for your AEM Screens project, you can follo
 1. **[Retail Inventory Targeted Activation](retail-inventory-activation.md)**
 1. **[Travel Center Temperature Activation](local-temperature-activation.md)**
 1. **[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
-

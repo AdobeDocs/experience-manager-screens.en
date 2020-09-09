@@ -41,7 +41,7 @@ Before you start implementing this functionality, please make sure you have the 
 
 While creating a channel, you can use different templates in order to create zones in your channel. You can add a single image, video, or an embedded channel which allows for multiple assets to be shown in a sequence.
 
-**Creating the Channel**
+**Creating a Channel**
 
 1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Navigate to **Channels** folder and click **Create** from the action bar.

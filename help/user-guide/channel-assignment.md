@@ -28,7 +28,7 @@ Follow the steps below to assign a channel to a display:
 
    Or,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 

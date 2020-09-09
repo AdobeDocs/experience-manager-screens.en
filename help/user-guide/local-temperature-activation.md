@@ -47,16 +47,16 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
     1. Select the comparison property and click the configure icon to edit the properties.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
-    1. Select the **Operator** as **greater-than-or-equal **from the drop-down menu
+    1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
 
     1. Enter the **Value** as **50**
 
-    1. Similarly, Select the** Sheets A1 2 **and click **Edit**.
+    1. Similarly, Select the **Sheets A1 2** and click **Edit**.
 
     1. Select the **Comparison Property - Value** and click the configure icon to edit the properties.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
-    1. Select the **Operator** as **less-than **from the drop-down menu
+    1. Select the **Operator** as **less-than** from the drop-down menu
 
     1. Enter the **Value** as **50**
 

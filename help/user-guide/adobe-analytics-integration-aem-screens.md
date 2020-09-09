@@ -69,7 +69,7 @@ Navigate to **Adobe Experience Manager Web Console Configuration** to configure 
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Anaytics API Key** and **Anaytics Project** for use with AEM Screens.
+>Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 ![]()
 
@@ -77,7 +77,7 @@ Navigate to **Adobe Experience Manager Web Console Configuration** to configure 
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Anaytics API Key** and **Anaytics Project** for use with AEM Screens.
+>Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 The following table highlights the properties with their description for configure Adobe Analytics for AEM Screens:
 
@@ -117,7 +117,7 @@ The following table highlights the properties with their description for configu
 
 #### Using Adobe Analytics Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-This scenario invokes Analytics API through REST calls from an analytics service in the firmware and instrument screens-core components to explicitly create and send events specific to a particluar use case while allowing extensibility where any custom message can be sent to Analytics from a custom developed channel.
+This scenario invokes Analytics API through REST calls from an analytics service in the firmware and instrument screens-core components to explicitly create and send events specific to a particular use case while allowing extensibility where any custom message can be sent to Analytics from a custom developed channel.
 
 Analytics events are stored offline in indexedDB and later chunked and sent to the cloud.
 

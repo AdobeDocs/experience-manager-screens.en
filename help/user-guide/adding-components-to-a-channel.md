@@ -46,7 +46,7 @@ The following example shows the addition of a Livefyre component to a an AEM Scr
 1. Click **Edit** from the action bar to open the editor.
 1. Select **Design** mode.
 1. Select the entire design editor on the right and click on the settings symbol to open the **ParSys Design** dialog box.
-1. You can select the components that you want to import to your AEM Screens project. The following example showstheaddition of **Livefyre** component to an AEM Screens project.
+1. You can select the components that you want to import to your AEM Screens project. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -73,7 +73,7 @@ Application component has the following properties:
 | ***Application Path*** |Select the absolute path where the application exists. |
 | ***Duration (ms)*** |Select the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, single page application). Setting the duration value >0, shows the element for the specified duration and then moves on to the next one. |
 
-The following example shows how to embedd an application component along with the preview of its properties:
+The following example shows how to embed an application component along with the preview of its properties:
 
 ![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
@@ -206,7 +206,7 @@ To learn more about how to create an experience fragment and leverage it into an
 
 >[!NOTE]
 >
->The **Client-side Libaries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libaries** and the Static Files that are added from the experience fragment's **Properties**.
+>The **Client-side Libraries** and the **Static Files** that you add from this component will be in addition to already configured **Client-side Libraries** and the Static Files that are added from the experience fragment's **Properties**.
 
 ### Image {#image}
 

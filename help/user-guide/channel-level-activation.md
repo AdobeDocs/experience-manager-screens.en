@@ -22,9 +22,9 @@ The following topics are covered in this section:
 * Activation Window
 * Using Channel Level Activation as a Single Event Playback
 * Handling Recurrence for Assets in a Channel 
-   * Day Parting
-   * Week Parting
-   * Month Parting
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combination of Partings
 * Using Channel Level Activation as a Single Event Playback
 
@@ -146,14 +146,12 @@ Once you have the set up for channels and display complete, please launch the AE
 The player displays the content of **MainAdChannel** and exactly at 11:59 pm (as set in the schedule), the **TargetedSinglePlay** channel will display its content until 12:05 am and then the **MainAdChannel** will resume playing its content again.
 
 >[!NOTE]
->
 >To learn about AEM Screen Player, please refer to the following resources:
->
->* [AEM Screens Player downloads](https://download.macromedia.com/screens/)
->* [Working with AEM Screens Player](working-with-screens-player.md)
+>[AEM Screens Player downloads](https://download.macromedia.com/screens/)
+>[Working with AEM Screens Player](working-with-screens-player.md)
 
 
-## Handling Recurrence for Assets in a Channel{#handling-recurrence-in-assets}
+## Handling Recurrence for Assets in a Channel {#handling-recurrence-in-assets}
 
 You can schedule assets in a channel to recur at certain intervals on daily, weekly, or monthly basis too as per your requirement.
 
@@ -188,7 +186,7 @@ The following table summarizes few example expressions that you can add to the s
 >
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
-### Week Parting {#week-parting}
+### WeekParting {#week-parting}
 
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
@@ -199,7 +197,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Week Parting {#example-two}
+#### Example Expressions for WeekParting {#example-two}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 
@@ -216,7 +214,7 @@ The following table summarizes few example expressions that you can add to the s
 >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 
-### Month Parting {#month-parting}
+### MonthParting {#month-parting}
 
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
@@ -227,7 +225,7 @@ The following table summarizes few example expressions that you can add to the s
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
 
-#### Example Expressions for Month Parting {#example-three}
+#### Example Expressions for MonthParting {#example-three}
 
 The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
 

@@ -38,7 +38,6 @@ Follow the steps below to set up an emergency channel:
 1. Create an AEM Screens Project named as **EmergencyChannel**, as shown below.
 
    >[!NOTE]
-   >
    >To learn more about creating and managing projects in AEM Screens, refer to Creating a Project.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
