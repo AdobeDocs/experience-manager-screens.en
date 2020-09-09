@@ -38,7 +38,7 @@ There are two important considerations that you must be aware before creating cu
 
 Follow the section below to create a custom template *Left20-LandscapeHD3Zone* with the following configuration:
 
-*  **Left20** refers to the to the top zone on the left covering 20% of horizontal and vertical screen size.
+* **Left20** refers to the to the top zone on the left covering 20% of horizontal and vertical screen size.
 * **Landscape** refers to the screen orientation
 * **HD** refers to the aspect ratio as 16:9
 * **3Zone** refers to three zones of the display
@@ -101,7 +101,7 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
 1. Navigate to `/apps/settings/wcm/designs/custom-template-designs` and create a file static.css.
 
-1. Copy the content to static.css file:
+1. Copy the content to `static.css` file:
 
       ```shell
           /*my-custom-layout styles*/

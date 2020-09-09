@@ -93,7 +93,7 @@ The Hello World component is a simple component that allows a user to input a me
 
 AEM Screens has some interesting constraints that are not necessarily true for traditional WCM Sites components.
 
-* Most Screens components need to run in fullscreen on the target digital signage devices
+* Most Screens components need to run in full screen on the target digital signage devices
 * Most Screens components need to be embeddable in the sequence channels to generate slideshows
 * Authoring should allow editing individual components in a sequence channel, so rendering them fullscreen is out of the question
 

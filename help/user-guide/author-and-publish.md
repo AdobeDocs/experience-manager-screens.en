@@ -138,7 +138,7 @@ The cluster user and password of all publish instances in the topology needs to 
 
 On each Publish Instance:
 
-1. In the OSGi Console navigate to **MAIN** --&gt; **Crypto Support** (*https://&lt;host&gt;:&lt;port&gt;/system/console/crypto*).
+1. In the OSGi Console navigate to **MAIN** --&gt; **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
 1. Click **Protect**.
 1. Copy the value **Protected Text** to notepad or text editor. This value will be used in the OSGi config for ActiveMQ.
@@ -154,7 +154,7 @@ Since each publish instance by default has unique crypto keys you need to perfor
 
 On each publish instance:
 
-1. Navigate to the OSGi Config manager *https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr*
+1. Navigate to the OSGi Config manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Select **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 
@@ -165,18 +165,18 @@ On each publish instance:
 
 Follow the steps below on each Publish instance:
 
-1. Navigate to the OSGi Console -&gt; Main &gt; ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
+1. Navigate to the OSGi Console -&gt; Main &gt; ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Verify and check to view the ports of other instances under Cluster Information &gt; Topology &gt; nodes=2, members=2.
 1. Send a Test Message (top of the screen under Broker Information)
 1. Enter the following changes in fields:
 
     1. **Destination**: /com.adobe.cq.screens/devTestTopic
     1. **Text**: Hello World
-    1. View the error.log of each instance to see that the message was sent and received across the cluste
+    1. View the error.log of each instance to see that the message was sent and received across the cluster
 
 >[!NOTE]
 >
->Navigating to OSGI console, may take a few seconds after saving the configuration in the preceeding step. You can also check the error.log for more details.
+>Navigating to OSGi console, may take a few seconds after saving the configuration in the preceding step. You can also check the error.log for more details.
 
 As an example, the following image displays on successful configuration of ActiveMQ Artemis Server.
 
@@ -194,7 +194,7 @@ Follow the steps on each Publish instance:
 
 ### Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
 
-Once you have set up the publish toplogy, you need to configure the author and publish instances, to view the practical results of implementation:
+Once you have set up the publish topology, you need to configure the author and publish instances, to view the practical results of implementation:
 
 >[!NOTE]
 >
@@ -217,12 +217,12 @@ Once you have set up the publish toplogy, you need to configure the author and p
 1. Select **Register Device**.
 1. Click **Device Registration** to view the device.
 1. Select the device you want to register and click **Register Device**.
-1. Verfiy the registration code and click **Validate**.
+1. Verify the registration code and click **Validate**.
 1. Enter a title for your device and click **Register**.
 
 #### Step 3: Assigning the Device to Display {#step-assigning-the-device-to-display}
 
-1. Click **Assign Display** from the dialog box from the preceeding step.
+1. Click **Assign Display** from the dialog box from the preceding step.
 1. Select the display path for your channel from the **Locations** folder.
 1. Click **Assign**.
 1. Click **Finish** to complete the process, and now the device is assigned.
@@ -233,7 +233,7 @@ Check your player and you will see the content that you added in your channel.
 
 **Verifying the Device**
 
-Before, you perform the steps below, make sure to verify the Device ID. To verify, search for the device id in CRXDELite, with the path as */home/users/screens/we-retail/devices*.
+Before, you perform the steps below, make sure to verify the Device ID. To verify, search for the device id in CRXDE Lite, with the path as */home/users/screens/we-retail/devices*.
 
 Follow the steps below to replicate the device user:
 
@@ -297,6 +297,6 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-The **Manage Publication** feature allows you to deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channel, location, device, application, or a schedule. To learn more about this feature, refer to [On-Demand Content Update](on-demand-content.md).
+The **Manage Publication** feature allows you to deliver content updates from author to publish to device. You can publish/un-publish content for your entire AEM Screens project or only for one of your channel, location, device, application, or a schedule. To learn more about this feature, refer to [On-Demand Content Update](on-demand-content.md).
 
 

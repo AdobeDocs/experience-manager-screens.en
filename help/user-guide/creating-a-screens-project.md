@@ -18,7 +18,7 @@ The AEM Screens is available by selecting the Adobe Experience Manager link (top
 Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`
 ![chlimage_1-14](assets/chlimage_1-14.png)
 
-Different projects could be differents brands, deployments, customers, and so on.
+Different projects could be different brands, deployments, customers, and so on.
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -26,14 +26,14 @@ Different projects could be differents brands, deployments, customers, and so on
 >
 >**Navigation Tip:**
 >
->You can also use the cursor keys to navigate through different folders in AEM. Additionally, once you select a particular entity, hit spacebar to edit or view properties for that specific folder.
+>You can also use the cursor keys to navigate through different folders in AEM. Additionally, once you select a particular entity, hit space bar to edit or view properties for that specific folder.
 
 ## Creating a New Screens Project {#creating-a-new-screens-project}
 
 Follow the steps below to create a new Screens project:
 
 1. Select **Screens** from the AEM dashboard.
-1. Click **Create **--&gt;** Create Project **and **Create Screens Project** wizard will open.
+1. Click **Create** --&gt; **Create Project** and **Create Screens Project** wizard will open.
 
 1. Select the **Screens** template and click **Next**.
 

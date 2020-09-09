@@ -110,15 +110,14 @@ Follow the steps below to implement the functionality:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >To learn how to create a location, please refer to **[Creating and Managing Locations](managing-locations.md)**.
 
 1. **Create two Locations and a Channel under each location folder.**
 
     1. Navigate to **Demo** --&gt; **Locations** --&gt; **Region A**.
     1. Select **Region A** and click **+ Create** from the action bar.
-    1. Select **Location** from the wizard with **Title** as **Store 1**. Similarly, create another location from the wizard titled as **Store 2** with **Title** as **Store 2**. You can leave the **Name** field empy while creating **Store 1** and **Store 2**.
-    1. Repeat step (b) and now select **Sequence Channel** from the wizard. Enter the **Title** as **Region A** and **Name** as **region **for this channel.
+    1. Select **Location** from the wizard with **Title** as **Store 1**. Similarly, create another location from the wizard titled as **Store 2** with **Title** as **Store 2**. You can leave the **Name** field empty while creating **Store 1** and **Store 2**.
+    1. Repeat step (b) and now select **Sequence Channel** from the wizard. Enter the **Title** as **Region A** and **Name** as **region** for this channel.
 
    >[!CAUTION]
    >
@@ -144,7 +143,6 @@ Follow the steps below to implement the functionality:
    >[!CAUTION]
    >
    >It is important when you create a sequence channel, the **Title** of the channel can be as your requirement, but the **Name** should be the same in all the local channels.
-   >
    >In this example, the channels under **Region A** and **Region B** share the same **Name** as **region** and channels under **Store 1**, **Store 2**, **Store 3**, and **Store 4** share the same **Name** as **store**.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -152,7 +150,6 @@ Follow the steps below to implement the functionality:
    Similarly, create a display as **Store2Display** and a channel **Store2Channel** under **Store 2** (with name as **store**).
 
    >[!NOTE]
-   >
    >Please make sure that you can use the same name for the channels created in **Store 1** and **Store 2** as **store**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -172,7 +169,6 @@ Follow the steps below to implement the functionality:
    Navigate to the **Demo** -&gt; **Locations** -&gt; **Region A** -&gt; **Region A** and click **Edit** from the action bar. Drag and drop the assets you would like to add to your channel.
 
    >[!NOTE]
-   >
    >You can use the ***Resources.zip*** file from the **Resources** section, above, to use the images as assets for your channel content.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -327,7 +323,6 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
    Similarly, create two other users such as **Region-User** and **Store-User** and add those to **Region-Author** and **Store-Author** respectively.
 
    >[!NOTE]
-   >
    >It is a best practice to add users in a group and then assign permissions to each particular group of users.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)

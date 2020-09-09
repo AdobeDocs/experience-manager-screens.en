@@ -23,7 +23,7 @@ AEM components are used to hold, format, and render the content made available o
 
 The channel is the central object of content delivered to a set of displays. Therefore, a content author would typically open a channel in the editor to add or modify content. Since the Channel is a ***cq:Page*** it will follow the same traditional UX pattern to add and change components on the channel.
 
-However, since components within a channel are typically rendered fullscreen, the authoring experience will suffer when trying to edit single components or compose new orders. Therefore the channel will rely on selectors to render different views of the components. The authoring environment will leverage the edit selector to activate the custom channel rendering.
+However, since components within a channel are typically rendered full screen, the authoring experience will suffer when trying to edit single components or compose new orders. Therefore the channel will rely on selectors to render different views of the components. The authoring environment will leverage the edit selector to activate the custom channel rendering.
 
 For example, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
@@ -48,5 +48,5 @@ The built-in components leverage the following client library categories:
 
 >[!NOTE]
 >
->To develop custom components, use the *** [AEM Screens sample component template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+>To develop custom components, use the ***[AEM Screens sample component template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
 

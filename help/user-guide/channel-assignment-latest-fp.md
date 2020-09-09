@@ -142,7 +142,6 @@ Priority is used to order the assignments in case multiple ones match the playin
 ### Interruption Method {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.

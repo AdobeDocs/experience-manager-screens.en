@@ -41,7 +41,7 @@ Follow the steps below to check if these two vital configurations are enabled fo
    ![assets](assets/health-check1.png)
 
 
-2. Click on **Execute selected health checks** to run the vaildation for two properties listed above.
+2. Click on **Execute selected health checks** to run the validation for two properties listed above.
 
    If both the filters are enabled, then the **Screens Configuration Health Service** shows the **Result** as **OK** with both the configurations as enabled.
 
@@ -101,7 +101,7 @@ AEM Screens requires TOUCH UI and will not work with CLASSIC UI of Adobe Experie
 1. Navigate to *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
 
-Alternatively, you can also perform the same setting using *&lt;yourAuthorInstance&gt; *-&gt;* tools (hammer icon)* -&gt; **Operations** -&gt; **Web Console** and search for **WCM Authoring UI Mode Service**.
+Alternatively, you can also perform the same setting using yourAuthorInstance *-&gt;* tools (hammer icon) -&gt; **Operations** -&gt; **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -111,7 +111,7 @@ Alternatively, you can also perform the same setting using *&lt;yourAuthorInstan
 
 #### AEM in NOSAMPLECONTENT runmode {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. Removethe*X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
+Running AEM in production uses the **NOSAMPLECONTENT** runmode. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -129,7 +129,7 @@ Follow the steps below to configure ***DeviceServiceImpl***:
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **opens. Search for deviceservice. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+1. **Adobe Experience Manager Web Console Configuration **opens. Search for *deviceservice*. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 

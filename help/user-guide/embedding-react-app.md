@@ -55,7 +55,7 @@ To edit the contents in the REACT app:
 
 ### Adding the interactive REACT app to AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
-Follow the steps below to add the interative REACT app to AEM Screens:
+Follow the steps below to add the interactive REACT app to AEM Screens:
 
 1. Create a new AEM Screens project. Refer to [Creating and Managing Projects](creating-a-screens-project.md) for more details.
 

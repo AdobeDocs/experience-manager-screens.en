@@ -13,7 +13,7 @@ docset: aem65
 
 ---
 
-# Channel Level Bulk Image Playback Duration{#channel-level-bulk-image-playback-duration}
+# Channel Level Bulk Image Playback Duration {#channel-level-bulk-image-playback-duration}
 
 ## Overview {#overview}
 
@@ -23,11 +23,11 @@ Once you create a sequence channel and add images to it, by default, all images 
 
 Before you start implementing this functionality, make sure you have set up a project as a prerequisite to start implementing this functionality. For example,
 
-1. Create an AEM Screens project (in this example, **ChannelLevelPlayback**)  
+1. Create an AEM Screens project example, **ChannelLevelPlayback**. 
 
-1. Create a sequence channel as **PlaybackChannel** under **Channels** folder
+1. Create a sequence channel as **PlaybackChannel** under **Channels** folder.
 
-1. Add content to **PlaybackChannel**
+1. Add content to **PlaybackChannel**.
 
 ## Editing Channel Level Image Playback Duration Assignment {#editing-channel-level-image-playback-duration-assignment}
 
@@ -56,7 +56,6 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 1. **Page** dialog box opens.
 
    >[!NOTE]
-   >
    >By default, the images in a channel are set to a playback duration of 8 seconds.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
