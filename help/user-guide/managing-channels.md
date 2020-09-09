@@ -15,7 +15,7 @@ docset: aem65
 
 # Creating and Managing Channels {#creating-and-managing-channels}
 
-A Channel displays a sequence of content and display images and videos, but they could also display a website or a single-page application.
+A Channel displays a sequence of content and display images and videos, but could also display a website or a single-page application.
 
 This page shows creating and managing channels for Screens.
 
@@ -26,16 +26,25 @@ This page shows creating and managing channels for Screens.
 
 ## Creating a New Channel {#creating-a-new-channel}
 
-Once you create your project for Screens, follow the steps below to create a new Channel for a Screens project:
+Once you create your project for AEM Screens, follow the steps below to create a new Channel for your project:
 
-1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** next to the plus icon in the action bar. A wizard will open (*See Channel Types for more information*).
+1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to: `https://localhost:4502/screens.html/content/screens`.
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Navigate to your Screens project and select **Channels** folder.
 
-1. Click **Create** and the channel is created and added to your channels folder.
+1. Click **Create** from the action bar.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. A Sequence channel is is now added to your **Channels** folder.
 
 ### Channel Types {#channel-types}
 
@@ -56,14 +65,6 @@ The following template options are available while using the wizard such as:
 >[!NOTE]
 >
 >The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side-by-side. The experiences can either be static assets/text or embedded sequences.
-
-The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->You can create different zones using the template options such as 1x2, 2x2, or 2 to 3 split screen channels mentioned above.
 
 >[!IMPORTANT]
 >
