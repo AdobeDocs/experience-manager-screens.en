@@ -30,7 +30,7 @@ Follow the steps below to create a new Screens project:
 
 1. Click **Create Screens Project**.
 
-1. Enter the title as **TestProject** and click **Create**.
+1. Enter the title as **TestScreens** and click **Save**.
 
 The project is created and it brings you back to the Screens Project console. You can now select your project.
 
