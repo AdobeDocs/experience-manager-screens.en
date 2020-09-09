@@ -180,7 +180,7 @@ Once the project set up is complete, you must assign the channel to a display to
 You need to register your device using the AEM dashboard. 
 
 >[!IMPORTANT]
->ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
+>Chrome OS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 >
 >1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 >1. Unzip and save it on disk.
@@ -191,7 +191,7 @@ You need to register your device using the AEM dashboard.
 >1. Open a new tab and click the **Apps** icon from the top left corner, or directly navigate to ***chrome://apps***.
 >1. Click on **AEM Screens** Plugin to launch Chrome Player. By default, the player is launched in full screen mode. Press **esc** to exit full screen mode.
 
-Once your ChromeOS player is on, follow the steps below to register a Chrome device.
+Once your Chrome OS player is on, follow the steps below to register a Chrome device.
 
 1. Navigate to the **Devices** folder of your project from your AEM instance.
 
@@ -234,7 +234,7 @@ Once your ChromeOS player is on, follow the steps below to register a Chrome dev
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
-All the assets in your channel are now playing on your Chrome device.
+All the assets in your channel are now playing on your Chrome OS player.
 
 Congratulations you are now playing content in an AEM Screens channel!
 
