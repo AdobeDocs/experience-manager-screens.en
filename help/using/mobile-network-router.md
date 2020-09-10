@@ -36,9 +36,7 @@ The configuration allocates an Internet Access for every AEM Screens Controller 
 
    >[!NOTE]
    >**Troubleshooting Tip**
-   >If AEM Screens does not connect properly and the expected content is not displayed:
-   >
-   >1. Check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
+   >If AEM Screens does not connect properly and the expected content is not displayed then check in your Internet Router firewall if there are any restrictions regarding `TCP/IP Port 80/443`.
 
 
 ## Setting Up Mobile Network with Mobile Data Router and Active Network Components {#requirements-direct}
@@ -92,7 +90,7 @@ In case that an Wi-Fi solution is envisaged to connect screen to the Internet Li
 ## Downloading Media and Assets {#download}
 
 AEM Screens provides a big advantage to Digital Signage Users. It downloads and locally saves all necessary Media Files, such as Images and Video. Due to this concept the major network traffic is occurring in case that there is new content to be displayed on a specific screen.
-For normal operation, e.g. having defined playlist that is not updated frequently during the day, this offers a close to network independent operation, once all the files have been saved on the player.
+For normal operation, for example, having defined playlist that is not updated frequently during the day, this offers a close to network independent operation, once all the files have been saved on the player.
 For those use-cases where there are more interactions with Sensors or other Triggers and content is very dynamic a fast and reliable network connection is essential for an immediate screen reaction to ensure best possible Customer Experience.
 The following tables offer a good overview what network connectivity key data means for the performance that can be expected and potential waiting times.
 

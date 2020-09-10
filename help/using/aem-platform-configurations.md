@@ -41,7 +41,7 @@ Install FFMpeg following the steps for the appropriate OS (usually RHEL):
    > Please note that -strict -2 needs to be the last parameters in the list of parameters. Additionally in AEM 6.4 you need to copy the nodes under */libs/settings/dam/video* to */conf/global/settings/dam/video* as mentioned in [Video Renditions](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
 1. Verify that video conversions are happening and that renditions are being created.
 
-## Passsword Restrictions {#password-restrictions}
+## Password Restrictions {#password-restrictions}
 
 The password policy of AEM needs to be disabled on the AMS instance. This can be alternately configured in the web console using the Screens device service *com.adobe.cq.screens.device.impl.DeviceService*
 Refer to **Password Restrictions** section in[Configuring Author and Publish in AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)

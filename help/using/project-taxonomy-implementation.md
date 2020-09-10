@@ -50,5 +50,4 @@ An author typically begins an AEM Screens project by:
 * [viewing content in an AEM Screens player](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->
 >Additionally, you can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. Follow [New Project Importer from File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) for more details.

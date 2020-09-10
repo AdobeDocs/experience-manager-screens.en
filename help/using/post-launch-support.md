@@ -23,7 +23,7 @@ Additionally, to prepare for long term success, it is paramount to establish a D
 >[!NOTE]
 >
 > You must define operational parameters early included in operational budgets as well as align the responsibilities with the AEM implementor and AV Integrator.
-Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution timeframes compared to a Corporate Communications network.  
+Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution time frames compared to a Corporate Communications network.  
 Is the application highly visible to the end client’s executive leadership? Sites with high visibility may merit different treatments. 
 Is the application critical to business operations such as menu-boards in fast-food chains? In these cases, the end-client may require on-site resolutions with very short response times, as well as redundancy in playback hardware.
 
@@ -31,17 +31,17 @@ Is the application critical to business operations such as menu-boards in fast-f
 
 Few considerations and questions that helps you define post launch support are as follows:
 
-1. Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution timeframes compared to a Corporate Communications network.
+1. Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution time frames compared to a Corporate Communications network.
   
    >[!NOTE]
    >
-   > This dictates much shorter resolution timeframes compared to a Corporate Communications network.
+   > This dictates much shorter resolution time frames compared to a Corporate Communications network.
 
 1. Is the application highly visible to the end client’s executive leadership? 
 
    >[!NOTE]
    >
-   > This dictates much shorter resolution timeframes compared to a Corporate Communications network.Sites with high visibility may merit different treatments.
+   > This dictates much shorter resolution time frames compared to a Corporate Communications network.Sites with high visibility may merit different treatments.
 
 1. Is the application critical to business operations such as menu-boards in fast-food chains? 
 
@@ -55,4 +55,4 @@ Few considerations and questions that helps you define post launch support are a
 
 1. Which of your retail locations require 24/7 monitoring?
 
-1. Are the displays an integral part of your business? (that is, car configurator, sales alerts)
+1. Are the displays an integral part of your business? (that is, car configuration, sales alerts)

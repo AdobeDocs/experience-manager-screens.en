@@ -8,7 +8,6 @@ seo-description: The page describes Considerations as Projects are Scoped
 # Considerations as Projects are Scoped {#pre-sales-considerations}
 
 >[!NOTE]
->
 >Typical stakeholder for this activity is a Marketing/Business Strategist.
 
 This stage includes all pre-sales and discovery efforts required to fully define the project scope. The work done during Day Zero sets the tone for the rest of the project and influences the overall success of the application being built.
@@ -28,4 +27,4 @@ Key deliverables at this stage include:
 >
 >Identify the data that will be needed for the application, and where it is coming from, as soon as possible. While deeper exploration will happen during implementation, take the time during *Day Zero* to find out what data the client intends to use, where that data is stored currently, and how it can be accessed by the application being built. Notifying the development team in advance of challenges that may lie ahead will help to make implementation go more smoothly.
 
-Refer to video tutuotial on [Considerations as Projects are Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) for more information.
+Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) for more information.

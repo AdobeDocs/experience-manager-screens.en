@@ -71,7 +71,7 @@ Defining the key elements is essential before implementing a digital signage pro
      * Sending/Receiving serial commands (contact closure, PLC, etc.)
      * Incoming data goes on the screen (RSS) or triggers content
      * RFID/NFC/Bluetooth/iBeacon
-     * External services (weather, traffice, etc.)
+     * External services (weather, traffic)
 
 1. **Environment**
 
@@ -90,5 +90,5 @@ Defining the key elements is essential before implementing a digital signage pro
    * Are detailed installation guides/user guides required?
    * Are we configuring (programming) the device prior to shipment?
    * Do we need to capture each serial number for tracking purposes?
-   * Are there any back-up power requirements (uninterruptable power supply)?
+   * Are there any back-up power requirements (un-interrupted power supply)?
    * How are system updates deployed? And how are devices monitored remotely? Is an MDM solution required?

@@ -11,7 +11,7 @@ seo-description: The page describes Journey Map for AEM Screens
 >
 >Typical stakeholder for this activity is a Marketing/Business Strategists.
 
-A User Experience Jouney Map is designed to provide visability into how and why users will experience the digital content delivered by the network.
+A User Experience Journey Map is designed to provide visibility into how and why users will experience the digital content delivered by the network.
 
 ## Building the UX Journey Map {#building-map}
 
@@ -24,5 +24,4 @@ In this phase of the project we may choose to define options and dependencies fo
 It is encouraged that project leaders and key stake holders be allowed to experiment with the physical placement of digital elements along various parts of the store journey as well as the actual digital experiences that may be delivered.
 
 >[!NOTE]
->
 > Start collecting analytics during the pilot to help business teams validate the success of the solution against the specific metrics they are trying to achieve. Knowing how the pilot is performing helps the business team determine what improvements need to be made.

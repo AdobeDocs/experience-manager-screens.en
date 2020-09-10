@@ -7,7 +7,7 @@ seo-description: This page provides an introduction to AEM Screens
 
 # Introduction to AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that allows you to author, publish and play dynamic and interactive digital experiences involving different types of in-venue display screens in concert with a comprehensive omnichannel digital marketing strategy.
+**AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that allows you to author, publish and play dynamic and interactive digital experiences involving different types of in-venue display screens in concert with a comprehensive omni-channel digital marketing strategy.
 
 AEM Screens allows you to create:
 
@@ -46,12 +46,11 @@ AEM Screens provides a unified Authoring/Playback platform for deploying content
 
 * **Media Loop Segmentation**: Configuring each player device to have its own loop segment ensures that localized content can be easily authored, published and played within the overall digital experience. Media assets contained within embedded sequence channels are added to the previous loop segment and offer the opportunity to target a media loop segment for each location grouping.
 
-* **Interactive Experiences**: A touch enabled, kiosk application can be authored and delivered in a Screens channel using AEM and the SPA editor. It is a best practice to apply consistent omnichannel design properties, an inactivity timer to reset the experience and a clear call to action for what tasks the application can execute. The landing page should consist of key digital elements designed to convey value, attract the user to the screen and prompt the user to engage.
+* **Interactive Experiences**: A touch enabled, kiosk application can be authored and delivered in a Screens channel using AEM and the SPA editor. It is a best practice to apply consistent omni-channel design properties, an inactivity timer to reset the experience and a clear call to action for what tasks the application can execute. The landing page should consist of key digital elements designed to convey value, attract the user to the screen and prompt the user to engage.
 
 AEM Screens provides a framework to deploy content to physical devices. Content is assigned to Channels in Screens, which can contain media content or touch screen applications. Within this framework, an AEM Sites application could be delivered as content through a Channel.
 
 Before being dropped into a Channel in Screens, an AEM Sites must be formatted for use at the dimensions of the display device it is intended for.
 
 >[!NOTE]
->
 >Many AEM Sites components are not compatible with AEM Screens. AEM Screens comes with many of its own out-of-the-box components allowing you to build digital experiences without requiring customization. If project requirements allow, use built-in AEM Screens functionality where possible.
