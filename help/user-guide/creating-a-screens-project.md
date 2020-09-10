@@ -34,7 +34,7 @@ Follow the steps below to create a new Screens project:
 
 The project is created and it brings you back to the Screens Project console. You can now select your project.
 
-In a project, there are four kind of folders, as shown in the figure below:
+In a project, there are five kind of folders, as shown in the figure below:
 
 * **Schedules**
 * **Locations**
