@@ -129,7 +129,7 @@ Follow the steps below to configure ***DeviceServiceImpl***:
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **opens. Search for *deviceservice*. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+1. **Adobe Experience Manager Web Console Configuration** opens. Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -142,9 +142,7 @@ To learn how to configure dispatcher for an AEM Screens project, refer to [Confi
 Set the ***Java encoding*** to Unicode. For example, *Dfile.encoding=Cp1252* will not work.
 
 >[!NOTE]
->
 >**Recommendation:**
->
 >It is recommended to use HTTPS for AEM Screens Server in production use.
 
 
