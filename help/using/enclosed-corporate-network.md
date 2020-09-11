@@ -77,7 +77,6 @@ For scenarios, where there are more interactions with sensors or triggers and dy
 The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
->
 >The information allows you to view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/enclosed-network-download.png)

@@ -17,7 +17,7 @@ Follow the guidelines as support and maintenance for Day Two of project developm
    * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. Identify any development packages (for example, WCM Core components) or third-party toolkits (for example, SAP Hybris) that are required.
+1. Identify any development packages (for example, WCM Core components) or third-party tool kits (for example, SAP Hybris) that are required.
 
 1. Install the same software packages on your local development environments.
 

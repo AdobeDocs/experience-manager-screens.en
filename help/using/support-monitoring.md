@@ -24,7 +24,7 @@ Content monitoring allows you to troubleshoot the issues related to content not 
    * Register a *local chrome player* (as extension) on your laptop to that display and see if that shows a black screen.
    * Right click and inspect and check *applicable logs*.
 
-   Additionaly, If this is not happening on the local player but only on device:
+   Additionally, If this is not happening on the local player but only on device:
 
    * Check *media type* (being used) that may have issues on that device and also confirm if the content successfully downloaded locally (admin UI clear channel cache).
    * Include any *device logs* in the ticket for quick troubleshooting.

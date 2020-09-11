@@ -142,9 +142,9 @@ The following table summarizes the **Day One: Project Implementation (Applicatio
 | AEM Screens Project Set Up |  I |  RA | C |  I |
 | Analytics Implementation |  I |  RA | C |  - |
 | Testing and Deployment |  RA |  C | RA |  I |
-| Server Configurationn |  I |  RA | I |  I |
+| Server Configuration |  I |  RA | I |  I |
 | Content Update Plan |  I |  RA | C |  C |
-| Plan for pilot to production transitionn |  RA |  RA | I |  I |
+| Plan for pilot to production transition |  RA |  RA | I |  I |
 | Knowledge Transfer |  RA |  RA | I |  I |
 
 The following table summarizes the **Day One: Project Implementation (Retail Readiness)**:

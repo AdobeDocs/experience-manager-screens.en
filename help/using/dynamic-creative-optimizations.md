@@ -13,7 +13,7 @@ seo-description: The page describes data triggers
 
 **Dynamic Creative Optimization** or DCO, is used to create digital signage experiences that reflect the unique circumstances of any given location at any given time and for any given user.
 
-This is also refered to as Client Side flattening of content.
+This is also referred to as Client Side flattening of content.
 
 The main reason we want to do this is so that each player device or end point can use data sets to automatically determine the best content to play based on a variety of different factors.
 

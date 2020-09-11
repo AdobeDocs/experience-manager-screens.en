@@ -8,7 +8,6 @@ seo-description: The page describes Security Checklist for AEM Screens
 # System Security Considerations for AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->
 >This is an internal Git Resource.
 
 This page highlights the System Security Considerations for AEM Screens.

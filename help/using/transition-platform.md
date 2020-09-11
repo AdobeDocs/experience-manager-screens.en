@@ -20,7 +20,7 @@ Examples would include how and when to use:
 * **Experience Fragments** for creating content groupings
 * **Content Fragments** for creating text variations
 * **Context Hub** for creating external data stores, SPA's for interactive experiences
-* **OSGI services** for network alerts
+* **OSGi services** for network alerts
 * **Asset Link** for Creative Cloud sourcing
 * **Network Folders** for Asset allocation
 * **Text overlay** for realtime data

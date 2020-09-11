@@ -8,7 +8,6 @@ seo-description: The page describes Testing and Quality Assurance for AEM Screen
 # Testing and Quality Assurance {#testing-quality}
 
 >[!NOTE]
->
 >Typical stakeholder for this activity is an A/V Integrator.
 
 As we get closer to actual deployment of the digital signage network, we should create a Test and QA Plan that addresses every element of the network including all hardware components, all software components and all networking components.
@@ -45,7 +44,6 @@ The following software considerations are recommended:
 
 ## 3. Device Management Considerations {#device-management-considerations}
 
-  
 AEM Screens includes a Device Control Center module which allows for the management of Screens player application end points.
       
 This refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
@@ -61,7 +59,6 @@ To learn  in detail about ***Device Control Center***, refer to [Troubleshooting
 >[!CAUTION]
 >
 > You should not use Device Control Center to:
->
 > 1. Install new versions of the player application
 > 1. Monitor system level resources
 > 1. Troubleshoot system level errors

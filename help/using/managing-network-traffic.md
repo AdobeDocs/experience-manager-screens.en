@@ -10,9 +10,7 @@ A Network Setup can have various structures. This section describes the most usu
 This guide highlights an introduction to proxy servers followed by the varied network structures that are setup within different organizations. 
 
 >[!NOTE]
->
 >**AEM Screens Network Requirements**
->
 >The AEM Screens communicates directly with the AEM as a Cloud Service, therefore it is required to establish a stable connection between the two nodes. Firewalls are absolutely mandatory for commercial Internet access and as a customer you must understand which communication ports are required to be opened in these firewalls and other IT-Security related network components.
 
 ## Overview to Proxy Servers {#proxy-servers}
