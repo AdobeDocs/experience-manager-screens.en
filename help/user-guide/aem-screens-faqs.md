@@ -128,7 +128,8 @@ Follow the steps below to troubleshoot an AEM Screens player that continuously s
 
 1. When AEM Screens player starts, it requests to `/content/screens/svc.json`. When the player gets a 404 status code in the response, it initiates an authentication request using `/libs/granite/core/content/login.validate/j_security_check` against the *publish* instance. If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
-1. Check if your dispatcher configuration allows these requests in the `/filters`. 
+1. Check if your dispatcher configuration allows these requests in the `/filters`.
+   
    See [Configuring Screens Filters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) for more details.
 
 1. Check if your dispatcher rewrite rules are rewriting any of the screens paths to a different path.
