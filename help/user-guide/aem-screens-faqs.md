@@ -126,15 +126,16 @@ There is no window mode in Windows player. It is always full screen mode.
 
 Follow the steps below to troubleshoot an AEM Screens player that continuously sends requests to `/content/screens/svc.json` and `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. When AEM Screens player starts, it makes a requests to `/content/screens/svc.json`, when the player gets a 404 status code in the response, the player initiates an authentication request to authenticate using `/libs/granite/core/content/login.validate/j_security_check` against the publish instance. If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. When AEM Screens player starts, it makes a requests to `/content/screens/svc.json`, when the player gets a 404 status code in the response, the player initiates an authentication request to authenticate using `/libs/granite/core/content/login.validate/j_security_check` against the *publish* instance. If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
-1. Check if your dispatcher configuration allows these requests in the `/filters` section. See [Configuring Screens Filters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) for more details.
+1. Check if your dispatcher configuration allows these requests in the `/filters` section. 
+   See [Configuring Screens Filters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) for more details.
 
 1. Check if your dispatcher rewrite rules are rewriting any of the screens paths to a different path.
 
-1. Check if you have `/etc/map` rules on the *author* or *publish* instance and screens paths are matched to `sling:match` and internally redirected to a different path. Resolving the exact url in /`system/console/jcrresolver` helps in identifying if the *publish* instance is rewriting these urls to any other path.
+1. Check if you have `/etc/map` rules on the *author* or *publish* instance and screens paths are matched to `sling:match` and internally redirected to a different path. Resolving the exact url in `/system/console/jcrresolver` helps in identifying if the *publish* instance is rewriting these urls to any other path.
 
-1. Check if you have any Apache Sling Resource Resolver Factory configurations that is causing internal re-writes.
+1. Check if Apache Sling Resource Resolver Factory configuration is causing internal re-writes.
 
 ## General Troubleshooting Tips {#general-troubleshooting-tips}
 
