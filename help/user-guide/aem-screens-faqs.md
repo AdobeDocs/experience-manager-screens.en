@@ -118,11 +118,11 @@ Follow the steps below to turn on Stay Awake in on any Android player:
 1. Navigate to **Developer Options**
 1. Enable **Stay Awake**
 
-### 4. How to enable window mode for the Windows player?{enable-player}
+### 4. How to enable window mode for the Windows player?{#enable-player}
 
 There is no window mode in Windows player. It is always full screen mode.
 
-### 5. How to troubleshoot if an Screens player continuously sends requests login requests?{requests-login}
+### 5. How to troubleshoot if an Screens player continuously sends requests login requests?{#requests-login}
 
 Follow the steps below to troubleshoot an AEM Screens player that continuously sends requests to `/content/screens/svc.json` and `/libs/granite/core/content/login.validate/j_security_check`:
 
