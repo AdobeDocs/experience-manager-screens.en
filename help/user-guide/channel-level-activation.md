@@ -125,7 +125,6 @@ Follow the steps below to implement the functionality:
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen** and **Timer**, *as shown in the figure below.
     1. Choose the date in **active from** as November 27, 2018 11:59 pm and in **active until** as November 28, 2018 12:05 am.
     1. Click **Save**.
-       
 
    >[!CAUTION]
    >
@@ -146,6 +145,7 @@ Once you have the set up for channels and display complete, please launch the AE
 The player displays the content of **MainAdChannel** and exactly at 11:59 pm (as set in the schedule), the **TargetedSinglePlay** channel will display its content until 12:05 am and then the **MainAdChannel** will resume playing its content again.
 
 >[!NOTE]
+>
 >To learn about AEM Screen Player, please refer to the following resources:
 >[AEM Screens Player downloads](https://download.macromedia.com/screens/)
 >[Working with AEM Screens Player](working-with-screens-player.md)
@@ -162,8 +162,9 @@ Suppose you want to display contents of a channel only on Fridays from 1:00 pm u
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
-   
+
    >[!NOTE]
+   >
    >You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
@@ -191,8 +192,9 @@ The following table summarizes few example expressions that you can add to the s
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
-   
+
    >[!NOTE]
+   >
    >You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
@@ -219,8 +221,9 @@ The following table summarizes few example expressions that you can add to the s
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
-   
+
    >[!NOTE]
+   >
    >You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
@@ -233,19 +236,22 @@ The following table summarizes few example expressions that you can add to the s
 |---|---|
 | of February,May,August,November | the asset plays in the channel in February,May,August,November |
 
-   >[!NOTE]
-   >When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
+>[!NOTE]
+>
+>When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.
 
-   >[!NOTE]
-   >You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+>[!NOTE]
+>
+>You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
 ### Combination of Partings {#combined-parting}
 
 1. Select the channel and click on **Dashboard** from the action bar to open the channel dashboard.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
-   
+
    >[!NOTE]
+   >
    >You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
 
 1. Enter the expression into the **Schedule** and your asset will display for the particular interval of day and time.
@@ -260,6 +266,7 @@ The following table summarizes few example expressions that you can add to the s
 | on the 1st day of January after 2:00 pm also on the 2nd day of January also on the 3rd day of January before 3:00 am | the asset in the channel starts playing after 2:00 pm on January 1st, continues playing for the whole day on January 2nd all the way until 3:00 am on January 3rd |
 | on the 1-2 day of January after 2:00 pm also on the 2-3 day of January before 3:00 am | the asset in the channel starts player after 2:00 pm on January 1st, continues playing until 3:00 am on January 2nd, then it starts again on January 2nd at 2:00 pm and continues playing until 3:00 am on January 3rd |
 
-   >[!NOTE]
-   >When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+>[!NOTE]
+>
+>When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
 
