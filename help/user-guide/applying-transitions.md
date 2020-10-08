@@ -24,9 +24,7 @@ Follow the steps below to add a transition component to your AEM Screens project
 >
 >**Prerequisites**
 >
-> Create an AEM Screens project **TestProject** 
-with a channel **TestTransition**. Additionally, set up a location and a display to view the 
- output.
+>Create an AEM Screens project **TestProject** with a channel **TestTransition**. Additionally, set up a location and a display to view the output.
 
 1. Navigate to the Channel **TestTransition** and click **Edit** from the action bar.
 

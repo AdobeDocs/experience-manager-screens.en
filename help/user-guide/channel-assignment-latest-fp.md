@@ -7,6 +7,7 @@ description: Follow this page to learn about Channel Assignment and DayParting.
 # Channel Assignment {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >This section highlights the channel assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
 
 Once you have set up a display, you must assign a channel to a display to view your content.
@@ -14,6 +15,7 @@ Once you have set up a display, you must assign a channel to a display to view y
 This page shows assigning a channel to your display, understand channel properties, and DayParting.
 
 >[!NOTE]
+>
 >You can assign multiple channels to a display.
 
 
@@ -59,9 +61,9 @@ Once the project set up is complete, you must assign the channel to a display to
    Or,
 
    Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
-   
+
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
-   
+
 1. The **Channel Assignment** dialog box opens.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
@@ -71,12 +73,14 @@ Once the project set up is complete, you must assign the channel to a display to
     ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-    >[!NOTE]
+   >[!NOTE]
+   >
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. Click **Save** once you have configured your preferences.
@@ -130,6 +134,7 @@ Channel role defines the context of the display. The role is targeted by various
 Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
    >[!NOTE]
+   >
    >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
 
 ### Supported Events {#supported-events-channel}
@@ -150,13 +155,14 @@ Select from one of following options that are available to set the interruption 
 
 * **Immediately**: whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
 * **At the end of the current item**: when a new schedule activates or an update is received, you have the option to wait for the current item in the sequence to finish playing, and only after that you refresh or play the new content
+
    >[!NOTE]
    >This option is selected by default.
+
 * **At the end of the sequence**: when a new schedule activates or an update is received, you have the option to wait for the whole sequence to reach its end, and just before the desired sequence, you loop back to the 1st element, you refresh or play the new content
 
    >[!NOTE]
    >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred as the player will wait for the end of the item or sequence (after the specified time) before refreshing. The delay will depend on the playback duration of the item.
-
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
@@ -213,4 +219,3 @@ This example shows the DayParting implemented in a casino where live event occur
 >[!NOTE]
 >
 >Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
-
