@@ -72,7 +72,8 @@ While considering which Data Network should be used it is recommended to answer 
 >[!NOTE]
 >
 >The needed Data Package has to be at least:
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -99,6 +100,3 @@ The following tables offer a good overview what network connectivity key data me
 >All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-

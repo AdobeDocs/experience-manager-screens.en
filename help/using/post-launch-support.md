@@ -22,10 +22,11 @@ Additionally, to prepare for long term success, it is paramount to establish a D
 
 >[!NOTE]
 >
-> You must define operational parameters early included in operational budgets as well as align the responsibilities with the AEM implementor and AV Integrator.
-Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution time frames compared to a Corporate Communications network.  
-Is the application highly visible to the end client’s executive leadership? Sites with high visibility may merit different treatments. 
-Is the application critical to business operations such as menu-boards in fast-food chains? In these cases, the end-client may require on-site resolutions with very short response times, as well as redundancy in playback hardware.
+>You must define operational parameters early included in operational budgets as well as align the responsibilities with the AEM implementor and AV Integrator.
+>
+>* Is the deployment an Advertising Network with many stakeholders tied to a monetized network?  This may dictate much shorter resolution time frames compared to a Corporate Communications network.
+>* Is the application highly visible to the end client’s executive leadership? Sites with high visibility may merit different treatments.
+>* Is the application critical to business operations such as menu-boards in fast-food chains? In these cases, the end-client may require on-site resolutions with very short response times, as well as redundancy in playback hardware.
 
 ## Considerations and Post Launch Queries {#considerations-queries}
 
