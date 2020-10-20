@@ -3,21 +3,13 @@ title: Creating and Managing Channels
 seo-title: Managing Channels
 description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
 seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
-
 ---
 
 # Creating and Managing Channels {#creating-and-managing-channels}
 
-A Channel displays a sequence of content and display images and videos, but could also display a website or a single-page application.
+A Channel displays a sequence of content (images and videos) and also displays a website or a single-page application.
 
-This page shows creating and managing channels for Screens.
+This page shows creating and managing channels for AEM Screens.
 
 **Pre-requisites**:
 
@@ -28,7 +20,7 @@ This page shows creating and managing channels for Screens.
 
 Once you create your project for AEM Screens, follow the steps below to create a new Channel for your project:
 
-1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to: `https://localhost:4502/screens.html/content/screens`.
+1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigate to your Screens project and select **Channels** folder.
 
@@ -74,9 +66,6 @@ The following template options are available while using the wizard such as:
 
 You can edit, view properties and dashboard, copy, preview, and delete a channel.
 
->[!NOTE]
->
->Select the channel, as shown in the figure below.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -88,7 +77,6 @@ To add or edit content in a channel, follow the steps below:
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
 
 >[!NOTE]
->
 >You can add components to your channel. Refer to **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -135,7 +123,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 You can view the manifest from the channel dashboard.
 
 >[!IMPORTANT]
->
 >This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
 Follow these steps to enable this option from the channel dashboard:
@@ -149,7 +136,7 @@ Follow these steps to enable this option from the channel dashboard:
    1. Navigate to **CHANNEL INFORMATION** panel and click *...*
    1. Click **Update Offline Content**
 
-Now you should be able to see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
+You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
 
 ![image1](assets/channel-one.png)
 
@@ -157,8 +144,7 @@ Now you should be able to see the **View Manifest** option from the **CHANNEL IN
 ### Online and Offline Channels {#online-and-offline-channels}
 
 >[!NOTE]
->
->By Default, when you create a channel, the channel is Offline.
+>By default, when you create a channel, it is Offline.
 
 When you create a channel, it can either be defined as an online or an offline channel.
 
@@ -191,7 +177,6 @@ Follow the steps below to make the channel online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >If you want to configure your channel again as offline, un-check the Developer mode option from the **Properties** tab (as shown in step (3)) and then from the **CHANNEL INFORMATION** panel click **Update Offline Content**, as shown in the figure below.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -245,8 +230,7 @@ The associated displays will list in the **Assigned Displays** panel, as shown b
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
->To learn about creating a display in a location, please refer to:
+>To learn about creating a display in a location, refer to:
 >
 >* [Create and Manage Locations](managing-locations.md)
 >* [Create and Manage Displays](managing-displays.md)
