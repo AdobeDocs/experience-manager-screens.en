@@ -1,6 +1,6 @@
 ---
 user-guide-title: Best Practices Guide for AEM Screens Projects
-breadcrumb-title: AEM Screens Guide
+breadcrumb-title: AEM Screens Best Practices Guide
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
