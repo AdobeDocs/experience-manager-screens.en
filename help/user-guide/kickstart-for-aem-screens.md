@@ -6,10 +6,10 @@ description: Follow this page to create a demo AEM Screens project. It helps you
 
 # Kickstart Guide {#kickstart-guide}
 
-This section is a kickstart to AEM Screens and demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens player.
+The kickstart to AEM Screens demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens player.
 
 >[!NOTE]
->Before you start working on the project details, make sure you have installed the latest Feature Pack. You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>Before you start working on the project details, make sure you have installed the latest Feature Pack for AEM Screens. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## Prerequisites {#prerequisites}
 
@@ -20,7 +20,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 >[!IMPORTANT]
 >**OSGi Configuration Settings**
->You need to enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the Apache Sling Referrer Filter Allow Empty is enabled in the OSGi Configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
+>You must enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the Apache Sling Referrer Filter Allow Empty is enabled in the OSGi Configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
 >Follow the steps below to enable the ***Apache Sling Referrer Filter Allow Empty***:
 
 
@@ -40,12 +40,11 @@ Follow the steps below to create a sample project for AEM Screens and further pu
     
 1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
 
-
 ## Creating a Digital Signage Experience in 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-The first step is creating a new AEM Screens project.
+The first step is to create an AEM Screens project.
 
 1. Navigate to your Adobe Experience Manager (AEM) instance and click **Screens**. Alternatively, you can navigate directly from `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -56,35 +55,34 @@ The first step is creating a new AEM Screens project.
    >[!NOTE]
    >Once you create the project, it brings you back to the Screens Project home page. You can now select your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
 
-
 ### Creating a Channel {#creating-channel}
 
-Once you have your project in place, you need to create a new channel where you manage the content.
+Once you have created your AEM Screens project, you need to create a new channel where you manage the content.
 
 Follow the steps below to create a new channel for your project:
 
-1. Once you create a project, select the **DemoScreens** project and select the **Channels folder**, as shown in the figure below. Click **+ Create** from the action bar.
+1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Click **+ Create** from the action bar.
 
    ![image](assets/kickstart/demo-2.png)
 
 1. Choose the **Sequence Channel** from the wizard and click **Next**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as *TestChannel* and click **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![image](assets/kickstart/demo-4.png)
 
-   The *TestChannel* is created and added to your channels folder, as shown in the figure below.
+   The **TestChannel** is now added to your channels folder, as shown in the figure below.
 
    ![image](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
-Once you have your channel in place, you need to add content to your channel that the Screens player will display.
+Once you have your channel in place, you need to add content to your channel that AEM Screens player will display.
 
-Follow the steps below to add content to the channel (*TestChannel*) in your project:
+Follow the steps below to add content to the channel (**TestChannel**) in your project:
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
@@ -111,7 +109,7 @@ Follow the steps below to create a new location for your project:
 
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**. 
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**. 
 
 The **TestLocation** is created and added to your **Locations** folder.
 
@@ -121,7 +119,7 @@ The **TestLocation** is created and added to your **Locations** folder.
 Once you have created a location, you need to create a new display for your location.
 
 >[!NOTE]
->***Displays*** represent the digital experience that run on one or multiple screens.
+>***Display*** represents the digital experience that run on one or multiple screens.
 
 1. Navigate to the **TestLocation** and select it. 
 
@@ -205,7 +203,7 @@ Once your Chrome OS player is on, follow the steps below to register a Chrome de
 
    ![image](assets/kickstart/demo-register2.png)   
 
-1. Wait for the device to send its registration code and simultaneously, check the **Registration Code** from your Chrome device.
+1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
    ![image](assets/kickstart/demo-register3.png)
 
 1. If the **Registration Code** is the same on both machines, tap/click **Validate** in AEM.
@@ -226,9 +224,7 @@ Once your Chrome OS player is on, follow the steps below to register a Chrome de
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process.
-
-1. You should be able to view your registered device from the display dashboard.
+1. Tap/click **Finish** to complete the registration process. You should be able to view your registered device from the display dashboard.
 
    ![image](assets/kickstart/demo-register9.png)
 
@@ -239,9 +235,3 @@ All the assets in your channel are now playing on your Chrome OS player.
 Congratulations you are now playing content in an AEM Screens channel!
 
 ![image](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
