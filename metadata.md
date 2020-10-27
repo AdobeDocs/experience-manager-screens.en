@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 solution-title: AEM Screens
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Screens
 type: Documentation
 index: y
 solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
