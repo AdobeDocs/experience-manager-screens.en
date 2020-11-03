@@ -8,7 +8,7 @@ contentOwner: Jyotika Syal
 
 # Custom Branding and Styling for Text Overlays {#creating-custom-branding-styling}
 
-Follow this page to learn how to apply custom branding and styling for Text Overlays applied to your assets in a Screens channel.
+Follow this page to learn how to apply custom branding and styling for Text Overlays applied to your assets in an AEM Screens channel.
 
 ## Creating Custom Branding and Styling for Text Overlays {#steps-custom-branding}
 
@@ -74,9 +74,8 @@ Follow the steps below to create custom branding and styling for text overlays:
 
 1. Click **Save & Close** to update the design path.
 
->[!IMPORTANT]
->
->You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. Refer to the steps below for more details.
+   >[!IMPORTANT]
+   >You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. Refer to the steps below for more details.
 
 1. To overlay the existing Screens templates to inject your own designs by default: 
 
@@ -122,7 +121,7 @@ Follow the steps below to view the updated design to text overlay:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Referring to the tutorial, now you can update your brand and custom styling for text overlays added to your assets.
+   Now you are ready to update your brand and custom styling for text overlays added to your assets.
 
 
 
