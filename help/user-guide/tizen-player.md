@@ -20,7 +20,7 @@ Follow the steps below to setup the local server and copy the extracted files:
 1. Get IP address of your local machine. 
 
     >[!NOTE]
-    >You can get the IP address from the Terminal of your machine by typing the following commands:
+    >You can get the IP address from the Terminal of your machine using the following commands:
     >* **Mac**: `ifconfig`
     >* **Windows**: `ipconfig`
 
