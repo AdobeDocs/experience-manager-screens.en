@@ -38,9 +38,9 @@ Follow the steps below to setup the local server and copy the extracted files:
 Follow the steps below on the Samsung device to complete the installation of the AEM Screens player on the device:
 
 1. Go to your Samsung device and point to your localhost server.
-1. Select **URL Launcher Settings** from the **Settings** and enter the IP address of your localhost server.
+1. Select **URL Launcher Settings** and enter the IP address of your localhost server.
 1. Install Web App.
 1. Select **Remote** from the **Developer Mode**.
-1. The AEM Screens Player should now automatically install on your Samsung device.
+1. The AEM Screens Player should now automatically start the installation on your Samsung device.
 
 
