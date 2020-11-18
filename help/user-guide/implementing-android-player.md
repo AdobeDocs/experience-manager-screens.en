@@ -30,13 +30,11 @@ Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens
 >[!NOTE]
 >You must set up an environment for Android player if you are using AEM Screens 6.5.5 Service Pack.
 
-Set the **SameSite attribute for the login-token cookies** from **Lax** to **None** from **Adobe Experience Manager Web Console
-Configuration** on all AEM author and publish instances.
+Set the **SameSite attribute for the login-token cookies** from **Lax** to **None** from **Adobe Experience Manager Web Console Configuration** on all AEM author and publish instances.
 
 Follow the steps below:
 
-1. Navigate to **Adobe Experience Manager Web Console
-Configuration** using `http://localhost:4502/system/console/configMgr`.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** using `http://localhost:4502/system/console/configMgr`.
 
 1. Search for *Adobe Granite Token Authentication Handler*.
 
