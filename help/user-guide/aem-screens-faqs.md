@@ -11,6 +11,21 @@ contentOwner: jsyal
 
 The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.
 
+## Blank Screen Issue {#blank-screen}
+
+>[!NOTE]
+>The listed mandatory checks that should be tried by primary support or customer-side support before raising an issue:
+
+### 1. What should be the First aid troubleshooting steps for any customer facing a black screen or non-playing content? {#troubleshooting-blank-screen}
+
+* Check if the channel preview is working.
+* Check if the display preview is working
+* Try registering the player as a browser extension on your laptop to that same display and check if this is working.
+* With the player running on your system, navigate to `http://localhost:24502`. Check if all the content is downloaded correctly.
+* Check the asset(s) that the appropriate renditions are created and the correct rendition is being played.
+* Check for any scheduled content and if the times are correct. Check the time set up in the player is correct.
+* Check the player console logs and check for any errors? Right click and inspect to see the console logs. If using the windows player press `CTRL + ALT +I` to bring up dev console to view the logs.
+
 ## Channel Management {#channel-management}
 
 ### 1. What is the difference between an online and an offline channel? {#what-is-the-difference-between-an-online-and-an-offline-channel}
