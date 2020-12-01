@@ -156,3 +156,11 @@ In order to disable Livefyre to avoid log errors :
     * Add a new property *enabled* type *Boolean*
     * Set **enabled property** to **false**
 
+### 2. How to Add Oak Index information? {#add-oak-index-info}
+
+AEM Screens creates index definitions for the queries used by the product. 
+If there are any *Query Traversal WARNs* in the `error.log`, create a custom index for your query. Refer to [Configuring the Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) for more details.
+
+You can also refer to an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
