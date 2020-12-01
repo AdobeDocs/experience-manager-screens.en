@@ -23,13 +23,13 @@ The Release Date for AEM Screens Feature Pack 202011 is November 30, 2020.
 * **Content Assignment Report**
 
    The Content Assignment Report feature allows an AEM Screens administrator or an author to export a *Content Assignment Report* that could be in spreadsheet format.
-   Refer to **Content Assignment Report** for more details.
+   Refer to [Content Assignment Report](/help/user-guide/content-assignment-report.md) for more details.
 
  
 * **Tizen Player**
 
    A new player referred to as Tizen player has been introduced with latest feature pack for AEM Screens 6.5.6 Release. 
-   Refer to **Implementing Tizen Player** for more details.
+   Refer to [Implementing Tizen Player](/help/user-guide/tizen-player.md) for more details.
 
 * **Search Functionality from Device Manager**
 
@@ -39,17 +39,15 @@ The Release Date for AEM Screens Feature Pack 202011 is November 30, 2020.
 
    The default ping interval is now set to 30 seconds for this release.
 
-### Known Issues & Fixes {#known-issues}
-
-
-
 ### Released AEM Screens Players {#released-aem-screens-players}
 
-The following AEM Screens Players are released for AEM Screens released 
+The following AEM Screens Players are released for AEM 6.5 Feature Pack 6:
 
 * Chrome OS
 * Windows
 * Android
+* Tizen
+* Linux
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
