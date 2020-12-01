@@ -35,7 +35,8 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
         + [Android Player](implementing-android-player.md)
-        + [Windows Player](implementing-windows-player.md)    
+        + [Windows Player](implementing-windows-player.md) 
+        + [Tizen Player](tizen-player.md)
     + Author Publish {#author-publish}
         + [Author-Publish Architectural Overview](author-publish-architecture-overview.md)
         + [Configuring Author and Publish](author-and-publish.md)
@@ -71,6 +72,7 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
         + [Command Sync](using-command-sync.md)
         + [Authoring with Data Triggers](authoring-data-triggers.md)
         + [Voice Recognition](voice-recognition.md)
+        + [Content Assignment Report](content-assignment-report.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
@@ -99,6 +101,7 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
+    + [Release Notes for Feature Pack 202011](release-notes-fp-202011.md)
     + [Release Notes for Feature Pack 202008](release-notes-fp-202008.md)
     + [Release Notes for Feature Pack 202004](release-notes-fp-202004.md)
     + [Release Notes for Feature Pack 202001](release-notes-fp-202001.md)
