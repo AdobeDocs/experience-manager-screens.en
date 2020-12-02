@@ -12,7 +12,7 @@ description: The page describes Release Notes for Feature Pack 202011.
 
 AEM Screens released AEM 6.5 Feature Pack 6.
 
-You can download the latest feature pack for AEM Screens 6.5.6 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack.
+You can download the latest feature pack for AEM Screens 6.5.6 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP6**.
 
 ## Release Date {#release-date}
 
@@ -34,10 +34,11 @@ The Release Date for AEM Screens Feature Pack 202011 is November 30, 2020.
 * **Search Functionality from Device Manager**
 
    A new search functionality is now available from the Device Manager UI with the latest feature pack for AEM Screens 6.5.6 Release. 
+   Refer to [Searching a Device from the Device Manager](/help/user-guide/device-registration.md#search-device) for more details.
 
 * **Default Ping Interval**
 
-   The default ping interval is now set to 30 seconds for this release.
+   The default ping interval is now set to 30 seconds in this release.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
