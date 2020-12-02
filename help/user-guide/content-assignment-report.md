@@ -38,10 +38,14 @@ Follow the instructions below to download the Content Assignment Report:
 
 1. Navigate to your AEM Screens project and select the project **DemoScreens**.
 
-1. Click on **Content Assignment Report** from the action bar. An excel sheet should be downloaded to your local machine.
+1. Click on **Content Assignment Report** from the action bar.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >The downloaded spreadsheet consists of four columns such as **Channels**, **Assets**, **Displays**, and **Devices** which can used to further investigate these four entities pertaining to your AEM Screens project.
+
+1. A excel sheet is downloaded to your local machine with the prefixed identical name as your AEM Screens project name. For instance, if your project name is **DemoScreens**, the downloaded filename will be **demoscreens-content-assignment-report.xlxs**.
+
+   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
