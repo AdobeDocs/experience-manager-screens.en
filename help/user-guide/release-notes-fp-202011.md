@@ -22,7 +22,7 @@ The Release Date for AEM Screens Feature Pack 202011 is November 30, 2020.
 
 * **Content Assignment Report**
 
-   The Content Assignment Report feature allows an AEM Screens administrator or an author to export a *Content Assignment Report* that could be in spreadsheet format.
+   The Content Assignment Report feature allows an AEM Screens administrator or an author to export a *Content Assignment Report* in a spreadsheet format.
    Refer to [Content Assignment Report](/help/user-guide/content-assignment-report.md) for more details.
 
  
