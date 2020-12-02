@@ -111,7 +111,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Searching a device from the device Manager {#search-device}
+### Searching a Device from the Device Manager {#search-device}
 
 Once you have registered devices to your player, you can view all the devices from the Device Manager UI.
 
@@ -119,20 +119,33 @@ Once you have registered devices to your player, you can view all the devices fr
 
 1. Select the **Devices** folder and click on **Device Manager** from the action bar.
 
+    ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. The list of registered devices displays.
 
-1. If you have a long list of registered devices, you can now search using the search icon from the action bar or simply click `/` (forward slash) to invoke the search functionality.
+1. If you have a long list of registered devices, you can now search using the search icon from the action bar 
+
+   ![image](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   Or,
+
+   Click `/` (forward slash) to invoke the search functionality.
+
+     ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### Limitations on Search Functionality {#limitations}
 
-* User will be able to search any word in the device id or device name. Please make sure to store the device names in multiple words such as "Boston Store Lobby" rather than "BostonStoreLobby".
+* User will be able to search any word existing in the *Device ID* or *Device Name*. 
 
-* In the former case, it allows to search for any word "boston", "store", "lobby" but in the latter case searching "boston" won't show the results.
+   >[!NOTE]
+   >It is recommended that you create the device names in multiple words such as *Boston Store Lobby* rather than one single *BostonStoreLobby*.
 
-* Wild card, `*` is supported for search. In case, you want to find all the devices with name starting with **boston**, you can use **boston***.
+* If you create device names such as *Boston Store Lobby*, it allows to search for any word *boston*, *store* or *lobby* but if the device name is referred to as *BostonStoreLobby* searching *boston* will not show the results.
 
-1. If the device name is **BostonStoreLobby** and searching for **boston** will not return the result but **boston*** will return the result.
+* Wild card, `*` is supported for search. In case, you want to find all the devices with names starting with *boston*, you can use *boston**.
 
+1. If the device name is *BostonStoreLobby* and searching for *boston* will not return the result instead using *boston** in your search criteria will return the result.
 
 ## Limitations on Device Registration {#limitations-on-device-registration}
 
