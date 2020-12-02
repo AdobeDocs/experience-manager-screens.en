@@ -111,6 +111,29 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
+### Searching a device from the device Manager {#search-device}
+
+Once you have registered devices to your player, you can view all the devices from the Device Manager UI.
+
+1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** --> **Devices**. 
+
+1. Select the **Devices** folder and click on **Device Manager** from the action bar.
+
+1. The list of registered devices displays.
+
+1. If you have a long list of registered devices, you can now search using the search icon from the action bar or simply click `/` (forward slash) to invoke the search functionality.
+
+#### Limitations on Search Functionality {#limitations}
+
+* User will be able to search any word in the device id or device name. Please make sure to store the device names in multiple words such as "Boston Store Lobby" rather than "BostonStoreLobby".
+
+* In the former case, it allows to search for any word "boston", "store", "lobby" but in the latter case searching "boston" won't show the results.
+
+* Wild card, `*` is supported for search. In case, you want to find all the devices with name starting with **boston**, you can use **boston***.
+
+1. If the device name is **BostonStoreLobby** and searching for **boston** will not return the result but **boston*** will return the result.
+
+
 ## Limitations on Device Registration {#limitations-on-device-registration}
 
 System wide user password restrictions might cause failure in the device registration. The device registration uses a random generated password to create the device user.
