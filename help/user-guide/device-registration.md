@@ -145,7 +145,7 @@ Once you have registered devices to your player, you can view all the devices fr
 
 * Wild card, `*` is supported for search. In case, you want to find all the devices with names starting with *boston*, you can use *boston**.
 
-1. If the device name is *BostonStoreLobby* and searching for *boston* will not return the result instead using *boston** in your search criteria will return the result.
+* If the device name is *BostonStoreLobby* and searching for *boston* will not return the result instead using *boston** in your search criteria will return the result.
 
 ## Limitations on Device Registration {#limitations-on-device-registration}
 
