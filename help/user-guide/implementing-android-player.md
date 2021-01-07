@@ -103,3 +103,59 @@ The following diagram shows the implementation of watchdog service:
 >In Android, the *AlarmManager* is used to register the *pendingIntents* that can execute even if the app has crashed and its alarm delivery is inexact from API 19 (Kitkat). Keep some spacing between the timer's interval and the *AlarmManager's* *pendingIntent's* alarm.
 
 **3. Application Crash** In case of a crash, the pendingIntent for Reboot registered with AlarmManager is no longer reset and thus it executes a reboot or restart of app (depending on permissions available at the time of initialization of the cordova plugin).
+
+## Bulk Provisioning of Android Player {#bulk-provision-android-player}
+
+When rolling out the Android player in bulk, there is a need to provision the player to point to an AEM instance as well as configure other properties without manually entering them in the admin UI. 
+
+>[!NOTE]
+>This feature is available from Android player 42.0.372.
+
+Follow the steps below to bul provision the Android player:
+
+1. Create a configuration JSON file with the name player-config.default.json. Please see a sample attached as well as a table that describes the use of the various policy attributes
+1. Use an MDM or ADB or Android Studio file explorer to drop this policy JSON file to the sdcard folder on the Android device.  
+1. Once the file is deployed, use the MDM to install the player application.
+1. When the player application launches, it will read this configuration file and point to the applicable AEM server where it can be registered and subsequently controlled
+1. This file is only read the first time the app is launched and cannot be used for subsequent configuration. If the player is launched before the config file was dropped, simply uninstall and re-install the app on the device.
+
+### Policy Attributes {#policy-attributes}
+
+The following table summarizes the policy attributes with an example policy JSON for reference:
+
+| **Policy Name** |**Purpose** |
+|---|---|
+| *server* |The URL to the Adobe Experience Manager server. |
+| *resolution* |The resolution of the device. |
+| *rebootSchedule* |The schedule to reboot the Chrome player |
+| *enableAdminUI* |Enable the Admin UI to configure the device on site. Set to *false* once it is fully configured and in production. |
+| *enableOSD* |Enable the channel switcher UI for users to switch channels on device. Consider setting to *false* once it is fully configured and in production. |
+| *enableActivityUI* |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| *enableNativeVideo* |Enable to use native hardware acceleration for video playback (Android only). |
+
+**Example JSON Policy**
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>All Android devices have an `sdcard` folder whether an actual `sdcard` is inserted or not. This file when deployed would be at the same level as the Downloads folder. Some MDMs such as Samsung Knox may refer to this `sdcard` folder location as *Internal storage*.
