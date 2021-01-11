@@ -106,20 +106,24 @@ The following diagram shows the implementation of watchdog service:
 
 ## Bulk Provisioning of Android Player {#bulk-provision-android-player}
 
-When rolling out the Android player in bulk, there is a need to provision the player to point to an AEM instance as well as configure other properties without manually entering them in the admin UI. 
+When rolling out the Android player in bulk, there is a need to provision the player to point to an AEM instance as well as configure other properties without manually entering those in the Admin UI. 
 
 >[!NOTE]
 >This feature is available from Android player 42.0.372.
 
 Follow the steps below to allow bulk provisioning in the Android player:
 
-1. Create a configuration JSON file with the name `player-config.default.json`. Refer to a sample attached as well as a table that describes the use of the various policy attributes
-1. Use an MDM or ADB or Android Studio file explorer to drop this policy JSON file to the *sdcard* folder on the Android device.  
+1. Create a configuration JSON file with the name `player-config.default.json`. 
+   Refer to a [Example JSON Policy](#example-json) as well as a table that describes the use of the various [Policy Attributes](#policy-attributes).
+
+1. Use an MDM or ADB or Android Studio file explorer to drop this policy JSON file to the *sdcard* folder on the Android device. 
+
 1. Once the file is deployed, use the MDM to install the player application.
-1. When the player application launches, it will read this configuration file and point to the applicable AEM server where it can be registered and subsequently controlled
+
+1. When the player application launches, it will read this configuration file and point to the applicable AEM server where it can be registered and subsequently controlled.
 
    >[!NOTE]
-   >This file is only *read-only* the first time the application is launched and cannot be used for subsequent configuration. If the player is launched before the config file was dropped, simply uninstall and re-install the application on the device.
+   >This file is *read-only* the first time the application is launched and cannot be used for subsequent configurations. If the player is launched before the configuration file was dropped, simply uninstall and re-install the application on the device.
 
 ### Policy Attributes {#policy-attributes}
 
