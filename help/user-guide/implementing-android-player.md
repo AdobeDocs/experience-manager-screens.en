@@ -111,7 +111,7 @@ When rolling out the Android player in bulk, there is a need to provision the pl
 >[!NOTE]
 >This feature is available from Android player 42.0.372.
 
-Follow the steps below to bul provision the Android player:
+Follow the steps below to allow bulk provisioning in the Android player:
 
 1. Create a configuration JSON file with the name `player-config.default.json`. Refer to a sample attached as well as a table that describes the use of the various policy attributes
 1. Use an MDM or ADB or Android Studio file explorer to drop this policy JSON file to the *sdcard* folder on the Android device.  
