@@ -86,7 +86,7 @@ Follow the steps below to sign the android apk using the manufacturer's keys:
 1. &lt;pathto&gt; /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Install ***aemscreensaligned.apk*** using adb install to the device
 
-## Android Watchdog Implementation {#android-watchdog-implementation}
+## Understanding Watchdog Services {#android-watchdog-services}
 
 The cross-Android watchdog service is implemented as a cordova plugin using *AlarmManager*.
 
