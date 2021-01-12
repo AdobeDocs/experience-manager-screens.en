@@ -123,7 +123,7 @@ Follow the steps below to allow bulk provisioning in the Android player:
 1. When the player application launches, it will read this configuration file and point to the applicable AEM server where it can be registered and subsequently controlled.
 
    >[!NOTE]
-   >This file is *read-only* the first time the application is launched and cannot be used for subsequent configurations. If the player is launched before the configuration file was dropped, simply uninstall and re-install the application on the device.
+   >This file is *read only* the first time the application is launched and cannot be used for subsequent configurations. If the player is launched before the configuration file was dropped, simply uninstall and re-install the application on the device.
 
 ### Policy Attributes {#policy-attributes}
 
