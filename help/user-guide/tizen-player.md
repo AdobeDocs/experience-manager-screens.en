@@ -51,7 +51,7 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 1. The AEM Screens Player should now automatically install and launch on your Samsung device.
 
-## Bulk Provisioning of Tizen Player {bulk-provisioning-tizen-player}
+## Bulk Provisioning of Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
 >It can be a tedious effort to manually enter your AEM server's address in the admin UI of each and every device for a large number of devices. It is recommended to use Samsung Remote Management (RMS) solution for deploying and managing the solution. Refer to [Enrolling the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) for more details.
@@ -68,7 +68,7 @@ Follow the steps below steps to bulk provision the application to point to your 
 
 1. Deploy this new `wgt` file RMS and when the player launches it should automatically point to your server so you do not need to manually enter it for every device.
 
-### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {enroll-tizen-device-rms}
+### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
 Follow the steps below to enroll the Tizen Device to Samsung Remote Management Service (RMS) and remotely configuring URL Launcher:
 
