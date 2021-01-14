@@ -58,7 +58,7 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 Follow the steps below steps to bulk provision the application to point to your AEM author instance when it launches:
 
-1. Download and install the [Tizen Studio]( https://developer.tizen.org/development/tizen-studio/download).
+1. Download and install the [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
 1. Open the `wgt` file using Tizen studio.
 1. Open the file `firmware-platform.js` and search for `DEFAULT_PREFERENCES` and change the server URL to the AEM author URL and save.
 1. Build the new `wgt` file.
