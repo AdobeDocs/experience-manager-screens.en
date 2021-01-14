@@ -61,23 +61,22 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
 
-1. Scroll down and select the **Play via URL Launcher** option.
+1. Scroll down and select the **Play via** option and change it to **URL Launcher** option.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Press the **Home** button from your remote.
+1. Once the URL Launcher is set, press the **Home** button from your remote.
 
-1. Enter the IP address of your localhost server.
-
-1. Select **Remote** from the **Developer Mode**.
-
-1. Click the **Home** button from the device's remote and select **URL Launcher**.
+1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server.
 
 1. The AEM Screens Player should now automatically install and launch on your Samsung device.
+
+   >[!NOTE]
+   >Both the Tizen device and the `http` server should be able to connect with each other, that is, the server should be reachable to the Tizen player.
 
 ## Bulk Provisioning of Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->It can be a tedious effort to manually enter your AEM server's address in the admin UI of each and every device for a large number of devices. It is recommended to use Samsung Remote Management (RMS) solution for deploying and managing the solution. Refer to [Enrolling the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) for more details.
+>It can be a tedious effort to manually enter your AEM server's address in the admin UI of each and every device for a large number of devices. It is recommended to use Samsung Remote Management (RMS) solution for deploying and managing larger solutions. Refer to [Enrolling the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) for more details.
 
 Follow the steps below steps to bulk provision the application to point to your AEM author instance when it launches:
 
@@ -104,9 +103,9 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
    >Verify the screen is setup to Play Via URL Launcher.
    >![image](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Navigate to Server Address and type in the MagicInfo URL access and press Done.
+1. Navigate to Server address and type in the MagicInfo URL access and press **Done**.
 
-1. Setup TLS, if required. Navigate to the port and select the port number from the server. Click on **Save**.
+1. Setup TLS, if required. Navigate to the port and select the port number from the server and click on **Save**.
 
 1. Navigate to the **Device** tab and check for the device you just configured. Once a device its found, click on the check box and select **Approve**.
 
