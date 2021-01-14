@@ -70,7 +70,7 @@ Follow the steps below steps to bulk provision the application to point to your 
 
 ### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
-Follow the steps below to enroll the Tizen Device to Samsung Remote Management Service (RMS) and remotely configure the URL Launcher:
+Follow the steps below to enroll the Tizen device to Samsung Remote Management Service (RMS) and remotely configure the URL Launcher:
 
 >[!NOTE]
 >Verify the network settings and the monitor. 
@@ -100,9 +100,13 @@ Follow the steps below to enroll the Tizen Device to Samsung Remote Management S
 
 1. Device Information Pop up will appear as follow and Click the Edit Button.  
 
-1. Edit Device options will appear as follow and select the Setup Tab.
+1. Edit Device options and select the **Setup** Tab.
 
-1. Locate URL Launcher Section and enter URL hosting the wgt and `SSSP config file` to install an SSSP application.
+1. Navigate to **URL Launcher** section and enter URL hosting the wgt and `SSSP config file` to install an `SSSP` application, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Click on **Save** for the changes to take effect on the display screen.
 
 
 
