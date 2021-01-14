@@ -23,6 +23,9 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. Upgrade to Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >If you are installing AEM 6.5.8, you can skip following steps 2 & 3.
+
 1. Navigate to `/system/console/bundles` in AEM and click the `install/update` button.
 
 1. Install the `crx-auth-token` jar file. You may need to shutdown and restart AEM after installing this jar because it is related to authentication.
@@ -31,27 +34,23 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. You should see a new option *User agents to be exempted from samesite attribute*. Populate this with a regex corresponding to the user agent(s) that is(are) incompatible with the *SameSite=None* attribute.
    >[!NOTE]
-   >See [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) for more details. For the Tizen player use the regex: `(.*)Tizen (4|5)(.*)`.
+   >See [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) for more details. For the Tizen player use the regex: `(.*)Tizen(.*)`.
 
 1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
 
 
 ## Setting up the Local Server and Extracting Zip Files {#setting-local-server}
 
-Follow the steps below to setup the local server and copy the extracted files:
-
-1. Get IP address of your local machine. 
-   >[!NOTE]
-   >Please review the official documentation to learn how to enable the local server on your platform.
-
-1. From the Terminal, navigate to the same directory of the unzipped installer folder and verify if the localhost is working.
-
-1. The Tizen player will download the installer from the local server.
+Follow the steps below:
 
 1. Copy the two extracted files such as `AEMScreensPlayer.wgt` and `sssp_config.xml` to the root directory of your local Apache Web server.
 
    >[!NOTE]
    >The `AEMScreensPlayer.wgt`is the actual Tizen player application and `sssp_config.xml` contains information about this map that helps you to install it on Tizen device.
+
+1. Get the IP or URL of your local HTTP server (and path to the folder containing the extracted files in step 2 if extracted to a sub folder and not root folder)
+
+1. The Tizen player will download the installer from the local server.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
 
@@ -66,7 +65,9 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 1. Once the URL Launcher is set, press the **Home** button from your remote.
 
-1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server.
+1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and click **Done**.
+   >[!NOTE] 
+   >The Tizen player should be able to connect to the http server.
 
 1. The AEM Screens Player should now automatically install and launch on your Samsung device.
 
@@ -108,6 +109,8 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
 1. Setup TLS, if required. Navigate to the port and select the port number from the server and click on **Save**.
 
 1. Navigate to the **Device** tab and check for the device you just configured. Once a device its found, click on the check box and select **Approve**.
+
+   >![image](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Fill the required information and select a device group. Click on **OK** to complete the approval process.
 
