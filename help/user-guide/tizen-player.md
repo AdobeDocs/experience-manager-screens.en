@@ -70,29 +70,40 @@ Follow the steps below steps to bulk provision the application to point to your 
 
 ### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
-Follow the steps below to enroll the Tizen Device to Samsung Remote Management Service (RMS) and remotely configuring URL Launcher:
+Follow the steps below to enroll the Tizen Device to Samsung Remote Management Service (RMS) and remotely configure the URL Launcher:
 
 >[!NOTE]
->Verify the network settings and the monitor.
+>Verify the network settings and the monitor. 
 
-1. Press Menu on your remote and go System and then press enter on Play Via. 
-
-   >[!NOTE]
-   >Verify the screen is setup to Play Via URL Launcher
 1. Navigate to **Menu** -> **Network** -> **Server Network Settings** and press **Enter**.
+ 
+   >[!NOTE]
+   >Verify the screen is setup to Play Via URL Launcher.
 
 1. Navigate to Server Address and type in the MagicInfo URL access and press Done.
 
-1. Navigate to the Device Tab once logged in to MIS
-1. Look for the device you just configured by looking at the IP address and/or its Mac Address. 
-1. Once a device its found, click on the check box and select Approve
-1. Please verify that the screen is setup to Play Via URL Launcher
-1. Press Menu on your remote and go System and then press enter on Play Via
-1. Navigate to Menu -> Network -> Server Network Settings and press Enter
-1. Go to Server Address and type in the MagicInfo URL access and press Done
 1. Setup TLS to Use or Don’t Use depending the case
-1. Go to port and select the port number from the server.
-1. Hit Save once the options are ready.
+   1. Go to port and select the port number from the server.
+   1. Hit Save once the options are ready.
+
+1. Navigate to the Device Tab once logged in to MIS
+   1. Look for the device you just configured by looking at the IP address and/or its Mac Address. 
+   1. Once a device its found, click on the check box and select Approve.
+
+1. Once clicked on Approved button, the following Pop Up will appear
+   1. Fill the required information
+   1. select a device group
+   1. lick Ok Button to finish approval process.
+
+1. Once Device is approved, it should appear as following on the Device List.
+   1. Click on the Information button located on your device box “i”
+
+1. Device Information Pop up will appear as follow and Click the Edit Button.  
+
+1. Edit Device options will appear as follow and select the Setup Tab.
+
+1. Locate URL Launcher Section and enter URL hosting the wgt and `SSSP config file` to install an SSSP application.
+
 
 
 
