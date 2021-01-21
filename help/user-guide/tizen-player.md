@@ -60,7 +60,7 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 Follow the steps below to exempt these incompatible clients when using *SameSite=None*:
 
-1. Upgrade to Adobe Experience Manager (AEM) Service Pack 6.5.8.
+1. Upgrade to Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
 1. After AEM restarts go to `/system/console/configMgr` and search for **Adobe Granite Token Authentication Handler**. Set the value for the **SameSite** value to **None**.
 
