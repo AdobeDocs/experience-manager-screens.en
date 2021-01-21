@@ -13,33 +13,10 @@ Follow the steps below to implement Tizen Player for AEM Screens:
 
 1. Install the Tizen player *(.zip)* file from local machine.
 
-## Exempting User Agents with the Samesite Cookie Issue {#exempting-user-agents}
-
->[!IMPORTANT]
->**This section applies to Adobe Experience Manager (AEM) 6.5.5 to AEM 6.5.7**
->There are some browser engines that are incompatible with the *SameSite=None* attribute used used in the login token issued by AEM 6.5 to AEM 6.7. In most cases the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
-
-Follow the steps below to exempt these incompatible clients when using *SameSite=None*:
-
-1. Upgrade to Adobe Experience Manager (AEM) Service Pack 6.5.8.
-
-   >[!NOTE]
-   >If you are installing AEM 6.5.8, you can skip following steps 2 & 3.
-
-1. Navigate to `/system/console/bundles` in AEM and click the `install/update` button.
-
-1. Install the `crx-auth-token` jar file. You may need to shutdown and restart AEM after installing this jar because it is related to authentication.
-
-1. After AEM restarts go to `/system/console/configMgr` and search for **Adobe Granite Token Authentication Handler**. Set the value for the **SameSite** value to **None**.
-
-1. You should see a new option *User agents to be exempted from samesite attribute*. Populate this with a regex corresponding to the user agent(s) that is(are) incompatible with the *SameSite=None* attribute.
-   >[!NOTE]
-   >See [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) for more details. For the Tizen player use the regex: `(.*)Tizen(.*)`.
-
-1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
-
-
 ## Setting up the Local Server and Extracting Zip Files {#setting-local-server}
+
+>[!NOTE]
+> Extract the zip file and make the Tizen player available through a `http server`. (The `http server` is not required to be Local or Apache server).
 
 Follow the steps below:
 
@@ -89,7 +66,7 @@ Follow the steps below steps to bulk provision the application to point to your 
    >[!NOTE]
    >You may need to create or setup a signing certificate.
 
-1. Deploy this new `wgt` file RMS and when the player launches it should automatically point to your server so you do not need to manually enter it for every device.
+1. Deploy this new `wgt` file using RMS or URL Launcher and when the player launches it should automatically point to your server so you do not need to manually enter it for every device.
 
 ### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
@@ -129,6 +106,24 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Click on **Save** for the changes to appear on the display screen.
+
+# Exempting User Agents with the SameSite Cookie Issue {#exempting-user-agents}
+
+>[!IMPORTANT]
+>**This section applies to Adobe Experience Manager (AEM) 6.5.5 to AEM 6.5.7**
+>There are some browser engines that are incompatible with the *SameSite=None* attribute used used in the login token issued by AEM 6.5 to AEM 6.7. In most cases the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
+
+Follow the steps below to exempt these incompatible clients when using *SameSite=None*:
+
+1. Upgrade to Adobe Experience Manager (AEM) Service Pack 6.5.8.
+
+1. After AEM restarts go to `/system/console/configMgr` and search for **Adobe Granite Token Authentication Handler**. Set the value for the **SameSite** value to **None**.
+
+1. You should see a new option *User agents to be exempted from samesite attribute*. Populate this with a regex corresponding to the user agent(s) that is(are) incompatible with the *SameSite=None* attribute.
+   >[!NOTE]
+   >See [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) for more details. For the Tizen player use the regex: `(.*)Tizen(.*)`.
+
+1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
 
 
 
