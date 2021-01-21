@@ -56,7 +56,7 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 >[!IMPORTANT]
 >**This section applies to Adobe Experience Manager (AEM) 6.5.5 to AEM 6.5.7**
->There are some browser engines that are incompatible with the *SameSite=None* attribute used used in the login token issued by AEM 6.5 to AEM 6.7. In most cases the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
+>There are some browser engines that are incompatible with the *SameSite=None* attribute used in the login token issued by AEM 6.5 to AEM 6.7. In most cases the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
 
 Follow the steps below to exempt these incompatible clients when using *SameSite=None*:
 
@@ -87,7 +87,7 @@ Follow the steps below steps to bulk provision the application to point to your 
 
 1. Deploy this new `wgt` file using RMS or URL Launcher and when the player launches it should automatically point to your server so you do not need to manually enter it for every device.
 
-### Enrolling the Tizen Device to Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
+### Enrolling the Tizen Device to Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
 Follow the steps below to enroll the Tizen device to Samsung Remote Management Service (RMS) and remotely configure the URL Launcher:
 
@@ -95,10 +95,6 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
 >Verify the network settings and the monitor. 
 
 1. Navigate to **Menu** -> **Network** -> **Server Network Settings** and press **Enter**.
- 
-   >[!NOTE]
-   >Verify the screen is setup to Play Via URL Launcher.
-   >![image](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Navigate to Server address and type in the MagicInfo URL access and press **Done**.
 
