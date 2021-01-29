@@ -111,7 +111,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Searching a Device from the Device Manager {#search-device}
+## Searching a Device from the Device Manager {#search-device}
 
 Once you have registered devices to your player, you can view all the devices from the Device Manager UI.
 
@@ -134,7 +134,7 @@ Once you have registered devices to your player, you can view all the devices fr
      ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Limitations on Search Functionality {#limitations}
+### Limitations on Search Functionality {#limitations}
 
 * User will be able to search any word existing in the *Device ID* or *Device Name*. 
 
