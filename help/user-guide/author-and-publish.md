@@ -158,8 +158,8 @@ On each publish instance:
 1. Select **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 
-* ***Cluster Password***: (use encrypted value from previous step per respective instance)
-* ***Topics***: {name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}
+   * ***Cluster Password***: (use encrypted value from previous step per respective instance)
+   * ***Topics***: {name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}
 
 #### Verify ActiveMQ Artemis Cluster {#verify-activemq-artemis-cluster}
 
