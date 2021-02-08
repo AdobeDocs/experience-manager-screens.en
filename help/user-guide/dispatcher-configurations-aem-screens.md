@@ -42,7 +42,9 @@ If you want to use multiple publish instances fronted by single dispatcher, you 
  }
 ```
 
-If you have one publish instance fronted by one dispatcher, enabling the stickiness at the dispatcher will not help as the load balancer may send each request to dispatcher. In this case, you should enable the stickiness at your load balancer level.
+If you have one publish instance fronted by one dispatcher, enabling the stickiness at the dispatcher will not help as the load balancer may send each request to dispatcher. In this case, click on **Enable** in **Stickiness** field to enable it at your load balancer level, as shown in the figure below:
+
+![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 For example, if you are using AWS ALB, refer to [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for 1 day.
 
