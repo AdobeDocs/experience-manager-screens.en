@@ -25,22 +25,26 @@ Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experie
 
 ## Configuring Dispatcher {#configuring-dispatcher}
 
+AEM Screens players/devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
+
 Follow the steps below to configure dispatcher for an AEM Screens project.
 
 ### Enabling Sticky Sessions {#enable-sticky-session}
 
-If you want to use more than one publish instance with dispatcher, you will have to update the `dispatcher.any` file.
+If you want to use multiple publish instances fronted by single dispatcher, you will have to update the `dispatcher.any` file to enable stickiness
 
 ``` xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+If you have one publish instance fronted by one dispatcher, enabling the stickiness at the dispatcher will not help as the load balancer may send each request to dispatcher. In this case, you should enable the stickiness at your load balancer level.
+
+For example, if you are using AWS ALB, refer to [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for 1 day.
 
 ### Step 1: Configuring Client Headers {#step-configuring-client-headers}
 
