@@ -45,10 +45,10 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Create a display in the **Locations** folder, as shown in the figure below.
+1. Create a location **Lobby** and subesequently a display titled as **LobbyDisplay** in the **Locations** folder, as shown in the figure below.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Assign the channel, **ChannelLobby** to your **LobbyDisplay**.
+1. Assign the channel, **ChannelLobby** to your **LobbyDisplay**. You can now view the assigned channel to the display from the display dashboard.
     ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -61,7 +61,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md)
+   >To learn how to register a device, refer to [Device Registration](/help/user-guide/device-registration.md)
 
 1. For demo purposes, this example showcases a chrome device and a windows player as two separate devices. Both the devices point to the same display.
    ![image1](assets/command-sync6.png)
