@@ -66,6 +66,25 @@ Once you download the application, follow the steps on the player to complete th
 
 Once you have installed the Windows player, you can register multiple players with one configuration.
 
+## Installation using CLI (PowerShell) {#install-powershell}
+
+ 1. Create a custom location **dedicated** for Screens Player, for example: 
+   `C:\Users\User\screens-player`)
+ 1. Install 
+    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+ 1. Open 
+    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Example**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
+
 >[!NOTE]
 >
 >**Bulk Registration of Windows Player**
