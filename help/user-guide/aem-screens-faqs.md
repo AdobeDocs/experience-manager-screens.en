@@ -26,6 +26,12 @@ The following section provides answers to few of the commonly asked FAQs related
 * Check for any scheduled content and if the times are correct. Check if the time set up in the player is correct.
 * Inspect the player console logs and check for any errors. Right click and inspect to see the console logs. If using the windows player press `CTRL + ALT +I` to bring up dev console to view the logs.
 
+### 2. How to resolve Blank Screen Issue in AEM Screens by Creating a Default Channel or Schedule?
+
+To avoid the blank or gray screens in the field, please create a default global channel or schedule, assigned to every display with the least priority 1. In case, something goes wrong with content updates (due to network, player, server, or replication), since the players have this content already cached on the disk, that should play fine and avoid the gray screens.
+
+All the other content  such as channels or schedules will be at priority greater than 1, so the other content takes priority and global channel or schedule content (with priority 1) will only play as a fall-back option.
+
 ## Channel Management {#channel-management}
 
 ### 1. What is the difference between an online and an offline channel? {#what-is-the-difference-between-an-online-and-an-offline-channel}
