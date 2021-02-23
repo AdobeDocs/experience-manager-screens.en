@@ -159,6 +159,24 @@ Follow the steps below to troubleshoot an AEM Screens player that continuously s
 
 1. Check if Apache Sling Resource Resolver Factory configuration is causing internal re-writes.
 
+### How to get the details of the display and device from the player API?
+
+There are two ways to get the details via:
+
+* **an internal JS API**
+* **a ContextHub store**: Three ContextHub stores are defined in `/libs/screens/clientlibs/contexthub` to expose channels, device and, display info.
+
+   Follow the steps below to use these ContentHub store values:
+
+   * Edit the channel properties and set the ContextHub path in the personalization tab to the value (as mentioned above)
+   * In the channel JS, you can use:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
+
 ## General Troubleshooting Tips {#general-troubleshooting-tips}
 
 ### 1. How to Disable Livefyre to avoid A/P Screens Error? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
