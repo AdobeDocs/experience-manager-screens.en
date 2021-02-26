@@ -62,10 +62,6 @@ Once you download the application, follow the steps on the player to complete th
 >
 >If the **State** is **UNREGISTERED**, you can use the **Token** to register the device.
 
-### Bulk Server Configuration: Registering multiple Windows 10 Players with one Configuration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Once you have installed the Windows player, you can register multiple players with one configuration.
-
 ## Installation using CLI (PowerShell) {#install-powershell}
 
  1. Create a custom location **dedicated** for Screens Player, for example: 
