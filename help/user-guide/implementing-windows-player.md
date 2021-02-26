@@ -62,6 +62,10 @@ Once you download the application, follow the steps on the player to complete th
 >
 >If the **State** is **UNREGISTERED**, you can use the **Token** to register the device.
 
+## Changing the Default Options in Windows Installer {#changing-default-options}
+
+Follow this section to learn how to change the default options in Windows Installer and the list of available customizations.
+
 ## Installation using CLI (PowerShell) {#install-powershell}
 
  1. Create a custom location **dedicated** for Screens Player, for example: 
