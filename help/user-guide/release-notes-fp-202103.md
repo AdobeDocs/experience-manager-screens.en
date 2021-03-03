@@ -37,14 +37,17 @@ The Release Date for AEM Screens Feature Pack 202103 is March 08, 2021.
 
 * Offline caches were not created, if the Assignment had *OfflineConfig*.
 
-* Updates to Tizen player issues because the referrer policy strict-origin-when-cross-origin is not supported.
+* Updates to Tizen player that broke because referrer policy strict-origin-when-cross-origin is not supported.
 
-* Changing assigned channel's schedule "Repeats" field was breaking the UI.
+* Log underlying error when SmartSync download fails.
+
+* Changing assigned channel's schedule *Repeats* field was breaking the UI.
 
 * Update offline content was failing with query exceptions.
 
-* SmartSync migration was breaking the player, if cache was not invalidated
+* Time lag between transitions during the interaction in interactive experience is now fixed.
 
+* Failed config update request was causing the blank screen.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
