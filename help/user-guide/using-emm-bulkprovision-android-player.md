@@ -6,7 +6,7 @@ description: Follow this page to learn about Bulk Provisioning of Android Player
 
 # Bulk Provisioning of Android Player using Enterprise Mobility Management {#bulk-provisioning}
 
-When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM Appconfig to allow for remote provisioning. Please follow the below steps to bulk provision your players.
+When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM Appconfig to allow for remote provisioning. 
 
 ## Implementing Bulk Provisioning of Android Player using Enterprise Mobility Management {#implementation}
 
