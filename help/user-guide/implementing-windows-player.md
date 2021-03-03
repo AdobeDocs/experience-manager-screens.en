@@ -85,13 +85,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Bulk Registration of Windows Player**
->
->When implementing the windows player you need not manually configure every single player. Instead, you can update the configuration JSON file after it is tested and is ready for deployment.
->
->The configuration will make sure that all players ping the same server provided in the configuration file. You still must manually register each player.
+## Bulk Registration of Windows Player {#bulk-registration}
+
+When implementing the windows player you need not manually configure every single player. Instead, you can update the configuration JSON file after it is tested and is ready for deployment.
+
+The configuration will make sure that all players ping the same server provided in the configuration file. You still must manually register each player.
 
 Follow the steps below to configure the Windows 10 Player:
 
