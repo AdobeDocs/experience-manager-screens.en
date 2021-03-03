@@ -1,16 +1,16 @@
 ---
-title: Bulk Registration of Players
-seo-title: Bulk Registration of Players
-description: Follow this page to learn about Bulk Registration of Players with AMS/On-Prem Screens.
+title: Auto Registration of Players
+seo-title: Auto Registration of Players
+description: Follow this page to learn about Auto Registration of Players with AMS/On-Prem Screens.
 ---
 
-# Bulk Registration of Players {#bulk-registration}
+# Auto Registration of Players {#auto-registration}
 
 Bulk registering thousands of players manually can become very cumbersome and adds time and cost. To simplify this process, the bulk registration feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or an Mobile Device Management (MDM) solution.
 
-## Implementing Bulk Registration of Players {#bulk-registering-implementation}
+## Implementing Auto Registration of Players {#bulk-registering-implementation}
 
-Follow the steps below to implement bulk registration of players:
+Follow the steps below to implement auto registration of players:
 
 1. Log into your AEM instance and select your AEM screens project and click properties and the Advanced tab.
 1. You should see a bulk registration section where you can specify a bulk registration code and an optional default display to assign to the player that is bulk registered

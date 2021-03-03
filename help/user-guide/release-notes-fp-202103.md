@@ -44,6 +44,7 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 7:
 * Windows
 * Android
 * Tizen
+* Linux
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
