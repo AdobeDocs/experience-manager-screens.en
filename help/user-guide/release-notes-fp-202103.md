@@ -26,11 +26,8 @@ The Release Date for AEM Screens Feature Pack 202103 is March 08, 2021.
 
 * **Bulk Provisioning of Android Player using Enterprise Mobility Management**
    
-   When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM Appconfig to allow for remote provisioning.
+   When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM AppConfig to allow for remote provisioning.
 
-* **Lock Page in an AEM Screens Channel**
-
-   AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) allows you to lock a page, so that no one else can modify the contents. This is useful when you are making a lot of edits to one specific page or when you need to freeze a page for a short while.
 
 ### Bug Fixes {#bug-fixes}
 
