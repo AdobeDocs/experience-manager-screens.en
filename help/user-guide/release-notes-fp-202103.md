@@ -39,8 +39,6 @@ The Release Date for AEM Screens Feature Pack 202103 is March 08, 2021.
 
 * Updates to Tizen player that broke because referrer policy strict-origin-when-cross-origin is not supported.
 
-* Log underlying error when SmartSync download fails.
-
 * Changing assigned channel's schedule *Repeats* field was breaking the UI.
 
 * Update offline content was failing with query exceptions.
