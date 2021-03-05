@@ -103,6 +103,7 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
+    + [Release Notes for Feature Pack 202103](release-notes-fp-202103.md)
     + [Release Notes for Feature Pack 202011](release-notes-fp-202011.md)
     + [Release Notes for Feature Pack 202008](release-notes-fp-202008.md)
     + [Release Notes for Feature Pack 202004](release-notes-fp-202004.md)
