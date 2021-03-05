@@ -37,6 +37,8 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
         + [Android Player](implementing-android-player.md)
         + [Windows Player](implementing-windows-player.md) 
         + [Tizen Player](tizen-player.md)
+        + [Auto Registration of Players](auto-registration-players.md)
+        + [Bulk Provisioning of Android Player using Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
     + Author Publish {#author-publish}
         + [Author-Publish Architectural Overview](author-publish-architecture-overview.md)
         + [Configuring Author and Publish](author-and-publish.md)
