@@ -16,17 +16,22 @@ You can download the latest feature pack for AEM Screens 6.5.7 Release from the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202103 is March 08, 2021.
+The Release Date for AEM Screens Feature Pack 202103 is March 05, 2021.
 
 ### What's New {#what-is-new}
 
-* **AEM Screens Bulk Registration and Assignment** 
+* **AEM Screens Auto Registration of Players** 
 
    Bulk registering thousands of players manually is very cumbersome and adds time and cost. To simplify this process, the Bulk Registration feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or an Mobile Device Management (MDM) solution.
+   
+   Refer to [Auto Registration of Players](/help/user-guide/auto-registration-players.md) for more details.
+
 
 * **Bulk Provisioning of Android Player using Enterprise Mobility Management**
    
    When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM AppConfig to allow for remote provisioning.
+
+   Refer to [Bulk Provisioning of Android Player using Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) for more details.
 
 
 ### Bug Fixes {#bug-fixes}
@@ -38,8 +43,6 @@ The Release Date for AEM Screens Feature Pack 202103 is March 08, 2021.
 * Offline caches were not created, if the Assignment had *OfflineConfig*.
 
 * Updates to Tizen player that broke because referrer policy strict-origin-when-cross-origin is not supported.
-
-* Log underlying error when SmartSync download fails.
 
 * Changing assigned channel's schedule *Repeats* field was breaking the UI.
 
@@ -55,7 +58,6 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 7:
 
 * Chrome OS
 * Windows
-* Android
 * Tizen
 * Linux
 
