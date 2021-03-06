@@ -22,7 +22,7 @@ The Release Date for AEM Screens Feature Pack 202103 is March 05, 2021.
 
 * **AEM Screens Auto Registration of Players** 
 
-   Bulk registering thousands of players manually is very cumbersome and adds time and cost. To simplify this process, the Bulk Registration feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or an Mobile Device Management (MDM) solution.
+   Bulk registering thousands of players manually is very cumbersome and adds time and cost. To simplify this process, the Auto Registration of players feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or an Mobile Device Management (MDM) solution.
    
    Refer to [Auto Registration of Players](/help/user-guide/auto-registration-players.md) for more details.
 
