@@ -21,7 +21,7 @@ docset: aem65
 
 >[!NOTE]
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. You can download the latest feature pack for AEM Screens from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 
 
 This section covers the following topics:
 
