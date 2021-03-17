@@ -17,7 +17,7 @@ docset: aem65
 
 >[!CAUTION]
 >
->This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available, if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
 >
