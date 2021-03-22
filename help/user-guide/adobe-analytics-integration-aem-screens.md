@@ -17,11 +17,11 @@ docset: aem65
 
 >[!CAUTION]
 >
->This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available, if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. You can download the latest feature pack for AEM Screens from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 
 
 This section covers the following topics:
 
