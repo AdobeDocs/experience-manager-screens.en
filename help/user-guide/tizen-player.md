@@ -1,6 +1,9 @@
 ---
 title: Tizen Player
 description: This page describes the installation and working of Tizen Player.
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 ---
 
 # Implementing Tizen Player {#tizen-player}

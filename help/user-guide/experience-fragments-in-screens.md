@@ -10,7 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-
+feature: Authoring Screens, Experience Fragments
+role: Administrator, Developer
+level: Intermediate
 ---
 
 # Using Experience Fragments {#using-experience-fragments}
@@ -64,7 +66,7 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
 1. **Navigate to a Sites page in We.Retail**
 
-    1. Navigate to Sites and select **We.Retail In-Store** -&gt; **Channels** -&gt;**Idle Channel - Night** and select this page to use this as an experience fragment for your Screens channel. 
+    1. Navigate to Sites and select **We.Retail** -&gt; **United States** -&gt; **English** -&gt; **Equipment** and select this page to use this as an experience fragment for your Screens channel. 
     
     1. Click **Edit** from the action bar to open the page you want to use as an experience fragment for your Screens channel.
 
@@ -80,13 +82,15 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
     1. Choose the **Action** as **Create a new Experience Fragment**.
     
     1. Select the **Parent path**.
-    1. Select the **Template**. Choose the **Experience Fragment - Screens Variation** template here.  
+    1. Select the **Template**. Choose the **Experience Fragment - Screens Variation** template here (value in the field `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).  
     
     1. Enter the **Fragment Title** as **ScreensFragment**.
     
     1. Click the check mark to complete the creation of a new experience fragment.
-
+   
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   Note: In order to select easier an option, click on the check mark on the right of the fields to open the selection dialog.
 
 1. **Creating Live Copy of Experience Fragment**
 

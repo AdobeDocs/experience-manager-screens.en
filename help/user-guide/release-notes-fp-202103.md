@@ -1,6 +1,9 @@
 ---
 title: Release Notes for Feature Pack 202103
-description: The page highlights the Release Notes for Feature Pack 202103.
+description: "Follow this page to get information for AEM Screens Feature Pack 202103 released on March 05, 2021."
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 202103 {#release-notes-for-feature-pack}

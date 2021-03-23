@@ -4,6 +4,9 @@ seo-title: Applying Custom Branding and Styling for Text Overlays
 description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
 seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
 contentOwner: Jyotika Syal
+feature: Developing Screens
+role: Developer
+level: Intermediate
 ---
 
 # Custom Branding and Styling for Text Overlays {#creating-custom-branding-styling}

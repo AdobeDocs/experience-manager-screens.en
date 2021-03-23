@@ -4,6 +4,9 @@ seo-title: Creating Custom Templates in MultiZone Layouts
 description: Follow this page to learn about creating custom templates in MultiZone layouts.
 seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
 contentOwner: Jyotika Syal
+feature: Developing Screens
+role: Developer
+level: Intermediate
 ---
 
 # Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}

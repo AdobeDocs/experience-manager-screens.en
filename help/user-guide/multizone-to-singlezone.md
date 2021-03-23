@@ -3,6 +3,9 @@ title: MultiZone to SingleZone Transitions Use Case
 description: Follow this page to learn about MultiZone to SingleZone Transitions use case.
 seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 ---
 
 # Multi-Zone to Single-Zone Transition {#multizone-to-singlezone-use-case}

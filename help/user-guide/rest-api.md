@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
+feature: Developing Screens
+role: Developer
+level: Intermediate
 ---
 
 # REST APIs{#rest-apis}

@@ -4,6 +4,9 @@ seo-title: Single Use TakeOver Channel
 description: Follow this Use Case for creating a Single Use TakeOver Channel.
 seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
 contentOwner: jsyal
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 ---
 
 # Single Use TakeOver Channel {#single-use-takeover-channel}

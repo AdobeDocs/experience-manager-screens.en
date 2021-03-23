@@ -1,8 +1,11 @@
 ---
 title: Using Chrome Player as an Extension
 seo-title: Using Chrome Player as an Extension
-description: null
+description: Follow this page to learn about installing the chrome player as a browser extension.
 seo-description: null
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 ---
 
 # Using Chrome Player as an Extension {#using-chrome-player}

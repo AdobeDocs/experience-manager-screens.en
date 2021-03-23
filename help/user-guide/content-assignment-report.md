@@ -1,6 +1,9 @@
 ---
 title: Content Assignment Report
 description: This page describes the downloading and usage of Content  Assignment Report.
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 ---
 
 # Content Assignment Report {#content-assignment-report}
