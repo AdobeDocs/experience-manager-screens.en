@@ -9,9 +9,8 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 

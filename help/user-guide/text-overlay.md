@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 

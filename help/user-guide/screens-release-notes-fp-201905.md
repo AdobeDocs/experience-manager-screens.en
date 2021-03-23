@@ -10,7 +10,6 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-
 feature: Feature Pack
 role: Developer
 level: Intermediate

@@ -6,7 +6,7 @@ seo-description: Follow this page to learn how to apply transitions to your Scre
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 

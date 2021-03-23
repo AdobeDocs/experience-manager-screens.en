@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
-feature: "Channels, Interactive"
+feature: Channels, Interactive
 role: Developer
 level: Intermediate
 ---

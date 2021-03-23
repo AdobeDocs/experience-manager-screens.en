@@ -10,8 +10,8 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: "Authoring Screens, Channel Level Activation"
-role: "Administrator, Developer"
+feature: Authoring Screens, Channel Level Activation
+role: Administrator, Developer
 level: Intermediate
 ---
 

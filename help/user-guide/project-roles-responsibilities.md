@@ -3,7 +3,7 @@ title: "Part 1: Project Roles and Responsibilities"
 seo-title: "Part 1: Project Roles and Responsibilities"
 description: Follow this tutorial to better understand roles, responsibilities and time lines required during the sales and project life cycles for a digital signage project.
 feature: Overview
-role: "Business Practitioner, Data Architect"
+role: Business Practitioner, Data Architect
 level: Beginner
 ---
 

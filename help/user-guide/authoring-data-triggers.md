@@ -3,7 +3,7 @@ title: Authoring with Data Triggers
 seo-title: Authoring with Data Triggers
 description: Follow this page to learn how to author with data triggers.
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 

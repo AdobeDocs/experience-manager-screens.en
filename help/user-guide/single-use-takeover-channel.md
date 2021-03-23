@@ -5,7 +5,7 @@ description: Follow this Use Case for creating a Single Use TakeOver Channel.
 seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
 contentOwner: jsyal
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 

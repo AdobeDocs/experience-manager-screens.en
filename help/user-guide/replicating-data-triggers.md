@@ -3,7 +3,7 @@ title: Replicate data-triggers to publish servers
 seo-title: Replicate data-triggers to publish server
 description: Follow this page to learn how to replicate data triggers to publish server.
 seo-description: Replicate data-triggers to publish server.
-feature: "Administering Screens, Data Trigger"
+feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 ---

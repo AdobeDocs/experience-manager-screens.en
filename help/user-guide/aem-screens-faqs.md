@@ -5,7 +5,7 @@ description: Follow this page to get answers to FAQs related to an AEM Screens p
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: "Digital Signage, Content"
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 ---

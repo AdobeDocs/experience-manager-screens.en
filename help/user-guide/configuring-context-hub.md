@@ -10,7 +10,6 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-
 feature: Developing Screens
 role: Developer
 level: Intermediate

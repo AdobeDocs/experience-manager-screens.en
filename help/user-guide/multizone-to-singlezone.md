@@ -4,7 +4,7 @@ description: Follow this page to learn about MultiZone to SingleZone Transitions
 seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
-role: "Developer, Business Practitioner"
+role: Developer, Business Practitioner
 level: Intermediate
 ---
 

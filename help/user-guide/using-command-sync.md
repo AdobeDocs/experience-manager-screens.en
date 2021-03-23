@@ -4,7 +4,7 @@ seo-title: Using Command Sync
 description: Follow this page to learn about how to use Command Sync.
 seo-description: Follow this page to learn about how to use Command Sync.
 feature: Authoring Screens
-role: "Administrator, Developer"
+role: Administrator, Developer
 level: Intermediate
 ---
 
