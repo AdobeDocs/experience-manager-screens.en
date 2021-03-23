@@ -36,7 +36,6 @@ feature-set: Experience Manager Screens
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
         + [Android Player](implementing-android-player.md)
-        + [Bulk Provisioning of Android Player using Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
         + [Windows Player](implementing-windows-player.md) 
         + [Tizen Player](tizen-player.md)
         + [Auto Registration of Players](auto-registration-players.md)

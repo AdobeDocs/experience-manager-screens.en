@@ -34,7 +34,7 @@ The Release Date for AEM Screens Feature Pack 202103 is March 05, 2021.
    
    When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM AppConfig to allow for remote provisioning.
 
-   Refer to [Bulk Provisioning of Android Player using Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) for more details.
+   Refer to [Bulk Provisioning of Android Player using Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) for more details.
 
 
 ### Bug Fixes {#bug-fixes}

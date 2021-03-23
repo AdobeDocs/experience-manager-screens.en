@@ -179,8 +179,8 @@ Follow the steps below to allow bulk provisioning in Android Player:
 1. Ensure your Android device supports Google Play services.
 1. Enroll your Android player devices with your favorite EMM solution that supports AppConfig. 
 1. Log into your EMM console and pull the AEM Screens Player application from Google Play.
-1. Select managed configuration (or related option).
-1. You should now see a list of player options that can be configured (such as server and bulk registration code).
+1. Select managed configuration or related option.
+1. You should now see a list of player options that can be configured, such as server and bulk registration code.
 1. Configure these parameters, save, and deploy the policy to the devices.
 
    >[!NOTE]
