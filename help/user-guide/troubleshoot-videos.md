@@ -1,7 +1,7 @@
 ---
 title: Video Playback Configuration and Troubleshooting
 seo-title: Troubleshooting Videos
-description:
+description: Follow this page to learn how to debug and troubleshoot video playing in your channel.
 seo-description: Follow this page to learn how to troubleshoot videos. When you upload a video to the DAM and add it your channel, you might encounter issues that video might not play in Screens player and this section describes how to debug and troubleshoot video playing in your channel.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: Channels, Interactive
+role: Developer
+level: Intermediate
 ---
 
 # Video Playback Configuration and Troubleshooting {#video-playback-configuration-and-troubleshooting}

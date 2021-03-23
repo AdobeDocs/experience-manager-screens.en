@@ -10,7 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-
+feature: Administering Screens, Windows Player
+role: Administrator
+level: Intermediate
 ---
 
 # Implementing Windows 10 Player {#implementing-windows-player}

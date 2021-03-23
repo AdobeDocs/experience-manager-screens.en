@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 ---
 
 # Working with AEM Screens Player {#working-with-aem-screens-player}

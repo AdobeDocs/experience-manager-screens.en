@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 ---
 
 # Setting up ACLs {#setting-up-acls}

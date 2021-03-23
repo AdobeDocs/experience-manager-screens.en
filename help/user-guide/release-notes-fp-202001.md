@@ -3,6 +3,9 @@ title: Release Notes for Feature Pack 202001
 seo-title: Release Notes for Feature Pack 202001
 description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 202001{#release-notes-for-feature-pack}
