@@ -1,6 +1,9 @@
 ---
 title: Release Notes for Feature Pack 202011
-description: The page describes Release Notes for Feature Pack 202011.
+description: "Follow this page to get information for AEM Screens Feature Pack 202011 released on November 30, 2020."
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 202011 {#release-notes-for-feature-pack}

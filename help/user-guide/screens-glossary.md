@@ -3,6 +3,9 @@ title: Glossary
 seo-title: Glossary
 description: Follow this page to understand the key terms associated with AEM Screens.
 seo-description: Follow this page to understand the key terms associated with AEM Screens.
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Glossary {#glossary}

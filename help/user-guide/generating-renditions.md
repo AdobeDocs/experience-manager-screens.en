@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 ---
 
 # Video Renditions {#video-renditions}

@@ -10,7 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-
+feature: Administering Screens, Android Player
+role: Administrator
+level: Intermediate
 ---
 
 # Implementing Android Player {#implementing-android-player}
