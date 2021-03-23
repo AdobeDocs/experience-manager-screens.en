@@ -1,8 +1,11 @@
 ---
 title: Security Checklist
 seo-title: Security Checklist
-description: The page describes Security Checklist
+description: The page describes the key security areas with a checklist of questions and considerations.
 seo-description: The page describes Security Checklist
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 ---
 
 # AEM Screens Security Checklist  {#security-checklist}

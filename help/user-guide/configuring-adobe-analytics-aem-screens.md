@@ -11,6 +11,9 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 
+feature: Administering Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Configuring Adobe Analytics with AEM Screens {#configuring-adobe-analytics-with-aem-screens}

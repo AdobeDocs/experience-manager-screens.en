@@ -10,6 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
+feature: "Authoring Screens, Launches"
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Content Update using Screens Launch {#launches}

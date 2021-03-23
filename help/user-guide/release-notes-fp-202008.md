@@ -1,6 +1,9 @@
 ---
 title: Release Notes for Feature Pack 202008
-description: The page describes Release Notes for Feature Pack 202008.
+description: "Follow this page to get information for AEM Screens Feature Pack 202008 released on September 03, 2020."
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 202008 {#release-notes-for-feature-pack}

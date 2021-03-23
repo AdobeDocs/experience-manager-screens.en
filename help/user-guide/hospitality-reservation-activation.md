@@ -11,6 +11,9 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Hospitality Reservation Activation {#hospitality-reservation-activation}

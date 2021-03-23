@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Creating and Managing Displays {#creating-and-managing-displays}

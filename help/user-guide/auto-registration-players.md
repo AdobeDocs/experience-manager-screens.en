@@ -2,6 +2,9 @@
 title: Auto Registration of Players
 seo-title: Auto Registration of Players
 description: Follow this page to learn about Auto Registration of Players with AMS/On-Prem Screens.
+feature: "Administering Screens, Players"
+role: Administrator
+level: Intermediate
 ---
 
 # Auto Registration of Players {#auto-registration}

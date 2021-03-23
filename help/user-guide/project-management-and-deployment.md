@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 
+feature: Overview
+role: "Business Practitioner, Data Architect"
+level: Beginner
 ---
 
 # Part 4: Project Management and Deployment {#part-project-management-and-deployment}

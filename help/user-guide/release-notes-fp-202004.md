@@ -3,6 +3,9 @@ title: Release Notes for Feature Pack 202004
 seo-title: Release Notes for Feature Pack 202004
 description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 202004 {#release-notes-for-feature-pack}

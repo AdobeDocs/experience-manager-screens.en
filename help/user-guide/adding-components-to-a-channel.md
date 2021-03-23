@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Adding Components to a Channel{#adding-components-to-a-channel}

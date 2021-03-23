@@ -11,6 +11,9 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Channel Level Bulk Image Playback Duration {#channel-level-bulk-image-playback-duration}

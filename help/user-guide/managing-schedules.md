@@ -9,6 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Creating and Managing Schedules {#creating-and-managing-schedules}

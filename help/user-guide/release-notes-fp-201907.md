@@ -11,6 +11,9 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 201907 {#release-notes-for-feature-pack}

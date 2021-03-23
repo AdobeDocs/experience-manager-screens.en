@@ -11,6 +11,8 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 
+role: Administrator
+level: Intermediate
 ---
 
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}

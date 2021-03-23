@@ -3,6 +3,9 @@ title: Creating and Managing Channels
 seo-title: Managing Channels
 description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
 seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+feature: Authoring Screens
+role: "Administrator, Developer"
+level: Intermediate
 ---
 
 # Creating and Managing Channels {#creating-and-managing-channels}

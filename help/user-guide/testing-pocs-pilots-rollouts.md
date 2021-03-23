@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 
+feature: Overview
+role: "Business Practitioner, Data Architect"
+level: Beginner
 ---
 
 # Part 3: Testing, POCs, Pilots & Rollouts {#part-testing-pocs-pilots-rollouts}

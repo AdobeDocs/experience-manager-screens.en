@@ -3,6 +3,9 @@ title: Release Notes for Feature Pack 201909
 seo-title: Release Notes for Feature Pack 201909
 description: Follow this page to get information for AEM Screens Feature Pack 201909 released on July 31, 2019.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201909 released on October 07, 2019.
+feature: Feature Pack
+role: Developer
+level: Intermediate
 ---
 
 # Release Notes for Feature Pack 201909{#release-notes-for-feature-pack}

@@ -1,9 +1,12 @@
 ---
 title: Installing Screens Player
 seo-title: Installing Screens Player
-description: Installing Screens Player
+description: Follow this page to learn about the installation of available AEM Screens Player.
 seo-description: Installing Screens Player
 contentOwner: jsyal
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 ---
 
 # Installing AEM Screens Player {#installing-player}
