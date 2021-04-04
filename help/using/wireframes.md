@@ -3,8 +3,8 @@ title: Wireframes
 seo-title: Wireframes for AEM Screens
 description: The page describes Wireframes for an AEM Screens project
 seo-description: The page describes Wireframes for an AEM Screens project
+exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 ---
-
 # Wireframes {#wireframes}
 
 >[!NOTE]
@@ -28,4 +28,3 @@ From a **Channel Level view**, we should create wireframes that show how channel
 On a **Project Level**, we can start to model how multiple screens or experiences can work together in a physical space to provide a complete multi-touchpoint user journey. 
 
 This should align with the UX Journey map previously created.
-

@@ -3,8 +3,8 @@ title: About this Guide
 seo-title: Description on the Guide
 description: This page describes the intent of the Best Practices Guide
 seo-description: This page describes the intent of the Best Practices Guide
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 ---
-
 # About this Guide {#about-guide}
 
 The AEM Screens Best Practices Guide intends to provide guidance on how to successfully plan and execute an AEM Screens project.

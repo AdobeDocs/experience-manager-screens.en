@@ -7,8 +7,8 @@ contentOwner: jsyal
 feature: Administering Screens
 role: Administrator
 level: Intermediate
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 ---
-
 # Installing AEM Screens Player {#installing-player}
 
 This page describes how to install AEM Screens player.

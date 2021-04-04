@@ -12,8 +12,8 @@ discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
 ---
-
 # AEM Screens Notifications Service{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->

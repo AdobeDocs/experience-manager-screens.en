@@ -4,8 +4,8 @@ description: The page describes voice recognition feature in AEM Screens.
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 ---
-
 # Voice Recognition in AEM Screens {#voice-recognition}
 
 >[!IMPORTANT]
@@ -178,8 +178,3 @@ Similarly, if you use word with a keyword **cold** such as *I would like to have
 **Desired Output for Split Screens Channel**
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel. If you say *back to main menu*, it switches back to the main channel.
-
-
-
-
-

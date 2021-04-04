@@ -3,8 +3,8 @@ title: Project Taxonomy
 seo-title: Project Taxonomy 
 description: This page describes Project Taxonomy
 seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 ---
-
 # Project Taxonomy {#project-taxonomy}
 
 >[!NOTE]

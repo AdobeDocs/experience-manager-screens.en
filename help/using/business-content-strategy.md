@@ -3,8 +3,8 @@ title: Business Content Strategy for [!UICONTROL AEM Screens]
 seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: The guide describes the Business Content Strategy
 seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 ---
-
 # Business Content Strategy {#business-content}
 
 >[!NOTE]

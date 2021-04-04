@@ -6,8 +6,8 @@ seo-description: Follow this page to understand the key terms associated with AE
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 ---
-
 # Glossary {#glossary}
 
 **Application Channel** An Application Channel shows an application created by a developer that displays interactive content.

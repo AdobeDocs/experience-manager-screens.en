@@ -6,8 +6,8 @@ seo-description: This page highlights guidelines for configuring dispatcher for 
 feature: Administering Screens
 role: Developer, Business Practitioner
 level: Intermediate
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 ---
-
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher is Adobe Experience Manager's caching and/or load balancing tool.

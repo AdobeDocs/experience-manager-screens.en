@@ -3,8 +3,8 @@ title: Prerequisites [!UICONTROL AEM Screens]
 seo-title: Prerequisites for [!UICONTROL AEM Screens] Projects
 description: The guide describes what are the pre-requisites before starting an AEM Screens project.
 seo-description: The guide describes what are the pre-requisites before starting an AEM Screens project.
+exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
 ---
-
 # Pre-requisites {#prerequisites}
 
 Before diving deep into details of implementing an AEM Screens project, it is recommended you follow specific tutorials and reading materials.

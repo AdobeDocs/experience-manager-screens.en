@@ -12,8 +12,8 @@ discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: Channels, Interactive
 role: Developer
 level: Intermediate
+exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 ---
-
 # Video Playback Configuration and Troubleshooting {#video-playback-configuration-and-troubleshooting}
 
 When you upload a video to the DAM and add it your channel, you might encounter issues that video might not play in Screens player.
@@ -151,4 +151,3 @@ Follow the steps below to set up an absolute strategy:
 1. Start the 2+ players
 
 It may take some time before the players start a new aligned sequence.
-

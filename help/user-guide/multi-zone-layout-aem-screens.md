@@ -13,8 +13,8 @@ noindex: true
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 ---
-
 # Multi-zone Layout {#multi-zone-layout}
 
 The following page describes the usage of multi-zone layout and covers the following topics:
@@ -185,5 +185,3 @@ Check the Screens player to view the output that displays the content in two dif
 The left zone is a sequence channel and the right zone includes a video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-

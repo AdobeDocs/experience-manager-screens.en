@@ -7,8 +7,8 @@ contentOwner: jsyal
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 ---
-
 # Single Use TakeOver Channel {#single-use-takeover-channel}
 
 The following page showcases a use case that emphasizes on setting up a project on how to create a Single TakeOver channel that plays just once for a specific time.

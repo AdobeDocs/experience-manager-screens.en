@@ -13,8 +13,8 @@ docset: aem65
 
 role: Administrator
 level: Intermediate
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 ---
-
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 This page shows how to install and configure the Screens players on your devices.
@@ -146,11 +146,3 @@ Set the ***Java encoding*** to Unicode. For example, *Dfile.encoding=Cp1252* wil
 >[!NOTE]
 >**Recommendation:**
 >It is recommended to use HTTPS for AEM Screens Server in production use.
-
-
-
-
-
-
-
-

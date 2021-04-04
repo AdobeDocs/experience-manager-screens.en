@@ -3,8 +3,8 @@ title: Recommended Approach
 seo-title: Recommended Approach in an AEM Screens Project
 description: The page describes recommended approach in an AEM Screens project
 seo-description: The page describes recommended approach in an AEM Screens project
+exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 ---
-
 # Recommended Approach {#recommended-approach}
 
 It is a recommended best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or will be deployed to a variety of devices and locations.
@@ -50,4 +50,3 @@ Refer to the few recommendations before developing and deploying a digital signa
 
 * **Understanding Scope of Custom Integrations**:
  Interactive components with touch screen interaction, motion sensor, or RFID  will require significant custom development in the implementation method. A slideshow, video advertisement, or static menu can be delivered as graphical content or HTML on a Screens channel.
-

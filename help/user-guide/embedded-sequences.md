@@ -13,8 +13,8 @@ docset: aem65
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 ---
-
 # Embedded Sequences {#embedded-sequences}
 
 Using ***Embedded Sequences***, for channels, allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
@@ -98,4 +98,3 @@ Follow the steps below to add an embedded sequence to your channel:
 1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
 
 ![latest](assets/latest.gif)
-

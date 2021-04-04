@@ -13,8 +13,8 @@ docset: aem65
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
 ---
-
 # Adding Components to a Channel{#adding-components-to-a-channel}
 
 Components are the fundamental elements of the AEM (Adobe Experience Manager) experience. You can use a number of components and add it to your channel in an AEM Screens project.
@@ -330,4 +330,3 @@ The video component has the following properties:
   </tr>
  </tbody>
 </table>
-
