@@ -13,7 +13,7 @@ level: Intermediate
 
 # Use workflow to automate asset updates for an AEM Screens channel {#automate-channel-updates-workflow}
 
-Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel. In this example when an image is added to a specific folder, a workflow is triggered that applies a dynamic watermark and assigns the image to a Screens channel. Lessons learned from this example can be applied to a wide variety of automation scenarios.
+Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel. In this example, when an image is added to a specific folder, a workflow is triggered that applies a dynamic text overlay (watermark process) and assigns the image to a Screens channel. Lessons learned from this example can be applied to a wide variety of automation scenarios.
 
 ## Prerequisites {#prerequisites}
 
