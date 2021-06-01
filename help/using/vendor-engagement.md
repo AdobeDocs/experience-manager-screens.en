@@ -3,8 +3,8 @@ title: Vendor Engagement
 seo-title: Vendor Engagement for AEM Screens
 description: The page describes Vendor Engagement for AEM Screens Best Practices Guide
 seo-description: The page describes Vendor Engagement for AEM Screens Best Practices Guide
-exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
 ---
+
 # Vendor Engagement {#vendor-engagement}
 
 >[!NOTE]

@@ -12,8 +12,8 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: Developing Screens
 role: Developer
 level: Intermediate
-exl-id: 4d673039-4963-458a-89e9-023a993dd354
 ---
+
 # Creating Components {#creating-components}
 
 AEM components are used to hold, format, and render the content made available on your webpages.
@@ -52,3 +52,4 @@ The built-in components leverage the following client library categories:
 >[!NOTE]
 >
 >To develop custom components, use the ***[AEM Screens sample component template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+

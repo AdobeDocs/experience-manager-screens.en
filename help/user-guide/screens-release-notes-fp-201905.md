@@ -13,8 +13,8 @@ docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 ---
+
 # Release Notes for Feature Pack 201905 {#release-notes-for-feature-pack}
 
 >[!CAUTION]

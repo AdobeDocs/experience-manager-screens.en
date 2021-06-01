@@ -12,8 +12,8 @@ discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 ---
+
 # Creating and Managing Displays {#creating-and-managing-displays}
 
 A display is a virtual grouping of screens that are usually positioned next to each other. The display is usually permanent in respect to an installation. This will be the object content authors will work with and always reference to as logical display rather than their physical counter part(s).

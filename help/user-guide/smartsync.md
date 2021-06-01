@@ -12,8 +12,8 @@ docset: aem65
 feature: Administering Screens
 role: Administrator
 level: Intermediate
-exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 ---
+
 # Transitioning from ContentSync to SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 This section provides an overview to SmartSync feature and how it minimizes server load/storage and network traffic to reduce cost.

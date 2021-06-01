@@ -13,8 +13,8 @@ docset: aem65
 feature: Administering Screens, Device Registration
 role: Administrator
 level: Intermediate
-exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
 ---
+
 # Device Registration {#device-registration}
 
 The following page describes the device registration process in an AEM Screens project.

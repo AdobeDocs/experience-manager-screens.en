@@ -4,8 +4,8 @@ description: This page describes the downloading and usage of Content  Assignmen
 feature: Authoring Screens
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 ---
+
 # Content Assignment Report {#content-assignment-report}
 
 The Content Assignment Report feature allows an AEM Screens administrator or an author to export a *Content Assignment Report* in a spreadsheet format.
@@ -51,3 +51,4 @@ Follow the instructions below to download the Content Assignment Report:
 1. A excel sheet is downloaded to your local machine with the prefixed identical name as your AEM Screens project name. For instance, if your project name is **DemoScreens**, the downloaded filename will be **demoscreens-content-assignment-report.xlxs**.
 
    ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
+

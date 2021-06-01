@@ -13,8 +13,8 @@ docset: aem65
 feature: Administering Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 ---
+
 # Configuring Adobe Analytics with AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
@@ -325,3 +325,4 @@ The following table summarizes the standard data model for events. It lists all 
   </tr>
  </tbody>
 </table>
+

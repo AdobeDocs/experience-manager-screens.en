@@ -13,8 +13,8 @@ docset: aem65
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 ---
+
 # Part 4: Project Management and Deployment {#part-project-management-and-deployment}
 
 This page highlights part 4 of a 5-part series designed to cover project management and deployment preparation and define key factors the AV Integrator is accountable for related to project management and deployment preparation.
@@ -87,3 +87,4 @@ Follow this tutorial to learn about project management and deployment preparatio
 Once you are thorough with key considerations surrounding Project Management for AEM Screens Deployments;
 
 Navigate to **[Part 5: Support Considerations](support-considerations.md)** to understand Day 2 Support and the processes involved.
+

@@ -3,8 +3,8 @@ title: Journey Map
 seo-title: Journey Map for AEM Screens
 description: The page describes Journey Map for AEM Screens
 seo-description: The page describes Journey Map for AEM Screens
-exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 ---
+
 # UX Journey Map {#journey-map}
 
 >[!NOTE]

@@ -13,8 +13,8 @@ docset: aem65
 feature: Administering Screens, Windows Player
 role: Administrator
 level: Intermediate
-exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 ---
+
 # Implementing Windows 10 Player {#implementing-windows-player}
 
 This section describes configuring AEM Screens Windows 10 player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
@@ -177,3 +177,4 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+

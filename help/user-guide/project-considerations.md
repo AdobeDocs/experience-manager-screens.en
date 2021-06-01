@@ -13,8 +13,8 @@ docset: aem65
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 ---
+
 # Part 2: Considerations as Projects are Scoped {#part-considerations-as-projects-are-scoped}
 
 This page highlights part 2 of a 5-part series designed to help team members better understand pre-sales aspects for developing successful AEM Screens deployments.
