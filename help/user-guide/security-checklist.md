@@ -6,8 +6,8 @@ seo-description: The page describes Security Checklist
 feature: Administering Screens
 role: Administrator
 level: Intermediate
-exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
 ---
+
 # AEM Screens Security Checklist  {#security-checklist}
 
 The AEM Screens Security Checklist page describes the key security areas with a checklist of questions and  considerations.

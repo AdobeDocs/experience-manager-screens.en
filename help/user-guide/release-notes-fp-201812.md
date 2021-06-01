@@ -13,8 +13,8 @@ noindex: true
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 ---
+
 # Release Notes for Feature Pack 201812{#release-notes-for-feature-pack}
 
 >[!CAUTION]

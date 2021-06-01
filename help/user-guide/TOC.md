@@ -1,10 +1,11 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Learn to use a Digital Signage Solution that allows you to publish dynamic and interactive digital experiences and interactions.
+feature-set: Experience Manager Screens
 ---
 
 # AEM Screens User Guide {#user-guide}
@@ -97,7 +98,6 @@ user-guide-description: Learn to use a Digital Signage Solution that allows you 
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
     + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
     + [Applying Custom Branding and Styling for Text Overlays](custom-branding-text-overlays.md)
-    + [Automate channel updates with workflow](automate-channel-updates-workflow.md)
 + Troubleshooting and FAQ's {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)

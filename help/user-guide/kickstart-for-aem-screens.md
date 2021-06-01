@@ -5,8 +5,8 @@ description: Follow this page to create a demo AEM Screens project. It helps you
 feature: Overview, Digital Signage
 role: Business Practitioner
 level: Beginner
-exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 ---
+
 # Kickstart Guide {#kickstart-guide}
 
 The kickstart to AEM Screens demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens player.

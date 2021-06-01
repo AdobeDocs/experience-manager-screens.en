@@ -12,8 +12,8 @@ docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
-exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 ---
+
 # Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 This section describes how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
@@ -132,3 +132,4 @@ Follow the steps below to integrate the SPA with Adobe Analytics with offline ca
    >[!NOTE]
    >
    >The player firmware automatically adds more details about the player and its runtime environment to the custom analytics data that you send. Hence you may not need to capture low level OS/device details unless absolutely necessary. You just need to focus on the business analytics data.
+

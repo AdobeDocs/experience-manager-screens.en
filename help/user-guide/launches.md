@@ -13,8 +13,8 @@ docset: aem65
 feature: Authoring Screens, Launches
 role: Administrator, Developer
 level: Intermediate
-exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 ---
+
 # Content Update using Screens Launch {#launches}
 
 Content authors can create future version of the channel(s), known as **Screens Launch** and further set the live date for this launch. This allows allows the content to be live in devices or players on the specified live date.
@@ -201,3 +201,4 @@ You can delete the launch using **Delete Launch** option from the **PENDING LAUN
 >[!CAUTION]
 >
 >This action will delete all the descendants (nested launches) also.
+

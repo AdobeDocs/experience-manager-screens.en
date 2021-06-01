@@ -3,8 +3,8 @@ title: Day Two Support and Maintenance
 seo-title: Day Two Support and Maintenance for AEM Screens
 description: The page describes Day Two Support and Maintenance
 seo-description: The page describes Day Two Support and Maintenance
-exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
 ---
+
 # Day Two Platform Support and Maintenance {#day-two-support-maintenance}
 
 AEM Screens requires several packages in order for projects to function. All environments should be running the same version of Adobe Experience Manager.

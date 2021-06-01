@@ -7,8 +7,8 @@ contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
-exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 ---
+
 # Custom Branding and Styling for Text Overlays {#creating-custom-branding-styling}
 
 Follow this page to learn how to apply custom branding and styling for Text Overlays applied to your assets in an AEM Screens channel.
@@ -125,3 +125,12 @@ Follow the steps below to view the updated design to text overlay:
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Now you are ready to update your brand and custom styling for text overlays added to your assets.
+
+
+
+
+
+
+
+
+

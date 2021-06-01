@@ -12,8 +12,8 @@ docset: aem65
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
-exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 ---
+
 # Emergency Channel {#emergency-channel}
 
 ## Use Case Description {#use-case-description}

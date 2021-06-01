@@ -6,8 +6,8 @@ seo-description: Follow this page to learn how to activate a specific asset in a
 feature: Authoring Screens, Asset Level Activation
 role: Administrator, Developer
 level: Intermediate
-exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 ---
+
 # Asset Level Activation {#asset-level-scheduling}
 
 This page describes asset level activation for the assets used in Channels.
@@ -215,3 +215,4 @@ Follow the steps below to select multiple assets and schedule their display in a
    >The schedule icon is visible on the top right corner to those assets that have muti-asset activation.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+

@@ -13,8 +13,8 @@ docset: aem65
 feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
-exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 ---
+
 # Troubleshooting Device Control Center {#troubleshooting-device-control-center}
 
 You can monitor and troubleshoot performance for your Screens player activity and device using the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.

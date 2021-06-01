@@ -3,8 +3,8 @@ title: Basics Of Digital Signage for [!UICONTROL AEM Screens]
 seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
 description: The guide describes the basics of a digital signage project
 seo-description: The guide describes the basics of a digital signage project
-exl-id: e3913be2-9028-4773-a034-e16924a71e04
 ---
+
 # Basics of a Digital Signage Project {#basics-digital-signage}
 
 Before diving into AEM Screens implementation best practices, it is important to think of the project as a digital signage project, instead of a traditional software development.

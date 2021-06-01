@@ -3,8 +3,8 @@ title: Prototypes
 seo-title: Prototypes
 description: This page describes Prototypes for an AEM Screens Project
 seo-description: The page describes Prototypes for an AEM Screens Project
-exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 ---
+
 # User Experience Prototyping {#prototypes}
 
 >[!NOTE]

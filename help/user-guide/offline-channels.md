@@ -13,8 +13,8 @@ docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
-exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 ---
+
 # Offline Channels {#offline-channels}
 
 The Screens player provides offline support for the channels by leveraging the ***ContentSync*** technology.
