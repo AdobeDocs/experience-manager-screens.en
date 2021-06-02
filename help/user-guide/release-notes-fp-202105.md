@@ -18,7 +18,7 @@ You can download the latest feature pack for AEM Screens 6.5.8 Release from the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202105 is June 01, 2021.
+The Release Date for AEM Screens Feature Pack 202105 is June 03, 2021.
 
 ### What's New {#what-is-new}
 
@@ -33,6 +33,7 @@ The Release Date for AEM Screens Feature Pack 202105 is June 01, 2021.
 
 ### Bug Fixes {#bug-fixes}
 
+* Improved channel manifest generation performances.
 * Player displayed a black screen when switching to channel contains dynamic embedded sequence.
 * The Screens players now block the switching to any broken channel that further avoids 404 error or a page with an error message.
 
@@ -45,7 +46,6 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 8:
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
