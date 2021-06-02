@@ -32,7 +32,7 @@ The Release Date for AEM Screens Feature Pack 202105 is June 03, 2021.
 
 ### Bug Fixes {#bug-fixes}
 
-* Player displayed a black screen when switching to channel contains dynamic embedded sequence.
+* Player displayed a black screen when switching to channel containing dynamic embedded sequence.
 * The Screens players now block the switching to any broken channel that further avoids 404 error or a page with an error message.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
