@@ -22,7 +22,10 @@ The Release Date for AEM Screens Feature Pack 202105 is June 03, 2021.
 
 ### What's New {#what-is-new}
 
-* Lock Page
+* **Lock Page in an AEM Screens Channel**
+
+   AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) allows you to lock a page, so that no one else can modify the contents. This is useful when you are making a lot of edits to one specific page or when you need to freeze a page for a short while.
+
 
 ### Bug Fixes {#bug-fixes}
 
