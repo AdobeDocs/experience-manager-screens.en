@@ -1,11 +1,11 @@
 ---
-title: Release Notes for Feature Pack 202106
-description: "Follow this page to get information for AEM Screens Feature Pack 202106 released on June 04, 2021."
+title: Release Notes for Feature Pack 202105
+description: "Follow this page to get information for AEM Screens Feature Pack 202105 released on June 04, 2021."
 feature: Feature Pack
 role: Developer
 level: Intermediate
 ---
-# Release Notes for Feature Pack 202106 {#release-notes-for-feature-pack}
+# Release Notes for Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
@@ -18,7 +18,7 @@ You can download the latest feature pack for AEM Screens 6.5.8 Release from the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202106 is June 04, 2021.
+The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
 
 ### What's New {#what-is-new}
 

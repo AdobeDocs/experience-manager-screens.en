@@ -103,7 +103,7 @@ feature-set: Experience Manager Screens
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
-    + [Release Notes for Feature Pack 202106](release-notes-fp-202106.md)
+    + [Release Notes for Feature Pack 202105](release-notes-fp-202105.md)
     + [Release Notes for Feature Pack 202103](release-notes-fp-202103.md)
     + [Release Notes for Feature Pack 202011](release-notes-fp-202011.md)
     + [Release Notes for Feature Pack 202008](release-notes-fp-202008.md)
