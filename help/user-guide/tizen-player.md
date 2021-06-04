@@ -32,6 +32,15 @@ Follow the steps below:
 
 1. The Tizen player will download the installer from the local server.
 
+### Naming Tizen Player {#name-tizen}
+
+You can assign a user friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Tizen player but also allows to you to easily assign appropriate content.
+
+Follow the steps below to configure the name in Tizen player:
+
+1. Click the menu button on your remote.
+1. Navigate to **network** --> **Device Name** to assign a name to the player.
+
 ### Configuring Updates on the Samsung Device {#config-updates}
 
 Follow the steps below on the Samsung device to complete the installation of the AEM Screens player on the device:
