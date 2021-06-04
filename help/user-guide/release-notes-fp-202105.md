@@ -33,10 +33,10 @@ The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
    
    Refer to the following documentation to learn how to configure the name in each supported Operating System:
     
-      * [Android](/help/user-guide/implementing-android-player.md#name-android)
-      * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-      * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-      * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Manifest Generation**
 
