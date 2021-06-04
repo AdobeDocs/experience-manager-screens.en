@@ -64,6 +64,16 @@ Once you download the application, follow the steps on the player to complete th
 >
 >If the **State** is **UNREGISTERED**, you can use the **Token** to register the device.
 
+## Naming Windows Player {#name-windows}
+
+You can assign a user friendly device name to your Windows player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Windows player but also allows to you to easily assign appropriate content.
+
+Follow the steps below to configure the name in Windows player:
+
+1. Click on **start** --> **run** 
+1. Enter `system.cpl`
+1. Use the computer name tab to set the computer's hostname 
+
 ## Changing the Default Options in Windows Installer {#changing-default-options}
 
 Follow this section to learn how to change the default options in Windows Installer and the list of available customizations.

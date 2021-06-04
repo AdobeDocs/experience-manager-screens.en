@@ -30,6 +30,27 @@ Follow the steps below to set up chrome management console:
 >
 >A device management solution such as the Chrome Management Console is recommended for deployment and management of Chrome OS Devices. Although, this document provides implementation for Chrome Management Console there are other vendors who claim to provide similar functionality. Please contact the vendor of your device management software.
 
+## Naming Chrome OS Player {#name-chrome}
+
+You can assign a user friendly device name to your Chrome player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Chrome player but also allows to you to easily assign appropriate content.
+
+Follow the steps below to configure the name in Chrome player:
+
+1. You can optionally allow AV integrators or IT administrators to set the Asset ID and location as part of enterprise enrollment.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. You will be presented with the options when you can enroll the device.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. You can set the Asset ID as part of enterprise enrollment as well as in the Chrome management console.
+
+   ![image](/help/user-guide/assets/chrome-device/chrome3.png)
+
+    >[!NOTE]
+    >Chrome Players must be enrolled in enterprise enrollment and the Chrome player must be deployed through Chrome Management Console, otherwise the asset ID will return blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes will not be picked up by Adobe Experience Manager (AEM).
+
 ### Enabling Kiosk Mode {#enabling-kiosk-mode}
 
 Follow the steps below to enable the Kiosk mode:

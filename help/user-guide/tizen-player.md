@@ -34,12 +34,12 @@ Follow the steps below:
 
 ### Naming Tizen Player {#name-tizen}
 
-You can assign a user friendly device name to the Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability helps the customer see a user friendly name and allows an easy assignment of appropriate content.
+You can assign a user friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Tizen player but also allows to you to easily assign appropriate content.
 
 Follow the steps below to configure the name in Tizen player:
 
 1. Click the menu button on your remote.
-1. Navigate to **network** --> **Device Name**
+1. Navigate to **network** --> **Device Name** to assign a name to the player.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
 

@@ -172,6 +172,15 @@ The following table summarizes the policy attributes with an example policy JSON
 
 When deploying the Android player in bulk, it becomes tedious to manually register every single player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as VMWare Airwatch, MobileIron or Samsung Knox to remotely provision and manage your deployment. AEM Screens Android player supports the industry standard EMM AppConfig to allow for remote provisioning. 
 
+## Naming Android Player {#name-android}
+
+You can assign a user friendly device name to your Android player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Android player but also allows to you to easily assign appropriate content.
+
+Follow the steps below to configure the name in Android player:
+
+1. Navigate to **settings** --> **About device** 
+1. Edit and set your device name to name your Android player
+
 ### Implementing Bulk Provisioning of Android Player using Enterprise Mobility Management {#implementation}
 
 Follow the steps below to allow bulk provisioning in Android Player:
