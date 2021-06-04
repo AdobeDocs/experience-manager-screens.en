@@ -1,11 +1,11 @@
 ---
-title: Release Notes for Feature Pack 202105
-description: "Follow this page to get information for AEM Screens Feature Pack 202105 released on June 01, 2021."
+title: Release Notes for Feature Pack 202106
+description: "Follow this page to get information for AEM Screens Feature Pack 202106 released on June 04, 2021."
 feature: Feature Pack
 role: Developer
 level: Intermediate
 ---
-# Release Notes for Feature Pack 202105 {#release-notes-for-feature-pack}
+# Release Notes for Feature Pack 202106 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
@@ -18,13 +18,24 @@ You can download the latest feature pack for AEM Screens 6.5.8 Release from the 
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202105 is June 03, 2021.
+The Release Date for AEM Screens Feature Pack 202106 is June 04, 2021.
 
 ### What's New {#what-is-new}
 
-* **Lock Page in an AEM Screens Channel**
+* **Locking Page in an AEM Screens Channel**
 
    AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) allows you to lock a page, so that no one else can modify the contents. This is useful when you are making a lot of edits to one specific page or when you need to freeze a page for a short while.
+
+* **Naming AEM Screens Player Device**
+
+   The AEM Screens players now include the capability of sending a device name to Adobe Experience Manager (AEM) 
+   
+   Refer to the following documentation to learn how to configure the name in each supported Operating System:
+    
+      * Android
+      * Windows
+      * Tizen
+      * Chrome OS
 
 * **Manifest Generation**
 
