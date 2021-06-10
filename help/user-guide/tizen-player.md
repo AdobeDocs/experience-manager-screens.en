@@ -30,11 +30,11 @@ Follow the steps below:
 
 1. Get the IP or URL of your local HTTP server (and path to the folder containing the extracted files in step 2 if extracted to a sub folder and not root folder)
 
-1. The Tizen player will download the installer from the local server.
+1. The Tizen player downloads the installer from the local server.
 
 ### Naming Tizen Player {#name-tizen}
 
-You can assign a user friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Tizen player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Tizen player but also allows to you to easily assign appropriate content.
 
 Follow the steps below to configure the name in Tizen player:
 
@@ -68,7 +68,7 @@ Follow the steps below on the Samsung device to complete the installation of the
 
 >[!IMPORTANT]
 >**This section applies to Adobe Experience Manager (AEM) 6.5.5 to AEM 6.5.7**
->There are some browser engines that are incompatible with the *SameSite=None* attribute used in the login token issued by AEM 6.5 to AEM 6.7. In most cases the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
+>There are some browser engines that are incompatible with the *SameSite=None* attribute used in the login token issued by AEM 6.5 to AEM 6.7. Usually, the issue can be resolved by upgrading the browser to the latest available version. In some cases such upgrades may not be possible such as with smart displays, set top boxes or other devices with embedded browsing engines. 
 
 Follow the steps below to exempt these incompatible clients when using *SameSite=None*:
 
@@ -76,7 +76,7 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. After AEM restarts go to `/system/console/configMgr` and search for **Adobe Granite Token Authentication Handler**. Set the value for the **SameSite** value to **None**.
 
-1. You should see a new option *User agents to be exempted from samesite attribute*. Populate this with a regex corresponding to the user agent(s) that is(are) incompatible with the *SameSite=None* attribute.
+1. You should see a new option *User agents to be exempted from samesite attribute*. Populate this with a regex corresponding to the user agent that is(are) incompatible with the *SameSite=None* attribute.
    >[!NOTE]
    >See [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients) for more details. For the Tizen player use the regex: `(.*)Tizen(.*)`.
 
