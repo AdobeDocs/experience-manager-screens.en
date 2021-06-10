@@ -82,7 +82,7 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
 
-## Remotely Provisioning the Tizen Player {remote-provisioning}
+## Remotely Provisioning the Tizen Player {#remote-provisioning}
 
 Remotely provisioning the Tizen Player allows you to deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the tedious manual effort to configure each player with the server URL and bulk registration code, or other parameters and in the case of Screens as a Cloud Service to configure the cloud mode and cloud token.
 
@@ -104,7 +104,7 @@ The Tizen player will install and at launch (and every reboot) will check and ap
 }
 ```
 
-### Policy attributes and purpose {#policy attributes}
+### Policy Attributes and Purpose {#policy-attributes}
 
 The following table summarizes the policies with their functions.
 
