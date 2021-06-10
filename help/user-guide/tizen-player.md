@@ -82,24 +82,49 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
 
-## Bulk Provisioning of Tizen Player {#bulk-provisioning-tizen-player}
+## Remotely Provisioning the Tizen Player {#remote-provisioning}
+
+Remotely provisioning the Tizen Player allows you to deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the tedious manual effort to configure each player with the server URL and bulk registration code, or other parameters and in the case of Screens as a Cloud Service to configure the cloud mode and cloud token.
+
+This feature allows you to remotely configure Tizen player and also update those configurations centrally, if required. All you require is the `HTTP` server used to host the Tizen application `(wgt and xml file)` and a text editor to save the `config.json` with the appropriate parameters. 
+
+Make sure you have configured the URL launcher address on the Tizen Device, that is, Home Button --> URL Launcher settings.
+On the `HTTP` server that hosts the Tizen application, place the file `config.json` at the same location as the `wgt` file. The file name must be `config.json`.
+The Tizen player will install and at launch (and every reboot) will check and apply the settings in the `config.json` file.
+
+### Example JSON Policy {#example-json}
+
+```java
+{
+  "server":  "http://your-aem-instance.com:4502",
+  "registrationKey": "AdobeRocks!!",
+  "enableAdminUI": true,
+  "enableOSD": true,
+  "enableActivityUI": true
+}
+```
+
+### Policy Attributes and Purpose {#policy-attributes}
+
+The following table summarizes the policies with their functions.
 
 >[!NOTE]
->It can be a tedious effort to manually enter your AEM server's address in the admin UI of each and every device for a large number of devices. It is recommended to use Samsung Remote Management (RMS) solution for deploying and managing larger solutions. Refer to [Enrolling the Tizen Device to Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) for more details.
+>Policy configurations are strictly enforced and are not manually overridden at the player's Admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the policy configuration, for example, if you want to allow manual configuration for reboot schedule, do not specify the key `rebootSchedule` in the policy configuration. Policy Configurations are read every time the player reloads.
 
-Follow the steps below steps to bulk provision the application to point to your AEM author instance when it launches:
+| **Policy Name** |**Purpose** |
+|---|---|
+| server |The URL to the Adobe Experience Manager (AEM) server. |
+| registrationKey |Used for bulk registration of devices using pre-shared key. |
+| resolution |The resolution of the device. |
+| rebootSchedule |The schedule to reboot the player.|
+| enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false once it is fully configured and in production. |
+| enableActivityUI |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| cloudMode |Set to true if you want the Tizen player to connect to screens as a cloud service. false to connect to AMS or onPrem AEM. |
+| cloudToken |Registration token to register against Screens as a Cloud Service. |
 
-1. Download and install the [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
-1. Open the `wgt` file using Tizen studio.
-1. Open the file `firmware-platform.js` and search for `DEFAULT_PREFERENCES` and change the server URL to the AEM author URL and save.
-1. Build the new `wgt` file.
 
-   >[!NOTE]
-   >You may need to create or setup a signing certificate.
-
-1. Deploy this new `wgt` file using RMS or URL Launcher and when the player launches it should automatically point to your server so you do not need to manually enter it for every device.
-
-### Enrolling the Tizen Device to Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
+## Enrolling the Tizen Device to Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
 Follow the steps below to enroll the Tizen device to Samsung Remote Management Service (RMS) and remotely configure the URL Launcher:
 
