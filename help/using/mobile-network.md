@@ -1,8 +1,8 @@
 ---
 title: Direct Mobile Network
 description: The page describes Direct Mobile Network Setup
+exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 ---
-
 # Direct Mobile Network {#mobile-network-setup}
 
 AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
@@ -89,6 +89,3 @@ The following table provides an overview on network connectivity key data.
 >All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/using/assets/download-times-mobile.png)
-
-
-

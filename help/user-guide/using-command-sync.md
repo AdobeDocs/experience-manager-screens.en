@@ -6,8 +6,8 @@ seo-description: Follow this page to learn about how to use Command Sync.
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 ---
-
 # Command Sync {#command-sync}
 
 The following page describes how to use Command Sync. Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.

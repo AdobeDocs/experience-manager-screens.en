@@ -3,8 +3,8 @@ title: UX Dependencies for [!UICONTROL AEM Screens]
 seo-title: UX Dependencies for [!UICONTROL AEM Screens]
 description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
 seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 ---
-
 # UX Dependencies {#ux-dependencies}
 
 >[!NOTE]
@@ -34,5 +34,3 @@ The following questions should be considered while defining hardware content str
 1. Are multiple devices required for one display (such as, multi-zones, extra large boards)?
 
 1. What are the environmental considerations such as brightness, temperature, and the season?
-
-

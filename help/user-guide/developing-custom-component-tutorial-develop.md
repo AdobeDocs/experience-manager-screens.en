@@ -12,8 +12,8 @@ targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
+exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 ---
-
 # Developing a Custom Component for AEM Screens {#developing-a-custom-component-for-aem-screens}
 
 The following tutorial walks through the steps to create a custom component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The tutorial highlights differences and special considerations when developing for AEM Screens.

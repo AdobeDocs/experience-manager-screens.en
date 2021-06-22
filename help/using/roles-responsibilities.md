@@ -3,8 +3,8 @@ title: AEM Screens Project Roles  and Responsibilities
 seo-title: AEM Screens Project Roles  and Responsibilities
 description: The page describes AEM Screens Project Roles  and Responsibilities
 seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
 ---
-
 # Project Roles and Responsibilities {#roles-responsibilities}
 
 As an experienced AEM implementor, you will likely have seen the roles being referred to as *Authors*, *Developers*, and *IT/Technicians*.

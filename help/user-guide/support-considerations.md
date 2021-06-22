@@ -13,8 +13,8 @@ docset: aem65
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 ---
-
 # Part 5: Support Considerations {#part-support-considerations}
 
 This page highlights the concluding part of a 5-part series designed to help team members learn how hardware, software and connectivity issues are addressed. This phase explores cost estimations and frameworks for on-site support. Additionally also explains how SLA parameters, operational budgets, and NOC handoffs are managed.
@@ -63,5 +63,4 @@ Follow this concluding tutorial to a 5-part series tutorial below that stresses 
 
 ## Conclusion {#conclusion}
 
-These 5 part series are focused on key considerations critical to ensuring your project’s success. Refer to other sections of the AEM Screens User Guide for implementation details.  
-
+These 5 part series are focused on key considerations critical to ensuring your project’s success. Refer to other sections of the AEM Screens User Guide for implementation details.

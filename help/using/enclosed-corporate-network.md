@@ -1,8 +1,8 @@
 ---
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
+exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 ---
-
 # Enclosed Corporate Network (Wired/Wireless) {#enclosed-corporate-networks}
 
 The Enclosed Corporate Network SetUp is applicable to smaller, larger and enterprise businesses. It can be theoretically more complex, and the logical setup is shown in the figure below.

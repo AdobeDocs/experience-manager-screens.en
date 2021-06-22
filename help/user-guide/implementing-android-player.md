@@ -13,8 +13,8 @@ docset: aem65
 feature: Administering Screens, Android Player
 role: Administrator
 level: Intermediate
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 ---
-
 # Implementing Android Player {#implementing-android-player}
 
 This section describes configuring Android player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.

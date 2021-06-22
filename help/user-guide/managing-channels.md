@@ -6,8 +6,8 @@ seo-description: Follow this page to learn about creating and managing channels.
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
 ---
-
 # Creating and Managing Channels {#creating-and-managing-channels}
 
 A Channel displays a sequence of content (images and videos) and also displays a website or a single-page application.
@@ -252,4 +252,3 @@ See the following resources, for next steps:
 * [Create and Manage Channels](managing-channels.md)
 * [Create and Manage Locations](managing-locations.md)
 * [Create and Manage Displays](managing-displays.md)
-

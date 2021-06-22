@@ -3,8 +3,8 @@ title: Considerations as Projects are Scoped
 seo-title: Considerations as Projects are Scoped
 description: The page describes Considerations as Projects are Scoped
 seo-description: The page describes Considerations as Projects are Scoped
+exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 ---
-
 # Considerations as Projects are Scoped {#pre-sales-considerations}
 
 >[!NOTE]

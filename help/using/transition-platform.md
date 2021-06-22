@@ -3,8 +3,8 @@ title: Transition to Platform
 seo-title: Transition to Platform for AEM Screens
 description: The page describes Transition to Platform
 seo-description: The page describes Transition to Platform
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 ---
-
 # Transition to Platform {#transition-platform}
 
 >[!NOTE]

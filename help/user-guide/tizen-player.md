@@ -4,8 +4,8 @@ description: This page describes the installation and working of Tizen Player.
 feature: Administering Screens, Players
 role: Administrator
 level: Intermediate
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 ---
-
 # Implementing Tizen Player {#tizen-player}
 
 ## Installing Tizen Player {#installing-tizen-player}
@@ -158,4 +158,3 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Click on **Save** for the changes to appear on the display screen.
-

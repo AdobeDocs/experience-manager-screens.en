@@ -7,8 +7,8 @@ contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 ---
-
 # Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}
 
 This page showcases how you can create a custom template for a multi-zone layout.
@@ -168,6 +168,3 @@ Or, you can follow the steps below:
 To change the background color, add the following code to the xml file (step 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

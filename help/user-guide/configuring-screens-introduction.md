@@ -10,11 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-
 role: Administrator
 level: Intermediate
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 ---
-
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 This page shows how to install and configure the Screens players on your devices.
@@ -146,11 +145,3 @@ Set the ***Java encoding*** to Unicode. For example, *Dfile.encoding=Cp1252* wil
 >[!NOTE]
 >**Recommendation:**
 >It is recommended to use HTTPS for AEM Screens Server in production use.
-
-
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 ---
 title: Using Experience Fragments
 seo-title: Using Experience Fragments
-description: Follow this page to learn about using Experience Fragments in AEM Screens. 
-seo-description: Follow this page to learn about using Experience Fragments in AEM Screens. 
+description: Follow this page to learn about using Experience Fragments in AEM Screens.
+seo-description: Follow this page to learn about using Experience Fragments in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -13,8 +13,8 @@ docset: aem65
 feature: Authoring Screens, Experience Fragments
 role: Administrator, Developer
 level: Intermediate
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
 ---
-
 # Using Experience Fragments {#using-experience-fragments}
 
 This page covers the following topics:
@@ -213,4 +213,3 @@ Follow the steps below to confirm the changes in your channel:
 
 The following image illustrates the changes in your **TestChannel**:   
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-

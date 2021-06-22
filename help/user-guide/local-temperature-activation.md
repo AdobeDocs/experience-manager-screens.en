@@ -13,8 +13,8 @@ docset: aem65
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
 ---
-
 # Travel Center Temperature Activation {#travel-center-temperature-activation}
 
 The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
@@ -86,4 +86,3 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
     1. Change the value to less than 50, you should be able to view the an image of summer drinks. If the value in the Google Sheet is 50 or greater than should be able to view the an image of hot drink.
 
     ![result3](assets/result3.gif)
-

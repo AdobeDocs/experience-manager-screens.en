@@ -3,6 +3,7 @@ title: AEM Platform Configurations
 seo-title: AEM Platform Configurations
 description: The page describes AEM Platform Configurations
 seo-description: The page describes AEM Platform Configurations
+exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 ---
 # AEM Platform Configurations  {#platform-configurations}
 

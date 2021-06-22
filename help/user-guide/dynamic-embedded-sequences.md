@@ -12,8 +12,8 @@ discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Authoring Screens
 role: Administrator, Developer
 level: Intermediate
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
 ---
-
 # Using Dynamic Embedded Sequence {#using-dynamic-embedded-sequence}
 
 Using Dynamic Embedded Sequences covers the following topics:
@@ -398,4 +398,3 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 >[!NOTE]
 >
 >To learn in detail about setting up permissions, please refer to [Setting up ACLs](setting-up-acls.md).
-

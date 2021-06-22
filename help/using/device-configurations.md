@@ -3,8 +3,8 @@ title: Device Specifications
 seo-title: Device Specifications
 description: The page describes device specifications
 seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 ---
-
 # Device Configurations {#device-configurations}
 
 >[!NOTE]
