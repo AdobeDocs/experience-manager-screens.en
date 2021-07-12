@@ -3,7 +3,7 @@ title: Channel Assignment - Latest FP
 seo-title: Channel Assignment - Latest FP
 description: Follow this page to learn about Channel Assignment and DayParting.
 feature: Authoring Screens, Channel Assignment
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 ---

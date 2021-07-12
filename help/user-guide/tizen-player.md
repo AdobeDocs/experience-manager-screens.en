@@ -2,7 +2,7 @@
 title: Tizen Player
 description: This page describes the installation and working of Tizen Player.
 feature: Administering Screens, Players
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 ---

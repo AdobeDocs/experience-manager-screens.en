@@ -4,7 +4,7 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
 seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
 feature: Administering Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 ---

@@ -4,7 +4,7 @@ seo-title: Using Chrome Player as an Extension
 description: Follow this page to learn about installing the chrome player as a browser extension.
 seo-description: null
 feature: Administering Screens
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 ---

@@ -2,7 +2,7 @@
 title: Voice Recognition in AEM Screens
 description: The page describes voice recognition feature in AEM Screens.
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 ---

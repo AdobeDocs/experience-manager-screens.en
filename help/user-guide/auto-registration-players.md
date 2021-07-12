@@ -3,7 +3,7 @@ title: Auto Registration of Players
 seo-title: Auto Registration of Players
 description: Follow this page to learn about Auto Registration of Players with AMS/On-Prem Screens.
 feature: Administering Screens, Players
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 ---

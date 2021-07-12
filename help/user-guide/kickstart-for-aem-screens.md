@@ -3,7 +3,7 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Follow this page to create a demo AEM Screens project. It helps you create a digital signage experience starting from installation and setting up a new project to viewing your content in AEM Screens player.
 feature: Overview, Digital Signage
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 ---

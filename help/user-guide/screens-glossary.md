@@ -4,7 +4,7 @@ seo-title: Glossary
 description: Follow this page to understand the key terms associated with AEM Screens.
 seo-description: Follow this page to understand the key terms associated with AEM Screens.
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 ---

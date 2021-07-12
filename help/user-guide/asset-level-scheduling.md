@@ -4,7 +4,7 @@ seo-title: Asset Level Activation
 description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
 seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
 feature: Authoring Screens, Asset Level Activation
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 ---

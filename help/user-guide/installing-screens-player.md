@@ -5,7 +5,7 @@ description: Follow this page to learn about the installation of available AEM S
 seo-description: Installing Screens Player
 contentOwner: jsyal
 feature: Administering Screens
-role: Administrator
+role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 ---

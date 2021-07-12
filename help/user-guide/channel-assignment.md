@@ -3,7 +3,7 @@ title: Channel Assignment
 seo-title: Channel Assignment
 description: Follow this page to learn about Channel Assignment and Day-parting.
 feature: Authoring Screens, Channel Assignment
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 ---
