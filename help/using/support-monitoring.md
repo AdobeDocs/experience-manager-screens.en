@@ -3,8 +3,8 @@ title: Support Monitoring
 seo-title: Support Monitoring for AEM Screens
 description: The page describes Support Monitoring for AEM Screens Best Practices Guide
 seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
 ---
-
 # Support Monitoring {#support-monitoring}
 
 This section provides best practices related to managing device and content anomalies in a digital signage project.
@@ -39,4 +39,3 @@ Device monitoring related to monitoring the physical device if you encounter bla
    * Check if the *display* is powered on.
    * Check if the *computer* is powered on and is sending signal.
    * Right click, inspect and check *applicable logs*.
-

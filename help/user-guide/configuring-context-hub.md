@@ -13,8 +13,8 @@ docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
+exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 ---
-
 # Configuring ContextHub in AEM Screens {#configuring-contexthub-in-aem-screens}
 
 This section emphasizes on creating and managing data driven asset changes using a a data store.

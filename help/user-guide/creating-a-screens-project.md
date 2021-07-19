@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
 ---
-
 # Creating and Managing Projects {#creating-and-managing-projects}
 
 The AEM Screens is available by selecting the Adobe Experience Manager link (top left) and then Screens.
@@ -79,4 +79,3 @@ The following steps show the creation of an applications folder to your **Applic
 ### The Next Steps {#the-next-steps}
 
 Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
-

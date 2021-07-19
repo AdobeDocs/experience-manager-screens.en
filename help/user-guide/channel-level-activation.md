@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: Authoring Screens, Channel Level Activation
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 ---
-
 # Channel Level Activation {#channel-level-activation-single-event-playback}
 
 This page describes channel level activation for the assets used in Channels.
@@ -272,4 +272,3 @@ The following table summarizes few example expressions that you can add to the s
 >[!NOTE]
 >
 >When defining days of the week and months, you can both use the short hand and full-name notations, such as, Mon/Monday and Jan/January.  Additionally, you can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
-

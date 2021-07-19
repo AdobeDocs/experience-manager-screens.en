@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 ---
-
 # Bulk Offline Update {#bulk-offline-update}
 
 This section covers the following topics on Bulk Offline Update:
@@ -73,4 +73,3 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
    **Schedule Frequency** Specify a time, for example, 5:00 pm or 17:00 at which this service should update offline content.
 
 1. Click **Save** to save your settings and your content will be updated at the specified time.
-

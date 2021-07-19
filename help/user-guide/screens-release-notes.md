@@ -12,8 +12,8 @@ discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
 ---
-
 # Release Notes for Feature Pack 201809 {#release-notes-for-feature-pack}
 
 >[!CAUTION]

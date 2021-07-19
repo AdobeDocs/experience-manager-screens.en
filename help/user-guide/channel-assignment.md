@@ -3,10 +3,10 @@ title: Channel Assignment
 seo-title: Channel Assignment
 description: Follow this page to learn about Channel Assignment and Day-parting.
 feature: Authoring Screens, Channel Assignment
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 ---
-
 # Channel Assignment {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,4 +171,3 @@ This examples shows the DayParting for a store that displays their winter collec
 >
 >* [Handling Recurrence in Assets](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Handling Recurrence for Assets in a Channel](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-

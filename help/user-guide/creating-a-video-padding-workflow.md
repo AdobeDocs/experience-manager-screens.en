@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 ---
-
 # Creating a Video Padding Workflow {#creating-a-video-padding-workflow}
 
 This section covers the following topics:
@@ -115,4 +115,3 @@ You can validate your output by:
 * Navigate to the ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, as shown in the figure below:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-

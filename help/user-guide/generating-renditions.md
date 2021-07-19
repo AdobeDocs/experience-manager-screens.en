@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 ---
-
 # Video Renditions {#video-renditions}
 
 You can generate manual and automatic Full HD renditions. The following section describes the workflow to add renditions to your assets.
@@ -87,4 +87,3 @@ Follow the steps below to manually generate full HD renditions:
 1. Open the **Renditions** side rail and you will notice the new full HD renditions.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
-

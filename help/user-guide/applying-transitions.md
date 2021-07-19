@@ -6,10 +6,10 @@ seo-description: Follow this page to learn how to apply transitions to your Scre
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
 ---
-
 # Applying Transitions {#applying-transitions}
 
 This section describes how you can apply the **Transition** component in-between different assets (images and videos) and embedded sequences in a channel.
@@ -54,4 +54,3 @@ Follow the steps below to add a transition component to your AEM Screens project
 1. Additionally, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end, so that the content plays in order, as demonstrated in the figure below:
 
    ![image3](assets/transitions5.png)
- 

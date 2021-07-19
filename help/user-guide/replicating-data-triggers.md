@@ -6,8 +6,8 @@ seo-description: Replicate data-triggers to publish server.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
+exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 ---
-
 # Replicating Data Triggers to Publish Servers {#replicating-data-triggers}
 
 When using ContextHub and AEM Targeting Engine to customize content based on data triggers in an author/publish setup, all the ContextHub and Personalization related configurations are not automatically replicated with the channels when they are published.

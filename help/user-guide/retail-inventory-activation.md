@@ -11,10 +11,10 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 ---
-
 # Retail Inventory Targeted Activation {#retail-inventory-targeted-activation}
 
 The following use case demonstrates three different images based on the values in your Google Sheet.
@@ -121,4 +121,3 @@ Follow the steps below to implement the Retail Inventory Activation use case:
     1. Change the value for all three different columns and you will notice the display image updates as per the highest value in inventory.
 
    ![retail_result](assets/retail_result.gif)
-

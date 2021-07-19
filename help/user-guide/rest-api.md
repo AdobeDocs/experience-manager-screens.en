@@ -12,8 +12,8 @@ discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Developing Screens
 role: Developer
 level: Intermediate
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
 ---
-
 # REST APIs{#rest-apis}
 
 AEM Screens provides a simple RESTful API that follows the [Siren](https://github.com/kevinswiber/siren) specification. It allows to navigate the content structure and send commands to devices in the environment.
@@ -161,4 +161,3 @@ Or using curl:
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-

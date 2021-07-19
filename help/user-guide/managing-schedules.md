@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 ---
-
 # Creating and Managing Schedules {#creating-and-managing-schedules}
 
 **Schedules**, in AEM Screens, lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
@@ -61,4 +61,3 @@ Follow the steps below to view the schedules dashboard. The following example sh
    **Assigned Channels Panel** Click +Assign Channel from the top right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. 
 
    **Assigned Displays Panel** Select any of the displays from the ASSIGNED DISPLAYS Panel to open the display dashboard.
-

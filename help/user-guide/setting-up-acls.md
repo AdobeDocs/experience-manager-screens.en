@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administering Screens
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 ---
-
 # Setting up ACLs {#setting-up-acls}
 
 The following section explains how to segregate projects using ACLs so that each individual or team handles their own project.
@@ -136,4 +136,3 @@ The following table summarizes the groups with description and permissions for a
   </tr>
  </tbody>
 </table>
-

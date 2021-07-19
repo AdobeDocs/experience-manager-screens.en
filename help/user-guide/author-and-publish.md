@@ -4,10 +4,10 @@ seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
 feature: Administering Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 ---
-
 # Configuring Author and Publish in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 This page highlights the following topics:
@@ -301,5 +301,3 @@ Alternatively, you can also update/edit the server URL from the device managemen
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 The **Manage Publication** feature allows you to deliver content updates from author to publish to device. You can publish/un-publish content for your entire AEM Screens project or only for one of your channel, location, device, application, or a schedule. To learn more about this feature, refer to [On-Demand Content Update](on-demand-content.md).
-
-

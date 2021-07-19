@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 ---
-
 # Emergency Channel {#emergency-channel}
 
 ## Use Case Description {#use-case-description}

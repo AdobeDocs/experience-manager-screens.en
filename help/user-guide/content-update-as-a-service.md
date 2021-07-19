@@ -6,10 +6,10 @@ seo-description: Follow this page to learn about Content Update As a Service.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
 ---
-
 # Content Update As a Service {#content-update-as-a-service}
 
 This section covers the following topics on updating content-as-a-service:
@@ -68,4 +68,3 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
    **Schedule Frequency** Specify a time, for example, 5:00 pm or 17:00 at which this service should update offline content.
 
 1. Click **Save** to save your settings and your content will be updated at the specified time.
-

@@ -1,8 +1,8 @@
 ---
 title: Managing Network Traffic
 description: The page describes Standard Network Setups and how to manage network traffic.
+exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 ---
-
 # Managing Network Traffic {#managing-network-traffic}
 
 A Network Setup can have various structures. This section describes the most usual network setups and generalized approaches followed within an Organization.

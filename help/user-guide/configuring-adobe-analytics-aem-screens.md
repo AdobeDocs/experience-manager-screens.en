@@ -1,8 +1,8 @@
 ---
 title: Configuring Adobe Analytics with AEM Screens
 seo-title: Configuring Adobe Analytics with AEM Screens
-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics 
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics 
+description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
+seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,10 +11,10 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 ---
-
 # Configuring Adobe Analytics with AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
@@ -325,4 +325,3 @@ The following table summarizes the standard data model for events. It lists all 
   </tr>
  </tbody>
 </table>
-

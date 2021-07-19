@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 ---
-
 # Adobe Analytics Integration with AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
@@ -126,4 +126,3 @@ Analytics events are stored offline in indexedDB and later chunked and sent to t
 >[!NOTE]
 >
 >To learn more about the ***Sequencing*** and ***Standard Data Model for Events***, please refer to **[Configuring Adobe Analytics for AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-

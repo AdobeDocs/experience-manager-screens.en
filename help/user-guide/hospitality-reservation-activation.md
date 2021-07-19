@@ -11,10 +11,10 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 ---
-
 # Hospitality Reservation Activation {#hospitality-reservation-activation}
 
 The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
@@ -82,4 +82,3 @@ Follow the steps below to implement the hospitality reservation activation use c
     1. Update the value in **Restaurant1** and **Restaurant2** columns. If **Restaurant1** &gt; **Restaurant2,** you should be able to view an image of *Steak* food otherwise, *Thai* food image displays on your screen.
 
    ![result5](assets/result5.gif)
-

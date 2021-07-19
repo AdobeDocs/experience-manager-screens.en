@@ -1,15 +1,15 @@
 ---
 title: On-Demand Content Update
 seo-title: On-Demand Content Update
-description: Follow this page to learn about On-Demand Content Update.  
-seo-description: Follow this page to learn about On-Demand Content Update.  
+description: Follow this page to learn about On-Demand Content Update.
+seo-description: Follow this page to learn about On-Demand Content Update.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer
 level: Intermediate
+exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 ---
-
 # On-Demand Content Update {#on-demand}
 
 This section describes On-demand content for managing publications. 

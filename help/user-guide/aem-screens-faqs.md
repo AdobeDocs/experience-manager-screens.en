@@ -8,8 +8,8 @@ contentOwner: jsyal
 feature: Digital Signage, Content
 role: Developer
 level: Intermediate
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 ---
-
 # AEM Screens FAQs {#aem-screens-faqs}
 
 The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.
@@ -204,5 +204,3 @@ AEM Screens creates index definitions for the queries used by the product.
 If there are any *Query Traversal WARNs* in the `error.log`, create a custom index for your query. Refer to [Configuring the Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) for more details.
 
 You can also refer to an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-

@@ -1,8 +1,8 @@
 ---
 title: Direct Internet Access
 description: Direct Internet Access
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 ---
-
 # Direct Internet Network (Wired/Wireless) {#direct-internet-access}
 
 The Direct Internet Network contains an entry access point for Internet access in order to reach the AEM Cloud Services that AEM Screens needs to connect to. 
@@ -87,4 +87,3 @@ The following table provides an overview on network connectivity key data.
 >The information allows you to view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/assets/download-times-direct.png)
-

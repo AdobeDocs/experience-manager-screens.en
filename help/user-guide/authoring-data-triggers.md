@@ -3,10 +3,10 @@ title: Authoring with Data Triggers
 seo-title: Authoring with Data Triggers
 description: Follow this page to learn how to author with data triggers.
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 ---
-
 # Authoring with Data Triggers {#authoring-with-data-triggers}
 
 This section highlights how to enable targeting in your channels.

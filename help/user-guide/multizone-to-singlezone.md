@@ -4,10 +4,10 @@ description: Follow this page to learn about MultiZone to SingleZone Transitions
 seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 ---
-
 # Multi-Zone to Single-Zone Transition {#multizone-to-singlezone-use-case}
 
 
@@ -80,4 +80,4 @@ The output will demonstrates how a multi-zone layout plays for *10000 ms* and th
 
 >[!NOTE]
 >
->You can customize your channel transition (from multi-zone to single-zone layout or vice-versa), as per your requirements.  
+>You can customize your channel transition (from multi-zone to single-zone layout or vice-versa), as per your requirements.

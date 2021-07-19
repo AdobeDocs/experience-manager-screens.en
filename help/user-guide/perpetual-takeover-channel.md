@@ -5,10 +5,10 @@ description: Follow this Use Case for creating a Perpetual TakeOver Channel.
 seo-description: Follow this Use Case on setting up a project that creates a Perpetual TakeOver channel that plays for a specific time day and time continuously.
 contentOwner: jsyal
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 ---
-
 # Perpetual TakeOver Channel {#perpetual-takeover-channel}
 
 The following page showcases a use case that emphasizes on setting up a project on how to create a Perpetual TakeOver channel that plays for a specific time day and time continuously.

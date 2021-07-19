@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
 ---
-
 # Text Overlay {#text-overlay}
 
 This section covers the following topics:
@@ -143,18 +143,3 @@ Once you have set up the required configurations for your project, follow the st
 1. Click on **Preview** to view the desired output.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

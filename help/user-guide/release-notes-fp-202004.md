@@ -6,8 +6,8 @@ seo-description: Follow this page to get information for AEM Screens Feature Pac
 feature: Feature Pack
 role: Developer
 level: Intermediate
+exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 ---
-
 # Release Notes for Feature Pack 202004 {#release-notes-for-feature-pack}
 
 >[!CAUTION]

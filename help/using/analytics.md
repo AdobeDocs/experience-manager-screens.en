@@ -3,8 +3,8 @@ title: Analytics with AEM Screens
 seo-title: Analytics with AEM Screens
 description: The page describes Analytics with AEM Screens
 seo-description: The page describes the analytics with AEM Screens
+exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 ---
-
 # Analytics with AEM Screens {#analytics-screens}
 
 >[!NOTE]
@@ -21,4 +21,3 @@ In the feedback loop use case, we are not concerned with visual reports or dashb
 
 The second use case using analytics is to process playback events and usage data for human consumption via reports and dashboards.
 We may use this data to create a Heat map of an interactive experience to determine the preferred journey map through our application. We may also choose the create a dashboard that provides a graphical interpretation of how many times consumers interact with our application.
-

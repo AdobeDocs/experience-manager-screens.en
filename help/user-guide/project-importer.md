@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administering Screens
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 ---
-
 # New Project Importer from File {#new-project-importer-from-file}
 
 This section describes a functionality to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
@@ -117,4 +117,3 @@ Follow the steps below to import a file to locations folder with minimum require
 1. As a result, you will be now be able to view all the locations imported to your project.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-

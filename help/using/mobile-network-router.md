@@ -1,8 +1,8 @@
 ---
 title: Mobile Network with Mobile Data Router and Active Network Components
 description: The page describes Mobile Network with Mobile Data Router and Active Network Components
+exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
 ---
-
 # Mobile Network with Mobile Data Router and Active Network Components {#mobile-network-setup}
 
 Adobe AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.

@@ -3,10 +3,10 @@ title: Auto Registration of Players
 seo-title: Auto Registration of Players
 description: Follow this page to learn about Auto Registration of Players with AMS/On-Prem Screens.
 feature: Administering Screens, Players
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 ---
-
 # Auto Registration of Players {#auto-registration}
 
 Bulk registering thousands of players manually can become very cumbersome and adds time and cost. To simplify this process, the bulk registration feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or a Mobile Device Management (MDM) solution.

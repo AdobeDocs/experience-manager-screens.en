@@ -12,8 +12,8 @@ targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
+exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 ---
-
 # Extending an AEM Screens Component {#extending-an-aem-screens-component}
 
 The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.

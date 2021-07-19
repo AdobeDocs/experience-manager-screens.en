@@ -3,8 +3,8 @@ title: Testing and Quality Assurance
 seo-title: Testing and Quality Assurance for AEM Screens
 description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
 seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 ---
-
 # Testing and Quality Assurance {#testing-quality}
 
 >[!NOTE]

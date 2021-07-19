@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
-role: Administrator
+role: Admin
 level: Intermediate
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
 ---
-
 # Working with AEM Screens Player {#working-with-aem-screens-player}
 
 You can manage the channel content and other settings on the AEM Screens Player.
