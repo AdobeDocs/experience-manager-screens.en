@@ -13,6 +13,8 @@ exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 
 Get up and running with a simple digital signage experience, using [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
 
+To learn how to configure and create your AEM Screens project in AEM as a Cloud Service, see [here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
+
 ## Overview {#overview}
 
 **AEM Screens** is built on the solid foundation of ***AEM Sites*** and enables marketers and IT personnel to create and manage experiences on multiple digital screens that impact in-store/in-venue goals for building brand and driving demand. Integration of AEM Screens with Sites allows you to re-use already existing content and effectively deliver a coherent and consistent customer solution. This provides a streamlined workflow to create dedicated digital experiences that are highly cost-effective and usable. It further helps to influence brand perception and impact decisions leading to upliftment in purchase and engagement.
