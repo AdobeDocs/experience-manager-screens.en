@@ -34,6 +34,9 @@ Follow the steps below to set up chrome management console:
 
 You can assign a user friendly device name to your Chrome player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Chrome player but also allows to you to easily assign appropriate content.
 
+>[!NOTE]
+>You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
+
 Follow the steps below to configure the name in Chrome player:
 
 1. You can optionally allow AV integrators or IT administrators to set the Asset ID and location as part of enterprise enrollment.

@@ -68,6 +68,9 @@ Once you download the application, follow the steps on the player to complete th
 
 You can assign a user friendly device name to your Windows player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Windows player but also allows to you to easily assign appropriate content.
 
+>[!NOTE]
+>You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
+
 Follow the steps below to configure the name in Windows player:
 
 1. Click on **start** --> **run** 
