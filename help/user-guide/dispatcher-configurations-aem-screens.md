@@ -34,7 +34,6 @@ Please ensure that you follow these two prerequisites before using configuring D
 
    ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
    
-
 ## Configuring Dispatcher {#configuring-dispatcher}
 
 AEM Screens players/devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
