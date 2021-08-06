@@ -22,16 +22,15 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 
 ## Pre-requisites {#prerequisites}
 
->[!IMPORTANT]
->Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
->Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
+Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
    
 ## Configuring Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->The following Dispatcher configurations apply only to Manifest version v2. Refer to [Dispatcher Configurations for Manifest version v3]{#configuring-dispatcherv3} for manifest version V3.
+>The following Dispatcher configurations apply only to Manifest version v2. Refer to [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
 
-AEM Screens players/devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
+AEM Screens players or devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
 
 Follow the steps below to configure dispatcher for an AEM Screens project.
 
@@ -132,7 +131,7 @@ Please make sure to allow these filters and cache rules in dispatchers fronting 
 
 ## Pre-requisites for Manifest Version v3{#prerequisites3}
 
-Please ensure that you follow these two prerequisites before using configuring Dispatcher  for AEM Screens:
+Please ensure that you follow these two prerequisites before configuring Dispatcher (manifest version v3) for AEM Screens:
 
 * Make sure that you are using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that `Enable ContentSync Cache` is unchecked.
 
