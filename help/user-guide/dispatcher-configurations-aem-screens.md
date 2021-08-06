@@ -137,6 +137,8 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
 
    ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-3.png)
+
 ### Filters  {#filter-v3}
 
 ```
