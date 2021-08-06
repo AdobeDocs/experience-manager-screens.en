@@ -20,12 +20,20 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 >
 >If there is no dispatcher, disable the registration servlet in the OSGi components listing.
 
-## Pre-requisites {#pre-requisites}
+## Pre-requisites {#prerequisites}
 
-Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+>[!IMPORTANT]
+>Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+>Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
 
-Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
+Please ensure that you follow these two prerequisites before using configuring Dispatcher  for AEM Screens:
 
+* Make sure that you're using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that `Enable ContentSync Cache` is unchecked.
+
+* Make sure dispatcher flush agent is configured at `/etc/replication/agents.publish/dispatcher1useast1Agent` in publish instance.
+
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+   
 ## Configuring Dispatcher {#configuring-dispatcher}
 
 AEM Screens players/devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
