@@ -22,9 +22,18 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 
 ## Pre-requisites {#pre-requisites}
 
-Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+>[!IMPORTANT]
+>Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+>Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
 
-Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
+Please ensure that you follow these two prerequisites before using configuring Dispatcher  for AEM Screens:
+
+* Make sure that you're using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that 1Enable ContentSync Cache` is unchecked.
+
+* Make sure dispatcher flush agent is configured at `/etc/replication/agents.publish/dispatcher1useast1Agent` in publish instance.
+
+   ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+   
 
 ## Configuring Dispatcher {#configuring-dispatcher}
 
