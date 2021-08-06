@@ -20,7 +20,7 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 >
 >If there is no dispatcher, disable the registration servlet in the OSGi components listing.
 
-## Pre-requisites {#pre-requisites}
+## Pre-requisites {#prerequisites}
 
 >[!IMPORTANT]
 >Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
@@ -28,7 +28,7 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 
 Please ensure that you follow these two prerequisites before using configuring Dispatcher  for AEM Screens:
 
-* Make sure that you're using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that 1Enable ContentSync Cache` is unchecked.
+* Make sure that you're using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that `Enable ContentSync Cache` is unchecked.
 
 * Make sure dispatcher flush agent is configured at `/etc/replication/agents.publish/dispatcher1useast1Agent` in publish instance.
 
