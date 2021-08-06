@@ -129,7 +129,7 @@ To enable the cache for the assets so that the assets are served from dispatcher
 
 Please make sure to allow these filters and cache rules in dispatchers fronting the publish instances for functioning of Screens.
 
-## Pre-requisites for Manifest Version v3{#prerequisites3}
+### Pre-requisites for Manifest Version v3{#prerequisites3}
 
 Please ensure that you follow these two prerequisites before configuring Dispatcher (manifest version v3) for AEM Screens:
 
