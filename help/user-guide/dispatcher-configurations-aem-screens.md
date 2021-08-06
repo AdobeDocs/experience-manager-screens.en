@@ -25,7 +25,7 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
 Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
    
-## Configuring Dispatcher {#configuring-dispatcher}
+## Configuring Dispatcher for Manifest Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >The following Dispatcher configurations apply only to Manifest version v2. Refer to [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
