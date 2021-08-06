@@ -20,8 +20,6 @@ The following page provides the guidelines for configuring dispatcher for an AEM
 >
 >If there is no dispatcher, disable the registration servlet in the OSGi components listing.
 
-## Pre-requisites {#prerequisites}
-
 Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
 Refer to [Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
    
