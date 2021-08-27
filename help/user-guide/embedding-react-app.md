@@ -63,30 +63,28 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
 
    >[!NOTE]
    >
-   >Create a **Sequence Channel** while creating a channel in the **Channels** folder of your Screens project.
-   >
+   >Create a new **Application Channel** (preferably) (or 1x1 template, or multi-zone channel) in the **Channels** folder of your Screens project.
+   >**Sequence Channels** are discouraged for this use case sine they inherently come with a slideshow logic that will conflict with the interactive nature of the experience
    >
    >Refer to [Creating and Managing Channels](managing-channels.md) for more details.
 
    ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
-1. Edit any sequence channel and drag and drop an embedded page component.
+1. Click **Edit** from the action bar to edit the properties of the channel.
 
-   Refer to [Adding Components to a Channel](adding-components-to-a-channel.md) for more details.
+   ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
+
+1. Drag and drop the **Embedded Page** component, or re-use the existing component in an application channel, and select the home page under the mysamplespa application for example, ***/content/mysamplespa/en/home***.
+
+   ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
+
+1. Assign the channel to a display
 
    >[!NOTE]
    >
    >Make sure you add the user interaction event when assigning the channel to the display.
 
-1. Click **Edit** from the action bar to edit the properties of the sequence channel.
-
-   ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
-
-1. Drag and drop the **Embedded Page** component and select the home page under the mysamplespa application for example, ***/content/mysamplespa/en/home***.
-
-   ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
-
-1. Register a player against this project and you should now be able to see your interactive application running on AEM Screens.
+1. Register a player against this project and assign it to the display. You should now be able to see your interactive application running on AEM Screens.
 
    Refer to [Device Registration](device-registration.md) to learn in detail about registering a device.
 
