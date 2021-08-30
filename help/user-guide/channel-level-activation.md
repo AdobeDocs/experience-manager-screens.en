@@ -3,7 +3,7 @@ title: Channel Level Activation - Single Event Playback
 seo-title: Channel Level Activation - Single Event Playback
 description: Follow this guide to understand channel level activation using single event playback.
 topic-tags: authoring
-feature: Authoring Screens, Channel Level Activation
+feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
