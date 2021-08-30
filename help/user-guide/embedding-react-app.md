@@ -84,12 +84,12 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Assign the channel to a display
+1. Assign the channel to a display.
 
     >[!NOTE]
     >Make sure you add the user interaction event when assigning the channel to the display.
 
-1. 1. Register a player against this project and assign it to the display. You should now be able to see your interactive application running on AEM Screens.
+1. Register a player against this project and assign it to the display. You should now be able to see your interactive application running on AEM Screens.
 
    Refer to [Device Registration](device-registration.md) to learn in detail about registering a device.
 
