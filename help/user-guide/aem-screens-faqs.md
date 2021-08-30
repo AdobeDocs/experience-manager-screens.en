@@ -3,8 +3,6 @@ title: AEM Screens FAQs
 seo-title: AEM Screens FAQs
 description: Follow this page to get answers to FAQs related to an AEM Screens project.
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
 feature: Digital Signage, Content
 role: Developer
 level: Intermediate
@@ -78,7 +76,7 @@ It is recommended to obtain the device ID from the session rather than passed as
 
 ### 3. Is there a way to decline a device registration request? {#is-there-a-way-to-decline-a-device-registration-request}
 
-You cannot decline the registration requests. Instead the registration requests should expire after a timeout that is configured in [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). By default, this value is set to one day and is stored in a memory cache.
+You cannot decline the registration requests. Instead the registration requests should expire after a timeout that is configured in `Adobe Experience Manager Web Console`. By default, this value is set to one day and is stored in a memory cache.
 
 ## Device Monitoring and Health Reports {#device-monitoring-and-health-reports}
 

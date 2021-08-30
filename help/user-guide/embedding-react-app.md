@@ -65,7 +65,7 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
 
     >[!NOTE]
     >**Sequence Channels** are discouraged for this use case sine they inherently come with a slideshow logic that will conflict with the interactive nature of the experience
-   >Refer to [Creating and Managing Channels](managing-channels.md) for more details.
+    >Refer to [Creating and Managing Channels](managing-channels.md) for more details.
 
 
 1. Edit any sequence channel and drag and drop an embedded page component.
