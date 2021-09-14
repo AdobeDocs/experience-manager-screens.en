@@ -23,30 +23,23 @@ The Release Date for AEM Screens Feature Pack 202109 is September 09, 2021.
 
 ### What's New {#what-is-new}
 
-* **Locking Page in an AEM Screens Channel**
+* **Thumbnail Support for Videos**
 
-   AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) allows you to lock a page, so that no one else can modify the contents. This is useful when you are making a lot of edits to one specific page or when you need to freeze a page for a short while.
+   Thumbnail Support for videos in now supported in AEM Screens. A content author can define a thumbnail for videos so that the image can be used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used, in case the playback of the video fails.
+   See Thumbnail Support for Videos for more details.
 
-* **Naming AEM Screens Player Device**
+* **Basic Playback Monitoring**
 
-   The AEM Screens players now include the capability of sending a device name to Adobe Experience Manager (AEM).
-   By default, when bulk registration is used to register a device, a system generated username is entered in the title field. As an alternative, a customer may use an asset tag or other friendly name so it is visible in AEM and easier to assign appropriate content.
-   
-   Refer to the following documentation to learn how to configure the name in each supported Operating System:
-    
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   AEM Screens now supports basic playback monitoring. The player will now report various playback metrics with each ping (defaults to 30 seconds). Based on the metrics, it provides the ability to detect various edge cases (stuck experience, blank screen, scheduling problem, etc.). This feature allows the team to remotely monitor if a player is properly playing content, improves reactivity to blank screens or broken experiences in the field, and decreases the risk of showing a broken experience to the end user.
+   See Basic Playback Monitoring for more details.
 
-* **Manifest Generation**
+* **Updates to Content Assignment Report**
 
-   Faster channel manifest generation with improved performances such as allocating less resources on the server.
+
 
 ### Bug Fixes {#bug-fixes}
 
-* Player displayed a black screen when switching to channel containing dynamic embedded sequence.
-* The Screens players now block the switching to any broken channel that further avoids 404 error or a page with an error message.
+
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
