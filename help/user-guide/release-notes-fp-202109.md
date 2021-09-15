@@ -35,6 +35,10 @@ The Release Date for AEM Screens Feature Pack 202109 is September 09, 2021.
 
 * **Updates to Content Assignment Report**
 
+* **Support for V3 Manifests**
+
+   You can now configure the Dispatcher for Manifest Version v3. Refer to [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.
+   Additionally, if you are using custom components as a part of v3 manifests, see [Template for Custom Handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Bug Fixes {#bug-fixes}
