@@ -41,7 +41,6 @@ The Release Date for AEM Screens Feature Pack 202109 is September 09, 2021.
    Additionally, if you are using custom components as a part of v3 manifests, see [Template for Custom Handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
-
 ### Bug Fixes {#bug-fixes}
 
 
