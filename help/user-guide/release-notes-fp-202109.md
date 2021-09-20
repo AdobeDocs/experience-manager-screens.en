@@ -35,6 +35,8 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Updates to Content Assignment Report**
 
+   Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
+
 * **Support for V3 Manifests**
 
    You can now configure the Dispatcher for Manifest Version v3. Refer to [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.
