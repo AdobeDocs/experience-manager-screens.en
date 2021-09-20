@@ -43,11 +43,85 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 ### Bug Fixes {#bug-fixes}
 
+**Player Side**
+
+* Resolved file caching errors by replacing assets with renditions.
+
+* The players now only expose asset renditions, if rendition mapping is present.
+
+* You can now setup slack alerts based on splunk logs.
+
+* Enhance ping to re-authenticate if response is not valid JSON.
+
+* Numeric channel names/roles caused blank screen.
+
+* Download optimized renditions via SmartSync.
+
+* Transform the mapping into list of rendition keys.
+
+* Remove access to cmd.exe and reg.exe in the windows player.
+
+* Limit csrf token calls.
+
+* A player needs to report its last successful playback event.
+
+* A player needs to report its playback status.
+
+* Player does not re-download Assets when `ALL` Cache is cleared.
+
+* As a Player Admin you can now choose a player name.
+
+* Removing channel assignment from display is not reflected on the player.
+
+* If player is reloaded while channel update is being downloaded, the player ignores the update.
+
+* Embedded Page Component does not respect touch event.
+
+* Remote provisioning of Tizen player is now supported.
+
+**Server Side**
+
+* Target video is not showing
+* Race condition on broadcasting display data to subsequences.
+
+* Channel Preview does not work for Channels containing Videos.
+
+* Preview mode showing blank for Split screen channel.
+
+* Video thumbnails render blank with enabled adaptive renditions.
+
+* Automatically update channel manifest if referenced page is published.
+
+* Channels JSON does not include custom channels (#942)
+
+* Deleted devices now does not block the Screens replication queue.
+
+* Manifest does not contain targeted content nor Sites embedded pages.
+
+* New core image component not added to the channel manifest.
+
+* Downloading optimized renditions via SmartSync is now supported.
+
+* Play optimized rendition for all assets.
+
+* Added support for multiple content provider types
+
+* Embedded Sequence Playback Strategy was broken and this has now been fixed.
+
+* Offline manifest using the request parameter `wcmmode` for html entry, making it uncacheable.
+
+* Empty dynamic embedded sequence sometimes causes blank screen.
+
+* A player needs to report its playback status.
+
+* Video is playing in `Tiny mode` and not played as full screen video on device.
+
+* OSGi passwords are visible as plaintext.
 
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
-The following AEM Screens Players are released for AEM 6.5 Feature Pack 8:
+The following AEM Screens Players are released for AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows
