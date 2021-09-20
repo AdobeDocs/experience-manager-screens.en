@@ -27,7 +27,6 @@ Follow the steps below to use thumbnail in videos:
 
 1. Navigate to an existing Screens channel or create a new channel.
 
-
 1. Select the channel and click on **Edit** from the action bar to open the editor.
 
 1. Add or edit an existing video component, as shown in the figure below.
