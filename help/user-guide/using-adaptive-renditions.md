@@ -18,7 +18,13 @@ So, if you deployed a variety of devices, using this feature will allow the devi
 ## Prerequisites {#pre-reqs}
 
 >[!IMPORTANT]
->Before you start using Adaptive Renditions, in an AEM Screens channel, it is recommended to learn about this feature's Architectural Overview and Configuration. See Adaptive Renditions for more details.
+>Before you start using Adaptive Renditions, in an AEM Screens channel, it is recommended to learn about this feature's Architectural Overview and Configuration. See Adaptive Renditions: Architectural Overview and Configurations for more details.
 
-## Using Adaptive Renditions {#using-adaptive-renditions}
+## Using Adaptive Renditions in an AEM Screens Channel {#using-adaptive-renditions}
+
+Once you have added mapping rules and uploaded renditions, now you can use Adaptive Renditions to your assets in an AEM Screens channel.
+
+Follow the steps below:
+
+
 
