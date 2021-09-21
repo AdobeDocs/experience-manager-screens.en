@@ -98,4 +98,4 @@ Consider the following recommendations in Author and Publish prior to using Adap
 
 ## The Next Steps {#next-steps}
 
-Once you have uploaded the renditions, you can now use Adaptive Renditions, in your AEM Screens channels. See Using Adaptive Renditions for more details.
+Once you have configured and uploaded the renditions, you can now use Adaptive Renditions, in your AEM Screens channels. See Using Adaptive Renditions for more details.

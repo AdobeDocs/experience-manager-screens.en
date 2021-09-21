@@ -53,17 +53,15 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * You can now setup slack alerts based on splunk logs.
 
-* Enhance ping to re-authenticate if response is not valid JSON.
+* Enhanced ping to re-authenticate if response is not valid JSON.
 
 * Numeric channel names/roles caused blank screen.
 
 * Download optimized renditions via SmartSync.
 
-* Transform the mapping into list of rendition keys.
+* Transformed the mapping into list of rendition keys.
 
-* Remove access to cmd.exe and reg.exe in the windows player.
-
-* Limit csrf token calls.
+* Removed access to `cmd.exe` and `reg.exe` in the windows player.
 
 * A player needs to report its last successful playback event.
 
@@ -71,13 +69,13 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Player does not re-download Assets when `ALL` Cache is cleared.
 
-* As a Player Admin you can now choose a player name.
+* As a Player Admin, you can now choose a player name.
 
 * Removing channel assignment from display is not reflected on the player.
 
 * If player is reloaded while channel update is being downloaded, the player ignores the update.
 
-* Embedded Page Component does not respect touch event.
+* Embedded Page Component now respects touch event.
 
 * Remote provisioning of Tizen player is now supported.
 
@@ -94,13 +92,11 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Automatically update channel manifest if referenced page is published.
 
-* Channels JSON does not include custom channels (#942)
-
 * Deleted devices now does not block the Screens replication queue.
 
-* Manifest does not contain targeted content nor Sites embedded pages.
+* Manifest did not contain targeted content nor Sites embedded pages. This has now been fixed.
 
-* New core image component not added to the channel manifest.
+* New core image component are now added to the channel manifest.
 
 * Downloading optimized renditions via SmartSync is now supported.
 
@@ -112,14 +108,11 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Offline manifest using the request parameter `wcmmode` for html entry, making it uncacheable.
 
-* Empty dynamic embedded sequence sometimes causes blank screen.
+* Empty dynamic embedded sequence sometimes caused blank screen.
 
-* A player needs to report its playback status.
+* Player now report its playback status.
 
-* Video is playing in `Tiny mode` and not played as full screen video on device.
-
-* OSGi passwords are visible as plaintext.
-
+* Video was playing in `Tiny mode` and not played as full screen video on device and the issue is fixed now.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
