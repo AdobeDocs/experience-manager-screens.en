@@ -1,9 +1,10 @@
 ---
 title: Adaptive Renditions in AEM Screens
-description: This page describes how to use Adaptive Renditions in AEM Screens.
+description: This page describes Architectural Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: no
 ---
-# Adaptive Renditions {#adaptive-renditions}
+
+# Adaptive Renditions: Architectural Overview and Configurations {#adaptive-renditions}
 
 ## Introduction {#introduction}
 
@@ -53,12 +54,11 @@ To enable the feature, add at least one mapping rule and make sure the rendition
 
 ## Setting up Author and Publish {#setup-author-publish}
 
-Follow the steps below to setup author and publish:
+Consider the following recommendations in Author and Publish prior to using Adaptive Renditions:
 
 * Rendition mapping has to be replicated manually.
 
 * Asset renditions are not replicated by default. All relevant assets need to be replicated manually.
-
 
 ## Adding Rendition Mapping Rules {#adding-rendition-mapping-rules}
 
@@ -84,4 +84,4 @@ Follow the steps below to setup author and publish:
 
 ## The Next Steps {#next-steps}
 
-Once you have uploaded the renditions, you can now use Adaptive Renditions, in your AEM Screens channels.
+Once you have uploaded the renditions, you can now use Adaptive Renditions, in your AEM Screens channels. See Using Adaptive Renditions for more details.
