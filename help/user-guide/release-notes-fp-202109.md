@@ -37,6 +37,14 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
    Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
 
+* **Adaptive Renditions**
+
+   Adaptive Renditions allow the devices to automatically select the best rendition for a device based on customer-defined rules. 
+   
+   As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. See Adaptive Renditions: Architectural Overview and Configurations to learn more.
+
+   Additionally, as an AEM Screens Content Author, you can now use Adaptive Renditions in your AEM Screens project and also apply migration strategy for large networks. See Using Adaptive Renditions for more details.
+
 * **Support for V3 Manifests**
 
    You can now configure the Dispatcher for Manifest Version v3. Refer to [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.

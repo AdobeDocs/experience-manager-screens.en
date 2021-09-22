@@ -43,8 +43,6 @@ To enable the Adaptive Renditions feature, the mapping rules should be present a
 
       ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-
-
 ## Setting up Author and Publish {#setup-author-publish}
 
 Consider the following recommendations in Author and Publish prior to using Adaptive Renditions:
