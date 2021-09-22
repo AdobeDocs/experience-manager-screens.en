@@ -22,7 +22,7 @@ The ability of having an associated rendition naming pattern defines a rendition
 
 ![image](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Configuring the Setup for using Adaptive Renditions {#setup-adaptive-renditions}
+## Adding Rendition Mapping Property to the Screens Project {#rendition-mapping-new}
 
 To enable the Adaptive Renditions feature, the following mapping rules should be present and the Context-Aware (CA) Configuration should be resolvable for channels and displays. 
 
@@ -31,22 +31,22 @@ To enable the Adaptive Renditions feature, the following mapping rules should be
 
 Follow the steps below to configure the setup:
 
-1. Navigate to **CRXDE Lite**. Check, if the **rendition-mapping** configuration exists in `JCR`, as shown in the figure below.
+1. Navigate to **CRXDE Lite**. Check, if the **rendition-mapping** configuration exists in `/conf/screens/sling:configs/rendition-mapping`, as shown in the figure below.
 
-   >[!NOTE]
-   >All the latest feature packs have this node structure pre-populated.
+   >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >If you installed the latest Feature Pack 202109, you will see **rendition-mapping** node structure pre-populated in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. See [Release Notes for Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) to get details on the latest feature pack.
+   >For existing projects, ensure that Screens project has the **rendition-mapping** configuration associated. See [Adding Rendition Mapping to an Existing Project](#rendition-mapping-existing) section to learn more.
 
-1. Ensure the Screens project has the rendition mapping configuration associated with it.
+### Adding Rendition Mapping Property to an Existing Project {#rendition-mapping-existing}
 
-   * Every new project created with the Screens project wizard will contain a reference pointing to **rendition-mapping** configuration.
+1. Navigate to **CRXDE Lite**.
 
-      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Explicitly define the rendition mapping association by adding `sling:configRef` property pointing at `/conf/screens` to the project content node, as shown in the figure below.
 
-   * In an older version of Screens projects, you need to explicitly define the association by adding `sling:configRef` property pointing at `/conf/screens` to the project content node.
+   ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Setting up Author and Publish {#setup-author-publish}
 
