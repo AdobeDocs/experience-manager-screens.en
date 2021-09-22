@@ -43,24 +43,7 @@ To enable the Adaptive Renditions feature, the mapping rules should be present a
 
       ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## Migration Strategy {#migration-strategy}
 
->[!IMPORTANT]
->For large networks, it is recommended that the migration is done gradually to mitigate the risks as the feature will introduce changes in the manifest and file storage format. 
-
-The following diagram depicts the migration strategy for large networks:
-
-![image](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-To enable the feature, add at least one mapping rule and make sure the rendition mapping configuration is resolvable in the context of displays and channels. Follow the steps below to migrate:
-
-1. Add [Rendition Mapping Rules](#adding-rendition-mapping-rules).
-1. Create a folder for new channels and add a reference pointing at the rendition mapping configuration.
-1. Create new channels replacing the old ones and upload renditions.
-1. Reassign displays to the new channels.
-1. Add a reference to the migrated displays or locations pointing at the rendition mapping configuration.
-1. Repeat steps 3, 4, and 5 for all remaining channels and displays.
-1. After completing the migration, remove all config references from channels, displays, and locations and add a single one to the project content node.
 
 ## Setting up Author and Publish {#setup-author-publish}
 
@@ -84,17 +67,6 @@ Consider the following recommendations in Author and Publish prior to using Adap
    ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## Uploading Renditions {#upload-renditions}
-
-1. Create a version of the asset which better suits the signage display, for example, `portrait orientation`.
-
-1. Choose the rendition naming pattern, for example,`portrait`.
-
-1. Rename the asset file so it contain the pattern, for example, `my_asset_portrait.png`.
-
-1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
-
-   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## The Next Steps {#next-steps}
 
