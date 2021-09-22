@@ -24,7 +24,12 @@ Adaptive Renditions are based on the idea of having multiple asset renditions na
 
 ## Configuring the Setup for using Adaptive Renditions {#setup-adaptive-renditions}
 
-To enable the Adaptive Renditions feature, the mapping rules should be present and the Context-Aware Configuration resolvable for channels and displays:
+To enable the Adaptive Renditions feature, the mapping rules should be present and the Context-Aware (CA) Configuration resolvable for channels and displays. 
+
+>[!NOTE]
+>To learn more about Content-Aware Configurations, see [here](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Follow the steps below to configure the setup:
 
 1. Check if the rendition mapping configuration exists in `JCR`. All the latest feature packs have this node structure pre-populated.
 
@@ -68,4 +73,4 @@ Consider the following recommendations in Author and Publish prior to using Adap
 
 ## The Next Steps {#next-steps}
 
-Once you have configured and uploaded the renditions, as  a Content Author, you can now use Adaptive Renditions and also migrate your devices to apply this feature, in your AEM Screens channels. See [Using Adaptive Renditions](/help/user-guide/using-adaptive-renditions.md) for more details.
+Once you have configured and uploaded the renditions, as  a Content Author, you can now use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels. See [Using Adaptive Renditions](/help/user-guide/using-adaptive-renditions.md) for more details.
