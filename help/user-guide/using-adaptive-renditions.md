@@ -3,7 +3,7 @@ title: Using Adaptive Renditions in AEM Screens
 description: This page describes how to use Adaptive Renditions in AEM Screens.
 index: no
 ---
-# Using Adaptive Renditions {#adaptive-renditions}
+# Using Adaptive Renditions in AEM Screens {#adaptive-renditions}
 
 ## Introduction {#introduction}
 

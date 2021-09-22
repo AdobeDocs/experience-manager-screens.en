@@ -24,7 +24,7 @@ Adaptive Renditions are based on the idea of having multiple asset renditions na
 
 ## Configuring the Setup for using Adaptive Renditions {#setup-adaptive-renditions}
 
-To enable the Adaptive Renditions feature, the mapping rules should be present and the CA configuration resolvable for channels and displays:
+To enable the Adaptive Renditions feature, the mapping rules should be present and the Context-Aware Configuration resolvable for channels and displays:
 
 1. Check if the rendition mapping configuration exists in `JCR`. All the latest feature packs have this node structure pre-populated.
 
