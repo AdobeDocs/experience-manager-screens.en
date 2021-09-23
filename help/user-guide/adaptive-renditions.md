@@ -1,7 +1,6 @@
 ---
-title: Adaptive Renditions in AEM Screens
-description: This page describes Architectural Overview and Configurations for Adaptive Renditions in AEM Screens.
-index: no
+title: Architectural Overview and Configurations for Adaptive Renditions in AEM Screens
+description: This page describes Architectural Overview and Configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
 ---
 
 # Adaptive Renditions: Architectural Overview and Configurations {#adaptive-renditions}
@@ -96,4 +95,4 @@ Follow the steps below to add a node under Rendition Mapping:
 
 ## The Next Steps {#next-steps}
 
-Once you have added rendition mapping properties and rules, now as a Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels. See [Using Adaptive Renditions](/help/user-guide/using-adaptive-renditions.md) for more details.
+Once you have added rendition mapping properties and rules, now as a Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels.

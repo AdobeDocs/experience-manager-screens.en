@@ -32,7 +32,6 @@ feature-set: Experience Manager Screens
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [New Project Importer from File](project-importer.md)
     + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
-    + [Thumbnail Support for Videos](thumbnail-support.md)
     + Client Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
@@ -76,6 +75,7 @@ feature-set: Experience Manager Screens
         + [Authoring with Data Triggers](authoring-data-triggers.md)
         + [Voice Recognition](voice-recognition.md)
         + [Content Assignment Report](content-assignment-report.md)
+        + [Thumbnail Support for Videos](thumbnail-support.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
