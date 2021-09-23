@@ -16,7 +16,7 @@ Follow the steps below to implement Tizen Player for AEM Screens:
 
 1. Install the Tizen player *(.zip)* file from local machine.
 
-## Setting up the Local Server and Extracting Zip Files {#setting-local-server}
+## Setting up the http Server {#setting-local-server}
 
 >[!NOTE]
 > Extract the zip file and make the Tizen player available through a `http server`. (The `http server` is not required to be Local or Apache server).
