@@ -47,14 +47,6 @@ Follow the steps below to configure the setup:
    ![image](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Setting up Author and Publish {#setup-author-publish}
-
-Consider the following recommendations in Author and Publish prior to using Adaptive Renditions:
-
-* Rendition mapping has to be replicated manually.
-
-* Asset renditions are not replicated by default. All relevant assets need to be replicated manually.
-
 ## Adding Rendition Mapping Rules {#add-rendition-mapping-rules}
 
 Follow the steps below to add a node under Rendition Mapping:
