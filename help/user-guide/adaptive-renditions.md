@@ -1,5 +1,5 @@
 ---
-title: Adaptive Renditions: Architectural Overview and Configurations
+title: Adaptive Renditions Architectural Overview and Configurations
 description: This page describes Architectural Overview and Configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
 ---
 
