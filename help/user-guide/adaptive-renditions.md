@@ -80,9 +80,10 @@ Follow the steps below to add a node under Rendition Mapping:
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
-   
+1. Add the pattern property with the value containing the rendition naming pattern. 
 
-1. Add the pattern property with the value containing the rendition naming pattern that will be selected, if the expression is evaluated to true.
+   >[!NOTE]
+   >The value defined in the pattern property will be matched to the new asset rendition and will be selected, if the expression is evaluated to true.
 
    To add the pattern property, click on **rule1** that you created, and enter **pattern** in **Name** and **landscape** in **Value**, as shown below. Click on **Add**. 
 
