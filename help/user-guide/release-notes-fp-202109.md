@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202109
-description: Follow this page to get information for AEM Screens Feature Pack 202105 released on September 23, 2021.
+description: Follow this page to get information for AEM Screens Feature Pack 202109 released on September 23, 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
