@@ -1,7 +1,6 @@
 ---
 title: Thumbnail Support for Videos in AEM Screens
 description: This page describes how to add Thumbnail Support for Videos in Screens.
-index: no
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 ---
 # Thumbnail Support for Videos {#thumbnail-support-videos}
@@ -29,13 +28,23 @@ Follow the steps below to use thumbnail in videos:
 
 1. Select the channel and click on **Edit** from the action bar to open the editor.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Add or edit an existing video component, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Select the video and click on the the *wrench* icon to open the video properties.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. The **Video** dialog box opens where you will view the **Thumbnail** drop zone.
 
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Drag and drop an image from the asset picker to the **Thumbnail** drop zone and click on **Done**.
+
+   ![image](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Click on **Preview**.
 

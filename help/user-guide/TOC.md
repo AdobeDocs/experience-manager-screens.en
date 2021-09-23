@@ -32,7 +32,6 @@ feature-set: Experience Manager Screens
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [New Project Importer from File](project-importer.md)
     + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
-    + [Thumbnail Support for Videos](thumbnail-support.md)
     + Client Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
@@ -76,6 +75,7 @@ feature-set: Experience Manager Screens
         + [Authoring with Data Triggers](authoring-data-triggers.md)
         + [Voice Recognition](voice-recognition.md)
         + [Content Assignment Report](content-assignment-report.md)
+        + [Thumbnail Support for Videos](thumbnail-support.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
@@ -99,11 +99,13 @@ feature-set: Experience Manager Screens
     + [Configuring ContextHub in AEM Screens](configuring-context-hub.md)
     + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
     + [Applying Custom Branding and Styling for Text Overlays](custom-branding-text-overlays.md)
+    + [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md)
 + Troubleshooting and FAQ's {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
+    + [Release Notes for Feature Pack 202109](release-notes-fp-202109.md) 
     + [Release Notes for Feature Pack 202105](release-notes-fp-202105.md)
     + [Release Notes for Feature Pack 202103](release-notes-fp-202103.md)
     + [Release Notes for Feature Pack 202011](release-notes-fp-202011.md)

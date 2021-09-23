@@ -38,7 +38,6 @@ To enable the feature, add at least one mapping rule and make sure the rendition
    >[!NOTE]
    >After completing the migration, ensure to remove all configuration references from channels, displays, and locations and add a single one to the project content node.
 
-
 ## Uploading Renditions and using Adaptive Renditions in an AEM Screens Channel {#upload-renditions}
 
 1. Create a version of the asset which better suits the signage display, for example, `portrait orientation`.
