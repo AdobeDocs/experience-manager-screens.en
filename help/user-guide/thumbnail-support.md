@@ -2,7 +2,7 @@
 title: Thumbnail Support for Videos in AEM Screens
 description: This page describes how to add Thumbnail Support for Videos in Screens.
 index: no
-
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 ---
 # Thumbnail Support for Videos {#thumbnail-support-videos}
 
