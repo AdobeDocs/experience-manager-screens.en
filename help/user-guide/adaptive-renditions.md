@@ -73,7 +73,7 @@ Follow the steps below to add a node under Rendition Mapping:
 
 1. You need to add the expression property with the value containing the query expression.
 
-    >[!NOTE]
+   >[!NOTE]
    >Refer to [Using Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) to learn more.
 
    Click on **rule1** that you created, and enter **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Click on **Add**.
