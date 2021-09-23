@@ -45,9 +45,13 @@ Follow the instructions below to download the Content Assignment Report:
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. The downloaded spreadsheet consists of two tabs such as **Locations** and **Content**. The Location tab displays four columns such as **Locations**, **Displays**, **Channels**, and **Devices** which can used to further investigate these four entities pertaining to your AEM Screens project.
+
+   ![image](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >The downloaded spreadsheet consists of four columns such as **Channels**, **Assets**, **Displays**, and **Devices** which can used to further investigate these four entities pertaining to your AEM Screens project.
+   >The displayed data in the spreadsheet is alphabetically sorted in an easy to read format.
 
-1. A excel sheet is downloaded to your local machine with the prefixed identical name as your AEM Screens project name. For instance, if your project name is **DemoScreens**, the downloaded filename will be **demoscreens-content-assignment-report.xlxs**.
+1. You can click on any of the channels from the **Channels** column to open the **Content** tab that will directly navigate you to that channel and will also provide you  information on assets (images and videos) associated with that specific channel, as shown in the figure below.
 
-   ![image](/help/user-guide/assets/content-assignment-report/car-download1.png)
+   ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

@@ -26,24 +26,25 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 * **Thumbnail Support for Videos**
 
    Thumbnail Support for videos in now supported in AEM Screens. A content author can define a thumbnail for videos so that the image can be used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used, in case the playback of the video fails.
-   See Thumbnail Support for Videos for more details.
+   See [Thumbnail Support for Videos](/help/user-guide/thumbnail-support.md) for more details.
 
 * **Basic Playback Monitoring**
 
    AEM Screens now supports basic playback monitoring. The player will now report various playback metrics with each ping (defaults to 30 seconds). Based on the metrics, it provides the ability to detect various edge cases (stuck experience, blank screen, scheduling problem, etc.). This feature allows the team to remotely monitor if a player is properly playing content, improves reactivity to blank screens or broken experiences in the field, and decreases the risk of showing a broken experience to the end user.
-   See Basic Playback Monitoring for more details.
+   See [Basic Playback Monitoring](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) for more details.
 
 * **Updates to Content Assignment Report**
 
    Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
+   See [Content Assignment Report](/help/user-guide/content-assignment-report.md) for more details.
 
 * **Adaptive Renditions**
 
    Adaptive Renditions allow the devices to automatically select the best rendition for a device based on customer-defined rules. 
    
-   As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. See Adaptive Renditions: Architectural Overview and Configurations to learn more.
+   As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. 
 
-   Additionally, as an AEM Screens Content Author, you can now use Adaptive Renditions in your AEM Screens project and also apply migration strategy for large networks. See Using Adaptive Renditions for more details.
+   Additionally, as an AEM Screens Content Author, you can now use Adaptive Renditions in your AEM Screens project and also apply migration strategy for large networks. 
 
 * **Support for V3 Manifests**
 
