@@ -12,8 +12,7 @@ Adaptive Renditions allow the devices to automatically select the best rendition
 ## Objective {#objective}
 
 As an AEM Screens Content Author, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually.
-
-So, if you deployed a variety of devices, using this feature will allow the device to automatically download and play the most appropriate rendition of an asset based on the rules.
+Once a Developer adds the rendition mapping properties and rules, you are now ready to apply the rendition mapping to assets and subsequently include those in an AEM Screens channel.
 
 >[!IMPORTANT]
 >Before you start using Adaptive Renditions, in an AEM Screens channel, it is recommended to learn about this feature's Architectural Overview and Configuration. See Adaptive Renditions: Architectural Overview and Configurations for more details.
