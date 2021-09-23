@@ -60,8 +60,6 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * The players now only expose asset renditions, if rendition mapping is present.
 
-* You can now setup slack alerts based on splunk logs.
-
 * Enhanced ping to re-authenticate if response is not valid JSON.
 
 * Numeric channel names/roles caused blank screen.
