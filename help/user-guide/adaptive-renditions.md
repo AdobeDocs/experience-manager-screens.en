@@ -58,16 +58,39 @@ Consider the following recommendations in Author and Publish prior to using Adap
 
 ## Adding Rendition Mapping Rules {#add-rendition-mapping-rules}
 
-1. To add a mapping rule you need to create a node of type `nt:unstructured` under the **rendition-mapping** node.
+Follow the steps below to add a node under Rendition Mapping:
 
-1. Add the expression property with the value containing the query expression.
+1. Navigate to this path `/conf/screens/sling:configs/rendition-mapping` from **CRXDE Lite**.
 
-   >[!NOTE]
+1. Create a node under **rendition-mapping**. Right click on **rendition-mapping** and click on **Create** --> **Create Node**, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Enter the **Name** for your mapping rule such as **rule1** and the node **Type** as **nt:unstructured** in **Create Node** dialog box. Click on **OK**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. You need to add the expression property with the value containing the query expression.
+
+    >[!NOTE]
    >Refer to [Using Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) to learn more.
+
+   Click on **rule1** that you created, and enter **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Click on **Add**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+   
 
 1. Add the pattern property with the value containing the rendition naming pattern that will be selected, if the expression is evaluated to true.
 
-   ![image](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   To add the pattern property, click on **rule1** that you created, and enter **pattern** in **Name** and **landscape** in **Value**, as shown below. Click on **Add**. 
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Click on **Save All** and you will see the properties under the node you created under **rendition-mapping**.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## The Next Steps {#next-steps}
