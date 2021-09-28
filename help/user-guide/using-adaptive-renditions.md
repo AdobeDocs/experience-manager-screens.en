@@ -1,8 +1,8 @@
 ---
 title: Using Adaptive Renditions in AEM Screens
 description: This page describes how to use Adaptive Renditions in AEM Screens.
-index: no
 ---
+
 # Using Adaptive Renditions in AEM Screens {#adaptive-renditions}
 
 ## Introduction {#introduction}
@@ -30,9 +30,9 @@ Follow the steps below to apply renditions to the assets, that you want to use i
 
 1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
 
-1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in pattern property in CRXDE Lite. Refer to [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
+1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. Refer to [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
 
-1. Rename the asset file so it contain the pattern, for example, `seahorse_landscape.png`.
+1. Rename the asset file so it contains the pattern (defined in step 3), for example, `seahorse_landscape.png`.
 
 1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
 
