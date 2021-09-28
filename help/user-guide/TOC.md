@@ -76,6 +76,7 @@ feature-set: Experience Manager Screens
         + [Voice Recognition](voice-recognition.md)
         + [Content Assignment Report](content-assignment-report.md)
         + [Thumbnail Support for Videos](thumbnail-support.md)
+        + [Using Adaptive Renditions in AEM Screens](using-adaptive-renditions.md)
     + Managing Content Updates {#content-updates}
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)

@@ -87,4 +87,4 @@ Follow the steps below to add a node under Rendition Mapping:
 
 ## The Next Steps {#next-steps}
 
-Once you have added rendition mapping properties and rules, now as a Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels.
+Once you have added rendition mapping properties and rules, now as a Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more details.
