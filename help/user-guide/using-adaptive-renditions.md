@@ -17,6 +17,29 @@ Once a Developer adds the rendition mapping properties and rules, you are now re
 >[!IMPORTANT]
 >Before you start using Adaptive Renditions, in an AEM Screens channel, it is recommended to learn about this feature's Architectural Overview and Configuration. See [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md) for more details.
 
+## Using Adaptive Renditions in Channels {#using-adaptive-renditions}
+
+>[!NOTE]
+>Once you have added [rendition mapping property to the Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) and [rendition mapping rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), as a Content Author you are now ready to apply the renditions to your assets.
+
+### Applying Renditions to Assets {#apply-renditions-assets}
+
+Follow the steps below to apply renditions to the assets, that you want to use in tour Screens channel:
+
+1. Navigate to the **Assets** folder in your AEM instance.
+
+1. Create a version of the asset which better suits the signage display, for example, `portrait orientation`.
+
+1. Choose the rendition naming pattern, for example,`portrait`.
+
+1. Rename the asset file so it contain the pattern, for example, `my_asset_portrait.png`.
+
+1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+
+
 ## Migration Strategy {#migration-strategy}
 
 >[!IMPORTANT]
@@ -40,12 +63,4 @@ To enable the feature, add at least one mapping rule and make sure the rendition
 
 ## Uploading Renditions and using Adaptive Renditions in an AEM Screens Channel {#upload-renditions}
 
-1. Create a version of the asset which better suits the signage display, for example, `portrait orientation`.
-
-1. Choose the rendition naming pattern, for example,`portrait`.
-
-1. Rename the asset file so it contain the pattern, for example, `my_asset_portrait.png`.
-
-1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
-
-   ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+1. 
