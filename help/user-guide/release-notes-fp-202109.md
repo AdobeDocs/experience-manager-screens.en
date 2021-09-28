@@ -44,7 +44,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
    
    As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. See [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md) for more details.
 
-   Additionally, as an AEM Screens Content Author, you can now use Adaptive Renditions in your AEM Screens project and also apply migration strategy for large networks. 
+   Additionally, as an AEM Screens Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more details. 
 
 * **Support for V3 Manifests**
 
