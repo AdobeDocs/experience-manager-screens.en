@@ -28,22 +28,21 @@ Follow the steps below to apply renditions to the assets, that you want to use i
 
 1. Navigate to the **Assets** folder in your AEM instance.
 
-1. Create a version of the asset which better suits the signage display, for example, `portrait orientation`.
+1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
 
-1. Choose the rendition naming pattern, for example,`portrait`.
+1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in pattern property in CRXDE Lite. Refer to [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
 
-1. Rename the asset file so it contain the pattern, for example, `my_asset_portrait.png`.
+1. Rename the asset file so it contain the pattern, for example, `seahorse_landscape.png`.
 
 1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 
-
 ## Migration Strategy {#migration-strategy}
 
 >[!IMPORTANT]
->For large networks, it is recommended that the migration is done gradually to mitigate the risks as the feature will introduce changes in the manifest and file storage format. 
+>For large networks, it is recommended that the migration is done gradually to mitigate the risks as the feature will introduce changes in the manifest and file storage format. Adding the `sling:configRef` to the entire project involves having all players updated to Feature Pack 6.5.9. In case, you updated some of the players, you need to add the `sling:configRef` only to those displays, locations, or channel folders that have all players updated to Feature Pack 6.5.9.
 
 The following diagram depicts the migration strategy for large networks:
 
@@ -61,6 +60,3 @@ To enable the feature, add at least one mapping rule and make sure the rendition
    >[!NOTE]
    >After completing the migration, ensure to remove all configuration references from channels, displays, and locations and add a single one to the project content node.
 
-## Uploading Renditions and using Adaptive Renditions in an AEM Screens Channel {#upload-renditions}
-
-1. 

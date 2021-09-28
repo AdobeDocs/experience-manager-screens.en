@@ -84,27 +84,6 @@ Follow the steps below to add a node under Rendition Mapping:
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
-## Migration Strategy {#migration-strategy}
-
->[!IMPORTANT]
->For large networks, it is recommended that the migration is done gradually to mitigate the risks as the feature will introduce changes in the manifest and file storage format. Adding the `sling:configRef` to the entire project involves having all players updated to Feature Pack 6.5.9. In case, you updated some of the players, you need to add the `sling:configRef` only to those displays, locations, or channel folders that have all players updated to FP9.
-
-The following diagram depicts the migration strategy for large networks:
-
-![image](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-To enable the feature, add at least one mapping rule and make sure the rendition mapping configuration is resolvable in the context of displays and channels. Follow the steps below to migrate:
-
-1. Add [Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md).
-1. Create a folder for new channels and add a reference pointing at the rendition mapping configuration.
-1. Create new channels replacing the old ones and upload renditions.
-1. Reassign displays to the new channels.
-1. Add a reference to the migrated displays or locations pointing at the rendition mapping configuration.
-1. Repeat steps 3, 4, and 5 for all remaining channels and displays.
-
-   >[!NOTE]
-   >After completing the migration, ensure to remove all configuration references from channels, displays, and locations and add a single one to the project content node.
-
 
 ## The Next Steps {#next-steps}
 
