@@ -1,8 +1,8 @@
 ---
 title: Using Adaptive Renditions in AEM Screens
 description: This page describes how to use Adaptive Renditions in AEM Screens.
+exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 ---
-
 # Using Adaptive Renditions in AEM Screens {#adaptive-renditions}
 
 ## Introduction {#introduction}
@@ -66,4 +66,3 @@ To enable the feature, add at least one mapping rule and make sure the rendition
 
    >[!NOTE]
    >After completing the migration, ensure to remove all configuration references from channels, displays, and locations and add a single one to the project content node.
-
