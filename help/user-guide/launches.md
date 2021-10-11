@@ -17,7 +17,7 @@ exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 ---
 # Content Update using Screens Launch {#launches}
 
-Content authors can create future version of the channel(s), known as **Screens Launch** and further set the live date for this launch. This allows allows the content to be live in devices or players on the specified live date.
+Content authors can create future version of the channel(s), known as **Screens Launch** and further set the live date for this launch. This allows the content to be live in devices or players on the specified live date.
 
 With the help of ***Screens Launch***, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
 
