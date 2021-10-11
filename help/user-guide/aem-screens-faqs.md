@@ -60,6 +60,17 @@ For *dynamic references*, the resolution occurs once the channel is assigned to 
 
 And so on, until you reach the locations folder and stop there at the moment (so you cannot reference a channel that would be in the channels folder for instance, only channels in the locations sub-tree).
 
+### 5. How to setup Custom clientlib offline configuration in AEM Screens Channel?
+
+When using a built custom client-side code `clientlib` in an  AEM Screens channel, the following steps are necessary to make sure that the `clientlib` files are loaded successfully in the channel (`manifest.json`) and will contain the path of the `clientlib`.
+
+Follow the steps below from the channel editor:
+
+1. Select a channel and click on **Edit** from the action bar to open the channel editor.
+1. Select the component where you want to add the custom `clientlib`.
+1. Click on the configure button (the wrench icon). 
+1. Navigate to the **Offline Config** tab and add the path to your custom clientlib in **Client-side Libraries**.
+
 ## Device Registration {#device-registration}
 
 ### 1. If I discover endpoints such as requests for device onboarding and registration, I can script a large number of devices and register these devices. Besides locking this to a branch Wi-Fi, is it possible to secure these requests? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
