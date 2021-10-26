@@ -215,7 +215,7 @@ If there are any *Query Traversal WARNs* in the `error.log`, create a custom ind
 You can also refer to an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. What is required to configure v3 Manifests {#configure-v3}
+### 3. What is required to configure v3 Manifests? {#configure-v3}
 
 For enabling v3 Manifest, you must:
 
