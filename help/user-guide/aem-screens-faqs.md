@@ -213,3 +213,18 @@ AEM Screens creates index definitions for the queries used by the product.
 If there are any *Query Traversal WARNs* in the `error.log`, create a custom index for your query. Refer to [Configuring the Indexes](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) for more details.
 
 You can also refer to an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3. What is required to configure v3 Manifests {#configure-v3}
+
+For enabling v3 Manifest, you must:
+
+* Update Dispatcher.
+  See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.
+
+* Update Custom Component.
+   See [Template for Custom Handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) for more details.
+
+* Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
