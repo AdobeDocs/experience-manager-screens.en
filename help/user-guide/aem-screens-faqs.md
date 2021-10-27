@@ -228,3 +228,9 @@ For enabling v3 Manifest, you must:
 * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* Edit `channel/experience fragment/page components`.
+
+* Navigate to the **Offline Config** tab.
+
+* Enter `clientlibs `and folders for static files that need to be added to the manifest.
