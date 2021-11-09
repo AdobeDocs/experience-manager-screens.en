@@ -28,7 +28,7 @@ Follow the steps below to enable users and update the password for screens-recei
 >[!NOTE]
 >For security reasons, it is recommended to avoid using the admin password for screens-receiver-user.
 
-1. Navigate  to your AEM instance.
+1. Navigate  to your AEM Author instance.
 
 1. Click on tools --> **Security** --> **Users**.
 
@@ -59,7 +59,7 @@ Follow the steps below to enable users and update the password for screens-recei
 1. Enter a new password in the **Change Password** dialog box and click on **Save**.
 
    >[!NOTE]
-   >You should enter **admin** in **Your Password** field.
+   >You should enter the existing admin user password in **Your Password** field.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -86,6 +86,9 @@ Follow the steps below to enable users and update the password for screens-recei
 
 Follow the section below to update settings in Screens Replication agent:
 
+>[!IMPORTANT]
+>You must complete the following steps on ALL existing screens replication agents.
+
 1. Navigate to your AEM instance.
 
 1. Click on tools --> **Deployment** --> **Replication**.
@@ -111,9 +114,11 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigate to **Transport** tab from the **Agent Settings** dialog box and enter the same password that you set before in step (8) of [Enabling Users and Updating the Password](#enable-users). Click on **OK**.
+1. Navigate to **Transport** tab from the **Agent Settings** dialog box and update the **User** to **screens-receiver-user** and enter the same password that you set before in step (8) of [Enabling Users and Updating the Password](#enable-users).
 
-   ![image](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Click on **OK**.
 
 1. Once you complete the preceding steps, you can click on **Test Connection** to verify the connection.
 
