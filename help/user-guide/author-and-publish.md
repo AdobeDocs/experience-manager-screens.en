@@ -107,6 +107,9 @@ Follow the steps below to create a default replication agent:
 1. Create AEM Screens replication agent for pub1. Out-of-the-box, there is a one named Screens Replication Agent that points to port 4503. This needs to be enabled.
 1. Create AEM Screens replication agent for pub2. Copy the Screens replication agent for pub1 and change the port to point to 4504 for pub2.
 
+   >[!NOTE]
+   >To learn how to configure Screens Replication Agents, see [Configuring Screens Replication Agent](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+
 #### Creating Screens Reverse Replication Agents {#creating-screens-reverse-replication-agents}
 
 1. Create standard reverse replication agent for pub1.
