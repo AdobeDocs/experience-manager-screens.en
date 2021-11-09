@@ -19,7 +19,10 @@ You must complete both the sections to complete the configuration for Screens Re
 
 ## Enabling Users and Updating the Password {#enable-users}
 
-Follow the steps below:
+Follow the steps below to enable users and update the password for screens-receiver-user:
+
+>[!NOTE]
+>For security reasons, it is recommended to avoid using the admin password for screens-receiver-user.
 
 1. Navigate  to your AEM instance.
 
