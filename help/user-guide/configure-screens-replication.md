@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 ---
 
-# Configuring Screens Replication Agent {#configuring-screens-replication-agent}
+# Configuring Screens Replication Agents {#configuring-screens-replication-agent}
 
-This following page describes how to configure Screens Replication Agent.
+This following page describes how to configure Screens Replication Agents.
 
 >[!NOTE]
 >To learn more about Screens Replication Agents, see [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -15,7 +15,7 @@ This following page describes how to configure Screens Replication Agent.
 You must complete both the sections to complete the configuration for Screens Replication Agent:
 
 1. [Enabling Users and Updating the Password](#enable-users)
-1. [Updating Screens Replication Agent](#replicate-agent)
+1. [Updating Settings for Screens Replication Agent](#replicate-agent)
 
 ## Enabling Users and Updating the Password {#enable-users}
 
@@ -75,7 +75,7 @@ Follow the steps below:
 
 1. Click on **OK** to confirm.
 
-## Updating Screens Replication Agent {#replicate-agent}
+## Updating Settings for Screens Replication Agent {#replicate-agent}
 
 Follow the section below to update settings in Screens Replication agent:
 
@@ -89,7 +89,10 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Search for the link with the letter **S** and click on it, as shown in the figure below.
+1. Search for the Screens Replication agent on author and click the link, as shown in the figure below.
+
+   >[!NOTE]
+   >Search for the Screens Replication agent with the letter **S** included in the name of the author.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
