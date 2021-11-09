@@ -76,3 +76,29 @@ Follow the section below to update settings in Screens Replication agent:
 1. Click on tools --> **Deployment** --> **Replication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Click on **Agents on author**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Click on the link, as shown in the figure below.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Click on **Edit**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Check **Enabled** from the **Settings** tab.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Navigate to **Transport** tab from the **Agent Settings** dialog box and enter the same password that you set before in step (8) of [Enabling Users and Updating the Password](#enable-users). Click on **OK**.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. Once you complete the preceding steps, you can click on **Test Connection** to verify the connection.
+
+   ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   If the connection verification is successful, you have completed configuring Screens Replication Agent.
