@@ -99,10 +99,10 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Search for the Screens Replication agent on author and click the link, as shown in the figure below.
+1. Search for the all Screens Replication agents on author and click the link, as shown in the figure below.
 
    >[!NOTE]
-   >Search for the Screens Replication agent with the letter **S** included in the name of the author.
+   >Search for all Screens Replication agents. The Screens Replication Agent name will include a letter **S** in the title.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
