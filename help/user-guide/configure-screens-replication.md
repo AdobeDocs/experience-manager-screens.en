@@ -1,6 +1,6 @@
 ---
-title: Configure Screens Replication Agent
-description: Follow this page to get information on how to configure Screens Replication Agent.
+title: Configure Screens Replication Agents
+description: Follow this page to get information on how to configure Screens Replication Agents.
 role: Developer
 level: Intermediate
 ---
@@ -8,6 +8,10 @@ level: Intermediate
 # Configuring Screens Replication Agents {#configuring-screens-replication-agent}
 
 This following page describes how to configure Screens Replication Agents.
+
+## Objective {#objective}
+
+The Screens Replication Agent is responsible for bringing ping data from publish to author. It is essential to configure this so that the author can show the device ping.
 
 >[!NOTE]
 >To learn more about Screens Replication Agents, see [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
