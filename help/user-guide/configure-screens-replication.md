@@ -11,7 +11,7 @@ This following page describes how to configure Screens Replication Agents.
 
 ## Objective {#objective}
 
-The Screens Replication Agent is responsible for bringing ping data such as, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, and many more such values from publish to author. It is essential to configure this so that the author can show the device ping.
+The Screens Replication Agent is responsible for bringing commands data such as, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, and many more such values from publish to author. It is essential to configure this so that the author can show the device ping.
 
 >[!NOTE]
 >To learn more about Screens Replication Agents, see [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
