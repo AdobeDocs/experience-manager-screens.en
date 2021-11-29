@@ -3,8 +3,8 @@ title: Configure Screens Replication Agents
 description: Follow this page to get information on how to configure Screens Replication Agents.
 role: Developer
 level: Intermediate
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 ---
-
 # Configuring Screens Replication Agents {#configuring-screens-replication-agent}
 
 This following page describes how to configure Screens Replication Agents.
