@@ -17,6 +17,9 @@ AEM Screens released AEM 6.5 Feature Pack 8.
 
 You can download the latest feature pack for AEM Screens 6.5.8 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP8**.
 
+>[!IMPORTANT]
+>You must install a minimum version of AEM 6.5 Feature Pack 8 for AMS connector to work once you have installed the packages `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` and the `screens core bundles`.
+
 ## Release Date {#release-date}
 
 The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
