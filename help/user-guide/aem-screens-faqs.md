@@ -234,3 +234,7 @@ For enabling v3 Manifest, you must:
 * Navigate to the **Offline Config** tab.
 
 * Enter `clientlibs `and folders for static files that need to be added to the manifest.
+
+### 4. What should you do, if, after the package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 and the screens core bundles are installed but not active?
+
+You must install a minimum version of AEM 6.5 Feature Pack 8 AMS for the AMS connector to work. See the [Availability](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) to get the minimum version of feature pack.
