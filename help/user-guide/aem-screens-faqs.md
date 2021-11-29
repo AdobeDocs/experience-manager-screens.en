@@ -238,3 +238,13 @@ For enabling v3 Manifest, you must:
 ### 4. What should you do, if, after the package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 and the screens core bundles are installed but not active?
 
 You must install a minimum version of AEM 6.5 Feature Pack 8 for the AMS connector to work. See the [Availability](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) to get the minimum version of Screens feature pack.
+
+### 5.  How to configure CQ Link Externalizer service in Screens?
+
+The service is used to define the public hostname for the author and publish instances, and the values are then used to update the device server URLs and also for ContextHub targeting.
+
+CQ Link Externalizer service in Screens can be configured via:
+
+1. Navigate to `http://localhost:4502/system/console/configMgr`
+1. Day CQ Link Externalizer
+1. Change the hostname for the `author/publish` entries as needed
