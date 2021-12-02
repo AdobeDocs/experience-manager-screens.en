@@ -23,15 +23,26 @@ The Release Date for AEM Screens Feature Pack 202112 is December 03, 2021.
 
 ### What's New {#what-is-new}
 
-* Android app updates must target Android 11 (API level 30).
+* Android application updates now target Android 11 (API level 30). Currently Android player is in target API level 29.
+
+* As a developer, you will now view asset renditions to be listed only as rendition entries under corresponding assets in the manifest to ensure the extensibility, clarity, and ease of the manifest handling.
 
 ### Bug Fixes {#bug-fixes}
 
+* You can now filter analytics events based on event type.
+
+* Collect on-Premise Player logs and analyze them for black screen.
+
+* Player showing blank screen with split screen channel is now fixed
+
+* Fixed custom handler docs by adding core bundle on public maven.
+
+* Player was not updating firmware version after upgrade. This is now fixed.
 
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
-The following AEM Screens Players are released for AEM 6.5 Feature Pack 9:
+The following AEM Screens Players are released for AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
