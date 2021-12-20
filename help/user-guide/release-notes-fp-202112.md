@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202112
-description: Follow this page to get information for AEM Screens Feature Pack 202112 released on December 06, 2021.
+description: Follow this page to get information for AEM Screens Feature Pack 202112 released on December 17, 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
