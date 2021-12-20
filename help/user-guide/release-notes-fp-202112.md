@@ -19,7 +19,7 @@ You can download the latest feature pack for AEM Screens 6.5.10 Release from the
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202112 is December 06, 2021.
+The Release Date for AEM Screens Feature Pack 202112 is December 17, 2021.
 
 ### What's New {#what-is-new}
 
