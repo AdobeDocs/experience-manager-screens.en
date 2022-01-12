@@ -48,15 +48,27 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Support for V3 Manifests**
 
-   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, you need to configure:
+   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, you need to:
+
+   * Clear any pending offline content jobs in both author and published
+
+       - Navigate to crx/de in author and publish
+
+       - Click on Tools --> Query
+
+       - In the query use "/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']"
+
+       - This will list any offline content jobs that are currently running or pending in the queue
+
+       - Wait until there are no more offline content jobs returned from the query
+ 
+   * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   
+   * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Update dispatcher
 
    * Update custom component
-   
-   * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-   
-   * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
    
    * See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.
    * If you are using custom components as a part of v3 manifests, see [Template for Custom Handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
