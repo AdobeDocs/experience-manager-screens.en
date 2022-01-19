@@ -113,6 +113,7 @@ The following table summarizes the groups with description and permissions for a
    <td>
     <ul>
      <li>Member Of Contributors</li>
+     <li>crx:replicate /conf/screens/settings</li>
      <li>&lt;project&gt; /content/screens</li>
      <li>&lt;project&gt; /content/dam</li>
      <li>&lt;project&gt; /content/experience-fragments</li>
