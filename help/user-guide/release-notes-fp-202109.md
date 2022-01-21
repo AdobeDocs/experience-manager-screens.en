@@ -65,6 +65,10 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
    * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
    
    * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   * Update dispatcher
+
+   * Update custom component
    
    * Update dispatcher
 
