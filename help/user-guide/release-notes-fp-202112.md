@@ -39,6 +39,11 @@ The Release Date for AEM Screens Feature Pack 202112 is December 17, 2021.
 
 * Player was not updating firmware version after upgrade. This is now fixed.
 
+* Display preview is stuck on previous player configuration.
+
+* Display preview is not rendering in some conditions.
+
+* Fix concurrent download errors in SmartSync.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
