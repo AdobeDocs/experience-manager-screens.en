@@ -1,5 +1,5 @@
 ---
-title: Release Notes for Feature Pack 202112
+title: Release Notes for Feature Pack 202204
 description: Follow this page to get information for AEM Screens Feature Pack 202204 released on April 1, 2022.
 feature: Feature Pack
 role: Developer
