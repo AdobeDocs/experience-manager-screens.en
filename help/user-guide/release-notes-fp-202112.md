@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202112
-description: Follow this page to get information for AEM Screens Feature Pack 202112 released on December 17, 2021.
+description: Follow this page to get information for AEM Screens Feature Pack 202112 released on January 12, 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -19,7 +19,7 @@ You can download the latest feature pack for AEM Screens 6.5.10 Release from the
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202112 is December 17, 2021.
+The Release Date for AEM Screens Feature Pack 202112 is January 12, 2022.
 
 ### What's New {#what-is-new}
 
