@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202204
-description: Follow this page to get information for AEM Screens Feature Pack 202204 released on April 1, 2022.
+description: Follow this page to get information for AEM Screens Feature Pack 202204 released on April 26, 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -18,11 +18,11 @@ You can download the latest feature pack for AEM Screens 6.5.11 Release from the
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202204 is April 1, 2022.
+The Release Date for AEM Screens Feature Pack 202204 is April 26, 2022.
 
 ### What's New {#what-is-new}
 
-* This release is bug fixes only.
+* A new Remote Control feature makes it easier to access the Admin UI, channel switcher or other features such as the clear cache and reload. You can also view the local firmware version and system information on the player.
 
 ### Bug Fixes {#bug-fixes}
 
