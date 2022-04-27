@@ -1,7 +1,7 @@
 ---
 title: About this Guide
 seo-title: Description on the Guide
-description: This page describes the intent of the Best Practices Guide
+description: Follow this best practice AEM 6.5 guide for AEM Screens projects to plan and execute projects, from strategic and design briefing, through to deployment and after support.
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 ---
