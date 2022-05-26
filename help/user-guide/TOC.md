@@ -40,6 +40,7 @@ feature-set: Experience Manager Screens
         + [Windows Player](implementing-windows-player.md) 
         + [Tizen Player](tizen-player.md)
         + [Auto Registration of Players](auto-registration-players.md)
+        + [Using the Remote control](implementing-remote-control.md)
     + Author Publish {#author-publish}
         + [Author-Publish Architectural Overview](author-publish-architecture-overview.md)
         + [Configuring Author and Publish](author-and-publish.md)

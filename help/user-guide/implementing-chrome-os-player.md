@@ -146,3 +146,7 @@ The following table summarizes the policies with their functions.
 >[!NOTE]
 >
 >Policy configurations are strictly enforced and are not manually overridden at the player's admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the ***policy configuration,*** for example, if you want to allow manual configuration for reboot schedule, do not specify the key ***rebootSchedule*** in the policy configuration.
+
+### Using the Screens Remote Control {#using-remote-control}
+
+AEM Screens provides Remote Control functionality. Learn more about this feature here: [Screens Remote Control](implementing-remote-control.md)
