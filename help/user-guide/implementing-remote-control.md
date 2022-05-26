@@ -44,6 +44,6 @@ The following diagram illustrates the key usage on a Samsung remote:
 ![image](/help/user-guide/assets/remote.png)
 
 >[!NOTE]
-    >If you set the device configuration values of enableAdminUI and/or enableOSD to false, the remote will not toggle the admin UI and channel switcher. You will also not be able to use the arrow keys to navigate the admin UI or channels. However you can still clear cache and reload player. You can disable the remote control feature if any of the keyboard combinations conflict with your interactive content using this code: 
+>If you set the device configuration values of enableAdminUI and/or enableOSD to false, the remote will not toggle the admin UI and channel switcher. You will also not be able to use the arrow keys to navigate the admin UI or channels. However you can still clear cache and reload player. You can disable the remote control feature if any of the keyboard combinations conflict with your interactive content using this code: 
 
 ```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
