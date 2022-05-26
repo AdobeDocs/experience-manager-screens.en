@@ -161,3 +161,7 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Click on **Save** for the changes to appear on the display screen.
+
+### Using the Screens Remote Control {#using-remote-control}
+
+AEM Screens provides Remote Control functionality. Learn more about this feature here: [Screens Remote Control](implementing-remote-control.md)

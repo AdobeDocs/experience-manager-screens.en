@@ -199,3 +199,7 @@ Follow the steps below to allow bulk provisioning in Android Player:
    >The devices should receive the application along with the configuration and point to the correct AEM server with the selected configuration. If you chose to configure the bulk registration code and kept it the same as configured in AEM, the player should be able to automatically register itself. If you had configured a default display, it can also download and show some default content (which can later be changed as per your convenience).
 
 Additionally, you should check with your EMM vendor on AppConfig support. Most popular ones such as [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) and [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) among others support this industry standard.
+
+### Using the Screens Remote Control {#using-remote-control}
+
+AEM Screens provides Remote Control functionality. Learn more about this feature here: [Screens Remote Control](implementing-remote-control.md)
