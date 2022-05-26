@@ -41,7 +41,7 @@ Specific to the Tizen player, you can use either the hardware remote or the soft
 1. With the channel switcher open, you can use the the up and down arrows keys to navigate the channels and you can press the enter key (or the button at the center of the arrows on the remote) to switch channels. 
 
 The following diagram illustrates the key usage on a Samsung remote:
-![image](assets/remote.png)
+![image](assets/tizen/remote.png)
 
 >[!NOTE]
 >If you set the device configuration values of enableAdminUI and/or enableOSD to false, the remote will not toggle the admin UI and channel switcher. You will also not be able to use the arrow keys to navigate the admin UI or channels. However you can still clear cache and reload player. You can disable the remote control feature if any of the keyboard combinations conflict with your interactive content using this code: 
