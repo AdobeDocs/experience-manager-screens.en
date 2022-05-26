@@ -552,6 +552,15 @@ The below video shows the finished component and how it can be added to a Sequen
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
+## Additional considerations for custom components embedding other pages or fragments {#additional-considerations}
+
+If the custom component you are developing is meant to include other pages or experience fragments, and if you want changes in the embedded content to be automatically picked up by the player without having to republish the channel, you need to take these 2 constraints into consideration:
+
+1. Instead of directly extending `foundation/components/parbase`, you'd have to extend either `screens/core/components/content/page` or `screens/core/components/content/experiencefragment`
+2. The name of the property you use to reference the embedded content needs to be `pagePath`
+
+Leveraging those 2 Screens core components also comes with the added benefit that they can take care of bundling some of the dependencies you need (client-side libraries, fonts, etc.) via their offline config options in the component dialog, which then reduces the responsibility of any custom offline handler you'd have to use for this, sometimes even completely removing the need to use one in the first place.
+
 ## Finished Code {#finished-code}
 
 Below is the finished code from the tutorial. The **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** and **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** are the compiled AEM packages. The **SRC-screens-weretail-run-0.0.1.zip **is the un-compiled source code that can be deployed using Maven.
