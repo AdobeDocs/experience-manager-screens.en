@@ -12,6 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
+exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
 ---
 # Using the Screens Remote Control  {#implementing-remote-control}
 
