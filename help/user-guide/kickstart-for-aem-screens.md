@@ -49,7 +49,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 The first step is to create an AEM Screens project.
 
-1. Navigate to your Adobe Experience Manager (AEM) instance and click **Screens**. Alternatively, you can navigate directly from `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Navigate to your Adobe Experience Manager (AEM) instance and click **Screens**. Alternatively, you can navigate directly to `https://localhost:4502/screens.html/content/screens`.
 
 1. Click **Create Screens Project** to create a new Screens project. Enter the title as **DemoScreens** and click **Save**.
 
