@@ -224,3 +224,24 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
        /type "deny"
        }
    ```
+
+### Add invalidation rule for segments.js {#invalidsegmentjs}
+
+   If you are adding new segments and publishing them, the `segments.js` file served by the dispatcher doesn't have the new entries which was breaking the targeting flow on the screens device. The segments.js file is getting cached at the dispatcher level, but there was no invalidation rule for the same. As a result you must add an invalidation rule.
+
+* Add new segments to the `/conf/<project-name>/settings/wcm/segments.seg.js` file.
+
+* Add an invalidation rule to `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Here is the rule to add:
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* This rule ensures the `segments.js` file is invalidated and latest is fetched when modified.
