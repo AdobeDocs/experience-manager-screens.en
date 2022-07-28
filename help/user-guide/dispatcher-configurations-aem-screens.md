@@ -227,9 +227,7 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
 
 ### Add invalidation rule for segments.js {#invalidsegmentjs}
 
-   If you are adding new segments and publishing them, the `segments.js` file served by the dispatcher doesn't have the new entries which was breaking the targeting flow on the screens device. The segments.js file is getting cached at the dispatcher level, but there was no invalidation rule for the same. As a result you must add an invalidation rule.
-
-* Add new segments to the `/conf/<project-name>/settings/wcm/segments.seg.js` file.
+   If you are using targeted campaigns with AEM Screens, then the `segments.js file` served by the dispatcher needs to be invalidated, as you add and publish new segments on AEM. Without this invalidation rule, new targeted campaigns will not work on the Screens player (it will show the default content instead).
 
 * Add an invalidation rule to `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Here is the rule to add:
 
@@ -238,7 +236,7 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
