@@ -13,7 +13,7 @@ feature-set: Experience Manager Screens
 + [Introduction to Screens](aem-screens-introduction.md)
 + Overview and Kickstart Guide {#overview}
     + [Kickstart Guide](kickstart-for-aem-screens.md)
-    + [Screens Best Practices Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+    + [Screens Best Practices Guide](using/about-guide.md)
     + [Key Terms](screens-glossary.md)
 + Digital Signage Network Basics {#digital-signage-network}
     + [Part 1: Project Roles and Responsibilities](project-roles-responsibilities.md)

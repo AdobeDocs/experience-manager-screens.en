@@ -1,7 +1,7 @@
 ---
 title: Multi-zone Layout
 seo-title: Multi-zone Layout
-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
+description: Multi-zone Layout allows you to create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. Follow this page to learn more.
 seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
@@ -27,18 +27,18 @@ The following page describes the usage of multi-zone layout and covers the follo
 
 ## Overview {#overview}
 
-***Multi-zone Layout*** allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. You can pull in images, videos, and text allowing it all to blend together and create an intuitive digital experience.
+***Multi-zone Layout*** allows you to create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. You can pull in images, videos, and text allowing it all to blend together and create an intuitive digital experience.
 
-As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed running in three separate zones on a single channel.
+As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed that runs in three separate zones on a single channel.
 
 
 ### Prerequisites {#prerequisites}
 
 Before you start implementing this functionality, please make sure you have the conceptual knowledge on:
 
-* [Creating an AEM Screens Project](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Creating a Display](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
-* [Assigning a Channel to a Display](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
+* [Creating an AEM Screens Project](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Creating a Display](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Assigning a Channel to a Display](/help/user-guide/channel-assignment.md)
 
 ## Creating Multi-zone Layout {#creating-multi-zone-layout}
 
@@ -117,7 +117,7 @@ If you want the zones to display sequence of images and a video in the different
 
 ### Creating a Location and a Display {#creating-location}
 
-You must create a location and a display to view the content in the Screens player. Follow the steps below to create a location and a display.
+Create a location and a display to view the content in the Screens player.
 
 1. **Creating a Location**
 
@@ -135,7 +135,7 @@ You must create a location and a display to view the content in the Screens play
 
 ### Assigning Channels to the Display {#channel-channel}
 
-You must assign the channels to the display to view the content. Follow the steps below to assign the channel to the display.
+Assign the channels to the display to view the content. Follow the steps below to assign the channel to the display.
 
 1. **Assigning Channel to the Display**
 
@@ -180,7 +180,7 @@ Once you have set up a location and a display, follow the steps below to registe
 
 Once you implement multi-zone layouts using the preceding steps, the following output displays.
 
-Check the Screens player to view the output that displays the content in two different zones. The left and the right zones (both use embedded sequence as a component).
+Check the Screens player to view the output that displays the content in two different zones. The left and the right zones (both use an embedded sequence as a component).
 
 The left zone is a sequence channel and the right zone includes a video.
 

@@ -21,7 +21,7 @@ Make sure you consider the following elements before implementing your AEM Scree
 * **Scheduling**
 * **Previewing the content**
 
-To learn about these terms, refer to [Glossary](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+To learn about these terms, refer to [Glossary](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -40,14 +40,15 @@ An AEM Screens author is responsible for creating and managing a user experience
 
 An author typically begins an AEM Screens project by:
 
-* [creating an AEM Screens project](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [creating channels](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [adding components and assets to the channel](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [creating schedules](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [creating locations](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [creating displays](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [assigning channels to the displays](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [viewing content in an AEM Screens player](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [creating an AEM Screens project](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [creating channels](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [adding components and assets to the channel](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [creating schedules](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [creating locations](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [creating displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [assigning channels to the displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [viewing content in an AEM Screens player](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Additionally, you can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. Follow [New Project Importer from File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) for more details.
+>You can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. Follow [New Project Importer from File](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) for more details.
