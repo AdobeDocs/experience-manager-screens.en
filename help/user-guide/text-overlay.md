@@ -34,7 +34,7 @@ Text Overlay is a feature available in AEM Screens that allows you to create a c
 
 To learn how to create your own custom component, please refer to **Extending an AEM Screens Component**.
 
-This section only showcases how to use and leverage the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.
+This section only showcases how to use and apply the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.
 
 ## Using Text Overlay {#using-text-overlay}
 
@@ -70,19 +70,19 @@ Follow the steps below to use text overlay in an AEM Screens channel:
 
 ### Understanding Text Overlay Properties {#understanding-text-overlay-properties}
 
-Using the Text Overlay properties, you can add text to any of the component in your Screens project. The following section provides an overview of the properties that are available in Text Overlay:
+Using the Text Overlay properties, you can add text to any of the components in your Screens project. The following section provides an overview of the properties that are available in Text Overlay:
 
 ![text](assets/text.gif)
 
-You can add a text to the text box and add typographical emphasis such as bold, italics, underline, and so on.
+You can add a text to the text box and add typographical emphasis such as bold, italics, and underline.
 
 **Color Variant** This option allows the text to be either Dark (text in black color) or Light (text in white color).
 
-**Sizing & positioning** This option allows the user to align the text horizontally or vertically or additionally use fine-grained tools for text alignment.
+**Sizing & positioning** This option lets the user align the text horizontally or vertically or also use fine-grained tools for text alignment.
 
 >[!NOTE]
 >
->To properly use fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200px. The result of this expression will be 200 pixels from start point.
+>To properly use fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200 px. The result of this expression is 200 pixels from start point.
 
 ## Using ContextHub Values in Text Overlay {#using-text-overlay-context-hub}
 
@@ -90,15 +90,15 @@ The following section describes the usage of values from a data store, for examp
 
 **Prerequisites**
 
-You must set up ContextHub configurations for your AEM Screens project. 
+Set up ContextHub configurations for your AEM Screens project. 
 
-To learn how to setup and manage data driven asset changes using a a data store, refer to [Configuring ContextHub in AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+To learn how to setup and manage data driven asset changes using a data store, refer to [Configuring ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
 
 Once you have set up the required configurations for your project, follow the steps below to use values from the google sheets: 
 
 1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Properties** from the action bar.
 
-1. Select the **Personalization** tab to setup the ContextHub configurations.
+1. Select the **Personalization** tab to set up the ContextHub configurations.
 
     1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
 
@@ -125,9 +125,9 @@ Once you have set up the required configurations for your project, follow the st
 1. Navigate to the **ContextHub** tab from the **Image** dialog box. Click **Add**.
 
    >[!NOTE]
-   >If you have not setup your ContextHub configurations, this option will be disabled for your project.
+   >If you have not set up your ContextHub configurations, this option is disabled for your project.
 
-1. Enter **Value** in the **Placeholder** field, select the row that you want to get the value from your google sheet in **ContextHub Variable** (in this case, the value is retrieved from row 2 and column 1 from the google sheets), and enter the **Default Value** as **20**, a shown in the figure below. Once you are done click on the check-mark.
+1. Enter **Value** in the **Placeholder** field. Select the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
