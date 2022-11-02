@@ -225,7 +225,7 @@ Normally, playback is determined by the local time of any given player but with 
 
 This allows the content author to designate playback of a specific asset as occurring at a specific date/time regardless of the local clock on any players which have the assigned content.
 
-1. Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
+Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
 
 1. Select any channel and click **Edit** from the action bar to add or edit content in your channel.
 
@@ -233,8 +233,8 @@ This allows the content author to designate playback of a specific asset as occu
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 
-![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+ 
+1. For a Global Override enter activation time in the **Timezone override** section for the asset. If you do not enter anything in this area the timezone applied will be the player's timezone.
 
-1. For a Global Override enter in the **Timezone override** for the asset. If you do not enter anything in this area the timezone applied will be the player's timezone.
 
- ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
