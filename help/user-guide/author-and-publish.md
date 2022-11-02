@@ -235,8 +235,6 @@ Check your player and you will see the content that you added in your channel.
 
 **Verifying the Device**
 
-Before, you perform the steps below, make sure to verify the Device ID. To verify, search for the device id in CRXDE Lite, with the path as */home/users/screens/we-retail/devices*.
-
 Follow the steps below to replicate the device user:
 
 1. Navigate to the user admin page (e.g: `https://localhost:4502/useradmin`

@@ -23,6 +23,7 @@ The following topics are covered in this section:
    * MonthParting
    * Combination of Partings
 * Multi-asset Activation
+* Global Override For Universal Start Time
 
 >[!CAUTION]
 >
@@ -215,3 +216,25 @@ Follow the steps below to select multiple assets and schedule their display in a
    >The schedule icon is visible on the top right corner to those assets that have muti-asset activation.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
+## Global Override For Universal Start Time {#global-override-scheduling}   
+
+***Global Override for Universal Start Time***, is a setting that allows the content author to define the playback of an image or video asset based on a specific time. The time/timezone setting of any individual player is not used.
+
+Normally, playback is determined by the local time of any given player but with the global override, a specific, universal start time can be used to initiate the playback of the asset.
+
+This allows the content author to designate playback of a specific asset as occurring at a specific date/time regardless of the local clock on any players which have the assigned content.
+
+Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
+
+1. Select any channel and click **Edit** from the action bar to add or edit content in your channel.
+
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
+
+1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
+
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+ 
+1. For a Global Override enter activation time in the **Timezone override** section for the asset. If you do not enter anything in this area the timezone applied will be the player's timezone.
+
+
