@@ -96,20 +96,20 @@ Follow the steps below to create a default replication agent:
 #### Creating Standard Replication Agents  {#creating-standard-replication-agents}
 
 1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. Create standard replication agent for pub2. You can copy rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. Create standard replication agent for pub2. You can copy s replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creating Screens Replication Agents {#creating-screens-replication-agents}
 
-1. Create AEM Screens replication agent for pub1. Out-of-the-box, there is a one named Screens Replication Agent that points to port 4503. This needs to be enabled.
-1. Create AEM Screens replication agent for pub2. Copy the Screens replication agent for pub1 and change the port to point to 4504 for pub2.
+1. Create a screens replication agent for pub1. Out-of-the-box, there is one named Screens Replication Agent that points to port 4503. This needs to be enabled.
+1. Create a screens replication agent for pub2. Copy the Screens Replication Agent for pub1 and change the port to point to 4504 for pub2.
 
    >[!NOTE]
    >To learn how to configure Screens Replication Agents, see [Configuring Screens Replication Agent](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Creating Screens Reverse Replication Agents {#creating-screens-reverse-replication-agents}
 
-1. Create standard reverse replication agent for pub1.
-1. Create standard reverse replication agent for pub2. You can copy reverse rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
+1. Create a reverse replication agent for pub1.
+1. Create a reverse replication agent for pub2. You can copy reverse replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
 
 ## Setting up Publish Topology {#setting-up-publish-topology}
 
