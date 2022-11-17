@@ -122,9 +122,10 @@ For each publish instance:
 1. Navigate to `https://<host>:<port>/system/console/configMgr`
 1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
 1. Update Topology connector URLs: add URLs of all partaking publish instances that is:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Topology connector Whitelist List**: adapt to IPs or subnets covering partaking publish instances
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Topology connector Whitelist List**: Adapt to IPs or subnets covering all publish instances. Ensure you whitelist the IP/hostname of all publish instances without the port number.
+
 1. Enable **Auto-Stop Local-Loops**
 
 The configuration should be identical for each publish instance and the auto-stop Local-loop prevents an infinite loop.
