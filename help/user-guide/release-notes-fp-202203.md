@@ -1,11 +1,10 @@
 ---
 title: Release Notes for Feature Pack 202203
- description: Follow this page to get information for AEM Screens Feature Pack 202203 released on March 25, 2022.
- feature: Feature Pack
- role: Developer
- level: Intermediate
- ---
-
+description: Follow this page to get information for AEM Screens Feature Pack 202203 released on March 25, 2022.
+feature: Feature Pack
+role: Developer
+level: Intermediate
+---
 # Release Notes for Feature Pack 202112 {#release-notes-for-feature-pack}
 
  >[!CAUTION]
