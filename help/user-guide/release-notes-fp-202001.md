@@ -14,7 +14,11 @@ exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 >
 >It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
 
-AEM Screens released AEM 6.4 Feature Pack 7 and AEM 6.5 Feature Pack 3 with the following details.
+## Availability {#availability}
+
+AEM Screens released AEM 6.5 Feature Pack 3.
+
+You can download the latest feature pack for AEM Screens 6.5.3 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP3**.
 
 ## Release Date {#release-date}
 
