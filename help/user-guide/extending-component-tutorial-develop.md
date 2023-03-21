@@ -34,11 +34,11 @@ Custom Poster component is created by extending the Image component.
 
 To complete this tutorial, you need the following:
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html) or [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) + Latest Screens Feature Pack
+1. AEM 6.5 + Latest Screens Feature Pack
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Local Development Environment
 
-The tutorial steps and screen shots are performed using CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) or [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDEs can also be used to complete the tutorial. More information on using an IDE to [develop with AEM can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+The tutorial steps and screen shots are performed using CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) or [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDEs can also be used to complete the tutorial. More information on using an IDE to [develop with AEM can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Project Setup {#project-setup}
 
