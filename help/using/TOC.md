@@ -7,6 +7,8 @@ getting-started-description: AEM Screens Best Practices Guide provides guidance 
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
+feature: Content
+role: User
 ---
 
 # Best Practices Guide for AEM Screens Projects {#using}
