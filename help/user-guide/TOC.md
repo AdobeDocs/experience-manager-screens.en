@@ -41,6 +41,7 @@ role: User
         + [Android Player](implementing-android-player.md)
         + [Windows Player](implementing-windows-player.md) 
         + [Tizen Player](tizen-player.md)
+        + [Cloud Player](implementing-cloud-player.md)
         + [Auto Registration of Players](auto-registration-players.md)
         + [Using the Remote control](implementing-remote-control.md)
     + Author Publish {#author-publish}
