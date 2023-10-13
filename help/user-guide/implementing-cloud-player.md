@@ -20,7 +20,7 @@ This section describes how to implement the Cloud Player.
 >
 >The Cloud Player's compatibility requires a modern browser with PWA support to ensure consistent performance across various devices.
 
-## Installing Cloud Player {installing-cloud-player}
+## Installing Cloud Player {#installing-cloud-player}
 
 Cloud Player Installation may vary on different platforms. In general, any platform having a modern browser can run the cloud player application by following these steps:
 
@@ -29,12 +29,12 @@ Cloud Player Installation may vary on different platforms. In general, any platf
 
 ![image](/help/user-guide/assets/cloud-player-install.png)
 
-1. Click on the install icon and install button on the confirmation dialog. This way cloud player will be installed as a standalone application on your device and can be launched using an icon.
+1. Click on the install icon and install button on the confirmation dialog. Cloud Player will be installed as a standalone application on your device and can be launched using an icon.
 
 ### Cloud Player Install Option {#cloud-player-install-option}
 
 1. The install option for a PWA is also known as "Add to Home Screen" or A2HS feature.  Support for installing PWAs from the web varies by browser and by platform. 
-1. Every browser has different criteria to check if the PWA app is installable or not. Generally browser checks these (more details here) - 
+1. Every browser has different criteria to check if the PWA app is installable or not. Generally browser checks these (more details here): 
     * If the application has a manifest json file with minimal required keys for installing the app on the platform i.e., name, icons, start_url, display
     * If the application has a service worker file with a fetch event listener.
     * App must be served over https.
