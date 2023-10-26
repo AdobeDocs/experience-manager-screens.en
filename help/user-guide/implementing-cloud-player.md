@@ -43,9 +43,9 @@ Cloud Player Installation may vary on different platforms. In general, any platf
 >
 >1. The install option for a PWA is also known as "Add to Home Screen" or A2HS feature.  Support for installing PWAs from the web varies by browser and by platform. 
 >1. Every browser has different criteria to check if the PWA app is installable or not. Generally browser checks these (more details here): 
-    * If the application has a manifest json file with minimal required keys for installing the app on the platform i.e., name, icons, start_url, display
-    * If the application has a service worker file with a fetch event listener.
-    * App must be served over https.
+>    * If the application has a manifest json file with minimal required keys for installing the app on the platform i.e., name, icons, start_url, display
+>    * If the application has a service worker file with a fetch event listener.
+>    * App must be served over https.
 >1. Install option might be visible at different locations in different browsers and device type. Some browser might hide the install icon in options menu bar.
 
 ## Bulk provisioning Cloud Player {#bulk-provisioning}
@@ -73,9 +73,9 @@ Based on type of the AEM instance, select one of the following guides to enable 
 >
 >## Chrome Apps Deprecation by Google
 >1. Chrome Apps on Chrome OS Hardware:
-Google has been actively deprecating Chrome Apps in favor of PWA apps, with a planned migration until January 2025. Consequently, the AEM Screens Player app on Chrome OS will cease to function based on the shared timeline.We urge our customers currently using Chrome Player in production to plan for transitioning to the Screens Cloud Player.
+>Google has been actively deprecating Chrome Apps in favor of PWA apps, with a planned migration until January 2025. Consequently, the AEM Screens Player app on Chrome OS will cease to function based on the shared timeline.We urge our customers currently using Chrome Player in production to plan for transitioning to the Screens Cloud Player.
 >2. Chrome Extension Player on Mac, Windows, and Linux:
-Due to Google's deprecation process, starting from Google Chrome version 114, the Screens Chrome Extension Player is no longer supported. We strongly advise transitioning to our Screens Cloud Player for all your development and testing requirements.
+>Due to Google's deprecation process, starting from Google Chrome version 114, the Screens Chrome Extension Player is no longer supported. We strongly advise transitioning to our Screens Cloud Player for all your development and testing requirements.
 
 ## Feedback
 
