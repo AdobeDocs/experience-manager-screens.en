@@ -14,7 +14,13 @@ level: Intermediate
 ---
 # Implementing Cloud Player  {#implementing-cloud-player}
 
+AEM Screens has traditionally offered distinct native player applications for various platforms including ChromeOS, Windows, Android & Tizen. However, in response to the evolving needs of our users, we've introduced an innovative solution - the AEM Screens Cloud Player.
+The Cloud Player represents a significant departure from our previous native applications. It's a Progressive Web App (PWA), hosted on a server. This transformative approach empowers our customers with a platform-independent player that runs directly within a web browser.
+Accessing the Cloud Player is as simple as visiting https://player.adobescreens.com. Users can install it on their device, regardless of the platform, and enjoy seamless digital signage experiences. The Cloud Player's compatibility hinges on the presence of a modern browser 
+with PWA support, ensuring consistent performance across various devices. Say goodbye to manual updates and hello to a player that automatically delivers fixes and features, ensuring you always have the latest capabilities at your fingertips. This shift to a PWA-based Cloud Player 
+marks an exciting evolution in our digital signage offerings, making it more accessible, versatile, and user-friendly than ever before.
 This section describes how to implement the Cloud Player.
+
 
 >[!NOTE]
 >
@@ -27,18 +33,20 @@ Cloud Player Installation may vary on different platforms. In general, any platf
 1. Open the browser and enter the [cloud player URL](https://player.adobescreens.com) in the address bar.
 1. The browser checks if the cloud player is installable and then show an install icon in the address bar.
 
-![image](/help/user-guide/assets/cloud-player-install.png)
+    ![image](/help/user-guide/assets/cloud-player-install.png)
 
 1. Click on the install icon and install button on the confirmation dialog. Cloud Player will be installed as a standalone application on your device and can be launched using an icon.
 
-### Cloud Player Install Option {#cloud-player-install-option}
-
-1. The install option for a PWA is also known as "Add to Home Screen" or A2HS feature.  Support for installing PWAs from the web varies by browser and by platform. 
-1. Every browser has different criteria to check if the PWA app is installable or not. Generally browser checks these (more details here): 
+>[!NOTE]
+>
+>### Cloud Player Install Option {#cloud-player-install-option}
+>
+>1. The install option for a PWA is also known as "Add to Home Screen" or A2HS feature.  Support for installing PWAs from the web varies by browser and by platform. 
+>1. Every browser has different criteria to check if the PWA app is installable or not. Generally browser checks these (more details here): 
     * If the application has a manifest json file with minimal required keys for installing the app on the platform i.e., name, icons, start_url, display
     * If the application has a service worker file with a fetch event listener.
     * App must be served over https.
-1. Install option might be visible at different locations in different browsers and device type. Some browser might hide the install icon in options menu bar.
+>1. Install option might be visible at different locations in different browsers and device type. Some browser might hide the install icon in options menu bar.
 
 ## Bulk provisioning Cloud Player {#bulk-provisioning}
 
@@ -60,4 +68,15 @@ To learn more about bulk provisioning on Chrome OS see: [Install Cloud Player on
 Based on type of the AEM instance, select one of the following guides to enable CORS b/w AEM  & cloud player: 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
- 
+
+>[!NOTE]
+>
+>## Chrome Apps Deprecation by Google
+>1. Chrome Apps on Chrome OS Hardware:
+Google has been actively deprecating Chrome Apps in favor of PWA apps, with a planned migration until January 2025. Consequently, the AEM Screens Player app on Chrome OS will cease to function based on the shared timeline.We urge our customers currently using Chrome Player in production to plan for transitioning to the Screens Cloud Player.
+>2. Chrome Extension Player on Mac, Windows, and Linux:
+Due to Google's deprecation process, starting from Google Chrome version 114, the Screens Chrome Extension Player is no longer supported. We strongly advise transitioning to our Screens Cloud Player for all your development and testing requirements.
+
+## Feedback
+
+We value your feedback! Kindly share your thoughts with us through this [form](https://forms.office.com/r/MQXX9JsuEd).
