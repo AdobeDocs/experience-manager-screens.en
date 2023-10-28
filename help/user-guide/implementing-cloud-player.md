@@ -11,6 +11,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 ---
 # Implementing Cloud Player  {#implementing-cloud-player}
 
@@ -60,4 +61,3 @@ To learn more about bulk provisioning on Chrome OS see: [Install Cloud Player on
 Based on type of the AEM instance, select one of the following guides to enable CORS b/w AEM  & cloud player: 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
- 
