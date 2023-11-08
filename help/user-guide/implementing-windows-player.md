@@ -126,7 +126,7 @@ The following table summarizes the policy attributes with an example policy JSON
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
 | enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
 | enableActivityUI |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
-| cloudMode |Set to true if you want the Tizen player to connect to Screens as a Cloud Service. Set to false in order to connect to AMS or on-Prem AEM. |
+| cloudMode |Set to true if you want the Windows player to connect to Screens as a Cloud Service. Set to false in order to connect to AMS or on-Prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
 #### Example policy JSON file {#example-policy-json-file}
