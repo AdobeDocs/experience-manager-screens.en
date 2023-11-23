@@ -62,7 +62,7 @@ Based on type of the AEM instance, select one of the following guides to enable 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
-## Offline Support for External Content Retrieval {offline-support}
+## Offline Support for External Content Retrieval {#offline-support}
 
 In various usage scenarios, channels may require the retrieval of content from an external source (e.g., weather widgets or Commerce integrated Single Page Applications) that cannot inherently provide offline support. To enable offline functionality for these specific use cases, the Cloud Player offers support for custom header.
 Cloud Player employs a Network First cache strategy, which means it attempts to fetch content from the network (then update the cache with latest), falling back to cached content if available. To implement offline support for such content retrieval, the custom header must be included in the request. Subsequently, the request with the custom header will be cached on the player, facilitating offline access to the content while maintaining the Network First cache strategy.
