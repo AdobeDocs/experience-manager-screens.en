@@ -136,12 +136,15 @@ The following table summarizes the policies with their functions.
 
 | **Policy Name** |**Purpose** |
 |---|---|
-| *server* |The URL to the Adobe Experience Manager Server |
-| *resolution* |The resolution of the Chrome OS Device |
-| *rebootSchedule* |The schedule to reboot the Chrome player |
-| *enableAdminUI* |Enable the Admin UI for technicians to configure the device on site. Set to false once it is fully configured and in production. |
-| *enableOSD* |Enable the channel switcher UI for users to switch channels on device. Consider setting to false once it is fully configured and in production. |
-| *enableActivityUI* |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| server |The URL to the Adobe Experience Manager (AEM) server. |
+| registrationKey |Used for bulk registration of devices using pre-shared key. |
+| resolution |The resolution of the device. |
+| rebootSchedule |The schedule to reboot the player.|
+| enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
+| enableActivityUI |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| cloudMode |Set to true if you want the Chrome player to connect to Screens as a Cloud Service. Set to false in order to connect to AMS or on-Prem AEM. |
+| cloudToken |Registration token to register against Screens as a Cloud Service. |
 
 >[!NOTE]
 >
