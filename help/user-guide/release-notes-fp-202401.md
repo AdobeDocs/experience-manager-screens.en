@@ -38,13 +38,11 @@ The Release Date for AEM Screens Feature Pack 202204 is Jan 02, 2024.
 
 * Open Redirect on assign-device-wizard.html.
 
-* Open redirect at returnPage parameter.
-
 * Open Redirect on device dashboard.
 
 * Stored XSS in `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`.
 
-* Fixed Channel Scheduling Issue.
+* Fixed, Missing Recurrence Schedule and Add Schedule Buttons: A Problem Discovered in Channel Scheduling.
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
