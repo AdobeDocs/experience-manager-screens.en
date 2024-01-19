@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 ---
-# Release Notes for Feature Pack 202401 {#release-notes-for-screens-security-feature-pack}
+# Release Notes for Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
 >It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5).
