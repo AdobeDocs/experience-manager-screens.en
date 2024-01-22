@@ -8,7 +8,7 @@ level: Intermediate
 # Release Notes for Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5).
+>It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). We can get the latest version information from [here](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
 
 ## Availability {#availability}
 
