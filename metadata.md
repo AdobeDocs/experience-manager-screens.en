@@ -5,6 +5,7 @@ solution: Experience Manager, Experience Manager Screens
 type: Documentation
 index: y
 git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
+recommendations: noDisplay
 ---
 
 # Metadata for internal use
