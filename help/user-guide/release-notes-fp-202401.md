@@ -47,7 +47,3 @@ This release includes security fixes only.
 * XSS issue at `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Fixed, Missing Recurrence Schedule and Add Schedule Buttons: A Problem Discovered in Channel Scheduling. (SCRNS-2739)
-
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
-
-To download the latest AEM Screens player, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
