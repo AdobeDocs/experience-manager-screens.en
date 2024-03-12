@@ -4,6 +4,7 @@ description: Follow this page to get information for AEM Screens Feature Pack 20
 feature: Feature Pack
 role: Developer
 level: Intermediate
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
 ---
 # Release Notes for Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
