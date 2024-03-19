@@ -11,6 +11,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
 ---
 # Implementing Cloud Player  {#implementing-cloud-player}
 
@@ -76,6 +77,28 @@ Based on type of the AEM instance, select one of the following guides to enable 
 >Google has been actively deprecating Chrome Apps in favor of PWA apps, with a planned migration until January 2025. Consequently, the AEM Screens Player app on Chrome OS will cease to function based on the shared timeline.We urge our customers currently using Chrome Player in production to plan for transitioning to the Screens Cloud Player.
 >2. Chrome Extension Player on Mac, Windows, and Linux:
 >Due to Google's deprecation process, starting from Google Chrome version 114, the Screens Chrome Extension Player is no longer supported. We strongly advise transitioning to our Screens Cloud Player for all your development and testing requirements.
+
+## Offline Support for External Content Retrieval {#offline-support}
+
+In various usage scenarios, channels may require the retrieval of content from an external source (e.g., weather widgets or Commerce integrated Single Page Applications) that cannot inherently provide offline support. To enable offline functionality for these specific use cases, the Cloud Player offers support for custom header.
+Cloud Player employs a Network First cache strategy, which means it attempts to fetch content from the network (then update the cache with latest), falling back to cached content if available. To implement offline support for such content retrieval, the custom header must be included in the request. Subsequently, the request with the custom header will be cached on the player, facilitating offline access to the content while maintaining the Network First cache strategy.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
 
 ## Feedback
 
