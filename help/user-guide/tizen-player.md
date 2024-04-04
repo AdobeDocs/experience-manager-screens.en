@@ -42,7 +42,7 @@ You can assign a user-friendly device name to your Tizen player, thereby sending
 Follow the steps below to configure the name in Tizen player:
 
 1. Click the menu button on your remote.
-1. Navigate to **network** --> **Device Name** to assign a name to the player.
+1. Navigate to **network** > **Device Name** to assign a name to the player.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
 
@@ -91,7 +91,7 @@ Remotely provisioning the Tizen Player allows you to deploy hundreds and thousan
 
 This feature allows you to remotely configure Tizen player and also update those configurations centrally, if required. All you require is the `HTTP` server used to host the Tizen application `(wgt and xml file)` and a text editor to save the `config.json` with the appropriate parameters. 
 
-Make sure you have configured the URL launcher address on the Tizen Device, that is, Home Button --> URL Launcher settings.
+Make sure you have configured the URL launcher address on the Tizen Device, that is, Home Button > URL Launcher settings.
 On the `HTTP` server that hosts the Tizen application, place the file `config.json` at the same location as the `wgt` file. The file name must be `config.json`.
 The Tizen player will install and at launch (and every reboot) will check and apply the settings in the `config.json` file.
 

@@ -60,7 +60,7 @@ Follow the steps below to create a Left20-LandscapeHD3Zone Layout for an AEM Scr
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
    
-1. Navigate to **CRXDE Lite** from your AEM instance --> Tools --> **CRXDE Lite**.
+1. Navigate to **CRXDE Lite** from your AEM instance > Tools > **CRXDE Lite**.
 
 1. Create a folder under **apps** titled as **customtemplate**. Similarly, create another folder titled as **template** under **customtemplate**, as shown in the figure below.
 

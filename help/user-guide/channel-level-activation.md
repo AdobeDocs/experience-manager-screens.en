@@ -119,7 +119,7 @@ Follow the steps below to implement the functionality:
     1. The **Channel Role** is populated as **targetedsingleplay**.
     1. Set the **Priority** as **2**.
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen** and **Timer**, *as shown in the figure below.
-    1. Choose the date in **active from** as November 27, 2018 11:59 pm and in **active until** as November 28, 2018 12:05 am.
+    1. Choose the date in **active from** as November 27, 2018 11:59 pm and in **active until** as November 28, 2018 12:05 am
     1. Click **Save**.
 
    >[!CAUTION]

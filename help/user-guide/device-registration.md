@@ -118,7 +118,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
 Once you have registered devices to your player, you can view all the devices from the Device Manager UI.
 
-1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** --> **Devices**. 
+1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** > **Devices**. 
 
 1. Select the **Devices** folder and click on **Device Manager** from the action bar.
 

@@ -73,7 +73,7 @@ You can assign a user friendly device name to your Windows player, thereby sendi
 
 Follow the steps below to configure the name in Windows player:
 
-1. Click on **start** --> **run** 
+1. Click on **start** > **run** 
 1. Enter `system.cpl`
 1. Use the computer name tab to set the computer's hostname 
 

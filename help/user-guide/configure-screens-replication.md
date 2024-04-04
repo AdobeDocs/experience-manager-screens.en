@@ -30,7 +30,7 @@ Follow the steps below to enable users and update the password for screens-recei
 
 1. Navigate  to your AEM Author instance.
 
-1. Click on tools --> **Security** --> **Users**.
+1. Click on tools > **Security** > **Users**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -91,7 +91,7 @@ Follow the section below to update settings in Screens Replication agent:
 
 1. Navigate to your AEM instance.
 
-1. Click on tools --> **Deployment** --> **Replication**.
+1. Click on tools > **Deployment** > **Replication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

@@ -51,7 +51,7 @@ Before you use voice recognition feature, make sure you have a project and a cha
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
+1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
 
    The channels now contain assets (images), as shown in the figures below.
 
@@ -77,7 +77,7 @@ Once you have added content to your channels, you need to navigate to each of th
 
 Follow the steps below to add tags to your channel:
 
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** --> **Channels** --> **Main** and select the channel.
+1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel.
 
 1. Click **Properties** from the action bar.
 
@@ -110,10 +110,10 @@ Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
 
-   1. Click on tools icon --> **Tagging**.
+   1. Click on tools icon > **Tagging**.
        ![image](assets/voice-recognition/vr-7.png)
 
-   1. Click **Create** --> **Create Namespace**.
+   1. Click **Create** > **Create Namespace**.
        ![image](assets/voice-recognition/vr-tag3.png)
 
    1. Enter the name of your project, for example, **VoiceDemo** and click **Create**.

@@ -212,7 +212,7 @@ Here, we will divide each day into different time slots, so that channel content
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
+This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
