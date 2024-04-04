@@ -28,7 +28,7 @@ Follow the steps below to create custom branding and styling for text overlays:
    >[!NOTE]
    >To learn how to add a text overlay to your asset in a channel editor, refer to [Text Overlay](/help/user-guide/text-overlay.md).
    
-1. Navigate to CRXDE Lite from your AEM instance --> tools --> **CRXDE Lite**.
+1. Navigate to CRXDE Lite from your AEM instance > tools > **CRXDE Lite**.
 
 1. You have to create a custom design in `/apps/settings/wcm/designs/<your-project>/`, for example, in this case, navigate to `/apps/settings/wcm/designs/customstyle/`
 
@@ -104,7 +104,7 @@ Once you have completed the preceding steps, you can update your *statis.css* fi
 
 Follow the steps below to view the updated design to text overlay:
 
-1. Navigate to your AEM Screens project titled as **customstyle** --> **Channels** --> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
+1. Navigate to your AEM Screens project titled as **customstyle** > **Channels** > **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Since you have now added the design to your **Designs** field, as mentioned above, click **Preview** to view the current styling on the image with text overlay.
 

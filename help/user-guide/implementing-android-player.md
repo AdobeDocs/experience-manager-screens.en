@@ -181,7 +181,7 @@ You can assign a user friendly device name to your Android player, thereby sendi
 
 Follow the steps below to configure the name in Android player:
 
-1. Navigate to **settings** --> **About device** 
+1. Navigate to **settings** > **About device** 
 1. Edit and set your device name to name your Android player
 
 ### Implementing Bulk Provisioning of Android Player using Enterprise Mobility Management {#implementation}

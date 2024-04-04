@@ -1,8 +1,6 @@
 ---
-title: Single Use TakeOver Channel
-seo-title: Single Use TakeOver Channel
-description: Follow this Use Case for creating a Single Use TakeOver Channel.
-seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
+title: Single-Use TakeOver Channel
+description: Follow this use case for creating a Single-Use TakeOver Channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -11,13 +9,14 @@ exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 ---
 # Single Use TakeOver Channel {#single-use-takeover-channel}
 
-The following page showcases a use case that emphasizes on setting up a project on how to create a Single TakeOver channel that plays just once for a specific time.
+The following page showcases a use case that emphasizes on setting up a project on how to create a Single TakeOver channel that plays once for a specific time.
 
 
 ## Use Case Description {#use-case-description}
 
-This Use Case explains how to create a channel that *takes over* from the normally playing channel for a display or group of displays. The takeover will only occur once and for a specific time.
-For example, there is a Single TakeOver channel that plays on Friday from 9AM to 10AM. During this time, no other channel should play. Before and after this time, the Single Use Takeover channel will not play. The following example showcases creation of a single takeover channel that plays allows the content to play for 2 minutes before 12:00 am on Dec 31 until 12:01 am.
+This Use Case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover only occurs once and for a specific time.
+
+For example, there is a Single TakeOver channel that plays on Friday 9:00 am through 10:00 am During this time, no other channel should play. Before and after this time, the Single Use Takeover channel does not play. The following example showcases the creation of a single takeover channel that allows the content to play for 2 minutes before 12:00 am on Dec 31 until 12:01 am
 
 ### Preconditions {#preconditions}
 
@@ -56,13 +55,13 @@ Follow the steps below to set up a project:
 
    ![asset](assets/single-takeover3.png)
 
-1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and will play only for a specific day and time.
+1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and plays only for a specific day and time.
 
-1. Select the the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
+1. Select the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
    ![asset](assets/single-takeover4.png)
 
-1. Set up a location and display for your channels. For instance, the following location **Lobby** and display **MainLobbyDisplay** is set up for this project.
+1. Set up a location and display for your channels. For instance, the following **Lobby** location and  **MainLobbyDisplay** display are set up for this project.
 
    ![asset](assets/single-takeover5.png)
 
@@ -79,21 +78,22 @@ Follow the steps below to set up a project:
 
    ![asset](assets/single-takeover7.png)
 
-1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar to assign the single use takeover chanel.
+1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar so you can assign the single-use takeover channel.
 
-1. To assign the **TakeOver** channel to your display at a scheduled time and populate the following fields from the **Channel Assignment** dialog box and click **Save**:
+1. Assign the **TakeOver** channel to your display at a scheduled time and populate the following fields from the **Channel Assignment** dialog box and click **Save**:
 
     * **Channel Path**: Select the path to the TakeOver channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
+
        >[!NOTE]
-       >Priority can be any value that is higher than the priority value of the normally playing channel.
+       >Priority can be any value that is higher than the priority value of the normal playing channel.
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 am on Dec 31 until 12:01 am.
+    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 am on Dec 31 until 12:01 am
     The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
 
       ![asset](assets/single-takeover8.png)
 
-      Navigate to the display from **SingleUseTakeOver** --> **Locations** --> **Lobby** --> **MainLobbyDisplay** and click **Dashboard** from the action bar to view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay** and click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.

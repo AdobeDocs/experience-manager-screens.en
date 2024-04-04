@@ -53,7 +53,7 @@ Follow the steps below to add a node under Rendition Mapping:
 
 1. Navigate to this path `/conf/screens/sling:configs/rendition-mapping` from **CRXDE Lite**.
 
-1. Create a node under **rendition-mapping**. Right click on **rendition-mapping** and click on **Create** --> **Create Node**, as shown in the figure below.
+1. Create a node under **rendition-mapping**. Right click on **rendition-mapping** and click on **Create** > **Create Node**, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
