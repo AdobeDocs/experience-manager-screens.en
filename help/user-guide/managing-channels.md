@@ -155,7 +155,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
 Follow the steps below to make the channel online:
 
-1. Navigate to the channel as **TestProject** --&gt; **Channels** --&gt; **TestChannel**.
+1. Navigate to the channel as **TestProject** > **Channels** > **TestChannel**.
 
    Select the channel.
 

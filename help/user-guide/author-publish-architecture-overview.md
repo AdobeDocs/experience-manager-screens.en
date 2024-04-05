@@ -92,7 +92,7 @@ In many cases, following a command, some sort of response is expected from the S
 
 The author instance needs to be able to poll the devices to get a heartbeat and know the health status of a connected device.
 
-Devices ping the load balancer and get routed to a publish instance. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/static** for all active devices and **api/screens-dcc/devices/&lt;device_id&gt;/status.json** for a single device.
+Devices ping the load balancer and get routed to a publish instance. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/static** for all active devices and **api/screens-dcc/devices/<device_id>/status.json** for a single device.
 
 The author instance polls all publish instances and merges the device status responses into a single status. The scheduled job that polls on author is `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` and can be configured based on a cron expression.
 

@@ -64,7 +64,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -99,10 +99,10 @@ The following key points below helps to configure and AEM server to be ready to 
 
 AEM Screens requires TOUCH UI and will not work with CLASSIC UI of Adobe Experience Manager (AEM).
 
-1. Navigate to *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Navigate to *<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
 
-Alternatively, you can also perform the same setting using yourAuthorInstance *-&gt;* tools (hammer icon) -&gt; **Operations** -&gt; **Web Console** and search for **WCM Authoring UI Mode Service**.
+Alternatively, you can also perform the same setting using yourAuthorInstance *>* tools (hammer icon) > **Operations** > **Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -128,7 +128,7 @@ You can configure ***DeviceServiceImpl*** from the link below to enable password
 
 Follow the steps below to configure ***DeviceServiceImpl***:
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
 
 1. **Adobe Experience Manager Web Console Configuration** opens. Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
 

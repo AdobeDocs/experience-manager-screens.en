@@ -84,7 +84,7 @@ This section demonstrates how to implement Screens Launch in your AEM Screens pr
 
 Follow the steps below to implement Screens Launch functionality to your AEM Screens project:
 
-1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** --&gt; **Channels** --&gt; **FutureLaunch**, as shown below.
+1. Create a sequence channel in your AEM Screens project, for example **LaunchesDemo** > **Channels** > **FutureLaunch**, as shown below.
 
    >[!CAUTION]
    >

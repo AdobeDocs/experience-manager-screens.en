@@ -55,11 +55,11 @@ Follow the steps below to create and use the workflow:
 
 Follow the steps below to create a workflow for your video:
 
-1. Navigate to your AEM instance and click tools from side rail. Select **Workflow** --&gt; **Models** to create a new model.
+1. Navigate to your AEM instance and click tools from side rail. Select **Workflow** > **Models** to create a new model.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Click **Models** --&gt; **Create** --&gt; **Create Model**. Enter the **Title** (as **VideoRendition**) and **Name** in the **Add Workflow Model**. Click **Done** to add the workflow model.
+1. Click **Models** > **Create** > **Create Model**. Enter the **Title** (as **VideoRendition**) and **Name** in the **Add Workflow Model**. Click **Done** to add the workflow model.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -95,7 +95,7 @@ Follow the steps below to create a workflow for your video:
 
 Follow the steps below to use the workflow in your AEM Screens project:
 
-1. Navigate to an AEM Screens project (**TestVideoRendition** --&gt; **Channels** --&gt;**VideoRendition**).
+1. Navigate to an AEM Screens project (**TestVideoRendition** > **Channels** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

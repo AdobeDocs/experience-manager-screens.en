@@ -23,7 +23,7 @@ The following use case demonstrates the usage of hospital reservation activation
 
 For this Use Case, the Google Sheet is populated with percentage of reservation on two restaurants **Restaurant1** and **Restaurant2**. A formula is applied based on values of Restaurant1 and Restaurant2 and based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
 
-If the value of **Restaurant1** &gt; **Restaurant2**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value 2 results in display of *Thai food* option on your display screen.
+If the value of **Restaurant1** > **Restaurant2**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value 2 results in display of *Thai food* option on your display screen.
 
 ## Preconditions {#preconditions}
 
@@ -71,7 +71,7 @@ Follow the steps below to implement the hospitality reservation activation use c
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** --&gt; **Personalization** tab.
+   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -79,6 +79,6 @@ Follow the steps below to implement the hospitality reservation activation use c
 1. **Checking the Preview**
 
     1. Click **Preview.** Also, open your Google Sheets and update its value.
-    1. Update the value in **Restaurant1** and **Restaurant2** columns. If **Restaurant1** &gt; **Restaurant2,** you should be able to view an image of *Steak* food otherwise, *Thai* food image displays on your screen.
+    1. Update the value in **Restaurant1** and **Restaurant2** columns. If **Restaurant1** > **Restaurant2,** you should be able to view an image of *Steak* food otherwise, *Thai* food image displays on your screen.
 
    ![result5](assets/result5.gif)

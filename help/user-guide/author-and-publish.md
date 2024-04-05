@@ -38,9 +38,9 @@ The following section explains how to setup replication agents on author and pub
 
 You can set up a simple example, where you host an author and two publish instances:
 
-* Author --&gt; localhost:4502
-* Publish 1 (pub1) --&gt; localhost:4503
-* Publish 2 (pub2) --&gt; localhost:4504
+* Author > localhost:4502
+* Publish 1 (pub1) > localhost:4503
+* Publish 2 (pub2) > localhost:4504
 
 ## Setting up Replication Agents on Author {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ There are 3 replication agents that are needed for Screens:
 
 Follow the steps below to create a default replication agent:
 
-1. Navigate to your AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Configuration**.
+1. Navigate to your AEM instance > hammer icon > **Operations** > **Configuration**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -95,8 +95,8 @@ Follow the steps below to create a default replication agent:
 
 #### Creating Standard Replication Agents  {#creating-standard-replication-agents}
 
-1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. Create standard replication agent for pub2. You can copy s replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *https://<hostname>:4503/bin/receive?sling:authRequestLogin=1*)
+1. Create standard replication agent for pub2. You can copy s replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *https://<hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creating Screens Replication Agents {#creating-screens-replication-agents}
 
@@ -141,7 +141,7 @@ The cluster user and password of all publish instances in the topology needs to 
 
 On each Publish Instance:
 
-1. In the OSGi Console navigate to **MAIN** --&gt; **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
+1. In the OSGi Console navigate to **MAIN** > **Crypto Support** (`https://<host>:<port>/system/console/crypto`).
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
 1. Click **Protect**.
 1. Copy the value **Protected Text** to notepad or text editor. This value will be used in the OSGi config for ActiveMQ.
@@ -157,7 +157,7 @@ Since each publish instance by default has unique crypto keys you need to perfor
 
 On each publish instance:
 
-1. Navigate to the OSGi Config manager `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
+1. Navigate to the OSGi Config manager `https://<host>:<port>/system/console/configMgr`
 1. Select **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 
@@ -168,8 +168,8 @@ On each publish instance:
 
 Follow the steps below on each Publish instance:
 
-1. Navigate to the OSGi Console -&gt; Main &gt; ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
-1. Verify and check to view the ports of other instances under Cluster Information &gt; Topology &gt; nodes=2, members=2.
+1. Navigate to the OSGi Console > Main > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
+1. Verify and check to view the ports of other instances under Cluster Information > Topology > nodes=2, members=2.
 1. Send a Test Message (top of the screen under Broker Information)
 1. Enter the following changes in fields:
 
@@ -191,7 +191,7 @@ If you do not see the following configuration from */system/console/mq*, then na
 
 Follow the steps on each Publish instance:
 
-1. Navigate to the **OSGi Console** &gt; **Configuration Manager**
+1. Navigate to the **OSGi Console** > **Configuration Manager**
 1. Select **Apache Sling Referrer Filter**
 1. Update config and **check Allow Empty**
 
@@ -216,7 +216,7 @@ Once you have set up the publish topology, you need to configure the author and 
 
 #### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
 
-1. Go to `https://localhost:4502/screens.html/content/screens/we-retail` or select your project and navigate to Devices &gt; Device Manager.
+1. Go to `https://localhost:4502/screens.html/content/screens/we-retail` or select your project and navigate to Devices > Device Manager.
 1. Select **Register Device**.
 1. Click **Device Registration** to view the device.
 1. Select the device you want to register and click **Register Device**.
@@ -248,7 +248,7 @@ Follow the steps below to replicate the device user:
 
 You can also activate the device from the Device Management Console. Follow the steps below:
 
-1. Navigate to your Screens project --&gt; **Devices**.
+1. Navigate to your Screens project > **Devices**.
 1. Click **Device Manager** from the action bar.
 1. Select the device and click **Activate** from the action bar, as in shown in the figure below.
 
@@ -264,7 +264,7 @@ You can also activate the device from the Device Management Console. Follow the 
 
 The following points summarizes the Publishing Check list:
 
-* *Screens Device User* - This is stored as an AEM user and be activated from **Tools** &gt; **Security** &gt; **Users**. The user will be prefixed with "screens" with a long serialized string.
+* *Screens Device User* - This is stored as an AEM user and be activated from **Tools** > **Security** > **Users**. The user will be prefixed with "screens" with a long serialized string.
 
 * *Project* - The AEM Screens project.
 * *Location* - Location that device is connected to.

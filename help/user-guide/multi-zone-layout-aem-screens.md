@@ -61,7 +61,7 @@ You can use single assets such as an image or a video in all individual zones. F
 
 1. **Adding Content to the Channel**
 
-    1. Navigate to **Zones** --&gt; **Channels**--&gt; **MultiZone**.
+    1. Navigate to **Zones** > **Channels**> **MultiZone**.
     1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
 1. **Adding Images to the Channel**
@@ -76,7 +76,7 @@ If you want the zones to display sequence of images and a video in the different
 
 1. **Creating a Channel Folder**
 
-    1. Navigate to **Zones** --&gt; **MultiZone** --&gt; **Channels** and click **Create** from the action bar.
+    1. Navigate to **Zones** > **MultiZone** > **Channels** and click **Create** from the action bar.
     1. Select **Channels Folder** from the **Create** wizard and click **Next**.
     1. Enter the title as **EmbeddedChannels** and click **Create**.
 
@@ -84,7 +84,7 @@ If you want the zones to display sequence of images and a video in the different
 
 1. **Adding two more channels to Channel Folder**
 
-    1. Navigate to **Zones** --&gt; **Channels** --&gt; **EmbeddedChannels** and click **Create** from the action bar.
+    1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and click **Create** from the action bar.
     1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **Zone1**.
     1. Select **Zone1** and click **Edit** from the action bar to open the editor.
     1. Drag and drop few images to this channel.
@@ -105,12 +105,12 @@ If you want the zones to display sequence of images and a video in the different
 
 1. **Adding Embedded Sequences (component) to main channel (MultiZone)**
 
-    1. Navigate to **Zones** --&gt; **Channels** --&gt; **MultiZone**.
+    1. Navigate to **Zones** > **Channels** > **MultiZone**.
     1. Click **Edit** from the action bar to open the editor.
     1. Drag and drop the **Embedded Sequence** component to both the zones.
     1. Select the embedded sequence in one of the zones.
     1. Click the **Configure** (wrench) icon to one of the embedded sequences in the editor.
-    1. Select the channel path as **Zones** --&gt; **Channels** --&gt; **EmbeddedChannels** --&gt; **Zone1**, as shown in the figure below.
+    1. Select the channel path as **Zones** > **Channels** > **EmbeddedChannels** > **Zone1**, as shown in the figure below.
     1. Similarly, add the **Zone2** to another embedded sequence component in the editor. 
 
        ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -121,14 +121,14 @@ Create a location and a display to view the content in the Screens player.
 
 1. **Creating a Location**
 
-   1. Navigate to **Zones** --&gt; **Locations** folder.
+   1. Navigate to **Zones** > **Locations** folder.
    1. Select the **Locations** folder and click **Create** from the action bar.
    1. Select **Location** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **SanJose** and click **Create**.
 
 1. **Creating a Display**
 
-   1. Navigate to **Zones** --&gt; **Locations** folder.
+   1. Navigate to **Zones** > **Locations** folder.
    1. Select the **SanJose** location and click **Create** from the action bar.
    1. Select **Display** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **Lobby** and click **Create**.
@@ -139,7 +139,7 @@ Assign the channels to the display to view the content. Follow the steps below t
 
 1. **Assigning Channel to the Display**
 
-   1. Navigate to **Zones** --&gt; **Locations** --&gt; **SanJose**--&gt; **Lobby**.
+   1. Navigate to **Zones** > **Locations** > **SanJose**> **Lobby**.
    1. Select the **Lobby** display and click **Assign Channel** from the action bar.
    1. Enter the path to the **MultiZone** channel in **Channel Path**.
    1. Set the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**.
@@ -162,7 +162,7 @@ Once you have set up a location and a display, follow the steps below to registe
 
 1. **Registering the Device**
 
-   1. Navigate to **Zones** --&gt; **Devices** folder.
+   1. Navigate to **Zones** > **Devices** folder.
    1. Select the **Devices** folder and click **Device Manager** from the action bar.
    1. Click **Device Registration** and select the pending device from the list.
       >[!NOTE]

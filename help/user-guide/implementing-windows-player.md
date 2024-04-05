@@ -175,7 +175,7 @@ If you get a black screen when you login as the Kiosk user it means that you may
 
 The default installation path for Windows player is:
 
-***C:\Users\&lt;your user&gt;\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\<your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 The sample script in the links will enable and disable the custom shell. Hence you may need to split the script into two and enable/disable the below applicable lines:
 

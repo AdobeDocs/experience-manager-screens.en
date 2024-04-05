@@ -1,8 +1,6 @@
 ---
 title: Dispatcher Configurations for AEM Screens
-seo-title: Dispatcher Configurations for AEM Screens
-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
-seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+description: This page highlights guidelines for configuring Dispatcher for an AEM Screens project.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
@@ -10,31 +8,31 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 ---
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher is Adobe Experience Manager's caching and/or load balancing tool.
+Dispatcher is Adobe Experience Manager's caching and/or load-balancing tool.
 
-The following page provides the guidelines for configuring dispatcher for an AEM Screens project.
+The following page provides the guidelines for configuring Dispatcher for an AEM Screens project.
 
 >[!NOTE]
 >
->If a dispatcher is available, connections to the registration servlet can be prevented by filtering in the dispatcher rules.
+>If a Dispatcher is available, connections to the registration servlet can be prevented by filtering in the Dispatcher rules.
 >
->If there is no dispatcher, disable the registration servlet in the OSGi components listing.
+>If there is no Dispatcher, disable the registration servlet in the OSGi components listing.
 
-Before you configure dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
-Refer to [Configuring Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) for more details.
+Before you configure Dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+Refer to [Configuring Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) for more details.
    
 ## Configuring Dispatcher for Manifest Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >The following Dispatcher configurations apply only to Manifest version v2. Refer to [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
 
-AEM Screens players or devices use authenticated session to access the resources in the publish instances as well. So, when you have multiple publish instances, the requests should always go to the same publish instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
+AEM Screens players or devices use authenticated session to access the resources in the Publishing instances as well. So, when you have multiple publish instances, the requests should always go to the same Publishing instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
 
-Follow the steps below to configure dispatcher for an AEM Screens project.
+Follow the steps below to configure Dispatcher for an AEM Screens project.
 
 ### Enabling Sticky Sessions {#enable-sticky-session}
 
-If you want to use multiple publish instances fronted by single dispatcher, you will have to update the `dispatcher.any` file to enable stickiness
+If you want to use multiple publish instances fronted by single Dispatcher, update the `dispatcher.any` file to enable stickiness.
 
 ``` xml
 /stickyConnections {
@@ -45,11 +43,11 @@ If you want to use multiple publish instances fronted by single dispatcher, you 
  }
 ```
 
-If you have one publish instance fronted by one dispatcher, enabling the stickiness at the dispatcher will not help as the load balancer may send each request to dispatcher. In this case, click on **Enable** in **Stickiness** field to enable it at your load balancer level, as shown in the figure below:
+If you have one publish instance fronted by one Dispatcher, enabling the stickiness at the Dispatcher does not help because the load balancer may send each request to Dispatcher. In this case, select **Enable** in **Stickiness** field to turn it on at your load balancer level, as shown in the figure below:
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-For example, if you are using AWS ALB, refer to [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for 1 day.
+For example, if you are using AWS ALB, refer to [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for one day.
 
 ### Step 1: Configuring Client Headers {#step-configuring-client-headers}
 
@@ -61,7 +59,7 @@ Add the following to `/clientheaders`section:
 
 **X-REQUEST-COMMAND**
 
-### Step 2: Configuring Screens Filters {#step-configuring-screens-filters}
+### Step 2: Configuring Screens Filters {#step-configure-screens-filters}
 
 To configure Screens filters, add the following to ***/filter***.
 
@@ -86,11 +84,11 @@ To configure Screens filters, add the following to ***/filter***.
 
 ### Step 3: Disabling Dispatcher Cache {#step-disabling-dispatcher-cache}
 
-Disable dispatcher caching for ***/content/screens path***.
+Disable Dispatcher caching for ***/content/screens path***.
 
-Screens players uses authenticated session, so the dispatcher does not cache any of the screens players requests for `channels/assets`. 
+Screens players use authenticated sessions, so the Dispatcher does not cache any of the screens players requests for `channels/assets`. 
 
-To enable the cache for the assets so that the assets are served from dispatcher cache, you must:
+To enable the cache for the assets so that the assets are served from Dispatcher cache, you must:
 
 * Add `/allowAuthorization 1` in `/cache` section
 * Add the below rules to `/rules` section of `/cache`
@@ -125,15 +123,15 @@ To enable the cache for the assets so that the assets are served from dispatcher
 
 ## Configuring Dispatcher for Manifest Version v3{#configuring-dispatcherv3}
 
-Please make sure to allow these filters and cache rules in dispatchers fronting the publish instances for functioning of Screens.
+Make sure to allow these filters and cache rules in dispatchers fronting the Publishing instances for functioning of Screens.
 
 ### Pre-requisites for Manifest Version v3{#prerequisites3}
 
-Please ensure that you follow these two prerequisites before configuring Dispatcher (manifest version v3) for AEM Screens:
+Follow these two prerequisites before configuring Dispatcher (manifest version v3) for AEM Screens:
 
 * Make sure that you are using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that `Enable ContentSync Cache` is unchecked.
 
-* Make sure dispatcher flush agent is configured at `/etc/replication/agents.publish/dispatcher1useast1Agent` in publish instance.
+* Make sure that the Dispatcher flush agent is configured at `/etc/replication/agents.publish/dispatcher1useast1Agent` in publish instance.
 
    ![image](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -169,10 +167,10 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
 
 * Add `/allowAuthorized "1"` to `/cache` section in `publish_farm.any`.
 
-* All the Screens players will use authenticated session to connect to AEM (author/publish). Out-of-the-box Dispatcher does not cache these urls, so we should enable those.
+* All the AEM Screens players use authenticated session to connect to AEM (author/publish). Out-of-the-box Dispatcher does not cache these urls, so you should enable those.
 
 * Add `statfileslevel "10"` to `/cache` section in `publish_farm.any`
-   This will support caching up to 10 levels from the cache docroot and invalidate accordingly when content is published rather than invalidating everything. Feel free to change this level based on how deep your content structure is
+   This supports caching up to ten levels from the cache docroot and invalidate accordingly when content is published rather than invalidating everything. Feel free to change this level based on how deep your content structure is
 
 * Add the following to `/invalidate section in publish_farm.any`
 
@@ -227,7 +225,7 @@ Please ensure that you follow these two prerequisites before configuring Dispatc
 
 ### Add invalidation rule for segments.js {#invalidsegmentjs}
 
-   If you are using targeted campaigns with AEM Screens, then the `segments.js file` served by the dispatcher needs to be invalidated, as you add and publish new segments on AEM. Without this invalidation rule, new targeted campaigns will not work on the Screens player (it will show the default content instead).
+   If you are using targeted campaigns with AEM Screens, then the `segments.js file` served by the Dispatcher must be invalidated, as you add and publish new segments on AEM. Without this invalidation rule, new targeted campaigns do not work on the AEM Screens player (it shows the default content instead).
 
 * Add an invalidation rule to `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Here is the rule to add:
 

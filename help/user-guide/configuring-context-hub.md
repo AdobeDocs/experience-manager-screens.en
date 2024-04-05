@@ -71,7 +71,7 @@ The following validation is what you will view when you check your connection by
 
 1. **Navigating to ContextHub**
 
-   Navigate to your AEM instance and click the tools icon from left sidebar. Click **Sites** --&gt; **ContextHub**, as shown in the figure below.
+   Navigate to your AEM instance and click the tools icon from left sidebar. Click **Sites** > **ContextHub**, as shown in the figure below.
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -79,16 +79,16 @@ The following validation is what you will view when you check your connection by
 
     1. Navigate to the configuration container titled as **screens**.
 
-    1. Click **Create** &gt; **Create Configuration Container** and enter the title as **ContextHubDemo**.
+    1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
 
        ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-    1. **Navigate** to **ContextHubDemo** &gt; **Create** **ContentHub Configuration** and click **Save**.
+    1. **Navigate** to **ContextHubDemo** > **Create** **ContentHub Configuration** and click **Save**.
 
         >[!NOTE]
         > After you click **Save** you will be in the **ContextHub Configuration** screen.
 
-   1. From the **ContextHub Configuration** screen, click **Create** &gt; **ContentHub Store Configuration..**
+   1. From the **ContextHub Configuration** screen, click **Create** > **ContentHub Store Configuration..**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -118,7 +118,7 @@ The following validation is what you will view when you check your connection by
    1. Enter your specific json configuration. For example, you can use the following json for demo purposes and click **Save** and you will see the store configuration titled as **Google Sheets** in ContextHub configuration.
 
       >[!IMPORTANT]
-      >Make sure to replace the code with your *&lt;Sheet ID&gt;* and *&lt;API Key&gt;*, that you fetched while setting up the Google Sheets.
+      >Make sure to replace the code with your *<Sheet ID>* and *<API Key>*, that you fetched while setting up the Google Sheets.
 
       ```
        {
@@ -140,7 +140,7 @@ The following validation is what you will view when you check your connection by
       >
       >In the above sample code, **pollInterval** defines the frequency at which the values are refreshed (in ms).
       >
-      >Replace the code with your *&lt;Sheet ID&gt;* and *&lt;API Key&gt;*, that you fetched while setting up the Google Sheets.
+      >Replace the code with your *<Sheet ID>* and *<API Key>*, that you fetched while setting up the Google Sheets.
 
       >[!CAUTION]
       >
@@ -162,9 +162,9 @@ The following validation is what you will view when you check your connection by
 
 1. **Creating Segments in Audiences**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+    1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
-    1. Click **Create** &gt; **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+    1. Click **Create** > **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
 
     1. Enter the **Title** as **Higherthan50** and click **Create**. Similarly, create another segment titled as **Lowerthan50**.
 
@@ -185,9 +185,9 @@ Follow the steps below to create a brand in your activities and area under the b
 
 1. **Creating a Brand in Activities**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Activities**.
+    1. Navigate from your AEM instance to **Personalization** > **Activities**.
 
-    1. Click **Create** &gt; **Create Brand**.
+    1. Click **Create** > **Create Brand**.
 
     1. Select **Brand** from the **Create Page** wizard and click **Next**.
 
@@ -221,9 +221,9 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
 1. **Creating Segments in Activities**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Activities** &gt; **ScreensBrand** &gt;**ScreensValue**.
+    1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
 
-    1. Click **Create** &gt; **Create Activity.** The **Configure Activity Wizard** opens.
+    1. Click **Create** > **Create Activity.** The **Configure Activity Wizard** opens.
 
     1. Enter the **Title** as **ValueCheck50** and **Name** as **valuecheck50**. Select the **Targeting engine** as **ContextHub (AEM)** from the drop-down and click **Next**.
 
@@ -245,7 +245,7 @@ Once you have set up a data store and defined your activity (brand and area), fo
 
 1. **Editing the Segments**
 
-    1. Navigate from your AEM instance to **Personalization** &gt; **Audiences** &gt; **screens**.
+    1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
     1. Select the segment **Higherthan50**, and click **Edit** from the action bar.
 

@@ -73,7 +73,7 @@ Follow the steps below to transition from ContentSync to SmartSync:
    >
    >All content cache must be cleared before using SmartSync for the first time.
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

@@ -138,12 +138,12 @@ Follow the steps below to set up an emergency channel:
 
 1. **Assigning Schedule to each Display**
 
-    1. Navigate to the each display, such as **EmergencyChannel** --&gt; **Locations** --&gt; **Store** --&gt;**StoreFront**.
+    1. Navigate to the each display, such as **EmergencyChannel** > **Locations** > **Store** >**StoreFront**.
 
     1. Click **Dashboard** from the action to open the display dashboard.
     1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
 
-    1. Select the path to the Schedule (for example, here, **EmergencyChannel** --&gt; **Schedules** --&gt;**StoreSchedule**).
+    1. Select the path to the Schedule (for example, here, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
 
     1. Click **Save**.
 
@@ -160,7 +160,7 @@ Follow the steps below to set up an emergency channel:
 
 In the event of an emergency perform the following steps:
 
-1. Navigate to **EmergencyChannel** --&gt; **Schedules** --&gt; **StoreSchedule** and select **Dashboard** from the action bar.
+1. Navigate to **EmergencyChannel** > **Schedules** > **StoreSchedule** and select **Dashboard** from the action bar.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

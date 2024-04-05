@@ -55,7 +55,7 @@ The data model for Project Importer is described below:
 
 The spreadsheet (CSV/XLS) file, thus requires the following columns:
 
-* **path {string}** The path for the location to be imported, where the root of the path is the location folder for the project (that is, */foo* will be imported to */content/screens/&lt;project&gt;/locations/foo*)
+* **path {string}** The path for the location to be imported, where the root of the path is the location folder for the project (that is, */foo* will be imported to */content/screens/<project>/locations/foo*)
 
 * **template {string}** The template to use for the new location, for now the only allowed value is "location", but this will be extended to all the Screens templates in the future ("display", "sequencechannel, and so on)
 * **[./*] {string}** Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). The current release allows no filtering at this time
@@ -100,7 +100,7 @@ Follow the steps below to import a file to locations folder with minimum require
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Select the project,** DemoProjectImporter **--&gt;** Create **--&gt;** Import Locations** from the side bar.
+1. Select the project,** DemoProjectImporter **>** Create **>** Import Locations** from the side bar.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

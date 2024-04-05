@@ -113,9 +113,9 @@ The following table summarizes the groups with description and permissions for a
    <td>
     <ul>
      <li>Member Of Contributors</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><project> /content/screens</li>
+     <li><project> /content/dam</li>
+     <li><project> /content/experience-fragments</li>
     </ul> </td>
   </tr>
   <tr>
@@ -126,11 +126,11 @@ The following table summarizes the groups with description and permissions for a
      <li>Member Of Contributors</li>
      <li>jcr:all /home/users/screens</li>
      <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><project> /content/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Players<br /> <em>screens-&lt;project&gt;-devices</em></td>
+   <td>Screens Players<br /> <em>screens-<project>-devices</em></td>
    <td>Groups all players and all players/devices are member of the contributors automatically.</td>
    <td><p> Member of Contributors</p> </td>
   </tr>

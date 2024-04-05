@@ -23,7 +23,7 @@ This page shows assigning a channel to your display.
 
 Follow the steps below to assign a channel to a display:
 
-1. Navigate to the required display, for example, **DemoProject** --&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
+1. Navigate to the required display, for example, **DemoProject** > **Locations** > **SanJose** > **StoreDisplay**.
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 

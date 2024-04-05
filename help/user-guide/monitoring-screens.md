@@ -27,7 +27,7 @@ You can monitor the activity and hence troubleshoot your Screens player, usingth
 
 Follow the steps below to navigate to the device dashboard:
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --&gt; ***Devices***.
+1. Navigate to the device dashboard from your project, for example, ***Test Project*** > ***Devices***.
 
    Select **Devices** and **Device Manager** from the action bar.
 
