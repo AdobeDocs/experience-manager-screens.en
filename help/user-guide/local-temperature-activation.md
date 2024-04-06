@@ -72,7 +72,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** --&gt; **Personalization** tab.
+   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

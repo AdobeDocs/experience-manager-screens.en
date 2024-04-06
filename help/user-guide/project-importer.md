@@ -1,14 +1,10 @@
 ---
 title: New Project Importer from File
-seo-title: New Project Importer from File
 description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
-seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
-uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administering Screens
 role: Admin
@@ -21,13 +17,13 @@ This section describes a functionality to bulk-import a set of locations from a 
 
 ## Introduction {#introduction}
 
-When you are setting up an AEM Screens project, for the first time in your organization, you need to create all the locations too. If your project involves a large number of locations, it results into a tedious task that involves a lot of clicking and waiting in the UI.
+When you are setting up an AEM Screens project for the first time in your organization, you must create all the locations too. If your project involves many locations, it results in a tedious task that involves much clicking and waiting in the UI.
 
 The goal of this feature is to reduce the time required to set up the project and thus resolve budgeting issues.
 
 By letting the author provide a spreadsheet as an input file, and letting the system automatically create the location tree in the back-end, this feature:
 
-* *achieves way better performances than manually clicking through the UI*
+* *achieves way better performance than manually clicking through the UI*
 * *lets customer export the locations they have from their own system and easily import them directly in AEM*
 
 This saves both time and money during initial project setup or when extending the existing AEM Screens to new locations.
@@ -48,21 +44,20 @@ The data model for Project Importer is described below:
 
 | **Property** |**Description** |
 |---|---|
-| ***path {string*}** |The resource path for the location |
-| ***[./jcr:title] {string*}** |The name of the template to use (that is, location for *screens/core/templates/location*) |
-| ***template {string}*** |Optional title to use for the page |
-| ***[./jcr:description] {string}*** |Optional description to use for the page |
+| ***`path {string*}`*** |The resource path for the location |
+| ***`[./jcr:title] {string*}`*** |The name of the template to use (that is, location for *screens/core/templates/location*) |
+| ***`template {string}`*** |Optional title to use for the page |
+| ***`[./jcr:description] {string}`*** |Optional description to use for the page |
 
-The spreadsheet (CSV/XLS) file, thus requires the following columns:
+The spreadsheet (CSV/XLS) file thus requires the following columns:
 
-* **path {string}** The path for the location to be imported, where the root of the path is the location folder for the project (that is, */foo* will be imported to */content/screens/&lt;project&gt;/locations/foo*)
-
-* **template {string}** The template to use for the new location, for now the only allowed value is "location", but this will be extended to all the Screens templates in the future ("display", "sequencechannel, and so on)
-* **[./*] {string}** Any optional property to be set on the location (that is, ./jcr:title, ./jcr:description, ./foo, ./bar). The current release allows no filtering at this time
+* **path {string}** &ndash; The path for the location to be imported, where the root of the path is the location folder for the project (that is, *`/foo`* is imported to *`/content/screens/<project>/locations/foo`*)
+* **template {string}** &ndash; The template to use for the new location, for now the only allowed value is "location", but this will be extended to all the Screens templates in the future (`display`, `sequencechannel`, and so on)
+* **[./*] {string}** &ndash; Any optional property to be set on the location (that is, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). The current release allows no filtering.
 
 >[!NOTE]
 >
->Any column that does not match the conditions above will just be ignored. For example, if you have any other column defined in your sheet (CSV/XLS) file other than **path**,**template**,**title**, and **description** in your file, those fields will be ignored and **Project Importer** will not validate those additional fields for importing your project to your AEM Screens project.
+>Any column that does not match the conditions above is ignored. For example, if you have any other column defined in your sheet (CSV/XLS) file other than **path**, **template**, **title**, and **description** in your file, those fields are ignored. And, **Project Importer** does not validate those additional fields for importing your project to your AEM Screens project.
 
 ## Using Project Importer {#using-project-importer}
 
@@ -73,14 +68,14 @@ The following section describes how the Project Importer is used in an AEM Scree
 >Limitations:
 >
 >* Files other than CSV/XLS/XLSX extensions are not supported in the current release.
->* No filtering of the properties exists for imported files and anything starting with "./" will be imported.
+>* No filtering of the properties exists for imported files and anything starting with "./" is imported.
 >
 
 ### Prerequisites {#prerequisites}
 
-* Create a new project titled as **DemoProjectImport**
+* Create a project titled as **DemoProjectImport**
 
-* Use a sample CSV or excel file that you need to import.
+* Use a sample CSV or Excel file that you must import.
 
 For demo purposes, you can download an excel file from the section below.
 
@@ -88,7 +83,7 @@ For demo purposes, you can download an excel file from the section below.
 
 ### Importing the file with minimum required fields {#importing-the-file-with-minimum-required-fields}
 
-Follow the steps below to import a file to locations folder with minimum required fields:
+Follow the steps below to import a file to a location folder with minimum required fields:
 
 >[!NOTE]
 >
@@ -100,11 +95,11 @@ Follow the steps below to import a file to locations folder with minimum require
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Select the project,** DemoProjectImporter **--&gt;** Create **--&gt;** Import Locations** from the side bar.
+1. Select the project,** DemoProjectImporter **>** Create **>** Import Locations** from the side bar.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. The **Import** wizard open. Select the file you have for your project with locations or select the file (***minimal-file.xls***) you downloaded from the *Prerequisites* section.
+1. The **Import** wizard is displayed. Select the file for your project with locations or select the file (***minimal-file.xls***) you downloaded from the *Prerequisites* section.
 
    Once you have selected the file, click **Next**.
 
@@ -114,6 +109,6 @@ Follow the steps below to import a file to locations folder with minimum require
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. As a result, you will be now be able to view all the locations imported to your project.
+1. As a result, you can now view all the locations imported to your project.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

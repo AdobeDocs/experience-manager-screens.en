@@ -109,7 +109,7 @@ You need to enable the Apache Sling Referrer Filter Allow Empty. This is require
 
 ### 3. How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-This issue may occur if the player is unable to find the AEM Screens Server DNS. You can try using the IP address to connect. To obtain the IP of server, use: *arp &lt;server_dns_name&gt;*.
+This issue may occur if the player is unable to find the AEM Screens Server DNS. You can try using the IP address to connect. To obtain the IP of server, use: *arp <server_dns_name>*.
 
 ### 4. Does AMS recommend implementing an Android Watchdog on all Devices? Is the Watchdog (Cordova) plugin included as part of the APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -146,7 +146,7 @@ When AEM Screens player starts, it makes a request to ***/content/screens/svc.pi
 
 Follow the steps below to turn on Stay Awake in on any Android player:
 
-1. Navigate to Android player settings --&gt; **About**
+1. Navigate to Android player settings > **About**
 1. Tap 7 times on the build number to enable **Developer Options** in **Settings**
 1. Navigate to **Developer Options**
 1. Enable **Stay Awake**
@@ -197,7 +197,7 @@ In order to disable Livefyre to avoid log errors :
 
 1. ***Disable Livefyre bundle:***
 
-    * Navigate to `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+    * Navigate to `https://<host>:<port>/system/console/bundles`
     * Search for the AEM Livefyre bundle: `com.adobe.cq.social.cq-social-livefyre`
     * Click **Stop**
 

@@ -55,7 +55,7 @@ Follow the steps below to set up a project and a channel:
 
 Once the project set up is complete, you must assign the channel to a display to view the content.
 
-1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
+1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
 1. Tap/click **Assign Channel** from the action bar.
 
@@ -104,7 +104,7 @@ Once you have assigned a channel to a display and set up a recurrence schedule, 
 
 Follow the steps below to navigate to the timeline view:
 
-1. Navigate to the required display, for example, **DemoScreens** --&gt; **Locations** --&gt; **SanJose** --&gt; **Lobby**.
+1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
 1. Tap/click **Assign Channel** from the action bar.
 

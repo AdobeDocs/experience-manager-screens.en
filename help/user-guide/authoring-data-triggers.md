@@ -46,9 +46,9 @@ Follow the steps below to enable targeting in your channels.
 
 1. Select the **Personalization** tab to setup the ContextHub configurations and select the ContextHub and Segments path.
 
-    1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
+    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
 
-    1. Select the **Segments Path** as **conf** &gt; **We.Retail** &gt; **settings** &gt; **wcm** &gt; **segments** and click **Select**.
+    1. Select the **Segments Path** as **conf** > **We.Retail** > **settings** > **wcm** > **segments** and click **Select**.
 
     1. Click **Save & Close**.
 
@@ -58,7 +58,7 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** &gt; **Channels** and click **Edit** from the action bar. Drag and drop the assets in your channel editor.
+1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** > **Channels** and click **Edit** from the action bar. Drag and drop the assets in your channel editor.
 
    >[!NOTE]
    >

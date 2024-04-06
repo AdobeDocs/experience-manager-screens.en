@@ -29,7 +29,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 ## Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -146,7 +146,7 @@ Once you have created a location, you need to create a new display for your loca
 
 Once the project set up is complete, you must assign the channel to a display to view the content.
 
-1. Navigate to the required display from **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay**.
+1. Navigate to the required display from **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay**.
 
 1. Tap/click **Assign Channel** from the action bar.
 
@@ -219,7 +219,7 @@ Once your Chrome OS player is on, follow the steps below to register a Chrome de
 
    ![image](assets/kickstart/demo-register5.png)
 
-1. Select the path to your display as **DemoScreens** --&gt; **Locations** --&gt; **TestLocation** --&gt; **LobbyDisplay** and click **Assign**.
+1. Select the path to your display as **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay** and click **Assign**.
  
    ![image](assets/kickstart/demo-device6.png)
 

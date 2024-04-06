@@ -98,7 +98,7 @@ Follow the steps below to implement the functionality:
     1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Channel Level Activation** --&gt; ***Channels*** --&gt; ***MainAdChannel***.
+    1. Select the **Channel Path** as **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
     1. Select the **Priority** as **1**.
     1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
@@ -108,14 +108,14 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and clicking **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and clicking **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    Similarly, assign channel **TargetedSinglePlay** for display**:
 
-    1. Navigate to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and click **Assign Channel** from the action bar.
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Channel Level Activation*** --&gt; ***Channels*** --&gt; ***TargetedSinglePlay***.
+    1. Select the **Channel Path** as **Channel Level Activation*** > ***Channels*** > ***TargetedSinglePlay***.
     1. The **Channel Role** is populated as **targetedsingleplay**.
     1. Set the **Priority** as **2**.
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen** and **Timer**, *as shown in the figure below.

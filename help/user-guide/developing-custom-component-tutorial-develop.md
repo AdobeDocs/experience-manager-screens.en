@@ -84,9 +84,9 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
    This package contains the starting content and configuration structure needed for the project. **`/conf/we-retail-run`** contains all configurations for the We.Retail Run project. **`/content/dam/we-retail-run`** includes starting digital assets for the project. **`/content/screens/we-retail-run`** contains the Screens content structure. The content beneath all of these paths is updated primarily in AEM. To promote consistency between environments (local, Dev, Stage, Prod) often a base content structure is saved in source control.
 
-1. **Navigate to the AEM Screens &gt; We.Retail Run project:**
+1. **Navigate to the AEM Screens > We.Retail Run project:**
 
-   From the AEM Start Menu &gt; Click the Screens the icon. Verify the We.Retail Run Project can be seen.
+   From the AEM Start Menu > Click the Screens the icon. Verify the We.Retail Run Project can be seen.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -406,7 +406,7 @@ Below a We.Retail Run Design page is created that will store all configurations 
 
 The Hello World component is intended to be used on a Sequence Channel. To test the component, a new Sequence Channel is created.
 
-1. From the AEM Start Menu navigate to **Screens** &gt; **We.Retail Ru**n &gt; and select **Channels**.
+1. From the AEM Start Menu navigate to **Screens** > **We.Retail Ru**n > and select **Channels**.
 
 1. Click the **Create** button
 
@@ -420,8 +420,8 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
    1. Properties Step
 
-    * Basic Tab &gt; Title = **Idle Channel**
-    * Channel Tab &gt; check **Make channel online**
+    * Basic Tab > Title = **Idle Channel**
+    * Channel Tab > check **Make channel online**
 
    ![idle-channel](assets/idle-channel.gif)
 

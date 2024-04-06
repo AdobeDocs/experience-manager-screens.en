@@ -88,7 +88,7 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** --&gt; **Personalization** tab.
+   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

@@ -28,7 +28,7 @@ Once you assign a channel to a display, the AEM Screens Player displays the cont
 
 You can configure preferences for your device from the Device Dashboard, accessible via your AEM authoring instance.
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --&gt; ***Devices***.
+1. Navigate to the device dashboard from your project, for example, ***Test Project*** > ***Devices***.
 
    Select **Devices** and **Device Manager** from the action bar.
 

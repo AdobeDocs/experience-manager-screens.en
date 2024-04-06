@@ -29,7 +29,7 @@ Whenever you create an AEM Screens project, you will see a list of default compo
 
 To view the default components to your Screens project, follow the steps below:
 
-1. Select the channel. For example, **We.Retail In Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. Select the channel. For example, **We.Retail In Store** > **Channels** > **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the AEM editor.
 1. Click the **+** icon from the side bar to open the components.
@@ -43,7 +43,7 @@ AEM provides a number of other components. You can always add other components (
 
 The following example shows the addition of a Livefyre component to a an AEM Screens project:
 
-1. Select the channel where you want to add a new component. For example, **We.Retail In Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. Select the channel where you want to add a new component. For example, **We.Retail In Store** > **Channels** > **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the editor.
 1. Select **Design** mode.
@@ -318,7 +318,7 @@ The video component has the following properties:
   </tr>
   <tr>
    <td><em><strong>Duration</strong></em></td>
-   <td>Select the duration of the video. By default, the duration is set to -1, that means the element runs forever. Setting the duration value &gt;0, shows the element for the specified duration and then moves on to the next one.<br /> </td>
+   <td>Select the duration of the video. By default, the duration is set to -1, that means the element runs forever. Setting the duration value >0, shows the element for the specified duration and then moves on to the next one.<br /> </td>
   </tr>
   <tr>
    <td><em><strong>Rendering</strong></em></td>

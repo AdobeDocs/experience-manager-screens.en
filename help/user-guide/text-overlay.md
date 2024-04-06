@@ -56,7 +56,7 @@ The following image shows the **TextOverlayDemo** project with **TextSample** ch
 
 Follow the steps below to use text overlay in an AEM Screens channel:
 
-1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar to open the editor.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -96,13 +96,13 @@ To learn how to setup and manage data driven asset changes using a data store, r
 
 Once you have set up the required configurations for your project, follow the steps below to use values from the google sheets: 
 
-1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Properties** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Properties** from the action bar.
 
 1. Select the **Personalization** tab to set up the ContextHub configurations.
 
-    1. Select the **ContextHub Path** as **libs** &gt; **settings** &gt; **cloudsettings** &gt; **default** &gt; **ContextHub Configurations** and click **Select**.
+    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
 
-    1. Select the **Segments Path** as **conf** &gt; **screens** &gt; **settings** &gt; **wcm** &gt; **segments** and click **Select**.
+    1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and click **Select**.
 
     1. Click **Save & Close**.
 
@@ -112,7 +112,7 @@ Once you have set up the required configurations for your project, follow the st
 
        ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar to open the editor.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
