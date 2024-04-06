@@ -1,14 +1,10 @@
 ---
 title: Configuring and Deploying AEM Screens
-seo-title: Configuring and Deploying Screens
-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
+description: The AEM Screens player is available for Android&trade;, Chrome OS, iOS, and Windows. Learn about the configuration and deployment of AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Admin
 level: Intermediate
@@ -20,11 +16,9 @@ This page shows how to install and configure the Screens players on your devices
 
 ## Server Configuration {#server-configuration}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->**Important**:
->
->AEM Screens player does not make use of the Cross-Site Request Forgery (CSRF) token. Therefore, in order to configure and AEM server to be ready to use for AEM Screens, skip the referrer filter by allowing empty referrers.
+>AEM Screens player does not use the Cross-Site Request Forgery (CSRF) token. Therefore, to configure the AEM server to be ready to use for AEM Screens, skip the referrer filter by allowing empty referrers.
 
 ## Health Check Framework {#health-check-framework}
 
@@ -42,7 +36,7 @@ Follow the steps below to check if these two vital configurations are enabled fo
    ![assets](assets/health-check1.png)
 
 
-2. Click on **Execute selected health checks** to run the validation for two properties listed above.
+2. Select **Execute selected health checks** so you can run the validation for two properties listed above.
 
    If both the filters are enabled, then the **Screens Configuration Health Service** shows the **Result** as **OK** with both the configurations as enabled.
 
@@ -97,9 +91,9 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Enable Touch UI for AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens requires TOUCH UI and will not work with CLASSIC UI of Adobe Experience Manager (AEM).
+AEM Screens requires TOUCH UI and does not work with CLASSIC UI of Adobe Experience Manager (AEM).
 
-1. Navigate to *<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Navigate to `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
 
 Alternatively, you can also perform the same setting using yourAuthorInstance *>* tools (hammer icon) > **Operations** > **Web Console** and search for **WCM Authoring UI Mode Service**.
@@ -110,9 +104,9 @@ Alternatively, you can also perform the same setting using yourAuthorInstance *>
 >
 >You can always enable Classic UI for specific users using user preferences.
 
-#### AEM in NOSAMPLECONTENT runmode {#aem-in-nosamplecontent-runmode}
+#### AEM in NOSAMPLECONTENT run mode {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
+Running AEM in production uses the **NOSAMPLECONTENT** run mode. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -122,26 +116,26 @@ This is required for the AEM Screens Player to play online channels.
 
 With latest changes to ***DeviceServiceImpl***, you do not have to remove the password restrictions.
 
-You can configure ***DeviceServiceImpl*** from the link below to enable password restriction while creating the password for the screens device users:
+You can configure ***DeviceServiceImpl*** from the link below to enable password restriction while creating the password for the screen device users:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Follow the steps below to configure ***DeviceServiceImpl***:
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of your AEM instance > hammer icon > **Operations** > **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration** opens. Search for *deviceservice*. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft Windows.
+1. **Adobe Experience Manager Web Console Configuration** opens. Search for `*deviceservice*`. For searching the property, press **Command+F** for macOS and **Control+F** for Microsoft&reg; Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher Configuration {#dispatcher-configuration}
 
-To learn how to configure dispatcher for an AEM Screens project, refer to [Configuring Dispatcher for an AEM Screens project](dispatcher-configurations-aem-screens.md).
+To learn how to configure Dispatcher for an AEM Screens project, see [Configuring Dispatcher for an AEM Screens project](dispatcher-configurations-aem-screens.md).
 
-#### Java encoding {#java-encoding}
+#### Java&trade; encoding {#java-encoding}
 
-Set the ***Java encoding*** to Unicode. For example, *Dfile.encoding=Cp1252* will not work.
+Set the ***Java&trade; encoding*** to Unicode. For example, `*Dfile.encoding=Cp1252*` does not work.
 
 >[!NOTE]
->**Recommendation:**
->It is recommended to use HTTPS for AEM Screens Server in production use.
+>
+>Use HTTPS for AEM Screens Server in production use.

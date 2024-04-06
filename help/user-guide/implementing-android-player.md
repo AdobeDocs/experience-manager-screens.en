@@ -79,9 +79,9 @@ Follow the steps below to sign the Android&trade; apk using the manufacturer's k
 1. Obtain the platform keys from the manufacturer so you can get a *pk8* and a *pem* file
 
 1. Locate the `apksigner` tool in Android&trade; sdk using find `~/Library/Android/sdk/build-tools -name "apksigner"`
-1. <pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk
+1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
 1. Find the path to the zip align tool in Android&trade; sdk
-1. <pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
+1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Install ***aemscreensaligned.apk*** using adb install to the device
 
 ## Understanding Android&trade; Watchdog Services {#android-watchdog-services}
