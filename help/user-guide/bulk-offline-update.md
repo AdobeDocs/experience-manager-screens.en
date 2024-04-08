@@ -70,6 +70,6 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
    >
    >Specify the project path relative to your channel.
 
-   **Schedule Frequency** Specify a time, for example, 5:00 pm or 17:00 at which this service should update offline content.
+   **Schedule Frequency** Specify a time, for example, 5:00 P.M. or 17:00 at which this service should update offline content.
 
 1. Click **Save** to save your settings and your content will be updated at the specified time.

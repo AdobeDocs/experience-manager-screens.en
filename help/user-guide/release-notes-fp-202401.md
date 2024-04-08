@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Screens Feature Pack 202401
-description: Follow this page to get information for AEM Screens Feature Pack 202401 released on Jan 2, 2024.
+description: Follow this page to get information for AEM Screens Feature Pack 202401 released on January 2, 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -19,7 +19,7 @@ You can download the latest feature pack for AEM Screens 6.5.11.1 Release from t
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202204 is Jan 02, 2024.
+The Release Date for AEM Screens Feature Pack 202204 is January 02, 2024.
 
 ### What's New {#what-is-new}
 

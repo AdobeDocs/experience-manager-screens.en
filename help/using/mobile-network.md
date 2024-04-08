@@ -62,7 +62,7 @@ As a follow up the needed Data Package has to be at least:
 
 
 >[!IMPORTANT]
->For initial upload of Media Files, e.g. while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions. A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
+>For initial upload of Media Files, for example, while integrating new players, a higher amount of Data and an increased Download Time have to be expected and being reflected in the above assumptions. A 4G network with *good* coverage and *unlimited* data should match the most common installations in this Network Setup.
 
 >[!NOTE]
 >A minimum 3G plan with good network coverage should lead to acceptable download performance for an AEM Screens player. If there is only fair coverage available at a specific location it is to take into consideration to switch the overall Network Setup to [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md).

@@ -1,14 +1,10 @@
 ---
 title: AEM Screens Notifications Service
-seo-title: AEM Screens Notifications Service
-description: Follow this page to learn more about how you can monitor device activity.
-seo-description: Follow this page to learn more about how you can monitor device activity.
-uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
+description: Learn more about how you can monitor device activity for AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -18,7 +14,7 @@ exl-id: 205235d7-e621-4134-975c-257ae60939bc
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens Notifications Service***, describes the feature where you can monitor device activity.
+***AEM Screens Notifications Service*** describes monitor device activity.
 
 This section covers the following topics:
 
@@ -27,15 +23,16 @@ This section covers the following topics:
 * **Email Notification**
 * **Example Use Case**
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## Overview {#overview}
 
-***AEM Screens Notifications Service***, allows administrators to receive an email if an AEM screens player does not ping for a configurable period of time.
+***AEM Screens Notifications Service*** lets administrators receive an email if an AEM screens player does not ping for a configurable period of time.
 
 This service can be configured in the OSGi web console.
 
@@ -58,7 +55,7 @@ Follow the steps below to configure the email notification settings:
    >
    >Specify the project path, where the device users are located.
 
-   **Schedule Frequency** Specify a time (e.g., 5:00 pm or 17:00) or frequency in hours (e.g., 1) at which this monitor should send emails.
+   **Schedule Frequency** Specify a time (for example, 5:00 P.M. or 17:00) or frequency in hours (for example,, 1) at which this monitor should send emails.
 
    **Ping Timeout** This specifies the interval in minutes after which a device should be considered not reachable.
 
@@ -96,7 +93,7 @@ The following example describe few scenarios for reference, to configure the pro
 
 **Scenario 1**:
 
-If you set the schedule frequency as 1:00 am and the ping timeout as 60, then if your Screens device does not ping between 12:00 pm until 1:00 pm, you will receive an email notification confirming device inactivity.
+If you set the schedule frequency as 1:00 A.M. and the ping timeout as 60, then if your Screens device does not ping between 12:00 P.M. until 1:00 P.M., you receive an email notification confirming device inactivity.
 
 **Scenario 2**:
 
