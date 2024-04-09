@@ -1,10 +1,10 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
-user-guide-description: Learn to use a Digital Signage Solution that allows you to publish dynamic and interactive digital experiences and interactions.
+user-guide-description: Learn to use a Digital Signage Solution that lets you publish dynamic and interactive digital experiences and interactions.
 feature-set: Experience Manager Screens
 feature: Content
 role: User

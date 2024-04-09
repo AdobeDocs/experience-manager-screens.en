@@ -16,7 +16,7 @@ Support monitoring includes:
 
 ## Content Monitoring {#content-monitoring}
 
-Content monitoring allows you to troubleshoot the issues related to content not properly displayed on the screen:
+Content monitoring lets you troubleshoot the issues related to content not properly displayed on the screen:
 
 1. If blank screen issue is encountered:
 

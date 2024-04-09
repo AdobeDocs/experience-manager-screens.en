@@ -12,7 +12,7 @@ A content author can define a thumbnail for videos so that the image can be used
 Adding support for a thumbnail image on the video component lets the customer properly add a valid component in the channel, with actual content, and perform any targeting configurations before the video is actually delivered. 
 
 >[!NOTE]
->The thumbnail image, if set on the video component, is played in case of video playback failure on the player. This allows you to deliver the desired message to the audience (by playing  content) instead of completely skipping it.
+>The thumbnail image, if set on the video component, is played in case of video playback failure on the player. This lets you deliver the desired message to the audience (by playing  content) instead of completely skipping it.
 
 Thumbnail Support allows you to:
 

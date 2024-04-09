@@ -8,7 +8,7 @@ seo-description: This page highlights Direct Placement Workflow Configuration.
 
 # Direct Placement Workflow Configuration {#direct-placement-workflow}
 
-Follow this page to learn about configuring an asset workflow that allows you to programmatically insert an asset to a pre-defined AEM Screens channel.
+Follow this page to learn about configuring an asset workflow that lets you programmatically insert an asset to a pre-defined AEM Screens channel.
 
 This section covers the following topics:
 

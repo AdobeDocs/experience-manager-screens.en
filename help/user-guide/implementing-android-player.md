@@ -44,7 +44,7 @@ Follow the steps below:
 
 ### Ad-Hoc Method {#ad-hoc-method}
 
-The Ad-Hoc method allows you to install the latest Android&trade; Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
+The Ad-Hoc method lets you install the latest Android&trade; Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
 Once you download the application, follow the steps on the player to complete the ad-hoc installation:
 
@@ -170,7 +170,7 @@ When deploying the Android&trade; player in bulk, it becomes tedious to manually
 
 ## Naming Android&trade; Player {#name-android}
 
-You can assign a user-friendly device name to your Android&trade; player, thus sending the assigned device name to AEM (Adobe Experience Manager). This capability not only allows you to name your Android&trade; player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Android&trade; player, thus sending the assigned device name to AEM (Adobe Experience Manager). This capability not only lets you name your Android&trade; player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.

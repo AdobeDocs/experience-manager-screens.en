@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Screens Feature Pack 202401
-description: Follow this page to get information for AEM Screens Feature Pack 202401 released on Jan 2, 2024.
+description: Learn about AEM Screens Feature Pack 202401 released on January 2, 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 9879f339-e70f-446d-acd3-380016269f27
 # Release Notes for Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). We can get the latest version information from [here](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Availability {#availability}
 
@@ -19,7 +19,7 @@ You can download the latest feature pack for AEM Screens 6.5.11.1 Release from t
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 202204 is Jan 02, 2024.
+The Release Date for AEM Screens Feature Pack 202204 is January 02, 2024.
 
 ### What's New {#what-is-new}
 

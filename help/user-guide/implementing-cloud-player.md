@@ -27,7 +27,7 @@ This section describes how to implement the Cloud Player.
 
 Cloud Player Installation may vary on different platforms. In general, any platform having a modern browser can run the cloud player application by following these steps:
 
-1. Open the browser and enter the [cloud player URL](https://player.adobescreens.com) in the address bar.
+1. Open the browser and enter the [cloud player URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) in the address bar.
 1. The browser checks if the cloud player is installable, and then shows an install icon in the address bar.
 
     ![image](/help/user-guide/assets/cloud-player-install.png)

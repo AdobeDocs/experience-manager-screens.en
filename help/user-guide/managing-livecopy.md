@@ -76,7 +76,7 @@ Additionally, you can view the properties of your live copy channel.
 
 ### Live Copy Status {#live-copy-status}
 
-The mode **Live Copy Status**, as shown in the figure below, allows you to view the relationship status of all the assets in the channel.
+The mode **Live Copy Status**, as shown in the figure below, lets you view the relationship status of all the assets in the channel.
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 

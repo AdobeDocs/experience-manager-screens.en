@@ -1,9 +1,6 @@
 ---
 title: Content Update As a Service
-seo-title: Content Update As a Service
-description: Follow this page to learn about Content Update As a Service.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Learn about Content Update as a Service.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
@@ -17,15 +14,16 @@ This section covers the following topics on updating content-as-a-service:
 * **Overview**
 * **Using Bulk Offline Update**
 
+<!--
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Overview {#overview}
 
-Bulk Offline Update, allows you to update all the channel in bulk. It avoids the hassle of navigating to a particular channel and update the content. Rather, you can update all the content in channels for one specific project in one instant.
+Bulk Offline Update, lets you update all the channels in bulk. It avoids the hassle of navigating to a particular channel and update the content. Rather, you can update all the content in channels for one specific project in one instant.
 
 You can also schedule this activity for a time of lower network traffic.
 
@@ -65,6 +63,6 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
    >
    >Specify the project path relative to your channel.
 
-   **Schedule Frequency** Specify a time, for example, 5:00 pm or 17:00 at which this service should update offline content.
+   **Schedule Frequency** Specify a time, for example, 5:00 P.M. or 17:00 at which this service should update offline content.
 
-1. Click **Save** to save your settings and your content will be updated at the specified time.
+1. Select **Save** so you can save your settings. All your content is updated at the specified time.

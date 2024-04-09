@@ -16,7 +16,7 @@ The following page showcases a use case that emphasizes on setting up a project 
 
 This Use Case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover only occurs once and for a specific time.
 
-For example, there is a Single TakeOver channel that plays on Friday 9:00 am through 10:00 am During this time, no other channel should play. Before and after this time, the Single Use Takeover channel does not play. The following example showcases the creation of a single takeover channel that allows the content to play for 2 minutes before 12:00 am on Dec 31 until 12:01 am
+For example, there is a Single TakeOver channel that plays on Friday 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. Before and after this time, the Single Use Takeover channel does not play. The following example showcases the creation of a single takeover channel that allows the content to play for 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
 
 ### Preconditions {#preconditions}
 
@@ -88,7 +88,7 @@ Follow the steps below to set up a project:
        >[!NOTE]
        >Priority can be any value that is higher than the priority value of the normal playing channel.
     * **Supported Events**: Select the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 am on Dec 31 until 12:01 am
+    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
     The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
 
       ![asset](assets/single-takeover8.png)

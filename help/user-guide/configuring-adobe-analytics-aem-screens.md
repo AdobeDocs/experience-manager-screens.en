@@ -1,14 +1,10 @@
 ---
 title: Configuring Adobe Analytics with AEM Screens
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: Learn more about sequencing and sending custom events using Offline Adobe Analytics.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
@@ -17,11 +13,12 @@ exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 ---
 # Configuring Adobe Analytics with AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 This section covers the following topics:
 
@@ -30,7 +27,7 @@ This section covers the following topics:
 
 ## Sequencing in Adobe Analytics with AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-The ***sequencing process*** starts with data storage service that activates Adobe Analytics service. Channel content sends Adobe Analytics events with payroll, that is, data test capture to Windows I/O and stay events are triggered. The events are saved to index DB and is further put into object store. Based on the schedule, the administrator sets, it cuts the data from object store, and further transfers it in chunk store. It tries to send maximum amount of data, when connected.
+The ***sequencing process*** starts with data storage service that activates Adobe Analytics service. Channel content sends Adobe Analytics events with payroll, that is, data test capture to Windows I/O and stay events are triggered. The events are saved to index DB and is further put into object store. Based on the schedule the administrator sets, it cuts the data from object store, and further transfers it in chunk store. It tries to send maximum amount of data when connected.
 
 ### Sequencing Diagram {#sequencing-diagram}
 
@@ -78,7 +75,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>recommended</td> 
    <td>string</td> 
    <td>timestamp - UTC</td> 
-   <td>Event start date time, if you do NOT specify this, the event time will be assumed as the time it was received by the server</td> 
+   <td>Event start date time, if you did not specify this, the event time is assumed as the time it was received by the server</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -105,7 +102,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Main Category (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Grouping of event types - <strong>We send Player</strong></td> 
+   <td>Main Category (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Grouping of event types - <strong>Player sent</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -114,7 +111,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>recommended</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Sub Category- Section of a workflow or Area of a screen etc. (Recent Files, CC Files, Mobile creations, and so on.)</td> 
+   <td>Sub Category - Section of a workflow, or Area of a screen, and so on. (Recent Files, CC Files, Mobile creations, and so on.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -132,7 +129,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>recommended</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Event Sub Type (create, update, delete, publish etc.) - Additional details of the user action</td> 
+   <td>Event Sub-Type (create, update, delete, publish, and so on) - More details of the user action</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -168,7 +165,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>string<br /> </td> 
    <td>UUID</td> 
-   <td>Identifies the Device GUID (e.g. machine ID or hash of IP address + subnet mask + network ID + useragent) - Here we will send the username of the player generated at registration time.</td> 
+   <td>Identifies the Device GUID (for example, machine ID or hash of IP address + subnet mask + network ID + user agent) - Here the username of the player generated at registration time is sent.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -177,7 +174,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>number</td> 
    <td> </td> 
-   <td>Number of times the event has occured - Here we send the video duration</td> 
+   <td>Number of times the event has occurred - The video duration is sent</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -186,7 +183,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Value of the event (e.g. settings on/off)</td> 
+   <td>Value of the event (for example, settings on/off)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -285,7 +282,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>The URL to the asset including the rendition that was actually played</td> 
+   <td>The URL to the asset including the rendition that was played</td> 
   </tr>
   <tr>
    <td> </td> 

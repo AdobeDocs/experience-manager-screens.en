@@ -14,7 +14,7 @@ The following page showcases a use case that emphasizes on setting up a project 
 ## Use Case Description {#use-case-description}
 
 This Use Case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover occurs for a specific day and time perpetually.
-For example, there is a Perpetual TakeOver channel that plays every Friday from 9:00 am through 10:00 am During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for two hours from 2:00 pm through 4:00 pm
+For example, there is a Perpetual TakeOver channel that plays every Friday from 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for two hours from 2:00 P.M. through 4:00 P.M.
 
 ### Preconditions {#preconditions}
 
@@ -51,7 +51,7 @@ Follow the steps below to set up a project:
    >[!NOTE]
    >The **MainAdChannel** in this example demonstrates a sequence channel that plays content continuously.
 
-1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and plays every Wednesday from 2:00 pm through 4:00 pm
+1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and plays every Wednesday from 2:00 P.M. through 4:00 P.M.
 
 1. Select the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
@@ -90,7 +90,7 @@ Follow the steps below to set up a project:
     * **active from**: Start date and time.
     * **active until**: End date and time.
     
-       For example, the text in **Schedule** and **active from** and **active until** date and time here allows the content to play every Wednesday from 2:00 pm until 4:00 pm.
+       For example, the text in **Schedule** and **active from** and **active until** date and time here allows the content to play every Wednesday from 2:00 P.M. until 4:00 P.M..
     
 
         ![asset](assets/p_usecase7.png)
@@ -101,7 +101,7 @@ Follow the steps below to set up a project:
       >It is mandatory to set the priority of the takeover channel as the highest.
 
       ![asset](assets/p_usecase8.png)
-    Now, the **TakeOver** channel takes over the **MainAdChannel** at 2:00 pm for two hours until 4:00 pm every Wednesday and plays its content from Jan 09' 2020 until Jan 31' 2020.
+    Now, the **TakeOver** channel takes over the **MainAdChannel** at 2:00 P.M. for two hours until 4:00 P.M. every Wednesday and plays its content from January 09, 2020 until January 31, 2020.
 
 ## Example Expressions {#example-expressions}
 
@@ -109,13 +109,13 @@ The following table summarizes few example expressions that you can add to the s
 
 | **Expression** | **Interpretation** |
 |---|---|
-| before 8:00 am | the channel plays before 8:00 am everyday |
-| after 2:00 pm | the channel plays after 2:00 pm everyday |
-| after 12:15 and before 12:45 | the channel plays after 12:15 pm everyday for 30 minutes |
-| before 12:15 also after 12:45 | the channel plays before 12:15 pm everyday and then also after 12:45 pm |
-| on the first day of January after 2:00 pm also on the second day of January also on the third day of January before 3:00 am | the channel starts playing after 2:00 pm on January 1, continues playing for the whole day on January 2 all the way until 3:00 am on January 3 |
-| on the 1-2 days of January after 2:00 pm also on the 2-3 days of January before 3:00 a.m .| the channel starts player after 2:00 pm on January 1, continues playing until 3:00 am on January 2, then it starts again on January 2 at 2:00 pm and continues playing until 3:00 am on January 3 |
+| before 8:00 A.M. | the channel plays before 8:00 A.M. everyday |
+| after 2:00 P.M. | the channel plays after 2:00 P.M. everyday |
+| after 12:15 and before 12:45 | the channel plays after 12:15 P.M. everyday for 30 minutes |
+| before 12:15 also after 12:45 | the channel plays before 12:15 P.M. everyday and then also after 12:45 P.M. |
+| on the first day of January after 2:00 P.M. also on the second day of January also on the third day of January before 3:00 A.M. | the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
+| on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 a.m .| the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
 
 >[!NOTE]
 >
->You can also use _military time_ notation (that is, 14:00) instead of *am/pm* notation (that is, 2:00 pm).
+>You can also use _military time_ notation (14:00) instead of *A.M./P.M.* (2:00 P.M.).

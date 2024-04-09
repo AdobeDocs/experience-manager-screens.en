@@ -1,10 +1,7 @@
 ---
 title: Data Driven Events
-seo-title: Data Driven Events
 description: null
-seo-description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
 ---
@@ -15,7 +12,7 @@ In Digital signage, data driven events engage and convey information in real tim
 
 ## Using Context Hub for Data-driven Events {#using-context-hub-for-data-driven-events}
 
-AEM Screens enables data driven events through Context Hub. Context Hub, allows you to use real-time
+AEM Screens enables data driven events through Context Hub. Context Hub lets you use real-time.
 
 ### Categorizing Data-driven Events {#categorizing-data-driven-events}
 

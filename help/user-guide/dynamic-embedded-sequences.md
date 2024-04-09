@@ -1,14 +1,10 @@
 ---
 title: Using Dynamic Embedded Sequence
-seo-title: Using Dynamic Embedded Sequence
 description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
-seo-description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
-uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -35,7 +31,7 @@ To use Dynamic Embedded Sequence, you assign a channel by ***Channel Role***. Ch
 
 The main benefit of placing a sequence channel inside of a location instead of the channels folder is to allow local or regional authors to edit content relevant to them while being restricted from editing channels higher up in the hierarchy.
 
-Referencing a *Channel By Role*, allows you to create local version of a channel, in order to dynamically resolve location-specific content and also allows you to create a global channel that leverages the content for the location-specific channels.
+Referencing a *Channel By Role*, lets you create local version of a channel, in order to dynamically resolve location-specific content and also lets you create a global channel that leverages the content for the location-specific channels.
 
 >[!NOTE]
 >
@@ -283,7 +279,7 @@ You need to modify the ACLs to restrict the users access to the content based on
 
 ### Example Use Case {#example-use-case}
 
-The following example allows you to create three users for the above Demo project.
+The following example lets you create three users for the above Demo project.
 
 The privileges are assigned to each group are as follows:
 

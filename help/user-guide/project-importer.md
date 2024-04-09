@@ -1,6 +1,6 @@
 ---
 title: New Project Importer from File
-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
+description: This functionality lets you bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference

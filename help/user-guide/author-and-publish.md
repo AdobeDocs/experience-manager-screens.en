@@ -138,7 +138,7 @@ For any of the Publish instances, navigate to `https://:/system/console/topology
 
 #### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
 
-This step allows you to create encrypted password for ActiveMQ Artemis cluster.
+This step lets you create encrypted password for ActiveMQ Artemis cluster.
 The cluster user and password of all Publish instances in the topology must be identical. The password of the ActiveMQ Artemis configuration must be encrypted. Because each instance has its own encryption key, it is necessary to use Crypto Support to create an encrypted password string. Then, the encrypted password can be used in the OSGi config for ActiveMQ.
 
 On each Publish Instance:

@@ -37,4 +37,4 @@ This guide not only provides a comprehensive insight and practical advice to ima
 > Terms used in this Guide (in context of AEM Screens):
 >
 > * **UX** is considered to mean the digital signage experiences delivered to end customers.
-> * **UI** is considered to mean the user interface, that allows you to create and manage your projects in Screens.
+> * **UI** is considered to mean the user interface that lets you create and manage your projects in Screens.

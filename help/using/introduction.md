@@ -1,15 +1,13 @@
 ---
 title: Introduction to [!UICONTROL AEM Screens]
-seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: This page is an introductory section to AEM Screens
-seo-description: This page provides an introduction to AEM Screens
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 ---
 # Introduction to AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that allows you to author, publish and play dynamic and interactive digital experiences involving different types of in-venue display screens in concert with a comprehensive omni-channel digital marketing strategy.
+**AEM (Adobe Experience Manager) Screens** is a Digital Signage Solution that lets you author, publish and play dynamic and interactive digital experiences involving different types of in-venue display screens in concert with a comprehensive omni-channel digital marketing strategy.
 
-AEM Screens allows you to create:
+AEM Screens lets you create:
 
 * **dedicated digital menu boards**
 * **product recommenders**

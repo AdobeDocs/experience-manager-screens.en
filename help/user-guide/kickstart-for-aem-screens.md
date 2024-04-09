@@ -171,7 +171,7 @@ Once the project set up is complete, you must assign the channel to a display to
    Additionally, you can also select the **Activation Window** and **Recurrence Schedule**.
 
    >[!NOTE]
-   >The *Recurrence Schedule* allows you to set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
+   >The *Recurrence Schedule* lets you set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
    >See [Recurrence Schedule](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) for more details.
 
 1. Click **Save** once you have configured your preferences.

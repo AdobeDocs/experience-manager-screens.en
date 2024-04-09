@@ -77,7 +77,7 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 To add or edit content in a channel, follow the steps below:
 
 1. Select the channel you want to edit (as shown in the figure above).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
+1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
 
 >[!NOTE]
 >You can add components to your channel. Refer to **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.

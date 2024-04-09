@@ -31,7 +31,7 @@ The Release Date for AEM Screens Feature Pack 201905 is May 16, 2019.
 
 * **Project Importer**
 
-Project Importer is a feature available in AEM Screens that allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
+Project Importer is a feature available in AEM Screens that lets you bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 
 Refer to **[New Project Importer from File](project-importer.md)** for more details.
 

@@ -1,7 +1,6 @@
 ---
 title: Channel Assignment - Latest FP
-seo-title: Channel Assignment - Latest FP
-description: Follow this page to learn about Channel Assignment and DayParting.
+description: Learn about Channel Assignment and Day Parting.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
@@ -39,7 +38,7 @@ Follow the steps below to set up a project and a channel:
 
 1. Create a sequence channel titled as **Cafeteria** in the **Channels** folder.
 
-1. Select the channel and click **Edit** from the action bar to add content to your channel.
+1. Select the channel, then select **Edit** from the action bar.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -53,7 +52,7 @@ Follow the steps below to set up a project and a channel:
 
 ### Assigning Channel to a Display {#assigning-channel-to-display}
 
-Once the project set up is complete, you must assign the channel to a display to view the content.
+When the project setup is complete, you must assign the channel to a display to view the content.
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
@@ -71,7 +70,7 @@ Once the project set up is complete, you must assign the channel to a display to
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Additionally, you can enable the attraction tooltip from this dialog box.
+1. From the **Settings** option, you can choose the channel **by path** or **by name**, enter the **Channel Role**, **Priority**, **Supported Events**, and **Interruption Methods**. Also, you can enable the attraction tooltip from this dialog box.
 
     ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -79,7 +78,7 @@ Once the project set up is complete, you must assign the channel to a display to
    >
    >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
-1. From the **Schedule** option select the **Activation Window** and **Recurrence Schedule**.
+1. From the **Schedule** option, select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -94,7 +93,7 @@ This example showcases the output on a Chrome Player. Once you have assigned the
 
 Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
-You will view the following output on your choice of player:
+You can view the following output on your choice of player:
 
  ![new1](assets/channel-assignment/channel-assign-output.gif)
 
@@ -122,50 +121,49 @@ The following properties are set from the **Settings** option in the **Channel A
 
 ### Select a Channel {#select-channel}
 
-Selecting a channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
+Selecting a channel lets you provide a reference to the desired channel, either by channel name or by channel path.
 
-* **by path**: you provide an explicit reference using the absolute path of the channel.
-
-* **by name**: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **By path** &ndash; You provide an explicit reference using the absolute path of the channel.
+* **By name** &ndash; You enter the name of the channel that resolves to an actual channel by context. This feature lets you create a local version of a channel so you can dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 ### Channel Role {#role-channel}
 
-Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.
+Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role.
 
 ### Priority {#priority-channel}
 
-Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
+Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value always takes precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
    >[!NOTE]
    >
-   >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.
+   >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Also, the assigned channels are sorted based on descending priority.
 
 ### Supported Events {#supported-events-channel}
 
-* **Initial Load**: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule
-* **Idle Screen**: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule
-* **Timer**: needs to be set when a schedule is provided
-* **User Interaction**: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched
+* **Initial Load** &ndash; Loads the channel when the player is started. It can be assigned to multiple channels with a schedule.
+* **Idle Screen** &ndash; Loads when the screen is idle. It can be assigned to multiple channels with a schedule.
+* **Timer** &ndash; Must be set when a schedule is provided.
+* **User Interaction** &ndash; The player switches to the specified channel if there is a user interaction on the screen (touch) in an idle channel and loads when the screen is touched.
 
 ### Interruption Method {#interruption-method-channel}
 
 >[!IMPORTANT]
-> This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
+> This option is only available with <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
-As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
+As a content author, you can specify when a channel is interrupted. Doing so lets choose to cut off non-critical content. But it also gives you the option to let important content play back in full before cutting it short because of scheduling.
 
 Select from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 
-* **Immediately**: whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
-* **At the end of the current item**: when a new schedule activates or an update is received, you have the option to wait for the current item in the sequence to finish playing, and only after that you refresh or play the new content
+* **Immediately** &ndash; Whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
+* **End of the current item** &ndash; When a new schedule activates or an update is received, you can optionally wait for the current item in the sequence to finish playing. Then, only after that, you can refresh or play the new content.
 
    >[!NOTE]
    >This option is selected by default.
 
-* **At the end of the sequence**: when a new schedule activates or an update is received, you have the option to wait for the whole sequence to reach its end, and just before the desired sequence, you loop back to the 1st element, you refresh or play the new content
+* **At the end of the sequence** &ndash; When a new schedule activates or an update is received, you can optionally wait for the whole sequence to reach its end. Then, just before the desired sequence, you can loop back to the first element, refresh, or play the new content.
 
    >[!NOTE]
-   >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred as the player will wait for the end of the item or sequence (after the specified time) before refreshing. The delay will depend on the playback duration of the item.
+   >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred. The reason is because the player waits for the end of the item or sequence (after the specified time) before refreshing. The delay depends on the playback duration of the item.
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
@@ -173,52 +171,52 @@ The following properties are set from the **Schedule** option in the **Channel A
 
 ### Activation Window {#activation-window}
 
-The Activation Window allows you to select a **Start date** and an **End date** to display your content.
+The Activation Window lets you select a **Start date** and an **End date** to display your content.
 
 ### Recurrence Schedule {#recurrence-schedule}
 
-The Recurrence Schedule allows you to set a recurring schedule for your content. Click on **+ Add Schedule** to add a recurrence schedule to your channel.
+The Recurrence Schedule lets you set a recurring schedule for your content. Select **+ Add Schedule** to add a recurrence schedule to your channel.
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once. 
+>Recurrence Schedules introduces *DayParting* that lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once. 
 
 You can set the following options:
 
-* **Name**: Title of your recurrence schedule.
-* **Repeat**: Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
-* **Start**: The start time for your schedule.
-* **End**: The ending time for your schedule. You can set the it by time or duration.
-   * **Time**: The schedule will end at a specified time.
-   * **Duration**: The schedule runs for a particular duration of time in hours or minutes.
+* **Name** &ndash; Title of your recurrence schedule.
+* **Repeat** &ndash; Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
+* **Start** &ndash; The start time for your schedule.
+* **End** &ndash; The ending time for your schedule. You can set it by time or duration.
+   * **Time** &ndash; The schedule ends at a specified time.
+   * **Duration** &ndash; The schedule runs for a particular duration of time in hours or minutes.
 
 ### DayParting {#dayparting}
 
-DayParting refers to splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayParting within a day, week, or month as per the requirement.
+Day Parting refers to splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens lets you schedule channels in terms of DayParting within a day, week, or month as per the requirement.
 
 The following examples explain DayParting in channels in three different scenarios:
 
 #### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-This example shows how a restaurant uses DayParting to showcase its breakfast, lunch and dinner menu everyday.
+This example shows how a restaurant uses DayParting to showcase its breakfast, lunch, and dinner menu everyday.
 
-Here, we will divide each day into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule for your channel to play the content as per this use case.
+Here, each day is divided into different time slots, so that channel content plays as per the specified time of the day. Set the following properties of the Recurrence Schedule for your channel to play the content as per this use case.
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
-|Breakfast|Daily|6:00 AM|11:00 AM|  
-|Lunch|Daily|11:00 AM|3:00 PM|  
-|Dinner|Daily|3:00 PM|8:00 PM|  
+|Breakfast|Daily|6:00 A.M.|11:00 A.M.|  
+|Lunch|Daily|11:00 A.M.|3:00 P.M.|  
+|Dinner|Daily|3:00 P.M.|8:00 P.M.|  
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
-This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am
+This example shows the DayParting implemented in a casino where live event occurs every weekend from 8:00 P.M. until 10:00 P.M. and specials are available for dinner menu after 10:00 P.M. until 1:00 A.M.
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
-|Weekend|Weekly: Saturday,Sunday|8:00 PM|10:00 PM|  
-|Specials|Daily: Monday-Friday|10:00 PM|1:00 AM| 
+|Weekend|Weekly: Saturday and Sunday|8:00 P.M.|10:00 P.M.|  
+|Specials|Daily: Monday through Friday|10:00 P.M.|1:00 A.M.| 
 
 >[!NOTE]
 >
->Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
+>Also, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
