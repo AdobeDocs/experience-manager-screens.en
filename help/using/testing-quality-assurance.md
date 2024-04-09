@@ -57,11 +57,11 @@ To learn  in detail about ***Device Control Center***, refer to [Troubleshooting
 >[!CAUTION]
 >
 >Do not use Device Control Center to:
-
-> 1. Install new versions of the player application
-> 1. Monitor system level resources
-> 1. Troubleshoot system level errors
-> 1. Allow for remote desktop intervention
+>
+>* Install new versions of the player application
+>* Monitor system level resources
+>* Troubleshoot system level errors
+>* Allow for remote desktop intervention
 
 
 >[!NOTE]
