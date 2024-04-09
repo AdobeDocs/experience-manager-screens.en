@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
 type: Documentation

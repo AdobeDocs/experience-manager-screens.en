@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: Best Practices Guide for AEM Screens Projects
 breadcrumb-title: AEM Screens Best Practices Guide
 solution-title: AEM Screens
