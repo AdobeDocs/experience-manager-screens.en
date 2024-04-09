@@ -1,14 +1,10 @@
 ---
 title: Creating and Managing Displays
-seo-title: Managing Displays
-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
-seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
-uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
+description: Learn about creating a display and device configuration in AEM Screens. Also, learn about the display dashboard.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -16,9 +12,9 @@ exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 ---
 # Creating and Managing Displays {#creating-and-managing-displays}
 
-A display is a virtual grouping of screens that are usually positioned next to each other. The display is usually permanent in respect to an installation. This will be the object content authors will work with and always reference to as logical display rather than their physical counter part(s).
+A display is a virtual grouping of screens that are positioned next to each other. The display is permanent in respect to an installation. This is the object content authors work with and always reference to as logical display rather than their physical counter parts.
 
-Once you create a location, you have to create a new display for your location.
+Once you create a location, you have to create a display for your location.
 
 This page shows creating and managing displays for Screens.
 
@@ -33,31 +29,26 @@ This page shows creating and managing displays for Screens.
 
 >[!NOTE]
 >
->You need to create a location before creating a display. To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
-
-To create a new display in your location, follow the steps below:
+>Create a location before creating a display. See [Create and Manage Locations](managing-locations.md) for more information.
 
 1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. A wizard will open.
-1. Select **Display** from the **Create** wizard and click **Next**.
-
+1. Select your location folder and select **Create** that is next to the plus icon in the action bar. 
+1. Select **Display** from the **Create** wizard, then select **Next**.
 1. Enter **Name** and **Title** for your display location.
-
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). Furthermore, you can choose the number of devices horizontally and vertically.
-
-1. Click **Create**.
+1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution**, such as **Full HD**. Choose the number of devices horizontally and vertically.
+1. Select **Create**.
 
 The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 ![display](assets/display.gif)
 
-Once you have display in position, the next step will be to create a device config for that particular display. Follow the section below to create a new device config.
+When you have display in position, the next step is to create a device config for that particular display.
 
 >[!NOTE]
 >
 >**The Next Step**:
 >
->Once you create a display for your location, you need to assign a channel to your display to leverage the content.
+>When you create a display for your location, you must assign a channel to your display to use the content.
 >
 >See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
 
@@ -65,11 +56,9 @@ Once you have display in position, the next step will be to create a device conf
 
 A device config acts as a placeholder for an actual digital signage device that is not yet installed.
 
-Follow the steps below to create a new device config:
-
 1. Navigate to the appropriate display, for example, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Select your display folder and tap/click **View Dashboard** in the action bar.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. Select your display folder and select **View Dashboard** in the action bar.
+1. Select **+ Add Device Config** on the top-right of the **Devices** panel.
 
 1. Select the **Device Config** as the required template as and tap/click **Next**.
 
@@ -85,7 +74,7 @@ Once a device config is set to your display in the location, the next step will 
 >
 >Once a device config is set to your display in the location, the next step will be to assign a channel to your display.
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** panel, if no channel is assigned to that particular device config.
 >
 >You should have prior understanding of creating and managing channels. See [Create and Manage Channels](managing-channels.md) for more details.
 
@@ -109,14 +98,14 @@ The display dashboard provides you with different panels for managing display de
 
 The **DISPLAY INFORMATION** Panel provides the display properties.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION** panel to view the properties and preview the display.
+Click (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so you can view the properties and preview the display.
 
 
 #### Viewing Properties {#viewing-properties}
 
-Click **Properties** to view or change the properties of your display.
+Click **Properties** so you can view or change the properties of your display.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
+Also, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
@@ -130,14 +119,14 @@ The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
 The **DEVICES** Panel provides information on the device configs.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+Select (**...**) in the top-right corner in the **DEVICES** panel so you can add device configs and update devices.
 
-Additionally, click on the device config to view properties, assign a device, or delete it completely.
+Also, click the device config to view properties, assign a device, or delete it completely.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### The Next Steps {#the-next-steps}
 
-Once you complete creating a display for your location, you need to assign a channel for your display.
+When you complete creating a display for your location, assign a channel for your display.
 
 See [Assign Channels](channel-assignment.md) for more details.

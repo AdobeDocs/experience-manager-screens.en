@@ -1,18 +1,18 @@
 ---
 title: Thumbnail Support for Videos in AEM Screens
-description: This page describes how to add Thumbnail Support for Videos in Screens.
+description: Learn how to add Thumbnail Support for Videos in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 ---
 # Thumbnail Support for Videos {#thumbnail-support-videos}
 
 ## Introduction {#introduction}
 
-A content author can define a thumbnail for videos so that the image can be used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used, in case the playback of the video fails.
+A content author can define a thumbnail for videos so that the image is used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used in case the playback of the video fails.
 
-Adding support for a thumbnail image on the video component lets the customer properly add a valid component in the channel, with actual content, and perform any targeting configurations before the video is actually delivered. 
+Adding support for a thumbnail image on the video component lets the customer properly add a valid component in the channel, with actual content, and perform any targeting configurations before the video is delivered. 
 
 >[!NOTE]
->The thumbnail image, if set on the video component, is played in case of video playback failure on the player. This lets you deliver the desired message to the audience (by playing  content) instead of completely skipping it.
+>The thumbnail image, if set on the video component, is played if there is video playback failure on the player. This lets you deliver the desired message to the audience (by playing  content) instead of completely skipping it.
 
 Thumbnail Support allows you to:
 
@@ -24,9 +24,9 @@ Thumbnail Support allows you to:
 
 Follow the steps below to use thumbnail in videos:
 
-1. Navigate to an existing Screens channel or create a new channel.
+1. Navigate to an existing AEM Screens channel or create a channel.
 
-1. Select the channel and click on **Edit** from the action bar to open the editor.
+1. Select the channel and click **Edit** from the action bar.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -34,30 +34,30 @@ Follow the steps below to use thumbnail in videos:
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Select the video and click on the the *wrench* icon to open the video properties.
+1. Select the video and select the *wrench* icon.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. The **Video** dialog box opens where you will view the **Thumbnail** drop zone.
+1. The **Video** dialog box opens where you can view the **Thumbnail** drop zone.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Drag and drop an image from the asset picker to the **Thumbnail** drop zone and click on **Done**.
+1. Drag and drop an image from the asset picker to the **Thumbnail** drop zone and select **Done**.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Click on **Preview**.
+1. Select **Preview**.
 
-1. If a video is set on the component, the video will play. If not, and the thumbnail is set, then the thumbnail will play. Otherwise the component is considered not configured and will be skipped.
+1. If a video is set on the component, the video plays. If not, and the thumbnail is set, then the thumbnail plays. Otherwise, the component is considered not configured and is skipped.
 
 ## Supported Use Cases while using Thumbnail in Videos {#understand-use-case}
 
 Thumbnail in videos supports the following use cases:
 
-* A video component with nothing set up will be skipped.
+* A video component with nothing setup is skipped.
 
-* A video component with only the thumbnail set will play the thumbnail.
+* A video component with only the thumbnail set plays the thumbnail.
 
-* A video component with both the video (if the video has correct rendition) and thumbnail set will play the video.
+* A video component with both the video (if the video has correct rendition) and thumbnail set plays the video.
 
-* A video component with the video set will play the thumbnail, in case of a playback error, or will just skip to the next item in case the thumbnail is not configured.
+* A video component with the video set plays the thumbnail, if there is a playback error, or skips to the next item in case the thumbnail is not configured.

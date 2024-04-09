@@ -1,14 +1,10 @@
 ---
 title: Device Registration
-seo-title: Device Registration
-description: This page describes the device registration process in an AEM Screens project.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Learn about the device registration process in an AEM Screens project.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
@@ -21,7 +17,7 @@ The following page describes the device registration process in an AEM Screens p
 
 ## Registering a Device {#registering-a-device}
 
-The device registration process is done on 2 separate machines:
+The device registration process is done on two separate machines:
 
 * The actual device to be registered, for example your Signage Display
 * The AEM server that is used to register your device
@@ -30,9 +26,9 @@ The device registration process is done on 2 separate machines:
 >
 >Once you download the latest Windows Player (*.exe*), from [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
 >
->1. Long-press on the top left corner to open the admin panel.
+>1. Long-press on the top-left corner to open the admin panel.
 >1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
->1. Click on the **Registration** link from the left action menu and the steps below to complete the device registration process.
+>1. Select the **Registration** link from the left action menu and the steps below to complete the device registration process.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -45,7 +41,7 @@ The device registration process is done on 2 separate machines:
 
    >[!NOTE]
    >
-   >To get more information on creating a new project for Screens in the AEM dashboard, see [Create and Manage Screens Project](creating-a-screens-project.md).
+   >To get more information on creating a project for Screens in the AEM dashboard, see [Create and Manage Screens Project](creating-a-screens-project.md).
 
 1. Tap/click the **Device Manager** button in the action bar.
 
@@ -82,13 +78,13 @@ The device registration process is done on 2 separate machines:
    >
    >The **Assign Display** lets you directly add the device to a display.
 
-   If you click **Finish**, you will need to assign the device to a display.
+   If you click **Finish**, you must assign the device to a display.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >To learn more about creating and managing a display for your Screens project, please refer to [Creating and Managing Displays](managing-displays.md).
+   >To learn more about creating and managing a display for your Screens project, see [Creating and Managing Displays](managing-displays.md).
 
 ### Assigning Device to a Display {#assigning-device-to-a-display}
 
@@ -110,7 +106,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Additionally, you can view the display dashboard on clicking **Finish**.
+   Also, you can view the display dashboard on clicking **Finish**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,7 +116,7 @@ Once you have registered devices to your player, you can view all the devices fr
 
 1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** > **Devices**. 
 
-1. Select the **Devices** folder and click on **Device Manager** from the action bar.
+1. Select the **Devices** folder and click **Device Manager** from the action bar.
 
     ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -139,26 +135,26 @@ Once you have registered devices to your player, you can view all the devices fr
 
 ### Limitations on Search Functionality {#limitations}
 
-* User will be able to search any word existing in the *Device ID* or *Device Name*. 
+* User is able to search any word existing in the *Device ID* or *Device Name*. 
 
    >[!NOTE]
    >It is recommended that you create the device names in multiple words such as *Boston Store Lobby* rather than one single *BostonStoreLobby*.
 
-* If you create device names such as *Boston Store Lobby*, it allows to search for any word *boston*, *store* or *lobby* but if the device name is referred to as *BostonStoreLobby* searching *boston* will not show the results.
+* If you create device names such as *Boston Store Lobby*, it searches for any word *boston*, *store*, or *lobby*. However, if the device name is *BostonStoreLobby*, then searching for *boston* does not show any results.
 
-* Wild card, `*` is supported for search. In case, you want to find all the devices with names starting with *boston*, you can use *boston**.
+* Wild card, `*` is supported for search. In case you want to find all the devices with names starting with *boston*, you can use *boston**.
 
-* If the device name is *BostonStoreLobby* and searching for *boston* will not return the result instead using *boston** in your search criteria will return the result.
+* If the device name is *BostonStoreLobby* and searching for *boston* does not return the result, then using *boston** in your search criteria returns the result.
 
 ## Limitations on Device Registration {#limitations-on-device-registration}
 
-System wide user password restrictions might cause failure in the device registration. The device registration uses a random generated password to create the device user.
+System-wide user password restrictions might cause failure in the device registration. The device registration uses a randomly generated password to create the device user.
 
 If the password is restricted by the *AuthorizableActionProvider* configuration, creating the device user might fail.
 
 >[!NOTE]
 >
->The current generated random password is composed of 36 ASCII characters, ranging from 33 - 122 (includes almost all special characters).
+>The current generated random password is composed of 36 ASCII characters, ranging 33 through 122 (includes almost all special characters).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -168,6 +164,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Other Resources {#additional-resources}
 
 To learn about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).

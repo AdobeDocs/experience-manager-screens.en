@@ -1,7 +1,6 @@
 ---
 title: Text Overlay
-seo-title: Text Overlay
-description: Text Overlay is a feature available in AEM Screens that lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
+description: Learn about text Overlay in AEM Screens that lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -23,13 +22,13 @@ This section covers the following topics:
 
 >[!CAUTION]
 >
->The **Text Overlay** feature is only available, if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3.
+>The **Text Overlay** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3.
 
 ## Overview {#overview}
 
 Text Overlay is a feature available in AEM Screens that lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
 
-To learn how to create your own custom component, please refer to **Extending an AEM Screens Component**.
+To learn how to create your own custom component, see **Extending an AEM Screens Component**.
 
 This section only showcases how to use and apply the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.
 
@@ -39,7 +38,7 @@ The following section describes the use of text overlay in an AEM Screens projec
 
 **Prerequisites**
 
-Before you start implementing this functionality, please make sure you have set up a project as a prerequisite to start implementing text overlay. For example,
+Before implementing this functionality, make sure you have set up a project as a prerequisite to start implementing text overlay. For example,
 
 * Create an AEM Screens project (in this example, **TextOverlayDemo**)
 
@@ -53,7 +52,7 @@ The following image shows the **TextOverlayDemo** project with **TextSample** ch
 
 Follow the steps below to use text overlay in an AEM Screens channel:
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar to open the editor.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -89,19 +88,19 @@ The following section describes the usage of values from a data store, for examp
 
 Set up ContextHub configurations for your AEM Screens project. 
 
-To learn how to setup and manage data driven asset changes using a data store, refer to [Configuring ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+To learn how to setup and manage data driven asset changes using a data store, see [Configuring ContextHub in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-Once you have set up the required configurations for your project, follow the steps below to use values from the google sheets: 
+After you set up the required configurations for your project, follow the steps below to use values from the Google Sheets: 
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Properties** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Properties** from the action bar.
 
-1. Select the **Personalization** tab to set up the ContextHub configurations.
+1. Select the **Personalization** tab so you can set up the ContextHub configurations.
 
-    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
+    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and select **Select**.
 
-    1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and click **Select**.
+    1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and select **Select**.
 
-    1. Click **Save & Close**.
+    1. Select **Save & Close**.
 
        >[!NOTE]
        >
@@ -109,27 +108,27 @@ Once you have set up the required configurations for your project, follow the st
 
        ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar to open the editor.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Add an image and text overlay component to your image as described in [Using Text Overlay](/help/user-guide/text-overlay.md#using-text-overlay) section of this page.
 
-1. Click on **Configure** (wrench icon) to open the **Image** dialog box.
+1. Select on **Configure** (wrench icon) to open the **Image** dialog box.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigate to the **ContextHub** tab from the **Image** dialog box. Click **Add**.
+1. Navigate to the **ContextHub** tab from the **Image** dialog box. Select **Add**.
 
    >[!NOTE]
-   >If you have not set up your ContextHub configurations, this option is disabled for your project.
+   >If you have not set up your ContextHub configuration, this option is disabled for your project.
 
 1. Enter **Value** in the **Placeholder** field. Select the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >For your reference, the following image showcases the value that is retrieved from the google sheets:
+   >For your reference, the following image showcases the value that is retrieved from the Google Sheets:
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -137,6 +136,6 @@ Once you have set up the required configurations for your project, follow the st
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Click on **Preview** to view the desired output.
+1. Select **Preview**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
