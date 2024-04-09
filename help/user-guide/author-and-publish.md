@@ -126,7 +126,7 @@ For each Publish instance:
 1. Update Topology connector URLs: add URLs of all partaking Publish instances that are:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Topology connector Whitelist List**: Adapt to IPs or subnets covering all Publish instances. Ensure you whitelist the IP/hostname of all Publish instances without the port number.
+1. **Topology connector `Whitelist` List**: Adapt to IPs or subnets covering all Publish instances. Ensure you `whitelist` the IP/hostname of all Publish instances without the port number.
 
 1. Enable **Auto-Stop Local-Loops**
 
@@ -207,7 +207,7 @@ After you have set up the publishing topology, configure the Author and Publish 
 >
 >To get started with this example, create an AEM Screens project followed by creating a location, display, and channel in your project. Add content to your channel and assign the channel to a display.
 
-#### Step 1: Starting an AEM Screens Player (device) {#step-starting-an-aem-screens-player-device}
+#### Step 1: Starting an AEM Screens Player (device)
 
 1. Launch a separate browser window.
 1. Go to Screens player using the *web browser*, that is,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. When you open the device, notice the device's state as unregistered.
@@ -274,7 +274,7 @@ The following points summarize the Publishing Check list:
 * *Schedule* - if using a schedule ensure this is published
 * *Location, Schedules, and Channel Folder* - if the corresponding resources are inside a folder.
 
-Follow the steps below to verify the Author/Publish behavior:
+Follow the steps below to verify the authoring and publishing behavior:
 
 1. Update some channel content on Author instance.
 1. Perform **Manage Publication** to publish new changes to all Publish instances.

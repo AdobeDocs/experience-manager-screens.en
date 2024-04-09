@@ -1,6 +1,6 @@
 ---
 title: Managing Devices
-description: This page describes device assignment.
+description: Learn about device assignment and management in AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -18,7 +18,7 @@ The Devices console lets you access the device manager to assign your device to 
 
 >[!CAUTION]
 >
->Before assigning your device, you need to register it. For more information, see [Device Registration](device-registration.md).
+>Before assigning your device, you must register it. For more information, see [Device Registration](device-registration.md).
 
 ## Device Assignment {#device-assignment}
 
@@ -38,7 +38,7 @@ Follow the steps below to assign a device to a display:
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Select the display that you want to assign the device to from the list, and tap/click the **Assign**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
@@ -49,7 +49,7 @@ Follow the steps below to assign a device to a display:
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Click the (**...**) on the top right corner of the **DEVICES** panel to either add device config or update the devices.
+   Click the (**...**) on the top-right corner of the **DEVICES** panel to either add device config or update the devices.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -57,7 +57,7 @@ Follow the steps below to assign a device to a display:
 >
 >Every time the first device is added to a new Screens project, a user group is created.
 >For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
->This group will be added as a member of the **Contributors** group, as shown in the figure below:
+>This group is added as a member of the **Contributors** group, as shown in the figure below:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

@@ -1,14 +1,10 @@
 ---
 title: Implementing Chrome OS Player
-seo-title: Implementing Chrome OS Player
-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
-seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
-uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+description: Learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
@@ -22,17 +18,17 @@ This section describes how to implement the Chrome OS Player using the Chrome Ma
 
 Follow the steps below to set up chrome management console:
 
-1. Register for the Chrome Management Console. You need to obtain a license for Chrome Management Console. Contact [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) to Manage Chrome device settings for more information.
+1. Register for the Chrome Management Console. You must obtain a license for Chrome Management Console. Contact [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) to Manage Chrome device settings for more information.
 1. Enroll your Chrome OS Device into the domain wait for 15 minutes for the device to sync with the Chrome Management Console. To learn more about enrolling chrome device, click [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. The Chrome Player will be available in the Chrome Web store.
+1. The Chrome Player is available in the Chrome Web store.
 
 >[!NOTE]
 >
->A device management solution such as the Chrome Management Console is recommended for deployment and management of Chrome OS Devices. Although, this document provides implementation for Chrome Management Console there are other vendors who claim to provide similar functionality. Please contact the vendor of your device management software.
+>A device management solution such as the Chrome Management Console is recommended for deployment and management of Chrome OS Devices. Although this document provides implementation for Chrome Management Console there are other vendors who claim to provide similar functionality. Contact the vendor of your device management software.
 
 ## Naming Chrome OS Player {#name-chrome}
 
-You can assign a user friendly device name to your Chrome player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Chrome player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Chrome player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Chrome player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
@@ -43,16 +39,16 @@ Follow the steps below to configure the name in Chrome player:
 
    ![image](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. You will be presented with the options when you can enroll the device.
+1. You are presented with the options when you can enroll the device.
 
    ![image](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. You can set the Asset ID as part of enterprise enrollment as well as in the Chrome management console.
+1. You can set the Asset ID as part of enterprise enrollment and in the Chrome management console.
 
    ![image](/help/user-guide/assets/chrome-device/chrome3.png)
 
     >[!NOTE]
-    >Chrome Players must be enrolled in enterprise enrollment and the Chrome player must be deployed through Chrome Management Console, otherwise the asset ID will return blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes will not be picked up by Adobe Experience Manager (AEM).
+    >Chrome Players must be enrolled in enterprise enrollment and the Chrome player must be deployed through Chrome Management Console, otherwise the asset ID returns blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes do not get picked up by Adobe Experience Manager (AEM).
 
 ### Enabling Kiosk Mode {#enabling-kiosk-mode}
 
@@ -86,7 +82,7 @@ Follow the steps below to enable the Kiosk mode:
 
 >[!NOTE]
 >
->Please note that these settings maybe enabled several minutes after the device is enrolled. Each option may become enabled over time.
+>These settings can be enabled several minutes after the device is enrolled. Each option can become enabled over time.
 
 ### Configuring Remote Configuration of Chrome OS Players {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -94,16 +90,16 @@ The AEM Screens Player is a Kiosk enabled application that also enables Remote P
 
 Follow the steps below to configure various options of the player:
 
-1. Login to Chrome Management Console.
+1. Log in to Chrome Management Console.
 1. Click **Device management** > **Chrome Management** > **App Management**. The AEM Screens Player displays in the list.
 1. Click the application **AEM Screens Player**.
-1. Click **Kiosk settings** and select select your org (*if using a test environment*).
-1. Click on **upload configuration file** and upload the configuration policy (*Json file*).
-1. Click **Save**. You must reboot the device to sync the policy.
+1. Click **Kiosk settings** and select your org (*if using a test environment*).
+1. Click **upload configuration file** and upload the configuration policy (*JSon file*).
+1. Click **Save**. Reboot the device so you can sync the policy.
 
 >[!NOTE]
 >
->Reboot the device to sync policy changes.
+>Reboot the device so you can sync policy changes.
 
 #### Example Policy JSON file {#example-policy-json-file}
 
@@ -142,13 +138,13 @@ The following table summarizes the policies with their functions.
 | rebootSchedule |The schedule to reboot the player.|
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
 | enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
-| enableActivityUI |Enable to show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
-| cloudMode |Set to true if you want the Chrome player to connect to Screens as a Cloud Service. Set to false in order to connect to AMS or on-Prem AEM. |
+| enableActivityUI |Enable so you can show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| cloudMode |Set to true if you want the Chrome player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Policy configurations are strictly enforced and are not manually overridden at the player's admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the ***policy configuration,*** for example, if you want to allow manual configuration for reboot schedule, do not specify the key ***rebootSchedule*** in the policy configuration.
+>Policy configurations are strictly enforced and are not manually overridden at the player's admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the ***policy configuration***. For example, if you want to allow manual configuration for reboot schedule, do not specify the key ***rebootSchedule*** in the policy configuration.
 
 ### Using the Screens Remote Control {#using-remote-control}
 
