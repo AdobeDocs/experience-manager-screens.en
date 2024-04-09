@@ -75,5 +75,5 @@ A few examples are the following:
 * Google Chrome Device Management
 * TeamViewer
 * AirWatch
-* 42Gears
+* `42Gears`
 * Proprietary AV Integrator Middleware

@@ -60,7 +60,7 @@ You can update your configurations, if you select the **Configuration** option f
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-The Configuration menu allows you to modify the following settings:
+The Configuration menu lets you modify the following settings:
 
 * Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
 

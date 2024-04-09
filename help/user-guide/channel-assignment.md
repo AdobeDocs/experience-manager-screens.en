@@ -40,7 +40,7 @@ Follow the steps below to assign a channel to a display:
 
 ### Reference Channel {#ref-channel}
 
-Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.
+Reference channel lets you provide a reference to the desired channel, either by channel name or by channel path.
 
 * **by path** &ndash; You provide an explicit reference using the absolute path of the channel.
 
@@ -86,7 +86,7 @@ Select from one of following options that are available to set the interruption 
 
 ### Schedule {#schedule-channel}
 
-Schedule allows you to provide a description in text when the channel should appear. It also lets you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 
+Schedule lets you provide a description in text when the channel should appear. It also lets you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 
 
 **Show Attraction Tooltip**
 
@@ -96,7 +96,7 @@ Schedule allows you to provide a description in text when the channel should app
 
 Schedules when combined with **DayParting**, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
 
-DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of DayPparting within a day, week, or month as per the requirement.
+DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens lets you schedule channels in terms of DayPparting within a day, week, or month as per the requirement.
 
 The following examples explain Day-parting in channels in three different scenarios:
 

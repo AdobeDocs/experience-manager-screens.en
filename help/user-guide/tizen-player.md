@@ -34,7 +34,7 @@ Follow the steps below:
 
 ### Naming Tizen Player {#name-tizen}
 
-You can assign a user-friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Tizen player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Tizen player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Tizen player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
@@ -87,9 +87,9 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 ## Remotely Provisioning the Tizen Player {#remote-provisioning}
 
-Remotely provisioning the Tizen Player allows you to deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the tedious manual effort to configure each player with the server URL and bulk registration code, or other parameters and in the case of Screens as a Cloud Service to configure the cloud mode and cloud token.
+Remotely provisioning the Tizen Player lets you deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the tedious manual effort to configure each player with the server URL and bulk registration code, or other parameters and in the case of Screens as a Cloud Service to configure the cloud mode and cloud token.
 
-This feature allows you to remotely configure Tizen player and also update those configurations centrally, if required. All you require is the `HTTP` server used to host the Tizen application `(wgt and xml file)` and a text editor to save the `config.json` with the appropriate parameters. 
+This feature lets you remotely configure Tizen player and also update those configurations centrally, if required. All you require is the `HTTP` server used to host the Tizen application `(wgt and xml file)` and a text editor to save the `config.json` with the appropriate parameters. 
 
 Make sure you have configured the URL launcher address on the Tizen Device, that is, Home Button > URL Launcher settings.
 On the `HTTP` server that hosts the Tizen application, place the file `config.json` at the same location as the `wgt` file. The file name must be `config.json`.

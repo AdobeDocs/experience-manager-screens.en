@@ -41,7 +41,7 @@ Follow the steps below to navigate to the device dashboard:
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. The page shows the device information, activity, and the device details that allows you to monitor the device activities and functions.
+1. The page shows the device information, activity, and the device details that lets you monitor the device activities and functions.
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 

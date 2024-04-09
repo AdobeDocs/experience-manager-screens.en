@@ -50,7 +50,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 
 ### Ad-Hoc method {#ad-hoc-method}
 
-The Ad-Hoc method allows you to install the latest Windows Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
+The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
 Once you download the application, follow the steps on the player to complete the ad-hoc installation:
 
@@ -66,7 +66,7 @@ Once you download the application, follow the steps on the player to complete th
 
 ## Naming Windows Player {#name-windows}
 
-You can assign a user friendly device name to your Windows player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Windows player but also allows to you to easily assign appropriate content.
+You can assign a user friendly device name to your Windows player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.

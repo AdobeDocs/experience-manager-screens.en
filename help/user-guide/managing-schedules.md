@@ -14,7 +14,7 @@ exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 
 **Schedules** in AEM Screens let you organize channels into reusable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
 
-Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
+Schedules, when combined with ***DayParting***, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
 
 >[!NOTE]
 >

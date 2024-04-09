@@ -8,7 +8,7 @@ exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 ---
 # Auto Registration of Players {#auto-registration}
 
-Bulk registering thousands of players manually can become cumbersome and adds time and cost. To simplify this process, the bulk registration feature allows you to specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or a Mobile Device Management (MDM) solution.
+Bulk registering thousands of players manually can become cumbersome and adds time and cost. To simplify this process, the bulk registration feature lets you specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or a Mobile Device Management (MDM) solution.
 
 ## Implementing Auto Registration of Players {#bulk-registering-implementation}
 

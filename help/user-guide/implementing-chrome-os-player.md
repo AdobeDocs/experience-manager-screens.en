@@ -32,7 +32,7 @@ Follow the steps below to set up chrome management console:
 
 ## Naming Chrome OS Player {#name-chrome}
 
-You can assign a user friendly device name to your Chrome player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only allows you to name your Chrome player but also allows to you to easily assign appropriate content.
+You can assign a user friendly device name to your Chrome player, thereby sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Chrome player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.

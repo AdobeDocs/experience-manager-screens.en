@@ -62,7 +62,7 @@ The following section explains the AEM Screens components that you can use in yo
 
 ### Application {#application}
 
-The **Application** component allows you to add an application to your channel.
+The **Application** component lets you add an application to your channel.
 
 Application component has the following properties:
 
@@ -104,7 +104,7 @@ The Channel component has the following properties:
 
 ### Embedded Page {#embedded-page}
 
-An **Embedded Page** allows you to add an embedded page to your project. For example, it can be a web application or a product catalog.
+An **Embedded Page** lets you add an embedded page to your project. For example, it can be a web application or a product catalog.
 
 The Embedded page has the following properties:
 
@@ -131,7 +131,7 @@ The Embedded page has the following properties:
 >
 >To learn in detail about embedded sequences, see [Embedded Sequences](embedded-sequences.md) under Authoring Screens section.
 
-An Embedded Sequence allows you to add an embedded sequence channel inside your existing channel (with other assets).
+An Embedded Sequence lets you add an embedded sequence channel inside your existing channel (with other assets).
 
 The Embedded Sequence has the following page properties:
 
@@ -208,7 +208,7 @@ To learn more about how to create an Experience Fragment and apply it to an AEM 
 
 ### Image {#image}
 
-An Image allows you to add an image to your channel.
+An Image lets you add an image to your channel.
 
 The image asset has three tabs namely **Image**, **Accessibility**, and **Sequence**:
 
@@ -227,7 +227,7 @@ The image asset has three tabs namely **Image**, **Accessibility**, and **Sequen
 
 ### Transition {#transition}
 
-The Transition component allows you to add a transition to your Screens project.
+The Transition component lets you add a transition to your Screens project.
 
 The following image shows the transition component (added via drag and drop) to the editor.
 
@@ -298,7 +298,7 @@ The transition component has the following properties:
 
 ### Video {#video}
 
-The Video component allows you to add a video to your Screens project.
+The Video component lets you add a video to your Screens project.
 
 The video component has the following properties:
 

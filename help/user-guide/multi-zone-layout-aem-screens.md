@@ -1,14 +1,11 @@
 ---
 title: Multi-zone Layout
 seo-title: Multi-zone Layout
-description: Multi-zone Layout allows you to create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. Follow this page to learn more.
-seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
-uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
+description: Multi-zone Layout lets you create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. Follow this page to learn more.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
@@ -27,7 +24,7 @@ The following page describes the usage of multi-zone layout and covers the follo
 
 ## Overview {#overview}
 
-***Multi-zone Layout*** allows you to create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. You can pull in images, videos, and text allowing it all to blend together and create an intuitive digital experience.
+***Multi-zone Layout*** lets you create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen. You can pull in images, videos, and text allowing it all to blend together and create an intuitive digital experience.
 
 As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed that runs in three separate zones on a single channel.
 

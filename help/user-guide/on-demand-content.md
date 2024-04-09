@@ -13,7 +13,7 @@ This section describes On-demand content for managing publications.
 
 ## Managing Publication: Delivering Content Updates from Author to Publish to Device {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-You can publish and unpublish content from AEM Screens. The Manage Publication feature allows you to deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule.
+You can publish and unpublish content from AEM Screens. The Manage Publication feature lets you deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule.
 
 ### Managing Publication for an AEM Screens Project {#managing-publication-for-an-aem-screens-project}
 

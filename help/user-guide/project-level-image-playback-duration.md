@@ -1,8 +1,6 @@
 ---
 title: Project Level Image Playback Duration
-seo-title: Project Level Image Playback Duration
-description: This functionality allows you to define image playback duration at the project level. 
-seo-description: This functionality allows you to define image playback duration at the project level. 
+description: Learn how you define image playback duration at the project level. 
 contentOwner: jsyal
 ---
 
@@ -10,7 +8,7 @@ contentOwner: jsyal
 
 ## Overview {#overview}
 
-This features allows you to define image playback duration at the project level. All images inherit this playback duration by default. If no duration is defined at the project level, the default playback of 8 seconds will continue.
+This features lets you define image playback duration at the project level. All images inherit this playback duration by default. If no duration is defined at the project level, the default playback of 8 seconds will continue.
 
 ### Prerequisites {#prerequisites}
 

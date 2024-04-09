@@ -84,6 +84,6 @@ The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
 >
->The information allows you to view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
+>The information lets you view the consumption of each device in the network requesting and downloading an Internet source. Each of those requests add up and extend the Download Time.
 
 ![](/help/assets/download-times-direct.png)
