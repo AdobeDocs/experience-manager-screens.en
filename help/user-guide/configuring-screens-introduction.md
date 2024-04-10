@@ -49,8 +49,8 @@ Follow the steps below to check if these two vital configurations are enabled fo
 
 >[!NOTE]
 >
->* To enable the **Apache Sling Referrer Filter**, refer to [Allow Empty Referrer Requests](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* To enable the **HTTP** service, refer to [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* To enable the **Apache Sling Referrer Filter**, see [Allow Empty Referrer Requests](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* To enable the **HTTP** service, see [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Prerequisites {#prerequisites}
 

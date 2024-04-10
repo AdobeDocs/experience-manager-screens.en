@@ -181,7 +181,7 @@ The following table summarizes the hardware configurations with typical use case
    <td><p>8 GB of memory</p> <p>4 MB of cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
@@ -196,7 +196,7 @@ The following table summarizes the hardware configurations with typical use case
    <td><p>16 GB of memory</p> <p>8 MB of cache</p> </td>
    <td>256 GB</td>
    <td>Dedicated Graphics GPU</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>

@@ -35,7 +35,7 @@ The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
    The AEM Screens players now include the capability of sending a device name to Adobe Experience Manager (AEM).
    By default, when bulk registration is used to register a device, a system-generated username is entered in the title field. As an alternative, a customer may use an asset tag or other friendly name so it is visible in AEM and easier to assign appropriate content.
    
-   Refer to the following documentation to learn how to configure the name in each supported Operating System:
+   See the following documentation to learn how to configure the name in each supported Operating System:
     
    * [Android&trade;](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
@@ -63,4 +63,4 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 8:
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

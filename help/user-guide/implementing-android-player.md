@@ -112,7 +112,7 @@ When rolling out the Android&trade; player in bulk, there is a need to provision
 Follow the steps below to allow bulk provisioning in the Android&trade; player:
 
 1. Create a configuration JSON file with the name `player-config.default.json`. 
-   Refer to an [Example JSON Policy](#example-json) and a table that describes the use of the various [Policy Attributes](#policy-attributes).
+   See an [Example JSON Policy](#example-json) and a table that describes the use of the various [Policy Attributes](#policy-attributes).
 
 1. Use an MDM or ADB or Android&trade; Studio file explorer to drop this policy JSON file to the *sdcard* folder on the Android&trade; device. 
 
@@ -162,7 +162,7 @@ The following table summarizes the policy attributes with an example policy JSON
 ```
 
 >[!NOTE]
->All Android&trade; devices have an `*sdcard*` folder whether an actual `*sdcard*` is inserted or not. This file when deployed would be at the same level as the Downloads folder. Some MDMs such as Samsung Knox may refer to this *sdcard* folder location as *Internal storage*.
+>All Android&trade; devices have an `*sdcard*` folder whether an actual `*sdcard*` is inserted or not. This file when deployed would be at the same level as the Downloads folder. Some MDMs, such as Samsung Knox, may see this *sdcard* folder location as *Internal storage*.
 
 ## Bulk Provisioning of Android&trade; Player using Enterprise Mobility Management {#bulk-provisioning}
 

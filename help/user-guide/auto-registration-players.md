@@ -26,7 +26,7 @@ Follow the steps below to implement auto registration of players:
 1. Provision your players with the appropriate server URL and registration code using an MDM or configuration JSON file. 
 
    >[!NOTE]
-   >Refer to the implementation page for the specific player for your Operating System (OS) for more details. You can also use the admin UI for entering the registration code.
+   >See the implementation page for the specific player for your Operating System (OS) for more details. You can also use the admin UI for entering the registration code.
 
 1. If the `registrationKey` attribute matches the one configured in AEM, the player automatically registers itself and if a default display is configured, that content downloads and plays.
 

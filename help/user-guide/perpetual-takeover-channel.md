@@ -66,7 +66,7 @@ Follow the steps below to set up a project:
 1. Select the display **MainLobbyDisplay** from the **Locations** folder. Click **Assign Channel** from the action bar so you can open the **Channel Assignment** dialog box.
 
    >[!NOTE]
-   >To learn how to assign a channel to a display, refer to **[Channel Assignment](channel-assignment.md)**.
+   >To learn how to assign a channel to a display, see **[Channel Assignment](channel-assignment.md)**.
 
 1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save** to assign the **MainAdChannel** to your display.
 
@@ -86,7 +86,7 @@ Follow the steps below to set up a project:
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
 
          >[!NOTE]
-         >To learn more about the expressions you can add to the **Schedule**, refer to the [Example Expressions](#example-expressions) section below.
+         >To learn more about the expressions you can add to the **Schedule**, see the [Example Expressions](#example-expressions) section below.
     * **active from**: Start date and time.
     * **active until**: End date and time.
     

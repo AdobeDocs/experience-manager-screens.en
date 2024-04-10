@@ -77,7 +77,7 @@ The following example shows how to embed an application component along with the
 
 >[!NOTE]
 >
->Refer to the example above to view properties of each of the components below.
+>See the example above to view properties of each of the components below.
 
 ### Channel {#channel}
 

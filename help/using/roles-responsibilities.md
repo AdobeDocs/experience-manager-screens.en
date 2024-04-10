@@ -11,7 +11,7 @@ As an experienced AEM implementor, you will likely have seen the roles being ref
 
 In a typical AEM Screens project, the roles are further refined as they each serves important purpose in the project.
 
-The diagram below shows the roles that we will refer to throughout the guide.
+The diagram below shows the roles that we will see throughout the guide.
 
 ![](/help/assets/project-roles-revised.png)
 

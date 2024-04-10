@@ -24,13 +24,13 @@ The Release Date for AEM Screens Feature Pack 201909 is October 07, 2019.
 
    Updated user interface for creating an AEM Screens project is now available. You can create a Screens project with few simple clicks. Also, the properties tab for each project now has a more intuitive user interface.
 
-   Refer to [Creating a New Screens project](creating-a-screens-project.md) for more details.
+   See [Creating a New Screens project](creating-a-screens-project.md) for more details.
 
 * **Enhanced Device Dashboard**
 
    The device dashboard shows the device information, status, screenshots, logs, preferences, and the device details that let you monitor the device activities and functions. The panels are now updated.
 
-   Refer to [Troubleshooting Device Control Center](monitoring-screens.md) for more details.
+   See [Troubleshooting Device Control Center](monitoring-screens.md) for more details.
 
 * **Enabled time out to allow keyboard interaction**
    
@@ -39,7 +39,7 @@ The Release Date for AEM Screens Feature Pack 201909 is October 07, 2019.
 * **Offline Configurations in Experience Fragments**
 
    You can now add offline configurations (client-side libraries and static files) while configuring Screens Experience Fragment.
-   Refer to [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
+   See [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
 
 ### Released AEM Screens Players
 
@@ -51,4 +51,4 @@ The following AEM Screens Players are released for AEM 6.4.6 Feature Pack 6 and 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

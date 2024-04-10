@@ -78,7 +78,7 @@ To add or edit content in a channel, follow the steps below:
 1. Click **Edit** from the top-left corner of the action bar so you can edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
 
 >[!NOTE]
->You can add components to your channel. Refer to **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.
+>You can add components to your channel. See **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -227,7 +227,7 @@ The associated displays are listed in the **Assigned Displays** panel, as shown 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->To learn about creating a display in a location, refer to:
+>To learn about creating a display in a location, see:
 >
 >* [Create and Manage Locations](managing-locations.md)
 >* [Create and Manage Displays](managing-displays.md)

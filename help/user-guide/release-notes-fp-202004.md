@@ -30,13 +30,13 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
     As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
 
-    Refer to the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)** to learn more about options available from **Channel Assignment** dialog box to implement this feature in your AEM Screens project.
+    See the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)** to learn more about options available from **Channel Assignment** dialog box to implement this feature in your AEM Screens project.
 
 * **Screens Launches**
 
    The content author user experience flow has been improved and reduced the number of clicks to use future publish. 
 
-   Refer to **[Content Update using Screens Launch](launches.md)** for more details.
+   See **[Content Update using Screens Launch](launches.md)** for more details.
 
 * **Channel Dashboard**
 
@@ -47,19 +47,19 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
    You can now view the manifest file from the channel dashboard.
    
-   Refer to **[Viewing the Manifest](/help/user-guide/managing-channels.md#view-manifest)**.
+   See **[Viewing the Manifest](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Text Overlay**
 
    While adding test to the text overlay function, the font size is precise and improved.
 
-   Refer to **[Text Overlay](text-overlay.md)** to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. 
+   See **[Text Overlay](text-overlay.md)** to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. 
 
 * **Improvements in Command Sync**
 
    With this feature pack release, improvements in Command sync delay between asset changes are reflected.
 
-   Refer to **[Command Sync](using-command-sync.md)** for more details.
+   See **[Command Sync](using-command-sync.md)** for more details.
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 
@@ -71,4 +71,4 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.4 
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.

@@ -29,7 +29,7 @@ For this Use Case, the Red, Green, or Blue sweater will display on your screen b
 
 Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
-Refer to [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
+See [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
 
 ## Basic Flow {#basic-flow}
 
@@ -44,7 +44,7 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
 1. **Configuring the Audiences as per the requirements**
 
-    1. Navigate to the segments in your audience (Refer to ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
+    1. Navigate to the segments in your audience (See ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
 
     1. Add three new segments **For_Red**, **For_Green**, and **For_Blue**.
 

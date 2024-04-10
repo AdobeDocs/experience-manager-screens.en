@@ -28,17 +28,17 @@ The Release Date for AEM Screens Feature Pack 202001 is January 31, 2020.
 
 * **Command Sync for Asset Playback**
 Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.
-   To learn more about Command Sync and how to set the master and clients, refer to [Using Command Sync](using-command-sync.md).
+   To learn more about Command Sync and how to set the master and clients, see [Using Command Sync](using-command-sync.md).
 
 * **Health check framework to show status of https and allow empty referrer**
 The Health Check framework allows the user to check if two necessary configurations (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are set up before running an AEM Screens project. 
 
-   To learn more about Health Check Framework, refer to [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+   To learn more about Health Check Framework, see [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates to Default Transition Types**
 The properties of the transition component such as **Type** is now set to **Fade** and the **Duration** as **1600 ms**, by default.
 
-   Refer to [Applying Transitions](/help/user-guide/applying-transitions.md) use case for more details.
+   See [Applying Transitions](/help/user-guide/applying-transitions.md) use case for more details.
 
 
 ### Released AEM Screens Players {#released-aem-screens-players}
@@ -51,4 +51,4 @@ The following AEM Screens Players are released for AEM 6.4 Feature Pack 7 and AE
 
 #### AEM Screens Player Downloads  {#aem-screens-player-downloads}
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

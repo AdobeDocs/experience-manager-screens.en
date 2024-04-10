@@ -91,7 +91,7 @@ The following table summarizes the groups with description and permissions for a
    <td><strong>Permissions</strong></td>
   </tr>
   <tr>
-   <td>Screens Admins<br /> <em>screens-admins</em></td>
+   <td>Screens Admins<br /> <em><code>screens-admins</code></em></td>
    <td>Admin level access for AEM Screens capabilities</td>
    <td>
     <ul>
@@ -104,29 +104,29 @@ The following table summarizes the groups with description and permissions for a
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Users<br /> <em>screens-users</em></td>
+   <td>Screens Users<br /> <em><code>screens-users</code></em></td>
    <td>Create and update channels and schedules and assign to locations in AEM Screens</td>
    <td>
     <ul>
      <li>Member Of Contributors</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Operators<br /> <em>screens-operators</em></td>
+   <td>Screens Operators<br /> <em><code>screens-operators</code></em></td>
    <td>Create and update location structure and register players in AEM Screens</td>
    <td>
     <ul>
      <li>Member Of Contributors</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Players<br /> <em>screens-&lt;project&gt;-devices</em></td>
+   <td>Screens Players<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Groups all players and all players/devices are members of the contributors automatically.</td>
    <td><p> Member of Contributors</p> </td>
   </tr>

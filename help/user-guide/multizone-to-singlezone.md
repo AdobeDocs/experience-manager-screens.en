@@ -45,7 +45,7 @@ Follow the steps below to set up a project:
 
     >[!NOTE]
     >
-    >To learn more about creating a multi-zone layout in your channel, refer to [Multi-zone Layout](multi-zone-layout-aem-screens.md).
+    >To learn more about creating a multi-zone layout in your channel, see [Multi-zone Layout](multi-zone-layout-aem-screens.md).
 
       
 1. Create another channel titled as **TakeoverChannel** to your **Channels** folder.

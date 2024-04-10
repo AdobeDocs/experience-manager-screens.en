@@ -35,7 +35,7 @@ The video will be displayed as an object from pixel 1 to pixel 1280 across and f
 
 ## Prerequisites {#prerequisites}
 
-Before you create a workflow for video, please complete the following prerequisites:
+Before you create a workflow for video, complete the following prerequisites:
 
 1. Upload a video in **Assets** folder in your AEM instance
 1. Create an AEM Screens project (for example, **TestVideoRendition**) and a channel named (**VideoRendering**), as shown in the figure below:
@@ -79,7 +79,7 @@ Follow the steps below to create a workflow for your video:
 
    Enter the format in the **Mime Types** (as ***video/mp4***) and the command as (***/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4***) to start the workflow in the **Commands** field.
 
-   Please refer to the details on **Mime Types** and **Commands** in the note below.
+   See the details on **Mime Types** and **Commands** in the note below.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 

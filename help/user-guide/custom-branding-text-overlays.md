@@ -26,7 +26,7 @@ Follow the steps below to create custom branding and styling for text overlays:
    ![image](/help/user-guide/assets/custom-brand/custom-brand2.png)  
 
    >[!NOTE]
-   >To learn how to add a text overlay to your asset in a channel editor, refer to [Text Overlay](/help/user-guide/text-overlay.md).
+   >To learn how to add a text overlay to your asset in a channel editor, see [Text Overlay](/help/user-guide/text-overlay.md).
    
 1. Navigate to CRXDE Lite from your AEM instance > tools > **CRXDE Lite**.
 
@@ -78,7 +78,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 1. Click **Save & Close** to update the design path.
 
    >[!IMPORTANT]
-   >You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. Refer to the steps below for more details.
+   >You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. See the steps below for more details.
 
 1. To overlay the existing Screens templates to inject your own designs by default: 
 

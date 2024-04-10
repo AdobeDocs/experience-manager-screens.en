@@ -8,17 +8,15 @@ contentOwner: jsyal
 
 ## Overview {#overview}
 
-This features lets you define image playback duration at the project level. All images inherit this playback duration by default. If no duration is defined at the project level, the default playback of 8 seconds will continue.
+This feature lets you define image playback duration at the project level. All images inherit this playback duration by default. If no duration is defined at the project level, the default playback of 8 seconds continues.
 
 ### Prerequisites {#prerequisites}
 
-Before you use this feature, make sure you set up a project as a prerequisite to start implementing this functionality. For example,
+Before using this feature, set up a project as a prerequisite to start implementing this functionality. For example,
 
-1. Create an AEM Screens project (in this example, **ProjectLevelPlayback**)  
-
-1. Create a sequence channel as **PlayBackChannel** under **Channels** folder
-
-1. Add content to **PlayBackChannel**
+1. Create an AEM Screens project (in this example, **ProjectLevelPlayback**).
+1. Create a sequence channel as **PlayBackChannel** under **Channels** folder.
+1. Add content to **PlayBackChannel**.
 
    ![assets](assets/image_playback1.png)
 
@@ -35,18 +33,18 @@ The section below explains how to edit the playback duration of content in an AE
 
 >[!NOTE]
 >
->If you want to update an image or channel level playback duration, refer to [Channel Level Image Playback Duration](channel-level-image-playback.md).
+>If you want to update an image or channel level playback duration, see [Channel Level Image Playback Duration](channel-level-image-playback.md).
 
 Follow the steps below to learn how to update Project Level Image Playback Duration:
 
 1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
     ![assets](assets/image_playback3.png)
 
-1. Select all the images in the channel and click the wrench icon on the top left (as shown in the figure below) to open Channel level Configure dialog box.
+1. Select all the images in the channel and click the wrench icon on the top-left (as shown in the figure below) so you can open the Channel level Configure dialog box.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Page** dialog box opens.
+1. The **Page** dialog box opens.
 
    >[!NOTE]
    >
@@ -54,13 +52,13 @@ Follow the steps below to learn how to update Project Level Image Playback Durat
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edit the **Duration** from 8000 (ms) to 3000 (ms), that is, 3 seconds. Click the check mark on the top right of the **Page** dialog box to save your changes.
+   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Click the check mark on the top-right of the **Page** dialog box so your changes are saved.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Viewing the Result {#viewing-the-result}
 
-Once you have updated the channel playback duration (in this example, all three images) you will notice that the images will now play for 3 seconds rather than 8 seconds (default value).
+After you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (default value).
 
 ![channel_preview](assets/channel_preview.gif)
 

@@ -27,7 +27,7 @@ For this Use Case, if your Google Sheets has Value less than 50, then an image w
 
 Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
-Refer to [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
+See [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
 
 ## Basic Flow {#basic-flow}
 
@@ -42,7 +42,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
 1. **Configuring the segments in Audiences as per the requirements**
 
-    1. Navigate to the segments in your audience (Refer to ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
+    1. Navigate to the segments in your audience (See ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
 
     1. Select the **Sheets A1 1** and click **Edit**.
 

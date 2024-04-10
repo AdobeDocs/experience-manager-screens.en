@@ -17,7 +17,7 @@ This section describes how you can apply the **Transition** component in-between
 
 >[!CAUTION]
 >
->To learn in detail about the properties for the **Transition** component, refer to [Transitions](adding-components-to-a-channel.md#transition).
+>To learn in detail about the properties for the **Transition** component, see [Transitions](adding-components-to-a-channel.md#transition).
 
 ## Adding Transition Component to Assets in a Channel {#adding-transition}
 

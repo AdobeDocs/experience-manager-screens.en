@@ -14,7 +14,7 @@ exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 >
 >When using the voice recognition feature follow all applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes this API sends a wave form of your speech to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
 >
->Refer to [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
+>See [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
 
 
 The voice recognition feature allows content change in an AEM Screens channel driven by voice interaction.
@@ -43,7 +43,7 @@ Before you use voice recognition feature, make sure you have a project and a cha
 
    >[!NOTE]
    >
-   >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
+   >To learn how to create a channel or add content to a channel, see [Creating and Managing Channels](/help/user-guide/managing-channels.md)
 
    Or,
 
@@ -133,7 +133,7 @@ Now, you can use these tags in your AEM Screens project.
    ![image](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
+   >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
    
 1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**. Additionally, if you are using the **SplitScreen** channel for your project, make sure you assign that too to the display.
 
@@ -151,7 +151,7 @@ Now, you can use these tags in your AEM Screens project.
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
+   >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
 1. Once you have assigned channels to a display, navigate to the **LobbyDisplay** and select the display. Select **Properties** from the action bar.
 
@@ -167,7 +167,7 @@ Now, you can use these tags in your AEM Screens project.
 Once the preceding steps are complete,  you can register your chrome device to view the output.
 
 >[!NOTE]
->Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
+>See [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
 **Desired Output for Sequence Channel**
 

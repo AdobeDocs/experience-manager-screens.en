@@ -23,7 +23,7 @@ When a proxy server receives a request for an Internet resource (such as a Web p
 
 ## Understanding the Standard Network Setups {#network-setups}
 
-To implement a network Setup, you must refer to the following scenarios with their strengths and deployment details. 
+To implement a network Setup, see the following scenarios with their strengths and deployment details. 
 
 This Guide highlights four different kinds of Network Setups within an Organization:
 

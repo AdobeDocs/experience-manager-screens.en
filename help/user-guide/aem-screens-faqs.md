@@ -208,9 +208,9 @@ Disable Livefyre to avoid log errors by doing the following.
 ### 2. How to Add Oak Index information? {#add-oak-index-info}
 
 AEM Screens creates index definitions for the queries used by the product. 
-If there are any *Query Traversal WARNs* in the `error.log`, create a custom index for your query. Refer to [Configuring the Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) for more details.
+If there are any *Query Traversal WARNs* in the `error.log`, create a custom index for your query. See [Configuring the Indexes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) for more details.
 
-You can also refer to an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+You can also see an additional resource on [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. What is required to configure v3 Manifests? {#configure-v3}

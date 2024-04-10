@@ -11,7 +11,7 @@ Before diving deep into details of implementing an AEM Screens project, it is re
 
 Before you start working on a Digital Signage project using AEM Screens, Adobe Experience Manager (AEM) knowledge is required and should be completed before working on an AEM Screens Project.
 
-Refer to the following tutorials and resources so you can learn Adobe Experience Manager 6.5:
+See the following tutorials and resources so you can learn Adobe Experience Manager 6.5:
 
 * **[Adobe Experience Manager Getting Started](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction)**: Discover getting started articles and video tutorials for Adobe Experience Manager.
 
@@ -23,7 +23,7 @@ Refer to the following tutorials and resources so you can learn Adobe Experience
 
 ## Learning Product Features and Personas in AEM Screens {#product-features}
 
-To learn the basics of an AEM Screens project, refer to the resources below:
+To learn the basics of an AEM Screens project, see the resources below:
 
 * **[AEM Screens User Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Provides a detailed documentation on features and functionalities of varied personas used in an AEM Screens project.
 

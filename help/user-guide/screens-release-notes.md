@@ -28,14 +28,14 @@ The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 
 ### What's New {#what-s-new}
 
-* **Adobe Analytics Proof of Play Reporting**: Please refer to [Adobe Analytics Integration with AEM Screens](adobe-analytics-integration-aem-screens.md) to learn more.
+* **Adobe Analytics Proof of Play Reporting**: See [Adobe Analytics Integration with AEM Screens](adobe-analytics-integration-aem-screens.md) to learn more.
 
-* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: Please refer to [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn more.
+* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn more.
 
-* **Bulk Update Offline Content**: Allows you to update all the channel in bulk and avoids the hassle of navigating to a particular channel and update the content. Please refer to [Bulk Offline Update](bulk-offline-update.md) to learn more.
+* **Bulk Update Offline Content**: Allows you to update all the channel in bulk and avoids the hassle of navigating to a particular channel and update the content. See [Bulk Offline Update](bulk-offline-update.md) to learn more.
 
 * **Bulk publish channels to publish instances**
-* **Enhanced Player Logging Mechanism**: You can specify the number of maximum log files for an AEM Screens player. Please refer to [Working with an AEM Screens Player](working-with-screens-player.md) for more details.
+* **Enhanced Player Logging Mechanism**: You can specify the number of maximum log files for an AEM Screens player. See [Working with an AEM Screens Player](working-with-screens-player.md) for more details.
 
 * **Author / Publish deployment (Hardening)**
 

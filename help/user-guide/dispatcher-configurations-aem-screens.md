@@ -19,12 +19,12 @@ The following page provides the guidelines for configuring Dispatcher for an AEM
 >If there is no Dispatcher, disable the registration servlet in the OSGi components listing.
 
 Before you configure Dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
-Refer to [Configuring Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) for more details.
+See [Configuring Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) for more details.
    
 ## Configuring Dispatcher for Manifest Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->The following Dispatcher configurations apply only to Manifest version v2. Refer to [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
+>The following Dispatcher configurations apply only to Manifest version v2. See [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
 
 AEM Screens players or devices use authenticated session to access the resources in the Publishing instances as well. So, when you have multiple publish instances, the requests should always go to the same Publishing instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
 
@@ -47,7 +47,7 @@ If you have one publish instance fronted by one Dispatcher, enabling the stickin
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-For example, if you are using AWS ALB, refer to [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for one day.
+For example, if you are using AWS ALB, see [Target groups for your Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) for enabling stickiness at the ALB level. Enable the stickiness for one day.
 
 ### Step 1: Configuring Client Headers {#step-configuring-client-headers}
 
