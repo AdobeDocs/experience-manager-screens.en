@@ -1,8 +1,6 @@
 ---
 title: Creating and Managing Channels
-seo-title: Managing Channels
-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -21,7 +19,7 @@ This page shows creating and managing channels for AEM Screens.
 
 ## Creating a New Channel {#creating-a-new-channel}
 
-Once you create your project for AEM Screens, follow the steps below to create a new Channel for your project:
+Once you create your project for AEM Screens, follow the steps below to create a Channel for your project:
 
 1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to `https://localhost:4502/screens.html/content/screens`.
 
@@ -39,7 +37,7 @@ Once you create your project for AEM Screens, follow the steps below to create a
 
    ![demochannel](assets/create-project4.png)
 
-1. A Sequence channel is is now added to your **Channels** folder.
+1. A Sequence channel is now added to your **Channels** folder.
 
 ### Channel Types {#channel-types}
 
@@ -47,23 +45,23 @@ The following template options are available while using the wizard such as:
 
 | **Template option** |**Description** |
 |---|---|
-| Channels Folder |Allows to create a folder to store collection of channels. |
-| Sequence Channel |Allows to create a channel that plays the components sequentially (one by one in a slide show). |
-| Application Channel |Allows to showcase your custom web application in Screens player. |
-| 1x1 Split Screen Channel |Allows to view the component in a single zone. |
-| 1x2 Split Screen Channel |Allows to view the assets in two zones (split horizontally). |
-| 2X1 Split Screen Channel |Allows to view the assets in two zones (split vertically). |
-| 2x2 Split Screen Channel |Allows to view the assets in four zones (split horizontally and vertically in a matrix). |
-| 2 to 3 Split Screen Channel |Allows to view the assets in two zones (split horizontally) with one of the zones being larger than the other one. |
-| Left or Right L-Bar Split Screen Channel |Allows content authors to view different types of assets in appropriately sized zones. |
+| Channels Folder |Lets you create a folder to store collection of channels. |
+| Sequence Channel |Lets you create a channel that plays the components sequentially (one by one in a slide show). |
+| Application Channel |Lets you showcase your custom web application in Screens player. |
+| 1x1 Split Screen Channel |Lets you view a component in a single zone. |
+| 1x2 Split Screen Channel |Lets you view the assets in two zones (split horizontally). |
+| 2X1 Split Screen Channel |Lets you view the assets in two zones (split vertically). |
+| 2x2 Split Screen Channel |Lets you view the assets in four zones (split horizontally and vertically in a matrix). |
+| 2 to 3 Split Screen Channel |Lets you view the assets in two zones (split horizontally) with one of the zones being larger than the other one. |
+| Left or Right L-Bar Split Screen Channel |Lets content authors to view different types of assets in appropriately sized zones. |
 
 >[!NOTE]
 >
->The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side-by-side. The experiences can either be static assets/text or embedded sequences.
+>The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side by side. The experiences can either be static assets/text or embedded sequences.
 
 >[!IMPORTANT]
 >
-> Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore you need to assign that channel to a display. See the resources below at the end of the section to learn more.
+> Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore, you must assign that channel to a display. See the resources below at the end of the section.
 
 ## Working with Channels {#working-with-channels}
 
@@ -76,8 +74,8 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 
 To add or edit content in a channel, follow the steps below:
 
-1. Select the channel you want to edit (as shown in the figure above).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
+1. Select the channel that you want to edit (as shown in the figure above).
+1. Click **Edit** from the top-left corner of the action bar so you can edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
 
 >[!NOTE]
 >You can add components to your channel. Refer to **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.
@@ -89,27 +87,23 @@ To add or edit content in a channel, follow the steps below:
 Follow the steps below to upload videos to your channel:
 
 1. Select the channel where you want to upload the video.
-1. Click **Edit** from the action bar to open the editor.
-1. Select **Videos** under Assets and drag and drop the required videos.
+1. Click **Edit** from the action bar.
+1. In the editor, select **Videos** under Assets and drag and drop the required videos.
 
 >[!NOTE]
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
-### Viewing Properties {#viewing-properties}
+### Viewing or Editing Properties of a channel {#viewing-properties}
 
-To view or edit properties of a channel, follow the steps below:
-
-1. Click on the Channel you want to edit.
-1. Click **Properties** from the action bar to view/edit the channel properties. The following tabs allow you to change the options.
+1. Click the Channel that you want to edit.
+1. Click **Properties** from the action bar so you can view/edit the channel properties. The following tab lets you change the options.
 
 ![properties](assets/properties.gif)
 
 ### Viewing Dashboard {#viewing-dashboard}
 
-To view dashboard of a channel, follow the steps below:
-
-1. Select the channel you want to edit.
-1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Select the channel that you want to edit.
+1. Click **Dashboard** from the action bar.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -117,7 +111,7 @@ To view dashboard of a channel, follow the steps below:
 
 The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you the information on whether the channel is offline or online.
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+Click the (**...**) from the **CHANNEL INFORMATION** action bar so you can view properties, edit the content, or update the cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -128,11 +122,11 @@ You can view the manifest from the channel dashboard.
 >[!IMPORTANT]
 >This option is only available with AEM 6.4 Feature Pack 8 or AEM 6.5 Feature Pack 4.
 
-Follow these steps to enable this option from the channel dashboard:
+Follow these steps so you can enable this option from the channel dashboard:
 
 1. **Set the Channel to Offline**
    1. Select the channel and select **Properties** from the action bar
-   1. Navigate to **Channel** tab and make sure that you un-check **Developer Mode (force channel to be online)** option
+   1. Navigate to **Channel** tab and make sure that you uncheck **Developer Mode (force channel to be online)** option
    1. Click **Save & Close**
 1. **Update Offline Content**
    1. Select the channel and select **Dashboard** from the action bar
@@ -151,7 +145,7 @@ You should see the **View Manifest** option from the **CHANNEL INFORMATION** pan
 
 When you create a channel, it can either be defined as an online or an offline channel.
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+An ***Online Channel*** shows the updated content in the real-time environment whereas an ***Offline Channel*** shows the cached content.
 
 Follow the steps below to make the channel online:
 
@@ -161,7 +155,7 @@ Follow the steps below to make the channel online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. The **CHANNEL INFORMATION** panel provides information on whether the channel is online or offline.
+   Click **Dashboard** from the action bar so you can view the status of the player. The **CHANNEL INFORMATION** panel provides information on whether the channel is online or offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -180,7 +174,7 @@ Follow the steps below to make the channel online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->If you want to configure your channel again as offline, un-check the Developer mode option from the **Properties** tab (as shown in step (3)) and then from the **CHANNEL INFORMATION** panel click **Update Offline Content**, as shown in the figure below.
+>To configure your channel again as offline, uncheck the Developer mode option from the **Properties** tab (as shown in step (3)). Then, from the **CHANNEL INFORMATION** panel click **Update Offline Content**, as shown in the figure below.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -226,9 +220,9 @@ The following table summarizes the events associated with the automatic and manu
 
 ### Assigned Displays {#assigned-displays}
 
-The assigned displays panel shows the display associated to the channel. It provides a snapshot of the assigned display along with the resolution.
+The **Assigned Displays** panel shows the display associated to the channel. It provides a snapshot of the assigned display along with the resolution.
 
-The associated displays will list in the **Assigned Displays** panel, as shown below:
+The associated displays are listed in the **Assigned Displays** panel, as shown below:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -239,7 +233,7 @@ The associated displays will list in the **Assigned Displays** panel, as shown b
 >* [Create and Manage Displays](managing-displays.md)
 >
 
-Additionally, click on the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
+Also, click the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -247,7 +241,7 @@ Additionally, click on the display in the **ASSIGNED DISPLAYS** panel, to view t
 
 The next step after creating a channel and adding/editing content in your channel is to learn how to create a location and display. Furthermore, then assign a channel to that display.
 
-See the following resources, for next steps:
+See the following resources for next steps:
 
 * [Create and Manage Channels](managing-channels.md)
 * [Create and Manage Locations](managing-locations.md)

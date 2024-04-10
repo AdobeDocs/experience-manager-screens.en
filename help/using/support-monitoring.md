@@ -1,8 +1,6 @@
 ---
 title: Support Monitoring
-seo-title: Support Monitoring for AEM Screens
-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
-seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+description: Learn about Support Monitoring for AEM Screens Best Practices Guide.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
 ---
 # Support Monitoring {#support-monitoring}
@@ -20,11 +18,11 @@ Content monitoring lets you troubleshoot the issues related to content not prope
 
 1. If blank screen issue is encountered:
 
-   * Check *preview* to see if the channel is showing a black screen
+   * Check *preview* so you can see if the channel is showing a black screen.
    * Register a *local chrome player* (as extension) on your laptop to that display and see if that shows a black screen.
-   * Right click and inspect and check *applicable logs*.
+   * Right-click and inspect and check *applicable logs*.
 
-   Additionally, If this is not happening on the local player but only on device:
+   Also, If this is not happening on the local player but only on device:
 
    * Check *media type* (being used) that may have issues on that device and also confirm if the content successfully downloaded locally (admin UI clear channel cache).
    * Include any *device logs* in the ticket for quick troubleshooting.
@@ -38,4 +36,4 @@ Device monitoring related to monitoring the physical device if you encounter bla
 
    * Check if the *display* is powered on.
    * Check if the *computer* is powered on and is sending signal.
-   * Right click, inspect and check *applicable logs*.
+   * Right-click, inspect, and check *applicable logs*.

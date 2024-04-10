@@ -1,8 +1,6 @@
 ---
 title: Image Playback Duration
-seo-title: Image Playback Duration
-description: Follow this page to learn about image playback duration.
-seo-description: Follow this page to learn about image playback duration.
+description: Learn about image playback duration in AEM Screens.
 contentOwner: jsyal
 ---
 
@@ -10,16 +8,14 @@ contentOwner: jsyal
 
 ## Overview {#overview}
 
-Once you create a sequence channel and add images to it, by default, all images will assume the playback duration defined in the Channel level configuration. Any individual image can still override the default and have a different playback duration, this is accomplished by editing the playback duration of the specific image component.
+After you create a sequence channel and add images to it, by default, all images assume the playback duration defined in the Channel level configuration. Any individual image can still override the default and have a different playback duration, this is accomplished by editing the playback duration of the specific image component.
 
 ### Prerequisites {#prerequisites}
 
-Before you start implementing this functionality, make sure you have set up a project as a prerequisite to start implementing this functionality. For example,
+Before implementing this functionality, make sure you have set up a project as a prerequisite to start implementing this functionality. For example,
 
 1. Create an AEM Screens project (in this example, **ChannelLevelPlayback**)  
-
 1. Create a sequence channel as **PlaybackChannel** under **Channels** folder
-
 1. Add content to **PlaybackChannel**
 
 ## Editing Channel Level Image Playback Duration Assignment {#editing-channel-level-image-playback-duration-assignment}
@@ -34,7 +30,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Click **Edit** from the action bar to open the editor.
+1. Click **Edit** from the action bar.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -42,7 +38,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Select all the images in the channel and click the wrench icon on the top left (as shown in the figure below) to open Channel level Configure dialog box.
+1. Select all the images in the channel and select the wrench icon on the top-left (as shown in the figure below). The Channel level Configure dialog box is opened.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -54,13 +50,13 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edit the **Duration** from 8000 (ms) to 3000 (ms), that is, 3 seconds. Click the check mark on the top right of the **Page** dialog box to save your changes.
+   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Click the check mark on the top-right of the **Page** dialog box so you can save your changes.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Viewing the Result {#viewing-the-result}
 
-Once you have updated the channel playback duration (in this example, all three images) you will notice that the images will now play for 3 seconds rather than 8 seconds (default value).
+When you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (default value).
 
 ![channel_preview](assets/channel_preview.gif)
 

@@ -15,7 +15,7 @@ role: User
 + [Introduction to Screens](aem-screens-introduction.md)
 + Overview and Kickstart Guide {#overview}
     + [Kickstart Guide](kickstart-for-aem-screens.md)
-    + [Screens Best Practices Guide](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+    + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
     + [Key Terms](screens-glossary.md)
 + Digital Signage Network Basics {#digital-signage-network}
     + [Part 1: Project Roles and Responsibilities](project-roles-responsibilities.md)
@@ -35,10 +35,10 @@ role: User
     + [New Project Importer from File](project-importer.md)
     + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
     + [Configuring Screens Replication Agents](configure-screens-replication.md)
-    + Client Specific Considerations {#installing-client}
+    + Client-Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
-        + [Android Player](implementing-android-player.md)
+        + [Android&trade; Player](implementing-android-player.md)
         + [Windows Player](implementing-windows-player.md) 
         + [Tizen Player](tizen-player.md)
         + [Cloud Player](implementing-cloud-player.md)
@@ -93,7 +93,7 @@ role: User
         + [Retail Inventory Targeted Activation](retail-inventory-activation.md)
         + [Applying Transitions](applying-transitions.md)
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
-        + [Single Use TakeOver Channel](single-use-takeover-channel.md)
+        + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
         + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)

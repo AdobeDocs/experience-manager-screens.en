@@ -1,14 +1,10 @@
 ---
 title: Adobe Analytics Integration with AEM Screens
-seo-title: Adobe Analytics Integration with AEM Screens
 description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
@@ -125,4 +121,4 @@ Analytics events are stored offline in indexedDB and later chunked and sent to t
 
 >[!NOTE]
 >
->To learn more about the ***Sequencing*** and ***Standard Data Model for Events***, please refer to **[Configuring Adobe Analytics for AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>To learn more about the ***Sequencing*** and ***Standard Data Model for Events***, see **[Configuring Adobe Analytics for AEM Screens](configuring-adobe-analytics-aem-screens.md)**.

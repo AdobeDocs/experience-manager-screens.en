@@ -1,6 +1,6 @@
 ---
 title: Using Dynamic Embedded Sequence
-description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
+description: Learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -21,17 +21,17 @@ Using Dynamic Embedded Sequences covers the following topics:
 
 ## Overview {#overview}
 
-***Dynamic Embedded Sequences*** are created for large projects that follow parent child hierarchy, where the child is referenced inside a location folder and not a channel folder. It allows the user to embed a sequence inside a channel by ***Channel Role***. It lets the user define location-specific placeholders for different offices using an embedded sequence inside a main channel.
+***Dynamic Embedded Sequences*** are created for large projects that follow parent-child hierarchy, where the child is referenced inside a location folder and not a channel folder. It allows the user to embed a sequence inside a channel by ***Channel Role***. It lets the user define location-specific placeholders for different offices using an embedded sequence inside a main channel.
 
-While assigning a channel to a display, you have the option of either specifying the path of the display or the role of the channel that will resolve to an actual channel by context.
+While assigning a channel to a display, you have the option of either specifying the path of the display or the role of the channel that resolves to an actual channel by context.
 
-To use Dynamic Embedded Sequence, you assign a channel by ***Channel Role***. Channel Role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role. This section describes a use case that defines channels by role and how you can leverage that content to a global channel. You can also think of the role as an identifier for the assignment, or an alias for the channel in the context of.
+To use Dynamic Embedded Sequence, you assign a channel by ***Channel Role***. Channel Role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role. This section describes a use case that defines channels by role and how you can apply that content to a global channel. You can also think of the role as an identifier for the assignment, or an alias for the channel in the context of.
 
 ### Benefits of Using Dynamic Embedded Sequences {#benefits-of-using-dynamic-embedded-sequences}
 
-The main benefit of placing a sequence channel inside of a location instead of the channels folder is to allow local or regional authors to edit content relevant to them while being restricted from editing channels higher up in the hierarchy.
+The main benefit of placing a sequence channel inside a location instead of the channels folder is to allow local or regional authors to edit content relevant to them. All this, while being restricted from editing channels higher up in the hierarchy.
 
-Referencing a *Channel By Role*, lets you create local version of a channel, in order to dynamically resolve location-specific content and also lets you create a global channel that leverages the content for the location-specific channels.
+Referencing a *Channel By Role*, lets you create local version of a channel, to dynamically resolve location-specific content and also lets you create a global channel that uses the content for the location-specific channels.
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ Referencing a *Channel By Role*, lets you create local version of a channel, in 
 >
 >A Dynamic Embedded Sequence is similar to an embedded sequence but allows the user to follow a hierarchy where changes/updates made to one channel is propagated to other one in relation. It follows parent-child hierarchy and also includes assets like images or videos.
 >
->***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Additionally, while setting up Dynamic Embedded Sequences, you need to configure the channel using channel role and name. Please refer to the steps below for practical implementation.
+>***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Also, while setting up Dynamic Embedded Sequences, you must configure the channel using channel role and name. See the steps below for practical implementation.
 >
->To learn more about implementing embedded sequences, please refer to [Embedded Sequences](embedded-sequences.md) in AEM Screens.
+>To learn more about implementing embedded sequences, see [Embedded Sequences](embedded-sequences.md) in AEM Screens.
 
 The following example provides a solution by focusing on the following key terms:
 
-* a ***main sequence channel*** for the global sequence
-* ***dynamic embedded sequence*** components for each locally customizable part of the sequence
-* ***individual sequence channels*** in the respective locations with a *role* in the display that matches the **dynamic embedded sequence component's *role*.**
+* a ***main sequence channel*** for the global sequence.
+* ***dynamic embedded sequence*** components for each locally customizable part of the sequence.
+* ***individual sequence channels*** in the respective locations with a *role* in the display that matches the **dynamic embedded sequence component's *role***.
 
 >[!NOTE]
 >
@@ -59,13 +59,11 @@ The following section explains the creation of a Dynamic Embedded Sequence in an
 
 ### Prerequisites {#prerequisites}
 
-Before you start implementing this functionality, please make sure you have the following prerequisites ready to start implementing dynamic embedded sequences:
+Before you start implementing this functionality, make sure you have the following prerequisites ready to start implementing dynamic embedded sequences:
 
-* Create an AEM Screens project (in this example, **Demo**)
-
-* Create a channel as **Global** under **Channels** folder
-
-* Add content to your **Global** Channel (*Please check **Resources.zip** for relevant assets*)
+* Create an AEM Screens project (in this example, **Demo**).
+* Create a channel as **Global** under **Channels** folder.
+* Add content to your **Global** Channel (*Check **Resources.zip** for relevant assets*).
 
 The following image shows the **Demo** project with **Global** channel in **Channels** folder.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -78,7 +76,7 @@ You can download the following resources (images and add these to assets) and fu
 
 >[!NOTE]
 >
->For additional information on how to create a project and how to create a sequence channel, please refer to resources below:
+>For additional information on how to create a project and how to create a sequence channel, see the following resources:
 >
 >* **[Creating and Managing Projects](creating-a-screens-project.md)**
 >* **[Managing a Channel](managing-channels.md)**
@@ -94,7 +92,7 @@ Follow the steps below to implement the functionality:
 
 >[!CAUTION]
 >
->While implementing Dynamic Embedded Sequences, please be careful of the **Name** and **Title** fields while creating channels under each location. Please follow the instructions on nomenclature carefully.
+>While implementing Dynamic Embedded Sequences, be careful of the **Name** and **Title** fields while creating channels under each location. Follow the instructions on nomenclature carefully.
 
 1. **Create two Locations Folder.**
 
@@ -104,12 +102,12 @@ Follow the steps below to implement the functionality:
    >
    >While creating the **Region A** location folder, make sure you enter the **Title** as **Region A** and you can leave the **Name** field empty, so automatically **region-a** name is picked up.
    >
-   >Similar, is the case for creating location folder **Region B**, as shown below:
+   >Similar is the case for creating location folder **Region B**, as shown below:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >To learn how to create a location, please refer to **[Creating and Managing Locations](managing-locations.md)**.
+   >To learn how to create a location, see **[Creating and Managing Locations](managing-locations.md)**.
 
 1. **Create two Locations and a Channel under each location folder.**
 
@@ -120,7 +118,7 @@ Follow the steps below to implement the functionality:
 
    >[!CAUTION]
    >
-   >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A** and the **Name** as **region**.
+   >Make sure that while creating channel **Region A**, enter the **Title** as **Region A** and the **Name** as **region**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -128,7 +126,7 @@ Follow the steps below to implement the functionality:
 
    >[!CAUTION]
    >
-   >Please make sure that you can use the same name for the channels created in **Region A** and **Region B** as **region**.
+   >Make sure that you can use the same name for the channels created in **Region A** and **Region B** as **region**.
 
    ![screen_shot_2018-09-13at24408pm](assets/screen_shot_2018-09-13at24408pm.png)
 
@@ -136,30 +134,30 @@ Follow the steps below to implement the functionality:
 
     1. Navigate to **Demo** > **Locations** > **Region A** > **Store 1**.
     1. Select **Store 1** and click **+ Create** from the action bar.
-    1. Select **Display** from the wizard and create **Store1Display.**
-    1. Repeat step (b) and this time select **Sequence Channel** from the wizard. Enter the **Title** as **Store1Channel** and the **Name** as **store**.
+    1. Select **Display** from the wizard and create **`Store1Display`**.
+    1. Repeat step (b) and this time select **Sequence Channel** from the wizard. Enter the **Title** as **`Store1Channel`** and the **Name** as **store**.
 
    >[!CAUTION]
    >
    >It is important when you create a sequence channel, the **Title** of the channel can be as your requirement, but the **Name** should be the same in all the local channels.
-   >In this example, the channels under **Region A** and **Region B** share the same **Name** as **region** and channels under **Store 1**, **Store 2**, **Store 3**, and **Store 4** share the same **Name** as **store**.
+   >In this example, the channels under **Region A** and **Region B** share **Name** as **region** and channels under **`Store 1`**, **`Store 2`**, **`Store 3`**, and **`Store 4`** share **Name** as **store**.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Similarly, create a display as **Store2Display** and a channel **Store2Channel** under **Store 2** (with name as **store**).
+   Similarly, create a display as **`Store2Display`** and a channel **`Store2Channel`** under **`Store `2** (with name as **store**).
 
    >[!NOTE]
-   >Please make sure that you can use the same name for the channels created in **Store 1** and **Store 2** as **store**.
+   >Make sure that you can use the same name for the channels created in **`Store 1`** and **`Store 2`** as **store**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   Follow the preceding steps to create a channel and display in **Store 3** and **Store 4** under **Region B**. Again, please make sure that you use same **Name** as **store** while creating channel **Store3Channel** and **Store4Channel** respectively.
+   Follow the preceding steps so you can create a channel and display in **`Store 3`** and **`Store 4`** under **Region B**. Again, make sure that you use same **Name** as **store** while creating channel **`Store3Channel`** and **`Store4Channel`** respectively.
 
-   The following image shows the display and channel in **Store 3**.
+   The following image shows the display and channel in **`Store 3`**.
 
    ![screen_shot_2018-09-19at120448pm](assets/screen_shot_2018-09-19at120448pm.png)
 
-   The following image shows the display and channel in **Store 4**.
+   The following image shows the display and channel in **`Store 4`**.
 
    ![screen_shot_2018-09-19at120552pm](assets/screen_shot_2018-09-19at120552pm.png)
 
@@ -176,16 +174,16 @@ Follow the steps below to implement the functionality:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
-   Follow the preceding steps and the resources, to add content to the following channels:
+   Follow the preceding steps and the resources so you can add content to the following channels:
 
-    * **Store1Channel**
-    * **Store2Channel**
-    * **Store3Channel**
-    * **Store4Channel**
+    * **`Store1Channel`**
+    * **`Store2Channel`**
+    * **`Store3Channel`**
+    * **`Store4Channel`**
 
 1. **Create a Schedule**
 
-   Navigate and select **Schedules** folder in your AEM Screens project and click **Create** from the action bar to create a new schedule.
+   Navigate and select **Schedules** folder in your AEM Screens project. Then click **Create** from the action bar.
 
    The following image shows the **AdSchedule** created in **Demo** project.
 
@@ -194,8 +192,8 @@ Follow the steps below to implement the functionality:
 1. **Assign Channels to a Schedule**
 
     1. Navigate to **Demo** > **Schedules** > **AdSchedule** and click **Dashboard** from the action bar.
-    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    1. Select **Reference Channel**.. by path.
+    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel so you can open the **Channel Assignment** dialog box.
+    1. Select **Reference Channel** by path.
     1. Select the **Channel Path** as **Demo** > ***Channels*** > ***Global***.
     1. Enter the **Channel Role** as **GlobalAdSegment**.
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen**, and **User Interaction**.
@@ -203,16 +201,16 @@ Follow the steps below to implement the functionality:
 
    **Assign Channel by Role for Region:**
 
-    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    1. Select **Reference Channel**.. by name.
+    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel.
+    1. In the Channel Assignment dialog box, select **Reference Channel** by name.
     1. Enter the **Channel Name** as **region***.
     1. Enter the **Channel Role** as **RegionAdSegment**.
     1. Click **Save**.
 
    **Assign Channel by Role for Store:**
 
-    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    1. Select **Reference Channel**.. by name.
+    1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel.
+    1. In the Channel Assignment dialog box, select **Reference Channel** by name.
     1. Enter the **Channel Name** as **store**.
     1. Enter the **Channel Role** as **StoreAdSegment**.
     1. Click **Save**.
@@ -223,37 +221,37 @@ Follow the steps below to implement the functionality:
 
 1. **Configuring Dynamic Embedded Sequence to the Global Channel.**
 
-   Navigate to the **Global** Channel, you intially created in **Demo** project.
+   Navigate to the **Global** Channel you initially created in **Demo** project.
 
-   Click **Edit** from the action to open the editor.
+   Click **Edit** from the action bar.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
-   Drag and drop two **Dynamic Embedded Sequence** components in the channel editor.
+   In the editor, drag and drop two **Dynamic Embedded Sequence** components in the channel editor.
 
    Open the properties from one of the components and enter the **Channel Assignment Role** as **RegionAdSegment**.
 
-   Similarly, select the other component and open properties to enter the **Channel Assignment Role** as **StoreAdSegment**.
+   Similarly, select the other components and open properties to enter the **Channel Assignment Role** as **StoreAdSegment**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Assigning Schedule to each Display**
 
-    1. Navigate to the each display, such as **Demo** > **Locations** > **Region A** >**Store 1** >**Store1Display**.
-    1. Click **Dashboard** from the action to open the display dashboard.
-    1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
-    1. Select the path to the Schedule (for example, here, **Demo** > **Schedules** >**AdSchedule**).
+    1. Navigate to each display, such as **Demo** > **Locations** > **Region A** >**Store 1** >**`Store1Display`**.
+    1. Click **Dashboard** from the action bar.
+    1. On the dashboard, click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel, and then click **+Assign Schedule**.
+    1. Select the path to the Schedule (for example, here, **Demo** > **Schedules** > **AdSchedule**).
     1. Click **Save**.
 
 ## Viewing the Results {#viewing-the-results}
 
-Once you have the set up for channels and display complete, please launch the AEM Screens player to view the content.
+When you have the setup for channels and display complete, launch the AEM Screens player to view the content.
 
 >[!NOTE]
 >
->To learn about AEM Screen Player, please refer to the following resources:
+>To learn about AEM Screens Player, see the following resources:
 >
->* [AEM Screens player downloads](https://download.macromedia.com/screens/)
+>* [Download the AEM Screens player](https://download.macromedia.com/screens/)
 >* [Working with AEM Screens Player](working-with-screens-player.md)
 
 
@@ -261,13 +259,13 @@ The following output confirms your channel content in AEM Screens player, depend
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** > **Locations** > **Region A** > **Store 1** > **Store1Display**, the following content will display on your AEM Screens player.
+If you assign the display path as **Demo** > **Locations** > **Region A** > **Store 1** > **`Store1Display`**, the following content displays on your AEM Screens player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** > **Locations** > **Region B** > **Store 3** > **Store3Display**, the following content will display on your AEM Screens player.
+If you assign the display path as **Demo** > **Locations** > **Region B** > **Store 3** > **`Store3Display`**, the following content displays on your AEM Screens player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -275,7 +273,7 @@ If you assign the display path as **Demo** > **Locations** > **Region B** > **St
 
 You can create global, regional, or local authors to edit content relevant to them while being restricted from editing channels higher up in the hierarchy.
 
-You need to modify the ACLs to restrict the users access to the content based on their location.
+Edit the ACLs so you can restrict the user's access to the content based on their location.
 
 ### Example Use Case {#example-use-case}
 
@@ -291,13 +289,13 @@ The privileges are assigned to each group are as follows:
 
 * **Store-Author**: Consists of users that have read, write, and edit permissions only to **Store 1**, **Store 2**, **Store 3**, and **Store 4**.
 
-#### Steps for creating User Groups, Users and setting up ACLs {#steps-for-creating-user-groups-users-and-setting-up-acls}
+#### Steps for creating User Groups, Users, and setting up ACLs {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 >
->To learn in detail how to segregate projects using ACLs so that each individual or team handles their own project, please refer to **Setting up ACLs**.
+>To learn in detail how to segregate projects using ACLs so that each individual or team handles their own project, see **Setting up ACLs**.
 
-Follow the steps below to create groups, users and modify the ACLs as per the permissions:
+Follow the steps below to create groups, users, and modify the ACLs as per the permissions:
 
 1. **Create Groups**
 
@@ -349,12 +347,12 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to the **Permissions** tab
     1. Navigate to ***/content/screens/demo*** and check all the permissions
     1. Navigate to ***/content/screens/demo/locations*** and check all the permissions
-    1. Navigate to ***/content/screens/demo/locations/region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
+    1. Navigate to ***/content/screens/demo/locations/region-a*** and check all the permissions. Similarly, check the permissions for **`region-b`**.
 
-   Please refer to the figure below for understanding the steps:
+   See the following figure for understanding the steps:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   The following image shows that now the **Global-User** has access to the **Global Channel** and both the **Region A** and **Region B** with all the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4**.
+   The following shows that the **Global-User** has access to the **Global Channel**, and both **Region A** and **Region B** with all four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4**.
 
    ![global](assets/global.gif)
 
@@ -363,14 +361,14 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to the **Permissions** tab.
     1. Navigate to ***/content/screens/demo*** and check only the **Read** permissions.
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.
-    1. Navigate to ***/content/screens/demo/channels*** and un-check the permissions for **Global** channel.
-    1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
+    1. Navigate to ***/content/screens/demo/channels*** and uncheck the permissions for **Global** channel.
+    1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **`region-b`**.
 
-   Please refer to the figure below for understanding the steps:
+   See the following image so you can understand the steps:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   The following image shows that now the Region-User has access to both the **Region A** and **Region B** with all the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not access to the **Global** Channel.
+   The following shows that the Region-User has access to both **Region A** and **Region B**, with all four stores, namely **Store 1**, **Store 2**, **Store 3**, and **Store 4**, but does not access the **Global** Channel.
 
    ![region](assets/region.gif)
 
@@ -379,18 +377,18 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to the **Permissions** tab.
     1. Navigate to ***/content/screens/demo*** and check only the **Read** permissions.
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.
-    1. Navigate to ***/content/screens/demo/channels*** and un-check the permissions for **Global** channel.
-    1. Navigate to ***/content/screens/demo/locations/region-a*** and check only the **Read** permissions. Similarly, check only the **Read** permissions for **region-b**.
+    1. Navigate to ***/content/screens/demo/channels*** and uncheck the permissions for **Global** channel.
+    1. Navigate to ***/content/screens/demo/locations/region-a*** and check only the **Read** permissions. Similarly, check only the **Read** permissions for **`region-b`**.
     1. Navigate to ***/content/screens/demo/locations***/***region-a /store-1*** and check all the permissions. Similarly, check the permissions for **store-2, store-3,** and **store-4**.
 
-   Please refer to the figure below for understanding the steps:
+   See the following image so you can understand the steps:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A** and **Region B**) channels.
+   The following shows that the **Store-User** has access only to **Store 1**, **Store 2**, **Store 3**, and **Store 4**, but does not have permissions to access the **Global** or region (**Region A** and **Region B**) channels.
 
    ![store](assets/store.gif)
 
 >[!NOTE]
 >
->To learn in detail about setting up permissions, please refer to [Setting up ACLs](setting-up-acls.md).
+>To learn in detail about setting up permissions, see [Setting up ACLs](setting-up-acls.md).
