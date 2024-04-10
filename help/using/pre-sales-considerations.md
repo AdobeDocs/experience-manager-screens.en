@@ -27,4 +27,4 @@ Key deliverables at this stage include:
 >
 >Identify the data that will be needed for the application, and where it is coming from, as soon as possible. While deeper exploration will happen during implementation, take the time during *Day Zero* to find out what data the client intends to use, where that data is stored currently, and how it can be accessed by the application being built. Notifying the development team in advance of challenges that may lie ahead will help to make implementation go more smoothly.
 
-Refer to video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) for more information.
+See video tutorial on [Considerations as Projects are Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) for more information.

@@ -21,7 +21,7 @@ Alternatively, as a content author you can manually click **Update Offline Conte
 
 >[!NOTE]
 >
->To learn how to use bulk offline update, refer to [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
+>To learn how to use bulk offline update, see [Content Update As a Service](/help/user-guide/content-update-as-a-service.md).
 
 ## Configuring Direct Placement Workflow {#configuring-workflow}
 

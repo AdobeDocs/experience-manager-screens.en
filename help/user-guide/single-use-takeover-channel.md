@@ -72,7 +72,7 @@ Follow the steps below to set up a project:
    ![asset](assets/single-takeover6.png)
 
    >[!NOTE]
-   >To learn how to assign a channel to a display, refer to **[Channel Assignment](channel-assignment.md)**.
+   >To learn how to assign a channel to a display, see **[Channel Assignment](channel-assignment.md)**.
 
 1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save**. You have now assigned the **MainAdChannel** to your display.
 

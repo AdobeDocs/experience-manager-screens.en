@@ -29,25 +29,25 @@ The Release Date for AEM Screens Feature Pack 201905 is May 16, 2019.
 
 Project Importer is a feature available in AEM Screens that lets you bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 
-Refer to **[New Project Importer from File](project-importer.md)** for more details.
+See **[New Project Importer from File](project-importer.md)** for more details.
 
 * **Transitioning from ContentSync to SmartSync**
 
 SmartSync minimizes server load/storage and network traffic to reduce cost.
 
-Refer to **[Transitioning from ContentSync to SmartSync](smartsync.md)** for more details.
+See **[Transitioning from ContentSync to SmartSync](smartsync.md)** for more details.
 
 * **Emergency Channel**
 
 This use case example emphasizes on creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
 
-Refer to **[Emergency Channel](emergency-channel.md)** Use Case for more details.
+See **[Emergency Channel](emergency-channel.md)** Use Case for more details.
 
 * **Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics**
 
 This section describes how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor. The editor can be configured by business professionals in AEM. It also describes how to integrate your interactive application with offline Adobe Analytics.
 
-Refer to **[Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics](embedding-react-app.md)** for more details.
+See **[Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics](embedding-react-app.md)** for more details.
 
 ### Released AEM Screens Players
 

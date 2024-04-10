@@ -20,7 +20,7 @@ The Content Assignment Report not only allows a preview of all the Channels, Ass
 ### Pre-requisites {#pre-reqs}
 
 Before you download the Content Assignment Report, make sure you have set up an AEM Screens project with Channels, Locations, and Devices.
-Refer to the following resources for more details:
+See the following resources for more details:
 
 1. [Creating and Managing Projects](/help/user-guide/creating-a-screens-project.md)
 1. [Creating and Managing Channels](/help/user-guide/managing-channels.md)

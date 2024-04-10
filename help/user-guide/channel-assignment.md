@@ -34,7 +34,7 @@ Follow the steps below to assign a channel to a display:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the properties from the **Channel Assignment** dialog box from the section below. Refer to [Channel Properties](#channel-properties) section to learn more about channel properties.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. See [Channel Properties](#channel-properties) section to learn more about channel properties.
 
 ## Understanding Channel Properties from Channel Assignment {#channel-properties}
 
@@ -166,7 +166,7 @@ This example shows the DayParting for a store that displays their winter collect
 
 >[!NOTE]
 >
-> To learn more about DayParting, refer to the sections below:
+> To learn more about DayParting, see the sections below:
 >
 >* [Handling Recurrence in Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [Handling Recurrence for Assets in a Channel](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

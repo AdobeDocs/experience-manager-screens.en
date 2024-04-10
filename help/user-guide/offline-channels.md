@@ -114,4 +114,4 @@ Follow the steps below to enable offline config for a channel:
 
 >[!NOTE]
 >
->To learn more about the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project, refer to [Template for Custom Handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Developing a Custom Component for AEM Screens**.
+>To learn more about the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project, see [Template for Custom Handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Developing a Custom Component for AEM Screens**.

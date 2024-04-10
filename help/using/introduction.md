@@ -26,7 +26,7 @@ Creating and managing a digital signage network using AEM Screens is simple and 
 
 >[!NOTE]
 >
->To learn in detail about different features in an AEM Screens project development and management, refer to **[AEM Screens User Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>To learn in detail about different features in an AEM Screens project development and management, see **[AEM Screens User Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 

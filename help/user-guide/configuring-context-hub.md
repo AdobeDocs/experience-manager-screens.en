@@ -41,7 +41,7 @@ Before you start configuring Context Hub Configurations for an AEM Screens proje
 >
 >Google Sheets is used in the following example as a sample database system from where the values are fetched and is solely for educational purposes. Adobe does not endorse using Google Sheets for production environments.
 >
->For more information, refer to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
+>For more information, see [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentation.
 
 ## Step 1: Setting up a Data Store {#step-setting-up-a-data-store}
 

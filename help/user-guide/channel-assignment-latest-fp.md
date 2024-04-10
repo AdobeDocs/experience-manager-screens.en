@@ -34,7 +34,7 @@ Follow the steps below to set up a project and a channel:
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Refer to [Creating and Managing Projects](creating-a-screens-project.md) to learn how to create an AEM Screens project.
+   >See [Creating and Managing Projects](creating-a-screens-project.md) to learn how to create an AEM Screens project.
 
 1. Create a sequence channel titled as **Cafeteria** in the **Channels** folder.
 
@@ -76,14 +76,14 @@ When the project setup is complete, you must assign the channel to a display to 
 
    >[!NOTE]
    >
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >See [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. From the **Schedule** option, select the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Refer to [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
+   >See [Channel Properties](#channel-properties) section to learn more about channel assignment properties.
 
 1. Click **Save** once you have configured your preferences.
 
@@ -91,7 +91,7 @@ When the project setup is complete, you must assign the channel to a display to 
 
 This example showcases the output on a Chrome Player. Once you have assigned the channel to your display, you must register the device to a player.
 
-Refer to [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
+See [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
 
 You can view the following output on your choice of player:
 

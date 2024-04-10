@@ -11,7 +11,7 @@ It is a recommended best practice to think of any enterprise-level AEM Screens p
 
 ## Guidelines before Developing a Digital Signage Strategy {#signage-strategy}
 
-Refer to the few recommendations before developing and deploying a digital signage project:
+See the few recommendations before developing and deploying a digital signage project:
 
 * **Scope Control**:
  If the desired solution is ambitious, it is recommended that you divide the deliverables into discrete phases to control the scope of the project.

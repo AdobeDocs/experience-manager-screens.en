@@ -30,7 +30,7 @@ Follow the steps below to apply renditions to the assets, that you want to use i
 
 1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
 
-1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. Refer to [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
+1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. See [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
 
 1. Click on **Add Rendition** to upload the rendition, as shown in the figure below.
 
@@ -43,7 +43,7 @@ Follow the steps below to apply renditions to the assets, that you want to use i
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Refer to [On-Demand Content Update](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) to learn more about  managing Publication and delivering content updates from Author to Publish to device.
+   >See [On-Demand Content Update](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) to learn more about  managing Publication and delivering content updates from Author to Publish to device.
 
 
 ## Migration Strategy {#migration-strategy}

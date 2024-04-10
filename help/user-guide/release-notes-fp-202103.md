@@ -27,14 +27,14 @@ The Release Date for AEM Screens Feature Pack 202103 is March 05, 2021.
 
    Bulk registering thousands of players manually is cumbersome and adds time and cost. To simplify this process, the Auto Registration of players feature lets you specify a pre-shared key in AEM. This key can be provisioned into a player either through a configuration file or a Mobile Device Management (MDM) solution.
    
-   Refer to [Auto Registration of Players](/help/user-guide/auto-registration-players.md) for more details.
+   See [Auto Registration of Players](/help/user-guide/auto-registration-players.md) for more details.
 
 
 * **Bulk Provisioning of Android&trade; Player using Enterprise Mobility Management**
    
    When deploying the Android&trade; player in bulk, it becomes tedious to manually register every player with AEM. It is highly recommended to use an EMM (Enterprise Mobility Management) solution such as `VMWare Airwatch`, `MobileIron`, or `Samsung Knox` to remotely provision and manage your deployment. AEM Screens Android&trade; player supports the industry standard EMM AppConfig to allow for remote provisioning.
 
-   Refer to [Bulk Provisioning of Android&trade; Player using Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) for more details.
+   See [Bulk Provisioning of Android&trade; Player using Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) for more details.
 
 
 ### Bug Fixes {#bug-fixes}
@@ -65,4 +65,4 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 7:
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

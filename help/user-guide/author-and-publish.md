@@ -32,7 +32,7 @@ Before getting started with Author and Publish Servers, you should have prior kn
 
 >[!NOTE]
 >
->To learn more about the Author and Publish architectural overview and how the content is authored on an AEM Author instance and then forward-replicated to multiple Publish instances, refer to [Author and Publish Architectural Overview](author-publish-architecture-overview.md).
+>To learn more about the Author and Publish architectural overview and how the content is authored on an AEM Author instance and then forward-replicated to multiple Publish instances, see [Author and Publish Architectural Overview](author-publish-architecture-overview.md).
 
 The following section explains how to set up replication agents on Author and Publish topology.
 
@@ -300,7 +300,7 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-The **Manage Publication** feature lets you deliver content updates from Author to Publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule. To learn more about this feature, refer to [On-Demand Content Update](on-demand-content.md).
+The **Manage Publication** feature lets you deliver content updates from Author to Publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule. To learn more about this feature, see [On-Demand Content Update](on-demand-content.md).
 
 ## Troubleshooting Tips {#troubleshoot-tips}
 

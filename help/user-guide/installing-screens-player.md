@@ -72,10 +72,10 @@ Few limitations to basic playback monitoring are listed below:
 
 ### Additional Resources {#additional-resources}
 
-Refer to the following topics for an in-depth information:
+See the following topics for an in-depth information:
 
-* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, refer to [Implementing Android player](implementing-android-player.md).
+* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, see [Implementing Android player](implementing-android-player.md).
 
-* To implement Chrome OS Player, refer to [Chrome Management Console](implementing-chrome-os-player.md) for more information.
+* To implement Chrome OS Player, see [Chrome Management Console](implementing-chrome-os-player.md) for more information.
 
-* To configure AEM Screens Windows player, refer to [Implementing Windows Player](implementing-windows-player.md).
+* To configure AEM Screens Windows player, see [Implementing Windows Player](implementing-windows-player.md).

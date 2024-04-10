@@ -59,18 +59,18 @@ To edit the contents in the REACT app:
 
 Follow the steps below to add the interactive REACT app to AEM Screens:
 
-1. Create a new AEM Screens project. Refer to [Creating and Managing Projects](creating-a-screens-project.md) for more details.
+1. Create a new AEM Screens project. See [Creating and Managing Projects](creating-a-screens-project.md) for more details.
 
 1. Create a new **Application Channel** (preferably) (or 1x1 template, or multi-zone channel) in the **Channels** folder of your Screens project.
 
     >[!NOTE]
     >**Sequence Channels** are discouraged for this use case sine they inherently come with a slideshow logic that will conflict with the interactive nature of the experience
-    >Refer to [Creating and Managing Channels](managing-channels.md) for more details.
+    >See [Creating and Managing Channels](managing-channels.md) for more details.
 
 
 1. Edit any sequence channel and drag and drop an embedded page component.
 
-   Refer to [Adding Components to a Channel](adding-components-to-a-channel.md) for more details.
+   See [Adding Components to a Channel](adding-components-to-a-channel.md) for more details.
 
    >[!NOTE]
    >
@@ -91,7 +91,7 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
 
 1. Register a player against this project and assign it to the display. You should now be able to see your interactive application running on AEM Screens.
 
-   Refer to [Device Registration](device-registration.md) to learn in detail about registering a device.
+   See [Device Registration](device-registration.md) to learn in detail about registering a device.
 
 ## Integrating the SPA with Adobe Analytics with Offline Capability through AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -99,12 +99,12 @@ Follow the steps below to integrate the SPA with Adobe Analytics with offline ca
 
 1. Configure Adobe Analytics in AEM Screens.
 
-   Refer to [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
+   See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
 
 1. Edit your react app in the IDE/editor of your choice (especially the text component or other component which you wish to start emitting events).
 1. On the click event or other event that you wish to capture for your component, add the analytics information using the standard data model.
 
-   Refer to [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)s for more details.
+   See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)s for more details.
 
 1. Call the AEM Screens Analytics API to save the event offline and send it in bursts to Adobe Analytics.
 

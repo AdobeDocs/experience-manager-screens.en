@@ -21,7 +21,7 @@ Consider how the Screens application can help to achieve this and determine KPIs
 >
 >You must consider that the experience must operate offline with limited bandwidth.
 
-You must refer to these few questions that should be answered when building a content strategy for your AEM Screens project:
+You must see these few questions that should be answered when building a content strategy for your AEM Screens project:
 
 * Who is the target audience and what is the anticipated dwell time?
 * What content needs to be shown to them?

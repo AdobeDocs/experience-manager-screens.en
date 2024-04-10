@@ -42,7 +42,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    >[!NOTE]
    >
-   >To learn how to create a channel or add content to a channel, refer to [Creating and Managing Channels](/help/user-guide/managing-channels.md)
+   >To learn how to create a channel or add content to a channel, see [Creating and Managing Channels](/help/user-guide/managing-channels.md)
 
    The channel contains the following content, as shown in the figure below.
 
@@ -56,7 +56,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    >[!NOTE]
    >
-   >To learn how to assign a channel to a display, refer to [Creating and Managing Displays](/help/user-guide/managing-displays.md).
+   >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
 1. Navigate to **Devices** folder and click **Device Manager** from the action bar to register the devices.
 
@@ -64,7 +64,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    >[!NOTE]
    >
-   >To learn how to register a device, refer to [Device Registration](/help/user-guide/device-registration.md)
+   >To learn how to register a device, see [Device Registration](/help/user-guide/device-registration.md)
 
 1. For demo purposes, this example showcases a chrome device and a windows player as two separate devices. Both the devices point to the same display.
    ![image1](assets/command-sync6.png)

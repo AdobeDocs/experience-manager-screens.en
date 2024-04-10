@@ -21,7 +21,7 @@ Make sure you consider the following elements before implementing your AEM Scree
 * **Scheduling**
 * **Previewing the content**
 
-To learn about these terms, refer to [Glossary](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+To learn about these terms, see [Glossary](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >

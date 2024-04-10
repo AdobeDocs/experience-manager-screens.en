@@ -106,4 +106,4 @@ Once a device has been registered on the author environment the device configura
 
 ### The Next Steps {#the-next-steps}
 
-Once you understand the architectural design of author and publish setup in AEM Screens, refer to [Configuring Author and Publish for AEM Screens](author-and-publish.md) for more details.
+Once you understand the architectural design of author and publish setup in AEM Screens, see [Configuring Author and Publish for AEM Screens](author-and-publish.md) for more details.

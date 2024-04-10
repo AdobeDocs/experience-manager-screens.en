@@ -52,7 +52,7 @@ This module allows you to:
 1. Manage content downloads
 1. Manage application restart issues
 
-To learn  in detail about ***Device Control Center***, refer to [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens User Guide**.
+To learn  in detail about ***Device Control Center***, see [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens User Guide**.
 
 >[!CAUTION]
 >

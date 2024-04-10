@@ -15,7 +15,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 
 >[!CAUTION]
 >
->This AEM Screens functionality is only available, if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4. For AEM Screens cloud service customers, Please contact your Adobe Relationship Manager to enable Adobe Analytics in Screens Cloud.
+>This AEM Screens functionality is only available, if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4. For AEM Screens cloud service customers, Contact your Adobe Relationship Manager to enable Adobe Analytics in Screens Cloud.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Navigate to **Adobe Experience Manager Web Console Configuration** to configure 
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Before you configure the properties, contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 ![]()
 
@@ -75,7 +75,7 @@ Navigate to **Adobe Experience Manager Web Console Configuration** to configure 
 
 >[!CAUTION]
 >
->Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
+>Before you configure the properties, contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
 The following table highlights the properties with their description for configure Adobe Analytics for AEM Screens:
 

@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202109
-description: Follow this page to get information for AEM Screens Feature Pack 202109 released on September 23, 2021.
+description: Learn about the AEM Screens Feature Pack 202109 that was released on September 23, 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 # Release Notes for Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+>It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
@@ -25,17 +25,17 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Thumbnail Support for Videos**
 
-   Thumbnail Support for videos in now supported in AEM Screens. A content author can define a thumbnail for videos so that the image can be used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used, in case the playback of the video fails.
+   Thumbnail Support for videos in now supported in AEM Screens. A content author defines a thumbnail for videos so that the image is used as a placeholder. They also properly test content playback and targeting, while the actual video is finalized by the appropriate team. The image can also be used in case the playback of the video fails.
    See [Thumbnail Support for Videos](/help/user-guide/thumbnail-support.md) for more details.
 
 * **Basic Playback Monitoring**
 
-   AEM Screens now supports basic playback monitoring. The player will now report various playback metrics with each ping (defaults to 30 seconds). Based on the metrics, it provides the ability to detect various edge cases (stuck experience, blank screen, scheduling problem, etc.). This feature allows the team to remotely monitor if a player is properly playing content, improves reactivity to blank screens or broken experiences in the field, and decreases the risk of showing a broken experience to the end user.
-   See [Basic Playback Monitoring](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) for more details.
+   AEM Screens now supports basic playback monitoring. The player now reports various playback metrics with each ping (defaults to 30 seconds). Based on the metrics, it detects various edge cases (stuck experience, blank screen, scheduling problem, and so on). This feature lets the team remotely monitor if a player is properly playing content and improves reactivity to blank screens or broken experiences in the field. It also decreases the risk of showing a broken experience to the end user.
+   See [Basic Playback Monitoring](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) for more details.
 
 * **Updates to Content Assignment Report**
 
-   Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
+   Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player-related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
    See [Content Assignment Report](/help/user-guide/content-assignment-report.md) for more details.
 
 * **Adaptive Renditions**
@@ -44,35 +44,35 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
    
    As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. See [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md) for more details.
 
-   Additionally, as an AEM Screens Content Author, you can configure your assets to use Adaptive Renditions and also migrate your devices for large networks to avail this feature, in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more details. 
+   Also, as an AEM Screens Content Author, you can configure your assets to use Adaptive Renditions. You can also migrate your devices for large networks to use this feature in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more details. 
 
 * **Support for V3 Manifests**
 
-   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, you need to :
+   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, you must :
 
-   * Clear any pending offline content jobs in both author and published
+   * Clear any pending offline content jobs in both author and published.
 
-      * Navigate to crx/de in author and publish
+      * Navigate to CRXDE Lite in Author and Publish.
 
-      * Click on Tools > Query
+      * Click Tools > Query.
 
-      * In the query use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * In the query, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * This will list any offline content jobs that are currently running or pending in the queue
+      * This lists any offline content jobs that are currently running or pending in the queue.
 
-      * Wait until there are no more offline content jobs returned from the query
+      * Wait until there are no more offline content jobs returned from the query.
 
-   * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   * Disable ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
    
-   * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * Enable SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
    
-   * Update dispatcher
+   * Update Dispatcher.
 
-   * Update custom component
+   * Update custom component.
 
    
-   * See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) for more details.
-   * If you are using custom components as a part of v3 manifests, see [Template for Custom Handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) for more details.
+   * If you are using custom components as a part of v3 manifests, see [Template for Custom Handlers](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
    
 
 ### Bug Fixes {#bug-fixes}
@@ -83,7 +83,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * The players now only expose asset renditions, if rendition mapping is present.
 
-* Enhanced ping to re-authenticate if response is not valid JSON.
+* Enhanced ping to reauthenticate if response is not valid JSON.
 
 * Numeric channel names/roles caused blank screen.
 
@@ -93,11 +93,11 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Removed access to `cmd.exe` and `reg.exe` in the windows player.
 
-* A player needs to report its last successful playback event.
+* A player must report its last successful playback event.
 
-* A player needs to report its playback status.
+* A player must report its playback status.
 
-* Player does not re-download Assets when `ALL` Cache is cleared.
+* Player does not redownload Assets when `ALL` Cache is cleared.
 
 * As a Player Admin, you can now choose a player name.
 
@@ -112,7 +112,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 **Server Side**
 
 * Target video is not showing
-* Race condition on broadcasting display data to subsequences.
+* Race conditions on broadcasting display data to subsequences.
 
 * Channel Preview does not work for Channels containing Videos.
 
@@ -122,11 +122,11 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Automatically update channel manifest if referenced page is published.
 
-* Deleted devices now does not block the Screens replication queue.
+* Deleted devices now do not block the Screens replication queue.
 
 * Manifest did not contain targeted content nor Sites embedded pages. This has now been fixed.
 
-* New core image component are now added to the channel manifest.
+* New core image component is now added to the channel manifest.
 
 * Downloading optimized renditions via SmartSync is now supported.
 
@@ -140,20 +140,20 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Empty dynamic embedded sequence sometimes caused blank screen.
 
-* Player now report its playback status.
+* Player now reports its playback status.
 
 * Video was playing in `Tiny mode` and not played as full screen video on device and the issue is fixed now.
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
 The following AEM Screens Players are released for AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android&trade;
+* Linux&reg;
 
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, refer to **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

@@ -63,4 +63,4 @@ Follow this concluding tutorial to a 5-part series tutorial below that stresses 
 
 ## Conclusion {#conclusion}
 
-These 5 part series are focused on key considerations critical to ensuring your project’s success. Refer to other sections of the AEM Screens User Guide for implementation details.
+These 5 part series are focused on key considerations critical to ensuring your project’s success. See other sections of the AEM Screens User Guide for implementation details.
