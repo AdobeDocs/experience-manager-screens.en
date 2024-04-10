@@ -96,7 +96,7 @@ The following validation is what you view when you check your connection by ente
       >
       >1. Navigate to CRXDE Lite and then to `/conf/screens/settings/cloudsettings`. 
       >1. Check if `cloudsettings jcr:primaryType` is in `sling:Folder`. If the `jcr:primaryType` is not in `sling:folder`, proceed to the next steps.
-      >1. Right-click `/conf/screens/settings` and create a node with *name* as **cloudsettings1** and *Type* as **sling:Folder** and save the changes.
+      >1. Right-click `/conf/screens/settings` and create a node with *name* as **`cloudsettings1`** and *Type* as **`sling:Folder`** and save the changes.
       >1. Move all the nodes under `/conf/screens/settings/cloudsettings` to `cloudsettings1`.
       >1. Delete `cloudsettings` and save.
       >1. Rename `cloudsettings1` to `cloudsettings` and save.
@@ -104,10 +104,10 @@ The following validation is what you view when you check your connection by ente
       >
       >Follow these steps in Author and Publish before or after the upgrade.
 
-   1. Enter the **Title** as **Google Sheets**, **Store Name** as **googlesheets**, and **Store Type** as **contexthub.generic-jsonp** and click **Next**.
+   1. Enter the **Title** as **Google Sheets**, **Store Name** as **`googlesheets`**, and **Store Type** as **c`ontexthub.generic-jsonp`** and click **Next**.
 
       >[!CAUTION]
-      >If you are using Adobe Experience Manager (AEM) 6.4, enter the **Configuration Title** as **googlesheets** and the **Store Type** as **contexthub.generic-jsonp**.
+      >If you are using Adobe Experience Manager (AEM) 6.4, enter the **Configuration Title** as **`googlesheets`** and the **Store Type** as **c`ontexthub.generic-jsonp`**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
