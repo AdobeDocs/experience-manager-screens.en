@@ -61,13 +61,13 @@ To do bulk provisioning of cloud player on multiple devices:
 
 ## Bulk Provisioning on Chrome OS {#bulk-provisioning-chrome}
 
-Learn more about bulk provisioning on Chrome OS, see [Install Cloud Player on Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Learn more about bulk provisioning on Chrome OS, see [Install Cloud Player on Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## Configuration required on AEM instances {#bulk-provisioning-config-aem}
 
 Based on type of the AEM instance, select one of the following guides to enable CORS b/w AEM  & cloud player: 
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
