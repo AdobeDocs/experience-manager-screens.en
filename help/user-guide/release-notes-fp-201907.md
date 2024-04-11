@@ -1,14 +1,10 @@
 ---
 title: Release Notes for Feature Pack 201907
-seo-title: Release Notes for Feature Pack 201907
-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: Learn about the AEM Screens Feature Pack 201907 that was released on July 31, 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
@@ -19,7 +15,7 @@ exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
 
 >[!CAUTION]
 >
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 AEM Screens released AEM 6.4.5 Feature Pack 5 and AEM 6.5.1 Feature Pack 1 with the following details.
 
@@ -51,25 +47,25 @@ After you have configured ContextHub for your AEM Screens project, follow differ
 
 * **Improvements in Update Handlers**
 
-The update handler now parses the experience fragments and collects any image, video or product associated to it.
+The update handler now parses the experience fragments and collects any image, video, or product associated to it.
 
 * **Launches**
 
-Launches allow content authors to create future version of the channel(s). With the help of launches, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group will get notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
+Launches let content authors create future versions of the channels. With the help of Launches, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group gets notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
 See [Launches](launches.md) for more details.
 
 * **Offline Configurations in Experience Fragments**
 
-You can now add offline configs (client-side libraries and static files) while configuring Screens experience fragment. See [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
+You can now add offline configs (client-side libraries and static files) while configuring Screens Experience Fragment. See [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
 The following AEM Screens Players are released for AEM 6.4.5 Feature Pack 5 and AEM 6.5.1 Feature Pack 1:
 
 * ChromeOS
 * Windows
-* Android
+* Android&trade;
 
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
 To download the latest AEM Screens player and learn more about the bug fixes, see [AEM Screens Player Downloads](https://download.macromedia.com/screens/).
