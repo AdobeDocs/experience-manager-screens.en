@@ -1,14 +1,10 @@
 ---
 title: Travel Center Temperature Activation
-seo-title: Travel Center Temperature Activation
-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Using AEM Screens, learn how this use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
@@ -21,7 +17,7 @@ The following use case demonstrates the usage of travel center local temperature
 
 ## Description {#description}
 
-For this Use Case, if your Google Sheets has Value less than 50, then an image with hot drinks will display and if the value is greater than or equal to 50, then the image with cold drinks will display. In case of some other or no value, the player will display a default image.
+For this Use Case, if the value in Google Sheets is less than 50, then an image with hot drinks displays. If the value is greater than or equal to 50, then an image with cold drinks displays. If there is some other value or no value at all, the player displays a default image.
 
 ## Preconditions {#preconditions}
 
@@ -36,7 +32,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 1. **Populating the Google Sheets**
 
     1. Navigate to the ContextHubDemo Google Sheet.
-    1. Add a column with **Heading1** with corresponding value for temperature.
+    1. Add a column with **`Heading1`** with corresponding value for temperature.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -46,7 +42,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
     1. Select the **Sheets A1 1** and click **Edit**.
 
-    1. Select the comparison property and click the configure icon to edit the properties.
+    1. Select the comparison property and click the configuration icon.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
     1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
@@ -55,7 +51,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
     1. Similarly, Select the **Sheets A1 2** and click **Edit**.
 
-    1. Select the **Comparison Property - Value** and click the configure icon to edit the properties.
+    1. Select the **Comparison Property - Value** and click the configuration icon.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
     1. Select the **Operator** as **less-than** from the drop-down menu
@@ -83,6 +79,6 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 1. **Checking the Preview**
 
     1. Click **Preview.** Also, open your Google Sheet and update its value.
-    1. Change the value to less than 50, you should be able to view the an image of summer drinks. If the value in the Google Sheet is 50 or greater than should be able to view the an image of hot drink.
+    1. Change the value to less than 50. You should be able to view an image of a cold drink. If the value in Google Sheets is 50 or greater, you should see an image of a hot drink.
 
     ![result3](assets/result3.gif)
