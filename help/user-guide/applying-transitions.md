@@ -1,9 +1,6 @@
 ---
 title: Applying Transitions
-seo-title: Applying Transitions
-description: Follow this page to learn how to apply transitions to your Screens projects.
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: Learn how to apply transitions to your AEM Screens projects.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -13,7 +10,6 @@ exl-id: 757e6751-8008-487f-be89-9f53ac898928
 # Applying Transitions {#applying-transitions}
 
 This section describes how you can apply the **Transition** component in-between different assets (images and videos) and embedded sequences in a channel.
-
 
 >[!CAUTION]
 >
@@ -27,7 +23,7 @@ Follow the steps below to add a transition component to your AEM Screens project
 >
 >**Prerequisites**
 >
->Create an AEM Screens project **TestProject** with a channel **TestTransition**. Additionally, set up a location and a display to view the output.
+>Create an AEM Screens project **TestProject** with a channel **TestTransition**. Also, set up a location and a display to view the output.
 
 1. Navigate to the Channel **TestTransition** and click **Edit** from the action bar.
 
@@ -41,6 +37,7 @@ Follow the steps below to add a transition component to your AEM Screens project
    
 
 1. Drag and drop the **Transition** component to your editor.
+
    >[!CAUTION]
    >
    >Before you add the transition to your assets in your channel, make sure you do not add transition before the first asset in the sequential channel. The first item in your channel must be an asset and not a transition.
@@ -49,8 +46,8 @@ Follow the steps below to add a transition component to your AEM Screens project
 
    >[!NOTE]
    >
-   >By default, the properties of the transition component such as **Type** is set to **Fade** and the **Duration** is set to *1600 ms*.  Additionally,  it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
+   >By default, the properties of the transition component such as **Type** is set to **Fade** and the **Duration** is set to *1600 milliseconds*. Also, it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
 
-1. Additionally, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end, so that the content plays in order, as demonstrated in the figure below:
+1. Also, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end. This ensures that the content plays in the correct order, as seen in the following image:
 
    ![image3](assets/transitions5.png)
