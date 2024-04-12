@@ -69,8 +69,6 @@ Navigate to **Adobe Experience Manager Web Console Configuration** so you can co
 >
 >Before you configure the properties, contact your Adobe Relationship Manager to create a ticket to obtain an **Analytics API Key** and **Analytics Project** for use with AEM Screens.
 
-![]()
-
 ### Configuring the Properties {#configuring-the-properties}
 
 >[!CAUTION]
