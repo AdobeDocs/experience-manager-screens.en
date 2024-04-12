@@ -27,7 +27,7 @@ This tutorial covers the following points relevant to a successful deployment of
 
 >[!NOTE]
 >
->Typical Sales cycles for Digital Signage deployment at scale can range from 9&ndash;18 months. There are many factors involved that affect the final time line, not the least of which is how the end-client measures success and how risk averse their business partners are when introducing a new solution.
+>Typical Sales cycles for Digital Signage deployment at scale can range from 9 through 18 months. There are many factors involved that affect the final time line, not the least of which is how the end-client measures success and how risk averse their business partners are when introducing a new solution.
 
 For example, stakeholders for a digital signage program in a retail environment could include the following:
 
