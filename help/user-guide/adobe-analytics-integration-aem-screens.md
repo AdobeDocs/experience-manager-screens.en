@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics Integration with AEM Screens
-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
+description: Learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -15,7 +15,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 
 >[!CAUTION]
 >
->This AEM Screens functionality is only available, if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4. For AEM Screens cloud service customers, Contact your Adobe Relationship Manager to enable Adobe Analytics in Screens Cloud.
+>This AEM Screens functionality is only available if you have installed minimum version of AEM 6.4.2 Feature Pack 2 or AEM 6.3.3 Feature Pack 4. For AEM Screens cloud service customers, Contact your Adobe Relationship Manager to enable Adobe Analytics in Screens Cloud.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ This section covers the following topics:
 
 ## Overview {#overview}
 
-***AEM Screens*** leverages Adobe Analytics, and with that you can achieve something unique in the market - cross-channel analytics that help correlate content shown in location with other data sources.
+***AEM Screens*** uses Adobe Analytics, and with that you can achieve something unique in the market - cross-channel analytics that help correlate content shown in location with other data sources.
 
 AEM Screens provides an out of the box integration with Adobe Analytics and provides you with a proof of play.
 
@@ -49,7 +49,7 @@ Adobe Analytics Integration with AEM Screens thus enforces the following *goals*
 
 ## Architectural Details {#architectural-details}
 
-An AEM Screens customers wants to understand what content was shown at what time, and for how long (aggregated). This is common capability of signage solution. Instead of building our own analytics, AEM Screens will leverage Adobe Analytics, and with that we can achieve something unique in the market - cross-channel analytics that help correlate content shown in location with other data sources.
+An AEM Screens customer wants to understand what content was shown at what time, and for how long (aggregated). This is common capability of signage solution. Instead of building a separate analytics application, AEM Screens uses Adobe Analytics. The combination lets us achieve something unique in the market - cross-channel analytics that help correlate content shown in location with other data sources.
 
 The following architectural diagram explains the Adobe Analytics Integration with AEM Screens:
 
@@ -59,7 +59,7 @@ The following architectural diagram explains the Adobe Analytics Integration wit
 
 The Adobe Analytics settings can be configured from the OSGi console.
 
-Navigate to **Adobe Experience Manager Web Console Configuration** to configure Adobe Analytics for AEM Screens, as shown in the figure below:
+Navigate to **Adobe Experience Manager Web Console Configuration** so you can configure Adobe Analytics for AEM Screens.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -115,7 +115,7 @@ The following table highlights the properties with their description for configu
 
 #### Using Adobe Analytics Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-This scenario invokes Analytics API through REST calls from an analytics service in the firmware and instrument screens-core components to explicitly create and send events specific to a particular use case while allowing extensibility where any custom message can be sent to Analytics from a custom developed channel.
+This scenario invokes the Analytics API through REST calls from an analytics service in the firmware. It also  instruments AEM screens-core components to explicitly create and send events specific to a particular use case. All this while allowing extensibility where any custom message can be sent to Analytics from a custom-developed channel.
 
 Analytics events are stored offline in indexedDB and later chunked and sent to the cloud.
 
