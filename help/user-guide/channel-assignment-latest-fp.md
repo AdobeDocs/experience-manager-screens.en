@@ -12,7 +12,7 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 >
 >This section highlights the channel assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
 
-Once you have set up a display, you must assign a channel to a display to view your content.
+When you have set up a display, assign a channel to a display to view your content.
 
 This page shows assigning a channel to your display, understand channel properties, and DayParting.
 
@@ -89,7 +89,7 @@ When the project setup is complete, you must assign the channel to a display to 
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
-This example showcases the output on a Chrome Player. Once you have assigned the channel to your display, you must register the device to a player.
+This example showcases the output on a Chrome Player. When you have assigned the channel to your display, register the device to a player.
 
 To learn how to register a device on an AEM Screens player, see [Device Registration](device-registration.md).
 

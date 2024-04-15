@@ -10,7 +10,7 @@ exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 
 >[!CAUTION]
 >
->Upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 

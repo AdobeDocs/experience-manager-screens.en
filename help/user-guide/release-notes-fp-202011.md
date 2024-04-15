@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202011
-description: "Follow this page to get information for AEM Screens Feature Pack 202011 released on November 30, 2020."
+description: Learn more about the AEM Screens Feature Pack 202011 that was released on November 30, 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: b080a697-0e65-4ae1-a161-669c3098246b
 # Release Notes for Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
@@ -43,16 +43,16 @@ The Release Date for AEM Screens Feature Pack 202011 is November 30, 2020.
 
    The default ping interval is now set to 30 seconds in this release.
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
 The following AEM Screens Players are released for AEM 6.5 Feature Pack 6:
 
 * Chrome OS
 * Windows
-* Android
+* Android&trade;
 * Tizen
-* Linux
+* Linux&reg;
 
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
 To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

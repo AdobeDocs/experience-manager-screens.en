@@ -1,14 +1,10 @@
 ---
 title: Creating a Video Padding Workflow
-seo-title: Creating a Video Padding Workflow
-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: Learn more about creating a video padding in the workflow for your assets.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
@@ -31,7 +27,7 @@ This section covers the following topics:
 
 The following use case involves placing a video (example: 1280 x 720) in a channel where the display is 1920 x 1080 and having the video be placed at 0x0 (upper left). The video should not be stretched or modified in any way and do not use **Cover** in the video component.
 
-The video will be displayed as an object from pixel 1 to pixel 1280 across and from pixel 1 to pixel 720 down and the rest of the channel will be default color.
+The video is displayed as an object from pixel 1 to pixel 1280 across and from pixel 1 to pixel 720 down and the rest of the channel is the default color.
 
 ## Prerequisites {#prerequisites}
 
@@ -55,7 +51,9 @@ Follow the steps below to create and use the workflow:
 
 Follow the steps below to create a workflow for your video:
 
-1. Navigate to your AEM instance and click tools from side rail. Select **Workflow** > **Models** to create a new model.
+1. Navigate to your AEM instance.
+1. Click tools from side rail. 
+1. Select **Workflow** > **Models** so you can create a model.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -67,27 +65,27 @@ Follow the steps below to create a workflow for your video:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Drag and drop the **Command Line** component to your workflow.
+1. Drag and drop the **`Command Line`** component to your workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Select the **Command Line** component and open the properties dialog box.
+1. Select the **`Command Line`** component and open the properties dialog box.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Select the **Arguments** tab to enter the fields in the **Command Line - Step Properties** dialog box.
-
-   Enter the format in the **Mime Types** (as ***video/mp4***) and the command as (***/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4***) to start the workflow in the **Commands** field.
+1. Select the **Arguments** tab.
+1. In the **Command Line - Step Properties** dialog box, enter the format in the **Mime Types** (as ***video/mp4***) and the command as (***/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4***). This command starts the workflow in the **Commands** field.
 
    See the details on **Mime Types** and **Commands** in the note below.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Select the workflow (**VideoRenditions**) and click **Start Workflow** from the action bar to open the **Run Workflow** dialog box.
+1. Select the workflow (**VideoRenditions**).
+1. Click **Start Workflow** from the action bar.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
+1. In the **Run Workflow** dialog box, select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 

@@ -1,8 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202004
-seo-title: Release Notes for Feature Pack 202004
-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Learn more about the AEM Screens Feature Pack 202004 that was released on April 20, 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,7 +10,7 @@ exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
 
 >[!CAUTION]
 >
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
@@ -28,9 +26,9 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
 * **Playback Interruption Strategy Options**
 
-    As a content author, you should be able to specify when a channel is interrupted so you can choose to cut off non-critical content, but have the option to let important content fully play before cutting off playback because of scheduling.
+    As a content author, specify when a channel is interrupted so you can choose to cut off non-critical content, but optionally let important content play entirely before cutting off play because of scheduling.
 
-    See the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)** to learn more about options available from **Channel Assignment** dialog box to implement this feature in your AEM Screens project.
+    To learn more about options available from **Channel Assignment** dialog box to implement this feature in your AEM Screens project, see the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
@@ -53,7 +51,7 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
    While adding test to the text overlay function, the font size is precise and improved.
 
-   See **[Text Overlay](text-overlay.md)** to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. 
+   To create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image, see **[Text Overlay](text-overlay.md)**. 
 
 * **Improvements in Command Sync**
 
@@ -61,14 +59,14 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
    See **[Command Sync](using-command-sync.md)** for more details.
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
 The following AEM Screens Players are released for AEM Screens released AEM 6.4 Feature Pack 8 and AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
-* Android
+* Android&trade;
 
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
 To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.

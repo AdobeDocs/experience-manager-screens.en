@@ -9,7 +9,7 @@ exl-id: 9879f339-e70f-446d-acd3-380016269f27
 # Release Notes for Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). Get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Availability {#availability}
 

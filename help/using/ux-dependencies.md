@@ -1,8 +1,6 @@
 ---
-title: UX Dependencies for [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: UX Dependencies for AEM Screens
+description: Learn more about UX dependencies for AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 ---
 # UX Dependencies {#ux-dependencies}
@@ -25,9 +23,9 @@ The following questions should be considered while defining hardware content str
    * Is it wayfinding?
    * Does it show advertisements?
 
-1. How are connections and network wiring set up?
+1. How are connections and network wiring setup?
 
-1. How often will the computers and connection be on and off?
+1. How frequently are the computers and the connections on and off?
 
 1. Does the fixture design support accessibility?
 

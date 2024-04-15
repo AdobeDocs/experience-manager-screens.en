@@ -9,7 +9,7 @@ exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 # Release Notes for Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
