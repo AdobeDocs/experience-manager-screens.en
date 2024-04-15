@@ -1,13 +1,9 @@
 ---
 title: Emergency Channel
-seo-title: Emergency Channel
-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: Learn about creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
@@ -18,7 +14,7 @@ exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 
 ## Use Case Description {#use-case-description}
 
-This section describes a use case example that emphasizes on creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
+This section describes a use case example that emphasizes on creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
 
 ### Preconditions {#preconditions}
 
@@ -46,7 +42,7 @@ Follow the steps below to set up an emergency channel:
 
 1. **Creating a Sequence Channel**
 
-    1. Select the **Channels** folder and click **Create** to open the wizard to create a channel.
+    1. Select the **Channels** folder and click **Create**.
 
     1. Select **Sequence Channel** from the wizard and create the channel titled as **MainAdChannel**.
 
@@ -55,14 +51,15 @@ Follow the steps below to set up an emergency channel:
 1. **Adding Content to Sequence Channel**
 
     1. Select the channel (**MainAdChannel**).
-    1. Click **Edit** from the action bar to open the editor. Drag and drop few assets to your channel.
+    1. Click **Edit** from the action bar.
+    1. Drag-and-drop few assets to your channel.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Creating an Emergency Channel**
 
     1. Select the **Channels** folder.
-    1. Click on **Create** to open the wizard to create a channel.
+    1. Click **Create**.
     1. Select **Sequence Channel** from the wizard and create the channel titled as **EmergencyChannel**.
 
    >[!NOTE]
@@ -74,7 +71,8 @@ Follow the steps below to set up an emergency channel:
 1. **Adding Content to Emergency Channel**
 
     1. Select the channel (**Emergency Channel)**.
-    1. Click **Edit** from the action bar to open the editor. Drag and drop the asset that you want to run during an emergency to your channel.
+    1. Click **Edit** from the action bar. 
+    1. Drag-and-drop the asset that you want to run during an emergency to your channel.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -87,14 +85,15 @@ Follow the steps below to set up an emergency channel:
 
 1. **Creating Displays in your Location**
 
-   Navigate to your location (**Store**) and click **Create** from the action bar. Follow the wizard to create two **Displays** titled as **StoreFront** and **StoreRear**.
+   Navigate to your location (**Store**) and click **Create** from the action bar. Following the wizard, create two **Displays** titled as **StoreFront** and **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creating a Schedule**
 
     1. Navigate to your **Schedules** folder.
-    1. Click **Create** from the action bar. Follow the wizard to create a schedule titled as **StoreSchedule**.
+    1. Click **Create** from the action bar. 
+    1. Following the wizard, create a schedule titled as **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -111,11 +110,11 @@ Follow the steps below to set up an emergency channel:
         1. Set the Supported Events as **Initial Load** and **Idle Screen**.
         1. Click **Save**
 
-       Similarly, you will have to follow the same steps again to assign the **EmergencyChannel** and set its **Priority**.
+       Similarly, follow the same steps again to assign the **EmergencyChannel** and set its **Priority**.
 
    >[!NOTE]
    >
-   >Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values.
+   >Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value always takes precedence over lower values.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -138,9 +137,9 @@ Follow the steps below to set up an emergency channel:
 
 1. **Assigning Schedule to each Display**
 
-    1. Navigate to the each display, such as **EmergencyChannel** > **Locations** > **Store** >**StoreFront**.
+    1. Navigate to each display, such as **EmergencyChannel** > **Locations** > **Store** >**StoreFront**.
 
-    1. Click **Dashboard** from the action to open the display dashboard.
+    1. Click **Dashboard** from the action bar.
     1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
 
     1. Select the path to the Schedule (for example, here, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
@@ -152,13 +151,13 @@ Follow the steps below to set up an emergency channel:
 
 1. **Device Registration**
 
-   Complete the device registration process and once you have registered you will view the following output on your AEM Screens player.
+   Complete the device registration process. When you have registered, you can view the following output on your AEM Screens player.
 
    ![new30](assets/new30.gif)
 
 ## Switching to Emergency Channel {#switching-to-emergency-channel}
 
-In the event of an emergency perform the following steps:
+If there is an emergency, perform the following steps:
 
 1. Navigate to **EmergencyChannel** > **Schedules** > **StoreSchedule** and select **Dashboard** from the action bar.
 
@@ -172,12 +171,12 @@ In the event of an emergency perform the following steps:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. As soon as the priority of the channel is updated, all the AEM Screens player will display the **EmergencyChannel** content, as shown below.
+1. When the priority of the channel is updated, all the AEM Screens player displays the **EmergencyChannel** content.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusion {#conclusion}
 
-The **EmergencyChannel** will continue to display its content until the content author resets the Priority Value to 1.
+The **EmergencyChannel** continues to display its content until the content author resets the Priority Value to 1.
 
-Once the content author receives the instructions that the emergency has been cleared, he/she should update the priority of the **MainAdChannel** which will cause normal playback to resume.
+When the content author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel** which causes normal playback to resume.

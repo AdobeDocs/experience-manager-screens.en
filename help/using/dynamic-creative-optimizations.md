@@ -1,8 +1,6 @@
 ---
 title: Data Triggers
-seo-title: Data Triggers
-description: The page describes data triggers
-seo-description: The page describes data triggers
+description: Learn about data triggers in AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
 ---
 # Dynamic Creative Optimizations {#dynamic-creative}
@@ -15,9 +13,9 @@ exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
 
 This is also referred to as Client Side flattening of content.
 
-The main reason we want to do this is so that each player device or end point can use data sets to automatically determine the best content to play based on a variety of different factors.
+The reason behind this is to ensure that each player device or end point can use data sets to automatically determine the best content to play based on various different factors.
 
-This eliminates the need for constant human intervention when it comes to content authoring which reduces the total cost of ownership to operate the network and makes the digital experiences more relevant, more contextual and more effective.
+This eliminates the need for constant human intervention when content authoring. It also helps reduce the total cost of ownership to operate the network and makes the digital experiences more relevant, more contextual, and more effective.
 
 Examples include:
 

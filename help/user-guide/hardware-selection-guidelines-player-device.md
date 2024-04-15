@@ -1,6 +1,6 @@
 ---
 title: Hardware Selection Guidelines for Player Devices
-description: Hardware Selection Guidelines for Player Devices
+description: Learn about hardware selection guidelines for AEM Screens player devices.
 ---
 
 # Hardware Selection Guidelines for Player Device {#hardware-selection}
@@ -35,12 +35,12 @@ The following table summarizes the hardware configurations with typical use case
   </tr>
   <tr>
    <td>Basic</td>
-   <td>Dual Core, i3 or entry-level quad core Intel® Atom Processor</td>
-   <td><p>4GB of memory</p> <p>2MB of cache</p> </td>
-   <td><p>•ChromeOS 32 GB</p> <p>•Windows 128GB</p> </td>
+   <td>Dual Core, i3, or entry-level quad core Intel&reg; Atom Processor</td>
+   <td><p>4 GB of memory</p> <p>2 MB of cache</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet / Wireless,<br /> 2xUSB</td>
+   <td>DVI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Standard Full Screen Looping<br /> </li>
@@ -49,11 +49,11 @@ The following table summarizes the hardware configurations with typical use case
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Quad Core, Intel® Core i5 processor</td>
-   <td><p>8GB of memory</p> <p>4MB of cache</p> </td>
-   <td>128 GBB</td>
+   <td>Quad Core, Intel&reg; Core&trade; i5 processor</td>
+   <td><p>8 GB of memory</p> <p>4 MB of cache</p> </td>
+   <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
@@ -64,11 +64,11 @@ The following table summarizes the hardware configurations with typical use case
   </tr>
   <tr>
    <td>Advanced</td>
-   <td>Quad Core with hyperthreading, Intel® Core i7 processor</td>
-   <td><p>16GB of memory</p> <p>8MB of cache</p> </td>
+   <td>Quad Core with hyperthreading, Intel&reg; Core&trade; i7 processor</td>
+   <td><p>16 GB of memory</p> <p>8 MB of cache</p> </td>
    <td>256 GB</td>
    <td>Dedicated Graphics GPU</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>

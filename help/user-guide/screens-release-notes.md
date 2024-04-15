@@ -1,14 +1,10 @@
 ---
 title: Release Notes for Feature Pack 201809
-seo-title: Release Notes for Feature Pack 201809
-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
+description: Learn about the AEM Screens Feature Pack 201809 that was released on October 1, 2018.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
-discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -18,7 +14,7 @@ exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
 
 >[!CAUTION]
 >
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 The AEM Screens released AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4 with the following details.
 
@@ -30,24 +26,24 @@ The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 
 * **Adobe Analytics Proof of Play Reporting**: See [Adobe Analytics Integration with AEM Screens](adobe-analytics-integration-aem-screens.md) to learn more.
 
-* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn more.
+* **Adobe Analytics Enable Players to cache and send `playback` events to Adobe Analytics**: See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) to learn more.
 
-* **Bulk Update Offline Content**: Allows you to update all the channel in bulk and avoids the hassle of navigating to a particular channel and update the content. See [Bulk Offline Update](bulk-offline-update.md) to learn more.
+* **Bulk Update Offline Content**: Lets you update all the channels in bulk and avoids the hassle of navigating to a particular channel and update the content. See [Bulk Offline Update](bulk-offline-update.md) to learn more.
 
-* **Bulk publish channels to publish instances**
+* **Publish channels in bulk to all publish instances**
 * **Enhanced Player Logging Mechanism**: You can specify the number of maximum log files for an AEM Screens player. See [Working with an AEM Screens Player](working-with-screens-player.md) for more details.
 
 * **Author / Publish deployment (Hardening)**
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
 The following AEM Screens Players are released for AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4:
 
 * ChromeOS
 * Windows
-* Android
+* Android&trade;
 * iOS
 
-#### AEM Screens Player Downloads {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
 To download the latest AEM Screens player and learn more about the bug fixes, see [AEM Screens Player Downloads](https://download.macromedia.com/screens/).

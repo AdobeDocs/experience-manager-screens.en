@@ -34,7 +34,7 @@ Follow the steps below to assign a channel to a display:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the properties from the **Channel Assignment** dialog box from the section below. See [Channel Properties](#channel-properties) section to learn more about channel properties.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. See [Channel Properties](#channel-properties) section for more information about channel properties.
 
 ## Understanding Channel Properties from Channel Assignment {#channel-properties}
 

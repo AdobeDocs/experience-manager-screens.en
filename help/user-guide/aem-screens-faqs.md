@@ -8,7 +8,7 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 ---
 # AEM Screens FAQs {#aem-screens-faqs}
 
-The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.
+This topic provides answers to commonly asked FAQs related to an AEM Screens project.
 
 ## Blank Screen Issue {#blank-screen}
 
