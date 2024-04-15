@@ -37,10 +37,10 @@ The section below explains how to edit the playback duration of content in an AE
 
 Follow the steps below to learn how to update Project Level Image Playback Duration:
 
-1. Navigate to your project **ProjectLevelPlayback** and click **Properties** from the action bar.
+1. Navigate to your project **ProjectLevelPlayback** and select **Properties** from the action bar.
     ![assets](assets/image_playback3.png)
 
-1. Select all the images in the channel and click the wrench icon on the top-left (as shown in the figure below) so you can open the Channel level Configure dialog box.
+1. Select all the images in the channel and select the wrench icon on the top-left (as shown in the figure below) so you can open the Channel level Configure dialog box.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -52,7 +52,7 @@ Follow the steps below to learn how to update Project Level Image Playback Durat
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Click the check mark on the top-right of the **Page** dialog box so your changes are saved.
+   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Select the check mark on the top-right of the **Page** dialog box so your changes are saved.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

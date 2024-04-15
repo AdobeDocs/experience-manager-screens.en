@@ -42,7 +42,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 1. Set the **SameSite attribute for the login-token cookies** from **Lax** to **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Click **Save**.
+1. Select **Save**.
 
 ### Ad-Hoc method {#ad-hoc-method}
 
@@ -51,7 +51,7 @@ The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit [**
 After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
-1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
+1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and select **Save**.
 1. Navigate to the **Device** **Registration** link from the left action menu so you can check the status of the device registration process.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ You can assign a user-friendly device name to your Windows player, thus sending 
 
 Follow the steps below to configure the name in Windows player:
 
-1. Click **start** > **run**.
+1. Select **start** > **run**.
 1. Enter `system.cpl`.
 1. Use the computer name tab to set the computer's hostname.
 

@@ -56,13 +56,13 @@ When the project setup is complete, assign the channel to a display to view the 
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Select **Assign Channel** from the action bar.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Or,
 
-   Tap/click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Select **Dashboard** from the action bar and select **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -85,7 +85,7 @@ When the project setup is complete, assign the channel to a display to view the 
    >
    >To learn more about channel assignment properties, see [Channel Properties](#channel-properties) section.
 
-1. Click **Save** once you have configured your preferences.
+1. Select **Save** once you have configured your preferences.
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
@@ -105,11 +105,11 @@ Follow the steps below to navigate to the timeline view:
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Select **Assign Channel** from the action bar.
 
    Or,
 
-   Tap/click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Select **Dashboard** and select **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

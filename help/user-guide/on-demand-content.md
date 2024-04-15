@@ -66,12 +66,12 @@ Follow the steps below to deliver content updates from author to publishing to d
    >
    >
    >    1. The workflow does not work if there are no changes in the project and nothing for **Update Offline Content**.
-   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
+   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
 
    >[!CAUTION]
-   >If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
+   >If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, select **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
 
-1. Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on your Publish instance too.
+1. Navigate to the project and select **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on your Publish instance too.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 

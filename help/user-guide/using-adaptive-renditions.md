@@ -29,12 +29,12 @@ To apply renditions to assets that you want to use in tour Screens channel, do t
 1. Navigate to the **Assets** folder in your AEM instance.
 1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
 1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. See [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
-1. Click **Add Rendition** to upload the rendition, as shown in the figure below.
+1. Select **Add Rendition** to upload the rendition, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. Select the renamed the asset file. The rendition that you are adding must contain the pattern (defined in step 3), for example, `seahorse-landscape.png`.
-1. When you have added the asset, select the asset and click **Manage Publication** from the action bar to publish the asset.
+1. When you have added the asset, select the asset and select **Manage Publication** from the action bar to publish the asset.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

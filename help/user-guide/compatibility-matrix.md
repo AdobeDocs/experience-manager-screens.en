@@ -40,7 +40,7 @@ The following section lists the Adobe Experience Manager (AEM) Screens Players w
 
 ### Download Link {#download-link}
 
-Click download link for iOS Player:
+Select download link for iOS Player:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -71,7 +71,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Download Link {#download-link-1}
 
-Click download link for Windows 10 Player:
+Select download link for Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -87,7 +87,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Download Link {#download-link-2}
 
-Click download link for Android&trade; Player:
+Select download link for Android&trade; Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 

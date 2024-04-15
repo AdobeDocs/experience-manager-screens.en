@@ -43,7 +43,7 @@ Follow the steps below to set up a project:
 
     ![asset](assets/p_usecase2.png)
 
-1. Select the **MainAdChannel** and click **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
+1. Select the **MainAdChannel** and select **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
 
    ![asset](assets/p_usecase3.png)
 
@@ -53,7 +53,7 @@ Follow the steps below to set up a project:
 
 1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and plays every Wednesday from 2:00 P.M. through 4:00 P.M.
 
-1. Select the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
+1. Select the **TakeOver** and select **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
    ![asset](assets/p_usecase4.png)
 
@@ -63,12 +63,12 @@ Follow the steps below to set up a project:
 
 **Assigning Channels to a Display**
 
-1. Select the display **MainLobbyDisplay** from the **Locations** folder. Click **Assign Channel** from the action bar so you can open the **Channel Assignment** dialog box.
+1. Select the display **MainLobbyDisplay** from the **Locations** folder. Select **Assign Channel** from the action bar so you can open the **Channel Assignment** dialog box.
 
    >[!NOTE]
    >To learn how to assign a channel to a display, see **[Channel Assignment](channel-assignment.md)**.
 
-1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save** to assign the **MainAdChannel** to your display.
+1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and select **Save** to assign the **MainAdChannel** to your display.
 
     * **Channel Path**: Select the path to the **MainAdChannel** channel
     * **Priority**: Set the priority of this channel as 1.
@@ -76,9 +76,9 @@ Follow the steps below to set up a project:
 
    ![asset](assets/p_usecase6.png)
 
-1. Select the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar so you can assign the takeover channel.
+1. Select the display **TakeOver** from the **Locations** folder. Select **Assign Channel** from the action bar so you can assign the takeover channel.
 
-1. Assigning the **TakeOver** channel to your display at a scheduled time and populating the following fields from the **Channel Assignment** dialog box and clicking **Save**:
+1. Assigning the **TakeOver** channel to your display at a scheduled time and populating the following fields from the **Channel Assignment** dialog box and selecting **Save**:
 
     * **Channel Path**: Select the path to the **TakeOver** channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
@@ -95,7 +95,7 @@ Follow the steps below to set up a project:
 
         ![asset](assets/p_usecase7.png)
 
-      Navigate to the display from **TakeOver** > **Locations** > **MainLobby** > **MainLobbyDisplay** and click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **TakeOver** > **Locations** > **MainLobby** > **MainLobbyDisplay** and select **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.

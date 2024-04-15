@@ -27,7 +27,7 @@ The device registration process is done on two separate machines:
 >After you download the latest Windows Player (*.exe*), from [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
 >
 >1. Long-press on the top-left corner to open the admin panel.
->1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
+>1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and select **Save**.
 >1. Select the **Registration** link from the left action menu and the steps below to complete the device registration process.
 >
 
@@ -43,15 +43,15 @@ The device registration process is done on two separate machines:
    >
    >To get more information on creating a project for Screens in the AEM dashboard, see [Create and Manage Screens Project](creating-a-screens-project.md).
 
-1. Tap/click the **Device Manager** button in the action bar.
+1. Select the **Device Manager** button in the action bar.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Tap/click the **Device Registration** button on the top right.
+1. Select the **Device Registration** button on the top right.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Select the required device (same as step 1) and tap/click **Register Device**.
+1. Select the required device (same as step 1) and select **Register Device**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -63,12 +63,12 @@ The device registration process is done on two separate machines:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. If the **Registration Code** is the same on both machines, tap/click **Validate** button in AEM, as shown in the step (6).
-1. Set the desired name for the device, and click **Register**.
+1. If the **Registration Code** is the same on both machines, select **Validate** button in AEM, as shown in the step (6).
+1. Set the desired name for the device, and select **Register**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. Select **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -78,7 +78,7 @@ The device registration process is done on two separate machines:
    >
    >The **Assign Display** lets you directly add the device to a display.
 
-   If you click **Finish**, assign the device to a display.
+   If you select **Finish**, assign the device to a display.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -90,7 +90,7 @@ The device registration process is done on two separate machines:
 
 If you have not assigned the device to a display, follow the steps below to assign your device to a display in your AEM Screens project:
 
-1. Select the device and click **Assign Device** from the action bar.
+1. Select the device and select **Assign Device** from the action bar.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
@@ -98,15 +98,15 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Click **Assign** when you select the path.
+1. Select **Assign** when you select the path.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Click **Finish** once the device is assigned successfully, as shown in the figure below.
+1. Select **Finish** once the device is assigned successfully, as shown in the figure below.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Also, you can view the display dashboard on clicking **Finish**.
+   Also, you can view the display dashboard on selecting **Finish**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -116,7 +116,7 @@ When you have registered devices to your player, you can view all the devices fr
 
 1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** > **Devices**. 
 
-1. Select the **Devices** folder and click **Device Manager** from the action bar.
+1. Select the **Devices** folder and select **Device Manager** from the action bar.
 
     ![image](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -128,7 +128,7 @@ When you have registered devices to your player, you can view all the devices fr
 
    Or,
 
-   Click `/` (forward slash) to invoke the search functionality.
+   Select `/` (forward slash) to invoke the search functionality.
 
      ![image](/help/user-guide/assets/device-manager/device-manager-3.png)
 

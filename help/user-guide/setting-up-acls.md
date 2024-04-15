@@ -24,7 +24,7 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Click **Groups** and enter an ID (for example, Acme).
+1. Select **Groups** and enter an ID (for example, Acme).
 
    Alternatively, use this link, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
@@ -32,11 +32,11 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Select **Contributors** from the list and double-click it.
+1. Select **Contributors** from the list and double-select it.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Add the **Acme** (project that you created) to **Add Members to Group**. Click **Save**.
+1. Add the **Acme** (project that you created) to **Add Members to Group**. Select **Save**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,7 +50,7 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
 1. Set up the permissions for the group **Acme** using this `(http://localhost:4502/useradmin)`.
 
-   Select the group **Acme** and click the **permissions**.
+   Select the group **Acme** and select the **permissions**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

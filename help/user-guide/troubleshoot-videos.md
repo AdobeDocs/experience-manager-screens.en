@@ -23,7 +23,7 @@ After you upload the video to the channel, AEM should start creating some rendit
 To view the video:
 
 1. Navigate to your video, for example `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Click the video and expand the top-left menu and click **Renditions**.
+1. Select the video and expand the top-left menu and select **Renditions**.
 
 There should be different renditions (an MP4 or M4V).
 
@@ -33,7 +33,7 @@ If there is no rendition, make sure you have ffmpeg installed on the OS where AE
 >
 >If there is no rendition, make sure you have ffmpeg installed on the OS where AEM is running.
 >
->Click [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
+>Select [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
 
 ## Video Assets {#video-assets}
 
@@ -45,11 +45,11 @@ Check ffmpeg is installed and the video profiles.
 
 ### Checking Video Profile {#checking-video-profile}
 
-1. Navigate to the **Video Profile**, that is, `http://localhost:4502/etc/dam/video.html` and click **Upload Test Video**.
+1. Navigate to the **Video Profile**, that is, `http://localhost:4502/etc/dam/video.html` and select **Upload Test Video**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Upload a test video and click **Ok** so you can begin the transcoding.
+1. Upload a test video and select **Ok** so you can begin the transcoding.
 
    If the transcoded video fails, expand the ffmpeg output to understand any errors in the console output of ffmpeg.
 

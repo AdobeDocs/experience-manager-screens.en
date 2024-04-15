@@ -24,7 +24,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 ### Step 1: Replicating ContextHub Configurations {#replicating-contexthub-configurations}
 
-1. Navigate to **Tools** > **Deployment** > **Distribution** > **Publish Agent** and click the publishing agent so you can configure your settings.
+1. Navigate to **Tools** > **Deployment** > **Distribution** > **Publish Agent** and select the publishing agent so you can configure your settings.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -32,7 +32,7 @@ Follow the steps below to replicate the data triggers to publish server.
    >
    >Alternatively, you can use the `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` to navigate to the screen directly to configure and test the connection.
 
-1. Click **Test Connection** from the action bar so you can validate the communication of the Author with the Publishing instance, as shown in the following:
+1. Select **Test Connection** from the action bar so you can validate the communication of the Author with the Publishing instance, as shown in the following:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -42,7 +42,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Select **Add** from the **Distribution Agent** screen tree and select the configuration path for your project, for example, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Click **Submit**.
+1. Select **Submit**.
 
 ### Replicating the Audiences {#replicating-audiences}
 
@@ -54,9 +54,9 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Select all audiences and segments from the user interface.
 
-1. Click **Manage Publication** from the action bar.
+1. Select **Manage Publication** from the action bar.
 
-1. Click **Next** and **Publish**.
+1. Select **Next** and **Publish**.
 
 ### Replicating the Activities  {#replicating-activities}
 
@@ -66,9 +66,9 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Select all activities from the user interface.
 
-1. Click **Manage Publication** from the action bar.
+1. Select **Manage Publication** from the action bar.
 
-1. Click **Next** and **Publish**.
+1. Select **Next** and **Publish**.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ If the test connection fails while replicating the ContextHub configurations, fo
 
 1. Navigate to Tools > **Deployment** > **Distribution** > **Publish Agent**.
 
-1. Click **Edit** from the action bar and ensure that the endpoint URL in **Importer Endpoints** field is also pointing to the publishing server URL in Distribution Agent.
+1. Select **Edit** from the action bar and ensure that the endpoint URL in **Importer Endpoints** field is also pointing to the publishing server URL in Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. If you are not using the default admin credentials, then you must configure the distribution agent with a different username and password.
@@ -104,10 +104,10 @@ If the test connection fails while replicating the ContextHub configurations, fo
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Click **Save**
+   1. Select **Save**
    1. Use `Cmd +F` to search for **Apache Sling Distribution Agent - Forward Agents Factory** to open the configurations and search for **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Update the `(name=default)` with `(name=slingTransportSecretProvider)`.
-   1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
+   1. Select **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.

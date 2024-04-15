@@ -95,29 +95,29 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
 
    ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Select the channel **FutureLaunch** and click **Create Launch** from the action bar.
+1. Select the channel **FutureLaunch** and select **Create Launch** from the action bar.
 
    ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or click **+ Add Channels** to add the channel for which you want to create the launch.
+1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or select **+ Add Channels** to add the channel for which you want to create the launch.
 
-1. Click **Next** from the **Create Launch** wizard. The **Include subpages** option is selected by default.
+1. Select **Next** from the **Create Launch** wizard. The **Include subpages** option is selected by default.
 
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >You can use **+ Add Channels** option to add another channel for which you want to create the launch.
 
-   To use **Add Channels** option, navigate to the channel for which you want to create the launch for and click **Select**. 
+   To use **Add Channels** option, navigate to the channel for which you want to create the launch for and select **Select**. 
    
    The **Select** option is disabled if you try to select multiple channels or a folder for adding the launch.
    
    ![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-   After you select the channel/channels, click **Next**.
+   After you select the channel/channels, select **Next**.
 
 
-1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
+1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Select **Create**.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ Follow the steps below to edit the launch properties:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Select the launch and click **Launch Properties** from the **PENDING LAUNCHES** panel.
+1. Select the launch and select **Launch Properties** from the **PENDING LAUNCHES** panel.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 

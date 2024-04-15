@@ -42,7 +42,7 @@ Follow the steps below to set up an emergency channel:
 
 1. **Creating a Sequence Channel**
 
-    1. Select the **Channels** folder and click **Create**.
+    1. Select the **Channels** folder and select **Create**.
 
     1. Select **Sequence Channel** from the wizard and create the channel titled as **MainAdChannel**.
 
@@ -51,7 +51,7 @@ Follow the steps below to set up an emergency channel:
 1. **Adding Content to Sequence Channel**
 
     1. Select the channel (**MainAdChannel**).
-    1. Click **Edit** from the action bar.
+    1. Select **Edit** from the action bar.
     1. Drag-and-drop few assets to your channel.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
@@ -59,7 +59,7 @@ Follow the steps below to set up an emergency channel:
 1. **Creating an Emergency Channel**
 
     1. Select the **Channels** folder.
-    1. Click **Create**.
+    1. Select **Create**.
     1. Select **Sequence Channel** from the wizard and create the channel titled as **EmergencyChannel**.
 
    >[!NOTE]
@@ -71,7 +71,7 @@ Follow the steps below to set up an emergency channel:
 1. **Adding Content to Emergency Channel**
 
     1. Select the channel (**Emergency Channel)**.
-    1. Click **Edit** from the action bar. 
+    1. Select **Edit** from the action bar. 
     1. Drag-and-drop the asset that you want to run during an emergency to your channel.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -79,36 +79,36 @@ Follow the steps below to set up an emergency channel:
 1. **Creating a Location**
 
     1. Navigate to **Locations** folder.
-    1. Click **Create** from the action bar and create a location titled **Store** from the wizard.
+    1. Select **Create** from the action bar and create a location titled **Store** from the wizard.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Creating Displays in your Location**
 
-   Navigate to your location (**Store**) and click **Create** from the action bar. Following the wizard, create two **Displays** titled as **StoreFront** and **StoreRear**.
+   Navigate to your location (**Store**) and select **Create** from the action bar. Following the wizard, create two **Displays** titled as **StoreFront** and **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creating a Schedule**
 
     1. Navigate to your **Schedules** folder.
-    1. Click **Create** from the action bar. 
+    1. Select **Create** from the action bar. 
     1. Following the wizard, create a schedule titled as **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Assign both the Displays to your Schedule and set Priorities
 
-    1. Select the schedule **(StoreSchedule)** and click **Dashboard** from the action bar.
+    1. Select the schedule **(StoreSchedule)** and select **Dashboard** from the action bar.
 
-    1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
+    1. Select **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
 
     1. From the **Channel Assignment** dialog box:
 
         1. Select the path to the **MainAdChannel**
         1. Set the **Priority** as 2
         1. Set the Supported Events as **Initial Load** and **Idle Screen**.
-        1. Click **Save**
+        1. Select **Save**
 
        Similarly, follow the same steps again to assign the **EmergencyChannel** and set its **Priority**.
 
@@ -118,7 +118,7 @@ Follow the steps below to set up an emergency channel:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Click **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
+1. Select **+ Assign Channel** from the **ASSIGNED CHANNELS** panel.
 
 1. From the **Channel Assignment** dialog box:
 
@@ -127,7 +127,7 @@ Follow the steps below to set up an emergency channel:
 
     1. Set the Supported Events as **Initial Load**, **Idle Screen**, and **User Interaction**
 
-    1. Click **Save**
+    1. Select **Save**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -139,12 +139,12 @@ Follow the steps below to set up an emergency channel:
 
     1. Navigate to each display, such as **EmergencyChannel** > **Locations** > **Store** >**StoreFront**.
 
-    1. Click **Dashboard** from the action bar.
-    1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
+    1. Select **Dashboard** from the action bar.
+    1. Select **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further select **+Assign Schedule**.
 
     1. Select the path to the Schedule (for example, here, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
 
-    1. Click **Save**.
+    1. Select **Save**.
 
    You can view the assigned schedule to the display from the **StoreSchedule** dashboard.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -163,11 +163,11 @@ If there is an emergency, perform the following steps:
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Select the **EmergencyChannel** from the **StoreSchedule** dashboard and click **Edit Assignment**.
+1. Select the **EmergencyChannel** from the **StoreSchedule** dashboard and select **Edit Assignment**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Update the **Priority** of the **EmergencyChannel** to **3** from the **Channel Assignment** dialog box and click **Save**.
+1. Update the **Priority** of the **EmergencyChannel** to **3** from the **Channel Assignment** dialog box and select **Save**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

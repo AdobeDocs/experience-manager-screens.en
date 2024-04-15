@@ -40,25 +40,25 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
     1. Navigate to the segments in your audience (See ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
 
-    1. Select the **Sheets A1 1** and click **Edit**.
+    1. Select the **Sheets A1 1** and select **Edit**.
 
-    1. Select the comparison property and click the configuration icon.
+    1. Select the comparison property and select the configuration icon.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
     1. Select the **Operator** as **greater-than-or-equal** from the drop-down menu
 
     1. Enter the **Value** as **50**
 
-    1. Similarly, Select the **Sheets A1 2** and click **Edit**.
+    1. Similarly, Select the **Sheets A1 2** and select **Edit**.
 
-    1. Select the **Comparison Property - Value** and click the configuration icon.
+    1. Select the **Comparison Property - Value** and select the configuration icon.
     1. Select **googlesheets/value/1/0** from the drop-down in **Property name**
 
     1. Select the **Operator** as **less-than** from the drop-down menu
 
     1. Enter the **Value** as **50**
 
-1. Navigate and select your channel () and click **Edit** from the action bar. In the following example, **DataDrivenWeather**, a sequential channel is used to showcase the functionality.
+1. Navigate and select your channel () and select **Edit** from the action bar. In the following example, **DataDrivenWeather**, a sequential channel is used to showcase the functionality.
 
    >[!NOTE]
    >
@@ -72,13 +72,13 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Select **Targeting** from the editor and select **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
+1. Select **Targeting** from the editor and select **Brand** and the **Activity** from the drop-down menu and select **Start Targeting**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Checking the Preview**
 
-    1. Click **Preview.** Also, open your Google Sheet and update its value.
+    1. Select **Preview.** Also, open your Google Sheet and update its value.
     1. Change the value to less than 50. You should be able to view an image of a cold drink. If the value in Google Sheets is 50 or greater, you should see an image of a hot drink.
 
     ![result3](assets/result3.gif)

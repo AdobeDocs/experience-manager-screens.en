@@ -61,7 +61,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 
 1. Copy the path to your project, in this case, the path is `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigate to the channel titled as **DemoBrand** (created in step(1)) and click **Properties** from the action bar after selecting the channel.
+1. Navigate to the channel titled as **DemoBrand** (created in step(1)) and select **Properties** from the action bar after selecting the channel.
 
 1. Navigate to the **Advanced** tab and check the **Design** field.
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -73,7 +73,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Click **Save & Close** to update the design path.
+1. Select **Save & Close** to update the design path.
 
    >[!IMPORTANT]
    >You can optionally overlay the existing Screens templates to inject your own designs by default or create your own template altogether. See the steps below for more details.
@@ -102,9 +102,9 @@ When you have completed the preceding steps, you can update your *statis.css* fi
 
 Follow the steps below to view the updated design to text overlay:
 
-1. Navigate to your AEM Screens project titled as **`customstyle`** > **Channels** > **DemoBrand**. Select the channel and click **Edit** from the action bar.
+1. Navigate to your AEM Screens project titled as **`customstyle`** > **Channels** > **DemoBrand**. Select the channel and select **Edit** from the action bar.
 
-1. Since you have now added the design to your **Designs** field, as mentioned above, click **Preview** to view the current styling on the image with text overlay.
+1. Since you have now added the design to your **Designs** field, as mentioned above, select **Preview** to view the current styling on the image with text overlay.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

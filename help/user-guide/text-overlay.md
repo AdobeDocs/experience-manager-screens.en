@@ -52,11 +52,11 @@ The following image shows the **TextOverlayDemo** project with **TextSample** ch
 
 Follow the steps below to use text overlay in an AEM Screens channel:
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Edit** from the action bar.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Select the image and click **Configure** (wrench icon) to open the properties dialog box.
+1. Select the image and select **Configure** (wrench icon) to open the properties dialog box.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -108,7 +108,7 @@ After you set up the required configurations for your project, follow the steps 
 
        ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Edit** from the action bar.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -123,7 +123,7 @@ After you set up the required configurations for your project, follow the steps 
    >[!NOTE]
    >If you have not set up your ContextHub configuration, this option is disabled for your project.
 
-1. Enter **Value** in the **Placeholder** field. Select the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
+1. Enter **Value** in the **Placeholder** field. Select the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, select the checkmark.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

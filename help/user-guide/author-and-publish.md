@@ -242,7 +242,7 @@ Follow the steps below to replicate the device user:
 
 1. Navigate to the user admin page. For example, `https://localhost:4502/useradmin`.
 1. Search for the **`screens-devices-master`** group.
-1. Right-click on the group, and select **Activate**.
+1. Right-click the group and select **Activate**.
 
 >[!CAUTION]
 >
