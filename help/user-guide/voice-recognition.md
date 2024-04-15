@@ -1,6 +1,6 @@
 ---
 title: Voice Recognition in AEM Screens
-description: The page describes voice recognition feature in AEM Screens.
+description: Learn more about voice recognition and how to use it in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -12,14 +12,14 @@ exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 >
 >**Important Privacy Information**
 >
->When using the voice recognition feature follow all applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe Inc., does not receive, store or process any of the voice related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes this API sends a wave form of your speech to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
+>When using the voice recognition feature, follow all applicable legal and ethical guidelines for your region (including but not limited to providing a visible notice to end users that the player is using Voice Recognition). Adobe does not receive, store, or process any of the voice-related information. The AEM Screens players use the standard web speech API built into the browsing engine. Behind the scenes, this API sends a wave form of your speech to Google's servers for conversion from speech to text and this text is matched by the player against configured keywords. 
 >
 >See [Google Privacy White-paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) for more details.
 
 
 The voice recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-A content author can configure a display to be voice enabled. The purpose of this feature is to allow customers to utilize speech as a method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
+A content author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
 
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.
@@ -47,11 +47,11 @@ Before you use voice recognition feature, make sure you have a project and a cha
 
    Or,
 
-   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one additional 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
+   You can create three sequence channels **Main**, **ColdDrinks**, and **HotDrinks**, and one more 1x2 Split Screens channel **SplitScreen** as shown in the figure below.
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel. Click **Edit** from the action bar to open the editor and add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
+1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel. Click **Edit** from the action bar, then add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
 
    The channels now contain assets (images), as shown in the figures below.
 
@@ -73,19 +73,19 @@ Before you use voice recognition feature, make sure you have a project and a cha
 
 ### Setting up Tags for Channels {#setting-tags}
 
-Once you have added content to your channels, you need to navigate to each of the channels and add appropriate tags that would trigger the voice recognition.
+After you have added content to your channels, navigate to each of the channels and add appropriate tags that would trigger the voice recognition.
 
 Follow the steps below to add tags to your channel:
 
-1. Navigate to each of the channel and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel.
+1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel.
 
 1. Click **Properties** from the action bar.
 
    ![image](assets/voice-recognition/vr-5.png)
    
-1. Navigate to **Basics** tab and select an already existing tag from the **Tags** field or create a new one.
+1. Navigate to the **Basics** tab, then select an existing tag from the **Tags** field, or create one.
 
-   You can either create a new tag by typing in a new name for you tag and hit `return` key, as shown in the figure below:
+   You can either create a tag by typing in a new name for your tag and hit `return` key, as shown in the figure below:
 
    ![image](assets/voice-recognition/vr-6.png)
 
@@ -110,7 +110,7 @@ Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
 
-   1. Click on tools icon > **Tagging**.
+   1. Click tools icon > **Tagging**.
        ![image](assets/voice-recognition/vr-7.png)
 
    1. Click **Create** > **Create Namespace**.
@@ -135,7 +135,7 @@ Now, you can use these tags in your AEM Screens project.
    >[!NOTE]
    >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
    
-1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**. Additionally, if you are using the **SplitScreen** channel for your project, make sure you assign that too to the display.
+1. Assign the channels **Main**, **ColdDrinks**, and **HotDrinks** to your **LobbyDisplay**. Also, if you are using the **SplitScreen** channel for your project, make sure you assign that too to the display.
 
    >[!NOTE]
    >If you have created a split screen channel, assign the **SplitScreen** channel too to your display.
@@ -153,7 +153,7 @@ Now, you can use these tags in your AEM Screens project.
    >
    >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
-1. Once you have assigned channels to a display, navigate to the **LobbyDisplay** and select the display. Select **Properties** from the action bar.
+1. After you have assigned channels to a display, navigate to the **LobbyDisplay** and select the display. Select **Properties** from the action bar.
 
 1. Navigate to the **Display** tab and enable **Voice enabled** option under **Content**.
 
@@ -164,17 +164,17 @@ Now, you can use these tags in your AEM Screens project.
 
 ### Viewing the Content in the Chrome Player {#viewing-content}
 
-Once the preceding steps are complete,  you can register your chrome device to view the output.
+When the preceding steps are completed, you can register your chrome device to view the output.
 
 >[!NOTE]
->See [Device Registration](device-registration.md) to learn how to register a device on an AEM Screens player.
+>See [Device Registration](device-registration.md).
 
 **Desired Output for Sequence Channel**
 
 The **Main** channel is playing its content, but when you use words with keyword **hot** such as *I would like to have a hot drink*, the channel starts playing the contents of the **HotDrinks** channel.
 
-Similarly, if you use word with a keyword **cold** such as *I would like to haves something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
+Similarly, if you use word with a keyword **cold** such as *I would like to have something cold*, the channel starts playing the contents of the **ColdDrinks** channel.
 
 **Desired Output for Split Screens Channel**
 
-The **Main** channel is playing its content, but when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel starts playing the contents of the **SplitScreen** channel. If you say *back to main menu*, it switches back to the main channel.
+The **Main** channel is playing its content. However, when you use words with keyword **hot** and **cold** together such as *I would like to see the menu for hot and cold beverages*, the channel plays the contents of the **SplitScreen** channel. If you say *back to main menu*, it reverts to the **Main** channel.

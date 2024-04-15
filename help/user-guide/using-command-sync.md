@@ -1,8 +1,6 @@
 ---
 title: Using Command Sync
-seo-title: Using Command Sync
-description: Follow this page to learn about how to use Command Sync.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: Learn more about how to use Command Sync in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -10,7 +8,7 @@ exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 ---
 # Command Sync {#command-sync}
 
-The following page describes how to use Command Sync. Command Sync allows synchronized playback across different players. The players can play different content but each asset needs to have the same duration.
+The following page describes how to use Command Sync. Command Sync allows synchronized playback across different players. The players can play different content but each asset must have the same duration.
 
 >[!IMPORTANT]
 >
@@ -18,7 +16,7 @@ The following page describes how to use Command Sync. Command Sync allows synchr
 
 ## Overview {#overview}
 
-Digital signage solutions need to support video walls and synchronized playback to support scenarios like New Year countdowns or large video sliced up to play across multiple screens and this is where Command Sync comes into play.
+Digital signage solutions must support video walls and synchronized playback to support scenarios like New Year countdowns or large video sliced up to play across multiple screens and this is where Command Sync comes into play.
 
 To use Command Sync, one player acts as a *primary* and sends command and all the other players act as *clients* and play when they receive the command. 
 
@@ -48,7 +46,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Create a location **Lobby** and subesequently a display titled as **LobbyDisplay** in the **Locations** folder, as shown in the figure below.
+1. Create a location **Lobby** and then a display titled as **LobbyDisplay** in the **Locations** folder, as shown in the figure below.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Assign the channel, **ChannelLobby** to your **LobbyDisplay**. You can now view the assigned channel to the display from the display dashboard.
@@ -58,7 +56,8 @@ Before you use Command Sync feature, make sure you have a project and a channel 
    >
    >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
-1. Navigate to **Devices** folder and click **Device Manager** from the action bar to register the devices.
+1. Navigate to **Devices** folder.
+1. Click **Device Manager** from the action bar.
 
    ![image1](assets/command-sync5.png)
 
@@ -71,30 +70,29 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 
 ### Updating Channel Settings
 
-1. Navigate to **ChannelLobby** and click **Edit** from the action bar to update the channel settings.
-
+1. Navigate to **ChannelLobby**.
+1. Click **Edit** from the action bar.
 1. Select the entire channel as shown in the figure below.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Click the wrench icon to open the **Page** dialog box.
+1. Click the wrench icon.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Enter the *synced* keyword in the **Strategy** field.
-
+1. In the **Page** dialog box, enter the *synced* keyword in the **Strategy** field.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Setting up a primary {#setting-up-primary}
 
-1. Navigate to the display dashboard from **CommandSyncDemo** > **Locations**  > **Lobby** > **LobbyDisplay** and click on **Dashboard** from the action bar.
-You will see the two devices (chrome and windows player) in **DEVICES** panel, as shown in the figure below.
+1. Navigate to the display dashboard from **CommandSyncDemo** > **Locations**  > **Lobby** > **LobbyDisplay** and click **Dashboard** from the action bar.
+Notice the two devices (chrome and windows player) in **DEVICES** panel, as see in the following:
       ![image1](assets/command-sync/command-sync10-1.png)
 
-1. From the **DEVICES** panel,select the device you want to set as primary. The following example demonstrates setting up the Chrome device as the primary. Click on **Set as primary device**.
+1. From the **DEVICES** panel, select the device you want to set as primary. The following example demonstrates setting up the Chrome device as the primary. Click **Set as primary device**.
 
     ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Enter the IP address in **Set as primary device** and click on **Save**. 
+1. Enter the IP address in **Set as primary device** and click **Save**. 
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -105,16 +103,16 @@ You will see the two devices (chrome and windows player) in **DEVICES** panel, a
 ### Syncing up with Primary {#sync-up-primary}
 
 1. Once you have set the Chrome device as primary, you can sync the other device (in this case, the windows player) to sync with the primary.
-Select the other device (in this case, windows player) from the **DEVICES** panel and click on **Sync to primary device**, as shown in the figure below.
+Select the other device (in this case, windows player) from the **DEVICES** panel and click **Sync to primary device**, as shown in the figure below.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Select the device from the list and click **Save**.
 
    >[NOTE:]
-   > The **Sync to primary device** dialog will show the list of primary devices. You can select the desired one of your preference.
+   > The **Sync to primary device** dialog box shows the list of primary devices. Select the one preferred.
 
-1. Once the device (Windows player) is synced to the primary (Chrome player), you will see the device synced in the **DEVICES** panel.
+1. When the device (Windows player) is synced to the primary (Chrome player), you can see the device synced in the **DEVICES** panel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -126,15 +124,15 @@ Once you have synced a device or devices to a primary, you can de-sync the assig
 >
 >If you de-sync a primary device, it will also unlink all client devices associated with that primary device.
 
-In order to remove the syncing from the primary device, follow the steps below:
+To remove the syncing from the primary device, follow the steps below:
 
 1. Navigate to the **DEVICES** panel  and select the device.
 
-1. Click on **Desync device(s)** to de-sync the client from the primary device.
+1. Click **Desync devices** so you can de-sync the client from the primary device.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Click **Confirm** to de-sync the selected device from the primary.
 
    >[NOTE:]
-   > If you select the primary device and use the de-sync option, then all the devices connected to the primary, will be de-synced in one step.
+   > If you select the primary device and use the de-sync option, then all the devices connected to the primary are de-synced in one step.

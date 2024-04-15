@@ -1,8 +1,6 @@
 ---
 title: Device Specifications
-seo-title: Device Specifications
-description: The page describes device specifications
-seo-description: The page describes device specifications
+description: Learn more about device specifications as it pertains to AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 ---
 # Device Configurations {#device-configurations}
@@ -19,9 +17,9 @@ Based on the information gathered during *Day Zero*, confirm the following infor
 
 * What software and operating system must be installed on display devices?
 
-* Will an internet connection be required on players to synchronize the screens with AEM servers?
+* Is an internet connection required on players to synchronize the screens with AEM servers?
 
-* When will content on players be updated?
+* When is content on players updated?
 
 * If you are running videos, make sure you understand specifications of your device, so that content displays properly.
 
@@ -34,4 +32,4 @@ Based on the information gathered during *Day Zero*, confirm the following infor
 
 >[!NOTE]
 >
->It is also important to validate the specifications for the hardware selected to ensure it can support the application being developed. For example, if the application is intended to run five HD videos at once, will the hardware support it?
+>It is also important to validate the specifications for the hardware selected to ensure it can support the application being developed. For example, if the application is intended to run five High Definition videos at the same time, does the hardware support it?

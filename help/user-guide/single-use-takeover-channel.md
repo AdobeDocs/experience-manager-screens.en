@@ -11,10 +11,9 @@ exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 
 The following page showcases a use case that emphasizes on setting up a project on how to create a Single TakeOver channel that plays once for a specific time.
 
-
 ## Use Case Description {#use-case-description}
 
-This Use Case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover only occurs once and for a specific time.
+This use case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover only occurs once and for a specific time.
 
 For example, there is a Single TakeOver channel that plays on Friday 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. Before and after this time, the Single Use Takeover channel does not play. The following example showcases the creation of a single takeover channel that allows the content to play for 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
 

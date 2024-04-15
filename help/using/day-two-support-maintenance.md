@@ -1,13 +1,11 @@
 ---
 title: Day Two Support and Maintenance
-seo-title: Day Two Support and Maintenance for AEM Screens
-description: The page describes Day Two Support and Maintenance
-seo-description: The page describes Day Two Support and Maintenance
+description: Learn about Day Two support and maintenance for AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
 ---
 # Day Two Platform Support and Maintenance {#day-two-support-maintenance}
 
-AEM Screens requires several packages in order for projects to function. All environments should be running the same version of Adobe Experience Manager.
+AEM Screens requires several packages for projects to function. All environments must be running the same version of Adobe Experience Manager.
 
 Follow the guidelines as support and maintenance for Day Two of project development phase:
 
@@ -19,6 +17,6 @@ Follow the guidelines as support and maintenance for Day Two of project developm
 
 1. Identify any development packages (for example, WCM Core components) or third-party tool kits (for example, SAP Hybris) that are required.
 
-1. Install the same software packages on your local development environments.
+1. Install the same software packages on your local development environment.
 
-1. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations will create problems when deploying and testing.
+1. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations create problems when deploying and testing.

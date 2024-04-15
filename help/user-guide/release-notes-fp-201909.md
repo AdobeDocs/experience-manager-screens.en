@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 201909
-description: Release notes for AEM Screens Feature Pack 201909 released on July 31, 2019.
+description: Learn more about the AEM Screens Feature Pack 201909 that was released on July 31, 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
 
 >[!CAUTION]
 >
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provide maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provide maintenance support for AEM 6.3 Screens platform.
 
 AEM Screens released AEM 6.4.6 Feature Pack 6 and AEM 6.5.2 Feature Pack 2 with the following details.
 

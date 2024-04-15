@@ -27,7 +27,7 @@ Follow the links below for more information:
 1. **[Setting up Data Store](configuring-context-hub.md)**
 1. **[Setting up Audience Segmentation](configuring-context-hub.md)**
 
-Once you have completed the preceding steps, you are ready to enable targeting in your channels.
+When you have completed the preceding steps, you are ready to enable targeting in your channels.
 
 ## Authoring with Data Triggers Overview {#author-targeting}
 

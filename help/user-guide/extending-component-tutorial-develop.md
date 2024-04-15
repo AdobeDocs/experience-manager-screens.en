@@ -1,20 +1,16 @@
 ---
 title: Extending an AEM Screens Component
-seo-title: Extending an AEM Screens Component
-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
+description: Learn in this tutorial the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 ---
-# Extending an AEM Screens Component {#extending-an-aem-screens-component}
+# Extending an AEM Screens Component
 
 The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 
@@ -38,11 +34,11 @@ To complete this tutorial, you need the following:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Local Development Environment
 
-The tutorial steps and screen shots are performed using CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) or [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDEs can also be used to complete the tutorial. More information on using an IDE to [develop with AEM can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+The tutorial steps and screenshots are performed using CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) or [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEs can also be used to complete the tutorial. More information on using an IDE to [develop with AEM can be found here](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Project Setup {#project-setup}
 
-A Screens project's source code is typically managed as a multi-module Maven project. To expedite the tutorial, a project was pre-generated using the [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). More details on [creating a project with Maven AEM Project Archetype can be found here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+A Screens project's source code is typically managed as a multi-module Maven project. To expedite the tutorial, a project was pre-generated using the [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). More details on [creating a project with Maven AEM Project Archetype can be found here](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Download and install the following packages using **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -53,24 +49,24 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC Start Screens We.Retail Run Project
+   SRC Start Screens `We.Retail` Run Project
 
    [Get File](assets/start-poster-screens-weretail-run.zip)
 
 1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` the following two packages are installed:
 
-    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
-    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
+    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
+   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed by way of CRX Package Manager](assets/crx-packages.png)
 
-   Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager
+   AEM Screens `We.Retail Run Ui.Apps` and `Ui.Content` packages installed by way of CRX Package Manager
 
 ## Create the Poster Component {#poster-cmp}
 
-The Poster component extends the out of the box screens Image component. A mechanism of Sling, `sling:resourceSuperType`, is used to inherit the core functionality of the Image component without having to copy and paste. More information about the basics of [Sling Request Processing can be found here.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
+The Poster component extends the out-of-the-box AEM Screens Image component. A mechanism of Sling, `sling:resourceSuperType`, is used to inherit the core functionality of the Image component without having to copy and paste. More information about the basics of [Sling Request Processing can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-The Poster component is rendered in full screen in preview/production mode. In edit mode, it is important to render the component differently in order to facilitate authoring the sequence channel.
+The Poster component is rendered in full screen in preview/production mode. In edit mode, it is important to render the component differently to facilitate authoring the sequence channel.
 
 1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (or IDE of choice) beneath to `/apps/weretail-run/components/content`create a `cq:Component` named `poster`.
 
@@ -89,15 +85,15 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    Properties for /apps/weretail-run/components/content/poster
 
-   By setting the `sling:resourceSuperType`property equal to `screens/core/components/content/image` the Poster component effectively inherits all functionality of the Image component. Equivalent nodes and files found beneath `screens/core/components/content/image` can be added beneath the `poster` component in order to override and extend the functionality.
+   By setting the `sling:resourceSuperType`property equal to `screens/core/components/content/image`, the Poster component effectively inherits all functionality of the Image component. Equivalent nodes and files found beneath `screens/core/components/content/image` can be added beneath the `poster` component to override and extend the functionality.
 
-1. Copy the `cq:editConfig` node beneath `/libs/screens/core/components/content/image.`Paste the `cq:editConfig` beneath the `/apps/weretail-run/components/content/poster` component.
+1. Copy the `cq:editConfig` node beneath `/libs/screens/core/components/content/image`. Paste the `cq:editConfig` beneath the `/apps/weretail-run/components/content/poster` component.
 
-   On the `cq:editConfig/cq:dropTargets/image/parameters` node update the `sling:resourceType` property to equal `weretail-run/components/content/poster`.
+   On the `cq:editConfig/cq:dropTargets/image/parameters` node, update the `sling:resourceType` property to equal `weretail-run/components/content/poster`.
 
    ![edit-config](assets/edit-config.png)
 
-   XML representation of the cq:editConfig represented below:
+   XML representation of the `cq:editConfig` represented below:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -130,11 +126,11 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    ![Copied dialog from /libs/wcm/foundation/components/image/cq:dialog to /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
-   Copied dialog from /libs/wcm/foundation/components/image/cq:dialog to /apps/weretail-run/components/content/poster
+   Copied dialog from `/libs/wcm/foundation/components/image/cq:dialog` to `/apps/weretail-run/components/content/poster`
 
-   The Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **Sling Resource Merger** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
+   The AEM Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **Sling Resource Merger** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
 
-1. Update the cq:dialog beneath `/apps/weretail-run/components/content/poster` with the following changes represented in XML:
+1. Update the `cq:dialog` beneath `/apps/weretail-run/components/content/poster` with the following changes represented in XML:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -246,7 +242,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    Poster - Final Dialog Structure
 
-   At this point, an instance of the `poster` component can be added to the **Idle Channel** page in the We.Retail Run project: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   At this point, an instance of the `poster` component can be added to the **Idle Channel** page in the`We.Retail` Run project: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![Poster Dialog fields](assets/poster-dialog-full.png)
 
@@ -276,13 +272,13 @@ The Poster component is rendered in full screen in preview/production mode. In e
    </div>
    ```
 
-   Above is the production markup for the Poster Component. The HTL script overrides `screens/core/components/content/image/production.html`. The `image.js` is a server-side script that creates a POJO-like Image object. The Image object can then be called to render the `src` as an inline style background-image.
+   The production markup for the Poster Component is seen directly above. The HTL script overrides `screens/core/components/content/image/production.html`. The `image.js` is a server-side script that creates a POJO-like Image object. The Image object can then be called to render the `src` as an inline style background-image.
 
    `The h1` and h2 tags are added display the Title and Description based on the component properties: `${properties.jcr:title}` and `${properties.jcr:description}`.
 
    Surrounding the `h1` and `h2` tags is a div wrapper with three CSS classes with variations of " `cmp-poster__text`". The value for the `textPosition` and `textColor` properties are used to change the CSS class rendered based on the dialog selection of the author. In the next section CSS from client libraries are written to enable these changes in display.
 
-   A logo is also included as an overlay in the component. In this example, the path to the We.Retail logo is hard-coded in the DAM. Depending on the use case, it might make more sense to create a dialog field to make the logo path a dynamically populated value.
+   A logo is also included as an overlay in the component. In this example, the path to the` We.Retail` logo is hard-coded in the DAM. Depending on the use case, it might make more sense to create a dialog field to make the logo path a dynamically populated value.
 
    Also note that BEM (Block Element Modifier) notation is used with the component. BEM is a CSS coding convention that makes it easier to create reusable components. BEM is the notation used by [AEM's Core Components](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -308,23 +304,23 @@ The Poster component is rendered in full screen in preview/production mode. In e
    </div>
    ```
 
-   Above is the **edit** markup for the Poster Component. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
+   The **edit** markup for the Poster Component is seen directly above. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
 
    The `aem-Screens-editWrapper`is added so that the component is not rendered full-screen in the editor. The `data-emptytext` attribute ensures that a placeholder is displayed when no image or content has been populated.
 
 ## Create Client-Side Libraries {#clientlibs}
 
-Client-Side Libraries provide a mechanism to organize and manage CSS and JavaScript files necessary for an AEM implementation. More information about using [Client-Side Libraries can be found here.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+Client-Side Libraries provide a mechanism to organize and manage CSS and JavaScript files necessary for an AEM implementation. More information about using [Client-Side Libraries can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens components are rendered differently in Edit mode vs. Preview/Production mode. Two sets of client libraries are created, one for Edit mode and a second for Preview/Production.
 
 1. Create a folder for client-side libraries for the Poster component.
 
-   Beneath `/apps/weretail-run/components/content/poster,`create a folder named `clientlibs`.
+   Beneath `/apps/weretail-run/components/content/poster`, create a folder named `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. Beneath the `clientlibs` folder create a node named `shared` of type `cq:ClientLibraryFolder.`
+1. Beneath the `clientlibs` folder, create a node named `shared` of type `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -339,7 +335,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    The `categories` property is a string that identifies the client library. The `cq.screens.components` category is used in both Edit and Preview/Production mode. Therefore any CSS/JS defined in the `shared` clientlib is loaded in all modes.
 
-   It is a best practice to never expose any paths directly to /apps in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced via a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+   It is a best practice to never expose any paths directly to /apps in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced via a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Create file named `css.txt` beneath the shared folder.
 
@@ -413,13 +409,13 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    >[!NOTE]
    >
-   >Google Web Fonts are used for the font families. Web Fonts require internet connectivity and not all screens implementations will a reliable connection. Planning for offline mode is an important consideration for Screens deployments.
+   >Google Web Fonts are used for the font families. Web Fonts require internet connectivity and not all AEM Screens implementations have a reliable connection. Planning for offline mode is an important consideration for AEM Screens deployments.
 
 1. Copy the `shared` client library folder. Paste it as a sibling and rename it to `production`.
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. Update the `categories` property of the production clientlibrary to be `cq.screens.components.production.`
+1. Update the `categories` property of the production client library to be `cq.screens.components.production.`
 
    The `cq.screens.components.production` category ensures that the styles are only loaded when in Preview/Production mode.
 
@@ -482,7 +478,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    The above styles display the Title and Description in an absolute position on the screen. The title is displayed larger than the description. The BEM notation of the component makes it easy to carefully scope the styles within the cmp-poster class.
 
-A third clientlibrary category: `cq.screens.components.edit` could be used to add Edit only specific styles to the component.
+A third client library category: `cq.screens.components.edit` could be used to add Edit only specific styles to the component.
 
 | Clientlib Category |Usage |
 |---|---|
@@ -492,18 +488,18 @@ A third clientlibrary category: `cq.screens.components.edit` could be used to ad
 
 ## Add Poster Component to a Sequence Channel {#add-sequence-channel}
 
-The Poster component is used on a Sequence Channel. The starter package for this tutorial included an Idle Channel. The Idle Channel is pre-configured to allow components of the group **We.Retail Run - Content**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
+The Poster component is used on a Sequence Channel. The starter package for this tutorial included an Idle Channel. The Idle Channel is pre-configured to allow components of the group **`We.Retail Run - Content`**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
 
-1. Open the Idle Channel from the We.Retail Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Open the Idle Channel from the `We.Retail` Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Drag + Drop a new instance of the **Poster** component from the side bar on to the page.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. Edit the dialog of the Poster component to add an Image, Title, Description. Use the Text Position and Text Color choices to ensure the Title/Description is readable over the Image.
+1. Edit the dialog box of the Poster component so you can add an Image, Title, Description. Use the Text Position and Text Color choices to ensure the Title/Description is readable over the Image.
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
-1. Repeat the above steps to add a few Poster components. Add transitions in between the components.
+1. To add a few Poster components, repeat the steps above. Add transitions in between the components.
 
    ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
 
@@ -515,12 +511,12 @@ The below video shows the finished component and how it can be added to a Sequen
 
 ## Finished Code {#finished-code}
 
-Below is the finished code from the tutorial. The **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** and **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** are the compiled AEM packages. The **SRC-screens-weretail-run-0.0.1.zip **is the uncompiled source code that can be deployed using Maven.
+Below is the finished code from the tutorial. The **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** and **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** are the compiled AEM packages. The **SRC-screens-weretail-run-0.0.1.zip** is the uncompiled source code that can be deployed using Maven.
 
 [Get File](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [Get File](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC Final Screens We.Retail Run Project
+SRC Final AEM Screens `We.Retail` Run Project
 
 [Get File](assets/src-screens-weretail-run-001.zip)
