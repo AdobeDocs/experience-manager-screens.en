@@ -14,7 +14,7 @@ exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 
 A display is a virtual grouping of screens that are positioned next to each other. The display is permanent in respect to an installation. This is the object content authors work with and always reference to as logical display rather than their physical counter parts.
 
-Once you create a location, you have to create a display for your location.
+When you create a location, you have to create a display for your location.
 
 This page shows creating and managing displays for Screens.
 
@@ -48,7 +48,7 @@ When you have display in position, the next step is to create a device config fo
 >
 >**The Next Step**:
 >
->When you create a display for your location, you must assign a channel to your display to use the content.
+>When you create a display for your location, assign a channel to your display to use the content.
 >
 >See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
 
@@ -68,11 +68,9 @@ The device config is created and added to the current display (in the following 
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Once a device config is set to your display in the location, the next step will be to assign a channel to your display.
-
 >[!NOTE]
 >
->Once a device config is set to your display in the location, the next step will be to assign a channel to your display.
+>When a device config is set to your display in the location, the next step will be to assign a channel to your display.
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** panel, if no channel is assigned to that particular device config.
 >

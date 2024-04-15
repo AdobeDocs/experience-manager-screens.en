@@ -20,7 +20,7 @@ After a Developer adds the rendition-mapping properties and rules, you are ready
 ## Using Adaptive Renditions in Channels {#using-adaptive-renditions}
 
 >[!NOTE]
->Once you have added [rendition-mapping property to the Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) and [rendition-mapping rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), as a Content Author you are now ready to apply the renditions to your assets.
+>After you have added [rendition-mapping property to the Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) and [rendition-mapping rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), as a Content Author you are now ready to apply the renditions to your assets.
 
 ### Applying Renditions to Assets {#apply-renditions-assets}
 

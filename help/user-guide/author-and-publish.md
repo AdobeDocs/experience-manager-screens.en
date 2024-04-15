@@ -22,11 +22,11 @@ Before getting started with Author and Publish Servers, you should have prior kn
 
 >[!NOTE]
 >
->This AEM Screens functionality is only available if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, you must contact Adobe Support and request access. After you have permission, you can download it from Package Share.
+>This AEM Screens functionality is only available if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, contact Adobe Support and request access. After you have permission, you can download it from Package Share.
 
 >[!IMPORTANT]
 >
->If you want to use more than one Publish instance with Dispatcher, you must update the Dispatcher. See [Enabling Sticky Sessions](dispatcher-configurations-aem-screens.md#enable-sticky-session) for more details.
+>If you want to use more than one Publish instance with Dispatcher, update the Dispatcher. See [Enabling Sticky Sessions](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Configuring Author and Publish instances {#configuring-author-and-publish-instances}
 
@@ -44,7 +44,7 @@ You can set up a simple example, where you host an Author and two Publish instan
 
 ## Setting up Replication Agents on Author {#setting-replication-agents}
 
-To create replication agents, you must learn how to create a standard replication agent.
+To create replication agents, learn how to create a standard replication agent.
 
 There are three replication agents that are needed for Screens:
 

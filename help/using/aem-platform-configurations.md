@@ -38,7 +38,7 @@ Install FFMpeg following the steps for the appropriate OS (usually RHEL):
 
    >[!NOTE]
    >
-   >The `-strict -2` must be the last parameter in the list of parameters. Also, in AEM 6.4 you must copy the nodes under */libs/settings/dam/video* to */conf/global/settings/dam/video* as mentioned in [Video Renditions](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >The `-strict -2` must be the last parameter in the list of parameters. Also, in AEM 6.4, copy the nodes under */libs/settings/dam/video* to */conf/global/settings/dam/video* as mentioned in [Video Renditions](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verify that video conversions are happening and that renditions are being created.
 
 ## Password Restrictions {#password-restrictions}

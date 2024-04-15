@@ -36,7 +36,7 @@ Any questions about the usage of AEM or technical errors you may have should be 
 
 ### Contributions must clearly reference affected documentation pages.
 
-If you create an issue to suggest improvements to the documentation, you must include links to the pages affected. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
+If you create an issue to suggest improvements to the documentation, include links to the pages affected. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
 
 This does not apply to pull requests since pull requests by their nature reference the affected page(s).
 

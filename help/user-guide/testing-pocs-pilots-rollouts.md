@@ -50,13 +50,13 @@ The purpose of a POC is to gain initial feedback on a solution's key functionali
 
 Systems & Software Integration testing begins with the Audio/Video Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio/Video Integrator's facility. This allows for close review and testing of the entire solution for quality control.
 
-Once QC testing is complete the IT Engineering Team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to be tested include:
+After QC testing is complete, the IT Engineering Team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to test include the following:
 
-* AEM Implementor Integrations
-* Third-Party Systems Integrations
-* Software
-* Hardware
-* Connectivity
+* AEM implementor integrations.
+* Third-party systems integrations.
+* Software.
+* Hardware.
+* Connectivity.
 * Content Deployment workflows including manual, automated and conditional deployments.
 
 ## Part 3: Video Tutorial on Testing, POCs, Pilots & Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -73,6 +73,6 @@ Considering all these stages as part of the overall project plan helps manage ex
 
 ## The Next Step {#the-next-step}
 
-Once you are thorough with testing, Proofs of Concept, pilot programs and roll outs, follow the next tutorial that dives deep into Project Management and the processes involved.
+When you are through with testing, Proofs of Concept, pilot programs, and roll outs, follow the next tutorial that dives deep into Project Management and the processes involved.
 
 Navigate to **[Part 4: Project Management and Deployment](project-management-and-deployment.md)** for more details.

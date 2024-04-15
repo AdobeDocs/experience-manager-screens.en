@@ -21,7 +21,7 @@ For this Use Case, if the value in Google Sheets is less than 50, then an image 
 
 ## Preconditions {#preconditions}
 
-Before you start implementing the travel center local temperature activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+Before you start implementing the travel center local temperature activation, learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 See [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
 

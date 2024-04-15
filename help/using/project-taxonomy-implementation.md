@@ -1,8 +1,6 @@
 ---
 title: Project Taxonomy
-seo-title: Project Taxonomy
-description: This page describes Project Taxonomy
-seo-description: The page describes Project Taxonomy
+description: Learn more about project taxonomy as it relates to AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 ---
 # Project Taxonomy {#project-taxonomy}
@@ -11,9 +9,9 @@ exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 >
 >Typical stakeholder for this activity is an AEM Implementor.
 
-Before you create an AEM Screens project, it is important to understand and strategize all the components defined in the UX Wireframing phase of the project.
+Before you create an AEM Screens project, understand and strategize all the components defined in the UX Wireframing phase of the project.
 
-Make sure you consider the following elements before implementing your AEM Screens digital signage solution:
+Consider the following elements before implementing your AEM Screens digital signage solution:
 
 * **Locations**
 * **MediaZones**
@@ -21,7 +19,7 @@ Make sure you consider the following elements before implementing your AEM Scree
 * **Scheduling**
 * **Previewing the content**
 
-To learn about these terms, see [Glossary](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+To learn about these terms, see [Glossary](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
@@ -32,23 +30,23 @@ To learn about these terms, see [Glossary](https://experienceleague.adobe.com/do
 
 ## Implementing an AEM Screens Project {#creating-a-project}
 
-An AEM Screens author is responsible for creating and managing a user experience using the available components in AEM Screens. The author creates and reviews the content and provides an easy to use graphical user interface by configuring, deploying, and integrating the available segments of AEM Screens.
+An AEM Screens author is responsible for creating and managing a user experience using the available components in AEM Screens. The author creates and reviews the content and provides an easy-to-use graphical user interface by configuring, deploying, and integrating the available segments of AEM Screens.
 
 >[!NOTE]
 >
->An author creates channels from the given sequences and knows the campaign audience and the desired focus. Thus, an AEM Screens author creates and orchestrates the end user experience by creating different channels and assigning sequences into timed channel experience.
+>An author creates channels from the given sequences and knows the campaign audience and the desired focus. Thus, an AEM Screens author creates and orchestrates the user experience by creating different channels and assigning sequences into timed channel experience.
 
 An author typically begins an AEM Screens project by:
 
-* [creating an AEM Screens project](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
-* [creating channels](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
-* [adding components and assets to the channel](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
-* [creating schedules](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
-* [creating locations](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
-* [creating displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
-* [assigning channels to the displays](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+* [creating an AEM Screens project](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [creating channels](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [adding components and assets to the channel](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [creating schedules](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [creating locations](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [creating displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [assigning channels to the displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [viewing content in an AEM Screens player](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
+* [viewing content in an AEM Screens player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->You can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. Follow [New Project Importer from File](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) for more details.
+>You can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. See [New Project Importer from File](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

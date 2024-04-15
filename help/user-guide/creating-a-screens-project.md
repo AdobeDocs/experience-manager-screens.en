@@ -45,7 +45,7 @@ In a project, there are five kinds of folders, as shown in the figure below:
 
 ## Viewing Properties {#viewing-properties}
 
-Once you create the Screens project, select the project and click **Properties** from action bar to edit properties of your project.
+After you create the Screens project, select the project and click **Properties** from action bar so you can edit the properties of your project.
 
 The following options allow you to edit/change properties of your **TestScreens**.
 
@@ -68,4 +68,4 @@ The following steps show the creation of an applications folder to your **Applic
 
 ### The Next Steps {#the-next-steps}
 
-Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+When you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.

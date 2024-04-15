@@ -7,15 +7,15 @@ exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 
 A Network Setup can have various structures. This section describes the most usual network setups and generalized approaches followed within an Organization.
 
-This guide highlights an introduction to proxy servers followed by the varied network structures that are setup within different organizations. 
+This guide highlights an introduction to proxy servers followed by the varied network structures that are set up within different organizations. 
 
 >[!NOTE]
 >**AEM Screens Network Requirements**
->The AEM Screens communicates directly with the AEM as a Cloud Service, therefore it is required to establish a stable connection between the two nodes. Firewalls are absolutely mandatory for commercial Internet access and as a customer you must understand which communication ports are required to be opened in these firewalls and other IT-Security related network components.
+>AEM Screens communicates directly with the AEM as a Cloud Service, therefore it is required to establish a stable connection between the two nodes. Firewalls are mandatory for commercial Internet access. As a customer, understand which communication ports must be opened in these firewalls and other IT-Security-related network components.
 
 ## Overview to Proxy Servers {#proxy-servers}
 
-An Internet connection relies on the usage of a Proxy Server. A Proxy Server is a dedicated computer or a software system running on a computer that acts as an intermediary between an endpoint device, such as a computer, and another server from which a user or client is requesting a service. The proxy server can exist in the same machine as a firewall server or it can exist on a separate server, which forwards requests through the firewall.
+An Internet connection relies on the usage of a Proxy Server. A Proxy Server is a dedicated computer or a software system running on a computer. It acts as an intermediary between an endpoint device, such as a computer, and another server from which a user or client is requesting a service. The proxy server can exist in the same machine as a firewall server or it can exist on a separate server, which forwards requests through the firewall.
 
 An advantage of a proxy server is that its cache can serve all users. If one or more Internet sites are frequently requested, these are likely to be in the proxy's cache, and this further improves user response time. A proxy can also log its interactions, which can be used for troubleshooting.
 

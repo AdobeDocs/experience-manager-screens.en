@@ -52,7 +52,7 @@ Follow the steps below to set up a project and a channel:
 
 ### Assigning Channel to a Display {#assigning-channel-to-display}
 
-When the project setup is complete, you must assign the channel to a display to view the content.
+When the project setup is complete, assign the channel to a display to view the content.
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
@@ -99,7 +99,7 @@ You can view the following output on your choice of player:
 
 ## Timeline View {#timeline-view}
 
-Once you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+When you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
 Follow the steps below to navigate to the timeline view:
 

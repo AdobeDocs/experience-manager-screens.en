@@ -48,7 +48,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Support for V3 Manifests**
 
-   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, you must :
+   You can now configure the Dispatcher for Manifest Version v3. For enabling v3 Manifest, do the following:
 
    * Clear any pending offline content jobs in both author and published.
 

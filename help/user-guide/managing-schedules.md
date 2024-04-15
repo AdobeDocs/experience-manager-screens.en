@@ -18,7 +18,7 @@ Schedules, when combined with ***DayParting***, lets you set a global schedule w
 
 >[!NOTE]
 >
->This AEM Screens functionality is only available if you have installed AEM 6.3 Sites Feature Pack 1. To get access to this Feature Pack, you must contact Adobe Support and request access. After you have the necessary permissions, you can download it from Package Share.
+>This AEM Screens functionality is only available if you have installed AEM 6.3 Sites Feature Pack 1. To get access to this Feature Pack, contact Adobe Support and request access. After you have the necessary permissions, you can download it from Package Share.
 
 ## Creating a Schedule {#creating-a-schedule}
 

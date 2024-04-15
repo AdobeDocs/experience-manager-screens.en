@@ -46,7 +46,7 @@ Follow the steps below:
 
 The Ad-Hoc method lets you install the latest Android&trade; Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
-Once you download the application, follow the steps on the player to complete the ad-hoc installation:
+After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
 1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
@@ -116,7 +116,7 @@ Follow the steps below to allow bulk provisioning in the Android&trade; player:
 
 1. Use an MDM or ADB or Android&trade; Studio file explorer to drop this policy JSON file to the *sdcard* folder on the Android&trade; device. 
 
-1. Once the file is deployed, use the MDM to install the player application.
+1. When the file is deployed, use the MDM to install the player application.
 
 1. When the player application launches, this configuration file is read and points to the applicable AEM server where it is registered and then controlled.
 
@@ -173,7 +173,7 @@ When deploying the Android&trade; player in bulk, it becomes tedious to manually
 You can assign a user-friendly device name to your Android&trade; player, thus sending the assigned device name to AEM (Adobe Experience Manager). This capability not only lets you name your Android&trade; player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
->You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
+>You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
 Follow the steps below to configure the name in Android&trade; player:
 

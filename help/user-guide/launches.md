@@ -19,7 +19,7 @@ With the help of ***Screens Launch***, authors can preview each channel in the l
 
 For example, if the author wants to create future versions of c1, c2 (channels), a launch is created and a live date is set (for instance, November 10 8:00 A.M.). Any more updates in the content are sent out for review. 
 
-Once approved and on live date (November 10, 8:00 A.M.), this launch plays the content on the devices or players.
+After approval and on live date (November 10, 8:00 A.M.), this launch plays the content on the devices or players.
 
 ## Requirements {#requirements}
 
@@ -39,7 +39,7 @@ Running an experience on the set live date on the player involves:
 
 ### Understanding Grace Period {#understanding-grace-period}
 
-For the player to be able to start playing the content on the set live date, you must start the preceding activities before the live date. 
+For the player to be able to start playing the content on the set live date, start the preceding activities before the live date. 
 
 If the live date is *November 24, 9:00 A.M.* and grace period is *24 hours*, then the above sequence of actions will start at (live date - grace period), that is, November 23, 9:00 A.M. server time. This gives 24 hours to complete all the above mentioned actions for the content to reach the players. Players understand that this is a launch content. As such the content does not play immediately, but players can store this content as a future version and have it start playing exactly at the set live date on the player's time zone.
 
@@ -114,7 +114,7 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
    
    ![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Once you have selected the channel/channels, click **Next**.
+   After you select the channel/channels, click **Next**.
 
 
 1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.

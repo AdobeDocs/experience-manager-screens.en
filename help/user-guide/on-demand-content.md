@@ -119,6 +119,6 @@ Follow the steps below to deliver content updates from Author > Publish > device
 
 ### Channel and Device Reassignment: {#channel-and-device-re-assignment}
 
-If you have reassigned a device, you must publish both the initial display and the new display, once the device has been reassigned to the new display.
+If you have reassigned a device, publish both the initial display and the new display, once the device has been reassigned to the new display.
 
-Similarly, if you have reassigned a channel, you must publish both the initial display and the new display, once the channel has been reassigned to the new display.
+Similarly, if you have reassigned a channel, publish both the initial display and the new display, once the channel has been reassigned to the new display.

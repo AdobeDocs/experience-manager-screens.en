@@ -18,7 +18,7 @@ exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
 
 This section covers the following topics:
 

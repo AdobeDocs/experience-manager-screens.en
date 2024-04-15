@@ -102,8 +102,8 @@ Notice the two devices (chrome and windows player) in **DEVICES** panel, as see 
 
 ### Syncing up with Primary {#sync-up-primary}
 
-1. Once you have set the Chrome device as primary, you can sync the other device (in this case, the windows player) to sync with the primary.
-Select the other device (in this case, windows player) from the **DEVICES** panel and click **Sync to primary device**, as shown in the figure below.
+1. After you have set the Chrome device as primary, sync the other device (in this case, the windows player) to sync with the primary.
+Select the other device (in this case, windows player) from the **DEVICES** panel and click **Sync to primary device**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Select the other device (in this case, windows player) from the **DEVICES** pane
 
 ### De-Syncing with the Primary {#desync-up-primary}
 
-Once you have synced a device or devices to a primary, you can de-sync the assignment from that device. 
+After you have synced a device or devices to a primary, you can de-sync the assignment from that device. 
 
 >[!NOTE]
 >

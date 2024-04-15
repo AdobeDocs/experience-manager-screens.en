@@ -35,7 +35,7 @@ The following diagram provides a visual representation of how ContextHub Configu
 
 ## Preconditions {#preconditions}
 
-Before you start configuring Context Hub Configurations for an AEM Screens project, you must set up Google Sheets (for demonstration purposes).
+Before you start configuring Context Hub Configurations for an AEM Screens project, set up Google Sheets (for demonstration purposes).
 
 >[!IMPORTANT]
 >

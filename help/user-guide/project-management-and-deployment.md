@@ -80,6 +80,4 @@ Learn about project management and deployment preparation and define key factors
 
 ## The Next Step {#the-next-step}
 
-Once you are thorough with key considerations surrounding Project Management for AEM Screens Deployments;
-
-Navigate to **[Part 5: Support Considerations](support-considerations.md)** so you understand Day 2 Support and the processes involved.
+When you are through with key considerations surrounding Project Management for AEM Screens Deployments, navigate to **[Part 5: Support Considerations](support-considerations.md)** so you understand Day 2 Support and the processes involved.

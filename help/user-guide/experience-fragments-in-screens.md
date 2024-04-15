@@ -107,7 +107,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
    >[!NOTE]
    >
-   >Once you have created Screens fragment, you can edit the properties of your fragment. Select the fragment and click **Properties** from the action bar.
+   >After you have created an AEM Screens fragment, you can edit the properties of your fragment. Select the fragment and click **Properties** from the action bar.
 
    **Editing Properties of a Screens Fragment**
 

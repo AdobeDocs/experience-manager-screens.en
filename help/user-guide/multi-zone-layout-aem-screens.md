@@ -144,7 +144,7 @@ Assign the channels to the display to view the content. Follow the steps below t
    1. Select **Save**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Similarly, you must assign the other two embedded channels (**`Zone1`** and **`Zone2`**) to this display.
+   1. Similarly, assign the other two embedded channels (**`Zone1`** and **`Zone2`**) to this display.
    1. After you assign all three channels to the **Lobby** display, you should be able to view the assigned channels from the display dashboard.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
