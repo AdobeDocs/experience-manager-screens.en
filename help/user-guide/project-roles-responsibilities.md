@@ -1,7 +1,6 @@
 ---
 title: "Part 1: Project Roles and Responsibilities"
-seo-title: "Part 1: Project Roles and Responsibilities"
-description: Follow this tutorial to better understand roles, responsibilities and time lines required during the sales and project life cycles for a digital signage project.
+description: In this tutorial, learn how to better understand roles, responsibilities, and time lines required during the sales and project life cycles for a digital signage project.
 feature: Overview
 role: User, Data Architect
 level: Beginner
@@ -9,16 +8,16 @@ exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 ---
 # Part 1: Project Roles and Responsibilities {#part-project-roles-and-responsibilities}
 
-This page highlights part 1 of a 5-part series designed to help team members better understand roles, responsibilities and time lines required during the sales and project life cycle for a digital signage project.
+This page highlights part 1 of a 5-part series designed to help team members better understand roles, responsibilities, and time lines required during the sales and project life cycle for a digital signage project.
 
 ## Overview {#overview}
 
-The following tutorial covers Project Roles & Responsibilities for Adobe, AEM Implementors and A/V Integrators at a high-level. You can navigate to subsequent episodes to get a comprehensive overview for how to successfully develop AEM Screens opportunities and position deployments for long-term success.
+The following tutorial covers Project Roles & Responsibilities for Adobe, AEM Implementors, and Audio/Visual Integrators at a high level. You can navigate to subsequent episodes to get a comprehensive overview for how to successfully develop AEM Screens opportunities and position deployments for long-term success.
 
-There are 3 primary groups that are engaged through the delivery process within:
+There are three primary groups that are engaged through the delivery process within the following:
 
 * Adobe
-* A/V Integrator
+* Audio/Video Integrator
 * AEM Implementation Team
 
 >[!NOTE]
@@ -27,7 +26,7 @@ There are 3 primary groups that are engaged through the delivery process within:
 
 ## Summary of Roles Involved in a Digital Signage Project {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Defining application use-case parameters in partnership with Adobe, AEM Implementor and A/V Integrator will drive software development scope. This ensures a phased approach that establishes with performance benchmarks and success metrics identified throughout the project.
+Defining application use-case parameters in partnership with Adobe, AEM Implementor, and Audio/Visual Integrator drives software development scope. This process ensures that a phased approach is established with performance benchmarks and success metrics all identified throughout the project.
 
 ### Adobe {#adobe}
 
@@ -39,11 +38,11 @@ An **AEM Implementor** is responsible for performing development and integration
 
 Custom features required to address end-customer UX (User Experience) parameters are also captured and delivered through this process.
 
-AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase might include enabling the ability to support playback of localized content through dynamic templates and metadata tags, with additional phases incorporating support for interactive elements via touch screens, sensors, dynamic triggers, and so on.
+AEM Implementors typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags, with other phases incorporating support for interactive elements via touch screens, sensors, dynamic triggers, and so on.
 
-#### AV Integrators {#av-integrators}
+#### Audio/Video Integrators {#av-integrators}
 
-An **AV Integrator** is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
+An **Audio/Video Integrator** is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build and effectively manage deployments around digital signage hardware.
 
 ## Part 1: Video Tutorial on Project Roles and Responsibilities {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -53,10 +52,10 @@ Follow the tutorial below to understand exactly how each party factors into the 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Learn about the roles and responsibilities of Adobe, AV Integrators and AEM Implementors.*
+*Learn about the roles and responsibilities of Adobe, Audio/Visual Integrators, and AEM Implementors.*
 
 ## The Next Step {#the-next-step}
 
-Once you understand the project roles and responsibilities in implementing a digital signage project, follow the next tutorial that dives deep into topics such as testing and pre-sales considerations as the project is scoped when developing AEM Screens opportunities.
+When you understand the project roles and responsibilities in implementing a digital signage project, follow the next tutorial. It delves into topics such as testing and pre-sales considerations as the project is scoped when developing AEM Screens opportunities.
 
 Navigate to **[Part 2: Considerations as Projects are Scoped](project-considerations.md)** for more details.

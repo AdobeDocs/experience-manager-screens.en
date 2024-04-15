@@ -1,7 +1,6 @@
 ---
 title: Authoring with Data Triggers
-seo-title: Authoring with Data Triggers
-description: Follow this page to learn how to author with data triggers.
+description: Learn more about how to author with data triggers in an AEM Screens channel.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -38,17 +37,17 @@ Once you have completed the preceding steps, you are ready to enable targeting i
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channel. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
 
 1. Select the channel **DataDrivenRetail** and click **Properties** from the action bar.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Select the **Personalization** tab to setup the ContextHub configurations and select the ContextHub and Segments path.
+1. Select the **Personalization** tab so you can set up the ContextHub configurations and select the ContextHub and Segments path.
 
     1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
 
-    1. Select the **Segments Path** as **conf** > **We.Retail** > **settings** > **wcm** > **segments** and click **Select**.
+    1. Select the **Segments Path** as **conf** > **`We.Retail`** > **settings** > **wcm** > **segments** and click **Select**.
 
     1. Click **Save & Close**.
 
@@ -62,7 +61,7 @@ Follow the steps below to enable targeting in your channels.
 
    >[!NOTE]
    >
-   >If you have set up everything correctly, you will see **Targeting** option in the drop-down from the editor, as shown in the figure below.
+   >If you have set up everything correctly, you see **Targeting** option in the drop-down from the editor, as shown in the figure below.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
