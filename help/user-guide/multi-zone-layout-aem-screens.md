@@ -27,7 +27,7 @@ The following page describes the usage of multi-zone layout and covers the follo
 
 As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed that runs in three separate zones on a single channel.
 
->[!NOTE]
+   >[!NOTE]
    >In multi-zone channels, asset-level scheduling is not recommended due to potential conflicts and unintended behavior. If asset-level scheduling is necessary, it's advised to create a separate sequence channel and apply scheduling logic within that channel. Next, embed the sequence channel into the multi-zone channel.
 
 ### Prerequisites {#prerequisites}
