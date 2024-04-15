@@ -9,7 +9,7 @@ description: Learn about Post-launch support for AEM Screens in the Best Practic
 
 Do not overlook Post-launch support in the early stage. 
 
-Ensuring sites receive adequate support from your hardware vendor is crucial for their business operations. The **A/V Integrator** should work closely with business stakeholders and identify the requirements needed from different aspects.
+Ensuring sites receive adequate support from your hardware vendor is crucial for their business operations. The **Audio/Video Integrator** should work closely with business stakeholders and identify the requirements needed from different aspects.
 Consider the following requirements during post-launch support:
 
 * remote device management
@@ -17,11 +17,11 @@ Consider the following requirements during post-launch support:
 * on-site technician support
 * device management (warranty support and spare device storage)
 
-Also, to prepare for long-term success, it is paramount to establish a Day 2 Service Level Agreement (SLA) in partnership with the AV Integrator. The SLA should detail all post-deployment support services to help accurately set client expectations.
+Also, to prepare for long-term success, it is paramount to establish a Day 2 Service Level Agreement (SLA) in partnership with the Audio/Video Integrator. The SLA should detail all post-deployment support services to help accurately set client expectations.
 
 >[!NOTE]
 >
->Define operational parameters early included in operational budgets and align the responsibilities with the AEM implementor and AV Integrator.
+>Define operational parameters early included in operational budgets and align the responsibilities with the AEM implementor and Audio/Video Integrator.
 >
 >* Is the deployment an Advertising Network with many stakeholders tied to a monetized network? This may dictate shorter resolution time frames compared to a Corporate Communications network.
 >* Is the application highly visible to the end client's executive leadership? Sites with high visibility may merit different treatments.

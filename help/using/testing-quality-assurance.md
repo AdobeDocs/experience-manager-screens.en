@@ -6,7 +6,7 @@ exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 # Testing and Quality Assurance {#testing-quality}
 
 >[!NOTE]
->Typical stakeholder for this activity is an A/V Integrator.
+>Typical stakeholder for this activity is an Audio/Video Integrator.
 
 As you get closer to deployment of the digital signage network, create a Test and QA plan that addresses every element of the network including all hardware components, all software components, and all networking components.
 In the phase, entire test systems should be built and fully tested.
@@ -76,4 +76,4 @@ A few examples are the following:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Proprietary AV Integrator Middleware
+* Proprietary Audio/Video Integrator Middleware
