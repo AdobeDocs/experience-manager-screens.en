@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202203
-description: Follow this page to get information for AEM Screens Feature Pack 202203 released on March 25, 2022.
+description: Learn more about the AEM Screens Feature Pack 202203 that was released on March 25, 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 # Release Notes for Feature Pack 202112 {#release-notes-for-feature-pack}
 
  >[!CAUTION]
- >It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). Screens provides maintenance support for AEM 6.3 Screens platform.
+ >Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
@@ -35,23 +35,23 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 
 * The Screens SPA channel was causing a white screen with Windows Player. This is now fixed.
 
-* The *wcmmode* paramameter was removed from all Screens requests on the publish instance.
+* The *wcmmode* parameter was removed from all Screens requests on the publish instance.
 
 * The Player Activity UI now works as expected.
 
-* The Player was failing to get the latest update through manage publication. This is now fixed.
+* The Player was failing to get through the latest update by way of manage publication. This is now fixed.
 
-### Released AEM Screens Players {#released-aem-screens-players}
+### Released AEM Screens Players
 
  The following AEM Screens Players are released for AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android&trade;
+* Linux&reg;
 * iOS
 
-#### AEM Screens Player Downloads  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads
 
  To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

@@ -27,7 +27,7 @@ This tutorial covers the following points relevant to a successful deployment of
 
 >[!NOTE]
 >
->Typical Sales cycles for Digital Signage deployment at scale can range from 9&ndash;18 months. There are many factors involved that affect the final time line, not the least of which is how the end-client measures success and how risk averse their business partners are when introducing a new solution.
+>Typical Sales cycles for Digital Signage deployment at scale can range from 9 through 18 months. There are many factors involved that affect the final time line, not the least of which is how the end-client measures success and how risk averse their business partners are when introducing a new solution.
 
 For example, stakeholders for a digital signage program in a retail environment could include the following:
 
@@ -44,11 +44,11 @@ The following section provides an overview on the key terms involved in an overa
 
 ### Proof of Concept (POC) {#proof-of-concept-poc}
 
-The purpose of a POC is to gain initial feedback on a solution's key functionalities. It also lets both the end-client and AV Integrator an opportunity to identify areas for improvement and prepare assumptions surrounding labor requirements and resource demands. A POC also lets both parties assess the solution's performance, which is typically measured through:
+The purpose of a POC is to gain initial feedback on a solution's key functionalities. It also lets both the end-client and Audio/Video Integrator an opportunity to identify areas for improvement and prepare assumptions surrounding labor requirements and resource demands. A POC also lets both parties assess the solution's performance, which is typically measured through:
 
 ### Quality Control {#quality-control}
 
-Systems & Software Integration testing begins with the AV Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the AV Integrator's facility. This allows for close review and testing of the entire solution for quality control.
+Systems & Software Integration testing begins with the Audio/Video Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio/Video Integrator's facility. This allows for close review and testing of the entire solution for quality control.
 
 Once QC testing is complete the IT Engineering Team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to be tested include:
 

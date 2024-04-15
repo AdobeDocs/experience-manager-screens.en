@@ -245,7 +245,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                                    defaultValue=""
                                    fieldDescription="Amount of time the image is shown in the sequence, in milliseconds"
-                                   fieldLabel="Duration (ms)"
+                                   fieldLabel="Duration (milliseconds)"
                                    min="0"
                                    name="./duration"/>
                            </items>
