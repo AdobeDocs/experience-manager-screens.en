@@ -93,7 +93,7 @@ The following example shows that you select the image in the edit mode and click
 
 ### Propagating Changes to the Live Copy Channel {#propagating-changes-to-the-live-copy-channel}
 
-If you make changes/updates in the original channel, you must propagate those changes to your Live Copy channel too.
+If you make changes or updates in the original channel, propagate those changes to your Live Copy channel too.
 
 Follow the steps below to ensure that your changes are propagated from the original channel to the live copy channel:
 

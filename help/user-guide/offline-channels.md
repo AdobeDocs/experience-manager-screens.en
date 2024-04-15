@@ -1,14 +1,10 @@
 ---
 title: Offline Channels
-seo-title: Offline Channels
-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Learn more about how AEM Screens player provides offline support for channels by using ContentSync technology.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
@@ -17,19 +13,19 @@ exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 ---
 # Offline Channels {#offline-channels}
 
-The Screens player provides offline support for the channels by leveraging the ***ContentSync*** technology.
+The Screens player provides offline support for the channels by using the ***ContentSync*** technology.
 
 The players use a local http server to serve the unzipped content.
 
-When a channel is configured to run *online*, the player serves the channel-resources by accessing the AEM server but when the channel is configured to run *offline*, the player serves the channel-resources from a local http server.
+When a channel is configured to run *online*, the player serves the channel-resources by accessing the AEM server. However, when the channel is configured to run *offline*, the player serves the channel-resources from a local http server.
 
-The workflow for the process is as follows:
+The workflow for the process is the following:
 
-1. Parse the desired page(s)
-1. Collect all related assets
-1. Package everything in a zip file
-1. Download the zip and extract it locally
-1. Display local copy of the content
+1. Parse the desired pages.
+1. Collect all related assets.
+1. Package everything in a zip file.
+1. Download the zip and extract it locally.
+1. Display local copy of the content.
 
 ## Update Handlers {#update-handlers}
 
@@ -49,22 +45,22 @@ The ***ContentSync*** uses update handlers to parse and collect all necessary pa
    <td><strong>Options</strong></td> 
   </tr>
   <tr>
-   <td>channels</td> 
+   <td><code>channels</code></td> 
    <td>collects a channel</td> 
    <td>extension: extension of the resource to collect<br /> [pathSuffix='']: suffix to add to the channel path<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>collect the specified client library</td> 
    <td>[extension='']: can be either css or js, to collect only the former, or only the latter</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>collect the asset renditions</td> 
    <td>[renditions=[]]: list of renditions to collect. Defaults to the original rendition</td> 
   </tr>
   <tr>
-   <td>copy</td> 
+   <td><code>copy</code></td> 
    <td>copy the specified structure from path</td> 
    <td> </td> 
   </tr>
@@ -92,11 +88,13 @@ Follow the steps below to enable offline config for a channel:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigate to the channel dashboard and click **...** in the **CHANNEL INFORMATION** Panel to change the properties.
+1. Navigate to the channel dashboard.
+1. Click **...** in the **CHANNEL INFORMATION** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navigate to the channel properties and make sure the checkbox is disabled under the **Channel** tab. Click **Save & Close**.
+1. Navigate to the channel properties.
+1. Under the ((Channel)) tab, make sure that the checkbox is disabled, then click **Save & Close**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

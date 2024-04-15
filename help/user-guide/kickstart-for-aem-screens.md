@@ -56,15 +56,15 @@ The first step is to create an AEM Screens project.
    ![image](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Once you create the project, it brings you back to the Screens Project home page. You can now select your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
+   >After you create the project, it brings you back to the AEM Screens Project home page. You can now select your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
 
 ### Creating a Channel {#creating-channel}
 
-Once you have created your AEM Screens project, you must create a channel where you manage the content.
+After you have created your AEM Screens project, create a channel where you manage the content.
 
 Follow the steps below to create a channel for your project:
 
-1. Once you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Click **+ Create** from the action bar.
+1. After you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Click **+ Create** from the action bar.
 
    ![image](assets/kickstart/demo-2.png)
 
@@ -140,7 +140,7 @@ When you have created a location, create a display for your location.
 
 ### Assigning a Channel {#assigning-channel}
 
-When the project setup is complete, you must assign the channel to a display to view the content.
+When the project setup is complete, assign the channel to a display to view the content.
 
 1. Navigate to the required display from **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay**.
 
@@ -188,7 +188,7 @@ Register your device using the AEM dashboard.
 >1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
 >1. Click **AEM Screens** Plugin so you can launch Chrome Player. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
 
-Once your Chrome OS player is on, follow the steps below to register a Chrome device.
+After your Chrome OS player is on, follow the steps below to register a Chrome device.
 
 1. Navigate to the **Devices** folder of your project from your AEM instance.
 

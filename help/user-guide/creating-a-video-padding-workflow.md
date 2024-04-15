@@ -40,7 +40,7 @@ Before you create a workflow for video, complete the following prerequisites:
 
 ## Creating a Video Padding Workflow {#creating-a-video-padding-workflow-1}
 
-To create a video padding workflow, you must create a workflow for your video and then use the same in your AEM Screens project channel.
+To create a video padding workflow, create a workflow for your video and then use the same in your AEM Screens project channel.
 
 Follow the steps below to create and use the workflow:
 
@@ -61,7 +61,7 @@ Follow the steps below to create a workflow for your video:
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Once you create the workflow model, select the model (**VideoRendition**), and click **Edit** from the action bar.
+1. After you create the workflow model, select the model (**VideoRendition**), and click **Edit** from the action bar.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -101,7 +101,7 @@ Follow the steps below to use the workflow in your AEM Screens project:
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Once you have uploaded the video, click **Preview** to view the output.
+1. When you have uploaded the video, click **Preview** to view the output.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

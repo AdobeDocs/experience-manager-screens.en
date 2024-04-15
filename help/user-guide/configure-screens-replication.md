@@ -44,7 +44,7 @@ Follow the steps below to enable users and update the password for `screens-rece
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Once you have enabled the user, you see the **`screens-receiver-user`** as **Enabled** under the **Status** field.
+   When you have enabled the user, you see the **`screens-receiver-user`** as **Enabled** under the **Status** field.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
@@ -119,7 +119,7 @@ Follow the section below to update settings in the AEM Screens Replication agent
 
 1. Click **OK**.
 
-1. Once you complete the preceding steps, you can click **Test Connection** to verify the connection.
+1. After you complete the preceding steps, click **Test Connection** to verify the connection.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

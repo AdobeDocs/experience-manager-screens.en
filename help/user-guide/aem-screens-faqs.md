@@ -215,7 +215,7 @@ You can also see an additional resource on [Oak Documentation](https://jackrabbi
 
 ### 3. What is required to configure v3 Manifests? {#configure-v3}
 
-For enabling v3 Manifest, you must:
+For enabling v3 Manifest, do the following:
 
 * Update Dispatcher.
   See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) for more details.

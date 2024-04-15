@@ -39,7 +39,7 @@ Referencing a *Channel By Role*, lets you create local version of a channel, to 
 >
 >A Dynamic Embedded Sequence is similar to an embedded sequence but allows the user to follow a hierarchy where changes/updates made to one channel is propagated to other one in relation. It follows parent-child hierarchy and also includes assets like images or videos.
 >
->***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Also, while setting up Dynamic Embedded Sequences, you must configure the channel using channel role and name. See the steps below for practical implementation.
+>***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Also, while setting up Dynamic Embedded Sequences, configure the channel using channel role and name. See the steps below for practical implementation.
 >
 >To learn more about implementing embedded sequences, see [Embedded Sequences](embedded-sequences.md) in AEM Screens.
 

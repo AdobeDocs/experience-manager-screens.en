@@ -11,7 +11,7 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 >[!IMPORTANT]
 >This section highlights the Channel assignment and scheduling of channels for Feature packs older than AEM 6.5.5 Screens version.
 
-Once you have set up a display, you must assign a channel to a display to view your content.
+When you have set up a display, assign a channel to a display to view your content.
 
 This page shows assigning a channel to your display.
 

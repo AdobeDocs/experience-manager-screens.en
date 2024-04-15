@@ -28,7 +28,7 @@ Before you begin with author servers and publish servers, you should have prior 
 
 >[!NOTE]
 >
->This AEM Screens functionality is only available if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, you must contact Adobe Support and request access. After you have permission, download it from Package Share.
+>This AEM Screens functionality is only available if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, contact Adobe Support and request access. After you have permission, download it from Package Share.
 
 ## Introduction {#introduction}
 

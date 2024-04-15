@@ -24,7 +24,7 @@ The device registration process is done on two separate machines:
 
 >[!NOTE]
 >
->Once you download the latest Windows Player (*.exe*), from [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
+>After you download the latest Windows Player (*.exe*), from [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
 >
 >1. Long-press on the top-left corner to open the admin panel.
 >1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
@@ -78,7 +78,7 @@ The device registration process is done on two separate machines:
    >
    >The **Assign Display** lets you directly add the device to a display.
 
-   If you click **Finish**, you must assign the device to a display.
+   If you click **Finish**, assign the device to a display.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -112,7 +112,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
 ## Searching a Device from the Device Manager {#search-device}
 
-Once you have registered devices to your player, you can view all the devices from the Device Manager UI.
+When you have registered devices to your player, you can view all the devices from the Device Manager UI.
 
 1. Navigate to the Device Manager UI from your AEM Screens project, for instance, **DemoScreens** > **Devices**. 
 

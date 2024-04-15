@@ -18,7 +18,7 @@ The following page provides the guidelines for configuring Dispatcher for an AEM
 >
 >If there is no Dispatcher, disable the registration servlet in the OSGi components listing.
 
-Before you configure Dispatcher for an AEM Screens project, you must have prior knowledge of Dispatcher.
+Before you configure Dispatcher for an AEM Screens project, have prior knowledge of Dispatcher.
 See [Configuring Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) for more details.
    
 ## Configuring Dispatcher for Manifest Version v2 {#configuring-dispatcher}
@@ -88,7 +88,7 @@ Disable Dispatcher caching for ***/content/screens path***.
 
 Screens players use authenticated sessions, so the Dispatcher does not cache any of the screens players requests for `channels/assets`. 
 
-To enable the cache for the assets so that the assets are served from Dispatcher cache, you must:
+To enable the cache for the assets so that the assets are served from Dispatcher cache, do the following:
 
 * Add `/allowAuthorization 1` in `/cache` section
 * Add the below rules to `/rules` section of `/cache`

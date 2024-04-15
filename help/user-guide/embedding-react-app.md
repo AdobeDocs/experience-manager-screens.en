@@ -42,7 +42,7 @@ Follow the steps below to use the AEM SPA Editor:
    >
    >This documentation uses the **GroupId** as ***com.adobe.aem.screens*** and the **ArtifactId** as ***My Sample SPA*** (which are the defaults). You can choose your own as needed.
 
-1. Once the project is created, either use an IDE or editor of your choice and import the generated Maven project.
+1. After the project is created, either use an IDE or editor of your choice and import the generated Maven project.
 1. Deploy to your local AEM instance using the command ***mvn clean install -PautoInstallPackage***.
 
 ### Editing content in the REACT app {#editing-content-in-the-react-app}

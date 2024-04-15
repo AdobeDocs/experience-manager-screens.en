@@ -16,7 +16,7 @@ This section highlights how to enable targeting in your channels.
 
 ## Prerequisites {#prereqs}
 
-Before you follow the steps below to enable targeting in channels, you must learn the [Key Terms in Configuring in AEM Screens](configuring-context-hub.md) required for understanding ContextHub and Targeting in AEM Screens.
+Before you follow the steps below to enable targeting in channels, learn the [Key Terms in Configuring in AEM Screens](configuring-context-hub.md) required for understanding ContextHub and Targeting in AEM Screens.
 
 >[!IMPORTANT]
 >

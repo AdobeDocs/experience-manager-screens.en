@@ -1,14 +1,10 @@
 ---
 title: Creating and Managing Locations
-seo-title: Managing Locations
-description: Follow this page to learn about creating/managing locations.
-seo-description: Follow this page to learn about creating/managing locations.
-uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
+description: Learn more about creating and managing locations as it relates to AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -28,22 +24,20 @@ This page shows creating and managing locations for Screens.
 
 ## Creating a New Location {#creating-a-new-location}
 
-Once you create your project for Screens, follow the steps below to create a new Location for a Screens project:
+After you create your project for Screens, follow the steps below to create a Location for a Screens project:
 
 1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. A wizard will open.
+1. Click **Create** next to the plus icon in the action bar.
 1. Select the template **Location** from the wizard and click **Next**.
-
 1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
-
 1. Click **Create** and the location is created and added to your locations folder.
 
-See the steps below to understand creating a new location for an AEM Screens project. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+See the steps below to understand creating a location for an AEM Screens project. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
 
 ![player2](assets/player2.gif)
 
-Once you create a location, you have to create a new display for your location.
+After you create a location, create a display for your location.
 
 ### Editing Properties for a Location {#editing-properties-for-a-location}
 
@@ -56,6 +50,6 @@ To edit/access the properties of a location:
 
 #### The Next Steps {#the-next-steps}
 
-Once you create a location, you have to create a new display for your location.
+After you create a location, create a display for your location.
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+See [Creating and Managing Displays](managing-displays.md).

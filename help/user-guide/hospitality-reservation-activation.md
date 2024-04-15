@@ -23,7 +23,7 @@ If the value of **`Restaurant1`** > **`Restaurant2`**, then **AdTaget** is assig
 
 ## Preconditions {#preconditions}
 
-Before you start implementing the reservation activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+Before you start implementing the reservation activation, learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 See [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
 

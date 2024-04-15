@@ -48,7 +48,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 
 The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
-Once you download the application, follow the steps on the player to complete the ad-hoc installation:
+After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
 1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
@@ -65,7 +65,7 @@ Once you download the application, follow the steps on the player to complete th
 You can assign a user-friendly device name to your Windows player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
->You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
+>You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
 Follow the steps below to configure the name in Windows player:
 

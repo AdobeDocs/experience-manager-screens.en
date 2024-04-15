@@ -1,7 +1,6 @@
 ---
 title: Security Checklist for AEM Screens
-description: The page describes Security Checklist for AEM Screens.
-seo-description: The page describes Security Checklist for AEM Screens
+description: Learn more about the security checklist for AEM Screens.
 ---
 
 # System Security Considerations for AEM Screens {#security-checklist}

@@ -17,7 +17,7 @@ This section describes a functionality to bulk-import a set of locations from a 
 
 ## Introduction {#introduction}
 
-When you are setting up an AEM Screens project for the first time in your organization, you must create all the locations too. If your project involves many locations, it results in a tedious task that involves much clicking and waiting in the UI.
+When you are setting up an AEM Screens project for the first time in your organization, create all the locations too. If your project involves many locations, it results in a tedious task that involves much clicking and waiting in the UI.
 
 The goal of this feature is to reduce the time required to set up the project and thus resolve budgeting issues.
 
@@ -101,7 +101,7 @@ Follow the steps below to import a file to a location folder with minimum requir
 
 1. The **Import** wizard is displayed. Select the file for your project with locations or select the file (***minimal-file.xls***) you downloaded from the *Prerequisites* section.
 
-   Once you have selected the file, click **Next**.
+   After you have selected the file, click **Next**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

@@ -32,7 +32,7 @@ See the following resources for more details:
 
 ## Downloading the Content Assignment Report {#downloading-content-assignment-report-fp}
 
-Once you have setup your AEM Screens project and have assigned displays to each of the locations as shown in the preceding steps, you are ready to download the Content Assignment Report.
+When you have setup your AEM Screens project and have assigned displays to each of the locations as shown in the preceding steps, download the Content Assignment Report.
 
 >[!NOTE]
 >The Content Assignment Report feature can only be accessed at the project level.

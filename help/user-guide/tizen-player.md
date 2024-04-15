@@ -37,7 +37,7 @@ Follow the steps below:
 You can assign a user-friendly device name to your Tizen player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Tizen player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
->You can choose the Player name only before registration. Once the Player is registered, the Player name cannot be changed anymore.
+>You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
 Follow the steps below to configure the name in Tizen player:
 
@@ -52,7 +52,7 @@ Follow the steps below on the Samsung device so you can complete the installatio
 1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
 1. Scroll down and select the **Play via** option and change it to **URL Launcher** option.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
-1. Once the URL Launcher is set, press the **Home** button from your remote.
+1. When the URL Launcher is set, press the **Home** button from your remote.
 1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and click **Done**.
 
    >[!NOTE] 

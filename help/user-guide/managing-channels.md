@@ -19,7 +19,7 @@ This page shows creating and managing channels for AEM Screens.
 
 ## Creating a New Channel {#creating-a-new-channel}
 
-Once you create your project for AEM Screens, follow the steps below to create a Channel for your project:
+After you create your project for AEM Screens, follow the steps below to create a Channel for your project:
 
 1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to `https://localhost:4502/screens.html/content/screens`.
 
@@ -61,7 +61,7 @@ The following template options are available while using the wizard such as:
 
 >[!IMPORTANT]
 >
-> Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore, you must assign that channel to a display. See the resources below at the end of the section.
+>After you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore, assign that channel to a display. See the resources below at the end of the section.
 
 ## Working with Channels {#working-with-channels}
 

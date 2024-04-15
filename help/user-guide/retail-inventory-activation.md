@@ -1,14 +1,10 @@
 ---
 title: Retail Inventory Targeted Activation
-seo-title: Retail Inventory Targeted Activation
-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
-seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
-uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
+description: Learn about this AEM Screens use case that showcases the retail inventory stock for three different colored sweatshirts.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
@@ -23,11 +19,11 @@ The following use case demonstrates three different images based on the values i
 
 This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 
-For this Use Case, the Red, Green, or Blue sweater will display on your screen based on the highest value of number of sweaters that is available.
+For this Use Case, the Red, Green, or Blue sweater displays on your screen based on the highest value of number of sweaters that is available.
 
 ## Preconditions {#preconditions}
 
-Before you start implementing the retail inventory targeting activation, you must learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
+Before you start implementing the retail inventory targeting activation, learn how to set up ***Data Store***, ***Audience Segmentation*** and ***Enable Targeting for Channels*** in an AEM Screens Project.
 
 See [Configuring ContextHub in AEM Screens](configuring-context-hub.md) for detailed information.
 
@@ -50,23 +46,17 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
     1. Select **For_Red** and click **Edit** from the action bar.
 
-    1. Drag and drop the **Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
-    1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**
-
-    1. Select the **Operator** as **greater-than** from the drop-down menu
-
-    1. Seelect **Data Type** as **number**
-
-    1. Select **googlesheets/value/1/1** from the drop-down in **Second Property name**.
-
-    1. Drag and drop **another Comparison : Property - Property** to the editor and click the configure icon to edit the properties.
+    1. Drag-and-drop the **Comparison : Property - Property** to the editor.
+    1. Click the **Configuration** icon.
     1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
-
-    1. Select the **Operator** as **greater-than** from the drop-down menu
-
-    1. Select **Data Type** as **number**
-
-    1. Select **googlesheets/value/1/0** from the drop-down in **Second Property name**
+    1. Select the **Operator** as **greater-than** from the drop-down menu.
+    1. Select **Data Type** as **number**.
+    1. Select **googlesheets/value/1/1** from the drop-down in **Second Property name**.
+    1. Drag-and-drop **another Comparison : Property - Property** to the editor and click the **Configuration** icon.
+    1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
+    1. Select the **Operator** as **greater-than** from the drop-down menu.
+    1. Select **Data Type** as **number**.
+    1. Select **googlesheets/value/1/0** from the drop-down in **Second Property name**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -74,15 +64,16 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Similarly, edit and add comparison property rules to** For_Green **segment as shown in the figure below:
+   Similarly, edit and add comparison property rules to **For_Green** segment as shown in the figure below:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >You will notice that for segments **For_Green** and **For_Green**, data cannot be resolved in the editor as only the first comparison is valid as of now as per the values in the Google Sheet.
+   >Notice that for segments **For_Green** and **For_Green**, data cannot be resolved in the editor as only the first comparison is valid as of now as per the values in the Google Sheet.
 
-1. Navigate and select your **DataDrivenRetail** channel (a sequencel channel) and click **Edit** from the action bar.
+1. Navigate and select your **DataDrivenRetail** channel (a sequence channel).
+1. Click **Edit** from the action bar.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -94,30 +85,29 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
    >[!NOTE]
    >
-   >You must select both the **Brand** and the **Area** for the activities to be properly listed when you start the Targeting process.
+   >Select both the **Brand** and the **Area** for the activities to be properly listed when you start the Targeting process.
 
 1. **Adding a default image**
 
     1. Add a default image to your channel and click **Targeting**.
     1. Select **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
-
     1. Click **Start Targeting**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Before you start targeting, you must add the segments (**For_Green**, **For_Red**, and **For_Blue**) by clicking on **+ Add Experience Targeting** from the side rail as shown in the figure below.
+   >Before you start targeting, add the segments (**For_Green**, **For_Red**, and **For_Blue**) by clicking **+ Add Experience Targeting** from the side rail as shown in the figure below.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
-1. Add the images to all the three different screnarios as shown below.
+1. Add the images to all the three different scenarios as shown below.
 
    ![retail_targeting](assets/retail_targeting.gif)
 
 1. **Checking the Preview**
 
     1. Click **Preview.** Also, open your Google Sheet and update its value.
-    1. Change the value for all three different columns and you will notice the display image updates as per the highest value in inventory.
+    1. Change the value for all three different columns. Notice the display image updates as per the highest value in inventory.
 
    ![retail_result](assets/retail_result.gif)
