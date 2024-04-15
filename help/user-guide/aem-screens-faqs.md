@@ -103,7 +103,7 @@ Enable the Apache Sling Referrer Filter Allow Empty. This is required for optima
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**
 1. Check the **allow.empty** option.
-1. Click **Save**.
+1. Select **Save**.
 
 ### 3. How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error?
 
@@ -127,13 +127,13 @@ For more information on where you can monitor device activity, see [**AEM Scree 
 
 ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 
-1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
+1. Select [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 1. Unzip and save it on disk.
 1. Open Chrome browser and select **Extensions** from the menu or directly navigate to ***chrome://extensions***.
 1. Switch on the **Developer mode** from top-right corner.
 1. Select **Load Unpacked** from the top-left corner and load unzipped Chrome Player.
 1. If available in the list of extensions, check **AEM Screens Chrome Player** plugin.
-1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
+1. Open a new tab and select the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
 1. Select the **AEM Screens** Plugin. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
 
 ### 2. How to troubleshoot if Screens player is unable to authenticate through publishing instance with custom error handler?

@@ -54,7 +54,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
       * Navigate to CRXDE Lite in Author and Publish.
 
-      * Click Tools > Query.
+      * Select Tools > Query.
 
       * In the query, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

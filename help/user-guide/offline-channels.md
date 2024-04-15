@@ -73,9 +73,9 @@ Follow the steps below to test the ContentSync configuration:
 
 1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. Select your config in the list
-1. Click Clear Cache
-1. Click Update Cache
-1. Click Download Full
+1. Select Clear Cache
+1. Select Update Cache
+1. Select Download Full
 1. Extract the zip file
 1. Start a local server in the extracted folder 
 1. Open your start page and check your app status
@@ -89,16 +89,16 @@ Follow the steps below to enable offline config for a channel:
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Navigate to the channel dashboard.
-1. Click **...** in the **CHANNEL INFORMATION** Panel.
+1. Select **...** in the **CHANNEL INFORMATION** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Navigate to the channel properties.
-1. Under the ((Channel)) tab, make sure that the checkbox is disabled, then click **Save & Close**.
+1. Under the ((Channel)) tab, make sure that the checkbox is disabled, then select **Save & Close**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Before content is properly deployed to the device, click the **Update Offline Content**.
+   Before content is properly deployed to the device, select the **Update Offline Content**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

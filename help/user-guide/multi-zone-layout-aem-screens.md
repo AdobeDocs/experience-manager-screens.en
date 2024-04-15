@@ -45,13 +45,13 @@ While creating a channel, you can use different templates to create zones in you
 **Creating a Channel**
 
 1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to **Channels** folder and click **Create** from the action bar.
+1. Navigate to **Channels** folder and select **Create** from the action bar.
 
 1. Select **1x2 Split Screen Channel** from the **Create** wizard.
 
-1. Click **Next** and enter the **title** as **MultiZone**.
+1. Select **Next** and enter the **title** as **MultiZone**.
 
-1. Click **Create** to complete the channel creation.
+1. Select **Create** to complete the channel creation.
 
 ### Using Single Assets in one or more Zones {#using-single-assets-in-one-or-more-zones}
 
@@ -60,7 +60,7 @@ You can use single assets such as an image or a video in all individual zones. F
 1. **Adding Content to the Channel**
 
     1. Navigate to **Zones** > **Channels**> **MultiZone**.
-    1. Select the **MultiZone** channel and click **Edit** from the action bar.
+    1. Select the **MultiZone** channel and select **Edit** from the action bar.
 
 1. **Adding Images to the Channel**
 
@@ -74,17 +74,17 @@ If you want the zones to display sequence of images and a video in the different
 
 1. **Creating a Channel Folder**
 
-    1. Navigate to **Zones** > **MultiZone** > **Channels** and click **Create** from the action bar.
-    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
-    1. Enter the title as **EmbeddedChannels** and click **Create**.
+    1. Navigate to **Zones** > **MultiZone** > **Channels** and select **Create** from the action bar.
+    1. Select **Channels Folder** from the **Create** wizard and select **Next**.
+    1. Enter the title as **EmbeddedChannels** and select **Create**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Adding two more channels to Channel Folder**
 
-    1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and click **Create** from the action bar.
+    1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and select **Create** from the action bar.
     1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **`Zone1`**.
-    1. Select **`Zone1`** and click **Edit** from the action bar.
+    1. Select **`Zone1`** and select **Edit** from the action bar.
     1. Drag and drop few images to this channel.
     1. Similarly, create another sequence channel titled as **`Zone2`** in **EmbeddedChannels** folder.
     1. Drag and drop a video to this channel.
@@ -104,10 +104,10 @@ If you want the zones to display sequence of images and a video in the different
 1. **Adding Embedded Sequences (component) to main channel (MultiZone)**
 
     1. Navigate to **Zones** > **Channels** > **MultiZone**.
-    1. Click **Edit** from the action bar.
+    1. Select **Edit** from the action bar.
     1. Drag and drop the **Embedded Sequence** component to both the zones.
     1. Select the embedded sequence in one of the zones.
-    1. Click the **Configure** (wrench) icon to one of the embedded sequences in the editor.
+    1. Select the **Configure** (wrench) icon to one of the embedded sequences in the editor.
     1. Select the channel path as **Zones** > **Channels** > **EmbeddedChannels** > **`Zone1`**, as shown in the figure below.
     1. Similarly, add the **`Zone2`** to another embedded sequence component in the editor. 
 

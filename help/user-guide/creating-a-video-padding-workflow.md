@@ -52,16 +52,16 @@ Follow the steps below to create and use the workflow:
 Follow the steps below to create a workflow for your video:
 
 1. Navigate to your AEM instance.
-1. Click tools from side rail. 
+1. Select tools from side rail. 
 1. Select **Workflow** > **Models** so you can create a model.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Click **Models** > **Create** > **Create Model**. Enter the **Title** (as **VideoRendition**) and **Name** in the **Add Workflow Model**. Click **Done** to add the workflow model.
+1. Select **Models** > **Create** > **Create Model**. Enter the **Title** (as **VideoRendition**) and **Name** in the **Add Workflow Model**. Select **Done** to add the workflow model.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. After you create the workflow model, select the model (**VideoRendition**), and click **Edit** from the action bar.
+1. After you create the workflow model, select the model (**VideoRendition**), and select **Edit** from the action bar.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -81,11 +81,11 @@ Follow the steps below to create a workflow for your video:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Select the workflow (**VideoRenditions**).
-1. Click **Start Workflow** from the action bar.
+1. Select **Start Workflow** from the action bar.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. In the **Run Workflow** dialog box, select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and click **Run**.
+1. In the **Run Workflow** dialog box, select the path of your asset in the **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) and enter the **Title** as ***RunVideo*** and select **Run**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -97,11 +97,11 @@ Follow the steps below to use the workflow in your AEM Screens project:
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Click **Edit** from the action bar. Drag and drop the video that you initially uploaded to **Assets**.
+1. Select **Edit** from the action bar. Drag and drop the video that you initially uploaded to **Assets**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. When you have uploaded the video, click **Preview** to view the output.
+1. When you have uploaded the video, select **Preview** to view the output.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

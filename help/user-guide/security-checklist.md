@@ -23,4 +23,4 @@ The AEM Screens Security Checklist page describes the key security areas with a 
 
 ### Downloading Security Checklist {#download-checklist}
 
-To download the AEM Screens Security Checklist, click [here](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
+To download the AEM Screens Security Checklist, select [here](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).

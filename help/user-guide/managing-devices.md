@@ -30,26 +30,26 @@ Follow the steps below to assign a device to a display:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. The assigned and unassigned devices display.
+1. Select your **Devices** folder and select **Device Manager** in the action bar. The assigned and unassigned devices display.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Select an unassigned device from the list, and select the **Assign Device** in the action bar.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display that you want to assign the device to from the list, and tap/click the **Assign**.
+1. Select the display that you want to assign the device to from the list, and select the **Assign**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Select the **Finish** to complete the assignment process.
 
 
    The display dashboard displays the assigned device in the **DEVICES** panel.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Click the (**...**) on the top-right corner of the **DEVICES** panel to either add device config or update the devices.
+   Select the (**...**) on the top-right corner of the **DEVICES** panel to either add device config or update the devices.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

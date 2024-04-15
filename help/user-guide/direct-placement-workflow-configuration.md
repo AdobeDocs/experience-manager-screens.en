@@ -17,7 +17,7 @@ This section covers the following topics:
 
 Direct Placement Workflow Configuration maps an AEM Screens project channel to a specific folder in assets and allows for placement of any asset in that folder. Adobe recommends that you trigger a bulk offline update to complete the publication.
 
-Alternatively, as a content author you can manually click **Update Offline Content**.
+Alternatively, as a content author you can manually select **Update Offline Content**.
 
 >[!NOTE]
 >

@@ -33,7 +33,7 @@ Follow the steps below to navigate to the device dashboard:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Select the device (**NewTestDevice**) and click **Dashboard** from the action bar.
+1. Select the device (**NewTestDevice**) and select **Dashboard** from the action bar.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -83,7 +83,7 @@ Select **Properties** so you can view the **Device Properties** dialog box. You 
 
 You can view the player screenshot from the device from the **PLAYER SCREENSHOT** panel.
 
-Click (**...**) on the top-right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
+Select (**...**) on the top-right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -126,7 +126,7 @@ Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Check the **allow.empty** option.
-1. Click **Save**.
+1. Select **Save**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

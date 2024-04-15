@@ -25,15 +25,15 @@ After you create your project for AEM Screens, follow the steps below to create 
 
 1. Navigate to your Screens project and select **Channels** folder.
 
-1. Click **Create** from the action bar.
+1. Select **Create** from the action bar.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Select the **Sequence Channel** template from the **Create** wizard and click **Next**.
+1. Select the **Sequence Channel** template from the **Create** wizard and select **Next**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. Enter the Title as **ScreensChannel** and select **Create**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -75,7 +75,7 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 To add or edit content in a channel, follow the steps below:
 
 1. Select the channel that you want to edit (as shown in the figure above).
-1. Click **Edit** from the top-left corner of the action bar so you can edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
+1. Select **Edit** from the top-left corner of the action bar so you can edit the channel properties. The editor opens that lets you add assets/components to your channel that you want to publish.
 
 >[!NOTE]
 >You can add components to your channel. See **[Adding Components to a Channel](adding-components-to-a-channel.md)** for more details.
@@ -87,7 +87,7 @@ To add or edit content in a channel, follow the steps below:
 Follow the steps below to upload videos to your channel:
 
 1. Select the channel where you want to upload the video.
-1. Click **Edit** from the action bar.
+1. Select **Edit** from the action bar.
 1. In the editor, select **Videos** under Assets and drag and drop the required videos.
 
 >[!NOTE]
@@ -95,15 +95,15 @@ Follow the steps below to upload videos to your channel:
 
 ### Viewing or Editing Properties of a channel {#viewing-properties}
 
-1. Click the Channel that you want to edit.
-1. Click **Properties** from the action bar so you can view/edit the channel properties. The following tab lets you change the options.
+1. Select the Channel that you want to edit.
+1. Select **Properties** from the action bar so you can view/edit the channel properties. The following tab lets you change the options.
 
 ![properties](assets/properties.gif)
 
 ### Viewing Dashboard {#viewing-dashboard}
 
 1. Select the channel that you want to edit.
-1. Click **Dashboard** from the action bar.
+1. Select **Dashboard** from the action bar.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -111,7 +111,7 @@ Follow the steps below to upload videos to your channel:
 
 The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you the information on whether the channel is offline or online.
 
-Click the (**...**) from the **CHANNEL INFORMATION** action bar so you can view properties, edit the content, or update the cache (offline content) for the channel.
+Select the (**...**) from the **CHANNEL INFORMATION** action bar so you can view properties, edit the content, or update the cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -127,11 +127,11 @@ Follow these steps so you can enable this option from the channel dashboard:
 1. **Set the Channel to Offline**
    1. Select the channel and select **Properties** from the action bar
    1. Navigate to **Channel** tab and make sure that you uncheck **Developer Mode (force channel to be online)** option
-   1. Click **Save & Close**
+   1. Select **Save & Close**
 1. **Update Offline Content**
    1. Select the channel and select **Dashboard** from the action bar
-   1. Navigate to **CHANNEL INFORMATION** panel and click *...*
-   1. Click **Update Offline Content**
+   1. Navigate to **CHANNEL INFORMATION** panel and select *...*
+   1. Select **Update Offline Content**
 
 You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
 
@@ -155,17 +155,17 @@ Follow the steps below to make the channel online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar so you can view the status of the player. The **CHANNEL INFORMATION** panel provides information on whether the channel is online or offline.
+   Select **Dashboard** from the action bar so you can view the status of the player. The **CHANNEL INFORMATION** panel provides information on whether the channel is online or offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Click **Properties** from the action bar and navigate to the **Channel** tab as shown below:
+1. Select **Properties** from the action bar and navigate to the **Channel** tab as shown below:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Check the **Developer** **mode (force channel to be online)** to make the channel as online.
 
-   Click **Save & Close** to save your option.
+   Select **Save & Close** to save your option.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -174,7 +174,7 @@ Follow the steps below to make the channel online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->To configure your channel again as offline, uncheck the Developer mode option from the **Properties** tab (as shown in step (3)). Then, from the **CHANNEL INFORMATION** panel click **Update Offline Content**, as shown in the figure below.
+>To configure your channel again as offline, uncheck the Developer mode option from the **Properties** tab (as shown in step (3)). Then, from the **CHANNEL INFORMATION** panel select **Update Offline Content**, as shown in the figure below.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -233,7 +233,7 @@ The associated displays are listed in the **Assigned Displays** panel, as shown 
 >* [Create and Manage Displays](managing-displays.md)
 >
 
-Also, click the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
+Also, select the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

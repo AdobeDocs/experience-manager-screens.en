@@ -44,15 +44,15 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
     1. Add three new segments **For_Red**, **For_Green**, and **For_Blue**.
 
-    1. Select **For_Red** and click **Edit** from the action bar.
+    1. Select **For_Red** and select **Edit** from the action bar.
 
     1. Drag-and-drop the **Comparison : Property - Property** to the editor.
-    1. Click the **Configuration** icon.
+    1. Select the **Configuration** icon.
     1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
     1. Select the **Operator** as **greater-than** from the drop-down menu.
     1. Select **Data Type** as **number**.
     1. Select **googlesheets/value/1/1** from the drop-down in **Second Property name**.
-    1. Drag-and-drop **another Comparison : Property - Property** to the editor and click the **Configuration** icon.
+    1. Drag-and-drop **another Comparison : Property - Property** to the editor and select the **Configuration** icon.
     1. Select **googlesheets/value/1/2** from the drop-down in **First Property name**.
     1. Select the **Operator** as **greater-than** from the drop-down menu.
     1. Select **Data Type** as **number**.
@@ -73,7 +73,7 @@ Follow the steps below to implement the Retail Inventory Activation use case:
    >Notice that for segments **For_Green** and **For_Green**, data cannot be resolved in the editor as only the first comparison is valid as of now as per the values in the Google Sheet.
 
 1. Navigate and select your **DataDrivenRetail** channel (a sequence channel).
-1. Click **Edit** from the action bar.
+1. Select **Edit** from the action bar.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -89,15 +89,15 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
 1. **Adding a default image**
 
-    1. Add a default image to your channel and click **Targeting**.
-    1. Select **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
-    1. Click **Start Targeting**.
+    1. Add a default image to your channel and select **Targeting**.
+    1. Select **Brand** and the **Activity** from the drop-down menu and select **Start Targeting**.
+    1. Select **Start Targeting**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Before you start targeting, add the segments (**For_Green**, **For_Red**, and **For_Blue**) by clicking **+ Add Experience Targeting** from the side rail as shown in the figure below.
+   >Before you start targeting, add the segments (**For_Green**, **For_Red**, and **For_Blue**) by selecting **+ Add Experience Targeting** from the side rail as shown in the figure below.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -107,7 +107,7 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
 1. **Checking the Preview**
 
-    1. Click **Preview.** Also, open your Google Sheet and update its value.
+    1. Select **Preview.** Also, open your Google Sheet and update its value.
     1. Change the value for all three different columns. Notice the display image updates as per the highest value in inventory.
 
    ![retail_result](assets/retail_result.gif)

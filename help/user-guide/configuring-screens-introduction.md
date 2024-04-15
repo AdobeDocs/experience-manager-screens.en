@@ -70,7 +70,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
     ![image](assets/config/empty-ref2.png)
     
-1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
+1. Select **Save** to enable the Apache Sling Referrer Filter Allow Empty.
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
@@ -87,7 +87,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
    ![image](assets/config/config-1.png)
 
-1. Click **Save** to enable the *http* service.
+1. Select **Save** to enable the *http* service.
 
 #### Enable Touch UI for AEM Screens {#enable-touch-ui-for-aem-screens}
 

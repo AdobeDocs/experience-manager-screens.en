@@ -61,7 +61,7 @@ Follow the steps below to transition from ContentSync to SmartSync:
 
 1. Migrating from ContentSync to SmartSync requires clearing of ContentSync cache before activating SmartSync.
 
-   Navigate to the ContentSync console from your instance using the link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** and click **Clear Cache**, as shown in the figure below:
+   Navigate to the ContentSync console from your instance using the link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** and select **Clear Cache**, as shown in the figure below:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -79,7 +79,7 @@ Follow the steps below to transition from ContentSync to SmartSync:
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Click **Save** to enable the **Screens Offline Content Services** property and hence use SmartSync for AEM Screens.
-1. When you have enabled SmartSync, navigate to your project and click **Update Offline Content** *(from the action bar),* as shown in the figure below.
+1. Select **Save** to enable the **Screens Offline Content Services** property and hence use SmartSync for AEM Screens.
+1. When you have enabled SmartSync, navigate to your project and select **Update Offline Content** *(from the action bar),* as shown in the figure below.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

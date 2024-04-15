@@ -60,9 +60,9 @@ A device config acts as a placeholder for an actual digital signage device that 
 1. Select your display folder and select **View Dashboard** in the action bar.
 1. Select **+ Add Device Config** on the top-right of the **Devices** panel.
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. Select the **Device Config** as the required template as and select **Next**.
 
-1. Enter the properties as required and tap/click **Create**.
+1. Enter the properties as required and select **Create**.
 
 The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
 
@@ -96,12 +96,12 @@ The display dashboard provides you with different panels for managing display de
 
 The **DISPLAY INFORMATION** Panel provides the display properties.
 
-Click (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so you can view the properties and preview the display.
+Select (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so you can view the properties and preview the display.
 
 
 #### Viewing Properties {#viewing-properties}
 
-Click **Properties** so you can view or change the properties of your display.
+Select **Properties** so you can view or change the properties of your display.
 
 Also, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
 
@@ -119,7 +119,7 @@ The **DEVICES** Panel provides information on the device configs.
 
 Select (**...**) in the top-right corner in the **DEVICES** panel so you can add device configs and update devices.
 
-Also, click the device config to view properties, assign a device, or delete it completely.
+Also, select the device config to view properties, assign a device, or delete it completely.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

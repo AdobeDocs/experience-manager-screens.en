@@ -41,7 +41,7 @@ You can assign a user-friendly device name to your Tizen player, thus sending th
 
 Follow the steps below to configure the name in Tizen player:
 
-1. Click the menu button on your remote.
+1. Select the menu button on your remote.
 1. Navigate to **network** > **Device Name** so you can assign a name to the player.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
@@ -49,11 +49,11 @@ Follow the steps below to configure the name in Tizen player:
 Follow the steps below on the Samsung device so you can complete the installation of the AEM Screens player on the device:
 
 1. Navigate to your Samsung device and turn in on.
-1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
+1. Select the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
 1. Scroll down and select the **Play via** option and change it to **URL Launcher** option.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. When the URL Launcher is set, press the **Home** button from your remote.
-1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and click **Done**.
+1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and select **Done**.
 
    >[!NOTE] 
    >The Tizen player should be able to connect to the http server.

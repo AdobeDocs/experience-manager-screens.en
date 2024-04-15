@@ -41,7 +41,7 @@ Follow the instructions below to download the Content Assignment Report:
 
 1. Navigate to your AEM Screens project and select the project **DemoScreens**.
 
-1. Click **Content Assignment Report** from the action bar.
+1. Select **Content Assignment Report** from the action bar.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -52,6 +52,6 @@ Follow the instructions below to download the Content Assignment Report:
    >[!NOTE]
    >The data displayed in the spreadsheet is alphabetically sorted in an easy-to-read format.
 
-1. Clicking any of the channels from the **Channels** column opens the **Content** tab. In turn, it directly navigates you to that channel and gives you information on assets (images and videos) associated with that specific channel.
+1. Selecting any of the channels from the **Channels** column opens the **Content** tab. In turn, it directly navigates you to that channel and gives you information on assets (images and videos) associated with that specific channel.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

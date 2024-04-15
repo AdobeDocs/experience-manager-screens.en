@@ -91,11 +91,11 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 1. **Creating Live Copy of Experience Fragment**
 
     1. Navigate to the AEM home page.
-    1. Select **Experience Fragments** and highlight the **ScreensFragment** and click **Variation as live-copy**, as shown in the figure below:
+    1. Select **Experience Fragments** and highlight the **ScreensFragment** and select **Variation as live-copy**, as shown in the figure below:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. Select the **ScreensFragment** from **Create Live Copy** wizard and select **Next**.
 
    d. Enter the **Title** and **Name** as **Screens**.
 
@@ -107,11 +107,11 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
    >[!NOTE]
    >
-   >After you have created an AEM Screens fragment, you can edit the properties of your fragment. Select the fragment and click **Properties** from the action bar.
+   >After you have created an AEM Screens fragment, you can edit the properties of your fragment. Select the fragment and select **Properties** from the action bar.
 
    **Editing Properties of a Screens Fragment**
 
-    1. Navigate to the **ScreensFragment** (you created in the preceding steps) and click **Properties** from the action bar.
+    1. Navigate to the **ScreensFragment** (you created in the preceding steps) and select **Properties** from the action bar.
     
     1. Select the **Offline Config** tab, as shown in the figure below.
 
@@ -122,9 +122,9 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 1. **Using Experience Fragment as a Component in Screens Channel**
 
     1. Navigate to the Screens channel where you want to use the **Screens** fragment.
-    1. Select the **TestChannel** and click **Edit** from the action bar.
+    1. Select the **TestChannel** and select **Edit** from the action bar.
     
-    1. Click the components icon from the side tab.  
+    1. Select the components icon from the side tab.  
     1. Drag and drop the **Experience Fragment** to your channel.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -173,11 +173,11 @@ Because the Experience Fragment you created is a live copy from the **Sites** pa
 
 Follow the steps below to propagate changes from the primary channel to your destination channel:
 
-1. Select the Experience Fragment from the **Sites** (primary) page and click the pencil icon so you can edit the items in the Experience Fragment.
+1. Select the Experience Fragment from the **Sites** (primary) page and select the pencil icon so you can edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Select the Experience Fragment and click the wrench icon so you can open the dialog box to edit the images.
+1. Select the Experience Fragment and select the wrench icon so you can open the dialog box to edit the images.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -189,7 +189,7 @@ Follow the steps below to propagate changes from the primary channel to your des
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Select the Experience Fragment and click the Rollout icon so you can propagate changes to the fragment that is used in your channel.
+1. Select the Experience Fragment and select the Rollout icon so you can propagate changes to the fragment that is used in your channel.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -205,7 +205,7 @@ Follow the steps below to confirm the changes in your channel:
 
 1. Navigate to the **Screens** > **Channels** > **TestChannel**.
 
-1. Click **Preview** from the action bar.
+1. Select **Preview** from the action bar.
 
 The following image illustrates the changes in your **TestChannel**:   
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

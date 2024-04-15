@@ -30,7 +30,7 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Click the device so you can open the device dashboard.
+1. Select the device so you can open the device dashboard.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 

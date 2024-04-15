@@ -23,8 +23,8 @@ Alternatively, you can navigate directly to: `http://localhost:4502/screens.html
 ## Creating a New Screens Project
 
 1. Select **Screens** from your AEM instance.
-1. Click **Create Screens Project**.
-1. Enter the title as **TestScreens** and click **Save**.
+1. Select **Create Screens Project**.
+1. Enter the title as **TestScreens** and select **Save**.
 
 The project is created and it brings you back to the Screens Project console. You can now select your project.
 
@@ -45,7 +45,7 @@ In a project, there are five kinds of folders, as shown in the figure below:
 
 ## Viewing Properties {#viewing-properties}
 
-After you create the Screens project, select the project and click **Properties** from action bar so you can edit the properties of your project.
+After you create the Screens project, select the project and select **Properties** from action bar so you can edit the properties of your project.
 
 The following options allow you to edit/change properties of your **TestScreens**.
 
@@ -57,10 +57,10 @@ You can also create your own custom folder under **Schedules**, **Locations**, *
 
 To create a custom folder:
 
-1. Select your project and click **Create** next to plus icon in the action bar.
+1. Select your project and select **Create** next to plus icon in the action bar.
 1. The **Create** wizard opens and select the appropriate option.
-1. Click **Next**.
-1. Enter the properties and click **Create**.
+1. Select **Next**.
+1. Enter the properties and select **Create**.
 
 The following steps show the creation of an applications folder to your **Applications** primary page in **TestScreens**.
 

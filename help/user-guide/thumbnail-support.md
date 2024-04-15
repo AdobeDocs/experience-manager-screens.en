@@ -26,7 +26,7 @@ Follow the steps below to use thumbnail in videos:
 
 1. Navigate to an existing AEM Screens channel or create a channel.
 
-1. Select the channel and click **Edit** from the action bar.
+1. Select the channel and select **Edit** from the action bar.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 

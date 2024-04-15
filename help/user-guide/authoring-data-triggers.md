@@ -39,17 +39,17 @@ Follow the steps below to enable targeting in your channels.
 
 1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
 
-1. Select the channel **DataDrivenRetail** and click **Properties** from the action bar.
+1. Select the channel **DataDrivenRetail** and select **Properties** from the action bar.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Select the **Personalization** tab so you can set up the ContextHub configurations and select the ContextHub and Segments path.
 
-    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
+    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and select **Select**.
 
-    1. Select the **Segments Path** as **conf** > **`We.Retail`** > **settings** > **wcm** > **segments** and click **Select**.
+    1. Select the **Segments Path** as **conf** > **`We.Retail`** > **settings** > **wcm** > **segments** and select **Select**.
 
-    1. Click **Save & Close**.
+    1. Select **Save & Close**.
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** > **Channels** and click **Edit** from the action bar. Drag and drop the assets in your channel editor.
+1. Navigate and select the **DataDrivenRetail** from **DataDrivenAssets** > **Channels** and select **Edit** from the action bar. Drag and drop the assets in your channel editor.
 
    >[!NOTE]
    >
@@ -65,9 +65,9 @@ Follow the steps below to enable targeting in your channels.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Click **Targeting**.
+1. Select **Targeting**.
 
-1. Select **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
+1. Select **Brand** and the **Activity** from the drop-down menu and select **Start Targeting**.
 
 ### Learn More: Example Use Cases {#learn-more-example-use-cases}
 

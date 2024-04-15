@@ -85,7 +85,7 @@ Follow the steps below to implement the functionality:
 1. **Create Display under Location**
 
     1. Navigate to **Channel Level Activation** > **Locations** > **Region**.
-    1. Select **Region** and click **+ Create** from the action bar.
+    1. Select **Region** and select **+ Create** from the action bar.
     1. Select **Display** from the wizard and create a display titled as **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -94,7 +94,7 @@ Follow the steps below to implement the functionality:
 
    For **MainAdChannel:**
 
-    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and select **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel** by path.
     1. Select the **Channel Path** as **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
@@ -107,11 +107,11 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and clicking **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and selecting **Dashboard** from the action bar. Select **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    Similarly, assign channel **TargetedSinglePlay** for display**:
 
-    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and select **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel** by path.
     1. Select the **Channel Path** as **Channel Level Activation*** > ***Channels*** > ***TargetedSinglePlay***.

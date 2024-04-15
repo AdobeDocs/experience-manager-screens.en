@@ -52,11 +52,11 @@ Follow the steps below to configure the setup:
 Follow the steps below to add a node under Rendition Mapping:
 
 1. Navigate to this path `/conf/screens/sling:configs/rendition-mapping` from **CRXDE Lite**.
-1. Create a node under **rendition-mapping**. Right-click **rendition-mapping** and click **Create** > **Create Node**, as shown in the figure below.
+1. Create a node under **rendition-mapping**. Right-click **rendition-mapping** and select **Create** > **Create Node**, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Enter the **Name** for your mapping rule such as **rule1** and the node **Type** as **`nt:unstructured`** in **Create Node** dialog box. Click **OK**.
+1. Enter the **Name** for your mapping rule such as **rule1** and the node **Type** as **`nt:unstructured`** in **Create Node** dialog box. Select **OK**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -66,7 +66,7 @@ Follow the steps below to add a node under Rendition Mapping:
    >[!NOTE]
    >See [Using Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) to learn more.
 
-   Click **rule1** that you created, and enter **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Click **Add**.
+   Select **rule1** that you created, and enter **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Select **Add**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -75,11 +75,11 @@ Follow the steps below to add a node under Rendition Mapping:
    >[!NOTE]
    >The value defined in the pattern property is matched to the new asset rendition and is selected, if the expression is evaluated to true.
 
-   To add the pattern property, click **rule1** that you created, and enter **pattern** in **Name** and **landscape** in **Value**, as shown below. Click **Add**. 
+   To add the pattern property, select **rule1** that you created, and enter **pattern** in **Name** and **landscape** in **Value**, as shown below. Select **Add**. 
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Click **Save All** and notice the properties under the node you created under **rendition-mapping**.
+1. Select **Save All** and notice the properties under the node you created under **rendition-mapping**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
