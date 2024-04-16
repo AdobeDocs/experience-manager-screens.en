@@ -41,7 +41,7 @@ You can assign a user-friendly device name to your Tizen player, thus sending th
 
 Follow the steps below to configure the name in Tizen player:
 
-1. Select the menu button on your remote.
+1. Click the menu button on your remote.
 1. Navigate to **network** > **Device Name** so you can assign a name to the player.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
@@ -49,11 +49,11 @@ Follow the steps below to configure the name in Tizen player:
 Follow the steps below on the Samsung device so you can complete the installation of the AEM Screens player on the device:
 
 1. Navigate to your Samsung device and turn in on.
-1. Select the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
-1. Scroll down and select the **Play via** option and change it to **URL Launcher** option.
+1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
+1. Scroll down and click the **Play via** option and change it to **URL Launcher** option.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. When the URL Launcher is set, press the **Home** button from your remote.
-1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and select **Done**.
+1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and click **Done**.
 
    >[!NOTE] 
    >The Tizen player should be able to connect to the http server.
@@ -139,29 +139,29 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
 
 1. Navigate to Server address and type in the MagicInfo URL access and press **Done**.
 
-1. Setup TLS, if necessary. Navigate to the port and select the port number from the server and select **Save**.
+1. Setup TLS, if necessary. Navigate to the port and click the port number from the server and click **Save**.
 
-1. Navigate to the **Device** tab and check for the device that you configured. When a device its found, select the check box, then select **Approve**.
+1. Navigate to the **Device** tab and check for the device that you configured. When a device its found, click the check box, then click **Approve**.
 
    >![image](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Fill the required information and select a device group. Select **OK**.
+1. Fill the required information and click a device group. Click **OK**.
 
    >![image](/help/user-guide/assets/tizen/rms-7.png)
 
-1. When the Device is approved, it appears on the Device List. Select *Information* on your device box as shown in the following.
+1. When the Device is approved, it appears on the Device List. Click *Information* on your device box as shown in the following.
 
    >![image](/help/user-guide/assets/tizen/rms-6.png)
 
-1. The device information dialog box displays. Select the **Device Info** tab and select **Edit**.  
+1. The device information dialog box displays. Click the **Device Info** tab and click **Edit**.  
 
     >![image](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Edit the device options and select the **Setup** tab. Navigate to **URL Launcher** section and enter URL hosting the wgt and `SSSP config file` so you can install an `SSSP` application, as shown in the figure below.
+1. Edit the device options and click the **Setup** tab. Navigate to **URL Launcher** section and enter URL hosting the wgt and `SSSP config file` so you can install an `SSSP` application, as shown in the figure below.
 
    ![image](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Select **Save**.
+1. Click **Save**.
 
 ### Using the Screens Remote Control {#using-remote-control}
 

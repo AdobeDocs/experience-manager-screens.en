@@ -26,11 +26,11 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
 1. Navigate to the device dashboard from your project, for example, ***Test Project*** > ***Devices***.
 
-   Select **Devices** and **Device Manager** from the action bar.
+   Click **Devices** and **Device Manager** from the action bar.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Select the device so you can open the device dashboard.
+1. Click the device so you can open the device dashboard.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -52,7 +52,7 @@ To view the admin UI from the Screens player, long press the top-left corner to 
 
 #### Accessing the Configuration Menu Options {#configuration-options}
 
-You can update your configurations if you select the **Configuration** option from the side menu, as shown in the figure below:
+You can update your configurations if you click the **Configuration** option from the side menu, as shown in the figure below:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -80,7 +80,7 @@ The Configuration menu lets you modify the following settings:
 
 You can clear cache for channels and applications from the Admin UI in AEM Screens player.
 
-Select the **Content Cache** from the side rail so you can update the cache.
+Click the **Content Cache** from the side rail so you can update the cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

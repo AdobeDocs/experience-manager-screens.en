@@ -85,8 +85,8 @@ Follow the steps below to implement the functionality:
 1. **Create Display under Location**
 
     1. Navigate to **Channel Level Activation** > **Locations** > **Region**.
-    1. Select **Region** and select **+ Create** from the action bar.
-    1. Select **Display** from the wizard and create a display titled as **RegionDisplay.**
+    1. Click **Region** and click **+ Create** from the action bar.
+    1. Click **Display** from the wizard and create a display titled as **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -94,32 +94,32 @@ Follow the steps below to implement the functionality:
 
    For **MainAdChannel:**
 
-    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and select **Assign Channel** from the action bar.
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
-    1. Select **Reference Channel** by path.
-    1. Select the **Channel Path** as **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
+    1. Click **Reference Channel** by path.
+    1. Click the **Channel Path** as **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
-    1. Select the **Priority** as **1**.
-    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
-    1. Select **Save**.
+    1. Click the **Priority** as **1**.
+    1. Click the **Supported Events** as **Initial Load** and **Idle Screen**.
+    1. Click **Save**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and selecting **Dashboard** from the action bar. Select **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and selecting **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    Similarly, assign channel **TargetedSinglePlay** for display**:
 
-    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and select **Assign Channel** from the action bar.
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
     1. **Channel Assignment** dialog box opens.
-    1. Select **Reference Channel** by path.
-    1. Select the **Channel Path** as **Channel Level Activation*** > ***Channels*** > ***TargetedSinglePlay***.
+    1. Click **Reference Channel** by path.
+    1. Click the **Channel Path** as **Channel Level Activation*** > ***Channels*** > ***TargetedSinglePlay***.
     1. The **Channel Role** is populated as **targetedsingleplay**.
     1. Set the **Priority** as **2**.
-    1. Select the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**, as shown in the figure below.
+    1. Click the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**, as shown in the figure below.
     1. Choose the date in **active from** as November 27, 2018 11:59 P.M. and in **active until** as November 28, 2018 12:05 A.M.
-    1. Select **Save**.
+    1. Click **Save**.
 
    >[!CAUTION]
    >
@@ -129,7 +129,7 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >To choose the same day, select the next day, then manually edit the date to the same day but for a later time. Doing so restricts the user from selecting a past date. See the following example:
+   >To choose the same day, click the next day, then manually edit the date to the same day but for a later time. Doing so restricts the user from selecting a past date. See the following example:
 
    ![new1](assets/new1.gif)
 
@@ -154,7 +154,7 @@ Suppose you want to display contents of a channel only on Fridays from 1:00 P.M.
 
 ### Day Parting {#day-parting}
 
-1. Select the channel, then select **Dashboard** from the action bar.
+1. Click the channel, then click **Dashboard** from the action bar.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
 
@@ -184,7 +184,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### WeekParting {#week-parting}
 
-1. Select the channel, then select **Dashboard** from the action bar.
+1. Click the channel, then click **Dashboard** from the action bar.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
 
@@ -213,7 +213,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### MonthParting {#month-parting}
 
-1. Select the channel, then select **Dashboard** from the action bar.
+1. Click the channel, then click **Dashboard** from the action bar.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
 
@@ -241,7 +241,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### Combination of Partings {#combined-parting}
 
-1. Select the channel, then select **Dashboard** from the action bar.
+1. Click the channel, then click **Dashboard** from the action bar.
 
 1. After entering the start date/time and end/date time from the **Channel Assignment** dialog box, you can use an expression or a natural text version to specify your recurrence schedule.
 

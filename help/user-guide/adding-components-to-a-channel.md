@@ -25,10 +25,10 @@ Whenever you create an AEM Screens project, you see a list of default components
 
 To view the default components to your Screens project, follow the steps below:
 
-1. Select the channel. For example, **`We.Retail In Store`** > **Channels** > **Idle Channel**.
+1. Click the channel. For example, **`We.Retail In Store`** > **Channels** > **Idle Channel**.
 
-1. Select **Edit** from the action bar.
-1. In the AEM Editor, select the **+** icon from the side bar.
+1. Click **Edit** from the action bar.
+1. In the AEM Editor, click the **+** icon from the side bar.
 1. All the components that are included by default in an AEM Screens project displays, as shown in the figure below.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -39,12 +39,12 @@ AEM provides several other components. You can always add other components (not 
 
 The following example shows the addition of a Livefyre component to an AEM Screens project:
 
-1. Select the channel where you want to add a component. For example, **`We.Retail In Store`** > **Channels** > **Idle Channel**.
+1. Click the channel where you want to add a component. For example, **`We.Retail In Store`** > **Channels** > **Idle Channel**.
 
-1. Select **Edit** from the action bar.
-1. Select **Design** mode.
-1. Select the entire design editor on the right and select the settings symbol so you can open the **Parsys Design** dialog box.
-1. You can select the components that you want to import to your AEM Screens project. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. Click **Edit** from the action bar.
+1. Click **Design** mode.
+1. Click the entire design editor on the right and click the settings symbol so you can open the **Parsys Design** dialog box.
+1. You can click the components that you want to import to your AEM Screens project. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -58,7 +58,7 @@ The following section explains the AEM Screens components that you can use in yo
 
 >[!NOTE]
 >
->To view the properties of any component, select the component and select the hammer icon to open/view properties.
+>To view the properties of any component, click the component and click the hammer icon to open/view properties.
 
 ### Application {#application}
 
@@ -68,8 +68,8 @@ Application component has the following properties:
 
 | **Property** |**Description** |
 |---|---|
-| ***Application Path*** |Select the absolute path where the application exists. |
-| ***Duration (milliseconds)*** |Select the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, single page application). Setting the duration value >0, shows the element for the specified duration and then moves on to the next one. |
+| ***Application Path*** |Click the absolute path where the application exists. |
+| ***Duration (milliseconds)*** |Click the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, single page application). Setting the duration value >0, shows the element for the specified duration and then moves on to the next one. |
 
 The following example shows how to embed an application component along with the preview of its properties:
 
@@ -187,7 +187,7 @@ The dynamic embedded sequence has the following properties:
 
 ### Experience Fragment {#experience-fragment}
 
-An Experience Fragment lets you add an Experience Fragment (group of one or more components including content and layout that can be referenced within pages) to your AEM Screens channel. Drag and drop the component to AEM Editor and select the Experience Fragment.
+An Experience Fragment lets you add an Experience Fragment (group of one or more components including content and layout that can be referenced within pages) to your AEM Screens channel. Drag and drop the component to AEM Editor and click the Experience Fragment.
 
 To learn more about how to create an Experience Fragment and apply it to an AEM Screens project, see [Using Experience Fragments](experience-fragments-in-screens.md).
 
@@ -215,7 +215,7 @@ The image asset has three tabs namely **Image**, **Accessibility**, and **Sequen
 | **Property** |**Description** |
 |---|---|
 | **Image** |
-| ***Image Asset*** |Select the image asset. |
+| ***Image Asset*** |Click the image asset. |
 | ***Title*** |Title of the image. |
 | ***Link To*** |Add a link to the image. |
 | ***Description*** |Brief description for the image. |
@@ -233,7 +233,7 @@ The following image shows the transition component (added via drag and drop) to 
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Select the transition icon and select the **Configure** (wrench icon) to open the **Transition** dialog box. This dialog box includes three tabs:
+Click the transition icon and click the **Configure** (wrench icon) to open the **Transition** dialog box. This dialog box includes three tabs:
 
 * **Transition**
 * **Sequence**
@@ -310,7 +310,7 @@ The video component has the following properties:
   </tr>
   <tr>
    <td><em><strong>Video asset</strong></em></td>
-   <td>Select the link to the video.</td>
+   <td>Click the link to the video.</td>
   </tr>
   <tr>
    <td><em><strong>Duration</strong></em></td>

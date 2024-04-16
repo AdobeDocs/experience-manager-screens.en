@@ -39,7 +39,7 @@ An ***Online Channel*** shows the updated content in the real-time environment w
 
 ### 2. How do I make a channel online? {#how-do-i-make-a-channel-online}
 
-Select the channel and navigate to channel properties from the action bar. Check **Developer mode (force channel to be online)** under **Channel** tab to make the channel online.
+Click the channel and navigate to channel properties from the action bar. Check **Developer mode (force channel to be online)** under **Channel** tab to make the channel online.
 
 ### 3. What is the use of the Channel Role field? {#what-is-the-use-of-the-channel-role-field}
 
@@ -64,9 +64,9 @@ When using a built custom client-side code `clientlib` in an  AEM Screens channe
 
 Follow the steps below from the channel editor:
 
-1. Select a channel, then select **Edit** from the action bar.
-1. Select the component where you want to add the custom `clientlib`.
-1. Select the configure button (the wrench icon). 
+1. Click a channel, then click **Edit** from the action bar.
+1. Click the component where you want to add the custom `clientlib`.
+1. Click the configure button (the wrench icon). 
 1. Navigate to the **Offline Config** tab and add the path to your custom clientlib in **Client-side Libraries**.
 
 ## Device Registration {#device-registration}
@@ -103,7 +103,7 @@ Enable the Apache Sling Referrer Filter Allow Empty. This is required for optima
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**
 1. Check the **allow.empty** option.
-1. Select **Save**.
+1. Click **Save**.
 
 ### 3. How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error?
 
@@ -127,14 +127,14 @@ For more information on where you can monitor device activity, see [**AEM Scree 
 
 ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 
-1. Select [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
+1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 1. Unzip and save it on disk.
-1. Open Chrome browser and select **Extensions** from the menu or directly navigate to ***chrome://extensions***.
+1. Open Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
 1. Switch on the **Developer mode** from top-right corner.
-1. Select **Load Unpacked** from the top-left corner and load unzipped Chrome Player.
+1. Click **Load Unpacked** from the top-left corner and load unzipped Chrome Player.
 1. If available in the list of extensions, check **AEM Screens Chrome Player** plugin.
-1. Open a new tab and select the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
-1. Select the **AEM Screens** Plugin. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
+1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
+1. Click the **AEM Screens** Plugin. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
 
 ### 2. How to troubleshoot if Screens player is unable to authenticate through publishing instance with custom error handler?
 
@@ -197,7 +197,7 @@ Disable Livefyre to avoid log errors by doing the following.
 
     * Navigate to `https://<host>:<port>/system/console/bundles`.
     * Search for the AEM Livefyre bundle: `com.adobe.cq.social.cq-social-livefyre`.
-    * Select **Stop**.
+    * Click **Stop**.
 
 1. ***Disable Livefyre poller:***
 

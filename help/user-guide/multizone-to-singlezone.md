@@ -37,8 +37,8 @@ Follow the steps below to set up a project:
 
 1. **Creating a Multi-Zone Screens Channel**
 
-    1. Select the **Channels** folder and select **Create** from the action bar and opening the wizard so you can create a channel.
-    1. Select **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
+    1. Click the **Channels** folder and click **Create** from the action bar and opening the wizard so you can create a channel.
+    1. Click **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
     1. Add content to the channel. Drag and drop the assets to each of the zones. The following example shows a **MultiZoneLayout** channel comprising a video, an image, and a text banner (in an embedded sequence), as shown below.
 
     ![asset](assets/mz-to-sz2.png)
@@ -52,7 +52,7 @@ Follow the steps below to set up a project:
 
    ![asset](assets/mz-to-sz3.png)
 
-1. Select **Edit** from the action bar so you can add content to this channel. Add a **Channel** component and an image asset that you want to switch to for this channel, as shown in the figure below:
+1. Click **Edit** from the action bar so you can add content to this channel. Add a **Channel** component and an image asset that you want to switch to for this channel, as shown in the figure below:
 
    ![asset](assets/mz-to-sz4.png)
 

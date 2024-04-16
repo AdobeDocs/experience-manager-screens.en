@@ -39,7 +39,7 @@ Follow the steps below:
 1. Set the **SameSite attribute for the login-token cookies** from **Lax** to **None**.
    ![image](/help/user-guide/assets/granite-updates.png)
 
-1. Select **Save**.
+1. Click **Save**.
 
 
 ### Ad-Hoc Method {#ad-hoc-method}
@@ -49,7 +49,7 @@ The Ad-Hoc method lets you install the latest Android&trade; Player (*.exe*). Vi
 After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
-1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and select **Save**.
+1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
 
 1. Navigate to the **Device** **Registration** link from the left action menu so you can check the status of the device registration process.
 
@@ -187,7 +187,7 @@ Follow the steps below to allow bulk provisioning in Android&trade; Player:
 1. Ensure your Android&trade; device supports Google Play services.
 1. Enroll your Android&trade; player devices with your favorite EMM solution that supports AppConfig. 
 1. Log in to your EMM console and pull the AEM Screens Player application from Google Play.
-1. Select managed configuration or related option.
+1. Click managed configuration or related option.
 1. You should now see a list of player options that can be configured, such as server and bulk registration code.
 1. Configure these parameters, save, and deploy the policy to the devices.
 

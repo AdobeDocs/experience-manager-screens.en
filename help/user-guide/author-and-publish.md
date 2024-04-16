@@ -60,23 +60,23 @@ Follow the steps below to create a default replication agent:
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Select the **Replication** from the left navigation tree.
+1. Click the **Replication** from the left navigation tree.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Select the **Agents on Author** from the **Replication** folder and select **New** to create a new standard replication agent.
+1. Click the **Agents on Author** from the **Replication** folder and click **New** to create a new standard replication agent.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Enter the **Title** and **Name** so you can create the replication agent, then select **Create**.
+1. Enter the **Title** and **Name** so you can create the replication agent, then click **Create**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Right-click the replication agent and select **Open** to edit the settings.
+1. Right-click the replication agent and click **Open** to edit the settings.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Select **Edit**.
+1. Click **Edit**.
 
 1. In the **Agent Settings** dialog box, enter the details.
 
@@ -122,7 +122,7 @@ Set up Apache Sling Oak-Based Discovery for all Publish instances in the topolog
 For each Publish instance:
 
 1. Navigate to `https://<host>:<port>/system/console/configMgr`
-1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
+1. Click **Apache Sling Oak-Based Discovery Service** Configuration.
 1. Update Topology connector URLs: add URLs of all partaking Publish instances that are:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -145,7 +145,7 @@ On each Publish Instance:
 
 1. In the OSGi Console, navigate to **MAIN** > **Crypto Support** (`https://<host>:<port>/system/console/crypto`).
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
-1. Select **Protect**.
+1. Click **Protect**.
 1. Copy the value **Protected Text** to notepad or text editor. This value can be used in the OSGi config for ActiveMQ.
 
 Because each Publish instance, by default, has unique crypto keys, perform this step on each pub instance and save the unique key for the next configuration.
@@ -160,7 +160,7 @@ Because each Publish instance, by default, has unique crypto keys, perform this 
 On each Publish instance:
 
 1. Navigate to the OSGi Config manager `https://<host>:<port>/system/console/configMgr`
-1. Select **Apache ActiveMQ Artemis JMS Provider** Configuration
+1. Click **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 
    * ***Cluster Password***: use encrypted value from previous step per respective instance
@@ -185,7 +185,7 @@ Follow the steps below on each Publish instance:
 
 As an example, the following image displays on successful configuration of ActiveMQ Artemis Server.
 
-If you do not see the following configuration from */system/console/mq*, then navigate to */system/console/mq* and select **Restart** to restart the broker.
+If you do not see the following configuration from */system/console/mq*, then navigate to */system/console/mq* and click **Restart** to restart the broker.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -194,7 +194,7 @@ If you do not see the following configuration from */system/console/mq*, then na
 Follow the steps on each Publish instance:
 
 1. Navigate to the **OSGi Console** > **Configuration Manager**
-1. Select **Apache Sling Referrer Filter**
+1. Click **Apache Sling Referrer Filter**
 1. Update config and **check Allow Empty**
 
 ### Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
@@ -218,19 +218,19 @@ After you have set up the publishing topology, configure the Author and Publish 
 
 #### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
 
-1. Go to `https://localhost:4502/screens.html/content/screens/we-retail` or select your project and navigate to Devices > Device Manager.
-1. Select **Register Device**.
-1. Select **Device Registration**.
-1. Select the device that you want to register, then select **Register Device**.
-1. Verify the registration code, then select **Validate**.
-1. Enter a title for your device, then select **Register**.
+1. Go to `https://localhost:4502/screens.html/content/screens/we-retail` or click your project and navigate to Devices > Device Manager.
+1. Click **Register Device**.
+1. Click **Device Registration**.
+1. Click the device that you want to register, then click **Register Device**.
+1. Verify the registration code, then click **Validate**.
+1. Enter a title for your device, then click **Register**.
 
 #### Step 3: Assigning the Device to Display {#step-assigning-the-device-to-display}
 
-1. Select **Assign Display** from the dialog box from the preceding step.
-1. Select the display path for your channel from the **Locations** folder.
-1. Select **Assign**.
-1. Select **Finish** to complete the process, and now the device is assigned.
+1. Click **Assign Display** from the dialog box from the preceding step.
+1. Click the display path for your channel from the **Locations** folder.
+1. Click **Assign**.
+1. Click **Finish** to complete the process, and now the device is assigned.
 
 Check your player and notice the content that you added in your channel.
 
@@ -242,7 +242,7 @@ Follow the steps below to replicate the device user:
 
 1. Navigate to the user admin page. For example, `https://localhost:4502/useradmin`.
 1. Search for the **`screens-devices-master`** group.
-1. Right-click the group and select **Activate**.
+1. Right-click the group and click **Activate**.
 
 >[!CAUTION]
 >
@@ -251,14 +251,14 @@ Follow the steps below to replicate the device user:
 You can also activate the device from the Device Management Console. Follow the steps below:
 
 1. Navigate to your Screens project > **Devices**.
-1. Select **Device Manager** from the action bar.
-1. Select the device and select **Activate** from the action bar, as in shown in the figure below.
+1. Click **Device Manager** from the action bar.
+1. Click the device and click **Activate** from the action bar, as in shown in the figure below.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Alternatively, after you have activated the device, you can also edit or update the server URL. Select **Edit server URL** from the action bar, as shown in the figure below, then your changes become propagated to the AEM Screens player.
+>Alternatively, after you have activated the device, you can also edit or update the server URL. Click **Edit server URL** from the action bar, as shown in the figure below, then your changes become propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -287,16 +287,16 @@ Follow the steps below to verify the authoring and publishing behavior:
 #### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. View the admin UI from the Screens player, long press the top-left corner so you can open the Admin menu, on your touch enabled AEM Screens player, or by using a mouse.
-1. Select the **Configuration** option from the side panel.
+1. Click the **Configuration** option from the side panel.
 1. Change Author instance to Publish instance in **Server**.
 
 View the changes in your AEM Screens player.
 
 Alternatively, you can also update/edit the server URL from the device management console using the following steps:
 
-1. Navigate to your AEM Screens project and select the **Devices** folder.
-1. Select **Device Manager** from the action bar.
-1. Select the device and select **Edit server URL** from the action bar, as shown in the figure below and your changes become propagated to the AEM Screens player.
+1. Navigate to your AEM Screens project and click the **Devices** folder.
+1. Click **Device Manager** from the action bar.
+1. Click the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes become propagated to the AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

@@ -26,7 +26,7 @@ Follow the steps below to use thumbnail in videos:
 
 1. Navigate to an existing AEM Screens channel or create a channel.
 
-1. Select the channel and select **Edit** from the action bar.
+1. Click the channel and click **Edit** from the action bar.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -34,7 +34,7 @@ Follow the steps below to use thumbnail in videos:
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Select the video and select the *wrench* icon.
+1. Click the video and click the *wrench* icon.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -42,11 +42,11 @@ Follow the steps below to use thumbnail in videos:
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Drag and drop an image from the asset picker to the **Thumbnail** drop zone and select **Done**.
+1. Drag and drop an image from the asset picker to the **Thumbnail** drop zone and click **Done**.
 
    ![image](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Select **Preview**.
+1. Click **Preview**.
 
 1. If a video is set on the component, the video plays. If not, and the thumbnail is set, then the thumbnail plays. Otherwise, the component is considered not configured and is skipped.
 

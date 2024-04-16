@@ -44,14 +44,14 @@ While creating a channel, you can use different templates to create zones in you
 
 **Creating a Channel**
 
-1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to **Channels** folder and select **Create** from the action bar.
+1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Navigate to **Channels** folder and click **Create** from the action bar.
 
-1. Select **1x2 Split Screen Channel** from the **Create** wizard.
+1. Click **1x2 Split Screen Channel** from the **Create** wizard.
 
-1. Select **Next** and enter the **title** as **MultiZone**.
+1. Click **Next** and enter the **title** as **MultiZone**.
 
-1. Select **Create** to complete the channel creation.
+1. Click **Create** to complete the channel creation.
 
 ### Using Single Assets in one or more Zones {#using-single-assets-in-one-or-more-zones}
 
@@ -60,7 +60,7 @@ You can use single assets such as an image or a video in all individual zones. F
 1. **Adding Content to the Channel**
 
     1. Navigate to **Zones** > **Channels**> **MultiZone**.
-    1. Select the **MultiZone** channel and select **Edit** from the action bar.
+    1. Click the **MultiZone** channel and click **Edit** from the action bar.
 
 1. **Adding Images to the Channel**
 
@@ -74,17 +74,17 @@ If you want the zones to display sequence of images and a video in the different
 
 1. **Creating a Channel Folder**
 
-    1. Navigate to **Zones** > **MultiZone** > **Channels** and select **Create** from the action bar.
-    1. Select **Channels Folder** from the **Create** wizard and select **Next**.
-    1. Enter the title as **EmbeddedChannels** and select **Create**.
+    1. Navigate to **Zones** > **MultiZone** > **Channels** and click **Create** from the action bar.
+    1. Click **Channels Folder** from the **Create** wizard and click **Next**.
+    1. Enter the title as **EmbeddedChannels** and click **Create**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Adding two more channels to Channel Folder**
 
-    1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and select **Create** from the action bar.
-    1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as **`Zone1`**.
-    1. Select **`Zone1`** and select **Edit** from the action bar.
+    1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and click **Create** from the action bar.
+    1. Click **Sequence Channel** from the **Create** wizard to create a channel titled as **`Zone1`**.
+    1. Click **`Zone1`** and click **Edit** from the action bar.
     1. Drag and drop few images to this channel.
     1. Similarly, create another sequence channel titled as **`Zone2`** in **EmbeddedChannels** folder.
     1. Drag and drop a video to this channel.
@@ -104,11 +104,11 @@ If you want the zones to display sequence of images and a video in the different
 1. **Adding Embedded Sequences (component) to main channel (MultiZone)**
 
     1. Navigate to **Zones** > **Channels** > **MultiZone**.
-    1. Select **Edit** from the action bar.
+    1. Click **Edit** from the action bar.
     1. Drag and drop the **Embedded Sequence** component to both the zones.
-    1. Select the embedded sequence in one of the zones.
-    1. Select the **Configure** (wrench) icon to one of the embedded sequences in the editor.
-    1. Select the channel path as **Zones** > **Channels** > **EmbeddedChannels** > **`Zone1`**, as shown in the figure below.
+    1. Click the embedded sequence in one of the zones.
+    1. Click the **Configure** (wrench) icon to one of the embedded sequences in the editor.
+    1. Click the channel path as **Zones** > **Channels** > **EmbeddedChannels** > **`Zone1`**, as shown in the figure below.
     1. Similarly, add the **`Zone2`** to another embedded sequence component in the editor. 
 
        ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -120,16 +120,16 @@ Create a location and a display so you can view the content in the AEM Screens p
 1. **Creating a Location**
 
    1. Navigate to **Zones** > **Locations** folder.
-   1. Select the **Locations** folder and select **Create** from the action bar.
-   1. Select **Location** from the **Create** wizard and select **Next**.
-   1. Enter the **Title** as **SanJose** and select **Create**.
+   1. Click the **Locations** folder and click **Create** from the action bar.
+   1. Click **Location** from the **Create** wizard and click **Next**.
+   1. Enter the **Title** as **SanJose** and click **Create**.
 
 1. **Creating a Display**
 
    1. Navigate to **Zones** > **Locations** folder.
-   1. Select the **SanJose** location and select **Create** from the action bar.
-   1. Select **Display** from the **Create** wizard and select **Next**.
-   1. Enter the **Title** as **Lobby** and select **Create**.
+   1. Click the **SanJose** location and click **Create** from the action bar.
+   1. Click **Display** from the **Create** wizard and click **Next**.
+   1. Enter the **Title** as **Lobby** and click **Create**.
 
 ### Assigning Channels to the Display {#channel-channel}
 
@@ -138,10 +138,10 @@ Assign the channels to the display to view the content. Follow the steps below t
 1. **Assigning Channel to the Display**
 
    1. Navigate to **Zones** > **Locations** > **SanJose**> **Lobby**.
-   1. Select the **Lobby** display and select **Assign Channel** from the action bar.
+   1. Click the **Lobby** display and click **Assign Channel** from the action bar.
    1. Enter the path to the **MultiZone** channel in **Channel Path**.
    1. Set the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**.
-   1. Select **Save**.
+   1. Click **Save**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Similarly, assign the other two embedded channels (**`Zone1`** and **`Zone2`**) to this display.
@@ -161,20 +161,20 @@ When you have set up a location and a display, follow the steps below to registe
 1. **Registering the Device**
 
    1. Navigate to **Zones** > **Devices** folder.
-   1. Select the **Devices** folder and select **Device Manager** from the action bar.
-   1. Select **Device Registration** and select the pending device from the list.
+   1. Click the **Devices** folder and click **Device Manager** from the action bar.
+   1. Click **Device Registration** and click the pending device from the list.
 
       >[!NOTE]
       > The title of the device must match the device token (**Token** field) displayed in the **Device Registration** tab.
    
-   1. If the title matches the device token, then select the device and select **Register Device** from the action bar.
-   1. If the registration code matches the code in the Screens player **Device Registration** tab, select **Validate** from the action bar.
+   1. If the title matches the device token, then click the device and click **Register Device** from the action bar.
+   1. If the registration code matches the code in the Screens player **Device Registration** tab, click **Validate** from the action bar.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Enter the **Title** as **`Chrome-Device1`** and select **Register**.
-   1. Select **Assign Display** and select the path to the device config.
+   1. Enter the **Title** as **`Chrome-Device1`** and click **Register**.
+   1. Click **Assign Display** and click the path to the device config.
 
     >[!NOTE]
-    >If you are trying to view the content in the Screens player, make sure you select **Update Offline Content** from the channel dashboard for each of the channels assigned to the display.
+    >If you are trying to view the content in the Screens player, make sure you click **Update Offline Content** from the channel dashboard for each of the channels assigned to the display.
 
 ### Viewing the Result {#viewing-the-result}
 

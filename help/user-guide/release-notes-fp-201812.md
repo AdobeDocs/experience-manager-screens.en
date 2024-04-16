@@ -31,7 +31,7 @@ The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 
 * **Multi-asset Scheduling**:
 
-  Multi-asset Scheduling allows the user to select multiple assets and apply a playback schedule to all selected assets. See **Multi-Asset Scheduling **section in** [Asset Scheduling](asset-level-scheduling.md)**.
+  Multi-asset Scheduling allows the user to click multiple assets and apply a playback schedule to all selected assets. See **Multi-Asset Scheduling **section in** [Asset Scheduling](asset-level-scheduling.md)**.
 
 * **Multi-zone Layout**:
 

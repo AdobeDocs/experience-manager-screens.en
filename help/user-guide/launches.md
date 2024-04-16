@@ -95,29 +95,29 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
 
    ![Image](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Select the channel **FutureLaunch** and select **Create Launch** from the action bar.
+1. Click the channel **FutureLaunch** and click **Create Launch** from the action bar.
 
    ![Image](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. The **Create Launch** wizard opens. Either you can select the channel that is already visible in the wizard or select **+ Add Channels** to add the channel for which you want to create the launch.
+1. The **Create Launch** wizard opens. Either you can click the channel that is already visible in the wizard or click **+ Add Channels** to add the channel for which you want to create the launch.
 
-1. Select **Next** from the **Create Launch** wizard. The **Include subpages** option is selected by default.
+1. Click **Next** from the **Create Launch** wizard. The **Include subpages** option is selected by default.
 
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >You can use **+ Add Channels** option to add another channel for which you want to create the launch.
 
-   To use **Add Channels** option, navigate to the channel for which you want to create the launch for and select **Select**. 
+   To use **Add Channels** option, navigate to the channel for which you want to create the launch for and click **Select**. 
    
-   The **Select** option is disabled if you try to select multiple channels or a folder for adding the launch.
+   The **Select** option is disabled if you try to click multiple channels or a folder for adding the launch.
    
    ![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-   After you select the channel/channels, select **Next**.
+   After you click the channel/channels, click **Next**.
 
 
-1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Select **Create**.
+1. Enter the **Launch Title** as **SummerPromotions** and you do not need to set the **Launch Date**, as shown in the figure below. Click **Create**.
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
       >
       >Launch live date respects player/device's timezone rather than server's.
 
-1. Notice that your launch is created. You can either select **Open** to view the pages in the editor or select **Done** to navigate back to your project.
+1. Notice that your launch is created. You can either click **Open** to view the pages in the editor or click **Done** to navigate back to your project.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -161,15 +161,15 @@ After the launch is created, you can update the properties such as live date, la
 
 Follow the steps below to edit the launch properties:
 
-1. Navigate to the channel **FutureLaunch** *(the pending launch)*, and select the channel as shown in the figure below.
+1. Navigate to the channel **FutureLaunch** *(the pending launch)*, and click the channel as shown in the figure below.
 
    ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Select **Dashboard** from the action bar and you see the **PENDING LAUNCHES** panel from the channel dashboard.
+1. Click **Dashboard** from the action bar and you see the **PENDING LAUNCHES** panel from the channel dashboard.
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Select the launch and select **Launch Properties** from the **PENDING LAUNCHES** panel.
+1. Click the launch and click **Launch Properties** from the **PENDING LAUNCHES** panel.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -177,7 +177,7 @@ Follow the steps below to edit the launch properties:
 
 After you have created the launch, you can add or remove channels to the existing launch using **Edit Launch** option.
 
-When you are done, select **Save** to navigate back to **FutureLaunch** channel.
+When you are done, click **Save** to navigate back to **FutureLaunch** channel.
 
 ### Promoting the Screens Launch Manually{#promote-the-screens-launch-manually}
 
@@ -193,8 +193,8 @@ You can choose the resources you want to promote as part of this manual promotio
    * **Promote modified pages** &ndash; Only modified launch resources are promoted. Use this option when the launch review is not required. 
    * **Promote approved pages** &ndash; This option requires the launch approval workflow to run on the launch channels. Only approved pages are promoted at the set live date.
    * **Promote current page** &ndash; This option requires the launch approval workflow to run only for the current page.
-1. Select **Next** in the **Promote Launch** wizard.
-1. Select **Promote** to promote the launch.
+1. Click **Next** in the **Promote Launch** wizard.
+1. Click **Promote** to promote the launch.
 
 ### Deleting the Screens Launch
 

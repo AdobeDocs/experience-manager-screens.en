@@ -24,13 +24,13 @@ You can generate manual and automatic Full HD renditions. The following section 
 
 Follow the steps below to automatically generate full HD renditions:
 
-1. Select the Adobe Experience Manager link (top-left) and select the hammer icon so you can select **Workflow**.
+1. Click the Adobe Experience Manager link (top-left) and click the hammer icon so you can click **Workflow**.
 
-   Select **Models**.
+   Click **Models**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. In the workflow model management, select the **DAM Update Asset** model and select **Edit** from the action bar.
+1. In the workflow model management, click the **DAM Update Asset** model and click **Edit** from the action bar.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -38,18 +38,18 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Select the **Process** tab.
+1. Click the **Process** tab.
 1. Enter the full HD profiles to the list in **Arguments** as the following:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Select **OK**.
+1. Click **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Select **Save** on the top-left of the **DAM Update Asset** screen.
+1. Click **Save** on the top-left of the **DAM Update Asset** screen.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigate to **Assets** and upload a new video. Select the video and open the Renditions side rail. Notice the two full HD videos.
+1. Navigate to **Assets** and upload a new video. Click the video and open the Renditions side rail. Notice the two full HD videos.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -65,21 +65,21 @@ Follow the steps below to automatically generate full HD renditions:
 
 Follow the steps below to manually generate full HD renditions:
 
-1. Select the Adobe Experience Manager link (top left) and select the hammer icon so you can select tools and select **Workflow**.
+1. Click the Adobe Experience Manager link (top left) and click the hammer icon so you can click tools and click **Workflow**.
 
-   Select **Models**.
+   Click **Models**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. In workflow model management, select the **Screens Update Asset** model, and select the **Start Workflow** to open the **Run Workflow** dialog box.
+1. In workflow model management, click the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and select **Run**.
+1. Click the desired video in the **Payload** and click **Run**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navigate to **Assets**, drill down to your asset, and select it.
+1. Navigate to **Assets**, drill down to your asset, and click it.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

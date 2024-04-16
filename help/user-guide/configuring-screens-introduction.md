@@ -36,7 +36,7 @@ Follow the steps below to check if these two vital configurations are enabled fo
    ![assets](assets/health-check1.png)
 
 
-2. Select **Execute selected health checks** so you can run the validation for two properties listed above.
+2. Click **Execute selected health checks** so you can run the validation for two properties listed above.
 
    If both the filters are enabled, then the **Screens Configuration Health Service** shows the **Result** as **OK** with both the configurations as enabled.
 
@@ -70,7 +70,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
     ![image](assets/config/empty-ref2.png)
     
-1. Select **Save** to enable the Apache Sling Referrer Filter Allow Empty.
+1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
@@ -87,7 +87,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
    ![image](assets/config/config-1.png)
 
-1. Select **Save** to enable the *http* service.
+1. Click **Save** to enable the *http* service.
 
 #### Enable Touch UI for AEM Screens {#enable-touch-ui-for-aem-screens}
 

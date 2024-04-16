@@ -51,7 +51,7 @@ Before you use voice recognition feature, make sure you have a project and a cha
 
    ![image](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel. Select **Edit** from the action bar, then add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
+1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and click the channel. Click **Edit** from the action bar, then add content (images/videos) as per your requirement. Similarly, add content to both **ColdDrinks** and  the **HotDrinks** channel.
 
    The channels now contain assets (images), as shown in the figures below.
 
@@ -77,13 +77,13 @@ After you have added content to your channels, navigate to each of the channels 
 
 Follow the steps below to add tags to your channel:
 
-1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and select the channel.
+1. Navigate to each of the channels and add content. For example, navigate to **VoiceDemo** > **Channels** > **Main** and click the channel.
 
-1. Select **Properties** from the action bar.
+1. Click **Properties** from the action bar.
 
    ![image](assets/voice-recognition/vr-5.png)
    
-1. Navigate to the **Basics** tab, then select an existing tag from the **Tags** field, or create one.
+1. Navigate to the **Basics** tab, then click an existing tag from the **Tags** field, or create one.
 
    You can either create a tag by typing in a new name for your tag and hit `return` key, as shown in the figure below:
 
@@ -91,7 +91,7 @@ Follow the steps below to add tags to your channel:
 
    Or,
 
-   You can also create tags from your AEM instance beforehand for your project and select those. After you follow the steps explained in [Creating Tags](#creating-tags), you can select the tag from the location and add it to your channel, as shown in the figure below:
+   You can also create tags from your AEM instance beforehand for your project and click those. After you follow the steps explained in [Creating Tags](#creating-tags), you can click the tag from the location and add it to your channel, as shown in the figure below:
 
    ![image](assets/voice-recognition/vr-tag1.png)
 
@@ -101,7 +101,7 @@ Follow the steps below to add tags to your channel:
 
    ![image](assets/voice-recognition/vr-emb-7.png)
 
-1. Select **Save & Close** once you are done.
+1. Click **Save & Close** once you are done.
 
 
 ### Creating Tags {#creating-tags}
@@ -110,18 +110,18 @@ Follow the steps below to create tags:
 
    1. Navigate to your AEM instance.
 
-   1. Select tools icon > **Tagging**.
+   1. Click tools icon > **Tagging**.
        ![image](assets/voice-recognition/vr-7.png)
 
-   1. Select **Create** > **Create Namespace**.
+   1. Click **Create** > **Create Namespace**.
        ![image](assets/voice-recognition/vr-tag3.png)
 
-   1. Enter the name of your project, for example, **VoiceDemo** and select **Create**.
+   1. Enter the name of your project, for example, **VoiceDemo** and click **Create**.
 
-   1. Select the **VoiceDemo** project and select **Create Tag** from the action bar.
+   1. Click the **VoiceDemo** project and click **Create Tag** from the action bar.
        ![image](assets/voice-recognition/vr-tag4.png)
 
-   1. Enter the name of your tag and select **Submit**.
+   1. Enter the name of your tag and click **Submit**.
        ![image](assets/voice-recognition/vr-tag5.png)
 
 Now, you can use these tags in your AEM Screens project.
@@ -153,7 +153,7 @@ Now, you can use these tags in your AEM Screens project.
    >
    >To learn how to assign a channel to a display, see [Creating and Managing Displays](/help/user-guide/managing-displays.md).
 
-1. After you have assigned channels to a display, navigate to the **LobbyDisplay** and select the display. Select **Properties** from the action bar.
+1. After you have assigned channels to a display, navigate to the **LobbyDisplay** and click the display. Click **Properties** from the action bar.
 
 1. Navigate to the **Display** tab and enable **Voice enabled** option under **Content**.
 

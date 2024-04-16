@@ -44,7 +44,7 @@ Asset Level Activation is done by configuring the **Activation** tab while acces
 
 Follow the steps below to perform asset level scheduling:
 
-1. Select any channel, then select **Edit** from the action bar.
+1. Click any channel, then click **Edit** from the action bar.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -55,19 +55,19 @@ Follow the steps below to perform asset level scheduling:
    >* Create a project, see [Creating a new Project](creating-a-screens-project.md).
    >* Create and add content to a channel, see [Managing Channels](managing-channels.md).
 
-1. Select **Edit** so you can open the channel editor and select an asset you want to apply the scheduling to.
+1. Click **Edit** so you can open the channel editor and click an asset you want to apply the scheduling to.
 
     ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Select the asset, then select top left **Configure** (wrench icon).
+1. Click the asset, then click top left **Configure** (wrench icon).
 
-   Select the **Activation** tab.
+   Click the **Activation** tab.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. You can specify the date from the date picker using **Active from** and **Active until** fields.
 
-   If you select the **Active from** and **Active until** date and time, the asset displays and loops only between that start date/time and end date/time, respectively.
+   If you click the **Active from** and **Active until** date and time, the asset displays and loops only between that start date/time and end date/time, respectively.
 
    ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -79,7 +79,7 @@ Suppose you want to display an image only on Fridays from 1:00 P.M. until 10:00 
 
 ### Day Parting {#day-parting}
 
-1. Select the asset and select on **Configure** (wrench icon) to open the properties dialog box.
+1. Click the asset and click on **Configure** (wrench icon) to open the properties dialog box.
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -105,7 +105,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### WeekParting {#week-parting}
 
-1. Select the asset, then select **Configure** (wrench icon).
+1. Click the asset, then click **Configure** (wrench icon).
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -130,7 +130,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### MonthParting {#month-parting}
 
-1. Select the asset, then select **Configure** (wrench icon).
+1. Click the asset, then click **Configure** (wrench icon).
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -153,7 +153,7 @@ The following table summarizes few example expressions that you can add to the s
 
 ### Combination of Partings {#combined-parting}
 
-1. Select the asset, then select **Configure** (wrench icon).
+1. Click the asset, then click **Configure** (wrench icon).
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
@@ -183,7 +183,7 @@ The following table summarizes few example expressions that you can add to the s
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Multi-asset Activation*** lets the user select multiple assets and apply a playback schedule to all selected assets.
+***Multi-asset Activation*** lets the user click multiple assets and apply a playback schedule to all selected assets.
 
 ### Prerequisites {#prerequisites}
 
@@ -194,21 +194,21 @@ To use multi-asset level activation for your assets, create an AEM Screens proje
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Follow the steps below to select multiple assets and schedule their display in an AEM Screens project:
+Follow the steps below to click multiple assets and schedule their display in an AEM Screens project:
 
-1. Select **MultiAssetChannel**, then select **Edit** from the action bar.
+1. Click **MultiAssetChannel**, then click **Edit** from the action bar.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Select multiple assets from the editor, then select **Edit Activation** (top-left icon).
+1. Click multiple assets from the editor, then click **Edit Activation** (top-left icon).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Select the date and time in **Active from** and **Active until** from the **Component Activation** dialog box. Select the check mark icon when you are done selecting the schedules.
+1. Click the date and time in **Active from** and **Active until** from the **Component Activation** dialog box. Click the check mark icon when you are done selecting the schedules.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Select refresh to check the assets to which multi-asset schedule is applied.
+1. Click refresh to check the assets to which multi-asset schedule is applied.
 
    >[!NOTE]
    >
@@ -226,12 +226,12 @@ This allows the content author to designate playback of a specific asset as occu
 
 Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
 
-1. Select any channel, then select **Edit** from the action bar so you can add or edit content in your channel.
+1. Click any channel, then click **Edit** from the action bar so you can add or edit content in your channel.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Select **Edit**.
-1. In the channel editor, select an asset whose schedule you want to apply to it.
+1. Click **Edit**.
+1. In the channel editor, click an asset whose schedule you want to apply to it.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
  

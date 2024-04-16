@@ -37,20 +37,20 @@ As an example, the following workflow demonstrates the use of experience fragmen
 
 ***Creating a Project***
 
-1. To create a project, select **Create Screens Project**. 
+1. To create a project, click **Create Screens Project**. 
 1. Enter the Title as **DemoProject**.
-1. Select **Save**.
+1. Click **Save**.
 
 A **DemoProject** is added to your AEM Screens.
 
 ***Creating a Channel***
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and click the **Channels** folder.
 
-1. Select **Create** from the action bar so you can open the wizard.
-1. Choose the **Sequence Channel** template from the wizard and select **Next**.
+1. Click **Create** from the action bar so you can open the wizard.
+1. Choose the **Sequence Channel** template from the wizard and click **Next**.
 
-1. Enter the **Title** as **TestChannel** and select **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
 A **TestChannel** is added to your **DemoProject**.   
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
@@ -62,14 +62,14 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
 1. **Navigate to a Sites page in We.Retail**
 
-    1. Navigate to Sites and select **`We.Retail`** > **United States** > **English** > **Equipment** and select this page so you can use this as an Experience Fragment for your Screens channel. 
+    1. Navigate to Sites and click **`We.Retail`** > **United States** > **English** > **Equipment** and click this page so you can use this as an Experience Fragment for your Screens channel. 
     
-    1. Select **Edit** from the action bar so you can open the page you want to use as an Experience Fragment for your Screens channel.
+    1. Click **Edit** from the action bar so you can open the page you want to use as an Experience Fragment for your Screens channel.
 
 1. **Reusing the Content**
 
-    1. Select the fragment that you want to include in your channel.
-    1. Select the last icon from the right so you can open the **Convert to Experience Fragment** dialog box.
+    1. Click the fragment that you want to include in your channel.
+    1. Click the last icon from the right so you can open the **Convert to Experience Fragment** dialog box.
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
@@ -77,43 +77,43 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
     1. Choose the **Action** as **Create a new Experience Fragment**.
     
-    1. Select the **Parent path**.
-    1. Select the **Template**. Choose the **Experience Fragment - Screens Variation** template here (value in the field `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).  
+    1. Click the **Parent path**.
+    1. Click the **Template**. Choose the **Experience Fragment - Screens Variation** template here (value in the field `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).  
     
     1. Enter the **Fragment Title** as **ScreensFragment**.
     
-    1. To complete the creation of a new Experience Fragment, select the check mark.
+    1. To complete the creation of a new Experience Fragment, click the check mark.
    
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Note: To select an easier option, select the check mark to the right of the field so you can open the selection dialog box.
+   Note: To click an easier option, click the check mark to the right of the field so you can open the selection dialog box.
 
 1. **Creating Live Copy of Experience Fragment**
 
     1. Navigate to the AEM home page.
-    1. Select **Experience Fragments** and highlight the **ScreensFragment** and select **Variation as live-copy**, as shown in the figure below:
+    1. Click **Experience Fragments** and highlight the **ScreensFragment** and click **Variation as live-copy**, as shown in the figure below:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Select the **ScreensFragment** from **Create Live Copy** wizard and select **Next**.
+   c. Click the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
 
    d. Enter the **Title** and **Name** as **Screens**.
 
-   e. Select **Create** so you can create the Live Copy.
+   e. Click **Create** so you can create the Live Copy.
 
-   f. Select **Done** so you can  move back to **ScreensFragment** page.
+   f. Click **Done** so you can  move back to **ScreensFragment** page.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
    >[!NOTE]
    >
-   >After you have created an AEM Screens fragment, you can edit the properties of your fragment. Select the fragment and select **Properties** from the action bar.
+   >After you have created an AEM Screens fragment, you can edit the properties of your fragment. Click the fragment and click **Properties** from the action bar.
 
    **Editing Properties of a Screens Fragment**
 
-    1. Navigate to the **ScreensFragment** (you created in the preceding steps) and select **Properties** from the action bar.
+    1. Navigate to the **ScreensFragment** (you created in the preceding steps) and click **Properties** from the action bar.
     
-    1. Select the **Offline Config** tab, as shown in the figure below.
+    1. Click the **Offline Config** tab, as shown in the figure below.
 
    You can add the **Client-side Libraries** (Java&trade; and css) and **Static Files** to your Experience Fragment.  
 
@@ -122,26 +122,26 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 1. **Using Experience Fragment as a Component in Screens Channel**
 
     1. Navigate to the Screens channel where you want to use the **Screens** fragment.
-    1. Select the **TestChannel** and select **Edit** from the action bar.
+    1. Click the **TestChannel** and click **Edit** from the action bar.
     
-    1. Select the components icon from the side tab.  
+    1. Click the components icon from the side tab.  
     1. Drag and drop the **Experience Fragment** to your channel.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Select the **Experience Fragment** component and select the top left (wrench) icon so you can open the **Experience Fragment** dialog box.
+   e. Click the **Experience Fragment** component and click the top left (wrench) icon so you can open the **Experience Fragment** dialog box.
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
+   f. Click the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Select the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
+   f. Click the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
    h. Enter the milliseconds in **Duration**.
 
-   i. Select the **Offline Config** from the **Experience Fragments** dialog box so you can define the client-side libraries and the static files.
+   i. Click the **Offline Config** from the **Experience Fragments** dialog box so you can define the client-side libraries and the static files.
 
    >[!NOTE]
    >
@@ -149,7 +149,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Select the check mark so you can complete the process.
+   j. Click the check mark so you can complete the process.
 
 ### Validating the Result {#validating-the-result}
 
@@ -173,11 +173,11 @@ Because the Experience Fragment you created is a live copy from the **Sites** pa
 
 Follow the steps below to propagate changes from the primary channel to your destination channel:
 
-1. Select the Experience Fragment from the **Sites** (primary) page and select the pencil icon so you can edit the items in the Experience Fragment.
+1. Click the Experience Fragment from the **Sites** (primary) page and click the pencil icon so you can edit the items in the Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Select the Experience Fragment and select the wrench icon so you can open the dialog box to edit the images.
+1. Click the Experience Fragment and click the wrench icon so you can open the dialog box to edit the images.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -189,11 +189,11 @@ Follow the steps below to propagate changes from the primary channel to your des
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Select the Experience Fragment and select the Rollout icon so you can propagate changes to the fragment that is used in your channel.
+1. Click the Experience Fragment and click the Rollout icon so you can propagate changes to the fragment that is used in your channel.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
-1. Select Rollout.
+1. Click Rollout.
 
    Notice that the changes are rolled out.
 
@@ -205,7 +205,7 @@ Follow the steps below to confirm the changes in your channel:
 
 1. Navigate to the **Screens** > **Channels** > **TestChannel**.
 
-1. Select **Preview** from the action bar.
+1. Click **Preview** from the action bar.
 
 The following image illustrates the changes in your **TestChannel**:   
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

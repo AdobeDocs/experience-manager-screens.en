@@ -82,7 +82,7 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
 1. **Navigate to the AEM Screens > `We.Retail` Run project:**
 
-   From the AEM Start Menu, select the Screens the icon. Verify the `We.Retail` Run Project is seen.
+   From the AEM Start Menu, click the Screens the icon. Verify the `We.Retail` Run Project is seen.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -402,9 +402,9 @@ Below a `We.Retail` Run Design page is created that stores all configurations sp
 
 The Hello World component is for use on a Sequence Channel. To test the component, a new Sequence Channel is created.
 
-1. From the AEM Start Menu, navigate to **Screens** > **`We.Retail` Run** > and select **Channels**.
+1. From the AEM Start Menu, navigate to **Screens** > **`We.Retail` Run** > and click **Channels**.
 
-1. Select the **Create** button
+1. Click the **Create** button
 
    1. Choose **Create Entity**
 
@@ -432,9 +432,9 @@ The Hello World component is for use on a Sequence Channel. To test the componen
 
 1. Switch the page mode to **Design** Mode.
 
-   1. Select the **wrench** Icon in the Parsys so you can configure the allowed components.
+   1. Click the **wrench** Icon in the Parsys so you can configure the allowed components.
 
-   1. Select the **Screens** group and the **`We.Retail` Run - Content** group.
+   1. Click the **Screens** group and the **`We.Retail` Run - Content** group.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

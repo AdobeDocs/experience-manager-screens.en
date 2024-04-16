@@ -39,7 +39,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Select **Edit** from the action bar.
+1. Click **Edit** from the action bar.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -47,7 +47,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Select all the images in the channel and select the wrench icon on the top-left (as shown in the figure below) so you can open Channel level Configure dialog box.
+1. Click all the images in the channel and click the wrench icon on the top-left (as shown in the figure below) so you can open Channel level Configure dialog box.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -58,7 +58,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Select the check mark on the top right of the **Page** dialog box so you can save your changes.
+   Edit the **Duration** from 8000 (milliseconds) to 3000 (milliseconds), that is, 3 seconds. Click the check mark on the top right of the **Page** dialog box so you can save your changes.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

@@ -20,19 +20,19 @@ You can publish and unpublish content from AEM Screens. The Manage Publication f
 Follow the steps below to deliver content updates from author to publishing to device for an AEM Screens Project:
 
 1. Navigate to your AEM Screens project.
-1. Select **Manage Publication** from the action bar so you can publish the project to your Publish instance.
+1. Click **Manage Publication** from the action bar so you can publish the project to your Publish instance.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. The **Manage Publication** wizard opens. You can select the **Action** and also schedule the publishing time for now or later. Select **Next**.
+1. The **Manage Publication** wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Check the box so you can select the entire project from the **`Manage Publication`** wizard.
+1. Check the box so you can click the entire project from the **`Manage Publication`** wizard.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Select **+ Include Children** from the action bar and uncheck all the options so you can publish all the modules in your project and select **Add** to publish.
+1. Click **+ Include Children** from the action bar and uncheck all the options so you can publish all the modules in your project and click **Add** to publish.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Follow the steps below to deliver content updates from author to publishing to d
        This option lets you manage updates only to the pages that were published before.
 
 
-1. From the **`Manage Publication wizard`**, select **Publish**.
+1. From the **`Manage Publication wizard`**, click **Publish**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -69,9 +69,9 @@ Follow the steps below to deliver content updates from author to publishing to d
    >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
 
    >[!CAUTION]
-   >If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, select **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
+   >If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
 
-1. Navigate to the project and select **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on your Publish instance too.
+1. Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on your Publish instance too.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -92,16 +92,16 @@ Follow the steps below to deliver content updates from Author > Publish > device
 >
 >Follow this section only if there are changes in a channel. If a channel does not have any changes after the previous update offline content, then the managing publication workflow for an individual channel will not work.
 
-1. Navigate to your AEM Screens project and select the channel.
-1. Select **Manage Publication** from the action bar so you can publish the channel to your Publish instance.
+1. Navigate to your AEM Screens project and click the channel.
+1. Click **Manage Publication** from the action bar so you can publish the channel to your Publish instance.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. The **Manage Publication** wizard opens. You can select the **Action** and also schedule the publishing time for now or later. Select **Next**.
+1. The **Manage Publication** wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Select **Publish** from the **`Manage Publication`** wizard.
+1. Click **Publish** from the **`Manage Publication`** wizard.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

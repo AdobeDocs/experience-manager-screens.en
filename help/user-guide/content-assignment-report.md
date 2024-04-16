@@ -39,9 +39,9 @@ When you have setup your AEM Screens project and have assigned displays to each 
 
 Follow the instructions below to download the Content Assignment Report:
 
-1. Navigate to your AEM Screens project and select the project **DemoScreens**.
+1. Navigate to your AEM Screens project and click the project **DemoScreens**.
 
-1. Select **Content Assignment Report** from the action bar.
+1. Click **Content Assignment Report** from the action bar.
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
