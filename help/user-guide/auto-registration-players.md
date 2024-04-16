@@ -14,13 +14,13 @@ Bulk registering thousands of players manually can become cumbersome and adds ti
 
 Follow the steps below to implement auto registration of players:
 
-1. Log in to your AEM instance and select your AEM Screens project and select **Properties** from the action bar.
-1. Select the **Advanced** tab so you can view the **Device registration** section.
+1. Log in to your AEM instance and click your AEM Screens project and click **Properties** from the action bar.
+1. Click the **Advanced** tab so you can view the **Device registration** section.
 
 1. Specify an auto registration code in **Bulk registration code** field and an optional default display in **Default display assignment** to assign to the player that is auto registered.
 
    >[!NOTE]
-   >Enter a code of your choice and select a default display if needed.
+   >Enter a code of your choice and click a default display if needed.
 
    ![image](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Provision your players with the appropriate server URL and registration code using an MDM or configuration JSON file. 

@@ -23,7 +23,7 @@ After you upload the video to the channel, AEM should start creating some rendit
 To view the video:
 
 1. Navigate to your video, for example `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Select the video and expand the top-left menu and select **Renditions**.
+1. Click the video and expand the top-left menu and click **Renditions**.
 
 There should be different renditions (an MP4 or M4V).
 
@@ -33,7 +33,7 @@ If there is no rendition, make sure you have ffmpeg installed on the OS where AE
 >
 >If there is no rendition, make sure you have ffmpeg installed on the OS where AEM is running.
 >
->Select [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
+>Click [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
 
 ## Video Assets {#video-assets}
 
@@ -45,11 +45,11 @@ Check ffmpeg is installed and the video profiles.
 
 ### Checking Video Profile {#checking-video-profile}
 
-1. Navigate to the **Video Profile**, that is, `http://localhost:4502/etc/dam/video.html` and select **Upload Test Video**.
+1. Navigate to the **Video Profile**, that is, `http://localhost:4502/etc/dam/video.html` and click **Upload Test Video**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Upload a test video and select **Ok** so you can begin the transcoding.
+1. Upload a test video and click **Ok** so you can begin the transcoding.
 
    If the transcoded video fails, expand the ffmpeg output to understand any errors in the console output of ffmpeg.
 
@@ -67,14 +67,14 @@ Check ffmpeg is installed and the video profiles.
 
 Check the list of profiles from the page design if the video component is not configured properly.
 
-1. Navigate to your channel and select the **Design** mode.
+1. Navigate to your channel and click the **Design** mode.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Select the video and open the **Edit** dialog. Open the **Profiles** tab.
+1. Click the video and open the **Edit** dialog. Open the **Profiles** tab.
 
    >[!NOTE]
-   >Select different profiles (at least "High Quality H.264" profile should be there).
+   >Click different profiles (at least "High Quality H.264" profile should be there).
 
 ### Checking the Video in the Web Player {#checking-the-video-in-the-web-player}
 
@@ -85,10 +85,10 @@ If the video does not run on Safari, it does not run in the OS X and iOS players
 To use a DAM workflow to create FullHD renditions, do the following:
 
 1. Navigate to the *workflow model admin* that is `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Select the **Screens Update Asset** model.
-1. Select **Start Workflow** from the action bar.
-1. From the **Run Workflow** dialog box, select your video asset in the **Payload**.
-1. Select **Run**.
+1. Click the **Screens Update Asset** model.
+1. Click **Start Workflow** from the action bar.
+1. From the **Run Workflow** dialog box, click your video asset in the **Payload**.
+1. Click **Run**.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ The absolute strategy:
 
 Follow the steps below to set up an absolute strategy:
 
-1. Navigate to your channel author and select the sequence component as shown in the figure below.
+1. Navigate to your channel author and click the sequence component as shown in the figure below.
 1. Open its configuration dialog.
 1. Edit the **Strategy** and add absolute.
 

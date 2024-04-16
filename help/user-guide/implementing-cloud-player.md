@@ -32,7 +32,7 @@ Cloud Player Installation may vary on different platforms. In general, any platf
 
     ![image](/help/user-guide/assets/cloud-player-install.png)
 
-1. Select the install icon and install button on the confirmation dialog box. Cloud Player is installed as a standalone application on your device and can be launched using an icon.
+1. Click the install icon and install button on the confirmation dialog box. Cloud Player is installed as a standalone application on your device and can be launched using an icon.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Learn more about bulk provisioning on Chrome OS, see [Install Cloud Player on Ch
 
 ## Configuration required on AEM instances {#bulk-provisioning-config-aem}
 
-Based on type of the AEM instance, select one of the following guides to enable CORS b/w AEM  & cloud player: 
+Based on type of the AEM instance, click one of the following guides to enable CORS b/w AEM  & cloud player: 
 * [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

@@ -44,7 +44,7 @@ Follow the steps below to set up a project:
 
     ![asset](assets/single-takeover2.png)
 
-1. Select the **MainAdChannel** and select **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
+1. Click the **MainAdChannel** and click **Edit** from the action bar. Drag and drop some assets (images, videos, embedded sequences) to your channel.
 
    ![asset](assets/single-takeover2.png)
 
@@ -56,7 +56,7 @@ Follow the steps below to set up a project:
 
 1. Create a **TakeOver** channel that takes over the content in **MainAdChannel** and plays only for a specific day and time.
 
-1. Select the **TakeOver** and select **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
+1. Click the **TakeOver** and click **Edit** from the action bar. Drag and drop some assets to your channel. The following example showcases a single zone image added to this channel.
 
    ![asset](assets/single-takeover4.png)
 
@@ -66,33 +66,33 @@ Follow the steps below to set up a project:
 
 **Assigning Channels to a Display**
 
-1. Select the display **MainLobbyDisplay** from the **Locations** folder. Select **Assign Channel** from the action bar. 
+1. Click the display **MainLobbyDisplay** from the **Locations** folder. Click **Assign Channel** from the action bar. 
 
    ![asset](assets/single-takeover6.png)
 
    >[!NOTE]
    >To learn how to assign a channel to a display, see **[Channel Assignment](channel-assignment.md)**.
 
-1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and select **Save**. You have now assigned the **MainAdChannel** to your display.
+1. Populate the fields (**Channel Path**, **Priority**, and **Supported Events**) from the **Channel Assignment** dialog box and click **Save**. You have now assigned the **MainAdChannel** to your display.
 
    ![asset](assets/single-takeover7.png)
 
-1. Select the display **TakeOver** from the **Locations** folder. Select **Assign Channel** from the action bar so you can assign the single-use takeover channel.
+1. Click the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar so you can assign the single-use takeover channel.
 
-1. Assign the **TakeOver** channel to your display at a scheduled time and populate the following fields from the **Channel Assignment** dialog box and select **Save**:
+1. Assign the **TakeOver** channel to your display at a scheduled time and populate the following fields from the **Channel Assignment** dialog box and click **Save**:
 
-    * **Channel Path**: Select the path to the TakeOver channel
+    * **Channel Path**: Click the path to the TakeOver channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
 
        >[!NOTE]
        >Priority can be any value that is higher than the priority value of the normal playing channel.
-    * **Supported Events**: Select the **Idle Screen** and **Timer**.
+    * **Supported Events**: Click the **Idle Screen** and **Timer**.
     * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
     The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
 
       ![asset](assets/single-takeover8.png)
 
-      Navigate to the display from **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay** and select **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay** and click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.

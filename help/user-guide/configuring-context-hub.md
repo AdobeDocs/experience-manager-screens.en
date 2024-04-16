@@ -67,7 +67,7 @@ The following validation is what you view when you check your connection by ente
 
 1. **Navigating to ContextHub**
 
-   Navigate to your AEM instance and select the tools icon from left sidebar. Select **Sites** > **ContextHub**, as shown in the figure below.
+   Navigate to your AEM instance and click the tools icon from left sidebar. Click **Sites** > **ContextHub**, as shown in the figure below.
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -75,16 +75,16 @@ The following validation is what you view when you check your connection by ente
 
     1. Navigate to the configuration container titled as **screens**.
 
-    1. Select **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
+    1. Click **Create** > **Create Configuration Container** and enter the title as **ContextHubDemo**.
 
        ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-    1. **Navigate** to **ContextHubDemo** > **Create** **ContentHub Configuration** and select **Save**.
+    1. **Navigate** to **ContextHubDemo** > **Create** **ContentHub Configuration** and click **Save**.
 
         >[!NOTE]
-        > After you select **Save**, you are in the **ContextHub Configuration** screen.
+        > After you click **Save**, you are in the **ContextHub Configuration** screen.
 
-    1. From the **ContextHub Configuration** screen, select **Create** > **ContentHub Store Configuration**
+    1. From the **ContextHub Configuration** screen, click **Create** > **ContentHub Store Configuration**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -104,14 +104,14 @@ The following validation is what you view when you check your connection by ente
       >
       >Follow these steps in Author and Publish before or after the upgrade.
 
-   1. Enter the **Title** as **Google Sheets**, **Store Name** as **`googlesheets`**, and **Store Type** as **c`ontexthub.generic-jsonp`** and select **Next**.
+   1. Enter the **Title** as **Google Sheets**, **Store Name** as **`googlesheets`**, and **Store Type** as **c`ontexthub.generic-jsonp`** and click **Next**.
 
       >[!CAUTION]
       >If you are using Adobe Experience Manager (AEM) 6.4, enter the **Configuration Title** as **`googlesheets`** and the **Store Type** as **c`ontexthub.generic-jsonp`**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Enter your specific json configuration. For example, you can use the following json for demo purposes and select **Save**. You see the store configuration titled as **Google Sheets** in ContextHub configuration.
+   1. Enter your specific json configuration. For example, you can use the following json for demo purposes and click **Save**. You see the store configuration titled as **Google Sheets** in ContextHub configuration.
 
       >[!IMPORTANT]
       >Make sure to replace the code with your `*<Sheet ID>*` and `*<API Key>*`, that you fetched while setting up the Google Sheets.
@@ -148,7 +148,7 @@ The following validation is what you view when you check your connection by ente
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Select **Next** and then **Save**.
+   1. Click **Next** and then **Save**.
 
       >[!NOTE]
       >Skip the process of defining the json and leave it as blank.
@@ -160,16 +160,16 @@ The following validation is what you view when you check your connection by ente
 
     1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
-    1. Select **Create** > **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+    1. Click **Create** > **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
 
-    1. Enter the **Title** as `**Higherthan50**` and select **Create**. Similarly, create another segment titled as `**Lowerthan50**`.
+    1. Enter the **Title** as `**Higherthan50**` and click **Create**. Similarly, create another segment titled as `**Lowerthan50**`.
 
        ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
-    1. Select the segment `**Higherthan50**` and select **Properties** from the action bar.
+    1. Click the segment `**Higherthan50**` and click **Properties** from the action bar.
        ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-    1. Select the **Personalization** tab from the **Segment Properties**. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` and **Segments Path** to `/conf/screens/settings/wcm/segments` and select **Save**, as shown in the figure below.
+    1. Click the **Personalization** tab from the **Segment Properties**. Set the **ContextHub Path** to `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` and **Segments Path** to `/conf/screens/settings/wcm/segments` and click **Save**, as shown in the figure below.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -183,11 +183,11 @@ Follow the steps below to create a brand in your activities and areas under the 
 
     1. Navigate from your AEM instance to **Personalization** > **Activities**.
 
-    1. Select **Create** > **Create Brand**.
+    1. Click **Create** > **Create Brand**.
 
-    1. Select **Brand** from the **Create Page** wizard and select **Next**.
+    1. Click **Brand** from the **Create Page** wizard and click **Next**.
 
-    1. Enter the **Title** as **ScreensBrand** and select **Create**. Your brand is now created as shown below.
+    1. Enter the **Title** as **ScreensBrand** and click **Create**. Your brand is now created as shown below.
 
        ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -202,13 +202,13 @@ Follow the steps below to create a brand in your activities and areas under the 
 
     Follow the steps below to create an area in the brand:
 
-      1. Select **Create** and then **Create Area**.
+      1. Click **Create** and then **Create Area**.
 
          ![image](/help/user-guide/assets/context-hub/context-hub9.png)
 
-      1. Select **Area** from the **Create Page** wizard and select **Next**.
+      1. Click **Area** from the **Create Page** wizard and click **Next**.
 
-      1. Enter the **Title** as **ScreensValue** and select **Create**. 
+      1. Enter the **Title** as **ScreensValue** and click **Create**. 
        An area is created in your brand.
 
 ## Step 5: Creating the Segments in an Activity {#step-setting-up-audience-segmentation}
@@ -219,21 +219,21 @@ After you have set up a data store and defined your activity (brand and area), f
 
     1. Navigate from your AEM instance to **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue**.
 
-    1. Select **Create** > **Create Activity.** The **Configure Activity Wizard** opens.
+    1. Click **Create** > **Create Activity.** The **Configure Activity Wizard** opens.
 
-    1. Enter the **Title** as **ValueCheck50** and **Name** as **valuecheck50**. Select the **Targeting engine** as **ContextHub (AEM)** from the drop-down and select **Next**.
+    1. Enter the **Title** as **ValueCheck50** and **Name** as **valuecheck50**. Click the **Targeting engine** as **ContextHub (AEM)** from the drop-down and click **Next**.
 
        ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-    1. Select **Add Experience** from the `**Configure Activity**` wizard.
+    1. Click **Add Experience** from the `**Configure Activity**` wizard.
 
-    1. From the **Audiences**, select the `**Higherthan50**` and select **Add Experience** and enter the **Title** as `**higherthan50**` **Name** as `**higherthan50**`. Select **Ok**.
+    1. From the **Audiences**, click the `**Higherthan50**` and click **Add Experience** and enter the **Title** as `**higherthan50**` **Name** as `**higherthan50**`. Click **Ok**.
 
-    1. From the **Audiences**, select the `**Lowerthan50**` and select **Add Experience** and enter the **Title** as `**lowerthan50**` **Name** as `**lowerthan50**`. Select **Ok**.
+    1. From the **Audiences**, click the `**Lowerthan50**` and click **Add Experience** and enter the **Title** as `**lowerthan50**` **Name** as `**lowerthan50**`. Click **Ok**.
 
       ![image](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Select **Next** and then **Save**. `**ValueCheck50**` activity is now created and configured.
+   1. Click **Next** and then **Save**. `**ValueCheck50**` activity is now created and configured.
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -243,20 +243,20 @@ After you have set up a data store and defined your activity (brand and area), f
 
     1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
-    1. Select the segment `**Higherthan50**`, and select **Edit** from the action bar.
+    1. Click the segment `**Higherthan50**`, and click **Edit** from the action bar.
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
 
-    1. Select the wrench icon so you can open the **Comparing a property with value** dialog box.
+    1. Click the wrench icon so you can open the **Comparing a property with value** dialog box.
 
-    1. Select **googlesheets/value/1/0** from the drop-down in **Property name**.
+    1. Click **googlesheets/value/1/0** from the drop-down in **Property name**.
 
        >[!NOTE]
        > The **googlesheets/value/1/0** refers to row 2 and column as populated in `google` sheets in the figure below:
 
        ![image](/help/user-guide/assets/context-hub/context-hub17.png)
 
-    1. Select the **Operator** as **greater-than** from the drop-down menu.
+    1. Click the **Operator** as **greater-than** from the drop-down menu.
 
     1. Enter the **Value** as **70**.
 
@@ -270,11 +270,11 @@ After you have set up a data store and defined your activity (brand and area), f
 
     1. Drag and drop the **Comparison: Property - Value** component to the editor.
 
-    1. Select the wrench icon.
+    1. Click the wrench icon.
 
-    1. In the **Comparing a property with value** dialog box, select **googlesheets/value/1/0** from the drop-down in **Property name**.
+    1. In the **Comparing a property with value** dialog box, click **googlesheets/value/1/0** from the drop-down in **Property name**.
 
-    1. Select the **Operator** as **less-than** from the drop-down menu.
+    1. Click the **Operator** as **less-than** from the drop-down menu.
 
     1. Enter the **Value** as **50**.
 
@@ -285,16 +285,16 @@ Follow the steps below to enable targeting in your channels.
 
 1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
 
-1. Select the channel **TargetChannel** and select **Properties** from the action bar.
+1. Click the channel **TargetChannel** and click **Properties** from the action bar.
 
    ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Select the **Personalization** tab so you can set up the ContextHub configurations.
+1. Click the **Personalization** tab so you can set up the ContextHub configurations.
 
     1. Set the **ContextHub Path** to `/conf/screens/settings/wcm/segments` and **Segments Path** to `/conf/screens/settings/wcm/segments`.
     1. Set brand to **ScreensBrand** from the dropdown and **Set Area Reference** to **ScreensValue**.
 
-    1. Select **Save & Close**.
+    1. Click **Save & Close**.
 
        >[!NOTE]
        >
@@ -302,7 +302,7 @@ Follow the steps below to enable targeting in your channels.
 
        ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigate and select the **TargetChannel** channel and select **Edit** from the action bar.
+   1. Navigate and click the **TargetChannel** channel and click **Edit** from the action bar.
 
       >[!NOTE]
       >

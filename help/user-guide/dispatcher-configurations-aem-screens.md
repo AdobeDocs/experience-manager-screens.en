@@ -43,7 +43,7 @@ If you want to use multiple publish instances fronted by single Dispatcher, upda
  }
 ```
 
-If you have one publish instance fronted by one Dispatcher, enabling the stickiness at the Dispatcher does not help because the load balancer may send each request to Dispatcher. In this case, select **Enable** in **Stickiness** field to turn it on at your load balancer level, as shown in the figure below:
+If you have one publish instance fronted by one Dispatcher, enabling the stickiness at the Dispatcher does not help because the load balancer may send each request to Dispatcher. In this case, click **Enable** in **Stickiness** field to turn it on at your load balancer level, as shown in the figure below:
 
 ![image](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

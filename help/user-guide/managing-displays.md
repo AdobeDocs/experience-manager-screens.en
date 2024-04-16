@@ -32,11 +32,11 @@ This page shows creating and managing displays for Screens.
 >Create a location before creating a display. See [Create and Manage Locations](managing-locations.md) for more information.
 
 1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and select **Create** that is next to the plus icon in the action bar. 
-1. Select **Display** from the **Create** wizard, then select **Next**.
+1. Click your location folder and click **Create** that is next to the plus icon in the action bar. 
+1. Click **Display** from the **Create** wizard, then click **Next**.
 1. Enter **Name** and **Title** for your display location.
 1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution**, such as **Full HD**. Choose the number of devices horizontally and vertically.
-1. Select **Create**.
+1. Click **Create**.
 
 The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
@@ -57,12 +57,12 @@ When you have display in position, the next step is to create a device config fo
 A device config acts as a placeholder for an actual digital signage device that is not yet installed.
 
 1. Navigate to the appropriate display, for example, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Select your display folder and select **View Dashboard** in the action bar.
-1. Select **+ Add Device Config** on the top-right of the **Devices** panel.
+1. Click your display folder and click **View Dashboard** in the action bar.
+1. Click **+ Add Device Config** on the top-right of the **Devices** panel.
 
-1. Select the **Device Config** as the required template as and select **Next**.
+1. Click the **Device Config** as the required template as and click **Next**.
 
-1. Enter the properties as required and select **Create**.
+1. Enter the properties as required and click **Create**.
 
 The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
 
@@ -86,9 +86,9 @@ The display dashboard provides you with different panels for managing display de
 
 >[!NOTE]
 >
->You can select the dashboard lists and trigger bulk actions on items, instead of going through each item individually.
+>You can click the dashboard lists and trigger bulk actions on items, instead of going through each item individually.
 >
->For example, the following image shows how you can select multiple channels from the display dashboard.
+>For example, the following image shows how you can click multiple channels from the display dashboard.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -96,12 +96,12 @@ The display dashboard provides you with different panels for managing display de
 
 The **DISPLAY INFORMATION** Panel provides the display properties.
 
-Select (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so you can view the properties and preview the display.
+Click (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so you can view the properties and preview the display.
 
 
 #### Viewing Properties {#viewing-properties}
 
-Select **Properties** so you can view or change the properties of your display.
+Click **Properties** so you can view or change the properties of your display.
 
 Also, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
 
@@ -117,9 +117,9 @@ The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
 The **DEVICES** Panel provides information on the device configs.
 
-Select (**...**) in the top-right corner in the **DEVICES** panel so you can add device configs and update devices.
+Click (**...**) in the top-right corner in the **DEVICES** panel so you can add device configs and update devices.
 
-Also, select the device config to view properties, assign a device, or delete it completely.
+Also, click the device config to view properties, assign a device, or delete it completely.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

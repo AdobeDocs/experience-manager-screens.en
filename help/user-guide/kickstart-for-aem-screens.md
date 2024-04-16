@@ -40,7 +40,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
     ![image](assets/config/empty-ref2.png)
     
-1. Select **Save** to enable the Apache Sling Referrer Filter Allow Empty.
+1. Click **Save** to enable the Apache Sling Referrer Filter Allow Empty.
 
 ## Creating a Digital Signage Experience in 5 minutes {#creating-a-digital-signage-experience-in-minutes}
 
@@ -48,15 +48,15 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 The first step is to create an AEM Screens project.
 
-1. Navigate to your Adobe Experience Manager (AEM) instance and select **Screens**. Alternatively, you can navigate directly from `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Navigate to your Adobe Experience Manager (AEM) instance and click **Screens**. Alternatively, you can navigate directly from `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Select **Create Screens Project** so you can create a Screens project.
-1. Enter the title as **DemoScreens**, then select **Save**.
+1. Click **Create Screens Project** so you can create a Screens project.
+1. Enter the title as **DemoScreens**, then click **Save**.
 
    ![image](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >After you create the project, it brings you back to the AEM Screens Project home page. You can now select your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
+   >After you create the project, it brings you back to the AEM Screens Project home page. You can now click your project. In a project, there are five different folders titled **Applications**, **Channels**, **Devices**, **Locations**, and **Schedules**.
 
 ### Creating a Channel {#creating-channel}
 
@@ -64,14 +64,14 @@ After you have created your AEM Screens project, create a channel where you mana
 
 Follow the steps below to create a channel for your project:
 
-1. After you create a project, select the **DemoScreens** project and select the **Channels** folder, as shown in the figure below. Select **+ Create** from the action bar.
+1. After you create a project, click the **DemoScreens** project and click the **Channels** folder, as shown in the figure below. Click **+ Create** from the action bar.
 
    ![image](assets/kickstart/demo-2.png)
 
-1. Choose the **Sequence Channel** from the wizard and select **Next**.
+1. Choose the **Sequence Channel** from the wizard and click **Next**.
    ![image](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as **TestChannel** and select **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![image](assets/kickstart/demo-4.png)
 
@@ -85,13 +85,13 @@ When you have your channel in place, add content to your channel that AEM Screen
 
 Follow the steps below to add content to the channel (**TestChannel**) in your project:
 
-1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
+1. Navigate to the **DemoProject** you created and click the **TestChannel** from the **Channels** folder.
 
-1. Select **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
+1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Select the icon that toggles side panel on left-hand side of the action bar to open the assets and components.  
+1. Click the icon that toggles side panel on left-hand side of the action bar to open the assets and components.  
 
 1. Drag and drop the components you want to add to your channel.
 
@@ -106,10 +106,10 @@ When you have your channel in place, create a location.
 
 Follow the steps below to create a location for your project:
 
-1. Navigate to the **DemoProject** you created and select the **Locations** folder.
-1. Select **+ Create** from the action bar. 
-1. Select **Location** from the wizard and select **Next**.
-1. Enter the **Name** for your location (enter the title as **TestLocation**) and select **Create**. 
+1. Navigate to the **DemoProject** you created and click the **Locations** folder.
+1. Click **+ Create** from the action bar. 
+1. Click **Location** from the wizard and click **Next**.
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**. 
 
 The **TestLocation** is created and added to your **Locations** folder.
 
@@ -121,16 +121,16 @@ When you have created a location, create a display for your location.
 >[!NOTE]
 >***Display*** represents the digital experience that run on one or multiple screens.
 
-1. Navigate to the **TestLocation** and select it. 
-1. Select **Create** from the action bar.
+1. Navigate to the **TestLocation** and click it. 
+1. Click **Create** from the action bar.
 
    ![image](assets/kickstart/demo-disp1.png)
 
-1. Select **Display** from the **Create** wizard and select **Next**.
+1. Click **Display** from the **Create** wizard and click **Next**.
 
    ![image](assets/kickstart/demo-disp2.png)
 
-1. Enter the **Title** as **LobbyDisplay** and select **Create**.
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
    ![image](assets/kickstart/demo-disp3.png)
 
@@ -144,13 +144,13 @@ When the project setup is complete, assign the channel to a display to view the 
 
 1. Navigate to the required display from **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay**.
 
-1. Select **Assign Channel** from the action bar.
+1. Click **Assign Channel** from the action bar.
 
    ![image](assets/kickstart/demo-assign1.png)
 
    Or,
 
-   Select **Dashboard** from the action bar and select **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
   
      ![image](assets/kickstart/demo-assign2.png)
       
@@ -164,13 +164,13 @@ When the project setup is complete, assign the channel to a display to view the 
 
    ![image](assets/kickstart/demo-assign3.png)
 
-   Also, you can select the **Activation Window** and **Recurrence Schedule**.
+   Also, you can click the **Activation Window** and **Recurrence Schedule**.
 
    >[!NOTE]
    >The *Recurrence Schedule* lets you set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
    >See [Recurrence Schedule](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) for more details.
 
-1. Select **Save** once you have configured your preferences.
+1. Click **Save** once you have configured your preferences.
 
 ### Registering a Device and Assigning Device to a Display {#registering-device}
 
@@ -179,43 +179,43 @@ Register your device using the AEM dashboard.
 >[!IMPORTANT]
 >Chrome OS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 >
->1. Select [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
+>1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 >1. Unzip and save it on disk.
->1. Open Chrome browser and select **Extensions** from the menu or directly navigate to ***chrome://extensions***.
+>1. Open Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
 >1. Switch on the **Developer mode** from top-right corner.
->1. Select **Load Unpacked** from top-left corner and load unzipped Chrome Player.
+>1. Click **Load Unpacked** from top-left corner and load unzipped Chrome Player.
 >1. Check **AEM Screens Chrome Player** plugin if it is available in the list of extensions.
->1. Open a new tab and select the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
->1. Select **AEM Screens** Plugin so you can launch Chrome Player. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
+>1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
+>1. Click **AEM Screens** Plugin so you can launch Chrome Player. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
 
 After your Chrome OS player is on, follow the steps below to register a Chrome device.
 
 1. Navigate to the **Devices** folder of your project from your AEM instance.
 
-1. Select the **Device Manager** from the action bar.
+1. Click the **Device Manager** from the action bar.
 
    ![image](assets/kickstart/demo-register1.png)   
 
-1. Select the **Device Registration** from the top right.
+1. Click the **Device Registration** from the top right.
 
-1. Select the required device and select **Register Device**.
+1. Click the required device and click **Register Device**.
 
    ![image](assets/kickstart/demo-register2.png)   
 
 1. Wait for the device to send its registration code and simultaneously check the **Registration Code** from your Chrome device.
    ![image](assets/kickstart/demo-register3.png)
 
-1. If the **Registration Code** is the same on both machines, select **Validate** in AEM.
+1. If the **Registration Code** is the same on both machines, click **Validate** in AEM.
 
-1. Set the desired name as **ChromeDeviceforDemo** for the device, and select **Register**.
+1. Set the desired name as **ChromeDeviceforDemo** for the device, and click **Register**.
 
    ![image](assets/kickstart/demo-register4.png)
 
-1. Select **Assign Display** from the **Device Registration Successful** dialog box.
+1. Click **Assign Display** from the **Device Registration Successful** dialog box.
 
    ![image](assets/kickstart/demo-register5.png)
 
-1. Select the path to your display as **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay** and select **Assign**.
+1. Click the path to your display as **DemoScreens** > **Locations** > **TestLocation** > **LobbyDisplay** and click **Assign**.
  
    ![image](assets/kickstart/demo-device6.png)
 
@@ -223,7 +223,7 @@ After your Chrome OS player is on, follow the steps below to register a Chrome d
 
    ![image](assets/kickstart/demo-register8.png)
 
-1. Select **Finish** to complete the registration process. You can now view your registered device from the display dashboard.
+1. Click **Finish** to complete the registration process. You can now view your registered device from the display dashboard.
 
    ![image](assets/kickstart/demo-register9.png)
 

@@ -26,12 +26,12 @@ You can create a schedule for your Screens project that can manage all the activ
 
 Follow the steps below to create schedule for your channel:
 
-1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and select **Schedules**.
-1. Select **Create** from the action bar.
-1. Select **Schedule** from the **Create** wizard and select **Next**.
+1. Click the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Navigate to Screens project and click **Schedules**.
+1. Click **Create** from the action bar.
+1. Click **Schedule** from the **Create** wizard and click **Next**.
 
-1. Enter the **Name** and **Title** and select **Create**.
+1. Enter the **Name** and **Title** and click **Create**.
 
 You can see a schedule folder with the designated name and title in your project.
 
@@ -46,14 +46,14 @@ Follow the steps below to view the schedule dashboard. The following example sho
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Select **Dashboard** from the action bar.
+1. Click **Dashboard** from the action bar.
 
    You can view three different panels such as **SCHEDULE INFORMATION**, **ASSIGNED CHANNELS**, and **ASSIGNED DISPLAYS**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Schedule Information Panel** Select Properties from the top-right corner from the SCHEDULE INFORMATION Panel to view/change properties of the schedule.
+   **Schedule Information Panel** Click Properties from the top-right corner from the SCHEDULE INFORMATION Panel to view/change properties of the schedule.
 
-   **Assigned Channels Panel** Select +Assign Channel from the top-right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. 
+   **Assigned Channels Panel** Click +Assign Channel from the top-right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. 
 
-   **Assigned Displays Panel** Select any of the displays from the ASSIGNED DISPLAYS Panel to open the display dashboard.
+   **Assigned Displays Panel** Click any of the displays from the ASSIGNED DISPLAYS Panel to open the display dashboard.

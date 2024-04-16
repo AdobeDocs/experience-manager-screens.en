@@ -187,7 +187,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -207,7 +207,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -236,7 +236,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    The property `sling:hideChildren`= `"[linkURL,size]`" is used on the `items` node to ensure that the **linkURL** and **size** fields are hidden from the dialog. Removing these nodes from the poster dialog is not enough. The property `sling:hideResource="{Boolean}true"` on the accessibility tab is used to hide the entire tab.
 
-   Two select fields are added to the dialog to give authors control over the text position and color of the Title and Description.
+   Two click fields are added to the dialog to give authors control over the text position and color of the Title and Description.
 
    ![Poster - Final Dialog Structure](assets/2018-05-03_at_4_49pm.png)
 

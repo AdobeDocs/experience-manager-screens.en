@@ -26,11 +26,11 @@ Follow the steps below to assign a channel to a display:
 
    ![image](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Select **Assign Channel** in the action bar.
+1. Click **Assign Channel** in the action bar.
 
    or,
 
-   Select **Dashboard** and select **+Assign Channel** from the **ASSIGNED CHANNELS** panel so you can open the **Channel Assignment** dialog box.
+   Click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel so you can open the **Channel Assignment** dialog box.
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
@@ -72,7 +72,7 @@ Priority is used to order the assignments in case multiple ones match the playin
 
 As a content author, specify when a channel is interrupted so you can choose to cut off non-critical content, but optionally let important content play before cutting off its playback because of scheduling.
 
-Select from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
+Click from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 
 * **Immediately** &ndash; Whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content.
 * **At end of current item** &ndash; When a new schedule activates or an update is received, you can optionally wait for the current item in the sequence to finish playing. Only after that can you refresh or play the new content.

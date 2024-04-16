@@ -52,15 +52,15 @@ The following image shows the **TextOverlayDemo** project with **TextSample** ch
 
 Follow the steps below to use text overlay in an AEM Screens channel:
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Edit** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Select the image and select **Configure** (wrench icon) to open the properties dialog box.
+1. Click the image and click **Configure** (wrench icon) to open the properties dialog box.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Select the **Text Overlay** option from the navigation bar of the dialog box, as shown in the figure below.
+1. Click the **Text Overlay** option from the navigation bar of the dialog box, as shown in the figure below.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -92,15 +92,15 @@ To learn how to setup and manage data driven asset changes using a data store, s
 
 After you set up the required configurations for your project, follow the steps below to use values from the Google Sheets: 
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Properties** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Properties** from the action bar.
 
-1. Select the **Personalization** tab so you can set up the ContextHub configurations.
+1. Click the **Personalization** tab so you can set up the ContextHub configurations.
 
-    1. Select the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and select **Select**.
+    1. Click the **ContextHub Path** as **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** and click **Select**.
 
-    1. Select the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and select **Select**.
+    1. Click the **Segments Path** as **conf** > **screens** > **settings** > **wcm** > **segments** and click **Select**.
 
-    1. Select **Save & Close**.
+    1. Click **Save & Close**.
 
        >[!NOTE]
        >
@@ -108,22 +108,22 @@ After you set up the required configurations for your project, follow the steps 
 
        ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and select **Edit** from the action bar.
+1. Navigate to **TextOverlayDemo** > **Channels** > **TextSample** and click **Edit** from the action bar.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Add an image and text overlay component to your image as described in [Using Text Overlay](/help/user-guide/text-overlay.md#using-text-overlay) section of this page.
 
-1. Select on **Configure** (wrench icon) to open the **Image** dialog box.
+1. Click on **Configure** (wrench icon) to open the **Image** dialog box.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigate to the **ContextHub** tab from the **Image** dialog box. Select **Add**.
+1. Navigate to the **ContextHub** tab from the **Image** dialog box. Click **Add**.
 
    >[!NOTE]
    >If you have not set up your ContextHub configuration, this option is disabled for your project.
 
-1. Enter **Value** in the **Placeholder** field. Select the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, select the checkmark.
+1. Enter **Value** in the **Placeholder** field. Click the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -136,6 +136,6 @@ After you set up the required configurations for your project, follow the steps 
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Select **Preview**.
+1. Click **Preview**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

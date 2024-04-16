@@ -40,17 +40,17 @@ Follow the use case steps below to implement the hospitality reservation activat
 1. **Configuring the segments in Audiences as per the requirements**
 
     1. Navigate to the segments in your audience (See ***Step 2: Setting up Audience Segmentation*** in **[Configuring ContextHub in AEM Screens](configuring-context-hub.md)** page for more details).
-    1. Select the **Sheets A1 1** and select **Edit**.
-    1. Select the comparison property and select the **Configuration** icon.
-    1. Select **googlesheets/value/1/2** from the drop-down in **Property name**.
-    1. Select the **Operator** as **equal** from the drop-down menu.
+    1. Click the **Sheets A1 1** and click **Edit**.
+    1. Click the comparison property and click the **Configuration** icon.
+    1. Click **googlesheets/value/1/2** from the drop-down in **Property name**.
+    1. Click the **Operator** as **equal** from the drop-down menu.
     1. Enter the **Value** as **1**.
-    1. Similarly, Select the **Sheets A1 2** and select **Edit**.
-    1. Select the comparison property and select the **Configuration** icon.
-    1. Select **googlesheets/value/1/2** from the drop-down in **Property name**.
-    1. Select the **Operator** as **2**.
+    1. Similarly, click the **Sheets A1 2** and click **Edit**.
+    1. Click the comparison property and click the **Configuration** icon.
+    1. Click **googlesheets/value/1/2** from the drop-down in **Property name**.
+    1. Click the **Operator** as **2**.
 
-1. Navigate and select your channel () and select **Edit** from the action bar. In the following example, **DataDrivenRestaurant**, a sequential channel is used to showcase the functionality.
+1. Navigate and click your channel () and click **Edit** from the action bar. In the following example, **DataDrivenRestaurant**, a sequential channel is used to showcase the functionality.
 
    >[!NOTE]
    >
@@ -64,10 +64,10 @@ Follow the use case steps below to implement the hospitality reservation activat
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Select **Targeting** from the editor and select **Brand** and the **Activity** from the drop-down menu and select **Start Targeting**.
+1. Click **Targeting** from the editor and click **Brand** and the **Activity** from the drop-down menu and click **Start Targeting**.
 1. **Checking the Preview**
 
-    1. Select **Preview.** Also, open your Google Sheets and update its value.
+    1. Click **Preview.** Also, open your Google Sheets and update its value.
     1. Update the value in **`Restaurant1`** and **`Restaurant2`** columns. If **`Restaurant1`** > **`Restaurant2`,** you should be able to view an image of *Steak* food otherwise, *Thai* food image displays on your screen.
 
    ![result5](assets/result5.gif)

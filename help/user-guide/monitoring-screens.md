@@ -25,7 +25,7 @@ Follow the steps below to navigate to the device dashboard:
 
 1. Navigate to the device dashboard from your project, for example, ***Test Project*** > ***Devices***.
 
-   Select **Devices** and **Device Manager** from the action bar.
+   Click **Devices** and **Device Manager** from the action bar.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -33,7 +33,7 @@ Follow the steps below to navigate to the device dashboard:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Select the device (**NewTestDevice**) and select **Dashboard** from the action bar.
+1. Click the device (**NewTestDevice**) and click **Dashboard** from the action bar.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -47,7 +47,7 @@ The **Activity** panel shows the last ping of your AEM Screens player with the t
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Also, select **Collect Logs** from the top-right hand corner of the **Activity** panel to view the logs for your player.
+Also, click **Collect Logs** from the top-right hand corner of the **Activity** panel to view the logs for your player.
 
 ### Update Device Details {#update-device-details}
 
@@ -55,9 +55,9 @@ Check the **Device Details** panel so you can view the device IP, Storage usage,
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Also, select **Clear cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
+Also, click **Clear cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
 
-Also, select **...** from the top-right corner of the **Device Details** panel to restart or refresh the status of your player.
+Also, click **...** from the top-right corner of the **Device Details** panel to restart or refresh the status of your player.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -67,11 +67,11 @@ Check the **DEVICE INFORMATION** panel. Here you can view the configuration upda
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Also, select (**...**) from the top-right corner of the Device Information panel to view properties or update the device.
+Also, click (**...**) from the top-right corner of the Device Information panel to view properties or update the device.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Select **Properties** so you can view the **Device Properties** dialog box. You can edit the device title or choose the option for configuration updates as **Manual** or **Automatic**.
+Click **Properties** so you can view the **Device Properties** dialog box. You can edit the device title or choose the option for configuration updates as **Manual** or **Automatic**.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Select **Properties** so you can view the **Device Properties** dialog box. You 
 
 You can view the player screenshot from the device from the **PLAYER SCREENSHOT** panel.
 
-Select (**...**) on the top-right corner of the Player Screenshot panel and select **Refresh Screenshot** to view the snapshot of the running player.
+Click (**...**) on the top-right corner of the Player Screenshot panel and click **Refresh Screenshot** to view the snapshot of the running player.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -96,7 +96,7 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Also, select **Settings** from the top-right corner to update device preferences. You can update the following preferences:
+Also, click **Settings** from the top-right corner to update device preferences. You can update the following preferences:
 
 * **Server URL**
 * **Resolution**
@@ -107,7 +107,7 @@ Also, select **Settings** from the top-right corner to update device preferences
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->You can select any one of the following Log levels:
+>You can click any one of the following Log levels:
 >* **Disable**
 >* **Debug**
 >* **Info**
@@ -126,7 +126,7 @@ Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**, that is, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Check the **allow.empty** option.
-1. Select **Save**.
+1. Click **Save**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

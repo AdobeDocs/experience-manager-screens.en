@@ -22,8 +22,8 @@ To download **AEM Screens Player**, visit the [AEM 6.5 Player Downloads](https:/
 >After you download the latest Player (*.exe*), follow the steps on the player so you can complete the ad-hoc installation:
 >
 >1. Long-press on the top-left corner to open the admin panel.
->1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and select **Save**.
->1. Select **Registration** link from the left action menu and the steps below to complete the device registration process.
+>1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
+>1. Click **Registration** link from the left action menu and the steps below to complete the device registration process.
 
 ## Basic Playback Monitoring {#playback-monitoring}
 

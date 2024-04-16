@@ -41,7 +41,7 @@ An Audio/Video Integrator is responsible for conducting discovery with end-custo
 
 #### Considering Hardware Partner {#selecting-hardware-partner}
 
-It is crucial to select the right Hardware Partner. The following questions must be considered:
+It is crucial to click the right Hardware Partner. The following questions must be considered:
 
 1. What are the terms of Service level agreement?
 

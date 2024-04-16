@@ -95,17 +95,17 @@ Follow the steps below to import a file to a location folder with minimum requir
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Select the project,** DemoProjectImporter **>** Create **>** Import Locations** from the side bar.
+1. Click the project,** DemoProjectImporter **>** Create **>** Import Locations** from the side bar.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. The **Import** wizard is displayed. Select the file for your project with locations or select the file (***minimal-file.xls***) you downloaded from the *Prerequisites* section.
+1. The **Import** wizard is displayed. Click the file for your project with locations or click the file (***minimal-file.xls***) you downloaded from the *Prerequisites* section.
 
-   After you have selected the file, select **Next**.
+   After you have selected the file, click **Next**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verify the content of the file (locations) from the Import wizard and select **Import**.
+1. Verify the content of the file (locations) from the Import wizard and click **Import**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

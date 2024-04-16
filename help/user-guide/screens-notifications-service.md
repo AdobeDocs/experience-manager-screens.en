@@ -77,7 +77,7 @@ Follow the steps below for configuring the email notification settings:
    >
    >You can enter only one email address. To send a bulk email, create a group or distribution list with the relevant users.
 
-1. Select **Save** to configure the monitor activity through an email for your AEM Screens device.
+1. Click **Save** to configure the monitor activity through an email for your AEM Screens device.
 
 ## Email Notification {#email-notification}
 

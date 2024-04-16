@@ -30,17 +30,17 @@ Follow the steps below to enable users and update the password for `screens-rece
 
 1. Navigate  to your AEM Author instance.
 
-1. Select tools > **Security** > **Users**.
+1. Click tools > **Security** > **Users**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Search for **`screens-receiver-user`**.
 
-1. Select the **`screens-receiver-user`** and select **Enable** from the action bar.
+1. Click the **`screens-receiver-user`** and click **Enable** from the action bar.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Select **OK** to confirm.
+1. Click **OK** to confirm.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -48,39 +48,39 @@ Follow the steps below to enable users and update the password for `screens-rece
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Select the **`screens-receiver-user`** and select **Properties** from the action bar.
+1. Click the **`screens-receiver-user`** and click **Properties** from the action bar.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Select **Change Password** under **Account settings** from the **Details** tab, as shown in the figure below.
+1. Click **Change Password** under **Account settings** from the **Details** tab, as shown in the figure below.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Enter a new password in the **Change Password** dialog box and select **Save**.
+1. Enter a new password in the **Change Password** dialog box and click **Save**.
 
    >[!NOTE]
    >Enter the existing admin user password in **Your Password** field.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Select **Save & Close**.
+1. Click **Save & Close**.
 
-1. Select the **`screens-receiver-user`** and select **Activate** from the action bar.
+1. Click the **`screens-receiver-user`** and click **Activate** from the action bar.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Select **OK** to confirm.
+1. Click **OK** to confirm.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Select the **`screens-receiver-user`** and select **Disable** from the action bar.
+1. Click the **`screens-receiver-user`** and click **Disable** from the action bar.
 
    >[!IMPORTANT]
-   > Disabling **`screens-receiver-user`** only disables this user from the Authoring instance and all the users in the Publishing instance remain active. Do not select **Deactivate** from the action bar, as deactivating removes the user from the Publishing instances too.
+   > Disabling **`screens-receiver-user`** only disables this user from the Authoring instance and all the users in the Publishing instance remain active. Do not click **Deactivate** from the action bar, as deactivating removes the user from the Publishing instances too.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Select **OK** to confirm.
+1. Click **OK** to confirm.
 
 ## Updating Settings for Screens Replication Agent {#replicate-agent}
 
@@ -90,22 +90,22 @@ Follow the section below to update settings in the AEM Screens Replication agent
 >Complete the following steps on ALL existing AEM Screens replication agents.
 
 1. Navigate to your AEM instance.
-1. Select tools > **Deployment** > **Replication**.
+1. Click tools > **Deployment** > **Replication**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Select **Agents on author**.
+1. Click **Agents on author**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Search for the all AEM Screens Replication agents on author and select the link, as shown in the figure below.
+1. Search for the all AEM Screens Replication agents on author and click the link, as shown in the figure below.
 
    >[!NOTE]
    >Search for all AEM Screens Replication agents. The Screens Replication Agent name includes the letter **S** in the title.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Select **Edit**.
+1. Click **Edit**.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -117,9 +117,9 @@ Follow the section below to update settings in the AEM Screens Replication agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Select **OK**.
+1. Click **OK**.
 
-1. After you complete the preceding steps, select **Test Connection** to verify the connection.
+1. After you complete the preceding steps, click **Test Connection** to verify the connection.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

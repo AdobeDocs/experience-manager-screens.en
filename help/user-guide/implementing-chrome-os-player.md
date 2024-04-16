@@ -19,7 +19,7 @@ This section describes how to implement the Chrome OS Player using the Chrome Ma
 Follow the steps below to set up chrome management console:
 
 1. Register for the Chrome Management Console. You must obtain a license for Chrome Management Console. Contact [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) to Manage Chrome device settings for more information.
-1. Enroll your Chrome OS Device into the domain wait for 15 minutes for the device to sync with the Chrome Management Console. To learn more about enrolling chrome device, select [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Enroll your Chrome OS Device into the domain wait for 15 minutes for the device to sync with the Chrome Management Console. To learn more about enrolling chrome device, click [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. The Chrome Player is available in the Chrome Web store.
 
 >[!NOTE]
@@ -59,25 +59,25 @@ Follow the steps below to enable the Kiosk mode:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Browse to **Device management** > **Chrome Management** > **Device Settings**.
-1. Scroll down to **Kiosk Settings** and select **Manage Kiosk Applications**.
+1. Scroll down to **Kiosk Settings** and click **Manage Kiosk Applications**.
 
    ![kiosk](assets/kiosk.png)
 
-1. Select the AEM Screens Player from the Chrome Web Store.
+1. Click the AEM Screens Player from the Chrome Web Store.
 
    >[!NOTE]
    >
    >A recently published app may take about 15 minutes to appear in this list.
 
-1. Select **AEM Screens Player** from the **Auto Launch Kiosk App** dropdown.
+1. Click **AEM Screens Player** from the **Auto Launch Kiosk App** dropdown.
 
    It may take a few minutes depending on the network for the changes to take effect. A reboot is recommended.
 
 #### Checking Remote Device Status {#checking-remote-device-status}
 
 1. Log in to the Chrome Developer Console.
-1. Browse to **Device management** > **Chrome Devices** and select the device you wish to control.
-1. Select **System Activity and troubleshooting**.
+1. Browse to **Device management** > **Chrome Devices** and click the device you wish to control.
+1. Click **System Activity and troubleshooting**.
 1. Check the **Reboot Device** and **Screen Capture** properties of the device. You can also check the device status and health information.
 
 >[!NOTE]
@@ -91,11 +91,11 @@ The AEM Screens Player is a Kiosk enabled application that also enables Remote P
 Follow the steps below to configure various options of the player:
 
 1. Log in to Chrome Management Console.
-1. Select **Device management** > **Chrome Management** > **App Management**. The AEM Screens Player displays in the list.
-1. Select the application **AEM Screens Player**.
-1. Select **Kiosk settings** and select your org (*if using a test environment*).
-1. Select **upload configuration file** and upload the configuration policy (*JSon file*).
-1. Select **Save**. Reboot the device so you can sync the policy.
+1. Click **Device management** > **Chrome Management** > **App Management**. The AEM Screens Player displays in the list.
+1. Click the application **AEM Screens Player**.
+1. Click **Kiosk settings** and click your org (*if using a test environment*).
+1. Click **upload configuration file** and upload the configuration policy (*JSon file*).
+1. Click **Save**. Reboot the device so you can sync the policy.
 
 >[!NOTE]
 >

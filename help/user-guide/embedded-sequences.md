@@ -36,13 +36,13 @@ You can add an embedded sequence to your channel. An embedded sequence is anothe
 
 Follow the steps below to add an embedded sequence to your channel:
 
-1. Select the channel where you want to embed a page. For example, **`We.Retail` In-Store** > **Channels** > **Idle Channel**.
+1. Click the channel where you want to embed a page. For example, **`We.Retail` In-Store** > **Channels** > **Idle Channel**.
 
-1. Select **Edit** from the action bar.
-1. In the editor mode, select components icon from the left side bar so you can add the embedded page. Drag and drop the **Embedded Sequence** to the editor.
+1. Click **Edit** from the action bar.
+1. In the editor mode, click components icon from the left side bar so you can add the embedded page. Drag and drop the **Embedded Sequence** to the editor.
 1. Double-click the **Embedded Sequence** component so you can add the channel to your original sequence channel.
-1. Select the **Channel Path** of the channel.
-1. Select the **Duration (milliseconds)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. If the user specifies a duration, then the subsequence is interrupted (that is, it cuts off) at the specified time.
+1. Click the **Channel Path** of the channel.
+1. Click the **Duration (milliseconds)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. If the user specifies a duration, then the subsequence is interrupted (that is, it cuts off) at the specified time.
 
 1. Set the **Metered Playback Strategy** to **normal**.
 
@@ -54,15 +54,15 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >
 >Follow the steps below after you have added an embedded sequence to your channel from the preceding steps:
 >
->1. Navigate to the display and select the display from **Locations** folder.
->1. Select **Dashboard** from the action bar.
->1. On the display dashboard, select **+ Assign Channels** from the **ASSIGNED CHANNELS & SCHEDULED PANELS** so you can open the **Channel Assignment dialog box**.
+>1. Navigate to the display and click the display from **Locations** folder.
+>1. Click **Dashboard** from the action bar.
+>1. On the display dashboard, click **+ Assign Channels** from the **ASSIGNED CHANNELS & SCHEDULED PANELS** so you can open the **Channel Assignment dialog box**.
 >
->1. Select the path of the channel that you (used in embedded sequence) in **Channel Path**.
+>1. Click the path of the channel that you (used in embedded sequence) in **Channel Path**.
 >1. Make sure that the **Priority** is lower than the main channel.
 >
->1. Do not select any **Supported Events**.
->1. Select **Save** when done.
+>1. Do not click any **Supported Events**.
+>1. Click **Save** when done.
 >
 
 The following example shows the addition of an embedded sequence (**Idle Channel - Night**) to an existing channel (**Idle Channel**).
@@ -81,16 +81,16 @@ You can add a dynamic embedded sequence to your channel. A dynamic embedded sequ
 
 Follow the steps below to add an embedded sequence to your channel:
 
-1. Select the channel where you want to embed a dynamic sequence. For example, **`We.Retail` In-Store** > **Channels** > **Idle Channel**.
+1. Click the channel where you want to embed a dynamic sequence. For example, **`We.Retail` In-Store** > **Channels** > **Idle Channel**.
 
-1. Select **Edit** from the action bar.
-1. In the editor mode, select the components icon from the left side bar so you can add the dynamic embedded sequence. Drag and drop the **Dynamic** **Embedded Sequence** to the editor.
+1. Click **Edit** from the action bar.
+1. In the editor mode, click the components icon from the left side bar so you can add the dynamic embedded sequence. Drag and drop the **Dynamic** **Embedded Sequence** to the editor.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component so you can add the page to your sequence channel.
 
 1. Enter the **Channel Assignment Role**.
 1. Set the **Metered Playback Strategy** to **normal**. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence runs fully on each cycle of the parent sequence. The other possible value is **Play a single item**. That value only shows one item of the subsequence on each run. For example, the first item on the first loop, and the second item on the second loop.
 
-1. Select the **Duration (milliseconds)** in **Sequence** tab for your embedded channel in the sequence.
+1. Click the **Duration (milliseconds)** in **Sequence** tab for your embedded channel in the sequence.
 
 ![latest](assets/latest.gif)

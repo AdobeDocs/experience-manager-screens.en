@@ -65,7 +65,7 @@ Follow the steps below to create a `Left20-LandscapeHD3Zone` Layout for an AEM S
    ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
       >[!NOTE]
-      >Select **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes. Otherwise, you cannot commit the updates.
+      >Click **Save all** from the action bar in CRXDE Lite each time you create, edit, or copy content to any of the nodes. Otherwise, you cannot commit the updates.
 
 1. Copy the lbar-left template from `/libs/screens/core/templates/splitscreenchannel/lbar-left` to `/apps/customtemplate/template`. 
 
@@ -134,11 +134,11 @@ Follow the steps below to create a `Left20-LandscapeHD3Zone` Layout for an AEM S
 
 Follow the steps below to use the above customized template in your AEM Screens project:
 
-1. Navigate to your Screens project that you created in step (1) and select the **Channels** folder.
+1. Navigate to your Screens project that you created in step (1) and click the **Channels** folder.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Select **Create** from the action bar and select the template **`Left20-LandscapeHD3Zone`** from the **Create** wizard.
+1. Click **Create** from the action bar and click the template **`Left20-LandscapeHD3Zone`** from the **Create** wizard.
 
    ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

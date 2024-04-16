@@ -23,15 +23,15 @@ This page describes creating live copy of a channel, viewing properties, checkin
 
 Follow the steps below to create a live copy of a channel in your project folder.
 
-1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 
-1. Navigate to Screens project and select **Channels**.
-1. Select **Create** and select **Live Copy** so you can create a live copy of the channel.
-1. Select the destination and select **Next**.
-1. Select the location where the live copy can reside.
+1. Navigate to Screens project and click **Channels**.
+1. Click **Create** and click **Live Copy** so you can create a live copy of the channel.
+1. Click the destination and click **Next**.
+1. Click the location where the live copy can reside.
 1. Enter the **Title** and **Name** in the **Create Live Copy** page.
 
-1. Select **Open** to view the contents of new live copy or **Done** to return to the main page.
+1. Click **Open** to view the contents of new live copy or **Done** to return to the main page.
 
 Alternatively, see the steps below for visual representation for creating a new live copy of a channel.
 
@@ -45,11 +45,11 @@ A Live copy is a copy of a channel that exists.
 
 To view the content of your live copy, see the steps below:
 
-1. Navigate to Screens project and select the location where you originally created live copy as shown in the section above. (Here, the location was chosen as **Channels** folder)
+1. Navigate to Screens project and click the location where you originally created live copy as shown in the section above. (Here, the location was chosen as **Channels** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Select **Edit** from the action bar.
+1. Click **Edit** from the action bar.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -61,11 +61,11 @@ To view the content of your live copy, see the steps below:
 
 Also, you can view the properties of your live copy channel.
 
-1. Navigate to your live copy channel and select **Properties** from the action bar.
+1. Navigate to your live copy channel and click **Properties** from the action bar.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
-1. Select the **Live Copy** tab so you can view details of your channel.
+1. Click the **Live Copy** tab so you can view details of your channel.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
@@ -73,11 +73,11 @@ Also, you can view the properties of your live copy channel.
 
 The mode **Live Copy Status**, as shown in the figure below, lets you view the relationship status of all the assets in the channel.
 
-1. Select **Edit** so you can choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. Click **Edit** so you can choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-1. Select **Live Copy Status** so you can display the preview page.
+1. Click **Live Copy Status** so you can display the preview page.
 
    All the resources with green border show that the content is inherited from the original channel.
 
@@ -87,7 +87,7 @@ The mode **Live Copy Status**, as shown in the figure below, lets you view the r
 
 You can also cancel the inheritance from the live copy, so the content becomes independent of the original branch.
 
-The following example shows that you select the image in the edit mode and select the cancel inheritance symbol on the top right.
+The following example shows that you click the image in the edit mode and click the cancel inheritance symbol on the top right.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -97,7 +97,7 @@ If you make changes or updates in the original channel, propagate those changes 
 
 Follow the steps below to ensure that your changes are propagated from the original channel to the live copy channel:
 
-1. Select the original channel (***Idle Channel***) and select **Edit** from the action bar.
+1. Click the original channel (***Idle Channel***) and click **Edit** from the action bar.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -105,21 +105,21 @@ Follow the steps below to ensure that your changes are propagated from the origi
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Select the live copy of the channel (***IdleLiveCopy***) and select **Edit** from the action bar. Notice that the image you deleted is still visible in the live copy.
+1. Click the live copy of the channel (***IdleLiveCopy***) and click **Edit** from the action bar. Notice that the image you deleted is still visible in the live copy.
 
    To propagate the changes, synchronize the channel.
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. To propagate changes to the live copy channel, navigate to the AEM dashboard and select the live copy channel and select **Properties** from the action bar.
+1. To propagate changes to the live copy channel, navigate to the AEM dashboard and click the live copy channel and click **Properties** from the action bar.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-1. Select the **Live Copy** tab and select **Synchronize** from the action bar.
+1. Click the **Live Copy** tab and click **Synchronize** from the action bar.
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Select **Sync**, then select **Save & Close** to navigate back to the AEM dashboard.
+1. Click **Sync**, then click **Save & Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

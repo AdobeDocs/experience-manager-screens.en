@@ -7,7 +7,7 @@ exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 
 ## Introduction {#introduction}
 
-Adaptive Renditions allow the devices to automatically select the best rendition for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules allowing customers to only focus on designing the *main* experience.
+Adaptive Renditions allow the devices to automatically click the best rendition for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules allowing customers to only focus on designing the *main* experience.
 
 ## Objective {#objective}
 
@@ -29,12 +29,12 @@ To apply renditions to assets that you want to use in tour Screens channel, do t
 1. Navigate to the **Assets** folder in your AEM instance.
 1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
 1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. See [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
-1. Select **Add Rendition** to upload the rendition, as shown in the figure below.
+1. Click **Add Rendition** to upload the rendition, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Select the renamed the asset file. The rendition that you are adding must contain the pattern (defined in step 3), for example, `seahorse-landscape.png`.
-1. When you have added the asset, select the asset and select **Manage Publication** from the action bar to publish the asset.
+1. Click the renamed the asset file. The rendition that you are adding must contain the pattern (defined in step 3), for example, `seahorse-landscape.png`.
+1. When you have added the asset, click the asset and click **Manage Publication** from the action bar to publish the asset.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

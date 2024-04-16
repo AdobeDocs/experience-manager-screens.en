@@ -26,12 +26,12 @@ This page shows creating and managing locations for Screens.
 
 After you create your project for Screens, follow the steps below to create a Location for a Screens project:
 
-1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and select **Locations**.
-1. Select **Create** next to the plus icon in the action bar.
-1. Select the template **Location** from the wizard and select **Next**.
+1. Click the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Navigate to Screens project and click **Locations**.
+1. Click **Create** next to the plus icon in the action bar.
+1. Click the template **Location** from the wizard and click **Next**.
 1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
-1. Select **Create** and the location is created and added to your locations folder.
+1. Click **Create** and the location is created and added to your locations folder.
 
 See the steps below to understand creating a location for an AEM Screens project. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
 
@@ -43,8 +43,8 @@ After you create a location, create a display for your location.
 
 To edit/access the properties of a location:
 
-1. Select the location.
-1. Select **Properties** from the action bar.
+1. Click the location.
+1. Click **Properties** from the action bar.
 
 ![player3](assets/player3.gif)
 

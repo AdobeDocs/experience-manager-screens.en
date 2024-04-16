@@ -38,7 +38,7 @@ Follow the steps below to set up a project and a channel:
 
 1. Create a sequence channel titled as **Cafeteria** in the **Channels** folder.
 
-1. Select the channel, then select **Edit** from the action bar.
+1. Click the channel, then click **Edit** from the action bar.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -56,13 +56,13 @@ When the project setup is complete, assign the channel to a display to view the 
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
-1. Select **Assign Channel** from the action bar.
+1. Click **Assign Channel** from the action bar.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Or,
 
-   Select **Dashboard** from the action bar and select **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Click **Dashboard** from the action bar and click **+Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -78,14 +78,14 @@ When the project setup is complete, assign the channel to a display to view the 
    >
    >To learn more about channel assignment properties, see [Channel Properties](#channel-properties) section.
 
-1. From the **Schedule** option, select the **Activation Window** and **Recurrence Schedule**.
+1. From the **Schedule** option, click the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >To learn more about channel assignment properties, see [Channel Properties](#channel-properties) section.
 
-1. Select **Save** once you have configured your preferences.
+1. Click **Save** once you have configured your preferences.
 
 ### Viewing the Content in Chrome Player {#viewing-content-output}
 
@@ -105,11 +105,11 @@ Follow the steps below to navigate to the timeline view:
 
 1. Navigate to the required display, for example, **DemoScreens** > **Locations** > **SanJose** > **Lobby**.
 
-1. Select **Assign Channel** from the action bar.
+1. Click **Assign Channel** from the action bar.
 
    Or,
 
-   Select **Dashboard** and select **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   Click **Dashboard** and click **Timeline** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
    ![image](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -175,7 +175,7 @@ The Activation Window lets you select a **Start date** and an **End date** to di
 
 ### Recurrence Schedule {#recurrence-schedule}
 
-The Recurrence Schedule lets you set a recurring schedule for your content. Select **+ Add Schedule** to add a recurrence schedule to your channel.
+The Recurrence Schedule lets you set a recurring schedule for your content. Click **+ Add Schedule** to add a recurrence schedule to your channel.
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
