@@ -524,6 +524,30 @@ The following code provides the minimum requirements in the `pom.xml` for that s
 ```css
    <dependencies>
         …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
+**NOTE** : In case of AEMaaCS please use below dependency in the `pom.xml` for that specific project.
+
+```css
+   <dependencies>
+        …
         <!-- AEM Screens SDK API with OfflineResourceHandler/AbstractResourceHandler -->
         <dependency>
             <groupId>com.adobe.aem</groupId>
