@@ -77,4 +77,4 @@ See the following topics for an in-depth information:
 
 * To implement Chrome OS Player, see [Chrome Management Console](implementing-chrome-os-player.md) for more information.
 
-* To configure AEM Screens Windows player, see [Implementing Windows Player](implementing-windows-player.md).
+* To configure AEM Screens Windows Player, see [Implementing Windows Player](implementing-windows-player.md).

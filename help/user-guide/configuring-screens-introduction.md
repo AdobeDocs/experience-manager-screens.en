@@ -22,7 +22,7 @@ This page shows how to install and configure the Screens players on your devices
 
 ## Health Check Framework {#health-check-framework}
 
-The Health Check framework allows the user to check if two necessary configurations are set up before running an AEM Screens project. 
+The Health Check Framework lets the user check if two necessary configurations are set up before running an AEM Screens project. 
 
 It allows the user to verify the following two configuration checks to run an AEM Screens project, that is, to check the state of the following two filters:
 

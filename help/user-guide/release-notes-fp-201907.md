@@ -15,7 +15,7 @@ exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
 
 >[!CAUTION]
 >
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 AEM Screens released AEM 6.4.5 Feature Pack 5 and AEM 6.5.1 Feature Pack 1 with the following details.
 
@@ -27,15 +27,16 @@ The Release Date for AEM Screens Feature Pack 201907 is July 31, 2019.
 
 * **Data Trigger drives asset change in an AEM Screens channel**
 
-The player switches to a channel showing the emergency info upon receiving an event fired by the emergency system. The channel plays exclusively until the emergency situation is over.
+The player switches to a channel that shows emergency information. The emergency system sends this information when it receives an event. The channel plays exclusively until the emergency situation is over.
+
 
 See [Emergency Channel](emergency-channel.md) Use Case for implementation.
 
 * **Targeting Enabled for asynchronous components
 
-Targeting can now be enabled for assets used in AEM Screens project.
+Targeting can now be enabled for assets used in the AEM Screens project.
 
-To learn more about how you can enable targeting for assets in AEM Screens project, see [Configuring ContextHub in AEM Screens](configuring-context-hub.md).
+To learn more about how you can enable targeting for assets in the AEM Screens project, see [Configuring ContextHub in AEM Screens](configuring-context-hub.md).
 
 After you have configured ContextHub for your AEM Screens project, follow different use cases to understand how data triggered assets plays a vital role in different industries:
 
@@ -56,7 +57,7 @@ See [Launches](launches.md) for more details.
 
 * **Offline Configurations in Experience Fragments**
 
-You can now add offline configs (client-side libraries and static files) while configuring Screens Experience Fragment. See [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
+You can now add offline configurations (client-side libraries and static files) while configuring Screens Experience Fragment. See [Using Experience Fragments](experience-fragments-in-screens.md) for more details.
 
 ### Released AEM Screens Players
 

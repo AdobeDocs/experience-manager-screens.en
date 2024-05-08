@@ -9,13 +9,13 @@ exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
 # Release Notes for Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
 AEM Screens released AEM 6.5 Feature Pack 8.
 
-You can download the latest feature pack for AEM Screens 6.5.8 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP8**.
+You can download the latest Feature Pack for AEM Screens 6.5.8 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
 >Install the minimum version of AEM 6.5 Feature Pack 8 for AMS connector to work after you have installed the packages `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, and the `screens core bundles`.
@@ -28,7 +28,7 @@ The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
 
 * **Locking Page in an AEM Screens Channel**
 
-   AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) lets you lock a page, so that no one else can modify the contents. This is useful when you are making numerous edits to one specific page or when you must freeze a page for a short while.
+   AEM Screens now supporting *Locking a Page*, as already implemented in AEM Sites. Adobe Experience Manager (AEM) lets you lock a page, so that no one else can edit the contents. This feature is useful when you are making numerous edits to one specific page or when you must freeze a page for a short while.
 
 * **Naming AEM Screens Player Device**
 
@@ -48,8 +48,8 @@ The Release Date for AEM Screens Feature Pack 202105 is June 04, 2021.
 
 ### Bug Fixes {#bug-fixes}
 
-* Player displayed a black screen when switching to channel containing dynamic embedded sequence.
-* The Screens players now block the switching to any broken channel that further avoids 404 error or a page with an error message.
+* The player displayed a black screen when switching to a channel containing a dynamic embedded sequence.
+* The Screens players now block the switching to any broken channel that further avoids a 404 error or a page with an error message.
 
 ### Released AEM Screens Players
 

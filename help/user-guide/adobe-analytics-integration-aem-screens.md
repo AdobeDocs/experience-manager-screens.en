@@ -19,7 +19,7 @@ exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 
 >[!NOTE]
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. You can download the latest feature pack for AEM Screens from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 
+>To get access to either of these Feature Packs, contact Adobe Support and request access. You can download the latest Feature Pack for AEM Screens from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. 
 
 This section covers the following topics:
 

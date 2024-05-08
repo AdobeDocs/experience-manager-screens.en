@@ -35,7 +35,7 @@ Follow the steps below to configure the setup:
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >If you installed the latest Feature Pack 202109, you see the **rendition-mapping** node structure pre-populated in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. See [Release Notes for Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) to get details on the latest feature pack.
+   >If you installed the latest Feature Pack 202109, you see the **rendition-mapping** node structure pre-populated in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. See [Release Notes for Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) to get details on the latest Feature Pack.
    >For existing projects, ensure that Screens project has the **rendition-mapping** configuration associated. See [Adding Rendition Mapping to an Existing Project](#rendition-mapping-existing) section for more information.
 
 ### Adding Rendition Mapping Property to an Existing Project {#rendition-mapping-existing}

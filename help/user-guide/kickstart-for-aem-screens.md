@@ -11,7 +11,7 @@ exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 The kickstart to AEM Screens demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens player.
 
 >[!NOTE]
->Before working on the project details, make sure you have installed the latest Feature Pack for AEM Screens. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>Before working on the project details, make sure you have installed the latest Feature Pack for AEM Screens. You can download the latest Feature Pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## Prerequisites {#prerequisites}
 

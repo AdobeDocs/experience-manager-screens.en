@@ -149,9 +149,9 @@ Follow the steps below to turn on Stay Awake in on any Android&trade; player:
 1. Navigate to **Developer Options**.
 1. Enable **Stay Awake**.
 
-### 4. How to enable window mode for the Windows player?{#enable-player}
+### 4. How to enable window mode for the Windows Player?{#enable-player}
 
-There is no window mode in Windows player. It is always full screen mode.
+There is no window mode in Windows Player. It is always full screen mode.
 
 ### 5. How to troubleshoot if an AEM Screens player continuously sends login requests?
 
@@ -235,7 +235,7 @@ For enabling v3 Manifest, do the following:
 
 ### 4. What should you do, if, after the package screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 and the screens core bundles are installed but not active?
 
-Install a minimum version of AEM 6.5 Feature Pack 8 for the AMS connector to work. See [Availability](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) so you can get the minimum version of AEM Screens feature pack.
+Install a minimum version of AEM 6.5 Feature Pack 8 for the AMS connector to work. See [Availability](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) so you can get the minimum version of AEM Screens Feature Pack.
 
 ### 5. How to configure CQ Link Externalizer service in Screens?
 

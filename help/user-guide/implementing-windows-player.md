@@ -1,6 +1,6 @@
 ---
-title: Implementing Windows 10 Player
-description: Learn about configuring AEM Screens Windows 10 player.
+title: Implementing Windows Player
+description: Learn about configuring AEM Screens Windows Player.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -11,9 +11,9 @@ role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 ---
-# Implementing Windows 10 Player {#implementing-windows-player}
+# Implementing Windows Player {#implementing-windows-player}
 
-This section describes configuring AEM Screens Windows 10 player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
+This section describes configuring AEM Screens Windows Player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
 
 ## Installing Windows Player {#installing-windows-player}
 
@@ -22,12 +22,12 @@ To implement Windows Player for AEM Screens, install Windows Player for AEM Scre
 Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
 >[!NOTE]
->There is no window mode in Windows player. It is always full screen mode.
+>There is no window mode in Windows Player. It is always full screen mode.
 
 ### Setting up Environment for AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Set up an environment for Windows player if you are using AEM Screens 6.5.5 Service Pack.
+>Set up an environment for Windows Player if you are using AEM Screens 6.5.5 Service Pack.
 
 Set the **SameSite attribute for the login-token cookies** from **Lax** to **None** from **Adobe Experience Manager Web Console
 Configuration** on all AEM author and publish instances.
@@ -62,12 +62,12 @@ After you download the application, follow the steps on the player to complete t
 
 ## Naming Windows Player {#name-windows}
 
-You can assign a user-friendly device name to your Windows player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Windows Player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows Player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
-Follow the steps below to configure the name in Windows player:
+Follow the steps below to configure the name in Windows Player:
 
 1. Click **start** > **run**.
 1. Enter `system.cpl`.
@@ -80,7 +80,7 @@ Follow this section so you can learn how to change the default options in Window
 ## Installation using CLI (PowerShell) {#install-powershell}
 
  1. Create a custom location **dedicated** for Screens Player, for example: 
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
  1. Install 
     `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
  1. Open 
@@ -122,7 +122,7 @@ The following table summarizes the policy attributes with an example policy JSON
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
 | enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
 | enableActivityUI |Enable so you can show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
-| cloudMode |Set to true if you want the Windows player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
+| cloudMode |Set to true if you want the Windows Player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
 #### Example policy JSON file {#example-policy-json-file}
@@ -140,7 +140,7 @@ The following table summarizes the policy attributes with an example policy JSON
 
 ## Enabling Kiosk Mode {#enabling-kiosk-mode}
 
-When you are deploying the Windows player, it is important to enable a Kiosk mode so that other applications or the taskbar do not appear on the Windows desktop.
+When you are deploying the Windows Player, it is important to enable a Kiosk mode so that other applications or the taskbar do not appear on the Windows desktop.
 
 >[!CAUTION]
 >
@@ -169,7 +169,7 @@ Follow the steps below to enable Kiosk mode:
 
 If you get a black screen after you log in as the Kiosk user, it means that you may have incorrectly specified the path to the windows player executable. Log back in as the administrator and verify and rerun the script.
 
-The default installation path for Windows player is:
+The default installation path for Windows Player is:
 
 ***C:\Users\<your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 

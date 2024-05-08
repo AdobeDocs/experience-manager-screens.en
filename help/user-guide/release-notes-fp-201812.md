@@ -15,7 +15,7 @@ exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
 
 >[!CAUTION]
 >
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 The AEM Screens released AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3 with the following details.
 
@@ -27,7 +27,7 @@ The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 
 * **Text Overlay on Assets in Channel**:
 
-  Text Overlay is a feature available in AEM Screens that lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. See [**Text Overlay**](text-overlay.md).
+  Text Overlay is a feature available in AEM Screens. It lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. See [**Text Overlay**](text-overlay.md).
 
 * **Multi-asset Scheduling**:
 
