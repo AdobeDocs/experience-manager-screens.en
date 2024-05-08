@@ -50,7 +50,7 @@ role: User
     + Analytics Integration with AEM Screens {#analytics-integration} 
         + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
         + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Authoring and Use Case Examples {#authoring}
++ Authoring and use case Examples {#authoring}
     + Setting up a Screens Project {#setting-up-projects}
         + [Creating and Managing Projects](creating-a-screens-project.md)
         + [Creating and Managing Channels](managing-channels.md)
@@ -86,7 +86,7 @@ role: User
         + [On-Demand Content Update](on-demand-content.md)
         + [Content as-a-service Update](content-update-as-a-service.md)
         + [Content Update using Screens Launch](launches.md)
-    + Use Case Examples {#use-case-examples}
+    + Use case examples {#use-case-examples}
         + [Emergency Channels](emergency-channel.md)
         + [Travel Center Temperature Activation](local-temperature-activation.md)
         + [Hospitality Reservation Activation](hospitality-reservation-activation.md)

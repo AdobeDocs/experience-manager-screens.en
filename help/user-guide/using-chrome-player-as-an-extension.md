@@ -8,7 +8,7 @@ exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 ---
 # Using Chrome Player as an Extension {#using-chrome-player}
 
-ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. 
+ChromeOS player can be installed as Chrome browser plugin in developer mode without requiring actual chrome player device. 
 
  >[!CAUTION]
  >

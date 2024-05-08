@@ -17,9 +17,9 @@ The following use case demonstrates three different images based on the values i
 
 ## Description {#description}
 
-This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
+This use case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 
-For this Use Case, the Red, Green, or Blue sweater displays on your screen based on the highest value of number of sweaters that is available.
+For this use case, the Red, Green, or Blue sweater displays on your screen based on the highest value of number of sweaters that is available.
 
 ## Preconditions {#preconditions}
 

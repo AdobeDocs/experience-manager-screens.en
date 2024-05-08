@@ -1,6 +1,6 @@
 ---
 title: Perpetual TakeOver Channel
-description: Follow this Use Case for creating a Perpetual TakeOver Channel.
+description: Follow this use case for creating a Perpetual TakeOver Channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -11,9 +11,9 @@ exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 
 The following page showcases a use case that emphasizes on setting up a project on how to create a Perpetual TakeOver channel that plays for a specific time day and time continuously.
 
-## Use Case Description {#use-case-description}
+## Use case description {#use-case-description}
 
-This Use Case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover occurs for a specific day and time perpetually.
+This use case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover occurs for a specific day and time perpetually.
 For example, there is a Perpetual TakeOver channel that plays every Friday from 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for two hours from 2:00 P.M. through 4:00 P.M.
 
 ### Preconditions {#preconditions}

@@ -40,7 +40,7 @@ The Release Date for AEM Screens Feature Pack 202008 is September 03, 2020.
 
    The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-   A content author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays.
+   A Content Author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays.
 
    See [Voice Recognition](voice-recognition.md) for more details.
 
@@ -65,4 +65,4 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.5 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

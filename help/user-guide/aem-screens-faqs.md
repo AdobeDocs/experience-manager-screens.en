@@ -13,21 +13,21 @@ This topic provides answers to commonly asked FAQs related to an AEM Screens pro
 ## Blank Screen Issue {#blank-screen}
 
 >[!NOTE]
->The listed mandatory checks that should be tried by primary support or customer-side support before raising an issue.
+>The listed mandatory checks that primary support or customer-side support should try before raising an issue.
 
 ### 1. What should be the First aid troubleshooting steps for any customer facing a black screen or non-playing content? {#troubleshooting-blank-screen}
 
 * Check if the channel preview is working.
 * Check if the display preview is working
-* Try registering the player as a browser extension on your system to that same display and check if this is working.
+* Try registering the player as a browser extension on your system to that same display and check if it is working.
 * With the player running on your system, navigate to `http://localhost:24502`. Check if all the content is downloaded correctly.
 * Check the assets so you can ensure that the appropriate renditions are created and the correct rendition is being played.
 * Check for any scheduled content and if the times are correct. Check if the time set up in the player is correct.
-* Inspect the player console logs and check for any errors. Right-click and inspect to see the console logs. If you are using the windows player, press `CTRL + ALT +I` to bring up dev console to view the logs.
+* Inspect the player console logs and check for any errors. Right-click and inspect to see the console logs. If you are using the Windows Player, press `CTRL + ALT +I` to bring up dev console to view the logs.
 
 ### 2. How to resolve Grey Screen Issue in AEM Screens by Creating a Default Channel or Schedule?
 
-To avoid the blank or gray screens in the field, create a default global channel or schedule, assigned to every display with the least priority 1. In case something goes wrong with content updates (due to network, player, server, or replication), since the players have this content already cached on the disk that should play fine and avoid the gray screens.
+To avoid the blank or gray screens in the field, create a default global channel or schedule, assigned to every display with the least priority 1. In case something goes wrong with content updates because the players have this content already cached on the disk. It should play fine and avoid the gray screens.
 
 All other content, such as channels or schedules, priority greater than 1, so the other content takes priority and global channel or schedule content (with priority 1) only plays as a fall-back option.
 
@@ -56,11 +56,11 @@ For *dynamic references*, the resolution occurs once the channel is assigned to 
 1. The parent location of the display has a child node that matches the referenced channel name
 1. The grand-parent location of the display has a child node that matches the referenced channel name
 
-And so on, until you reach the locations folder and stop there at the moment (so you cannot reference a channel that would be in the channels folder for instance, only channels in the locations subtree).
+And so on, until you reach the locations folder. Stop there at the moment (so you cannot reference a channel that would be in the channels folder for instance, only channels in the location subtree).
 
 ### 5. How to set up Custom clientlib offline configuration in AEM Screens Channel?
 
-When using a built custom client-side code `clientlib` in an  AEM Screens channel, the following steps are necessary to make sure that the `clientlib` files are loaded successfully in the channel (`manifest.json`) and contains the path of the `clientlib`.
+When using a built custom client-side code `clientlib` in an AEM Screens channel, the following steps are necessary. The steps make sure that the `clientlib` files are loaded successfully in the channel (`manifest.json`) and contains the path of the `clientlib`.
 
 Follow the steps below from the channel editor:
 
@@ -71,43 +71,43 @@ Follow the steps below from the channel editor:
 
 ## Device Registration {#device-registration}
 
-### 1. If I discover endpoints such as requests for device onboarding and registration, I can script many devices and register these devices. Besides locking this to a branch Wi-Fi, is it possible to secure these requests? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. If I discover endpoints such as requests for device onboarding and registration, I can script many devices and register these devices. Besides locking it to a branch Wi-Fi, is it possible to secure these requests? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Currently Registration is only possible on the author instance. Although the registration service is unauthenticated, it only creates a pending device in AEM and does not actually register the device or assign any display.
 
-To register a device (creating a user for the device in AEM), authenticate to AEM and currently manually follow the registration wizard to complete registration. Theoretically, a malicious user may create several pending devices but cannot register any without an AEM login.
+To register a device (creating a user for the device in AEM), authenticate to AEM and manually follow the registration wizard to complete registration. Theoretically, a malicious user may create several pending devices but cannot register any if they do not have an AEM login.
 
 ### 2. Is there a way to transform HTTP GET requests into HTTP POST with some form of authentication? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 The registration request is a POST request.
 
-It is recommended to obtain the device ID from the session rather than passed as parameter. This would clean up the server logs, browser cache, and so on. It is not a security issue. Semantically. GET is used when there is no state change on the server and POST is used when there is a state change.
+It is recommended to obtain the device ID from the session rather than passed as a parameter. Doing so would clean up the server logs, browser cache, and so on. It is not a security issue. Semantically. GET is used when there is no state change on the server and POST is used when there is a state change.
 
 ### 3. Is there a way to decline a device registration request? {#is-there-a-way-to-decline-a-device-registration-request}
 
-You cannot decline the registration requests. Instead the registration requests should expire after a timeout that is configured in `Adobe Experience Manager Web Console`. By default, this value is set to one day and is stored in a memory cache.
+You cannot decline the registration requests. Instead, the registration requests should expire after a timeout that is configured in `Adobe Experience Manager Web Console`. By default, this value is set to one day and is stored in a memory cache.
 
 ## Device Monitoring and Health Reports {#device-monitoring-and-health-reports}
 
-### 1. How do I troubleshoot, if my AEM Screens player shows blank screen?
+### 1. How do I troubleshoot, if my AEM Screens Player shows a blank screen?
 
 Check for the following possibilities to troubleshoot the blank screen issue:
 
 * AEM is unable to push the Offline Content
-* Channel does not have any content
-* None of the assets are scheduled to show at current time
+* The channel does not have any content
+* None of the assets are scheduled to show at the current time
 
-### 2. What do I do if AEM Screens player cannot register and its state is displayed as Failure? 
+### 2. What do I do if the AEM Screens Player cannot register and its state is displayed as Failure? 
 
-Enable the Apache Sling Referrer Filter Allow Empty. This is required for optimal operation of the control protocol between AEM Screens Player and AEM Screens server.
+Enable the Apache Sling Referrer Filter Allow Empty. Required for optimal operation of the control protocol between AEM Screens Player and AEM Screens server.
 
 1. Navigate to **Adobe Experience Manager Web Console Configuration**
 1. Check the **allow.empty** option.
 1. Click **Save**.
 
-### 3. How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error?
+### 3. How to troubleshoot if while registering an AEM Screens Player, the device shows FAILURE and the console logs display an ENAME_NOT_FOUND error?
 
-This issue may occur if the player is unable to find the AEM Screens Server DNS. You can try using the IP address to connect. To obtain the IP of server, use: *arp <server_dns_name>*.
+This issue may occur if the player is unable to find the AEM Screens Server DNS. You can try using the IP address to connect. To obtain the IP of the server, use: *arp <server_dns_name>*.
 
 ### 4. Does AMS recommend implementing an Android&trade; Watchdog on all Devices? Is the Watchdog (Cordova) plugin included as part of the APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -123,22 +123,22 @@ For more information on where you can monitor device activity, see [**AEM Scree 
 
 ## AEM Screens Player
 
-### 1. How to Install ChromeOS player as Chrome Browser Plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. How to Install ChromeOS player as Chrome browser plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
+ChromeOS player can be installed as a Chrome browser plugin in developer mode without requiring an actual Chrome Player device. For installation, follow the steps below:
 
 1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 1. Unzip and save it on disk.
-1. Open Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
-1. Switch on the **Developer mode** from top-right corner.
+1. Open the Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
+1. Switch on the **Developer mode** from the top-right corner.
 1. Click **Load Unpacked** from the top-left corner and load unzipped Chrome Player.
-1. If available in the list of extensions, check **AEM Screens Chrome Player** plugin.
+1. If available in the list of extensions, check the **AEM Screens Chrome Player** plugin.
 1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
 1. Click the **AEM Screens** Plugin. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.
 
-### 2. How to troubleshoot if Screens player is unable to authenticate through publishing instance with custom error handler?
+### 2. How to troubleshoot if Screens player is unable to authenticate through publishing instance with a custom error handler?
 
-When AEM Screens player starts, it makes a request to ***/content/screens/svc.ping.json***, when the player gets a 404 error. The player initiates an authentication request to authenticate against the publishing instance. If there is a custom error handler in publish instance, make sure that you return the 404 status code for anonymous user on ***/content/screens/svc.ping.json***.
+When AEM Screens Player starts, it makes a request to ***/content/screens/svc.ping.json***, when the player gets a 404 error. The player initiates an authentication request to authenticate against the publishing instance. If there is a custom error handler in the publish instance, make sure that you return the 404 status code for an anonymous user on ***/content/screens/svc.ping.json***.
 
 ### 3. How to set the device screen stay on in an Android&trade; Player? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -151,13 +151,13 @@ Follow the steps below to turn on Stay Awake in on any Android&trade; player:
 
 ### 4. How to enable window mode for the Windows Player?{#enable-player}
 
-There is no window mode in Windows Player. It is always full screen mode.
+There is no window mode in Windows Player. It is always in full screen mode.
 
-### 5. How to troubleshoot if an AEM Screens player continuously sends login requests?
+### 5. How to troubleshoot if an AEM Screens Player continuously sends login requests?
 
-Follow the steps below to troubleshoot an AEM Screens player that continuously sends requests to `/content/screens/svc.json` and `/libs/granite/core/content/login.validate/j_security_check`:
+Follow the steps below to troubleshoot an AEM Screens Player that continuously sends requests to `/content/screens/svc.json` and `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. When AEM Screens player starts, it requests to `/content/screens/svc.json`. When the player gets a 404 status code in the response, it initiates an authentication request by using `/libs/granite/core/content/login.validate/j_security_check` against the *publish* instance. If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
+1. When AEM Screens Player starts, it requests to `/content/screens/svc.json`. When the player gets a 404 status code in the response, it initiates an authentication request by using `/libs/granite/core/content/login.validate/j_security_check` against the *publish* instance. If there is a custom error handler in the *publish* instance, make sure to return the 404 status code for anonymous user on `/content/screens/svc.json` or `/content/screens/svc.ping.json`.
 
 1. Check if your Dispatcher configuration allows these requests in the `/filters`.
    
@@ -167,7 +167,7 @@ Follow the steps below to troubleshoot an AEM Screens player that continuously s
 
 1. Check if you have `/etc/map` rules on the *author* or *publish* instance and screens paths are matched to `sling:match` and internally redirected to a different path. Resolving the exact url in `/system/console/jcrresolver` helps in identifying if the *publish* instance is rewriting these URLs to any other path.
 
-1. Check if Apache Sling Resource Resolver Factory configuration is causing internal rewrites.
+1. Check if the Apache Sling Resource Resolver Factory configuration is causing internal rewrites.
 
 ### 6. How to get the details of the display and device from the player API?
 
@@ -203,7 +203,7 @@ Disable Livefyre to avoid log errors by doing the following.
 
     * In CRXDE Lite, navigate to `/etc/importers/polling/livefyre-poller/jcr:content`.
     * Add a property *enabled* type *Boolean*.
-    * Set **enabled property** to **false**.
+    * Set **Enabled property** to be **false**.
 
 ### 2. How to Add Oak Index information? {#add-oak-index-info}
 

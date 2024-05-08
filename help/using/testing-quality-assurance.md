@@ -45,7 +45,7 @@ The following software considerations are recommended:
 AEM Screens includes a Device Control Center module which allows for the management of Screens player application end points.
       
 This refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
-This module allows you to:
+This module lets you:
 
 1. Monitor player application error logs
 1. Manage remote screenshots

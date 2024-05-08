@@ -33,4 +33,4 @@ This release includes security fixes only.
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens Player, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

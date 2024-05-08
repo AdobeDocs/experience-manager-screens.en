@@ -19,7 +19,7 @@ exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 
 The voice recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-A content author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
+A Content Author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays. Some similar use cases include finding product recommendations in stores, ordering menu items at diners and restaurants. This feature increases accessibility for users and can greatly enhance customer experience. 
 
 >[!NOTE]
 >The player hardware must support voice input, such as a microphone.

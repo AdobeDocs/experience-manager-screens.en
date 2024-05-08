@@ -25,7 +25,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Thumbnail Support for Videos**
 
-   Thumbnail Support for videos in now supported in AEM Screens. A content author defines a thumbnail for videos so that the image is used as a placeholder. They also properly test content playback and targeting, while the appropriate team finalizes the actual video. The image can also be used in case the playback of the video fails.
+   Thumbnail Support for videos in now supported in AEM Screens. A Content Author defines a thumbnail for videos so that the image is used as a placeholder. They also properly test content playback and targeting, while the appropriate team finalizes the actual video. The image can also be used in case the playback of the video fails.
    See [Thumbnail Support for Videos](/help/user-guide/thumbnail-support.md) for more details.
 
 * **Basic Playback Monitoring**
@@ -91,7 +91,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Transformed the mapping into a list of rendition keys.
 
-* Removed access to `cmd.exe` and `reg.exe` in the windows player.
+* Removed access to `cmd.exe` and `reg.exe` in the Windows Player.
 
 * A player must report its last successful playback event.
 
@@ -156,4 +156,4 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 9:
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

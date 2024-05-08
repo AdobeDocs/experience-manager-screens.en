@@ -30,7 +30,7 @@ The Release Date for AEM Screens Feature Pack 201907 is July 31, 2019.
 The player switches to a channel that shows emergency information. The emergency system sends this information when it receives an event. The channel plays exclusively until the emergency situation is over.
 
 
-See [Emergency Channel](emergency-channel.md) Use Case for implementation.
+See [Emergency Channel](emergency-channel.md) use case for implementation.
 
 * **Targeting Enabled for asynchronous components
 
@@ -69,4 +69,4 @@ The following AEM Screens Players are released for AEM 6.4.5 Feature Pack 5 and 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see [AEM Screens Player Downloads](https://download.macromedia.com/screens/).
+To download the latest AEM Screens Player and learn more about the bug fixes, see [AEM Screens Player Downloads](https://download.macromedia.com/screens/).

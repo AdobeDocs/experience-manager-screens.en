@@ -214,7 +214,7 @@ After you have set up the publishing topology, configure the Author and Publish 
 
 >[!NOTE]
 >
->You can open an AEM Screens player using the AEM Screens app you downloaded or using the web browser.
+>You can open an AEM Screens Player using the AEM Screens app you downloaded or using the web browser.
 
 #### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
 
@@ -258,7 +258,7 @@ You can also activate the device from the Device Management Console. Follow the 
 
 >[!NOTE]
 >
->Alternatively, after you have activated the device, you can also edit or update the server URL. Click **Edit server URL** from the action bar, as shown in the figure below, then your changes become propagated to the AEM Screens player.
+>Alternatively, after you have activated the device, you can also edit or update the server URL. Click **Edit server URL** from the action bar, as shown in the figure below, then your changes become propagated to the AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -280,23 +280,23 @@ Follow the steps below to verify the authoring and publishing behavior:
 1. Perform **Manage Publication** to publish new changes to all Publish instances.
 1. Press **Activate** to activate the device from **Device Manager**.
 1. **Edit URL** from Author instance URL to one of the Publishing instances URL.
-1. Verify the updated channel content displays on the AEM Screens player.
+1. Verify the updated channel content displays on the AEM Screens Player.
 1. Repeat these steps using a different Publish instance.
 
 
 #### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. View the admin UI from the Screens player, long press the top-left corner so you can open the Admin menu, on your touch enabled AEM Screens player, or by using a mouse.
+1. View the admin UI from the Screens player, long press the top-left corner so you can open the Admin menu, on your touch enabled AEM Screens Player, or by using a mouse.
 1. Click the **Configuration** option from the side panel.
 1. Change Author instance to Publish instance in **Server**.
 
-View the changes in your AEM Screens player.
+View the changes in your AEM Screens Player.
 
 Alternatively, you can also update/edit the server URL from the device management console using the following steps:
 
 1. Navigate to your AEM Screens project and click the **Devices** folder.
 1. Click **Device Manager** from the action bar.
-1. Click the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes become propagated to the AEM Screens player.
+1. Click the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes become propagated to the AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

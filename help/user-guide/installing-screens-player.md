@@ -1,6 +1,6 @@
 ---
 title: Installing Screens Player
-description: Learn how to correctly install an AEM Screens Player.
+description: Learn how to install an AEM Screens Player correctly.
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
@@ -9,11 +9,11 @@ exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
 ---
 # Installing AEM Screens Player {#installing-player}
 
-This page describes how to install AEM Screens player.
+This page describes how to install AEM Screens Player.
 
 ## Available Screens Player {#available-players}
 
-The AEM Screens player is available for Android&trade;, Chrome OS, and Windows.
+The AEM Screens Player is available for Android&trade;, Chrome OS, and Windows.
 
 To download **AEM Screens Player**, visit the [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) page.
 
@@ -23,13 +23,13 @@ To download **AEM Screens Player**, visit the [AEM 6.5 Player Downloads](https:/
 >
 >1. Long-press on the top-left corner to open the admin panel.
 >1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
->1. Click **Registration** link from the left action menu and the steps below to complete the device registration process.
+>1. Click the **Registration** link from the left action menu and the steps below to complete the device registration process.
 
 ## Basic Playback Monitoring {#playback-monitoring}
 
-The player reports various playback metrics with each `ping` that defaults to 30 seconds. Based on these metrics, it can detect various edge cases such as stuck experience, blank screen, and scheduling issues. This lets us understand and troubleshoot issues on the device, and thus expedites an investigation and corrective measures with you.
+The player reports various playback metrics with each `ping` that defaults to 30 seconds. Based on these metrics, it can detect various edge cases such as stuck experience, blank screen, and scheduling issues. It lets us understand and troubleshoot issues on the device, and thus expedites an investigation and corrective measures for you.
 
-Basic Playback monitoring in an AEM Screens player lets you do the following:
+Basic Playback monitoring in an AEM Screens Player lets you do the following:
 
 * Remotely monitor, if a player is properly playing content.
 
@@ -59,19 +59,19 @@ The following properties are included in each `ping`:
 
 ### Limitations {#limitations}
 
-Few limitations to basic playback monitoring are listed below:
+A few limitations to basic playback monitoring are listed below:
 
 * The player reports its own playback state to the server, so it requires an active connection.
 
-* The `isContentRendering` property that checks the GPU is too resource intensive to be enabled by default and requires explicit opt-in from the player preferences. Adobe recommends that you do not use it with videos in production.
+* The `isContentRendering` property that checks the GPU is much more resource intensive to be enabled by default and requires explicit opt-in from the player preferences. Adobe recommends that you do not use it with videos in production.
 
 * This feature is only supported for sequence channels and does not yet cover the interactive channels (SPA) use case.
 
-* The metrics are not yet fully exposed to customers, Adobe is working on enabling dashboard-like reporting and alerting mechanisms soon.
+* The metrics are not yet fully exposed to customers, but Adobe is working on enabling dashboard-like reporting and alerting mechanisms soon.
 
 ### Other Resources {#additional-resources}
 
-See the following topics for an in-depth information:
+See the following topics for in-depth information:
 
 * To download Android&trade; Player, visit **Google Play**. To learn about implementing Android&trade; Watchdog, see [Implementing Android&trade; player](implementing-android-player.md).
 

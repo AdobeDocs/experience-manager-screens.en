@@ -51,4 +51,4 @@ The following AEM Screens Players are released for AEM 6.3 Feature Pack 5 and AE
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens Player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

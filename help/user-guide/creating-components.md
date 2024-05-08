@@ -20,7 +20,7 @@ AEM components are used to hold, format, and render the content made available o
 
 ## Authoring Channels {#authoring-channels}
 
-The channel is the central object of content delivered to a set of displays. Therefore, a content author would typically open a channel in the editor to add or modify content. Because the Channel is a ***`cq:Page`***, it follows the same traditional UX pattern to add and change components on the channel.
+The channel is the central object of content delivered to a set of displays. Therefore, a Content Author would typically open a channel in the editor to add or modify content. Because the Channel is a ***`cq:Page`***, it follows the same traditional UX pattern to add and change components on the channel.
 
 However, because components within a channel are typically rendered full screen, the authoring experience suffers when trying to edit single components or compose new orders. Therefore, the channel relies on selectors to render different views of the components. The authoring environment uses the edit selector to activate the custom channel rendering.
 

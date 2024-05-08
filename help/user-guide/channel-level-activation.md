@@ -135,7 +135,7 @@ Follow the steps below to implement the functionality:
 
 ## Viewing the Results {#viewing-the-results}
 
-When you have the setup for channels and display complete, launch the AEM Screens player to view the content.
+When you have the setup for channels and display complete, launch the AEM Screens Player to view the content.
 
 The player displays the content of **MainAdChannel** and exactly at 11:59 P.M. (as set in the schedule), the **TargetedSinglePlay** channel displays its content until 12:05 A.M. and then the **MainAdChannel** resumes playing its content again.
 

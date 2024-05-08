@@ -225,7 +225,7 @@ Follow these two prerequisites before configuring Dispatcher (manifest version v
 
 ### Add invalidation rule for segments.js {#invalidsegmentjs}
 
-   If you are using targeted campaigns with AEM Screens, then the `segments.js file` served by the Dispatcher must be invalidated, as you add and publish new segments on AEM. Without this invalidation rule, new targeted campaigns do not work on the AEM Screens player (it shows the default content instead).
+   If you are using targeted campaigns with AEM Screens, then the `segments.js file` served by the Dispatcher must be invalidated, as you add and publish new segments on AEM. Without this invalidation rule, new targeted campaigns do not work on the AEM Screens Player (it shows the default content instead).
 
 * Add an invalidation rule to `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Here is the rule to add:
 

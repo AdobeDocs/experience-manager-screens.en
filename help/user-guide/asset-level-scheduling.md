@@ -218,11 +218,11 @@ Follow the steps below to click multiple assets and schedule their display in an
 
 ## Global Override For Universal Start Time {#global-override-scheduling}   
 
-***Global Override for Universal Start Time***, is a setting that allows the content author to define the playback of an image or video asset based on a specific time. The time/timezone setting of any individual player is not used.
+***Global Override for Universal Start Time***, is a setting that allows the Content Author to define the playback of an image or video asset based on a specific time. The time/timezone setting of any individual player is not used.
 
 Normally, playback is determined by the local time of any given player but with the global override, a specific, universal start time can be used to initiate the playback of the asset.
 
-This allows the content author to designate playback of a specific asset as occurring at a specific date/time regardless of the local clock on any players which have the assigned content.
+This allows the Content Author to designate playback of a specific asset as occurring at a specific date/time regardless of the local clock on any players which have the assigned content.
 
 Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
 

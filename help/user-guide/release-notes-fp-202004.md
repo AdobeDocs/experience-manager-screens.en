@@ -26,13 +26,13 @@ The Release Date for AEM Screens Feature Pack 202004 is April 20, 2020.
 
 * **Playback Interruption Strategy Options**
 
-    As a content author, specify when a channel is interrupted. This action helps so you can choose to cut off non-critical content, but optionally let important content play entirely before cutting off play because of scheduling.
+    As a Content Author, specify when a channel is interrupted. This action helps so you can choose to cut off non-critical content, but optionally let important content play entirely before cutting off play because of scheduling.
 
     To learn more about the options available from the **Channel Assignment** dialog box to implement this feature in your AEM Screens project, see the section **[Interruption Method](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
-   The content author user experience flow has been improved and reduced the number of clicks to use future publish. 
+   The Content Author user experience flow has been improved and reduced the number of clicks to use future publish. 
 
    See **[Content Update using Screens Launch](launches.md)** for more details.
 
@@ -69,4 +69,4 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.4 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.

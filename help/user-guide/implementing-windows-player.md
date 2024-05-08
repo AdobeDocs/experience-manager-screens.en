@@ -1,6 +1,6 @@
 ---
 title: Implementing Windows Player
-description: Learn about configuring AEM Screens Windows Player.
+description: Learn about configuring the Windows Player in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -13,7 +13,7 @@ exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
 ---
 # Implementing Windows Player {#implementing-windows-player}
 
-This section describes configuring AEM Screens Windows Player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
+This section describes configuring the Windows Player in AEM Screens. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
 
 ## Installing Windows Player {#installing-windows-player}
 
@@ -22,7 +22,7 @@ To implement Windows Player for AEM Screens, install Windows Player for AEM Scre
 Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
 >[!NOTE]
->There is no window mode in Windows Player. It is always full screen mode.
+>There is no window mode in Windows Player. It is always in full screen mode.
 
 ### Setting up Environment for AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -46,7 +46,7 @@ Configuration** using `http://localhost:4502/system/console/configMgr`.
 
 ### Ad-Hoc method {#ad-hoc-method}
 
-The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
+The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit the [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) page.
 
 After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
@@ -62,7 +62,7 @@ After you download the application, follow the steps on the player to complete t
 
 ## Naming Windows Player {#name-windows}
 
-You can assign a user-friendly device name to your Windows Player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows Player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Windows Player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Windows Player but also lets you easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
@@ -98,7 +98,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Bulk Registration of Windows Player {#bulk-registration}
 
-When implementing the windows player, you need not manually configure every player. Instead, you can update the configuration JSON file after it is tested and is ready for deployment.
+When implementing the Windows Player, you need not manually configure every player. Instead, you can update the configuration JSON file after it is tested and is ready for deployment.
 
 The configuration makes sure that all players ping the same server provided in the configuration file. Manually register each player.
 
@@ -120,8 +120,8 @@ The following table summarizes the policy attributes with an example policy JSON
 | resolution |The resolution of the device. |
 | rebootSchedule |The schedule to reboot the player.|
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
-| enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
-| enableActivityUI |Enable so you can show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting to false, once it is fully configured and in production. |
+| enableActivityUI |Enable so you can show the progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
 | cloudMode |Set to true if you want the Windows Player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
@@ -144,7 +144,7 @@ When you are deploying the Windows Player, it is important to enable a Kiosk mod
 
 >[!CAUTION]
 >
->Adobe recommends a device management solution to enable Kiosk for Windows. Follow the steps below, if you do not have a device management solution to enable Kiosk mode. This method uses the Shell Launcher feature available in Windows 10 enterprise and Edu. Any other Microsoft-recommended means for non-UWP apps can also be applied to enable Kiosk especially on other editions of Windows.
+>Adobe recommends a device management solution to enable Kiosk for Windows. Follow the steps below, if you do not have a device management solution to enable Kiosk mode. This method uses the Shell Launcher feature available in Windows 10 Enterprise and Edu. Any other Microsoft-recommended means for non-UWP apps can also be applied to enable Kiosk, especially on other editions of Windows.
 
 Follow the steps below to enable Kiosk mode:
 
@@ -156,18 +156,18 @@ Follow the steps below to enable Kiosk mode:
 
    See ***Configure Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** page by Microsoft&reg; Windows support for additional information.
 
-1. Create a non-administrative user (if you already do not have one) to be used for Kiosk. This can be a local or domain user.
-1. Install the windows player for that Kiosk user from [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page.
+1. Create a non-administrative user (if you already do not have one) to be used for Kiosk. It can be a local or domain user.
+1. Install the Windows Player for that Kiosk user from the [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page.
 1. See [Use Shell Launcher to create a Windows 10 kiosk](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) to modify your PowerShell script for more information.
 
-   Modify the PowerShell script so you can replace the username with the one you created. Ensure that the path to the application executable is correct. This sets the custom shell as the windows player application for the kiosk user and set the default as explorer.exe for other users.
+   Modify the PowerShell script so you can replace the username with the one you created. Ensure that the path to the application executable is correct. This sets the custom shell as the Windows Player application for the kiosk user and set the default as explorer.exe for other users.
 
 1. Run the PowerShell script as an administrator.
 1. Reboot and login as the Kiosk user and the player application should start right up.
 
 ### Troubleshooting {#troubleshooting}
 
-If you get a black screen after you log in as the Kiosk user, it means that you may have incorrectly specified the path to the windows player executable. Log back in as the administrator and verify and rerun the script.
+If you get a black screen after you log in as the Kiosk user, it means that you may have incorrectly specified the path to the Windows Player executable. Log back in as the administrator and verify and rerun the script.
 
 The default installation path for Windows Player is:
 
@@ -177,9 +177,9 @@ The sample script in the links enables and disables the custom shell. Therefore,
 
 >[!NOTE]
 >
->In some windows environments, the PowerShell scripts maybe restricted by policy (especially unsigned scripts). To run your script, temporarily disable and reenable this restriction to run the script. Open a PowerShell window and use these commands.
+>In some Windows environments, the PowerShell scripts maybe restricted by policy (especially unsigned scripts). To run your script, temporarily disable and reenable this restriction to run the script. Open a PowerShell window and use these commands.
 >
->*`set-executionpolicy unrestricted`* - to temporarily remove restrictions.
+>*`set-executionpolicy unrestricted`* - to remove restrictions temporarily.
 >
 >*`set-executionpolicy restricted`* - to re-enable restriction after running the script.
 
