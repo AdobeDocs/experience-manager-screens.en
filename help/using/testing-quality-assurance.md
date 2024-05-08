@@ -6,7 +6,7 @@ exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 # Testing and Quality Assurance {#testing-quality}
 
 >[!NOTE]
->Typical stakeholder for this activity is an Audio/Video Integrator.
+>A typical stakeholder for this activity is an Audio/Video Integrator.
 
 As you get closer to deployment of the digital signage network, create a Test and QA plan that addresses every element of the network including all hardware components, all software components, and all networking components.
 In the phase, entire test systems should be built and fully tested.
@@ -15,7 +15,7 @@ A checklist should be created which identifies all the previously defined KPIs a
 
 >[!NOTE]
 >
->This phase should also be used as a tool for creating an install and user guide which can later be shipped with the equipment and kept on site for future reference.
+>This phase should also be used as a tool for creating an install and user guide. Both can later be shipped with the equipment and kept on site for future reference.
 
 The following elements should be considered:
 
@@ -42,9 +42,9 @@ The following software considerations are recommended:
 
 ## 3. Device Management Considerations {#device-management-considerations}
 
-AEM Screens includes a Device Control Center module which allows for the management of Screens player application end points.
+AEM Screens includes a Device Control Center module that allows for the management of Screens player application endpoints.
       
-This refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
+It refers to any *player* hardware device that has the Screens player application installed and is registered to an instance of AEM.
 This module lets you:
 
 1. Monitor player application error logs
@@ -52,11 +52,11 @@ This module lets you:
 1. Manage content downloads
 1. Manage application restart issues
 
-To learn  in detail about ***Device Control Center***, see [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens User Guide**.
+To learn in detail about the ***Device Control Center***, see [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
->Do not use Device Control Center to:
+>Do not use the Device Control Center to:
 >
 >* Install new versions of the player application
 >* Monitor system level resources

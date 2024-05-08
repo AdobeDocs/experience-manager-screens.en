@@ -7,7 +7,7 @@ exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is an Audio/Video Integrator.
+>A typical stakeholder for this activity is an Audio/Video Integrator.
 
 Based on the information gathered during *Day Zero*, confirm the following information before beginning development:
 
@@ -17,7 +17,7 @@ Based on the information gathered during *Day Zero*, confirm the following infor
 
 * What software and operating system must be installed on display devices?
 
-* Is an internet connection required on players to synchronize the screens with AEM servers?
+* Is an Internet connection required on players to synchronize the screens with AEM servers?
 
 * When is content on players updated?
 

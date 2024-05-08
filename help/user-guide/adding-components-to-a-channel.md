@@ -229,7 +229,7 @@ The image asset has three tabs namely **Image**, **Accessibility**, and **Sequen
 
 The Transition component lets you add a transition to your Screens project.
 
-The following image shows the transition component (added via drag and drop) to the editor.
+The following image shows the transition component (added by way of drag and drop) to the editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

@@ -15,7 +15,7 @@ The Enclosed Corporate Network SetUp is applicable to smaller, larger, and enter
 Follow the steps below to ensure proper connection of the AEM Screen players in this configuration:
 
 1. Make sure that each of the AEM Screen players is connected to the Routers Network.
-1. Test the internet connection by calling a URL in your system's browser.
+1. Test the Internet connection by calling a URL in your system's browser.
 
    >[!NOTE]
    >In case that you receive an error, check the network settings. There are basically two options for a proper network connection:
@@ -48,7 +48,7 @@ The performance of the Internet connection, besides the network reachability, ha
 
 >[!NOTE]
 >
->All devices have a concurrent access to the internet connection and bandwidth linearly decreases when you add more consumers or computers to the network.
+>All devices have a concurrent access to the Internet connection and bandwidth linearly decreases when you add more consumers or computers to the network.
 
 ### Local Area Network {#lan-connection}
 

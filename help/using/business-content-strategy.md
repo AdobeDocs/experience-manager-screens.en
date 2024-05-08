@@ -1,13 +1,13 @@
 ---
-title: Business Content Strategy for AEM Screens
+title: Business content strategy for AEM Screens
 description: Learn more about marketing and business content strategy as it relates to AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 ---
-# Business Content Strategy {#business-content}
+# Business content strategy {#business-content}
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is a Marketing/Business Strategist.
+>A typical stakeholder for this activity is a Marketing/Business Strategist.
 
 Content is a major factor in driving engagement. In the pre-sales phase, it is important to define a business content strategy that considers how the application use hardware, software, and connectivity resources to deliver the intended value to your client's customers.
 

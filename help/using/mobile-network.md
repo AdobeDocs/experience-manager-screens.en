@@ -23,7 +23,7 @@ Follow the steps below to ensure proper connection of the AEM Screen players in 
 
 1. Make sure that each of the AEM Screen players is connected to the Router's Network.
 
-1. Test the internet connection by calling a URL in your system browser.
+1. Test the Internet connection by calling a URL in your system browser.
 
    >[!NOTE]
    >If you get an error message, check network settings, and cross-check if there is a sufficient network link. Check also that the Operating System firewall is configured to allow network access while using the configured AEM Screens communication Ports.
@@ -86,6 +86,6 @@ The following table provides an overview on network connectivity key data.
 
 >[!NOTE]
 >
->All information refers to the consumption of each device in the network requesting and downloading an internet source. Each of those requests adds up and extend the Download Time.
+>All information refers to the consumption of each device in the network requesting and downloading an Internet source. Each of those requests adds up and extend the Download Time.
 
 ![](/help/using/assets/download-times-mobile.png)

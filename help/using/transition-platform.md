@@ -7,7 +7,7 @@ exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is an AEM Implementor.
+>A typical stakeholder for this activity is an AEM Implementor.
 
 As your project has progressed from a strategic vision to a wireframed reality, you should now start preparing for the tasks necessary to actually create a Screens project in AEM that you can deploy.
 

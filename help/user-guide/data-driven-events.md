@@ -25,7 +25,7 @@ Data-driven events are categorized into the following four different categories:
 
 #### Data in operational {#data-in-operational}
 
-This can further be categorized into Channel Interrupt and Placeholder.
+This event can further be categorized into Channel Interrupt and Placeholder.
 
 #### Data in presentation {#data-in-presentation}
 
@@ -37,4 +37,4 @@ When a command is sent to the LCD Screen to turn the screen on and off. Example,
 
 #### Data out presentational {#data-out-presentational}
 
-Chart aggregating the information into the feedback loop. It uses analytics to evaluate and notice events.
+The chart aggregating the information into the feedback loop. It uses analytics to evaluate and notice events.

@@ -26,7 +26,7 @@ See the few recommendations before developing and deploying a digital signage pr
 * **Defining Pilots, Rollouts, and POCs**:
  Develop a Proof of Concept (POCs) and adapt as needed through a pilot and rollout.
 
-* **Pre-defining Content Strategy**:
+* **Pre-defining content strategy**:
  Establish a content strategy, including short-term and long-term goals. Also, align brand goals/KPIs with feature improvements.
 
   >[!NOTE]

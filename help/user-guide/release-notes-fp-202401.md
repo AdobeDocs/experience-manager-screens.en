@@ -29,7 +29,7 @@ This release includes security fixes only.
 
 * XSS issue at AEM Screens device "Idle text" field. (SCRNS-2614)
 
-* XSS issue at `screens/dashboard/device.html` via the `Clear cache` action dialog. (SCRNS-2632)
+* XSS issue at `screens/dashboard/device.html` by way of the `Clear cache` action dialog. (SCRNS-2632)
 
 * XSS issue in screens player configuration at `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -39,7 +39,7 @@ This release includes security fixes only.
 
 * Reflected XSS with the parameter `item` at `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* Reflected XSS in `screens/dashboard/device.html` via the `returnPage` parameter. (SCRNS-3056)
+* Reflected XSS in `screens/dashboard/device.html` by way of the `returnPage` parameter. (SCRNS-3056)
 
 * Open Redirect on assign-device-wizard.html. (SCRNS-3444)
 

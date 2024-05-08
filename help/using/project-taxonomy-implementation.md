@@ -7,7 +7,7 @@ exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is an AEM Implementor.
+>A typical stakeholder for this activity is an AEM Implementor.
 
 Before you create an AEM Screens project, understand and strategize all the components defined in the UX Wireframing phase of the project.
 

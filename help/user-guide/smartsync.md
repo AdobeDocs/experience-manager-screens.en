@@ -23,7 +23,7 @@ It executes both on the server-side and client-side.
 **On Server-side**:
 
 * Contents of the channels, including assets, are cached in *`/var/contentsync`*.
-* Cache is exposed to the players via a manifest which describes the available content for a display.
+* Cache is exposed to the players by way of a manifest which describes the available content for a display.
 
 **On Client-side**:
 
@@ -69,7 +69,7 @@ Follow the steps below to transition from ContentSync to SmartSync:
    >
    >All content cache must be cleared before using SmartSync for the first time.
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
