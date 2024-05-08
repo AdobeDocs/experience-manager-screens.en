@@ -21,7 +21,7 @@ This section covers the following topics:
 * **Overview**
 * **Configuring Email Settings**
 * **Email Notification**
-* **Example Use Case**
+* **Example use case**
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -32,7 +32,7 @@ This section covers the following topics:
 
 ## Overview {#overview}
 
-***AEM Screens Notifications Service*** lets administrators receive an email if an AEM Screens player does not ping for a configurable time.
+***AEM Screens Notifications Service*** lets administrators receive an email if an AEM Screens Player does not ping for a configurable time.
 
 This service can be configured in the OSGi web console.
 

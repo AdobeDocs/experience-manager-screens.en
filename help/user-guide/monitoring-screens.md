@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Device Control Center
-description: Learn how to monitor and troubleshoot performance for your AEM Screens player activity and device using the Device dashboard.
+description: Learn how to monitor and troubleshoot performance for your AEM Screens Player activity and device using the Device dashboard.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,11 +13,11 @@ exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
 ---
 # Troubleshooting Device Control Center {#troubleshooting-device-control-center}
 
-You can monitor and troubleshoot performance for your AEM Screens player activity and device using the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.
+You can monitor and troubleshoot performance for your AEM Screens Player activity and device using the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.
 
 ## Monitor and Troubleshoot from Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
-You can monitor the activity and hence troubleshoot your AEM Screens player, usingtheDevice Dashboard.
+You can monitor the activity and hence troubleshoot your AEM Screens Player, usingtheDevice Dashboard.
 
 ### Device Dashboard {#device-dashboard}
 
@@ -43,7 +43,7 @@ Follow the steps below to navigate to the device dashboard:
 
 ### Monitor Device Activity {#monitor-device-activity}
 
-The **Activity** panel shows the last ping of your AEM Screens player with the timestamp. The last ping corresponds to the last time that the device contacted the server.
+The **Activity** panel shows the last ping of your AEM Screens Player with the timestamp. The last ping corresponds to the last time that the device contacted the server.
 
 ![chlimage_1](assets/chlimage_1.png)
 

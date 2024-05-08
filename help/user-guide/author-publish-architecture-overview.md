@@ -34,7 +34,7 @@ Before you begin with author servers and publish servers, you should have prior 
 
 AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Devices on AEM Screens can now connect to an AEM publish farm via load balancer. Multiple AEM publish instances can be added to continue to scale the publish farm.
 
-*For example*, an AEM Screens content author issues a command on the authoring system for a particular device. That device is configured to interact with a publish farm or an AEM Screens content author that obtains information about devices that are configured to interact with publish farms.
+*For example*, an AEM Screens Content Author issues a command on the authoring system for a particular device. That device is configured to interact with a publish farm or an AEM Screens Content Author that obtains information about devices that are configured to interact with publish farms.
 
 The following diagram illustrates both the author environment and the publishing environment.
 

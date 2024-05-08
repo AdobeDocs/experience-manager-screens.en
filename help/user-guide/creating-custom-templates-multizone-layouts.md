@@ -35,7 +35,7 @@ There are two important considerations that you must be aware before creating cu
       >[!IMPORTANT]
       >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
 
-## Example Use Case `Left20-LandscapeHD3Zone` Layout {#custom-template-one}
+## Example use case `Left20-LandscapeHD3Zone` Layout {#custom-template-one}
 
 Follow the section below to create a custom template *`Left20-LandscapeHD3Zone`* with the following configuration:
 

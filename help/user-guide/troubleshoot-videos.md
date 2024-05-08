@@ -12,7 +12,7 @@ exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 ---
 # Video Playback Configuration and Troubleshooting {#video-playback-configuration-and-troubleshooting}
 
-When you upload a video to the DAM and add it your channel, you might encounter issues in which the video may not play in the AEM Screens player.
+When you upload a video to the DAM and add it your channel, you might encounter issues in which the video may not play in the AEM Screens Player.
 
 The following sections describe how to debug and troubleshoot video playing in your channel.
 
@@ -96,7 +96,7 @@ To use a DAM workflow to create FullHD renditions, do the following:
 
 #### Troubleshooting Autoplay Policy Flag {#troubleshooting-autoplay-policy-flag}
 
-In case the AEM Screens player picks up the video but does not display, troubleshoot the Autoplay Policy flag.
+In case the AEM Screens Player picks up the video but does not display, troubleshoot the Autoplay Policy flag.
 
 Follow the steps below to troubleshoot Google's autoplay policy flag issue:
 

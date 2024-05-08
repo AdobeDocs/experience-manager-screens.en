@@ -46,7 +46,7 @@ Follow the steps below to configure the name in Tizen player:
 
 ### Configuring Updates on the Samsung Device {#config-updates}
 
-Follow the steps below on the Samsung device so you can complete the installation of the AEM Screens player on the device:
+Follow the steps below on the Samsung device so you can complete the installation of the AEM Screens Player on the device:
 
 1. Navigate to your Samsung device and turn in on.
 1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.

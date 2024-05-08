@@ -15,7 +15,7 @@ exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 
 >[!CAUTION]
 >
->It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>It is recommended that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 The AEM Screens released AEM 6.3.3.3 Feature Pack 6 and AEM 6.4.4.0 Feature Pack 4 with the following details.
 
@@ -39,9 +39,9 @@ See **[Transitioning from ContentSync to SmartSync](smartsync.md)** for more det
 
 * **Emergency Channel**
 
-This use case example emphasizes on creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
+This use case example emphasizes on creating and managing an emergency channel that the Content Author can switch from a sequence channel if there is a precondition.
 
-See **[Emergency Channel](emergency-channel.md)** Use Case for more details.
+See **[Emergency Channel](emergency-channel.md)** use case for more details.
 
 * **Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics**
 
@@ -59,4 +59,4 @@ The following AEM Screens Players are released for AEM 6.3.3.3 Feature Pack 6 an
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.

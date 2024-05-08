@@ -9,13 +9,13 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 # Release Notes for Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
 AEM Screens released AEM 6.5 Feature Pack 9.
 
-You can download the latest feature pack for AEM Screens 6.5.9 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP9**.
+You can download the latest Feature Pack for AEM Screens 6.5.9 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP9**.
 
 ## Release Date {#release-date}
 
@@ -25,7 +25,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Thumbnail Support for Videos**
 
-   Thumbnail Support for videos in now supported in AEM Screens. A content author defines a thumbnail for videos so that the image is used as a placeholder. They also properly test content playback and targeting, while the actual video is finalized by the appropriate team. The image can also be used in case the playback of the video fails.
+   Thumbnail Support for videos in now supported in AEM Screens. A Content Author defines a thumbnail for videos so that the image is used as a placeholder. They also properly test content playback and targeting, while the appropriate team finalizes the actual video. The image can also be used in case the playback of the video fails.
    See [Thumbnail Support for Videos](/help/user-guide/thumbnail-support.md) for more details.
 
 * **Basic Playback Monitoring**
@@ -35,12 +35,12 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * **Updates to Content Assignment Report**
 
-   Content Assignment Report is now optimized and improved with enhanced user experience. The downloadable report displays improved player-related entities  such as locations, displays, and device in one spreadsheet tab and the content provider information such as channels and assets in other tab.
+   Content Assignment Report is now optimized and improved with an enhanced user experience. The downloadable report displays improved player-related entities. Such entities include locations, displays, and devices in one spreadsheet tab. It also includes the content provider information such as channels and assets in other tab.
    See [Content Assignment Report](/help/user-guide/content-assignment-report.md) for more details.
 
 * **Adaptive Renditions**
 
-   Adaptive Renditions allow the devices to automatically click the best rendition for a device based on customer-defined rules. 
+   Adaptive Renditions let the device click the best rendition automatically for a device based on customer-defined rules. 
    
    As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. See [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md) for more details.
 
@@ -68,7 +68,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
    
    * Update Dispatcher.
 
-   * Update custom component.
+   * Update the custom component.
 
    
    * See [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) for more details.
@@ -83,15 +83,15 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * The players now only expose asset renditions, if rendition mapping is present.
 
-* Enhanced ping to reauthenticate if response is not valid JSON.
+* Enhanced ping to reauthenticate if the response is not valid JSON.
 
 * Numeric channel names/roles caused blank screen.
 
 * Download optimized renditions via SmartSync.
 
-* Transformed the mapping into list of rendition keys.
+* Transformed the mapping into a list of rendition keys.
 
-* Removed access to `cmd.exe` and `reg.exe` in the windows player.
+* Removed access to `cmd.exe` and `reg.exe` in the Windows Player.
 
 * A player must report its last successful playback event.
 
@@ -103,11 +103,11 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Removing channel assignment from display is not reflected on the player.
 
-* If player is reloaded while channel update is being downloaded, the player ignores the update.
+* If the player is reloaded while the channel update is being downloaded, the player ignores the update.
 
 * Embedded Page Component now respects touch event.
 
-* Remote provisioning of Tizen player is now supported.
+* Remote provisioning of the Tizen player is now supported.
 
 **Server Side**
 
@@ -118,15 +118,15 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Preview mode showing blank for Split screen channel.
 
-* Video thumbnails render blank with enabled adaptive renditions.
+* Video thumbnails render blank with enabled Adaptive Renditions.
 
-* Automatically update channel manifest if referenced page is published.
+* Automatically update the channel manifest if the referenced page is published.
 
 * Deleted devices now do not block the Screens replication queue.
 
-* Manifest did not contain targeted content nor Sites embedded pages. This has now been fixed.
+* The manifest did not contain targeted content or Sites embedded pages. This bug is now fixed.
 
-* New core image component is now added to the channel manifest.
+* A new core image component is now added to the channel manifest.
 
 * Downloading optimized renditions via SmartSync is now supported.
 
@@ -134,13 +134,13 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Added support for multiple content provider types
 
-* Embedded Sequence Playback Strategy was broken and this has now been fixed.
+* The Embedded Sequence Playback Strategy was broken and this bug is now fixed.
 
 * Offline manifest using the request parameter `wcmmode` for html entry, making it uncacheable.
 
 * Empty dynamic embedded sequence sometimes caused blank screen.
 
-* Player now reports its playback status.
+* The player now reports its playback status.
 
 * Video was playing in `Tiny mode` and not played as full screen video on device and the issue is fixed now.
 
@@ -156,4 +156,4 @@ The following AEM Screens Players are released for AEM 6.5 Feature Pack 9:
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

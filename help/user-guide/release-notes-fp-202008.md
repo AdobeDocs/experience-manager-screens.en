@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Feature Pack 202008
-description: Learn more about the AEM Screens Feature Pack 202008 that was released on September 3, 2020.
+description: Learn more about the AEM Screens Feature Pack 202008 that was released on September 03, 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -10,13 +10,13 @@ exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
 
 >[!CAUTION]
 >
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
 AEM Screens released AEM 6.5 Feature Pack 5.
 
-You can download the latest feature pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack.
+You can download the latest Feature Pack for AEM Screens 6.5.5 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack.
 
 ## Release Date {#release-date}
 
@@ -32,7 +32,7 @@ The Release Date for AEM Screens Feature Pack 202008 is September 03, 2020.
 
 * **Recurrence Schedule**
 
-   The Recurrence Schedule lets you set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
+   The Recurrence Schedule lets you set a recurring schedule for your channel. You can set up multiple recurrence schedules for a channel.
 
    See [Recurrence Schedule](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) for more details.
 
@@ -40,7 +40,7 @@ The Release Date for AEM Screens Feature Pack 202008 is September 03, 2020.
 
    The Voice Recognition feature allows content change in an AEM Screens channel driven by voice interaction.
 
-   A content author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as method of interacting with their displays.
+   A Content Author can configure a display to be voice enabled. The purpose of this feature is to let customers use speech as a method of interacting with their displays.
 
    See [Voice Recognition](voice-recognition.md) for more details.
 
@@ -65,4 +65,4 @@ The following AEM Screens Players are released for AEM Screens released AEM 6.5 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

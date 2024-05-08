@@ -17,7 +17,7 @@ The following use case demonstrates the usage of hospital reservation activation
 
 ## Description {#description}
 
-For this Use Case, the Google Sheet is populated with percentage of reservations on two restaurants **`Restaurant1`** and **`Restaurant2`**. A formula is applied based on values of `Restaurant1` and `Restaurant2` and based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
+For this use case, the Google Sheet is populated with percentage of reservations on two restaurants **`Restaurant1`** and **`Restaurant2`**. A formula is applied based on values of `Restaurant1` and `Restaurant2` and based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
 
 If the value of **`Restaurant1`** > **`Restaurant2`**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value two results in display of *Thai food* option on your display screen.
 

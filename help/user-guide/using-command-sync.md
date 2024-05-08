@@ -65,7 +65,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
    >
    >To learn how to register a device, see [Device Registration](/help/user-guide/device-registration.md)
 
-1. For demo purposes, this example showcases a chrome device and a windows player as two separate devices. Both the devices point to the same display.
+1. For demo purposes, this example showcases a chrome device and a Windows Player as two separate devices. Both the devices point to the same display.
    ![image1](assets/command-sync6.png)
 
 ### Updating Channel Settings
@@ -85,7 +85,7 @@ Before you use Command Sync feature, make sure you have a project and a channel 
 ### Setting up a primary {#setting-up-primary}
 
 1. Navigate to the display dashboard from **CommandSyncDemo** > **Locations**  > **Lobby** > **LobbyDisplay** and click **Dashboard** from the action bar.
-Notice the two devices (chrome and windows player) in **DEVICES** panel, as see in the following:
+Notice the two devices (chrome and Windows Player) in **DEVICES** panel, as see in the following:
       ![image1](assets/command-sync/command-sync10-1.png)
 
 1. From the **DEVICES** panel, click the device you want to set as primary. The following example demonstrates setting up the Chrome device as the primary. Click **Set as primary device**.
@@ -102,8 +102,8 @@ Notice the two devices (chrome and windows player) in **DEVICES** panel, as see 
 
 ### Syncing up with Primary {#sync-up-primary}
 
-1. After you have set the Chrome device as primary, sync the other device (in this case, the windows player) to sync with the primary.
-Click the other device (in this case, windows player) from the **DEVICES** panel and click **Sync to primary device**.
+1. After you have set the Chrome device as primary, sync the other device (in this case, the Windows Player) to sync with the primary.
+Click the other device (in this case, Windows Player) from the **DEVICES** panel and click **Sync to primary device**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -112,7 +112,7 @@ Click the other device (in this case, windows player) from the **DEVICES** panel
    >[NOTE:]
    > The **Sync to primary device** dialog box shows the list of primary devices. Select the one preferred.
 
-1. When the device (Windows player) is synced to the primary (Chrome player), you can see the device synced in the **DEVICES** panel.
+1. When the device (Windows Player) is synced to the primary (Chrome Player), you can see the device synced in the **DEVICES** panel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

@@ -10,7 +10,7 @@ exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
 
 >[!CAUTION]
 >
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provide maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provide maintenance support for the AEM 6.3 Screens platform.
 
 AEM Screens released AEM 6.4.6 Feature Pack 6 and AEM 6.5.2 Feature Pack 2 with the following details.
 
@@ -22,7 +22,7 @@ The Release Date for AEM Screens Feature Pack 201909 is October 07, 2019.
 
 * **Enhanced UI updates to Create Screens Project**
 
-   Updated user interface for creating an AEM Screens project is now available. You can create a Screens project with few simple clicks. Also, the properties tab for each project now has a more intuitive user interface.
+   An updated user interface for creating an AEM Screens project is now available. You can create a Screens project with a few simple clicks. Also, the properties tab for each project now has a more intuitive user interface.
 
    See [Creating a New Screens project](creating-a-screens-project.md) for more details.
 
@@ -51,4 +51,4 @@ The following AEM Screens Players are released for AEM 6.4.6 Feature Pack 6 and 
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens Player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

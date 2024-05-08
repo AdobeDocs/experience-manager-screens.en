@@ -28,12 +28,12 @@ Follow the steps below to set up chrome management console:
 
 ## Naming Chrome OS Player {#name-chrome}
 
-You can assign a user-friendly device name to your Chrome player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Chrome player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Chrome Player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Chrome Player but also allows to you to easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
-Follow the steps below to configure the name in Chrome player:
+Follow the steps below to configure the name in Chrome Player:
 
 1. You can optionally allow Audio/Video integrators or IT administrators to set the Asset ID and location as part of enterprise enrollment.
 
@@ -48,7 +48,7 @@ Follow the steps below to configure the name in Chrome player:
    ![image](/help/user-guide/assets/chrome-device/chrome3.png)
 
     >[!NOTE]
-    >Chrome Players must be enrolled in enterprise enrollment and the Chrome player must be deployed through Chrome Management Console, otherwise the asset ID returns blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes do not get picked up by Adobe Experience Manager (AEM).
+    >Chrome Players must be enrolled in enterprise enrollment and the Chrome Player must be deployed through Chrome Management Console, otherwise the asset ID returns blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes do not get picked up by Adobe Experience Manager (AEM).
 
 ### Enabling Kiosk Mode {#enabling-kiosk-mode}
 
@@ -139,7 +139,7 @@ The following table summarizes the policies with their functions.
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
 | enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
 | enableActivityUI |Enable so you can show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
-| cloudMode |Set to true if you want the Chrome player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
+| cloudMode |Set to true if you want the Chrome Player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
 >[!NOTE]

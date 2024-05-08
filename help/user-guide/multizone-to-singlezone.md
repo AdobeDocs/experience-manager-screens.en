@@ -1,5 +1,5 @@
 ---
-title: MultiZone to SingleZone Transitions Use Case
+title: MultiZone to SingleZone Transitions use case
 description: Follow this page so you can learn about the MultiZone to SingleZone Transitions use-case.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
@@ -9,7 +9,7 @@ exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 ---
 # Multi-Zone to Single-Zone Transition {#multizone-to-singlezone-use-case}
 
-## Use Case Description {#use-case-description}
+## Use case description {#use-case-description}
 
 This section describes a use-case example that emphasizes on how to set up a multi-zone layout channel that alternates with a single-zone layout channel. The multi-zone channel has sequencing image/video assets and it shows how you can set up project that alternates from multi-zone to single-zone and conversely.
 

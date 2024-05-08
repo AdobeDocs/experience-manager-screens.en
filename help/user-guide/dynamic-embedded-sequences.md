@@ -245,27 +245,27 @@ Follow the steps below to implement the functionality:
 
 ## Viewing the Results {#viewing-the-results}
 
-When you have the setup for channels and display complete, launch the AEM Screens player to view the content.
+When you have the setup for channels and display complete, launch the AEM Screens Player to view the content.
 
 >[!NOTE]
 >
 >To learn about AEM Screens Player, see the following resources:
 >
->* [Download the AEM Screens player](https://download.macromedia.com/screens/)
+>* [Download the AEM Screens Player](https://download.macromedia.com/screens/)
 >* [Working with AEM Screens Player](working-with-screens-player.md)
 
 
-The following output confirms your channel content in AEM Screens player, depending on the display path.
+The following output confirms your channel content in AEM Screens Player, depending on the display path.
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** > **Locations** > **Region A** > **Store 1** > **`Store1Display`**, the following content displays on your AEM Screens player.
+If you assign the display path as **Demo** > **Locations** > **Region A** > **Store 1** > **`Store1Display`**, the following content displays on your AEM Screens Player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-If you assign the display path as **Demo** > **Locations** > **Region B** > **Store 3** > **`Store3Display`**, the following content displays on your AEM Screens player.
+If you assign the display path as **Demo** > **Locations** > **Region B** > **Store 3** > **`Store3Display`**, the following content displays on your AEM Screens Player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -275,7 +275,7 @@ You can create global, regional, or local authors to edit content relevant to th
 
 Edit the ACLs so you can restrict the user's access to the content based on their location.
 
-### Example Use Case {#example-use-case}
+### Example use case {#example-use-case}
 
 The following example lets you create three users for the above Demo project.
 

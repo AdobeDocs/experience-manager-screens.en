@@ -42,7 +42,7 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
 Enabling the **Admin UI** from the preferences panel allows the user to open the admin settings from the Screens Player. Also, if you disable this option from the device dashboard, the user cannot open the admin UI from the player.
 
-To view the admin UI from the Screens player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens player, or by using a mouse. Information is displayed after registration is complete and the channels are loaded.
+To view the admin UI from the Screens player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse. Information is displayed after registration is complete and the channels are loaded.
 
 >[!NOTE]
 >
@@ -60,11 +60,11 @@ The Configuration menu lets you modify the following settings:
 
 * Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
 
-* Specify the number of maximum log files that you want to keep for an AEM Screens player in **Max No. of log files to keep**.
+* Specify the number of maximum log files that you want to keep for an AEM Screens Player in **Max No. of log files to keep**.
 
 * Enable or disable **Admin Menu**, **Channel Switcher**, and **Activity UI** for the Screens player.
 
-   If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens player displays the *player activity notifications* in the top right-hand corner of the player, as shown in the figure below.
+   If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens Player displays the *player activity notifications* in the top right-hand corner of the player, as shown in the figure below.
 
    ![image](/help/user-guide/assets/activity_ui.png)
 
@@ -78,7 +78,7 @@ The Configuration menu lets you modify the following settings:
 
 #### Accessing the Content Cache Menu Options {#content-cache-options}
 
-You can clear cache for channels and applications from the Admin UI in AEM Screens player.
+You can clear cache for channels and applications from the Admin UI in AEM Screens Player.
 
 Click the **Content Cache** from the side rail so you can update the cache.
 

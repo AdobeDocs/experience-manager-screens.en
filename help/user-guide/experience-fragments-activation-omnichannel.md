@@ -5,7 +5,7 @@ description: A use case example to help you learn about experience fragments act
 
 # Experience Fragments Activation: OmniChannel Experience {#experience-fragments-activation}
 
-## Use Case Description {#use-case-description}
+## Use case description {#use-case-description}
 
 An Experience Fragment is a group of one or more components including content and layout that are referenced within pages.
 
