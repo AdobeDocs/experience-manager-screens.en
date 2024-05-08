@@ -7,7 +7,7 @@ exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is a Marketing/Business Strategist.
+>A typical stakeholder for this activity is a Marketing/Business Strategist.
 
 A User Experience Journey Map is designed to provide visibility into how and why users experience the digital content delivered by the network.
 

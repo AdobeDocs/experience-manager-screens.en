@@ -31,7 +31,7 @@ AEM Implementors are responsible for performing development and integration task
 
 Custom features required to address end-customer UX (User Experience) parameters are also captured and delivered through this process.
 
-AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags, with other phases incorporating support for interactive elements via touch screens, sensors, dynamic triggers, and so on.
+AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags, with other phases incorporating support for interactive elements by way of touch screens, sensors, dynamic triggers, and so on.
 
 ### Audio/Video Integrators {#av-integrators}
 

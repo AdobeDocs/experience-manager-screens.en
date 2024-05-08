@@ -1,20 +1,20 @@
 ---
-title: Tizen Player
-description: This page describes the installation and working of Tizen Player.
+title: Tizen player
+description: Learn about the installation and working of the Tizen player.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 ---
-# Implementing Tizen Player {#tizen-player}
+# Implementing Tizen player {#tizen-player}
 
-## Installing Tizen Player {#installing-tizen-player}
+## Installing Tizen player {#installing-tizen-player}
 
-Follow the steps below to implement Tizen Player for AEM Screens:
+Follow the steps below to implement the Tizen player for AEM Screens:
 
-1. Navigate to the [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page so you can download the Tizen Player.
+1. Navigate to the [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page so you can download the Tizen player.
 
-1. Install the Tizen player *(.zip)* file from local machine.
+1. Install the Tizen player *(.zip)* file from your local machine.
 
 ## Setting up the http Server {#setting-local-server}
 
@@ -28,21 +28,21 @@ Follow the steps below:
    >[!NOTE]
    >The `AEMScreensPlayer.wgt`is the actual Tizen player application and `sssp_config.xml` contains information about this map that helps you to install it on Tizen device.
 
-1. Get the IP or URL of your local HTTP server (and path to the folder containing the extracted files in step 2 if extracted to a subfolder and not root folder).
+1. Get the IP or URL of your local HTTP server (and the path to the folder containing the extracted files in step 2 if extracted to a subfolder and not a root folder).
 
 1. The Tizen player downloads the installer from the local server.
 
-### Naming Tizen Player {#name-tizen}
+### Naming Tizen player {#name-tizen}
 
-You can assign a user-friendly device name to your Tizen player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Tizen player but also allows to you to easily assign appropriate content.
+You can assign a user-friendly device name to your Tizen player, thus sending the assigned device name to Adobe Experience Manager (AEM). This capability not only lets you name your Tizen player but also lets you easily assign appropriate content.
 
 >[!NOTE]
 >You can choose the Player name only before registration. After the Player is registered, the Player name cannot be changed anymore.
 
-Follow the steps below to configure the name in Tizen player:
+Follow the steps below to configure the name in the Tizen player:
 
 1. Click the menu button on your remote.
-1. Navigate to **network** > **Device Name** so you can assign a name to the player.
+1. Navigate to **Network** > **Device Name** so you can assign a name to the player.
 
 ### Configuring Updates on the Samsung Device {#config-updates}
 
@@ -50,13 +50,13 @@ Follow the steps below on the Samsung device so you can complete the installatio
 
 1. Navigate to your Samsung device and turn in on.
 1. Click the **MENU** button from the device's remote and scroll down to **System** from the left navigation bar.
-1. Scroll down and click the **Play via** option and change it to **URL Launcher** option.
+1. Scroll down and click the **Play by way of** option and change it to the **URL Launcher** option.
    ![image](/help/user-guide/assets/tizen/rms-2.png)
 1. When the URL Launcher is set, press the **Home** button from your remote.
 1. Navigate to the **URL Launcher Settings** and enter the IP address of your localhost server and click **Done**.
 
    >[!NOTE] 
-   >The Tizen player should be able to connect to the http server.
+   >The Tizen player should be able to connect to the HTTP server.
 
 1. The AEM Screens Player automatically installs and launches on your Samsung device.
 
@@ -77,7 +77,7 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. After AEM restarts, go to `/system/console/configMgr` and search for **Adobe Granite Token Authentication Handler**. Set the value for the **SameSite** value to **None**.
 
-1. You should see a new option *`User agents to be exempted from samesite attribute`*. Populate this with a regex corresponding to the user agent that is(are) incompatible with the *SameSite=None* attribute.
+1. You should see a new option *`User agents to be exempted from samesite attribute`*. Populate this option with a regex corresponding to the user agent that is(are) incompatible with the *SameSite=None* attribute.
 
    >[!NOTE]
    >
@@ -85,13 +85,13 @@ Follow the steps below to exempt these incompatible clients when using *SameSite
 
 1. Register the Tizen player against your AEM 6.5.5 and above instance and it should register and show content normally.
 
-## Remotely Provisioning the Tizen Player {#remote-provisioning}
+## Remotely Provisioning the Tizen player {#remote-provisioning}
 
-Remotely provisioning the Tizen Player lets you deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the manual effort to configure each player with the server URL and bulk registration code, or other parameters. And, if there is AEM Screens as a Cloud Service, to configure the cloud mode and cloud token.
+Remotely provisioning the Tizen player lets you deploy hundreds and thousands of Samsung Tizen displays without much effort. It avoids the manual effort to configure each player with the server URL and bulk registration code, or other parameters. And, if there is AEM Screens as a Cloud Service, to configure the cloud mode and cloud token.
 
 This feature lets you remotely configure Tizen player and also update those configurations centrally, if necessary. All you require is the `HTTP` server used to host the Tizen application `(wgt and xml file)` and a text editor to save the `config.json` with the appropriate parameters. 
 
-Make sure you have configured the URL launcher address on the Tizen Device, that is, Home Button > URL Launcher settings.
+Make sure you have configured the URL Launcher address on the Tizen device. Click the Home button > URL Launcher settings.
 On the `HTTP` server that hosts the Tizen application, place the file `config.json` at the same location as the `wgt` file. The file name must be `config.json`.
 The Tizen player installs and at launch (and every reboot), checks and applies the settings in the `config.json` file.
 
@@ -112,7 +112,7 @@ The Tizen player installs and at launch (and every reboot), checks and applies t
 The following table summarizes the policies with their functions.
 
 >[!NOTE]
->Policy configurations are strictly enforced and are not manually overridden at the player's Admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the policy configuration.
+>The player's Admin UI policy configurations are strictly enforced and are not manually overridden. To allow manual player configuration for a particular policy, do not specify the policy in the policy configuration.
 >For example, if you want to allow manual configuration for reboot schedule, do not specify the key `rebootSchedule` in the policy configuration. Policy Configurations are read every time the player reloads.
 
 | **Policy Name** |**Purpose** |
@@ -122,8 +122,8 @@ The following table summarizes the policies with their functions.
 | resolution |The resolution of the device. |
 | rebootSchedule |The schedule to reboot the player.|
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
-| enableOSD |Enable the channel switcher UI for users to switch channels on device. Consider setting to false, once it is fully configured and in production. |
-| enableActivityUI |Enable so you can show progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting to false, once it is fully configured and in production. |
+| enableActivityUI |Enable so you can show the progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
 | cloudMode |Set to true if you want the Tizen player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
@@ -137,7 +137,7 @@ Follow the steps below to enroll the Tizen device to Samsung Remote Management S
 
 1. Navigate to **Menu** -> **Network** -> **Server Network Settings** and press **Enter**.
 
-1. Navigate to Server address and type in the MagicInfo URL access and press **Done**.
+1. Navigate to the Server address and type in the MagicInfo URL access and press **Done**.
 
 1. Setup TLS, if necessary. Navigate to the port and click the port number from the server and click **Save**.
 

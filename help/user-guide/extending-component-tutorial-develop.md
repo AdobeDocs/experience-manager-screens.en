@@ -335,7 +335,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    The `categories` property is a string that identifies the client library. The `cq.screens.components` category is used in both Edit and Preview/Production mode. Therefore any CSS/JS defined in the `shared` clientlib is loaded in all modes.
 
-   It is a best practice to never expose any paths directly to /apps in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced via a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   It is a best practice to never expose any paths directly to /apps in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced by way of a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Create file named `css.txt` beneath the shared folder.
 
@@ -409,7 +409,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    >[!NOTE]
    >
-   >Google Web Fonts are used for the font families. Web Fonts require internet connectivity and not all AEM Screens implementations have a reliable connection. Planning for offline mode is an important consideration for AEM Screens deployments.
+   >Google Web Fonts are used for the font families. Web Fonts require Internet connectivity and not all AEM Screens implementations have a reliable connection. Planning for offline mode is an important consideration for AEM Screens deployments.
 
 1. Copy the `shared` client library folder. Paste it as a sibling and rename it to `production`.
 

@@ -87,7 +87,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * Numeric channel names/roles caused blank screen.
 
-* Download optimized renditions via SmartSync.
+* Download optimized renditions by way of SmartSync.
 
 * Transformed the mapping into a list of rendition keys.
 
@@ -128,7 +128,7 @@ The Release Date for AEM Screens Feature Pack 202109 is September 23, 2021.
 
 * A new core image component is now added to the channel manifest.
 
-* Downloading optimized renditions via SmartSync is now supported.
+* Downloading optimized renditions by way of SmartSync is now supported.
 
 * Play optimized rendition for all assets.
 

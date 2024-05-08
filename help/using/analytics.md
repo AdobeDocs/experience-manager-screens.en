@@ -17,5 +17,5 @@ The first involves **feedback loops and machine learning** while the second invo
 
 In the feedback loop use case, you do not need to be concerned with visual reports or dashboards but instead, you want to define rules that AEM can execute on for content modification. By consuming and processing all Screens player event data from a certain time period, you may define a rule that evaluates the effectiveness of image1 versus image2. By combining sales data with playback data, AEM may determine that image1 has a greater impact on sales and automatically instructs all players to use image1.
 
-The second use case using analytics is to process playback events and usage data for human consumption via reports and dashboards.
+The second use case using analytics is to process playback events and usage data for human consumption by way of reports and dashboards.
 You can use this data to create a Heat map of an interactive experience to determine the preferred journey map through the application. You can also choose to create a dashboard that provides a graphical interpretation of how many times consumers interact with the application.

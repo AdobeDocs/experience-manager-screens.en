@@ -58,7 +58,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -75,7 +75,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 

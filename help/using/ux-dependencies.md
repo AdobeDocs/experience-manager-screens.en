@@ -7,7 +7,7 @@ exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is a Marketing/Business Strategist.
+>A typical stakeholder for this activity is a Marketing/Business Strategist.
 
 UX Dependencies defines where and how content is strategized so it is most impactful.
 
