@@ -33,11 +33,11 @@ Custom features required to address end-customer UX (User Experience) parameters
 
 AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags, with other phases incorporating support for interactive elements by way of touch screens, sensors, dynamic triggers, and so on.
 
-### Audio/Video Integrators {#av-integrators}
+### Audio-Video Integrators {#av-integrators}
 
-The Audio/Video Integrator is the Hardware Vendor/Partner. This is the party that deals with retail design and site preparation, including hardware acquisition, configuration, and deployment. It is typically a contracted third party who has access to a Network Operations Center (NOC). Often the Audio/Video Integrator is the project owner due to its continuous involvement post-launch.
+The Audio-Video Integrator is the Hardware Vendor/Partner. This is the party that deals with retail design and site preparation, including hardware acquisition, configuration, and deployment. It is typically a contracted third party who has access to a Network Operations Center (NOC). Often the Audio-Video Integrator is the project owner due to its continuous involvement post-launch.
 
-An Audio/Video Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build, and effectively manage deployments around digital signage hardware.
+An Audio-Video Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build, and effectively manage deployments around digital signage hardware.
 
 #### Considering Hardware Partner {#selecting-hardware-partner}
 
@@ -114,7 +114,7 @@ The following is a sample RACI chart using the role definitions and provides an 
 
 The following table summarizes the **Day Zero: Pre-sales Considerations**:
 
-| **Phase** | **Audio/Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+| **Phase** | **Audio-Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
 | Team Formation and Vendor Selection | I |I | RA |  RA |
 | Agreement on Roles and Responsibilities |  RA |  RA | RA |  RA |
@@ -126,7 +126,7 @@ The following table summarizes the **Day Zero: Pre-sales Considerations**:
 
 The following table summarizes the **Day One: Project Implementation (Application Design)**:
 
-| **Phase** | **Audio/Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+| **Phase** | **Audio-Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
 | Agreement on Roles and Responsibilities | RA |RA | RA |  RA |
 | Alignment on Project Plan and Schedule |  RA |  RA | C |  C |
@@ -146,7 +146,7 @@ The following table summarizes the **Day One: Project Implementation (Applicatio
 
 The following table summarizes the **Day One: Project Implementation (Retail Readiness)**:
 
-| **Phase** | **Audio/Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+| **Phase** | **Audio-Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
 | Hardware Ordering and Storage | RA |I | I |  I |
 | Retail Onboarding Schedule |  I |  I | C |  RA |
@@ -156,7 +156,7 @@ The following table summarizes the **Day One: Project Implementation (Retail Rea
 
 The following table summarizes the **Day One: Day One: Project Implementation (Hardware)**:
 
-| **Phase** | **Audio/Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
+| **Phase** | **Audio-Video Integrator** |**AEM Implementor** | **Business Strategy** | **Content Management**|
 |---|---|---|---|---|
 | Agreement on Roles and Responsibilities | RA |  RA | RA | RA |
 | Retail Design includes wiring operations | - |  - | - |  - |
@@ -173,7 +173,7 @@ The following table summarizes the **Day One: Day One: Project Implementation (H
 
 * **Developer**: Typically a member of the AEM Screens implementation team, or handoff to internal development team
 
-* **Technician**: Either contracted by the Audio/Video integrator or is part of the same company.
+* **Technician**: Either contracted by the Audio-Video integrator or is part of the same company.
 
 The following table summarizes the **Day Two: Post Launch Support RACI Chart**:
 

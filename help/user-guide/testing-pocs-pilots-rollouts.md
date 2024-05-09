@@ -44,11 +44,11 @@ The following section provides an overview on the key terms involved in an overa
 
 ### Proof of Concept (POC) {#proof-of-concept-poc}
 
-The purpose of a POC is to gain initial feedback on a solution's key functionalities. It also lets both the end-client and Audio/Video Integrator an opportunity to identify areas for improvement and prepare assumptions surrounding labor requirements and resource demands. A POC also lets both parties assess the solution's performance, which is typically measured through:
+The purpose of a POC is to gain initial feedback on a solution's key functionalities. It also lets both the end-client and Audio-Video Integrator an opportunity to identify areas for improvement and prepare assumptions surrounding labor requirements and resource demands. A POC also lets both parties assess the solution's performance, which is typically measured through:
 
 ### Quality Control {#quality-control}
 
-Systems & Software Integration testing begins with the Audio/Video Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio/Video Integrator's facility. This allows for close review and testing of the entire solution for quality control.
+Systems & Software Integration testing begins with the Audio-Video Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio-Video Integrator's facility. This allows for close review and testing of the entire solution for quality control.
 
 After QC testing is complete, the IT Engineering Team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to test include the following:
 
