@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
 ---
-# Using the Screens Remote Control  {#implementing-remote-control}
+# Using the Screens Remote Control {#implementing-remote-control}
 
-The remote control feature makes it easier to access the Admin UI, channel switcher, or features such as Clear Cache and reload. Also, it provides you with a method to see the local firmware version and system information on the player. This is especially useful because it can be difficult to connect a mouse and operate on production devices that are out of reach and even more so if the player has lost connection with AEM. This is also useful when using Samsung RMS because the resolution difference can make it difficult to locate and open the Admin UI using a mouse. 
+The remote control feature makes it easier to access the Admin UI, channel switcher, or features such as Clear Cache and reload. Also, it provides you with a method to see the local firmware version and system information on the player. This ability is especially useful because it can be difficult to connect a mouse. Or, operate on production devices that are out of reach and even more so if the player has lost connection with AEM. It is also useful when using Samsung RMS because the resolution difference can make it difficult to locate and open the Admin UI using a mouse. 
 
 ## Common Remote Control Key Combinations {#using-common-remote-control}
 
@@ -41,7 +41,7 @@ The following diagram illustrates the key usage on a Samsung remote:
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->If you set the device configuration values of enableAdminUI and/or enableOSD to false, the remote does not toggle the admin UI and channel switcher. You cannot use the arrow keys to navigate the admin UI or channels. However, you can still clear the cache and reload the player. You can disable the remote control feature if any of the keyboard combinations conflict with your interactive content using this code: 
+>If you set the device configuration values of enableAdminUI and/or enableOSD to false, the remote does not toggle the Admin UI and channel switcher. You cannot use the arrow keys to navigate the Admin UI or channels. However, you can still clear the cache and reload the player. You can disable the remote control feature if any of the keyboard combinations conflict with your interactive content using this code: 
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
