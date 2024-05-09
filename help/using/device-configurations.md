@@ -7,7 +7,7 @@ exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
 
 >[!NOTE]
 >
->A typical stakeholder for this activity is an Audio/Video Integrator.
+>A typical stakeholder for this activity is an Audio-Video Integrator.
 
 Based on the information gathered during *Day Zero*, confirm the following information before beginning development:
 

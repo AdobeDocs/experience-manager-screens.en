@@ -31,25 +31,25 @@ The planning includes:
 * Addressing hardware, software or connectivity failures
 * Balancing issue resolution costs against end-client business requirements.
 * Identifying the best method for remediating issues across the network.
-* Driving alignment between the AEM Implementor and the Audio/Video Integrator in establishing Day 2 Support plans
+* Driving alignment between the AEM Implementor and the Audio-Video Integrator in establishing Day 2 Support plans
 
 ## Summary of Key Considerations Involved in Day 2 Support {#summary-of-key-considerations-involved-in-day-support}
 
 Following are some key considerations for Day 2 Support:
 
-* To ensure alignment and smooth transition from implementation to operational support, the AEM Implementor works with the Audio/Video Integrator to ensure that the appropriate support scripts are defined as part of the Day 2 Support plan.
-* Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio/Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
+* To ensure alignment and smooth transition from implementation to operational support, the AEM Implementor works with the Audio-Video Integrator to ensure that the appropriate support scripts are defined as part of the Day 2 Support plan.
+* Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio-Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
 
-* Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio/Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
-* To prepare for long-term success, it is paramount to establish a Day 2 Support Level Agreement (also called an 'S.L.A.') in partnership with the Audio/Video Integrator. SLAs detail post-deployment support services and help to set client expectations.
+* Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio-Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
+* To prepare for long-term success, it is paramount to establish a Day 2 Support Level Agreement (also called an 'S.L.A.') in partnership with the Audio-Video Integrator. SLAs detail post-deployment support services and help to set client expectations.
 * A key resource used in the successful management of multiple networks is the Knowledge Base. SharePoint is a popular platform for this type of resource. The Knowledge Base includes pre-scripted Q&A for NOC agents to follow, ensuring inbound issue resolution requests are handled in a consistent manner. Knowledge Bases typically include reference materials for system configurations and site locations including cut-sheets for hardware and reference materials for systems software. 
 * Monitoring and management capabilities are largely dependent on Media Player Operating Systems and screen capabilities. Windows Operating Systems offer the greatest level of detail. For deployments running on Android&trade; or iOS devices, Mobile Device Management (also known as MDM) is employed.
 * Some screen manufacturers offer the ability to monitor screens independent of Media Players, while others require an external device.
-* Audio/Video Integrators use a mix of technologies, so solutions remain flexible to best address the end-client's needs.
+* Audio-Video Integrators use a mix of technologies, so solutions remain flexible to best address the end-client's needs.
 
 ## Part 5: Video Tutorial on Support Considerations {#part-video-tutorial-on-support-considerations}
 
-Follow this concluding tutorial to a 5-part series tutorial below that stresses on ensuring alignment and smooth transition from implementation to operational support. It also explains how an AEM Implementor must work with the Audio/Video Integrator to ensure appropriate support scripts that are defined as part of the Day 2 Support plan.
+Follow this concluding tutorial to a 5-part series tutorial below that stresses on ensuring alignment and smooth transition from implementation to operational support. It also explains how an AEM Implementor must work with the Audio-Video Integrator to ensure appropriate support scripts that are defined as part of the Day 2 Support plan.
 
 ### Project Considerations
 

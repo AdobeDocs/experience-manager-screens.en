@@ -35,7 +35,7 @@ You can assign a user-friendly device name to your Chrome Player, thus sending t
 
 Follow the steps below to configure the name in Chrome Player:
 
-1. You can optionally allow Audio/Video integrators or IT administrators to set the Asset ID and location as part of enterprise enrollment.
+1. You can optionally allow Audio-Video integrators or IT administrators to set the Asset ID and location as part of enterprise enrollment.
 
    ![image](/help/user-guide/assets/chrome-device/chrome1.png)
 

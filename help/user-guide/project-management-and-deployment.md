@@ -13,17 +13,17 @@ exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 ---
 # Part 4: Project Management and Deployment {#part-project-management-and-deployment}
 
-This page highlights part 4 of a 5-part series designed to cover project management and deployment preparation and define key factors the Audio/Video Integrator is accountable for related to project management and deployment preparation.
+This page highlights part 4 of a 5-part series designed to cover project management and deployment preparation and define key factors the Audio-Video Integrator is accountable for related to project management and deployment preparation.
 
 ## Overview {#overview}
 
 This page covers project pre-production, project initiation, and project progression.
 
-It is important for all stakeholders to understand what the Audio/Video integrator is accountable for, ensuring documented plans are developed against the points discussed this episode
+It is important for all stakeholders to understand what the Audio-Video integrator is accountable for, ensuring documented plans are developed against the points discussed this episode
 
 >[!NOTE]
 >
->Identifying an Audio/Video Integrator with expertise in project management of Digital Signage deployments at scale is important to long-term success. It is suggested that Project plans between the Audio/Video Integrator and AEM Implementor are compared. Doing so ensures alignment as the plans are developed and finalized.
+>Identifying an Audio-Video Integrator with expertise in project management of Digital Signage deployments at scale is important to long-term success. It is suggested that Project plans between the Audio-Video Integrator and AEM Implementor are compared. Doing so ensures alignment as the plans are developed and finalized.
 >
 >Partners who take a holistic approach in managing project "pre-production," initiation, and progression phases help to ensure your end-clients are positioned to realize the most value from their investment
 
@@ -66,11 +66,11 @@ As a sales opportunity transitions to a project, a kickoff meeting is scheduled 
 
 The last part of a Day One initiative is to complete a NOC Handoff. If a completed project includes any Day two service and support, the Project Manager arranges a NOC Handoff Meeting with the supervisors of those teams.
 
-This meeting primarily consists of Audio/Video Integrator representatives from Account Management, Network Operations, Field Logistics, Content Services, and Accounting. Project Management representatives from Adobe, the AEM Implementor, and End-Customer are involved in tandem, with the Audio/Video Integrator defining schedule, cadence, and tollgates. Project Managers are typically best to coordinate discussions to ensure alignment of appropriate parties and developing required documentation for the NOC handoff meeting. Critical support documentation likely comes from IT and/or Audio/Video Engineering in addition to Sales and Account Management resources across all involved parties. For any clients requiring helpdesk support from a NOC, documentation must be provided to NOC supervisors for upload to a Knowledge Base platform.
+This meeting primarily consists of Audio-Video Integrator representatives from Account Management, Network Operations, Field Logistics, Content Services, and Accounting. Project Management representatives from Adobe, the AEM Implementor, and End-Customer are involved in tandem, with the Audio-Video Integrator defining schedule, cadence, and tollgates. Project Managers are typically best to coordinate discussions to ensure alignment of appropriate parties and developing required documentation for the NOC handoff meeting. Critical support documentation likely comes from IT and/or Audio-Video Engineering in addition to Sales and Account Management resources across all involved parties. For any clients requiring helpdesk support from a NOC, documentation must be provided to NOC supervisors for upload to a Knowledge Base platform.
 
 ## Part 4: Video Tutorial on Project Management and Deployment {#part-video-tutorial-on-project-management-and-deployment}
 
-Learn about project management and deployment preparation and define key factors the Audio/Video Integrator is accountable for as related to project management and deployment preparation.
+Learn about project management and deployment preparation and define key factors the Audio-Video Integrator is accountable for as related to project management and deployment preparation.
 
 ### Project Management and Deployment
 

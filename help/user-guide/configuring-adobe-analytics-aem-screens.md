@@ -27,7 +27,7 @@ This section covers the following topics:
 
 ## Sequencing in Adobe Analytics with AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-The ***sequencing process*** starts with data storage service that activates Adobe Analytics service. Channel content sends Adobe Analytics events with payroll, that is, data test capture to Windows I/O and stay events are triggered. The events are saved to index DB and is further put into object store. Based on the schedule the administrator sets, it cuts the data from object store, and further transfers it in chunk store. It tries to send maximum amount of data when connected.
+The ***sequencing process*** starts with a data storage service that activates the Adobe Analytics service. Channel content sends Adobe Analytics events with payroll, that is, data test capture to Windows I/O and stay events are triggered. The events are saved to the index DB and is further put into object store. Based on the schedule the administrator sets, it cuts the data from the object store, and further transfers it in chunk store. It tries to send the maximum amount of data when connected.
 
 ### Sequencing Diagram {#sequencing-diagram}
 
@@ -57,7 +57,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>recommended</td> 
    <td>string</td> 
    <td>UUID</td> 
-   <td>Unique ID that identifies instance of an event</td> 
+   <td>Unique ID that identifies an instance of an event</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -75,7 +75,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>recommended</td> 
    <td>string</td> 
    <td>timestamp - UTC</td> 
-   <td>Event start date time, if you did not specify this, the event time is assumed as the time it was received by the server</td> 
+   <td>Event start date time, if you did not specify this time, the event time is assumed as the time by the server when it was received.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +138,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>boolean</td> 
    <td> </td> 
-   <td>Event was generated while action was offline/online (true/false)</td> 
+   <td>The event was generated while the action was offline/online (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -201,7 +201,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>optional</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL of the web property or mobile schema - must include fully qualified URL</td> 
+   <td>URL of the web property or mobile schema - must include a fully qualified URL</td> 
   </tr>
   <tr>
    <td> </td> 

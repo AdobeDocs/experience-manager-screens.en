@@ -10,7 +10,7 @@ The AEM Screens Best Practices Guide intends to provide guidance on how to succe
 The intended audience for this document is:
 
 * *AEM Implementors*
-* *Audio/Video Integrators*
+* *Audio-Video Integrators*
 * *Business Strategists*
 * *Project Managers*
 * *Consultants*

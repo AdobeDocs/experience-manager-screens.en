@@ -24,7 +24,7 @@ The primary components of a digital signage program required for a successful de
 * Content strategy
 * Business operations requirements
 * IT and network environment discovery
-* Audio/Video requirements
+* Audio-Video requirements
 * Equipment specification
 * Site readiness
 
@@ -61,7 +61,7 @@ Enlisting Day-Part strategies can allow end-clients to segment their content. It
 
 Business Operations are also important to define in content strategy conversations. Formalizing end-clients' support requirements can help manage expectations post-deployment, ensuring support efforts are measured appropriately.
 
-### Audio/Video Requirements {#a-v-requirements}
+### Audio-Video Requirements {#a-v-requirements}
 
 Mounting scenarios also need definition, as do considerations surrounding device access for servicing of equipment. This impacts not only initial installation labor and equipment recommendations but also determine the ongoing service and support requirements.
 
