@@ -19,7 +19,7 @@ Content monitoring lets you troubleshoot the issues related to content not prope
 1. If a blank screen issue is encountered:
 
    * Check the *preview* so you can see if the channel is showing a black screen.
-   * Register a *local chrome player* (as an extension) on your laptop to that display and see if that shows a black screen.
+   * Register a *local Chrome player* (as an extension) on your laptop to that display and see if that shows a black screen.
    * Right-click and inspect and check the *applicable logs*.
 
    Also, if the issue is not happening on the local player but only on the device:

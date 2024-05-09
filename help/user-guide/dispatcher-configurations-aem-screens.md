@@ -1,6 +1,6 @@
 ---
 title: Dispatcher Configurations for AEM Screens
-description: This page highlights guidelines for configuring Dispatcher for an AEM Screens project.
+description: This page highlights guidelines for configuring a Dispatcher for an AEM Screens project.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
@@ -8,9 +8,9 @@ exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 ---
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher is Adobe Experience Manager's caching and/or load-balancing tool.
+Dispatcher is Adobe Experience Manager's caching, or load-balancing tool, or both.
 
-The following page provides the guidelines for configuring Dispatcher for an AEM Screens project.
+The following page provides the guidelines for configuring a Dispatcher for an AEM Screens project.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ See [Configuring Dispatcher](https://experienceleague.adobe.com/en/docs/experien
 ## Configuring Dispatcher for Manifest Version v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->The following Dispatcher configurations apply only to Manifest version v2. See [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
+>The following Dispatcher configurations apply only to Manifest version v2. See [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for Manifest version v3.
 
-AEM Screens players or devices use authenticated session to access the resources in the Publishing instances as well. So, when you have multiple publish instances, the requests should always go to the same Publishing instance so that the authenticated session is valid for all the requests coming from the AEM Screens players/devices.
+AEM Screens players or devices use an authenticated session to access the resources in the Publishing instances as well. When you have multiple publish instances, the requests should always go to the same Publishing instance so that the authenticated session is valid for all the requests coming from the AEM Screens players or devices.
 
-Follow the steps below to configure Dispatcher for an AEM Screens project.
+Follow the steps below to configure the Dispatcher for an AEM Screens project.
 
 ### Enabling Sticky Sessions {#enable-sticky-session}
 
@@ -61,7 +61,7 @@ Add the following to `/clientheaders`section:
 
 ### Step 2: Configuring Screens Filters {#step-configure-screens-filters}
 
-To configure Screens filters, add the following to ***/filter***.
+To configure Screens filters, add the following to ***`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -88,7 +88,7 @@ Disable Dispatcher caching for ***/content/screens path***.
 
 Screens players use authenticated sessions, so the Dispatcher does not cache any of the screens players requests for `channels/assets`. 
 
-To enable the cache for the assets so that the assets are served from Dispatcher cache, do the following:
+To enable the cache for the assets so that the assets are served from the Dispatcher cache, do the following:
 
 * Add `/allowAuthorization 1` in `/cache` section
 * Add the below rules to `/rules` section of `/cache`
@@ -123,11 +123,11 @@ To enable the cache for the assets so that the assets are served from Dispatcher
 
 ## Configuring Dispatcher for Manifest Version v3{#configuring-dispatcherv3}
 
-Make sure to allow these filters and cache rules in dispatchers fronting the Publishing instances for functioning of Screens.
+Make sure to allow these filters and cache rules in dispatchers fronting the Publishing instances for the functioning of Screens.
 
 ### Pre-requisites for Manifest Version v3{#prerequisites3}
 
-Follow these two prerequisites before configuring Dispatcher (manifest version v3) for AEM Screens:
+Follow these two prerequisites before configuring a Dispatcher (manifest version v3) for AEM Screens:
 
 * Make sure that you are using `v3 manifests`. Navigate to `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` and ensure that `Enable ContentSync Cache` is unchecked.
 
@@ -137,7 +137,7 @@ Follow these two prerequisites before configuring Dispatcher (manifest version v
 
    ![image](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### Filters  {#filter-v3}
+### Filters {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -167,10 +167,10 @@ Follow these two prerequisites before configuring Dispatcher (manifest version v
 
 * Add `/allowAuthorized "1"` to `/cache` section in `publish_farm.any`.
 
-* All the AEM Screens players use authenticated session to connect to AEM (author/publish). Out-of-the-box Dispatcher does not cache these urls, so you should enable those.
+* All the AEM Screens players use an authenticated session to connect to AEM (author/publish). Out-of-the-box, a Dispatcher does not cache these URLs, so you should enable them.
 
 * Add `statfileslevel "10"` to `/cache` section in `publish_farm.any`
-   This supports caching up to ten levels from the cache docroot and invalidate accordingly when content is published rather than invalidating everything. Feel free to change this level based on how deep your content structure is
+   This rule supports caching up to ten levels from the cache docroot and invalidate accordingly when content is published rather than invalidating everything. Feel free to change this level based on how deep your content structure is
 
 * Add the following to `/invalidate section in publish_farm.any`
 

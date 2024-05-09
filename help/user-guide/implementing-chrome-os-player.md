@@ -16,10 +16,10 @@ This section describes how to implement the Chrome OS Player using the Chrome Ma
 
 ## Using Chrome Management Console {#using-chrome-management-console}
 
-Follow the steps below to set up the chrome management console:
+Follow the steps below to set up the Chrome management console:
 
 1. Register for the Chrome Management Console. You must obtain a license for Chrome Management Console. Contact [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) to Manage Chrome device settings for more information.
-1. Enroll your Chrome OS Device into the domain and wait for 15 minutes for the device to sync with the Chrome Management Console. To learn more about enrolling chrome device, click [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Enroll your Chrome OS Device into the domain and wait for 15 minutes for the device to sync with the Chrome Management Console. To learn more about enrolling Chrome device, click [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. The Chrome Player is available in the Chrome Web Store.
 
 >[!NOTE]
@@ -48,7 +48,7 @@ Follow the steps below to configure the name in Chrome Player:
    ![image](/help/user-guide/assets/chrome-device/chrome3.png)
 
     >[!NOTE]
-    >Chrome Players must be enrolled in enterprise enrollment and the Chrome Player must be deployed through Chrome Management Console, otherwise the Asset ID returns blank (for example, chrome as an extension). The device name is only recorded at the time of registration. Future changes do not get picked up by Adobe Experience Manager (AEM).
+    >Chrome Players must be enrolled in enterprise enrollment and the Chrome Player must be deployed through Chrome Management Console, otherwise the Asset ID returns blank (for example, Chrome as an extension). The device name is only recorded at the time of registration. Future changes do not get picked up by Adobe Experience Manager (AEM).
 
 ### Enabling Kiosk Mode {#enabling-kiosk-mode}
 
