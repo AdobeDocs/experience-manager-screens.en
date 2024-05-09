@@ -19,14 +19,14 @@ Consider the following elements before implementing your AEM Screens digital sig
 * **Scheduling**
 * **Previewing the content**
 
-To learn about these terms, see [Glossary](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+To learn more about these terms, see the [Glossary](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >It is best practice to consider using:
 >
 >* hardware asset database to auto-populate a Screens project
->* text config file to automatically point every player to specific instance of an AEM
+>* text configuration file pointing every player automatically to a specific instance of an AEM
 
 ## Implementing an AEM Screens Project {#creating-a-project}
 
