@@ -56,7 +56,7 @@ Follow this page for information about installing the Chrome player as a browser
 
 Follow the steps below to upgrade the player extension if a new version of the player is released. You can also follow the instructions below to test upgrade scenarios:
 
-1. Close any running chrome and player instances
+1. Close any running Chrome and player instances
 1. Rename the old folder with player files
 1. Extract the new zip in the same location as the old folder
 1. Launch Chrome and navigate to `chrome://extensions`
