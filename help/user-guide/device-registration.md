@@ -24,7 +24,7 @@ The device registration process is done on two separate machines:
 
 >[!NOTE]
 >
->After you download the latest Windows Player (*.exe*), from [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
+>After you download the latest Windows Player (*.exe*), from the [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) page, follow the steps on the player to complete the ad-hoc installation:
 >
 >1. Long-press on the top-left corner to open the admin panel.
 >1. Navigate to **Configuration** from the left action menu and enter the location address of the AEM instance in **Server** and click **Save**.
@@ -63,7 +63,7 @@ The device registration process is done on two separate machines:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. If the **Registration Code** is the same on both machines, click **Validate** button in AEM, as shown in the step (6).
+1. If the **Registration Code** is the same on both machines, click the **Validate** button in AEM, as shown in step (6).
 1. Set the desired name for the device, and click **Register**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -106,7 +106,7 @@ If you have not assigned the device to a display, follow the steps below to assi
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Also, you can view the display dashboard on selecting **Finish**.
+   Also, you can view the display dashboard by selecting **Finish**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -135,22 +135,22 @@ When you have registered devices to your player, you can view all the devices fr
 
 ### Limitations on Search Functionality {#limitations}
 
-* User is able to search any word existing in the *Device ID* or *Device Name*. 
+* The user is able to search any word existing in the *device ID* or *device Name*. 
 
    >[!NOTE]
-   >It is recommended that you create the device names in multiple words such as *Boston Store Lobby* rather than one single *BostonStoreLobby*.
+   >It is recommended that you create the device names in multiple words such as *`Boston Store Lobby`* rather than one single *`BostonStoreLobby`*.
 
-* If you create device names such as *Boston Store Lobby*, it searches for any word *boston*, *store*, or *lobby*. However, if the device name is *BostonStoreLobby*, then searching for *boston* does not show any results.
+* If you created device names such as *`Boston Store Lobby`*, it searches for any word *`boston`*, *`store`*, or *`lobby`*. However, if the device name is *`BostonStoreLobby`*, then searching for *`boston`* does not show any results.
 
-* Wild card, `*` is supported for search. In case you want to find all the devices with names starting with *boston*, you can use *boston**.
+* Wild card, `*` is supported for search. In case you want to find all the devices with names starting with *`boston`*, you can use *`boston`**.
 
-* If the device name is *BostonStoreLobby* and searching for *boston* does not return the result, then using *boston** in your search criteria returns the result.
+* If the device name is *`BostonStoreLobby`* and searching for *`boston`* does not return the result, then using *`boston`** in your search criteria returns the result.
 
 ## Limitations on Device Registration {#limitations-on-device-registration}
 
 System-wide user password restrictions might cause failure in the device registration. The device registration uses a randomly generated password to create the device user.
 
-If the password is restricted by the *AuthorizableActionProvider* configuration, creating the device user might fail.
+If the *AuthorizableActionProvider* configuration restricts the password, creating the device user might fail.
 
 >[!NOTE]
 >
@@ -166,4 +166,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Other Resources {#additional-resources}
 
-To learn about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).
+To learn more about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).
