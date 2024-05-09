@@ -9,7 +9,7 @@ exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
 >
 >A typical stakeholder for this activity is an AEM Implementor.
 
-As your project has progressed from a strategic vision to a wireframed reality, you should now start preparing for the tasks necessary to actually create a Screens project in AEM that you can deploy.
+As your project has progressed from a strategic vision to a wireframed reality, you should prepare for the actual creation of a Screens project in AEM that you can deploy.
 
 This project includes the mapping of platform-specific configurations to loosely defined requirements defined in the prototyping phase.
 
@@ -17,7 +17,7 @@ Examples include how and when to use the following:
 
 * **Experience Fragments** for creating content groupings.
 * **Content Fragments** for creating text variations.
-* **Context Hub** for creating external data stores, SPA's for interactive experiences.
+* **Context Hub** for creating external data stores, SPAs for interactive experiences.
 * **OSGi services** for network alerts.
 * **Asset Link** for Creative Cloud sourcing.
 * **Network Folders** for Asset allocation.
