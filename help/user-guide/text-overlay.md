@@ -26,11 +26,11 @@ This section covers the following topics:
 
 ## Overview {#overview}
 
-Text Overlay is a feature available in AEM Screens that lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
+Text Overlay is a feature available in AEM Screens. It lets you create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
 
 To learn how to create your own custom component, see **Extending an AEM Screens Component**.
 
-This section only showcases how to use and apply the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.
+This section only showcases how to use and apply the poster component in an AEM Screens project. It also showcases using it as a text overlay in one of your sequence channels.
 
 ## Using Text Overlay {#using-text-overlay}
 
@@ -42,11 +42,11 @@ Before implementing this functionality, make sure you have set up a project as a
 
 * Create an AEM Screens project (in this example, **TextOverlayDemo**)
 
-* Create a sequence channel titled as **TextSample** under **Channels** folder
+* Create a sequence channel titled as **TextSample** under the **Channels** folder
 
 * Add content to your **TextSample** Channel
 
-The following image shows the **TextOverlayDemo** project with **TextSample** channel in **Channels** folder.
+The following image shows the **TextOverlayDemo** project with the **TextSample** channel in the **Channels** folder.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -78,11 +78,11 @@ You can add a text to the text box and add typographical emphasis such as bold, 
 
 >[!NOTE]
 >
->To properly use fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200 px. The result of this expression is 200 pixels from start point.
+>When using fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200 px. The result of this expression is 200 pixels from the start point.
 
 ## Using ContextHub Values in Text Overlay {#using-text-overlay-context-hub}
 
-The following section describes the usage of values from a data store, for example, google sheets in text overlay component. 
+The following section describes the usage of values from a data store, for example, google sheets in the text overlay component. 
 
 **Prerequisites**
 
@@ -112,7 +112,7 @@ After you set up the required configurations for your project, follow the steps 
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Add an image and text overlay component to your image as described in [Using Text Overlay](/help/user-guide/text-overlay.md#using-text-overlay) section of this page.
+1. Add an image and text overlay component to your image as described in the [Using Text Overlay](/help/user-guide/text-overlay.md#using-text-overlay) section of this page.
 
 1. Click on **Configure** (wrench icon) to open the **Image** dialog box.
 
@@ -123,7 +123,7 @@ After you set up the required configurations for your project, follow the steps 
    >[!NOTE]
    >If you have not set up your ContextHub configuration, this option is disabled for your project.
 
-1. Enter **Value** in the **Placeholder** field. Click the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
+1. Enter **Value** in the **Placeholder** field. Click the row that you want to get the value from your Google sheet in **ContextHub Variable**. In this case, the value is retrieved from row 2 and column 1 from the Google sheets. Now, enter the **Default Value** as **20**, a shown in the figure below. When you are done, click the checkmark.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

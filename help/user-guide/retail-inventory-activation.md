@@ -17,9 +17,9 @@ The following use case demonstrates three different images based on the values i
 
 ## Description {#description}
 
-This use case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
+This use case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with the highest number is displayed.
 
-For this use case, the Red, Green, or Blue sweater displays on your screen based on the highest value of number of sweaters that is available.
+The Red, Green, or Blue sweater is displayed based on the highest value of the number of sweaters available.
 
 ## Preconditions {#preconditions}
 
@@ -49,22 +49,22 @@ Follow the steps below to implement the Retail Inventory Activation use case:
     1. Drag-and-drop the **Comparison : Property - Property** to the editor.
     1. Click the **Configuration** icon.
     1. Click **googlesheets/value/1/2** from the drop-down in **First Property name**.
-    1. Click the **Operator** as **greater-than** from the drop-down menu.
-    1. Click **Data Type** as **number**.
+    1. Click the **Operator**, and as **greater-than** from the drop-down menu.
+    1. Click **Data Type**, and as **number**.
     1. Click **googlesheets/value/1/1** from the drop-down in **Second Property name**.
     1. Drag-and-drop **another Comparison : Property - Property** to the editor and click the **Configuration** icon.
     1. Click **googlesheets/value/1/2** from the drop-down in **First Property name**.
-    1. Click the **Operator** as **greater-than** from the drop-down menu.
-    1. Click **Data Type** as **number**.
+    1. Click the **Operator**, and as **greater-than** from the drop-down menu.
+    1. Click **Data Type**, and as **number**.
     1. Click **googlesheets/value/1/0** from the drop-down in **Second Property name**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Similarly, edit and add comparison property rules to **For_Blue** segment as shown in the figure below:
+   Similarly, edit and add comparison property rules to the **For_Blue** segment as shown in the figure below:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Similarly, edit and add comparison property rules to **For_Green** segment as shown in the figure below:
+   Similarly, edit and add comparison property rules to the **For_Green** segment as shown in the figure below:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -79,7 +79,7 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
+   >You should have already set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -108,6 +108,6 @@ Follow the steps below to implement the Retail Inventory Activation use case:
 1. **Checking the Preview**
 
     1. Click **Preview.** Also, open your Google Sheet and update its value.
-    1. Change the value for all three different columns. Notice the display image updates as per the highest value in inventory.
+    1. Change the value for all three different columns. Notice the display image updates as per the highest value in the inventory.
 
    ![retail_result](assets/retail_result.gif)

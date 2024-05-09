@@ -12,7 +12,7 @@ exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 ---
 # Creating and Managing Displays {#creating-and-managing-displays}
 
-A display is a virtual grouping of screens that are positioned next to each other. The display is permanent in respect to an installation. This is the object content authors work with and always reference to as logical display rather than their physical counter parts.
+A display is a virtual grouping of screens that are positioned next to each other. The display is permanent in respect to an installation. It is the object content authors work with and always reference to as logical display rather than their physical counter parts.
 
 When you create a location, you have to create a display for your location.
 
@@ -34,7 +34,7 @@ This page shows creating and managing displays for Screens.
 1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Click your location folder and click **Create** that is next to the plus icon in the action bar. 
 1. Click **Display** from the **Create** wizard, then click **Next**.
-1. Enter **Name** and **Title** for your display location.
+1. Enter your **Name** and **Title** for your display location.
 1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution**, such as **Full HD**. Choose the number of devices horizontally and vertically.
 1. Click **Create**.
 
@@ -42,7 +42,7 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 ![display](assets/display.gif)
 
-When you have display in position, the next step is to create a device config for that particular display.
+When you have a display in position, the next step is to create a device config for that particular display.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ When you have display in position, the next step is to create a device config fo
 >
 >When you create a display for your location, assign a channel to your display to use the content.
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>See the [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
 
 ## Creating a New Device Config {#creating-a-new-device-config}
 
@@ -74,13 +74,13 @@ The device config is created and added to the current display (in the following 
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** panel, if no channel is assigned to that particular device config.
 >
->You should have prior understanding of creating and managing channels. See [Create and Manage Channels](managing-channels.md) for more details.
+>You should have a prior understanding of creating and managing channels. See [Create and Manage Channels](managing-channels.md) for more details.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Display Dashboard {#display-dashboard}
 
-The display dashboard provides you with different panels for managing display devices and device configurations for your device.
+The display dashboard provides you with different panels for managing display devices. It also lets you configure your device.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -103,9 +103,9 @@ Click (**...**) in the top-right corner in the **DISPLAY INFORMATION** panel so 
 
 Click **Properties** so you can view or change the properties of your display.
 
-Also, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. The default value is set to *300 seconds*.
+Also, you can adjust the event timer value for your interactive channel under the **Display** tab. The default value is set to *300 seconds*.
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Assigned Channels Panel {#assigned-channels-panel}
@@ -115,9 +115,9 @@ The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
 ### Devices Panel {#devices-panel}
 
-The **DEVICES** Panel provides information on the device configs.
+The **DEVICES** Panel provides information on the device configurations.
 
-Click (**...**) in the top-right corner in the **DEVICES** panel so you can add device configs and update devices.
+Click (**...**) in the top-right corner in the **DEVICES** panel so you can add device configurations and update devices.
 
 Also, click the device config to view properties, assign a device, or delete it completely.
 
