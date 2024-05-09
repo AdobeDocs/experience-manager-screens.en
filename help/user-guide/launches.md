@@ -1,6 +1,6 @@
 ---
 title: Content Update using Screens Launch
-description: Learn how to create future version of the channels, known as Launch, and setting a live date for the launch to make content live on devices or players.
+description: Learn how to create a future version of the channels, known as Launch, and setting a live date for the launch to make content live on devices or players.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -13,17 +13,17 @@ exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 ---
 # Content Update using Screens Launch {#launches}
 
-Content authors can create future version of the channels, known as **Screens Launch** and further set the live date for this launch. This allows the content to be live in devices or players on the specified live date.
+Content authors can create a future version of the channels and further set the live date for this launch. This ability allows the content to be live in devices or players on the specified live date.
 
 With the help of ***Screens Launch***, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group gets notification and can approve or reject the request. When the live date is reached, the content plays in the devices.
 
 For example, if the author wants to create future versions of c1, c2 (channels), a launch is created and a live date is set (for instance, November 10 8:00 A.M.). Any more updates in the content are sent out for review. 
 
-After approval and on live date (November 10, 8:00 A.M.), this launch plays the content on the devices or players.
+After approval and on the live date (November 10, 8:00 A.M.), this launch plays the content on the devices or players.
 
 ## Requirements {#requirements}
 
-Before you start using *Screens Launch* in an AEM Screens project, make sure you understand the concept of Grace Period and its relevance.
+Before you start using *Screens Launch* in an AEM Screens project, make sure you understand the concept of grace period and its relevance.
 
 Running an experience on the set live date on the player involves:
 
@@ -31,7 +31,7 @@ Running an experience on the set live date on the player involves:
 
 * Publishing the resources to publish instances (typically takes a few minutes, depends on the size of the channels or assets that must be published).
 
-* Time taken by the update offline content to complete (typically takes a few minutes).
+* Time taken for the update offline content to complete (typically takes a few minutes).
 
 * Time taken by the players to download the content from the publish instance (typically takes minutes depending on the bandwidth and size of the assets that must be downloaded).
 
@@ -41,33 +41,33 @@ Running an experience on the set live date on the player involves:
 
 For the player to be able to start playing the content on the set live date, start the preceding activities before the live date. 
 
-If the live date is *November 24, 9:00 A.M.* and grace period is *24 hours*, then the above sequence of actions will start at (live date - grace period), that is, November 23, 9:00 A.M. server time. This gives 24 hours to complete all the above mentioned actions for the content to reach the players. Players understand that this is a launch content. As such the content does not play immediately, but players can store this content as a future version and have it start playing exactly at the set live date on the player's time zone.
+If the live date is *November 24, 9:00 A.M.* and *24 hours* is the grace period, then the above sequence of actions starts at (live date - grace period), that is, November 23, 9:00 A.M. server time. This setting gives 24 hours to complete all the above mentioned actions for the content to reach the players. Players understand that this period is a launch content. As such the content does not play immediately, but players can store this content as a future version and have it start playing exactly at the set live date on the player's time zone.
 
-For example, the server is in PST and the devices are in EST. The maximum time difference is three hours in this case and assumes that promotion takes 1 minute and publishing from author to publish takes 10 min and player can download the resources typically in 10-15 minutes. Then the grace period = time difference (three hours):
+For example, the server is in PST and the devices are in EST. The maximum time difference is three hours. It assumes that promotion takes 1 minute and publishing from author to publish takes 10 minutes and the player can download the resources typically in 10-15 minutes. Then the grace period = time difference (three hours):
 
 * Plus time to promote the launch (1 minute)
 * Plus time to publish the launch (10 minutes)
 * Plus time to download at player (10-15 minutes)
 * Plus buffer (30 minutes)
 
-Equals 3 hours 56 minutes (14160 seconds). 
+Therefore, 3 hours 56 minutes (14160 seconds). 
 
-So, whenever you schedule any launch live, the promotion starts early by this offset. In the above equation, most of the items do not take much time. You can use a decent guess for this offset when know the maximum time difference between the server and any player.
+So, whenever you schedule any launch live, the promotion starts early by taking into account this offset. In the above equation, most of the items do not take much time. You can use a decent guess for this offset when know the maximum time difference between the server and any player.
 
 >[!NOTE]
 >
->Out-of-the-box, the grace period for Screens Launch is set to 24 hours. This means that when you set live date for any launch for the resources under */content/screens*, the promotion starts with this offset.
+>Out-of-the-box, the grace period for Screens Launch is set to 24 hours. This means that when you set a live date for any launch for the resources under */content/screens*, the promotion starts with this offset.
 
-### Updating out-of-the-box Grace Period {#updating-out-of-the-box-grace-period}
+### Updating out-of-the-box grace period {#updating-out-of-the-box-grace-period}
 
-This section explains how you can update an out-of-the-box Grace Period to 10 minutes.
+This section explains how you can update an out-of-the-box grace period to 10 minutes.
 
 1. Navigate to CRXDE Lite and then to `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Right-click and copy the file.
 1. Navigate to `/apps/system/config` and right-click and paste.
 1. Double-click `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` so you can open the file in the editor in CRXDE Lite. It must show the grace period for the path */content/screens/* as **86400**. Change that value to **600**.
 
- Now the content in the text file should look similar to:
+ Now, the content in the text file should look similar to:
 
 ```java
 launches.eventhandler.launch.promotion.graceperiod=[ \
@@ -75,9 +75,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Because you had set the Grace Period to 10 minutes in the preceding example, when you set live date for any launch for the resources under */content/screens*, the promotion starts with this offset. 
+You set the grace period to 10 minutes in the preceding example. Therefore, when you set a live date for any launch for the resources under */content/screens*, the promotion starts with this offset. 
 
-For example, if the live date is set as November 24, 9:00 A.M. and grace period is 600 seconds, the promotion job starts November 24 at 8:50 A.M.
+For example, if the live date is set as November 24, 9:00 A.M. and the grace period is 600 seconds, the promotion job starts November 24 at 8:50 A.M.
 
 ## Using Screens Launch {#using-launches}
 
@@ -106,9 +106,9 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
    ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >You can use **+ Add Channels** option to add another channel for which you want to create the launch.
+   >You can use the **+ Add Channels** option to add another channel for which you want to create the launch.
 
-   To use **Add Channels** option, navigate to the channel for which you want to create the launch for and click **Select**. 
+   To use the **Add Channels** option, navigate to the channel for which you want to create the launch for and click **Select**. 
    
    The **Select** option is disabled if you try to click multiple channels or a folder for adding the launch.
    
@@ -140,7 +140,7 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
 
       >[!CAUTION]
       >
-      >Launch live date respects player/device's timezone rather than server's.
+      >Launch live date respects player/device's timezone rather than servers.
 
 1. Notice that your launch is created. You can either click **Open** to view the pages in the editor or click **Done** to navigate back to your project.
 
@@ -156,7 +156,7 @@ Follow the steps below to implement Screens Launch functionality to your AEM Scr
 After the launch is created, you can update the properties such as live date, launch title, and promotion scope by using **Launch Properties**.
 
 * **Launch Date** &ndash; The live date, that is, the date or time the content plays in the Screens player as per the player's timezone.
-* **Production Ready** &ndash; Allows the channels to be published after promoting these, out-of-the-box this is enabled, so no need to change this.
+* **Production Ready** &ndash; After promotion, it allows the channels to be published, and out-of-the-box is enabled, so no need to change it.
 * **Scope** &ndash; Decides which channels are promoted during the launch promotion.
 
 Follow the steps below to edit the launch properties:
@@ -173,11 +173,11 @@ Follow the steps below to edit the launch properties:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Editing the Screens Launch to Add or Remove Channels  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Editing the Screens Launch to Add or Remove Channels {#editing-the-screens-launch-to-add-or-remove-channels}
 
-After you have created the launch, you can add or remove channels to the existing launch using **Edit Launch** option.
+After you have created the launch, you can add or remove channels to the existing launch using the **Edit Launch** option.
 
-When you are done, click **Save** to navigate back to **FutureLaunch** channel.
+When you are done, click **Save** to navigate back to the **FutureLaunch** channel.
 
 ### Promoting the Screens Launch Manually{#promote-the-screens-launch-manually}
 
@@ -198,7 +198,7 @@ You can choose the resources you want to promote as part of this manual promotio
 
 ### Deleting the Screens Launch
 
-You can delete the launch using **Delete Launch** option from the **PENDING LAUNCHES** panel.
+You can delete the launch using the **Delete Launch** option from the **PENDING LAUNCHES** panel.
 
 >[!CAUTION]
 >

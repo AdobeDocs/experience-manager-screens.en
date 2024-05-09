@@ -241,7 +241,7 @@ Install a minimum version of AEM 6.5 Feature Pack 8 for the AMS connector to wor
 
 The service is used to define the public hostname for the author and publish instances, and the values are then used to update the device server URLs and also for ContextHub targeting.
 
-CQ Link Externalizer service in Screens can be configured by way of:
+CQ Link Externalizer service in Screens can be configured in the following way:
 
 1. Navigate to `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer
