@@ -6,7 +6,7 @@ description: Learn more about the security checklist for AEM Screens.
 # System Security Considerations for AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->This is an internal Git Resource.
+>An internal Git Resource.
 
 This page highlights the System Security Considerations for AEM Screens.
 
@@ -18,7 +18,7 @@ This section describes the white paper. (Pending White Paper attachment)
 
 ## FAQs for AEM Screens Security {#faqs-screens}
 
-The following FAQs assume an authenticated, registered player architecture using HTTPS as the communication protocol between player and AEM Server.
+The following FAQs assume an authenticated, registered player architecture. It uses HTTPS as the communication protocol between the player and AEM Server.
 
 ### FAQ 1 {#faq1}
 
@@ -35,7 +35,7 @@ Should I use HTTP or HTTPs?
 
 **Answer**
 
-Use HTTPs. This is a must-have if you are concerned about security. With HTTPs, the communication is encrypted between player and server, and intercepting the content or modifying it is impossible.
+Use HTTPs. This protocol is a must-have if you are concerned about security. With HTTPs, the communication is encrypted between player and server, and intercepting the content or modifying it is impossible.
 
 
 ### FAQ 3 {#faq3}
@@ -44,7 +44,7 @@ On a content download, is there any sort of signing of the content or hash?
 
 **Answer**
 
-Every asset is signed (SHA) by the server and then validated by the player for the same hash to guarantee integrity.
+Every asset is signed (SHA) by the server. The player then validates it for the same hash to guarantee integrity.
 If the hash does not match, the software tries to revalidate three times. After three attempts, the download command is considered invalid.
 
 
@@ -67,7 +67,7 @@ A physically compromised player can theoretically be manipulated to play any con
 
 Put the devices out of reach, preferably in a secured container, with cabling secured as well. Also disable any IR-remote ports.
 
-If device OS is not updated regularly, the OS may be left exposed to security holes and allow remote attacks over the network.
+If the device OS is not updated regularly, the OS may be left exposed to security holes and allow remote attacks over the network.
 
 >[!NOTE]
 >

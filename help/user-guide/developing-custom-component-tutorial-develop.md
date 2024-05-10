@@ -41,7 +41,7 @@ A Screens project's source code is typically managed as a multi-module Maven pro
    [Get File](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Get File](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Optionally** if working with Eclipse or another IDE download the below source package. Deploy the project to a local AEM instance by using the Maven command:
+   **Optionally** If working with Eclipse or another IDE, download the below source package. Deploy the project to a local AEM instance by using the Maven command:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -60,7 +60,7 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
 1. The **screens-weretail-run.ui.apps** package installs code beneath `/apps/weretail-run`.
 
-   This package contains the code responsible for rendering custom components for the project. This package includes component code and any JavaScript or CSS needed. This package also embeds **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** which contains any Java&trade; code needed by the project.
+   This package contains the code responsible for rendering custom components for the project. This package includes component code and any JavaScript or CSS needed. This package also embeds **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** that contains any Java&trade; code needed by the project.
 
    >[!NOTE]
    >
@@ -78,11 +78,11 @@ A Screens project's source code is typically managed as a multi-module Maven pro
     * `/content/dam/we-retail-run`
     * `/content/screens/we-retail-run`
 
-   This package contains the starting content and configuration structure needed for the project. **`/conf/we-retail-run`** contains all configurations for the `We.Retail` Run project. **`/content/dam/we-retail-run`** includes starting digital assets for the project. **`/content/screens/we-retail-run`** contains the Screens content structure. The content beneath all of these paths is updated primarily in AEM. To promote consistency between environments (local, Dev, Stage, Prod) often a base content structure is saved in source control.
+   This package contains the starting content and configuration structure needed for the project. **`/conf/we-retail-run`** contains all configurations for the `We.Retail` Run project. **`/content/dam/we-retail-run`** includes starting digital assets for the project. **`/content/screens/we-retail-run`** contains the Screens content structure. The content of all of these paths is updated primarily in AEM. To promote consistency between environments (local, Dev, Stage, Prod) often a base content structure is saved in source control.
 
 1. **Navigate to the AEM Screens > `We.Retail` Run project:**
 
-   From the AEM Start Menu, click the Screens the icon. Verify the `We.Retail` Run Project is seen.
+   From the AEM Start Menu, click the Screens icon. Verify the `We.Retail` Run Project is seen.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -110,7 +110,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
 
    Properties for /apps/weretail-run/components/content/helloworld
 
-   The **Hello World** component extends the **foundation/components/parbase** component so it can properly be used inside a sequence channel.
+   The **Hello World** component extends the **foundation, components, parbase** component so it can properly be used inside a Sequence channel.
 
 1. Create a file beneath `/apps/weretail-run/components/content/helloworld` named `helloworld.html.`
 
@@ -152,7 +152,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
    </div>
    ```
 
-   The above is the production markup for the Hello World Component. A `data-duration` attribute is included since the component is used on a Sequence channel. The `data-duration` attribute is used by the sequence channel to know for how long a sequence item is to be displayed.
+   The above is the production markup for the Hello World component. A `data-duration` attribute is included since the component is used on a Sequence channel. The `data-duration` attribute is used by the Sequence channel to know for how long a sequence item is to be displayed.
 
    The component renders a `div` and an `h1` tag with text. `${properties.message}` is a portion of HTL script that outputs the contents of a JCR property that is named `message`. A dialog box is created later that allows a user to enter a value for the `message` property text.
 
@@ -184,20 +184,20 @@ AEM Screens has some interesting constraints that are not necessarily true for t
    </div>
    ```
 
-   The above is the edited markup for the Hello World Component. The first block displays an edited version of the component if the dialog message has been populated.
+   The above is the edited markup for the Hello World component. The first block displays an edited version of the component if the dialog message has been populated.
 
-   The second block is rendered if no dialog message has been entered. The `cq-placeholder` and `data-emptytext` render the label ***Hello World*** as a place holder in that case. The string for the label can be internationalized using i18n to support authoring in multiple locales.
+   The second block is rendered if no dialog box message has been entered. The `cq-placeholder` and `data-emptytext` render the label ***Hello World*** as a place holder in that case. The string for the label can be internationalized using i18n to support authoring in multiple locales.
 
 1. **Copy Screens Image Dialog to be used for the Hello World component.**
 
-   It is easiest to start from an existing dialog and then make modifications.
+   It is easiest to start from an existing dialog box and then make modifications.
 
-    1. Copy the dialog from: `/libs/screens/core/components/content/image/cq:dialog`
-    1. Paste the dialog beneath `/apps/weretail-run/components/content/helloworld`
+    1. Copy the dialog box from: `/libs/screens/core/components/content/image/cq:dialog`
+    1. Paste the dialog box beneath `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Update Hello World dialog to include a tab for message.**
+1. **Update the Hello World dialog box to include a tab for message.**
 
    Update the dialog so that it matches the following. The JCR node structure of the final dialog is presented below in XML:
 
@@ -268,7 +268,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
 
 Client-Side Libraries provide a mechanism to organize and manage CSS and JavaScript files necessary for an AEM implementation. 
 
-AEM Screens components are rendered differently in Edit mode vs. Preview/Production mode. Two client libraries are created: one for Edit mode, and the second for Preview/Production.
+AEM Screens components are rendered differently in Edit mode vs. Preview-Production mode. Two client libraries are created: one for Edit mode, and the second for Preview-Production.
 
 1. Create a folder for client-side libraries for the Hello World component.
 
@@ -290,9 +290,9 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    Properties for /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   The categories property is a string that identifies the client library. The cq.screens.componentscategory is used in both Edit and Preview/Production mode. Therefore any CSS/JS defined in the sharedclientlib is loaded in all modes.
+   The categories property is a string that identifies the client library. The cq.screens.componentscategory is used in both Edit and Preview-Production mode. Therefore, any CSS or JS defined in the sharedclientlib is loaded in all modes.
 
-   It is a best practice to never expose any paths directly to /apps in a production environment. The allowProxy property ensures the client library CSS and JS is referenced by way of a prefix of/etc.clientlibs. 
+   As a best practice, any paths directly to `/apps` in a production environment should never be exposed. The allowProxy property ensures the client library CSS and JS is referenced through a prefix of `/etc.clientlibs`. 
 
 1. Create file named `css.txt` beneath the shared folder.
 
@@ -339,7 +339,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
 1. Update the `categories` property of the production client library to be `cq.screens.components.production.`
 
-   This ensures that the styles are only loaded when in Preview/Production mode.
+   Doing so ensures that the styles are only loaded when in Preview-Production mode.
 
    ![Properties for /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -391,7 +391,7 @@ Below a `We.Retail` Run Design page is created that stores all configurations sp
    | Name |Type |Value |
    |---|---|---|
    | `jcr:title` |String |`We.Retail` Run |
-   | `sling:resourceType` |String |wcm/core/components/designer |
+   | `sling:resourceType` |String |`wcm`, `core`, `components`, `designer` |
    | `cq:doctype` |String |html_5 |
 
    ![Design Page at /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
@@ -400,7 +400,7 @@ Below a `We.Retail` Run Design page is created that stores all configurations sp
 
 ## Create a Sequence Channel {#create-sequence-channel}
 
-The Hello World component is for use on a Sequence Channel. To test the component, a new Sequence Channel is created.
+The Hello World component is for use on a Sequence channel. To test the component, a new Sequence channel is created.
 
 1. From the AEM Start Menu, navigate to **Screens** > **`We.Retail` Run** > and click **Channels**.
 
@@ -438,7 +438,7 @@ The Hello World component is for use on a Sequence Channel. To test the componen
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. Switch the page mode to **Edit**. The Hello World component can now be added to the page and combined with other sequence channel components.
+1. Switch the page mode to **Edit**. The Hello World component can now be added to the page and combined with other Sequence channel components.
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -450,11 +450,11 @@ The Hello World component is for use on a Sequence Channel. To test the componen
 
 ## Template for Custom Handlers {#custom-handlers}
 
-If your custom component uses external resources such as assets (images, videos, fonts, and icons), specific asset renditions, or client-side libraries (css and js), these are not automatically added to the offline configuration. The reason is because only the HTML markup is bundled by default.
+If your custom component uses external resources such as assets (images, videos, fonts, and icons), specific asset renditions, or client-side libraries (css and js), these resources are not automatically added to the offline configuration. The reason is because only the HTML markup is bundled by default.
 
-To let you customize and optimize the exact assets that are downloaded to the player, Adobe offers an extension mechanism for custom components to expose their dependencies to the offline caching logic in AEM Screens.
+To let you customize and optimize the exact assets that are downloaded to the player, Adobe offers an extension mechanism. This mechanism is for custom components to expose their dependencies to the offline caching logic in AEM Screens.
 
-The section below showcases the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project.
+The section below showcases the template for custom offline resource handlers. It also shows the minimum requirements in the `pom.xml` for that specific project.
 
 ```java
 package …;
@@ -543,7 +543,7 @@ The following code provides the minimum requirements in the `pom.xml` for that s
       </dependencies>
 ```
 
-**NOTE** : In case of AEMaaCS please use below dependency in the `pom.xml` for that specific project.
+**NOTE** : If there is AEM as a Cloud Service, use below dependency in the `pom.xml` for that specific project.
 
 ```css
    <dependencies>
@@ -571,7 +571,7 @@ The below video shows the finished component and how it can be added to a Sequen
  1. Instead of directly extending `foundation/components/parbase`, you'd have to extend either `screens/core/components/content/page` or `screens/core/components/content/experiencefragment`
  2. The name of the property you use to reference the embedded content must be `pagePath`.
 
- Using those two Screens core components also comes with the added benefit that they can take care of bundling some of the dependencies you need (client-side libraries, fonts, and so on). They do this by way of their offline config options in the component dialog box, which then reduces the responsibility of any custom offline handler you'd have to use for this. It can sometimes even completely remove the need to use one in the first place.
+ Using those two Screens core components also comes with the added benefit that they can take care of bundling some of the dependencies you need (client-side libraries, fonts, and so on). This functionality is done by way of their offline configuration options in the component dialog box. It then reduces the responsibility of any custom offline handler that you would have to use for it. It can sometimes even completely remove the need to use one in the first place.
  
 ## Finished Code {#finished-code}
 

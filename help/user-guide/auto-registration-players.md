@@ -1,6 +1,6 @@
 ---
 title: Auto Registration of Players
-description: Follow this page so you can learn about Auto Registration of Players with AMS/On-Prem Screens.
+description: Follow this page so you can learn about auto registration of Players with AMS/On-Prem Screens.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
@@ -17,7 +17,7 @@ Follow the steps below to implement auto registration of players:
 1. Log in to your AEM instance and click your AEM Screens project and click **Properties** from the action bar.
 1. Click the **Advanced** tab so you can view the **Device registration** section.
 
-1. Specify an auto registration code in **Bulk registration code** field and an optional default display in **Default display assignment** to assign to the player that is auto registered.
+1. Specify an auto registration code in the **Bulk registration code** field. Then an optional default display in the **Default display assignment** to assign to the player that is auto registered.
 
    >[!NOTE]
    >Enter a code of your choice and click a default display if needed.
@@ -38,11 +38,11 @@ Follow the section below to consider some of the best practices for Security:
 
 * Ensure that the registration code is not compromised &ndash; Configure the code in AEM just before starting the bulk registration and when done, clear that field, and save in AEM.
 
-* You can configure the path `/bin/screens/registration` to only be accessible from known IP ranges if possible.
+* You can configure the path `/bin/screens/registration` so that it is accessible only from known IP ranges, if possible.
 
 * Consider using an MDM to provision the player with the configuration. 
 
 * Always use `HTTPS` and not `HTTP` for player communication with AEM.
 
    >[!NOTE]
-   >Default display assignment currently only works for bulk registration and not for manual registration without a registration code.
+   >Default display assignment currently only works for bulk registration. It does not work for manual registration when a registration code is unavailable.
