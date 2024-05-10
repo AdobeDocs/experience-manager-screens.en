@@ -3,7 +3,7 @@ title: AEM Platform Configurations
 description: The page describes AEM Platform Configurations
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 ---
-# AEM Platform Configurations  {#platform-configurations}
+# AEM Platform Configurations {#platform-configurations}
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ See [Configuring Author and Publish in AEM Screens](https://experienceleague.ado
 
 >[!NOTE]
 >
->If there is only one Author and one Publish, you only follow the steps under **Setting up Replication Agents on Author** in [Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) page.
+>If there is only one Author and one Publish, you can only follow the steps under **Setting up Replication Agents on Author** in [Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) page.
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
@@ -43,7 +43,7 @@ Install FFMpeg following the steps for the appropriate OS (usually RHEL):
 
 ## Password Restrictions {#password-restrictions}
 
-The password policy of AEM must be disabled on the AMS instance. This can be alternately configured in the web console using the Screens device service *com.adobe.cq.screens.device.impl.DeviceService*
+The password policy of AEM must be disabled on the AMS instance. It can also be alternately configured in the web console using the Screens device service *com.adobe.cq.screens.device.impl.DeviceService*
 See **Password Restrictions** section in[Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Setting up the Environments {#setting-up-environments}
@@ -56,7 +56,7 @@ Install and run the most current versions of the following packages for your ver
 
 In addition to the above, identify any development packages (for example, WCM Core
 components) or third-party toolkits (for example, SAP Hybris) that are required.
-Install the same software packages on your local development environment. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations create problems when deploying and testing.
+Install the same software packages in your local development environment. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations create problems when deploying and testing.
 
 >[!NOTE]
 >
@@ -66,4 +66,4 @@ Install the same software packages on your local development environment. Instru
 
 Setting up ACLs explains how to segregate projects so that each individual or team handles their own project.
 
-Refer  to [Setting up ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) for more details.
+See [Setting up ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) for more details.

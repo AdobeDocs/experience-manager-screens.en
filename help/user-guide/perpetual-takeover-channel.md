@@ -1,6 +1,6 @@
 ---
 title: Perpetual TakeOver Channel
-description: Follow this use case for creating a Perpetual TakeOver Channel.
+description: Learn how to create a Perpetual TakeOver channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -14,7 +14,7 @@ The following page showcases a use case that emphasizes on setting up a project 
 ## Use case description {#use-case-description}
 
 This use case explains how to create a channel that *takes over* from the normal playing channel for a display or group of displays. The takeover occurs for a specific day and time perpetually.
-For example, there is a Perpetual TakeOver channel that plays every Friday from 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. The following example showcases creation of a perpetual takeover channel that plays allows the content to play every Wednesday for two hours from 2:00 P.M. through 4:00 P.M.
+For example, there is a Perpetual TakeOver channel that plays every Friday from 9:00 A.M. through 10:00 A.M. During this time, no other channel should play. The following example showcases the creation of a perpetual takeover channel that allows the content to play every Wednesday for two hours from 2:00 P.M. through 4:00 P.M.
 
 ### Preconditions {#preconditions}
 
@@ -78,12 +78,12 @@ Follow the steps below to set up a project:
 
 1. Click the display **TakeOver** from the **Locations** folder. Click **Assign Channel** from the action bar so you can assign the takeover channel.
 
-1. Assigning the **TakeOver** channel to your display at a scheduled time and populating the following fields from the **Channel Assignment** dialog box and selecting **Save**:
+1. Assigning the **TakeOver** channel to your display at a scheduled time. Then, populating the following fields from the **Channel Assignment** dialog box and selecting **Save**:
 
     * **Channel Path**: Click the path to the **TakeOver** channel
     * **Priority**: Set the priority of this channel greater than the **MainAdChannel**. For instance, the priority set in this example is 8.
     * **Supported Events**: Click the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
+    * **Schedule**: Enter the text for the schedule that you want this channel to run on the display. The text in the **Schedule** mentioned in this example is *on Wednesday after 14:00 and before 16:00*.
 
          >[!NOTE]
          >To learn more about the expressions you can add to the **Schedule**, see the [Example Expressions](#example-expressions) section below.
@@ -95,7 +95,7 @@ Follow the steps below to set up a project:
 
         ![asset](assets/p_usecase7.png)
 
-      Navigate to the display from **TakeOver** > **Locations** > **MainLobby** > **MainLobbyDisplay** and click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **TakeOver** > **Locations** > **MainLobby** > **MainLobbyDisplay**, Then, click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.
@@ -105,7 +105,7 @@ Follow the steps below to set up a project:
 
 ## Example Expressions {#example-expressions}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -113,8 +113,8 @@ The following table summarizes few example expressions that you can add to the s
 | after 2:00 P.M. | the channel plays after 2:00 P.M. everyday |
 | after 12:15 and before 12:45 | the channel plays after 12:15 P.M. everyday for 30 minutes |
 | before 12:15 also after 12:45 | the channel plays before 12:15 P.M. everyday and then also after 12:45 P.M. |
-| on the first day of January after 2:00 P.M. also on the second day of January also on the third day of January before 3:00 A.M. | the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
-| on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 a.m .| the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
+| on the first day of January after 2:00 P.M., also on the second day of January and also on the third day of January before 3:00 A.M. | the channel starts playing after 2:00 P.M. on January 01, continues playing for the whole day on January 02 all the way until 3:00 A.M. on January 03 |
+| on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 a.m.| the channel starts player after 2:00 P.M. on January 01, continues playing until 3:00 A.M. on January 02, then it starts again on January 02 at 2:00 P.M. and continues playing until 3:00 A.M. on January 03 |
 
 >[!NOTE]
 >
