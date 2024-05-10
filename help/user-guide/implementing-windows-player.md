@@ -51,7 +51,7 @@ The Ad-Hoc method lets you install the latest Windows Player (*.exe*). Visit the
 After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
-1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
+1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you want to connect to and click **Save**.
 1. Navigate to the **Device** **Registration** link from the left action menu so you can check the status of the device registration process.
 
 >[!NOTE]

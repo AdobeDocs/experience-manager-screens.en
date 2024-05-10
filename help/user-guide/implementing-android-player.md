@@ -1,6 +1,6 @@
 ---
-title: Implementing Android Player
-description: Learn about the implementation of Android Watchdog, a solution that lets you recover the Android player from crashes.
+title: Implementing Android&trade; Player
+description: Learn about the implementation of Android&trade; Watchdog, a solution that lets you recover the Android&trade; player from crashes.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -49,7 +49,7 @@ The Ad-Hoc method lets you install the latest Android&trade; Player (*.exe*). Vi
 After you download the application, follow the steps on the player to complete the ad-hoc installation:
 
 1. Long-press on the top-left corner to open the admin panel.
-1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you wish to connect to and click **Save**.
+1. Navigate to **Configuration** from the left action menu and enter the location (address) of the AEM instance you want to connect to and click **Save**.
 
 1. Navigate to the **Device** **Registration** link from the left action menu so you can check the status of the device registration process.
 

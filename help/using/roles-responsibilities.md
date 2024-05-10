@@ -5,9 +5,9 @@ exl-id: 9377625b-529a-4b46-89d9-f526de398639
 ---
 # Project Roles and Responsibilities {#roles-responsibilities}
 
-As an experienced AEM implementor, you likely have seen the roles being referred to as *Authors*, *Developers*, and *IT/Technicians*.
+As an experienced AEM implementor, you likely have seen the roles being referred to as *Authors*, *Developers*, and *IT Technicians*.
 
-In a typical AEM Screens project, the roles are further refined as they each serves important purpose in the project.
+In a typical AEM Screens project, the roles are further refined as they each serve an important purpose in the project.
 
 The following diagram shows the roles that you can expect to see throughout the guide.
 
@@ -19,7 +19,7 @@ The following diagram shows the roles that you can expect to see throughout the 
 
 ## Defining Roles {#roles}
 
-The following section provides an overview on the target audience:
+The following section provides an overview of the target audience:
 
 ### Adobe {#adobe-audience}
 
@@ -31,13 +31,13 @@ AEM Implementors are responsible for performing development and integration task
 
 Custom features required to address end-customer UX (User Experience) parameters are also captured and delivered through this process.
 
-AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags, with other phases incorporating support for interactive elements by way of touch screens, sensors, dynamic triggers, and so on.
+AEM Implementors will typically deploy custom functionality in phases over time to locations. For example, they might first establish support for playback of basic looped video or static graphic content. The next phase includes enabling the ability to support playback of localized content through dynamic templates and metadata tags. Other phases incorporate support for interactive elements by way of touch screens, sensors, dynamic triggers, and so on.
 
 ### Audio-Video Integrators {#av-integrators}
 
-The Audio-Video Integrator is the Hardware Vendor/Partner. This is the party that deals with retail design and site preparation, including hardware acquisition, configuration, and deployment. It is typically a contracted third party who has access to a Network Operations Center (NOC). Often the Audio-Video Integrator is the project owner due to its continuous involvement post-launch.
+The Audio-Video Integrator is the Hardware Vendor-Partner. They are the party that deals with retail design and site preparation, including hardware acquisition, configuration, and deployment. It is typically a contracted third party who has access to a Network Operations Center (NOC). Often the Audio-Video Integrator is the project owner due to its continuous involvement post-launch.
 
-An Audio-Video Integrator is responsible for conducting discovery with end-customers to define requirements determining project scope to design, build, and effectively manage deployments around digital signage hardware.
+An Audio-Video Integrator is responsible for conducting discovery with end-customers to define requirements, determining project scope to design, build, and effectively manage deployments around digital signage hardware.
 
 #### Considering Hardware Partner {#selecting-hardware-partner}
 
@@ -71,7 +71,7 @@ The Creatives and Content Management could be the following:
 
 ### Project Managers {#project-managers}
 
-Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project. They perform major responsibilities such as setting timelines, handling team needs and communications, addressing challenges, and ensuring that goals are met.
+Project Managers typically manage the entire deployment for your AEM Screens deployment. A project manager is the point person for the entire implementation of the designated project. They perform major responsibilities such as setting timelines and handling team needs. They also affect communications, addressing challenges, and ensuring that goals are met.
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ Project Managers typically manage the entire deployment for your AEM Screens dep
 
 ## Project Stages {#project-stages}
 
-To support a successful Digital Signage deployment, it is customary to segment the project into three stages. These stages are commonly referred to as **Days**. These are not literal days but designations for each major stage of the project.
+To support a successful digital signage deployment, it is customary to segment the project into three stages. These stages are commonly referred to as **Days**. They are not literal days but designations for each major stage of the project.
 
-1. The first stage is referred to as *Day Zero*. This stage includes all pre-sales and discovery efforts required to fully define project scope.
+1. The first stage is referred to as *Day Zero*. This stage includes all pre-sales and discovery efforts that are required for defining the project scope.
 1. The second stage, *Day One*, refers to all activities included in the deployment effort.
-1. The third and final stage *Day Two* refers to all ongoing operations and support elements as part of the total solution.
+1. The third and final stage is *Day Two*. It refers to all ongoing operations and support elements as part of the total solution.
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ The following table summarizes the **Day One: Day One: Project Implementation (H
 
 * **Author**: Content Management + Strategy
 
-* **Developer**: Typically a member of the AEM Screens implementation team, or handoff to internal development team
+* **Developer**: Typically a member of the AEM Screens implementation team, or handoff to an internal development team
 
-* **Technician**: Either contracted by the Audio-Video integrator or is part of the same company.
+* **Technician**: Either contracted by the Audio-Video Integrator or is part of the same company.
 
 The following table summarizes the **Day Two: Post Launch Support RACI Chart**:
 

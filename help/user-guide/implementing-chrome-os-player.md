@@ -76,7 +76,7 @@ Follow the steps below to enable the Kiosk mode:
 #### Checking Remote Device Status {#checking-remote-device-status}
 
 1. Log in to the Chrome Developer Console.
-1. Browse to **Device Management** > **Chrome Devices** and click the device you wish to control.
+1. Browse to **Device Management** > **Chrome Devices** and click the device you want to control.
 1. Click **System Activity and troubleshooting**.
 1. Check the **Reboot Device** and **Screen Capture** properties of the device. You can also check the device status and health information.
 

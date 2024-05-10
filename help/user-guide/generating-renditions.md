@@ -12,17 +12,17 @@ exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 ---
 # Video Renditions {#video-renditions}
 
-You can generate manual and automatic Full HD renditions. The following section describes the workflow to add renditions to your assets.
+You can generate manual and automatic full HD renditions. The following section describes the workflow to add renditions to your assets.
 
-## Automatically Generating Full HD Renditions  {#automatically-generating-full-hd-renditions}
+## Automatically Generating Full HD Renditions {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->In case the AEM Screens video renditions do not play optimally on your device, contact the hardware vendor for the specifications of the video. This helps to get the best performance on the device and hence creates your own custom video profile where you provide the appropriate parameters for FFMPEG to generate your rendition. Then, use the steps below to add your custom video profile to the list of profiles.
+>In case the AEM Screens video renditions do not play optimally on your device, contact the hardware vendor for the specifications of the video. Doing so helps you to get the best performance on the device. It helps you to create your own custom video profile where you provide the appropriate parameters for FFMPEG to generate your rendition. Then, use the steps below to add your custom video profile to the list of profiles.
 >
 >Also, see [Troubleshooting Videos](troubleshoot-videos.md) to debug and troubleshoot video playing in your channel.
 
-Follow the steps below to automatically generate full HD renditions:
+Follow the steps below to generate full HD renditions automatically:
 
 1. Click the Adobe Experience Manager link (top-left) and click the hammer icon so you can click **Workflow**.
 
@@ -63,7 +63,7 @@ Follow the steps below to automatically generate full HD renditions:
 
 ## Manually Generating Full HD Renditions {#manually-generating-full-hd-renditions}
 
-Follow the steps below to manually generate full HD renditions:
+Follow the steps below to generate full HD renditions manually:
 
 1. Click the Adobe Experience Manager link (top left) and click the hammer icon so you can click tools and click **Workflow**.
 

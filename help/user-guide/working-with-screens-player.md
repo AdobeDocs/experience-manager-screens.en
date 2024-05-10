@@ -1,6 +1,6 @@
 ---
 title: Working with AEM Screens Player
-description: Learn about working with the AEM Screens Player, the Admin UI, and the Channel Switcher.
+description: Learn about working with the AEM Screens Player, the Admin UI, and the channel switcher.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -18,11 +18,11 @@ You can manage the channel content and other settings on the AEM Screens Player.
 >
 >Press ***Ctrl+Cmd+F*** so you can exit fullscreen mode for OS X AEM Screens Player.
 
-After you assign a channel to a display, the AEM Screens Player displays the content. You can either configure settings for your player using the preferences for admin UI (from the dashboard) or from the player itself.
+After you assign a channel to a display, the AEM Screens Player displays the content. You can either configure settings for your player using the preferences for Admin UI (from the dashboard) or from the player itself.
 
 ## Using the Device Dashboard {#using-the-device-dashboard}
 
-You can configure preferences for your device from the Device Dashboard, accessible by way of your AEM authoring instance.
+You can configure preferences for your device from the Device dashboard, accessible by way of your AEM authoring instance.
 
 1. Navigate to the device dashboard from your project, for example, ***Test Project*** > ***Devices***.
 
@@ -34,15 +34,15 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Check the **PREFERENCES** panel. You can enable/disable the **Admin UI** and **Channel Switcher** for your player from these two options.
+1. Check the **PREFERENCES** panel. You can enable or disable the **Admin UI** and **Channel Switcher** for your player from these two options.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### The Admin UI {#the-admin-ui}
 
-Enabling the **Admin UI** from the preferences panel allows the user to open the admin settings from the Screens Player. Also, if you disable this option from the device dashboard, the user cannot open the admin UI from the player.
+Enabling the **Admin UI** from the preferences panel allows the user to open the admin settings from the Screens Player. Also, if you disable this option from the device dashboard, the user cannot open the Admin UI from the player.
 
-To view the admin UI from the Screens player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse. Information is displayed after registration is complete and the channels are loaded.
+To view the Admin UI from the Screens Player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse. Information is displayed after registration is complete and the channels are loaded.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ The Configuration menu lets you modify the following settings:
 
 * Specify the number of maximum log files that you want to keep for an AEM Screens Player in **Max No. of log files to keep**.
 
-* Enable or disable **Admin Menu**, **Channel Switcher**, and **Activity UI** for the Screens player.
+* Enable or disable the **Admin Menu**, **Channel Switcher**, and **Activity UI** for the Screens Player.
 
    If the **Activity UI** is enabled from the **Configuration** menu, the AEM Screens Player displays the *player activity notifications* in the top right-hand corner of the player, as shown in the figure below.
 
@@ -86,7 +86,7 @@ Click the **Content Cache** from the side rail so you can update the cache.
 
 ### The Channel Switcher {#the-channel-switcher}
 
-Enabling the **Channel Switcher** from the preferences panel allows the user to open the channel selection/settings from the Screens Player.
+Enabling the **Channel Switcher** from the preferences panel lets the user open the channel selection settings from the Screens Player.
 
 Also, if you disable this option from the device dashboard, the user cannot control channel preferences from the Screens Player.
 
@@ -98,19 +98,19 @@ To view the channel switcher from the player, long press the lower left corner t
 
 >[!NOTE]
 >
->You can also enable or disable the admin menu and the channel switcher for the player from the Screens player.
+>You can also enable or disable the admin menu and the channel switcher for the player from the Screens Player.
 >
 >(See *Change Preferences from Screens Player* as mentioned in the section below).
 
 ### Managing Preferences from the AEM Screens Player
 
-You can also change the settings for admin UI and channel switcher from the player itself.
+You can also change the settings for Admin UI and channel switcher from the player itself.
 
 To change preferences from your Player:
 
 1. Long-press on the top-left corner on the idle channel to open the admin panel.
 1. Navigate to **Configuration** from the left action menu.
-1. Enable/disable configuration for **Admin UI** or **Channel Switcher**.
+1. Enable or disable the configuration for **Admin UI** or **Channel Switcher**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -121,11 +121,11 @@ You can troubleshoot various issues associated with the AEM Screens Player (hard
 | **Issues** |**Recommendations** |
 |---|---|
 | Player storage is full |Eliminate unnecessary files |
-| Player lost network |Use Cat-5/Cat-6 cable. For wifi, reduce the distance from the router to the player device |
+| Player lost network |Use Cat-5 or Cat-6 cable. For wifi, reduce the distance from the router to the player device |
 | AEM Screens Player crashed |It is recommended to have a watchdog app that makes sure the AEM Screens Player always runs |
 | AEM Screens Player lost settings |Check connection to AEM server |
-| AEM Screens Player does not auto-start after Player restart/reboot |Check OS start folder or initialization procedure |
-| AEM Screens Player shows wrong/old content |Check network connection |
+| AEM Screens Player does not auto-start after Player restart or reboot |Check OS start folder or initialization procedure |
+| AEM Screens Player shows wrong or old content |Check network connection |
 
 ### Updates for AEM Screens Player
 
@@ -134,7 +134,7 @@ There are two types of updates for the AEM Screens Player:
 | **Method** |**Details** |**by way of Remote** |**Automated** |**0 Downtime** |
 |---|---|---|---|---|
 | Firmware Update |Applied on existing installed Players by way of remote command. After the update, the Player auto-reloads with the existing content. |Yes |Custom |Almost - 1-3 seconds |
-| Player Shell Updates |This is a new executable to be deployed on the Player. This requires to remote copy new binary on the player and stop the currently running and start the new version. This might require downloading the pre-load of the packages again. |Yes (by way of remote shell) |Custom |No |
+| Player Shell Updates |A new executable that is deployed on the Player. This functionality requires you to remote copy the new binary on the player and stop the currently running and start the new version. It may require downloading the pre-load of the packages again. |Yes (by way of remote shell) |Custom |No |
 
 ## Hardware Selection Guidelines for Player Device {#hardware-selection-guidelines-for-player-device}
 
@@ -145,7 +145,7 @@ The following section provides the hardware selection guidelines for a Screens P
 * Always engage with vendors who serve the digital signage market.
 * Always consider environmental factors such as ambient temperature and relative humidity.
 * Always review power requirements and power conditioning.
-* Carefully review performance needs and I/O ports required for application.
+* Carefully review the performance needs and I/O ports required for application.
 
 The following table summarizes the hardware configurations with typical use cases for an AEM Screens project:
 
