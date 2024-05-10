@@ -543,6 +543,21 @@ The following code provides the minimum requirements in the `pom.xml` for that s
       </dependencies>
 ```
 
+**NOTE** : In case of AEMaaCS please use below dependency in the `pom.xml` for that specific project.
+
+```css
+   <dependencies>
+        …
+        <!-- AEM Screens SDK API with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-screens-sdk-api</artifactId>
+            <version>1.0.8</version>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## Putting it all together {#putting-it-all-together}
 
 The below video shows the finished component and how it can be added to a Sequence channel. The Channel is then added to a Location display and ultimately assigned to a Screens player.
