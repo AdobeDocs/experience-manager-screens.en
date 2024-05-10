@@ -13,7 +13,7 @@ exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 ---
 # Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-You can embed an interactive single page application using REACT (or Angular). You do so by using the AEM SPA editor that is configured by business professionals in AEM. You can also learn how to integrate your interactive application with offline Adobe Analytics.
+You can embed an interactive single page application using REACT (or Angular). You do so by using the AEM SPA editor that business professionals in AEM configure. You can also learn how to integrate your interactive application with offline Adobe Analytics.
 
 ## Using the AEM SPA Editor {#using-the-aem-spa-editor}
 
@@ -50,7 +50,7 @@ Follow the steps below to use the AEM SPA Editor:
 To edit the contents in the REACT app:
 
 1. Navigate to `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (replace the hostname, port, and project name as applicable).
-1. You should be able to edit the text being displayed in the Hello world application.
+1. Be able to edit the text being displayed in the Hello World application.
 
 ### Adding the interactive REACT app to AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -75,7 +75,7 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Drag and drop the **Embedded Page** component , or reuse the existing component in an application channel, and click the home page under the mysamplespa application, for example, ***/content/mysamplespa/en/home***.
+1. Drag and drop the **Embedded Page** component, or reuse the existing component in an application channel, and click the home page under the mysamplespa application, for example, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -84,7 +84,7 @@ Follow the steps below to add the interactive REACT app to AEM Screens:
     >[!NOTE]
     >Make sure you add the user interaction event when assigning the channel to the display.
 
-1. Register a player against this project and assign it to the display. You should now be able to see your interactive application running on AEM Screens.
+1. Register a player against this project and assign it to the display. You can now see your interactive application running on AEM Screens.
 
    See [Device Registration](device-registration.md) for more information about registering a device.
 
@@ -96,8 +96,8 @@ Follow the steps below to integrate the SPA with Adobe Analytics with offline ca
 
    See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) for more information about how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
 
-1. Edit your react app in the IDE/editor of your choice (especially the text component or other component which you wish to start emitting events).
-1. On the click event or other event that you wish to capture for your component, add the analytics information using the standard data model.
+1. Edit your react app in the IDE/editor of your choice (especially the text component or other component that you want to start emitting events).
+1. On the click event or other event that you want to capture for your component, add the analytics information using the standard data model.
 
    See [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md) for more details.
 

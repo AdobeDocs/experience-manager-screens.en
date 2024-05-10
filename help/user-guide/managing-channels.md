@@ -23,7 +23,7 @@ After you create your project for AEM Screens, follow the steps below to create 
 
 1. Click the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly to `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigate to your Screens project and click **Channels** folder.
+1. Navigate to your Screens project and click the **Channels** folder.
 
 1. Click **Create** from the action bar.
 
@@ -45,15 +45,15 @@ The following template options are available while using the wizard such as:
 
 | **Template option** |**Description** |
 |---|---|
-| Channels Folder |Lets you create a folder to store collection of channels. |
-| Sequence Channel |Lets you create a channel that plays the components sequentially (one by one in a slide show). |
-| Application Channel |Lets you showcase your custom web application in Screens player. |
-| 1x1 Split Screen Channel |Lets you view a component in a single zone. |
-| 1x2 Split Screen Channel |Lets you view the assets in two zones (split horizontally). |
-| 2X1 Split Screen Channel |Lets you view the assets in two zones (split vertically). |
-| 2x2 Split Screen Channel |Lets you view the assets in four zones (split horizontally and vertically in a matrix). |
-| 2 to 3 Split Screen Channel |Lets you view the assets in two zones (split horizontally) with one of the zones being larger than the other one. |
-| Left or Right L-Bar Split Screen Channel |Lets content authors to view different types of assets in appropriately sized zones. |
+| Channels Folder |Create a folder to store a collection of channels. |
+| Sequence Channel |Create a channel that plays the components sequentially (one by one in a slide show). |
+| Application Channel |Showcase your custom web application in the Screens player. |
+| 1x1 Split Screen Channel |View a component in a single zone. |
+| 1x2 Split Screen Channel |View the assets in two zones (split horizontally). |
+| 2X1 Split Screen Channel |View the assets in two zones (split vertically). |
+| 2x2 Split Screen Channel |View the assets in four zones (split horizontally and vertically in a matrix). |
+| 2 to 3 Split Screen Channel |View the assets in two zones (split horizontally) with one of the zones being larger than the other one. |
+| Left or Right L-Bar Split Screen Channel |Content authors can view different types of assets in appropriately sized zones. |
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Follow the steps below to upload videos to your channel:
 
 ### Channel Information {#channel-information}
 
-The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you the information on whether the channel is offline or online.
+The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you with information on whether the channel is offline or online.
 
 Click the (**...**) from the **CHANNEL INFORMATION** action bar so you can view properties, edit the content, or update the cache (offline content) for the channel.
 
@@ -126,11 +126,11 @@ Follow these steps so you can enable this option from the channel dashboard:
 
 1. **Set the Channel to Offline**
    1. Click the channel and click **Properties** from the action bar
-   1. Navigate to **Channel** tab and make sure that you uncheck **Developer Mode (force channel to be online)** option
+   1. Navigate to the **Channel** tab and make sure that you uncheck **Developer Mode (force channel to be online)** option
    1. Click **Save & Close**
 1. **Update Offline Content**
    1. Click the channel and click **Dashboard** from the action bar
-   1. Navigate to **CHANNEL INFORMATION** panel and click *...*
+   1. Navigate to the **CHANNEL INFORMATION** panel and click *...*
    1. Click **Update Offline Content**
 
 You should see the **View Manifest** option from the **CHANNEL INFORMATION** panel in the Channel dashboard.
@@ -163,7 +163,7 @@ Follow the steps below to make the channel online:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Check the **Developer** **mode (force channel to be online)** to make the channel as online.
+1. Check the **Developer** **mode (force the channel to be online)** to make the channel as online.
 
    Click **Save & Close** to save your option.
 
@@ -191,7 +191,7 @@ The following table summarizes the events associated with the automatic and manu
   </tr>
   <tr>
    <td>Change in Online Channel</td>
-   <td>Content updated automatically</td>
+   <td>Content is updated automatically</td>
    <td><p>Content updated on "Device: Push Config"</p> <p>Or,</p> <p>Content updated on <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
   <tr>
@@ -201,7 +201,7 @@ The following table summarizes the events associated with the automatic and manu
   </tr>
   <tr>
    <td>Change in Offline Channel and Channel "Push Content" is triggered (new offline package)</td>
-   <td>Content updated automatically</td>
+   <td>Content is updated automatically</td>
    <td><p>Content updated on <strong><i>Device: Push Config</i></strong></p> <p>Or,</p> <p>Content updated on <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
   <tr>
@@ -212,15 +212,15 @@ The following table summarizes the events associated with the automatic and manu
      <li>Channel assignments (new channel, removed channel)</li>
      <li>Channel assignment (role, event, scheduling)</li>
     </ul> </td>
-   <td>Config updated automatically</td>
-   <td><p>Config updated on <strong><i>Device: Push Config</i></strong></p> <p>Or,</p> <p>Config updated on <strong><i>Device: Restart</i></strong></p> </td>
+   <td>Configuration is updated automatically</td>
+   <td><p>Configuration is updated on <strong><i>Device: Push Config</i></strong></p> <p>Or,</p> <p>Config updated on <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
 
 ### Assigned Displays {#assigned-displays}
 
-The **Assigned Displays** panel shows the display associated to the channel. It provides a snapshot of the assigned display along with the resolution.
+The **Assigned Displays** panel shows the display associated with the channel. It provides a snapshot of the assigned display along with the resolution.
 
 The associated displays are listed in the **Assigned Displays** panel, as shown below:
 
@@ -241,7 +241,7 @@ Also, click the display in the **ASSIGNED DISPLAYS** panel, to view the display 
 
 The next step after creating a channel and adding/editing content in your channel is to learn how to create a location and display. Furthermore, then assign a channel to that display.
 
-See the following resources for next steps:
+See the following resources for the next steps:
 
 * [Create and Manage Channels](managing-channels.md)
 * [Create and Manage Locations](managing-locations.md)

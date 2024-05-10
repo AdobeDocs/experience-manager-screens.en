@@ -15,7 +15,7 @@ The following questions should be considered while defining hardware content str
 
 1. How the retail layout should be aligned with content strategy?
 
-1. Will interactions (that is, touchscreen, motion detection) required?
+1. Will interactions (that is, touchscreen, motion detection) be required?
 
 1. What is the purpose of the digital signage?
 

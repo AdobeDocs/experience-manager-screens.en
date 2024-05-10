@@ -41,15 +41,15 @@ The following section explains the creation of a single event playback inside a 
 
 Before you start implementing this functionality, make sure you have the following prerequisites ready to start implementing channel level activation:
 
-* Create an AEM Screens project, in this example, **Channel Level Activation**
+* Create an AEM Screens project, in this example, **Channel Level Activation**.
 
-* Create a channel as **MainAdChannel** under **Channels** folder
+* Create a channel as **MainAdChannel** under the **Channels** folder.
 
-* Create another channel as **TargetedSinglePlay** under **Channels** folder
+* Create another channel as **TargetedSinglePlay** under the **Channels** folder.
 
-* Add relevant assets to both the channels
+* Add relevant assets to both the channels.
 
-The following image shows the **Channel Level Activation** project with **MainAdChannel** and **TargetedSinglePlay** channels in **Channels** folder.
+The following image shows the **Channel Level Activation** project with **MainAdChannel** and **TargetedSinglePlay** channels in the **Channels** folder.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -95,35 +95,33 @@ Follow the steps below to implement the functionality:
    For **MainAdChannel:**
 
     1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
-    1. **Channel Assignment** dialog box opens.
-    1. Click **Reference Channel** by path.
-    1. Click the **Channel Path** as **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
+    1. In the **Channel Assignment** dialog box, Click **Reference Channel** by path.
+    1. Click the **Channel Path**, then click **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
-    1. Click the **Priority** as **1**.
-    1. Click the **Supported Events** as **Initial Load** and **Idle Screen**.
+    1. Click the **Priority** and set to **1**.
+    1. Click the **Supported Events** such as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and selecting **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   >You can also assign the channel from the display dashboard. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay**. On the action bar, select **Dashboard**. From the **ASSIGNED CHANNELS & SCHEDULES** panel, click **+ Assign Channel**.
 
    Similarly, assign channel **TargetedSinglePlay** for display**:
 
     1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
-    1. **Channel Assignment** dialog box opens.
-    1. Click **Reference Channel** by path.
-    1. Click the **Channel Path** as **Channel Level Activation*** > ***Channels*** > ***TargetedSinglePlay***.
+    1. In the **Channel Assignment** dialog box, click **Reference Channel** by path.
+    1. Click the **Channel Path**, then click **Channel Level Activation** > ***Channels*** > ***TargetedSinglePlay***.
     1. The **Channel Role** is populated as **targetedsingleplay**.
-    1. Set the **Priority** as **2**.
-    1. Click the **Supported Events** as **Initial Load**, **Idle Screen**, and **Timer**, as shown in the figure below.
-    1. Choose the date in **active from** as November 27, 2018 11:59 P.M. and in **active until** as November 28, 2018 12:05 A.M.
+    1. Set the **Priority** to **2**.
+    1. Click the **Supported Events**, and set **Initial Load**, **Idle Screen**, and **Timer**, as shown in the figure below.
+    1. In **active from**, set as November 27, 2018, 11:59 P.M., and in **active until**, set as November 28, 2018, 12:05 A.M.
     1. Click **Save**.
 
    >[!CAUTION]
    >
-   >Set the priority for **TargetedSinglePlay** channel higher than the **MainAdSegment** channel.
+   >Set the priority for the **TargetedSinglePlay** channel higher than the **MainAdSegment** channel.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -148,9 +146,9 @@ The player displays the content of **MainAdChannel** and exactly at 11:59 P.M. (
 
 ## Handling Recurrence for Assets in a Channel {#handling-recurrence-in-assets}
 
-You can schedule assets in a channel to recur at certain intervals on daily, weekly, or monthly basis too as per your requirement.
+You can schedule assets in a channel to recur at certain intervals on a daily, weekly, or monthly basis as per your requirement.
 
-Suppose you want to display contents of a channel only on Fridays from 1:00 P.M. until 10:00 P.M.. You can use the **Activation** tab to set the desired recurring interval for your asset.
+Suppose you want to display the contents of a channel only on Fridays from 1:00 P.M. until 10:00 P.M.. You can use the **Activation** tab to set the desired recurring interval for your asset.
 
 ### Day Parting {#day-parting}
 
@@ -166,7 +164,7 @@ Suppose you want to display contents of a channel only on Fridays from 1:00 P.M.
 
 #### Example Expressions for Day Parting {#example-one}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -175,7 +173,7 @@ The following table summarizes few example expressions that you can add to the s
 | after 12:15 and before 12:45 | the asset in the channel plays after 12:15 P.M. everyday for 30 minutes |
 | before 12:15 also after 12:45 | the asset in the channel plays before 12:15 P.M. everyday and then also after 12:45 P.M. |
 | Mon,Tue,Wed, or Mon-Wed | the asset plays in the asset in the channel from Monday until Wednesday |
-| on the first day of January after 2:00 P.M. also on the second day of January also on the third day of January before 3:00 A.M. | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
+| on the first day of January after 2:00 P.M., also on the second day of January and also on the third day of January before 3:00 A.M. | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
 | on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M. | the asset in the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
 
 >[!NOTE]
@@ -196,7 +194,7 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for WeekParting {#example-two}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -225,7 +223,7 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for MonthParting {#example-three}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -253,12 +251,12 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for Combination of Partings {#example-four}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
-| after 6:00 and before 18:00 on Mon, Wed of Jan-Mar | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to end of March |
-| on the first day of January after 2:00 P.M. also on the second day of January also on the third day of January before 3:00 A.M. | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
+| after 6:00 and before 18:00 on Mon, Wed of Jan-Mar | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to the end of March |
+| on the first day of January after 2:00 P.M., also on the second day of January and also on the third day of January before 3:00 A.M. | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
 | on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M. | the asset in the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
 
 >[!NOTE]
