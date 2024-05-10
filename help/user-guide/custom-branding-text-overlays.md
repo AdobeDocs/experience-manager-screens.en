@@ -1,6 +1,6 @@
 ---
-title: Applying Custom Branding and Styling for Text Overlays
-description: Learn how to apply custom branding and styling for Text Overlays applied to assets in an AEM Screens channel.
+title: Applying Custom Branding and Styling for text overlays
+description: Learn how to apply custom branding and styling for text overlays applied to assets in an AEM Screens channel.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
@@ -9,17 +9,17 @@ exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 ---
 # Custom Branding and Styling for Text Overlays {#creating-custom-branding-styling}
 
-Learn how to apply custom branding and styling for Text Overlays applied to your assets in an AEM Screens channel.
+Learn how to apply custom branding and styling for text overlays applied to your assets in an AEM Screens channel.
 
 ## Creating Custom Branding and Styling for Text Overlays {#steps-custom-branding}
 
 Follow the steps below to create custom branding and styling for text overlays:
 
-1. Create an AEM Screens project. This example showcases the functionality by creating a project named **`customstyle`** and a channel titled **DemoBrand** , as shown in the figure below.
+1. Create an AEM Screens project. This example showcases the functionality by creating a project named **`customstyle`** and a channel titled **DemoBrand**, as shown in the figure below.
 
     ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. From the editor, drag-and-drop an image and add text overlay to the asset.
+1. From the editor, drag-and-drop an image and add a text overlay to the asset.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand2.png)  
 
@@ -32,7 +32,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Create *static.css* file and set the following css rules. Also shown as an example in the figure below the css rules.
+1. Create a *static.css* file and set the following css rules. Also shown as an example in the figure below the css rules.
 
     ```shell
      //global styles
@@ -67,7 +67,7 @@ Follow the steps below to create custom branding and styling for text overlays:
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Be default, the **Design** field shows the path pointing to designs  in libs folder.
+   >Be default, the **Design** field shows the path pointing to designs in the libs folder.
 
 1. Update the **Design** field with the path to your project folder. In this case, it is `/apps/settings/wcm/designs/customstyle`.
 
@@ -90,7 +90,7 @@ Follow the steps below to create custom branding and styling for text overlays:
 
 ### Updating ACLs {#updating-acls}
 
-Update the ACLs for these designs so that they can be downloaded by the player.
+Update the ACLs for these designs so the player can download them.
 
 1. Navigate to user admin and choose the `screens-<project>-devices group` and give it read permission to the custom design path.
 
@@ -116,7 +116,7 @@ Follow the steps below to view the updated design to text overlay:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Also, you can remove the last two blocks of code from *static.css* file to remove the boxed styling around the text overlay.
+1. Also, you can remove the last two blocks of code from the *static.css* file to remove the boxed styling around the text overlay.
 
   ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
@@ -124,4 +124,4 @@ Follow the steps below to view the updated design to text overlay:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Now you are ready to update your brand and custom styling for text overlays added to your assets.
+   Now, you are ready to update your brand and custom styling for text overlays added to your assets.

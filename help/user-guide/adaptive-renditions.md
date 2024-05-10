@@ -7,11 +7,11 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 
 ## Introduction {#introduction}
 
-Adaptive Renditions allow the devices to automatically click the best rendition for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules allowing customers to only focus on designing the *main* experience.
+Adaptive Renditions lets devices click the best rendition automatically for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules, allowing customers to focus on designing the *main* experience only.
 
 ## Objective {#objective}
 
-As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. Configure the Adaptive Renditions before a content Author can use this feature in an AEM Screens channel.
+As an AEM Screens Developer, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually. Configure the Adaptive Renditions before a Content Author can use this feature in an AEM Screens channel.
 
 ## Architectural Overview {#architectural-overview}
 
@@ -35,7 +35,7 @@ Follow the steps below to configure the setup:
    >![image](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >If you installed the latest Feature Pack 202109, you see the **rendition-mapping** node structure pre-populated in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. See [Release Notes for Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) to get details on the latest feature pack.
+   >If you installed the latest Feature Pack 202109, you see the **rendition-mapping** node structure pre-populated in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. See [Release Notes for Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) to get details on the latest Feature Pack.
    >For existing projects, ensure that Screens project has the **rendition-mapping** configuration associated. See [Adding Rendition Mapping to an Existing Project](#rendition-mapping-existing) section for more information.
 
 ### Adding Rendition Mapping Property to an Existing Project {#rendition-mapping-existing}
@@ -66,7 +66,7 @@ Follow the steps below to add a node under Rendition Mapping:
    >[!NOTE]
    >See [Using Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) to learn more.
 
-   Click **rule1** that you created, and enter **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Click **Add**.
+   Click **rule1** that you created, and enter the **expression** in **Name** and **(orientation:landscape)** in **Value**, as shown below. Click **Add**.
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -75,7 +75,7 @@ Follow the steps below to add a node under Rendition Mapping:
    >[!NOTE]
    >The value defined in the pattern property is matched to the new asset rendition and is selected, if the expression is evaluated to true.
 
-   To add the pattern property, click **rule1** that you created, and enter **pattern** in **Name** and **landscape** in **Value**, as shown below. Click **Add**. 
+   To add the pattern property, click **rule1** that you created, and enter the **pattern** in **Name** and **landscape** in **Value**, as shown below. Click **Add**. 
 
    ![image](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -85,4 +85,4 @@ Follow the steps below to add a node under Rendition Mapping:
 
 ## The Next Steps {#next-steps}
 
-After you add rendition-mapping properties and rules, as a Content Author, you can configure your assets. You do this by using Adaptive Renditions and also migrate your devices for large networks to use this feature in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more information.
+After you add rendition-mapping properties and rules, as a Content Author, you can configure your assets. You can use Adaptive Renditions and also migrate your devices for large networks to use this feature in your AEM Screens channels. See [Using Adaptive Renditions in AEM Screens](/help/user-guide/using-adaptive-renditions.md) for more information.

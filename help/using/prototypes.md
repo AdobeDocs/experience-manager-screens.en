@@ -7,7 +7,7 @@ exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is a Marketing/Business Strategist.
+>A typical stakeholder for this activity is a Marketing/Business Strategist.
 
 It is important to test the ideas, assumptions, and dependencies previously defined in the UX Journey Map by using UX prototyping. 
 

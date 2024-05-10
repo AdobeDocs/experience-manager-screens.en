@@ -1,6 +1,6 @@
 ---
 title: Kickstart Guide
-description: Learn how to create a demo AEM Screens project. It helps you create a digital signage experience starting from installation and setting up a new project to viewing your content in AEM Screens player.
+description: Learn how to create a demo AEM Screens project. It helps you create a digital signage experience starting from installation and setting up a new project to viewing your content in AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
@@ -8,17 +8,17 @@ exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 ---
 # Kickstart Guide {#kickstart-guide}
 
-The kickstart to AEM Screens demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens player.
+The kickstart to AEM Screens demonstrates how to set up and run an AEM Screens project. It walks you through setting up a basic digital signage experience and adding content such as assets and/or videos to each channel and further publishing the content to an AEM Screens Player.
 
 >[!NOTE]
->Before working on the project details, make sure you have installed the latest Feature Pack for AEM Screens. You can download the latest feature pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
+>Before working on the project details, make sure you have installed the latest Feature Pack for AEM Screens. You can download the latest Feature Pack from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID.
 
 ## Prerequisites {#prerequisites}
 
-Follow the steps below to create a sample project for AEM Screens and further publish content to Screens player.
+Follow the steps below to create a sample project for AEM Screens and further publish content to the Screens player.
 
 >[!NOTE]
->The following tutorial showcases playing the contents of your channel in Chrome OS player.
+>The following tutorial showcases playing the contents of your channel in a Chrome OS player.
 
 >[!IMPORTANT]
 >**OSGi Configuration Settings**
@@ -28,7 +28,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 ## Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ Follow the steps below to create a channel for your project:
 
 ### Adding Content to a Channel {#adding-content}
 
-When you have your channel in place, add content to your channel that AEM Screens player can display.
+When you have your channel in place, add content to your channel that AEM Screens Player can display.
 
 Follow the steps below to add content to the channel (**TestChannel**) in your project:
 
@@ -91,7 +91,7 @@ Follow the steps below to add content to the channel (**TestChannel**) in your p
 
    ![image](assets/kickstart/demo-6.png)
 
-1. Click the icon that toggles side panel on left-hand side of the action bar to open the assets and components.  
+1. Click the icon that toggles the side panel on the left-hand side of the action bar to open the assets and components.  
 
 1. Drag and drop the components you want to add to your channel.
 
@@ -156,18 +156,18 @@ When the project setup is complete, assign the channel to a display to view the 
       
 1. The **Channel Assignment** dialog box opens.
 
-1. From the **Settings** option, choose the channel **by path**  and **Supported Events** as **Initial Load** and **Idle Screen**.
+1. From the **Settings** option, choose the channel **by path** and **Supported Events** such as **Initial Load** and **Idle Screen**.
 
    >[!NOTE]
    >
-   >The **Channel Role**, **Priority**, and **Interruption Methods** are all populated by default. See [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section for more information about channel assignment properties.
+   >The **Channel Role**, **Priority**, and **Interruption Methods** are all populated by default. See the [Channel Properties](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) section for more information about channel assignment properties.
 
    ![image](assets/kickstart/demo-assign3.png)
 
    Also, you can click the **Activation Window** and **Recurrence Schedule**.
 
    >[!NOTE]
-   >The *Recurrence Schedule* lets you set a recurring schedule for your channel. You set up multiple recurrence schedules for a channel.
+   >The *Recurrence Schedule* lets you set a recurring schedule for your channel. You can set up multiple recurrence schedules for a channel.
    >See [Recurrence Schedule](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) for more details.
 
 1. Click **Save** once you have configured your preferences.
@@ -177,13 +177,13 @@ When the project setup is complete, assign the channel to a display to view the 
 Register your device using the AEM dashboard. 
 
 >[!IMPORTANT]
->Chrome OS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
+>Chrome OS player can be installed as a Chrome browser plugin in developer mode without requiring an actual Chrome Player device. For installation, follow the steps below:
 >
 >1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 >1. Unzip and save it on disk.
->1. Open Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
->1. Switch on the **Developer mode** from top-right corner.
->1. Click **Load Unpacked** from top-left corner and load unzipped Chrome Player.
+>1. Open the Chrome browser and click **Extensions** from the menu or directly navigate to ***chrome://extensions***.
+>1. Switch on the **Developer mode** from the top-right corner.
+>1. Click **Load Unpacked** from the top-left corner and load unzipped Chrome Player.
 >1. Check **AEM Screens Chrome Player** plugin if it is available in the list of extensions.
 >1. Open a new tab and click the **Apps** icon from the top-left corner, or directly navigate to ***chrome://apps***.
 >1. Click **AEM Screens** Plugin so you can launch Chrome Player. By default, the player is launched in full screen mode. Press **Esc** to exit full screen mode.

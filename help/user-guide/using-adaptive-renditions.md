@@ -7,12 +7,12 @@ exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 
 ## Introduction {#introduction}
 
-Adaptive Renditions allow the devices to automatically click the best rendition for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules allowing customers to only focus on designing the *main* experience.
+Adaptive Renditions allow the devices to click the best rendition automatically for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules. It lets customers focus on designing the *main* experience.
 
 ## Objective {#objective}
 
-As an AEM Screens Content Author, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually.
-After a Developer adds the rendition-mapping properties and rules, you are ready to apply the rendition mapping to assets and then include those in an AEM Screens channel.
+As an AEM Scrßeens Content Author, you can now configure device-specific asset renditions to be downloaded and played automatically without having to create all content variations manually.
+After a Developer adds the rendition-mapping properties and rules, you are ready to apply the rendition mapping to assets and then include them in an AEM Screens channel.
 
 >[!IMPORTANT]
 >Before starting to use Adaptive Renditions in an AEM Screens channel, Adobe recommends that you learn about this feature's Architectural Overview and Configuration. See [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md).
@@ -20,15 +20,15 @@ After a Developer adds the rendition-mapping properties and rules, you are ready
 ## Using Adaptive Renditions in Channels {#using-adaptive-renditions}
 
 >[!NOTE]
->After you have added [rendition-mapping property to the Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) and [rendition-mapping rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), as a Content Author you are now ready to apply the renditions to your assets.
+>After you have added the [rendition-mapping property to the Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) and [rendition-mapping rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), as a Content Author you are now ready to apply the renditions to your assets.
 
 ### Applying Renditions to Assets {#apply-renditions-assets}
 
-To apply renditions to assets that you want to use in tour Screens channel, do the following.
+To apply renditions to assets that you want to use in the Tour Screens channel, do the following.
 
 1. Navigate to the **Assets** folder in your AEM instance.
-1. Create a version of the asset which better suits the signage display, for example, `seahorse.jpg`.
-1. Choose the rendition naming pattern, for example,`landscape`, similar to  what was defined in **pattern** property in **CRXDE Lite**. See [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
+1. Create a version of the asset that better suits the signage display, for example, `seahorse.jpg`.
+1. Choose the rendition naming pattern, for example,`landscape`, similar to what was defined in **pattern** property in **CRXDE Lite**. See [Adding Rendition Mapping Rules](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) for more details.
 1. Click **Add Rendition** to upload the rendition, as shown in the figure below.
 
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -39,7 +39,7 @@ To apply renditions to assets that you want to use in tour Screens channel, do t
    ![image](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >See [On-Demand Content Update](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) to learn more about  managing Publication and delivering content updates from Author to Publish to device.
+   >See [On-Demand Content Update](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) to learn more about managing Publication and delivering content updates from Author to Publish to device.
 
 ## Migration Strategy {#migration-strategy}
 

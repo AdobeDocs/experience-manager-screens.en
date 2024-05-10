@@ -91,7 +91,7 @@ When the project setup is complete, assign the channel to a display to view the 
 
 This example showcases the output on a Chrome Player. When you have assigned the channel to your display, register the device to a player.
 
-To learn how to register a device on an AEM Screens player, see [Device Registration](device-registration.md).
+To learn how to register a device on an AEM Screens Player, see [Device Registration](device-registration.md).
 
 You can view the following output on your choice of player:
 
@@ -150,7 +150,7 @@ Priority is used to order the assignments in case multiple ones match the playin
 >[!IMPORTANT]
 > This option is only available with <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
-As a content author, you can specify when a channel is interrupted. Doing so lets choose to cut off non-critical content. But it also gives you the option to let important content play back in full before cutting it short because of scheduling.
+As a Content Author, you can specify when a channel is interrupted. Doing so lets choose to cut off non-critical content. But it also gives you the option to let important content play back in full before cutting it short because of scheduling.
 
 Select from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 

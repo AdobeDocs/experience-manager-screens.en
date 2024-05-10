@@ -17,7 +17,7 @@ The following use case demonstrates the usage of travel center local temperature
 
 ## Description {#description}
 
-For this Use Case, if the value in Google Sheets is less than 50, then an image with hot drinks displays. If the value is greater than or equal to 50, then an image with cold drinks displays. If there is some other value or no value at all, the player displays a default image.
+For this use case, if the value in Google Sheets is less than 50, then an image with hot drinks displays. If the value is greater than or equal to 50, then an image with cold drinks displays. If there is some other value or no value at all, the player displays a default image.
 
 ## Preconditions {#preconditions}
 

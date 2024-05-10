@@ -8,14 +8,14 @@ contentOwner: jsyal
 
 ## Overview {#overview}
 
-After you create a sequence channel and add images to it, by default, all images assume the playback duration defined in the Channel level configuration. Any individual image can still override the default and have a different playback duration, this is accomplished by editing the playback duration of the specific image component.
+After you create a sequence channel and add images to it, by default, all images assume the playback duration defined in the Channel level configuration. Any individual image can still override the default and have a different playback duration. This ability is accomplished by editing the playback duration of the specific image component.
 
 ### Prerequisites {#prerequisites}
 
 Before implementing this functionality, make sure you have set up a project as a prerequisite to start implementing this functionality. For example,
 
 1. Create an AEM Screens project (in this example, **ChannelLevelPlayback**)  
-1. Create a sequence channel as **PlaybackChannel** under **Channels** folder
+1. Create a sequence channel as **PlaybackChannel** under the **Channels** folder
 1. Add content to **PlaybackChannel**
 
 ## Editing Channel Level Image Playback Duration Assignment {#editing-channel-level-image-playback-duration-assignment}
@@ -42,7 +42,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Page** dialog box opens.
+1. The **Page** dialog box opens.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 
 ### Viewing the Result {#viewing-the-result}
 
-When you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (default value).
+When you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (the default value).
 
 ![channel_preview](assets/channel_preview.gif)
 

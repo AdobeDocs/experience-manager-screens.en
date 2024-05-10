@@ -54,7 +54,7 @@ A Screens project's source code is typically managed as a multi-module Maven pro
     1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
     1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed via CRX Package Manager](assets/crx-packages.png)
+   ![Screens We.Retail Run Ui.Apps and Ui.Content packages installed by way of CRX Package Manager](assets/crx-packages.png)
 
    Screens `We.Retail` Run `Ui.Apps` and `Ui.Content` packages installed by way of CRX Package Manager.
 
@@ -292,7 +292,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    The categories property is a string that identifies the client library. The cq.screens.componentscategory is used in both Edit and Preview/Production mode. Therefore any CSS/JS defined in the sharedclientlib is loaded in all modes.
 
-   It is a best practice to never expose any paths directly to /apps in a production environment. The allowProxy property ensures the client library CSS and JS is referenced via a prefix of/etc.clientlibs. 
+   It is a best practice to never expose any paths directly to /apps in a production environment. The allowProxy property ensures the client library CSS and JS is referenced by way of a prefix of/etc.clientlibs. 
 
 1. Create file named `css.txt` beneath the shared folder.
 

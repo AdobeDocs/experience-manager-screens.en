@@ -7,7 +7,7 @@ exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is an AEM Implementor.
+>A typical stakeholder for this activity is an AEM Implementor.
 
 Get started with AEM Screens by following the sections below to set up AEM platform configurations
 

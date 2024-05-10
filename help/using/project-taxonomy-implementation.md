@@ -7,7 +7,7 @@ exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 
 >[!NOTE]
 >
->Typical stakeholder for this activity is an AEM Implementor.
+>A typical stakeholder for this activity is an AEM Implementor.
 
 Before you create an AEM Screens project, understand and strategize all the components defined in the UX Wireframing phase of the project.
 
@@ -19,14 +19,14 @@ Consider the following elements before implementing your AEM Screens digital sig
 * **Scheduling**
 * **Previewing the content**
 
-To learn about these terms, see [Glossary](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+To learn more about these terms, see the [Glossary](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >It is best practice to consider using:
 >
 >* hardware asset database to auto-populate a Screens project
->* text config file to automatically point every player to specific instance of an AEM
+>* text configuration file pointing every player automatically to a specific instance of an AEM
 
 ## Implementing an AEM Screens Project {#creating-a-project}
 
@@ -46,7 +46,7 @@ An author typically begins an AEM Screens project by:
 * [creating displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [assigning channels to the displays](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [viewing content in an AEM Screens player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [viewing content in an AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
 >You can also bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project. See [New Project Importer from File](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

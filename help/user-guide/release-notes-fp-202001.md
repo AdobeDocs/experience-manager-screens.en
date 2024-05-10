@@ -10,13 +10,13 @@ exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
 
 >[!CAUTION]
 >
->Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
 AEM Screens released AEM 6.5 Feature Pack 3.
 
-You can download the latest feature pack for AEM Screens 6.5.3 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP3**.
+You can download the latest Feature Pack for AEM Screens 6.5.3 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP3**.
 
 ## Release Date {#release-date}
 
@@ -29,11 +29,11 @@ The Release Date for AEM Screens Feature Pack 202001 is January 31, 2020.
 Command Sync allows synchronized playback across different players. The players can play different content but each asset must have the same duration.
    To learn more about Command Sync and how to set the primary and clients, see [Using Command Sync](using-command-sync.md).
 
-* **Health check framework to show status of https and allow empty referrer**
+* **Health Check Framework to show the status of https and allow empty referrer**
 
-The Health Check framework lets the user check if two necessary configurations (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are set up before running an AEM Screens project. 
+The Health Check Framework lets the user check if two necessary configurations (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are set up before running an AEM Screens project. 
 
-   To learn more about Health Check Framework, see [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+   To learn more about the Health Check Framework, see [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates to Default Transition Types**
 The properties of the transition component such as **Type** is now set to **Fade** and the **Duration** as **1600 milliseconds**, by default.
@@ -51,4 +51,4 @@ The following AEM Screens Players are released for AEM 6.4 Feature Pack 7 and AE
 
 #### AEM Screens Player Downloads
 
-To download the latest AEM Screens player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
+To download the latest AEM Screens Player and learn more about the bug fixes, see [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

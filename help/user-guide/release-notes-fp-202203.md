@@ -9,13 +9,13 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 # Release Notes for Feature Pack 202112 {#release-notes-for-feature-pack}
 
  >[!CAUTION]
- >Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for AEM 6.3 Screens platform.
+ >Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
  AEM Screens released AEM 6.5 Feature Pack 11.
 
- You can download the latest feature pack for AEM Screens 6.5.11 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to **Adobe Experience Manager** tab and search for **Screens** to get the latest feature pack titled as **AEM 6.5 Screens FP11**.
+ You can download the latest Feature Pack for AEM Screens 6.5.11 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP11**.
 
 ## Release Date {#release-date}
 
@@ -27,19 +27,19 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 
 ### Bug Fixes {#bug-fixes}
 
-* Targeting/personalization was not working. This is now fixed.
+* Targeting/personalization was not working. This bug is now fixed.
 
-* Screens monitoring email was not working after FP10. This is now fixed.
+* Screens monitoring email was not working after FP10. This bug is now fixed.
 
-* The Windows player was crashing when taking a screenshot in portrait mode. This is now fixed.
+* The Windows Player was crashing when taking a screenshot in portrait mode. This bug is now fixed.
 
-* The Screens SPA channel was causing a white screen with Windows Player. This is now fixed.
+* The Screens SPA channel was causing a white screen with Windows Player. This bug is now fixed.
 
 * The *wcmmode* parameter was removed from all Screens requests on the publish instance.
 
 * The Player Activity UI now works as expected.
 
-* The Player was failing to get through the latest update by way of manage publication. This is now fixed.
+* The Player was failing to get through the latest update by way of manage publication. This bug is now fixed.
 
 ### Released AEM Screens Players
 
@@ -54,4 +54,4 @@ exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
 
 #### AEM Screens Player Downloads
 
- To download the latest AEM Screens player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+ To download the latest AEM Screens Player and learn more about the bug fixes, see **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.

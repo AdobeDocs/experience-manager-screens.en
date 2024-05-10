@@ -1,11 +1,11 @@
 ---
 title: Hardware Selection Guidelines for Player Devices
-description: Learn about hardware selection guidelines for AEM Screens player devices.
+description: Learn about hardware selection guidelines for AEM Screens Player devices.
 ---
 
 # Hardware Selection Guidelines for Player Device {#hardware-selection}
 
-The following section provides the hardware selection guidelines for an AEM Screens player.
+The following section provides the hardware selection guidelines for an AEM Screens Player.
 
 ## Important Considerations {#important-considerations}
 

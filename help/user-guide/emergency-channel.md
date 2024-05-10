@@ -1,6 +1,6 @@
 ---
 title: Emergency Channel
-description: Learn about creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
+description: Learn about creating and managing an emergency channel that the Content Author can switch from a sequence channel if there is a precondition.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,9 +12,9 @@ exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 ---
 # Emergency Channel {#emergency-channel}
 
-## Use Case Description {#use-case-description}
+## Use case description {#use-case-description}
 
-This section describes a use case example that emphasizes on creating and managing an emergency channel that the content author can switch from a sequence channel if there is a precondition.
+This section describes a use case example that emphasizes on creating and managing an emergency channel that the Content Author can switch from a sequence channel if there is a precondition.
 
 ### Preconditions {#preconditions}
 
@@ -151,7 +151,7 @@ Follow the steps below to set up an emergency channel:
 
 1. **Device Registration**
 
-   Complete the device registration process. When you have registered, you can view the following output on your AEM Screens player.
+   Complete the device registration process. When you have registered, you can view the following output on your AEM Screens Player.
 
    ![new30](assets/new30.gif)
 
@@ -171,12 +171,12 @@ If there is an emergency, perform the following steps:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. When the priority of the channel is updated, all the AEM Screens player displays the **EmergencyChannel** content.
+1. When the priority of the channel is updated, all the AEM Screens Player displays the **EmergencyChannel** content.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusion {#conclusion}
 
-The **EmergencyChannel** continues to display its content until the content author resets the Priority Value to 1.
+The **EmergencyChannel** continues to display its content until the Content Author resets the Priority Value to 1.
 
-When the content author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel** which causes normal playback to resume.
+When the Content Author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel** which causes normal playback to resume.

@@ -1,6 +1,6 @@
 ---
 title: Configuring and Deploying AEM Screens
-description: The AEM Screens player is available for Android&trade;, Chrome OS, iOS, and Windows. Learn about the configuration and deployment of AEM Screens.
+description: The AEM Screens Player is available for Android&trade;, Chrome OS, iOS, and Windows. Learn about the configuration and deployment of AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -18,11 +18,11 @@ This page shows how to install and configure the Screens players on your devices
 
 >[!IMPORTANT]
 >
->AEM Screens player does not use the Cross-Site Request Forgery (CSRF) token. Therefore, to configure the AEM server to be ready to use for AEM Screens, skip the referrer filter by allowing empty referrers.
+>AEM Screens Player does not use the Cross-Site Request Forgery (CSRF) token. Therefore, to configure the AEM server to be ready to use for AEM Screens, skip the referrer filter by allowing empty referrers.
 
 ## Health Check Framework {#health-check-framework}
 
-The Health Check framework allows the user to check if two necessary configurations are set up before running an AEM Screens project. 
+The Health Check Framework lets the user check if two necessary configurations are set up before running an AEM Screens project. 
 
 It allows the user to verify the following two configuration checks to run an AEM Screens project, that is, to check the state of the following two filters:
 
@@ -36,7 +36,7 @@ Follow the steps below to check if these two vital configurations are enabled fo
    ![assets](assets/health-check1.png)
 
 
-2. Click **Execute selected health checks** so you can run the validation for two properties listed above.
+2. Click **Execute the selected health checks** so you can run the validation for two properties listed above.
 
    If both the filters are enabled, then the **Screens Configuration Health Service** shows the **Result** as **OK** with both the configurations as enabled.
 
@@ -58,7 +58,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Allow Empty Referrer Requests {#allow-empty-referrer-requests}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -75,7 +75,7 @@ The following key points below helps to configure and AEM server to be ready to 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance > hammer icon > **Operations** > **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** by way of AEM instance > hammer icon > **Operations** > **Web Console**.
 
    ![image](assets/config/empty-ref1.png)
 
@@ -87,11 +87,11 @@ The following key points below helps to configure and AEM server to be ready to 
 
    ![image](assets/config/config-1.png)
 
-1. Click **Save** to enable the *http* service.
+1. Click **Save** to enable the *Http* service.
 
 #### Enable Touch UI for AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens requires TOUCH UI and does not work with CLASSIC UI of Adobe Experience Manager (AEM).
+AEM Screens requires TOUCH UI and does not work with the Classic UI of Adobe Experience Manager (AEM).
 
 1. Navigate to `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
@@ -110,11 +110,11 @@ Running AEM in production uses the **NOSAMPLECONTENT** run mode. Remove the *X-F
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-This is required for the AEM Screens Player to play online channels.
+This removal is required for the AEM Screens Player to play online channels.
 
 #### Password Restrictions {#password-restrictions}
 
-With latest changes to ***DeviceServiceImpl***, you do not have to remove the password restrictions.
+With the latest changes to ***DeviceServiceImpl***, you do not have to remove the password restrictions.
 
 You can configure ***DeviceServiceImpl*** from the link below to enable password restriction while creating the password for the screen device users:
 

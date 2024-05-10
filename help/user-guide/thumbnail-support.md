@@ -7,14 +7,14 @@ exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 
 ## Introduction {#introduction}
 
-A content author can define a thumbnail for videos so that the image is used as a placeholder and properly test content playback and targeting, while the actual video is being finalized by the appropriate team. The image can also be used in case the playback of the video fails.
+A Content Author can define a thumbnail for videos so that the image is used as a placeholder. It can properly test content playback and targeting, while the appropriate team finalizes the actual video. The image can also be used in case the playback of the video fails.
 
 Adding support for a thumbnail image on the video component lets the customer properly add a valid component in the channel, with actual content, and perform any targeting configurations before the video is delivered. 
 
 >[!NOTE]
->The thumbnail image, if set on the video component, is played if there is video playback failure on the player. This lets you deliver the desired message to the audience (by playing  content) instead of completely skipping it.
+>The thumbnail image, if set on the video component, is played if there is video playback failure on the player. This fallback lets you deliver the desired message to the audience (by playing content) instead of completely skipping it.
 
-Thumbnail Support allows you to:
+Thumbnail Support lets you:
 
 * Prepare a channel experience when the videos are not yet ready, or when you do not necessarily want to test a large asset download on the players
 
@@ -22,7 +22,7 @@ Thumbnail Support allows you to:
 
 ## Using Thumbnails in Videos {#using-thumbnails}
 
-Follow the steps below to use thumbnail in videos:
+Follow the steps below to use a thumbnail in videos:
 
 1. Navigate to an existing AEM Screens channel or create a channel.
 

@@ -115,7 +115,7 @@ If you want the zones to display sequence of images and a video in the different
 
 ### Creating a Location and a Display {#creating-location}
 
-Create a location and a display so you can view the content in the AEM Screens player.
+Create a location and a display so you can view the content in the AEM Screens Player.
 
 1. **Creating a Location**
 

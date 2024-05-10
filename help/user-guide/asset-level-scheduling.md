@@ -1,6 +1,6 @@
 ---
 title: Asset Level Activation
-description: Learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+description: Learn how to activate a specific asset in a channel for a scheduled time frame, all within the player's local timezone.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
@@ -32,15 +32,15 @@ The following topics are covered in this section:
 
 ## Overview {#overview}
 
-***Asset Level Activation*** lets you activate a specific asset in a channel for a scheduled time frame in the player's local timezone. This is available for images, videos, transitions, pages, and embedded channels (dynamic or static).
+***Asset Level Activation*** lets you activate a specific asset in a channel for a scheduled time frame, all within the player's local timezone. This ability is available for images, videos, transitions, pages, and embedded channels (dynamic or static).
 
 *For example*, you want a special promotion to be displayed only during happy hour (2PM to 5PM) on Mondays and Wednesdays.
 
-With this feature, not only can you specify start and end date and time but also a recurrence pattern.
+With this feature, not only can you specify a start and end date and time but also a recurrence pattern.
 
 ## Activation Window {#single-event-playback}
 
-Asset Level Activation is done by configuring the **Activation** tab while accessing properties of an asset.
+Asset Level Activation is done by configuring the **Activation** tab while accessing the properties of an asset.
 
 Follow the steps below to perform asset level scheduling:
 
@@ -52,8 +52,8 @@ Follow the steps below to perform asset level scheduling:
    >
    >To learn in detail on how to
    >
-   >* Create a project, see [Creating a new Project](creating-a-screens-project.md).
-   >* Create and add content to a channel, see [Managing Channels](managing-channels.md).
+   >* Create a project. See [Creating a new Project](creating-a-screens-project.md).
+   >* Create and add content to a channel. See [Managing Channels](managing-channels.md).
 
 1. Click **Edit** so you can open the channel editor and click an asset you want to apply the scheduling to.
 
@@ -73,7 +73,7 @@ Follow the steps below to perform asset level scheduling:
 
 ## Handling Recurrence in Assets {#handling-recurrence-in-assets}
 
-You can schedule assets to recur at certain intervals on daily, weekly, or monthly basis too as per your requirement.
+You can schedule assets to recur at certain intervals on a daily, weekly, or monthly basis as per your requirement.
 
 Suppose you want to display an image only on Fridays from 1:00 P.M. until 10:00 P.M.. You can use the **Activation** tab to set the desired recurring interval for your asset.
 
@@ -90,7 +90,7 @@ Suppose you want to display an image only on Fridays from 1:00 P.M. until 10:00 
 
 #### Example Expressions for Day Parting {#example-one}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -116,7 +116,7 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for WeekParting {#example-two}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -141,7 +141,7 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for MonthParting {#example-three}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
@@ -164,11 +164,11 @@ The following table summarizes few example expressions that you can add to the s
 
 #### Example Expressions for Combination of Partings {#example-four}
 
-The following table summarizes few example expressions that you can add to the schedule while assigning channel to a display.
+The following table summarizes a few example expressions that you can add to the schedule while assigning a channel to a display.
 
 | **Expression** | **Interpretation** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to end of March |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | the asset plays in the channel between 6am and 6pm on Mondays and Wednesdays from January to the end of March |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | the asset in the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
 
@@ -208,7 +208,7 @@ Follow the steps below to click multiple assets and schedule their display in an
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Click refresh to check the assets to which multi-asset schedule is applied.
+1. Click refresh to check the assets to which the multi-asset schedule is applied.
 
    >[!NOTE]
    >
@@ -218,13 +218,13 @@ Follow the steps below to click multiple assets and schedule their display in an
 
 ## Global Override For Universal Start Time {#global-override-scheduling}   
 
-***Global Override for Universal Start Time***, is a setting that allows the content author to define the playback of an image or video asset based on a specific time. The time/timezone setting of any individual player is not used.
+***Global Override for Universal Start Time***, is a setting that allows the Content Author to define the playback of an image or video asset based on a specific time. The time/timezone setting of any individual player is not used.
 
-Normally, playback is determined by the local time of any given player but with the global override, a specific, universal start time can be used to initiate the playback of the asset.
+Normally, the local time of any given player determines playback. But with the global override, a specific, universal start time can be used to initiate the playback of the asset.
 
-This allows the content author to designate playback of a specific asset as occurring at a specific date/time regardless of the local clock on any players which have the assigned content.
+As such, the Content Author can designate playback of a specific asset. They can have it occur at a specific date/time regardless of the local clock on any players that have the assigned content.
 
-Global Override for Universal Start Time is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
+***Global Override for Universal Start Time*** is done by configuring the **Activation** tab while accessing properties of an asset. Follow the steps below to perform a Global Override for asset scheduling:
 
 1. Click any channel, then click **Edit** from the action bar so you can add or edit content in your channel.
 
@@ -235,6 +235,6 @@ Global Override for Universal Start Time is done by configuring the **Activation
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
  
-1. For a Global Override, enter activation time in the **Timezone override** section for the asset. If you do not enter anything in this area, the timezone applied is the player's timezone.
+1. For a global override, enter the activation time in the **Timezone override** section for the asset. If you do not enter anything in this area, the timezone applied is the player's timezone.
 
 
