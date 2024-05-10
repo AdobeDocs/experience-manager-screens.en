@@ -34,7 +34,7 @@ Before getting started with Author and Publish Servers, you should have prior kn
 >
 >To learn more about the Author and Publish architectural overview and how the content is authored on an AEM Author instance and then forward-replicated to multiple Publish instances, see [Author and Publish Architectural Overview](author-publish-architecture-overview.md).
 
-The following section explains how to set up replication agents on Author and Publish topology.
+The following section explains how to set up replication agents on the Author and Publish topology.
 
 You can set up a simple example, where you host an Author and two Publish instances:
 
@@ -82,7 +82,7 @@ Follow the steps below to create a default replication agent:
 
    >[!NOTE]
    >
-   >User must check **Enabled** to enable replication agent. Check this option on Default, Screens, and Reverse Replication Agents.
+   >The user must check **Enabled** to enable the replication agent. Check this option on Default, Screens, and Reverse Replication Agents.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -95,23 +95,23 @@ Follow the steps below to create a default replication agent:
    >You can also copy and rename an existing default replication agent.
 
 
-#### Creating Standard Replication Agents  {#creating-standard-replication-agents}
+#### Creating Standard Replication Agents {#creating-standard-replication-agents}
 
-1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured). For example, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
-1. Create standard replication agent for pub2. You can copy s replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. For example, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
+1. Create a standard replication agent for pub1 (an out-of-the-box default agent should already be configured). For example, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Create a standard replication agent for pub2. You can copy s replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. For example, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Creating Screens Replication Agents {#creating-screens-replication-agents}
 
-1. Create an AEM Screens replication agent for pub1. Out-of-the-box, there is one named Screens Replication Agent that points to port 4503. Enable it.
-1. Create an AEM Screens replication agent for pub2. Copy the Screens Replication Agent for pub1 and change the port to point to 4504 for pub2.
+1. Create an AEM Screens replication agent for pub1. Out-of-the-box, there is one named Screens replication agent that points to port 4503. Enable it.
+1. Create an AEM Screens replication agent for pub2. Copy the Screens replication agent for pub1 and change the port to point to 4504 for pub2.
 
    >[!NOTE]
-   >To learn how to configure Screens Replication Agents, see [Configuring Screens Replication Agent](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >To learn how to configure Screens replication agents, see [Configuring Screens Replication Agent](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creating Screens Reverse Replication Agents {#creating-screens-reverse-replication-agents}
 
 1. Create a reverse replication agent for pub1.
-1. Create a reverse replication agent for pub2. You can copy reverse replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
+1. Create a reverse replication agent for pub2. You can copy the reverse replication agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
 
 ## Setting up Publish Topology {#setting-up-publish-topology}
 
@@ -138,7 +138,7 @@ For any of the Publish instances, navigate to `https://:/system/console/topology
 
 #### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
 
-This step lets you create encrypted password for ActiveMQ Artemis cluster.
+This step lets you create an encrypted password for the ActiveMQ Artemis cluster.
 The cluster user and password of all Publish instances in the topology must be identical. The password of the ActiveMQ Artemis configuration must be encrypted. Because each instance has its own encryption key, it is necessary to use Crypto Support to create an encrypted password string. Then, the encrypted password can be used in the OSGi config for ActiveMQ.
 
 On each Publish Instance:
@@ -146,7 +146,7 @@ On each Publish Instance:
 1. In the OSGi Console, navigate to **MAIN** > **Crypto Support** (`https://<host>:<port>/system/console/crypto`).
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
 1. Click **Protect**.
-1. Copy the value **Protected Text** to notepad or text editor. This value can be used in the OSGi config for ActiveMQ.
+1. Copy the value **Protected Text** to a notepad or text editor. This value can be used in the OSGi config for ActiveMQ.
 
 Because each Publish instance, by default, has unique crypto keys, perform this step on each pub instance and save the unique key for the next configuration.
 
@@ -157,13 +157,13 @@ Because each Publish instance, by default, has unique crypto keys, perform this 
 
 #### Step 4: Activate ActiveMQ Artemis Cluster {#step-activate-activemq-artemis-cluster}
 
-On each Publish instance:
+On each publishing instance:
 
 1. Navigate to the OSGi Config manager `https://<host>:<port>/system/console/configMgr`
 1. Click **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 
-   * ***Cluster Password***: use encrypted value from previous step per respective instance
+   * ***Cluster Password***: use encrypted value from the previous step per respective instance
    * ***Topics***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Verify ActiveMQ Artemis Cluster {#verify-activemq-artemis-cluster}
@@ -181,7 +181,7 @@ Follow the steps below on each Publish instance:
 
 >[!NOTE]
 >
->Navigating to OSGi console may take a few seconds after saving the configuration in the preceding step. You can also check the error.log for more details.
+>Navigating to OSGi Console may take a few seconds after saving the configuration in the preceding step. You can also check the error.log for more details.
 
 As an example, the following image displays on successful configuration of ActiveMQ Artemis Server.
 
@@ -191,7 +191,7 @@ If you do not see the following configuration from */system/console/mq*, then na
 
 #### Remove referrer header requirement {#remove-referrer-header-requirement}
 
-Follow the steps on each Publish instance:
+Follow the steps in each Publish instance:
 
 1. Navigate to the **OSGi Console** > **Configuration Manager**
 1. Click **Apache Sling Referrer Filter**
@@ -214,7 +214,7 @@ After you have set up the publishing topology, configure the Author and Publish 
 
 >[!NOTE]
 >
->You can open an AEM Screens Player using the AEM Screens app you downloaded or using the web browser.
+>You can open an AEM Screens Player using the AEM Screens app you downloaded or using the Web browser.
 
 #### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
 
@@ -246,7 +246,7 @@ Follow the steps below to replicate the device user:
 
 >[!CAUTION]
 >
->Do not activate author-publish-screens-service as it is a system user used by the Author Job.
+>Do not activate the author-publish-screens-service as it is a system user used by the Author Job.
 
 You can also activate the device from the Device Management Console. Follow the steps below:
 
@@ -258,7 +258,7 @@ You can also activate the device from the Device Management Console. Follow the 
 
 >[!NOTE]
 >
->Alternatively, after you have activated the device, you can also edit or update the server URL. Click **Edit server URL** from the action bar, as shown in the figure below, then your changes become propagated to the AEM Screens Player.
+>Alternatively, after you have activated the device, you can also edit or update the server URL. From the action bar, click **Edit server URL**, as shown in the figure below. Your changes become propagated to the AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -266,27 +266,27 @@ You can also activate the device from the Device Management Console. Follow the 
 
 The following points summarize the Publishing Check list:
 
-* *Screens Device User* - This is stored as an AEM user and be activated from **Tools** > **Security** > **Users**. The user is prefixed with "screens" with a long serialized string.
+* *Screens Device User* - This information is stored as an AEM user and can be activated from **Tools** > **Security** > **Users**. The user is prefixed with "screens" with a long serialized string.
 
 * *Project* - The AEM Screens project.
-* *Location* - Location that device is connected to.
-* *Channels* - one or more channels that are being displayed at the location
-* *Schedule* - if using a schedule ensure this is published
-* *Location, Schedules, and Channel Folder* - if the corresponding resources are inside a folder.
+* *Location* - Location that the device is connected to.
+* *Channels* - One or more channels that are being displayed at the location.
+* *Schedule* - If using a schedule, ensure that this schedule is published.
+* *Location, Schedules, and Channel Folder* - If the corresponding resources are inside a folder.
 
 Follow the steps below to verify the authoring and publishing behavior:
 
 1. Update some channel content on Author instance.
 1. Perform **Manage Publication** to publish new changes to all Publish instances.
 1. Press **Activate** to activate the device from **Device Manager**.
-1. **Edit URL** from Author instance URL to one of the Publishing instances URL.
+1. Select **Edit URL** from the Author instance URL to one of the Publishing instances URL.
 1. Verify the updated channel content displays on the AEM Screens Player.
 1. Repeat these steps using a different Publish instance.
 
 
 #### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. View the admin UI from the Screens player, long press the top-left corner so you can open the Admin menu, on your touch enabled AEM Screens Player, or by using a mouse.
+1. View the admin UI from the Screens player, long press the top-left corner so you can open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse.
 1. Click the **Configuration** option from the side panel.
 1. Change Author instance to Publish instance in **Server**.
 
@@ -296,7 +296,7 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 1. Navigate to your AEM Screens project and click the **Devices** folder.
 1. Click **Device Manager** from the action bar.
-1. Click the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes become propagated to the AEM Screens Player.
+1. Click the device, then from the action bar, click **Edit server URL**, as shown in the figure below. Your changes become propagated to the AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -304,7 +304,7 @@ The **Manage Publication** feature lets you deliver content updates from Author 
 
 ## Troubleshooting Tips {#troubleshoot-tips}
 
-Follow the section below to get answers to frequently asked questions related to Author/Publish setup.
+Follow the section below to get answers to frequently asked questions related to the Author/Publish setup.
 
 ### How to add a Redirect from https to http after initial registration and assignment? {#add-redirect}
 
@@ -319,4 +319,4 @@ Give read permissions for bulk-offline-update-screens-service user and `screens-
 ### How to resolve Screens Replication Agent errors? {#replication-agent}
 
 **Solution**
-Make sure you have not checked Use for reverse replication option in the agent configuration. Screens Replication Agent cannot be used as a reverse replication agent and the scope of this feature is to forward device commands from Author to Publish.
+Make sure you have not checked Use for reverse replication option in the agent configuration. Screens replication agent cannot be used as a reverse replication agent and the scope of this feature is to forward device commands from Author to Publish.

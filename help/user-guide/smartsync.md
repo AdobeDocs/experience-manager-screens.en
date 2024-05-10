@@ -18,23 +18,23 @@ This section provides an overview to SmartSync feature and how it minimizes serv
 
 SmartSync is the latest mechanism used by AEM Screens. It serves as a replacement of the current method used to cache offline channels and delivering them to the player.
 
-It executes both on the server-side and client-side.
+It executes both on the server-side and the client-side.
 
-**On Server-side**:
+**On the Server side**
 
 * Contents of the channels, including assets, are cached in *`/var/contentsync`*.
-* Cache is exposed to the players by way of a manifest which describes the available content for a display.
+* Cache is exposed to the players by way of a manifest that describes the available content for a display.
 
-**On Client-side**:
+**On the Client side**
 
-* Player updates its content based on the manifest generated above.
+* The player updates its content based on the manifest generated above.
 
 ### Benefits of Using SmartSync {#benefits-of-using-smartsync}
 
 SmartSync feature provides several benefits to your AEM Screens project such as the following:
 
 * Dramatic reduction of network traffic and server-side storage requirements.
-* Player intelligently downloads assets only if the asset is missing or changed.
+* The player intelligently downloads assets only if the asset is missing or changed.
 * Server-side and client-side storage optimizations.
 
 >[!NOTE]
@@ -59,7 +59,7 @@ SmartSync feature provides several benefits to your AEM Screens project such as 
 
 Follow the steps below to transition from ContentSync to SmartSync:
 
-1. Migrating from ContentSync to SmartSync requires clearing of ContentSync cache before activating SmartSync.
+1. Migrating from ContentSync to SmartSync requires clearing of the ContentSync cache before activating SmartSync.
 
    Navigate to the ContentSync console from your instance using the link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** and click **Clear Cache**, as shown in the figure below:
 
