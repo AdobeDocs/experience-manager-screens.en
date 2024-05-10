@@ -18,7 +18,7 @@ Alternatively, you can navigate directly to: `http://localhost:4502/screens.html
 
 >[!NOTE]
 >**Navigation Tip:**
->You can also use the cursor keys to navigate through different folders in AEM. Also, after you click a particular entity, hit space bar to edit or view properties for that specific folder.
+>You can also use the cursor keys to navigate through different folders in AEM. Also, after you click a particular entity, press the space bar to edit or view properties for that specific folder.
 
 ## Creating a New Screens Project
 
@@ -40,12 +40,12 @@ In a project, there are five kinds of folders, as shown in the figure below:
 
 >[!NOTE]
 >
->By default, the initial structure contains the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** primary pages, but this can be manually adjusted if needed. You can remove the options if the available ones are not relevant to your project.
+>By default, the initial structure contains the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** primary pages, but this structure can be manually adjusted if needed. You can remove the options if the available ones are not relevant to your project.
 
 
 ## Viewing Properties {#viewing-properties}
 
-After you create the Screens project, click the project and click **Properties** from action bar so you can edit the properties of your project.
+After you create the Screens project, click the project and click **Properties** from the action bar so you can edit the properties of your project.
 
 The following options allow you to edit/change properties of your **TestScreens**.
 
@@ -53,11 +53,11 @@ The following options allow you to edit/change properties of your **TestScreens*
 
 ## Creating a Custom Folder {#creating-a-custom-folder}
 
-You can also create your own custom folder under **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** primary pages available in your project.
+You can also create your own custom folder under the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** primary pages that are available in your project.
 
 To create a custom folder:
 
-1. Click your project and click **Create** next to plus icon in the action bar.
+1. Click your project and click **Create** next to the plus icon in the action bar.
 1. The **Create** wizard opens and click the appropriate option.
 1. Click **Next**.
 1. Enter the properties and click **Create**.
