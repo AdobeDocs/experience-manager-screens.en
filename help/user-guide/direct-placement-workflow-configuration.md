@@ -33,5 +33,5 @@ Follow the steps below to configure the direct placement workflow:
 
 1. Navigate to AEM Screens from your AEM instance and create a Screens project titled as **Asset Workflow**.
 
-1. Create a channel titled as **Workflow-Assets** under **Channels** folder.
+1. Create a channel titled as **Workflow-Assets** under the **Channels** folder.
 

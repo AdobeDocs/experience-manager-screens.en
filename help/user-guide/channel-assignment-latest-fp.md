@@ -10,7 +10,7 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 
 >[!IMPORTANT]
 >
->This section highlights the channel assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
+>This section highlights the Channel Assignment and scheduling of channels for AEM 6.5.5 Screens Feature Pack and later.
 
 When you have set up a display, assign a channel to a display to view your content.
 
@@ -29,7 +29,7 @@ Follow the sections below to create an AEM Screens project and assign a channel 
 
 Follow the steps below to set up a project and a channel:
 
-1. Create an AEM Screens Project titled as **DemoScreens**.
+1. Create an AEM Screens project titled as **DemoScreens**.
 
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
@@ -76,14 +76,14 @@ When the project setup is complete, assign the channel to a display to view the 
 
    >[!NOTE]
    >
-   >To learn more about channel assignment properties, see [Channel Properties](#channel-properties) section.
+   >To learn more about Channel Assignment properties, see the [Channel Properties](#channel-properties) section.
 
 1. From the **Schedule** option, click the **Activation Window** and **Recurrence Schedule**.
    ![image](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >To learn more about channel assignment properties, see [Channel Properties](#channel-properties) section.
+   >To learn more about Channel Assignment properties, see the [Channel Properties](#channel-properties) section.
 
 1. Click **Save** once you have configured your preferences.
 
@@ -99,7 +99,7 @@ You can view the following output on your choice of player:
 
 ## Timeline View {#timeline-view}
 
-When you have assigned a channel to a display and set up a recurrence schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+When you have assigned a channel to a display and set up a Recurrence Schedule, you can view the timeline from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
 Follow the steps below to navigate to the timeline view:
 
@@ -128,7 +128,7 @@ Selecting a channel lets you provide a reference to the desired channel, either 
 
 ### Channel Role {#role-channel}
 
-Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role.
+Channel role defines the context of the display. Various actions target the role. It is independent of the actual channel that fulfills the role.
 
 ### Priority {#priority-channel}
 
@@ -152,7 +152,7 @@ Priority is used to order the assignments in case multiple ones match the playin
 
 As a Content Author, you can specify when a channel is interrupted. Doing so lets choose to cut off non-critical content. But it also gives you the option to let important content play back in full before cutting it short because of scheduling.
 
-Select from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
+Select from one of the following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 
 * **Immediately** &ndash; Whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
 * **End of the current item** &ndash; When a new schedule activates or an update is received, you can optionally wait for the current item in the sequence to finish playing. Then, only after that, you can refresh or play the new content.
@@ -175,15 +175,15 @@ The Activation Window lets you select a **Start date** and an **End date** to di
 
 ### Recurrence Schedule {#recurrence-schedule}
 
-The Recurrence Schedule lets you set a recurring schedule for your content. Click **+ Add Schedule** to add a recurrence schedule to your channel.
+The Recurrence Schedule lets you set a recurring schedule for your content. Click **+ Add Schedule** to add a Recurrence Schedule to your channel.
 
 >[!NOTE]
 >You can add multiple recurring schedules to your channel.
->Recurrence Schedules introduces *DayParting* that lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once. 
+>Recurrence Schedules introduces *DayParting*. You set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once. 
 
 You can set the following options:
 
-* **Name** &ndash; Title of your recurrence schedule.
+* **Name** &ndash; Title of your Recurrence Schedule.
 * **Repeat** &ndash; Choose whether the schedule runs **Daily**, **Weekly**, **Monthly**, or **Yearly**.
 * **Start** &ndash; The start time for your schedule.
 * **End** &ndash; The ending time for your schedule. You can set it by time or duration.

@@ -14,7 +14,7 @@ The following section provides the hardware selection guidelines for an AEM Scre
 * Always engage with vendors who serve the digital signage market.
 * Always consider environmental factors such as ambient temperature and relative humidity.
 * Always review power requirements and power conditioning.
-* Carefully review performance needs and I/O ports required for application.
+* Carefully review the performance needs and I/O ports required for application.
 
 ## Hardware Configurations {#hardware-configurations}
 

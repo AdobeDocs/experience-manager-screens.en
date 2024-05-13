@@ -12,7 +12,7 @@ exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 ---
 # Managing Devices {#managing-devices}
 
-This page describes device assignment.
+This page describes the device assignment.
 
 The Devices console lets you access the device manager to assign your device to a display.
 

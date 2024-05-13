@@ -24,7 +24,7 @@ role: User
     + [Part 4: Project Management and Deployment](project-management-and-deployment.md)
     + [Part 5: Support Considerations](support-considerations.md)
 + Configuration and Administration {#administering}
-    + [Screens Server Configurations](configuring-screens-introduction.md)
+    + [Configuring Screens Server](configuring-screens-introduction.md)
     + [Setting up Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
     + [Installing Screens Player](installing-screens-player.md)
     + [Connecting Screens Player](working-with-screens-player.md)
@@ -34,7 +34,7 @@ role: User
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [New Project Importer from File](project-importer.md)
     + [Replicating Data Triggers to Publish Servers](replicating-data-triggers.md)
-    + [Configuring Screens Replication Agents](configure-screens-replication.md)
+    + [Configuring Replication Agents on Screens](configure-screens-replication.md)
     + Client-Specific Considerations {#installing-client}
         + [Chrome OS Player](implementing-chrome-os-player.md)
         + [Using Chrome Player as an extension for troubleshooting](using-chrome-player-as-an-extension.md)
@@ -94,7 +94,7 @@ role: User
         + [Applying Transitions](applying-transitions.md)
         + [Multi-Zone to Single-Zone Transitions](multizone-to-singlezone.md)
         + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
-        + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
+        + [Perpetual Use of TakeOver Channel](perpetual-takeover-channel.md)
 + Developer and API Resources {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -106,7 +106,7 @@ role: User
     + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
     + [Applying Custom Branding and Styling for Text Overlays](custom-branding-text-overlays.md)
     + [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md)
-+ Troubleshooting and FAQ's {#troubleshooting}
++ Troubleshooting and FAQs {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
