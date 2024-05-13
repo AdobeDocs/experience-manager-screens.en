@@ -17,9 +17,9 @@ The following use case demonstrates the usage of hospital reservation activation
 
 ## Description {#description}
 
-For this use case, the Google Sheet is populated with percentage of reservations on two restaurants **`Restaurant1`** and **`Restaurant2`**. A formula is applied based on values of `Restaurant1` and `Restaurant2` and based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
+For this use case, the Google Sheet is populated with percentage of reservations on two restaurants **`Restaurant1`** and **`Restaurant2`**. A formula is applied based on values of `Restaurant1` and `Restaurant2` and, based on the formula, value 1 or 2 is assigned to the **AdTarget** Column.
 
-If the value of **`Restaurant1`** > **`Restaurant2`**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates *Steak food* option and Value two results in display of *Thai food* option on your display screen.
+If the value of **`Restaurant1`** > **`Restaurant2`**, then **AdTaget** is assigned value **1** otherwise **AdTarget** is assigned value **2**. Value 1 generates a *Steak food* option and Value two results in a display of *Thai food* option on your display screen.
 
 ## Preconditions {#preconditions}
 
@@ -60,7 +60,7 @@ Follow the use case steps below to implement the hospitality reservation activat
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
+   >Your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab should have already been set up at this point.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

@@ -57,7 +57,7 @@ Follow the steps below for configuring the email notification settings:
 
    **Schedule Frequency** &ndash; Specify a time (for example, 5:00 P.M. or 17:00) or frequency in hours (for example, 1) at which this monitor should send emails.
 
-   **Ping Time out** &ndash; This specifies the interval in minutes after which a device should be considered not reachable.
+   **Ping Time out** &ndash; This field specifies the interval in minutes after which a device should be considered not reachable.
 
    **SMTP Server** &ndash; Specifies the SMTP Server that is used for sending emails.
 
@@ -85,11 +85,14 @@ After you set the configuration for your email notifications, you receive an ema
 
 Accessing that link navigates you directly to the device dashboard.
 
-Emails are only sent if there is at least one device that has not pinged for the given ping timeout and is still not pinging at the time of generating the email.
+Emails are only sent if:
+
+* there is at least one device that has not pinged for the given ping timeout, and
+* is still not pinging at the time of generating the email.
 
 ### Example Use Cases {#example-use-cases}
 
-The following example describes few scenarios for reference, to configure the properties from Screens Device Email Monitoring Service.
+The following example describes a few scenarios for reference, to configure the properties from Screens Device Email Monitoring Service.
 
 **Scenario 1**
 
@@ -97,4 +100,4 @@ You set the schedule frequency as 1:00 A.M. and the ping timeout as 60. Then, if
 
 **Scenario 2**
 
-You set the schedule frequency as 1 and the ping timeout as 60. Then, if your AEM Screens device does not ping between once at any particular time of the day, you receive an email notification that confirms device inactivity.
+You set the schedule frequency as 1 and the ping timeout as 60. Then, if your AEM Screens device does not ping at once at any particular time of the day, you receive an email notification that confirms device inactivity.

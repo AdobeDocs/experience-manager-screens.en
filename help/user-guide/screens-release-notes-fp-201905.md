@@ -45,7 +45,7 @@ See **[Emergency Channel](emergency-channel.md)** use case for more details.
 
 * **Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics**
 
-This section describes how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor. The editor can be configured by business professionals in AEM. It also describes how to integrate your interactive application with offline Adobe Analytics.
+This section describes how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor. Business professionals in AEM can configure the editor. It also describes how to integrate your interactive application with offline Adobe Analytics.
 
 See **[Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics](embedding-react-app.md)** for more details.
 

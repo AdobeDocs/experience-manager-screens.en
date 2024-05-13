@@ -1,6 +1,6 @@
 # Adobe Experience Manager Screens Documentation
 
-This is the repository for Adobe Experience Manager Screens documentation.
+This repository is for Adobe Experience Manager Screens documentation.
 
 Your contributions to the documentation are welcome. See the following resources:
 

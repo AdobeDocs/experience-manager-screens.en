@@ -24,9 +24,9 @@ The goal of this feature is to reduce the time required to set up the project an
 By letting the author provide a spreadsheet as an input file, and letting the system automatically create the location tree in the back-end, this feature:
 
 * *achieves way better performance than manually selecting through the UI*
-* *lets customer export the locations they have from their own system and easily import them directly in AEM*
+* *lets the customer export the locations they have from their own system and easily import them directly in AEM*
 
-This saves both time and money during initial project setup or when extending the existing AEM Screens to new locations.
+This process saves both time and money during initial project setup or when extending the existing AEM Screens to new locations.
 
 ## Architectural Overview {#architectural-overview}
 
@@ -45,14 +45,14 @@ The data model for Project Importer is described below:
 | **Property** |**Description** |
 |---|---|
 | ***`path {string*}`*** |The resource path for the location |
-| ***`[./jcr:title] {string*}`*** |The name of the template to use (that is, location for *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** |The name of the template to use (that is, the location for *screens/core/templates/location*) |
 | ***`template {string}`*** |Optional title to use for the page |
 | ***`[./jcr:description] {string}`*** |Optional description to use for the page |
 
 The spreadsheet (CSV/XLS) file thus requires the following columns:
 
 * **path {string}** &ndash; The path for the location to be imported, where the root of the path is the location folder for the project (that is, *`/foo`* is imported to *`/content/screens/<project>/locations/foo`*)
-* **template {string}** &ndash; The template to use for the new location, for now the only allowed value is "location", but this will be extended to all the Screens templates in the future (`display`, `sequencechannel`, and so on)
+* **template {string}** &ndash; The template to use for the new location, for now the only allowed value is "location", but this value is extended to all the Screens templates in the future (`display`, `sequencechannel`, and so on)
 * **[./*] {string}** &ndash; Any optional property to be set on the location (that is, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). The current release allows no filtering.
 
 >[!NOTE]
@@ -83,7 +83,7 @@ For demo purposes, you can download an excel file from the section below.
 
 ### Importing the file with minimum required fields {#importing-the-file-with-minimum-required-fields}
 
-Follow the steps below to import a file to a location folder with minimum required fields:
+Follow the steps below to import a file to a location folder with the minimum required fields:
 
 >[!NOTE]
 >
