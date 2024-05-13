@@ -21,7 +21,7 @@ Based on the information gathered during *Day Zero*, confirm the following infor
 
 * When is content on players updated?
 
-* If you are running videos, make sure you understand specifications of your device, so that content displays properly.
+* If you are running videos, make sure you understand the specifications of your device, so that the content displays properly.
 
 * Based on the environmental considerations above, is solid state or hard disk storage is more appropriate?
 

@@ -27,13 +27,13 @@ This section covers the following topics:
 
 The following use case involves placing a video (example: 1280 x 720) in a channel where the display is 1920 x 1080 and having the video be placed at 0x0 (upper left). The video should not be stretched or modified in any way and do not use **Cover** in the video component.
 
-The video is displayed as an object from pixel 1 to pixel 1280 across and from pixel 1 to pixel 720 down and the rest of the channel is the default color.
+The video is displayed as an object from pixel 1 to pixel 1280 across and from pixel 1 to pixel 720 down. The rest of the channel is the default color.
 
 ## Prerequisites {#prerequisites}
 
 Before you create a workflow for video, complete the following prerequisites:
 
-1. Upload a video in **Assets** folder in your AEM instance
+1. Upload a video in the **Assets** folder in your AEM instance
 1. Create an AEM Screens project (for example, **TestVideoRendition**) and a channel named (**VideoRendering**), as shown in the figure below:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -52,12 +52,12 @@ Follow the steps below to create and use the workflow:
 Follow the steps below to create a workflow for your video:
 
 1. Navigate to your AEM instance.
-1. Click tools from side rail. 
+1. Click the tools from the side rail. 
 1. Click **Workflow** > **Models** so you can create a model.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Click **Models** > **Create** > **Create Model**. Enter the **Title** (as **VideoRendition**) and **Name** in the **Add Workflow Model**. Click **Done** to add the workflow model.
+1. Click **Models** > **Create** > **Create Model**. Enter the **Title** (such as **VideoRendition**) and **Name** in the **Add Workflow Model**. Click **Done** to add the workflow model.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -109,7 +109,7 @@ Follow the steps below to use the workflow in your AEM Screens project:
 
 You can validate your output by:
 
-* Check preview of the video in the channel
+* Check a preview of the video in the channel
 * Navigate to the ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, as shown in the figure below:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

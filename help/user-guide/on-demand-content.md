@@ -24,7 +24,7 @@ Follow the steps below to deliver content updates from author to publishing to d
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. The **Manage Publication** wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
+1. The **Manage Publication** Wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -36,7 +36,7 @@ Follow the steps below to deliver content updates from author to publishing to d
 
    >[!NOTE]
    >
-   >By default, all the boxes are checked and you have to manually uncheck the boxes to publish all the modules in your project.
+   >By default, all the boxes are checked and you must manually uncheck the boxes to publish all the modules in your project.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -66,12 +66,12 @@ Follow the steps below to deliver content updates from author to publishing to d
    >
    >
    >    1. The workflow does not work if there are no changes in the project and nothing for **Update Offline Content**.
-   >    1. The workflow will not work if author does not complete the replication process (contents are still uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
+   >    1. The workflow will not work if the author does not complete the replication process (contents are still uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
 
    >[!CAUTION]
-   >If as an author or content creator, you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from channel dashboard or by selecting the project. In this case, the update offline content is only performed in the author instance.
+   >As a content creator, if you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from the channel dashboard or by selecting the project. In this case, the update of offline content is only performed in the author instance.
 
-1. Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on your Publish instance too.
+1. Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to the publish instance, so that the offline zips are created on your Publish instance too.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -82,7 +82,7 @@ Follow the steps below to deliver content updates from author to publishing to d
 
    >[!CAUTION]
    >
-   >Trigger the update offline content in Author instance, if you have a player registered to the author server. Update offline content is not required for the player registered to the Publishing instance.
+   >Trigger the update offline content in Author instance, if you have a player registered to the author server. Update of offline content is not required for the player registered to the Publishing instance.
 
 ### Managing Publication for a Channel {#managing-publication-for-a-channel}
 
@@ -97,7 +97,7 @@ Follow the steps below to deliver content updates from Author > Publish > device
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. The **Manage Publication** wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
+1. The **Manage Publication** Wizard opens. You can click the **Action** and also schedule the publishing time for now or later. Click **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

@@ -11,7 +11,7 @@ This following page describes how to configure Screens Replication Agents.
 
 ## Objective {#objective}
 
-The Screens Replication Agent is responsible for bringing commands data such as, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, and many more such values from publish to author. It is essential to configure this so that the author can show the device ping.
+The Screens Replication Agent is responsible for bringing commands data such as *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, and many more such values from publish to author. It is essential to configure this agent so that the author can show the device ping.
 
 >[!NOTE]
 >To learn more about Screens Replication Agents, see [Screens Replication Agents and Commands](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -28,7 +28,7 @@ Follow the steps below to enable users and update the password for `screens-rece
 >[!NOTE]
 >For security reasons, it is recommended to avoid using the admin password for `screens-receiver-user`.
 
-1. Navigate  to your AEM Author instance.
+1. Navigate to your instance of AEM Author.
 
 1. Click tools > **Security** > **Users**.
 
@@ -87,7 +87,7 @@ Follow the steps below to enable users and update the password for `screens-rece
 Follow the section below to update settings in the AEM Screens Replication agent:
 
 >[!IMPORTANT]
->Complete the following steps on ALL existing AEM Screens replication agents.
+>Complete the following steps on ALL existing AEM Screens Replication Agents.
 
 1. Navigate to your AEM instance.
 1. Click tools > **Deployment** > **Replication**.
@@ -98,10 +98,10 @@ Follow the section below to update settings in the AEM Screens Replication agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Search for the all AEM Screens Replication agents on author and click the link, as shown in the figure below.
+1. Search for the all AEM Screens Replication Agents on author and click the link, as shown in the figure below.
 
    >[!NOTE]
-   >Search for all AEM Screens Replication agents. The Screens Replication Agent name includes the letter **S** in the title.
+   >Search for all AEM Screens Replication Agents. The Screens Replication Agent name includes the letter **S** in the title.
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -123,4 +123,4 @@ Follow the section below to update settings in the AEM Screens Replication agent
 
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   If the connection verification is successful, you have completed configuring Screens Replication Agent.
+   If the connection verification is successful, you have completed configuring the Screens Replication Agent.

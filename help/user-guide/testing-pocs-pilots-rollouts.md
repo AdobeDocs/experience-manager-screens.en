@@ -27,7 +27,7 @@ This tutorial covers the following points relevant to a successful deployment of
 
 >[!NOTE]
 >
->Typical Sales cycles for Digital Signage deployment at scale can range from 9 through 18 months. There are many factors involved that affect the final time line, not the least of which is how the end-client measures success and how risk averse their business partners are when introducing a new solution.
+>Typical Sales cycles for Digital Signage deployment at scale can range from 9 through 18 months. There are many factors involved that affect the final time line. Some of these factors include how the end-client measures success and how risk averse their business partners are when a new solution is introduced.
 
 For example, stakeholders for a digital signage program in a retail environment could include the following:
 
@@ -40,7 +40,7 @@ For example, stakeholders for a digital signage program in a retail environment 
 
 ## Summary of Key Terms involved in an Overall Project Plan {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-The following section provides an overview on the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and roll outs.
+The following section provides an overview on the key terms involved in an overall project plan, Key terms include project cycle, actions surrounding hardware testing, Proof Of Concept, pilots, and roll outs.
 
 ### Proof of Concept (POC) {#proof-of-concept-poc}
 
@@ -48,9 +48,9 @@ The purpose of a POC is to gain initial feedback on a solution's key functionali
 
 ### Quality Control {#quality-control}
 
-Systems & Software Integration testing begins with the Audio-Video Integrator's IT Engineering team. Referencing the approved system design, the IT Engineering Team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio-Video Integrator's facility. This allows for close review and testing of the entire solution for quality control.
+Systems and Software Integration testing begins with the Audio-Video Integrators IT Engineering team. Referencing the approved system design, the IT Engineering team configures, implements, and supervises the installation of hardware components in a "Lab environment" in the Audio-Video Integrator's facility. This arrangement allows for close review and testing of the entire solution for quality control.
 
-After QC testing is complete, the IT Engineering Team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to test include the following:
+After QC testing is complete, the IT Engineering team creates documentation, workflows, and training for reference during Day-2 support. Systems aspects to test include the following:
 
 * AEM implementor integrations.
 * Third-party systems integrations.
@@ -61,7 +61,7 @@ After QC testing is complete, the IT Engineering Team creates documentation, wor
 
 ## Part 3: Video Tutorial on Testing, POCs, Pilots & Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Follow the tutorial below to understand Testing, Proofs of Concept, Pilot Programs, and Rollouts.
+Follow the tutorial below to understand testing, proofs of concept, pilot programs, and rollouts.
 
 Considering all these stages as part of the overall project plan helps manage expectations and identifies natural points in which the investment in an AEM Screens deployment can be evaluated.
 

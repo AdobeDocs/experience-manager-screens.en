@@ -31,7 +31,7 @@ Follow the steps below to add a transition component to your AEM Screens project
 
    >[!NOTE]
    >
-   >The **TestTransition** channel already has few assets (images and videos) in it. For example, the **TestTransition** channel includes three images and two videos, as shown below:
+   >The **TestTransition** channel already has a few assets (images and videos) in it. For example, the **TestTransition** channel includes three images and two videos, as shown below:
    
    ![image2](assets/transitions2.png)
    
@@ -40,7 +40,7 @@ Follow the steps below to add a transition component to your AEM Screens project
 
    >[!CAUTION]
    >
-   >Before you add the transition to your assets in your channel, make sure you do not add transition before the first asset in the sequential channel. The first item in your channel must be an asset and not a transition.
+   >Before you add the transition to your assets in your channel, make sure you do not add the transition before the first asset in the sequential channel. The first item in your channel must be an asset and not a transition.
 
    ![image3](assets/transitions3.png)
 
@@ -48,6 +48,6 @@ Follow the steps below to add a transition component to your AEM Screens project
    >
    >By default, the properties of the transition component such as **Type** is set to **Fade** and the **Duration** is set to *1600 milliseconds*. Also, it is not advisable to set a transition duration time that is longer than the asset it is being applied to.
 
-1. Also, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end. This ensures that the content plays in the correct order, as seen in the following image:
+1. Also, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end. Doing so ensures that the content plays in the correct order, as seen in the following image:
 
    ![image3](assets/transitions5.png)
