@@ -16,14 +16,14 @@ This page describes creating and managing Live Copies of channels.
 
 A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. This live relationship allows the live copy to inherit content and page properties from the source.
 
-This page describes creating live copy of a channel, viewing properties, checking status, and propagating changes from a channel to its live copy.
+This page describes creating a live copy of a channel, viewing properties, checking status, and propagating changes from a channel to its live copy.
 
 
 ## Creating a Live Copy {#creating-a-live-copy}
 
 Follow the steps below to create a live copy of a channel in your project folder.
 
-1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can go directly to: `http://localhost:4502/screens.html/content/screens`.
 
 1. Navigate to Screens project and click **Channels**.
 1. Click **Create** and click **Live Copy** so you can create a live copy of the channel.
@@ -31,21 +31,21 @@ Follow the steps below to create a live copy of a channel in your project folder
 1. Click the location where the live copy can reside.
 1. Enter the **Title** and **Name** in the **Create Live Copy** page.
 
-1. Click **Open** to view the contents of new live copy or **Done** to return to the main page.
+1. Click **Open** to view the contents of the new live copy or **Done** to return to the main page.
 
 Alternatively, see the steps below for visual representation for creating a new live copy of a channel.
 
-The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with the destination folder as ***Channels***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
 ## Viewing Content of the Live Copy Channel {#viewing-content-of-the-live-copy-channel}
 
-A Live copy is a copy of a channel that exists.
+A live copy is a copy of a channel that exists.
 
 To view the content of your live copy, see the steps below:
 
-1. Navigate to Screens project and click the location where you originally created live copy as shown in the section above. (Here, the location was chosen as **Channels** folder)
+1. Navigate to Screens project and click the location where you originally created a live copy as shown in the section above. (Here, the location was chosen as the **Channels** folder)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -73,7 +73,7 @@ Also, you can view the properties of your live copy channel.
 
 The mode **Live Copy Status**, as shown in the figure below, lets you view the relationship status of all the assets in the channel.
 
-1. Click **Edit** so you can choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. Click **Edit** so you can choose the **Live Copy Status**. You can also view the association of your channel content to the original channel from which the live copy is generated.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,7 +93,7 @@ The following example shows that you click the image in the edit mode and click 
 
 ### Propagating Changes to the Live Copy Channel {#propagating-changes-to-the-live-copy-channel}
 
-If you make changes or updates in the original channel, propagate those changes to your Live Copy channel too.
+If you make changes or updates in the original channel, propagate those changes to your live copy channel too.
 
 Follow the steps below to ensure that your changes are propagated from the original channel to the live copy channel:
 

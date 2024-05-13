@@ -14,7 +14,7 @@ exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 
 The following section explains how to segregate projects using ACLs so that each individual or team handles their own project.
 
-As an AEM administrator, you want to ensure that team members of a project do not interfere with other projects and each of the users are assigned specific roles as per project requirements.
+As an AEM administrator, you want to ensure that team members of a project do not interfere with other projects. Each user is assigned specific roles as per project requirements.
 
 ## Setting up Permissions {#setting-up-permissions}
 
@@ -36,7 +36,7 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Add the **Acme** (project that you created) to **Add Members to Group**. Click **Save**.
+1. Add the **Acme** (project that you created) to **Add Members to the Group**. Click **Save**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -60,12 +60,12 @@ The following table summarizes the path with the permissions at the project leve
 
 | **Path** |**Permission** |**Description** |
 |---|---|---|
-| `/apps/<project>` |READ |Provides access to project files, if applicable. |
-| `/content/dam/<project>` |ALL |Provides access to store the project assets such as images or video in DAM. |
+| `/apps/<project>` |READ |Provide access to project files, if applicable. |
+| `/content/dam/<project>` |ALL |Provide access to store the project assets such as images or video in DAM. |
 | `/content/screens/<project>` |ALL |Removes access to all other projects under /content/screens. |
-| `/content/screens/svc` |READ |Provides access to the registration service. |
-| `/libs/screens` |READ |Provides access to DCC. |
-| `/var/contentsync/content/screens/` |ALL |Lets you update offline content for the project. |
+| `/content/screens/svc` |READ |Provide access to the registration service. |
+| `/libs/screens` |READ |Provide access to DCC. |
+| `/var/contentsync/content/screens/` |ALL |Help you update offline content for the project. |
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ The following table summarizes the groups with description and permissions for a
   </tr>
   <tr>
    <td>Screens Players<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Groups all players and all players/devices are members of the contributors automatically.</td>
+   <td>All players and all players/devices are members of the contributors automatically.</td>
    <td><p> Member of Contributors</p> </td>
   </tr>
  </tbody>

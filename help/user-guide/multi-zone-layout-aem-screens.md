@@ -1,6 +1,6 @@
 ---
 title: Multi-zone Layout
-description: Learn how to create multiple zone content and use various assets such as videos, images, and text that can be combined in a single screen in AEM Screens.
+description: Learn how to create multiple zone content and use various assets such as videos, images, and text that combine in a single screen in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -28,7 +28,7 @@ The following page describes the usage of multi-zone layout and covers the follo
 As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed that runs in three separate zones on a single channel.
 
    >[!NOTE]
-   >In multi-zone channels, asset-level scheduling is not recommended due to potential conflicts and unintended behavior. If asset-level scheduling is necessary, it's advised to create a separate sequence channel and apply scheduling logic within that channel. Next, embed the sequence channel into the multi-zone channel.
+   >In multi-zone channels, asset-level scheduling is not recommended due to potential conflicts and unintended behavior. If asset-level scheduling is necessary, create a separate sequence channel and apply scheduling logic within that channel. Next, embed the sequence channel into the multi-zone channel.
 
 ### Prerequisites {#prerequisites}
 
@@ -40,12 +40,12 @@ Before you start implementing this functionality, make sure you have the concept
 
 ## Creating Multi-zone Layout {#creating-multi-zone-layout}
 
-While creating a channel, you can use different templates to create zones in your channel. You can add a single image, video, or an embedded channel which allows for multiple assets to be shown in a sequence.
+While creating a channel, you can use different templates to create zones in your channel. You can add a single image, video, or an embedded channel that allows for multiple assets to be shown in a sequence.
 
 **Creating a Channel**
 
-1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to **Channels** folder and click **Create** from the action bar.
+1. Click the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Navigate to the **Channels** folder and click **Create** from the action bar.
 
 1. Click **1x2 Split Screen Channel** from the **Create** wizard.
 
@@ -70,7 +70,7 @@ You can use single assets such as an image or a video in all individual zones. F
 
 ### Using Sequenced Content in one or more Zones {#using-sequenced-content-in-one-or-more-zones}
 
-If you want the zones to display sequence of images and a video in the different zones, follow steps below for details.
+If you want the zones to display a sequence of images and a video in the different zones, follow the steps below for details.
 
 1. **Creating a Channel Folder**
 
@@ -85,7 +85,7 @@ If you want the zones to display sequence of images and a video in the different
     1. Navigate to **Zones** > **Channels** > **EmbeddedChannels** and click **Create** from the action bar.
     1. Click **Sequence Channel** from the **Create** wizard to create a channel titled as **`Zone1`**.
     1. Click **`Zone1`** and click **Edit** from the action bar.
-    1. Drag and drop few images to this channel.
+    1. Drag and drop a few images to this channel.
     1. Similarly, create another sequence channel titled as **`Zone2`** in **EmbeddedChannels** folder.
     1. Drag and drop a video to this channel.
 
@@ -119,14 +119,14 @@ Create a location and a display so you can view the content in the AEM Screens P
 
 1. **Creating a Location**
 
-   1. Navigate to **Zones** > **Locations** folder.
+   1. Navigate to the **Zones** > **Locations** folder.
    1. Click the **Locations** folder and click **Create** from the action bar.
    1. Click **Location** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **SanJose** and click **Create**.
 
 1. **Creating a Display**
 
-   1. Navigate to **Zones** > **Locations** folder.
+   1. Navigate to the **Zones** > **Locations** folder.
    1. Click the **SanJose** location and click **Create** from the action bar.
    1. Click **Display** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **Lobby** and click **Create**.
@@ -156,11 +156,11 @@ Assign the channels to the display to view the content. Follow the steps below t
 
 ### Registering the Device {#registering-device}
 
-When you have set up a location and a display, follow the steps below to register the device and assign display to the device.
+When you have set up a location and a display, follow the steps below to register the device and assign the display to the device.
 
 1. **Registering the Device**
 
-   1. Navigate to **Zones** > **Devices** folder.
+   1. Navigate to the **Zones** > **Devices** folder.
    1. Click the **Devices** folder and click **Device Manager** from the action bar.
    1. Click **Device Registration** and click the pending device from the list.
 

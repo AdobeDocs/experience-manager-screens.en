@@ -11,7 +11,7 @@ exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 
 ## Use case description {#use-case-description}
 
-This section describes a use-case example that emphasizes on how to set up a multi-zone layout channel that alternates with a single-zone layout channel. The multi-zone channel has sequencing image/video assets and it shows how you can set up project that alternates from multi-zone to single-zone and conversely.
+This section describes a use-case example that emphasizes on how to set up a multi-zone layout channel that alternates with a single-zone layout channel. The multi-zone channel has sequencing image/video assets and it shows how you can set up a project that alternates from multi-zone to single-zone and conversely.
 
 ### Preconditions {#preconditions}
 
@@ -56,7 +56,7 @@ Follow the steps below to set up a project:
 
    ![asset](assets/mz-to-sz4.png)
 
-1. Open the settings for the Channel component and point it to the **MultiZoneLayout** channel that you created  in *step 2*.
+1. Open the settings for the Channel component and point it to the **MultiZoneLayout** channel that you created in *step 2*.
 
    ![asset](assets/mz-to-sz5.png)
 
@@ -64,7 +64,7 @@ Follow the steps below to set up a project:
 
    ![asset](assets/mz-to-sz6.png)   
 
-1. Similarly, open the settings for the Image (asset you added)  and set its duration from the **Sequence** field to **3000 milliseconds**.
+1. Similarly, open the settings for the Image (asset you added) and set its duration from the **Sequence** field to **3000 milliseconds**.
 
    ![asset](assets/mz-to-sz7.png)   
 
@@ -72,7 +72,7 @@ Follow the steps below to set up a project:
 
 You can view the desired output from the player or just by selecting **Preview** from the editor.
 
-The output demonstrates how a multi-zone layout plays for *10000 milliseconds* and then switches to single zone layout that has playback duration of *3000 milliseconds* and then switches back to the multi-zone layout.
+The output demonstrates how a multi-zone layout plays for *10000 milliseconds*. Then, it switches to a single zone layout that has a playback duration of *3000 milliseconds*. And finally, it switches back to the multi-zone layout.
 
    >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

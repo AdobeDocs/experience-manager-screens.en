@@ -35,7 +35,7 @@ To view the default components to your Screens project, follow the steps below:
 
 ### Adding a New Component {#adding-a-new-component}
 
-AEM provides several other components. You can always add other components (not included by default) to your project, given that those are compatible with AEM Screens.
+AEM provides several other components. You can always add other components (not included by default) to your project, given that those components are compatible with AEM Screens.
 
 The following example shows the addition of a Livefyre component to an AEM Screens project:
 
@@ -44,7 +44,7 @@ The following example shows the addition of a Livefyre component to an AEM Scree
 1. Click **Edit** from the action bar.
 1. Click **Design** mode.
 1. Click the entire design editor on the right and click the settings symbol so you can open the **Parsys Design** dialog box.
-1. You can click the components that you want to import to your AEM Screens project. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. You can click the components that you want to import to your AEM Screens project. The following example shows the addition of the **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,12 +64,12 @@ The following section explains the AEM Screens components that you can use in yo
 
 The **Application** component lets you add an application to your channel.
 
-Application component has the following properties:
+The application component has the following properties:
 
 | **Property** |**Description** |
 |---|---|
 | ***Application Path*** |Click the absolute path where the application exists. |
-| ***Duration (milliseconds)*** |Click the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, single page application). Setting the duration value >0, shows the element for the specified duration and then moves on to the next one. |
+| ***Duration (milliseconds)*** |Click the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, a single page application). Setting the duration value >0, shows the element for the specified duration and then moves on to the next one. |
 
 The following example shows how to embed an application component along with the preview of its properties:
 
@@ -77,7 +77,7 @@ The following example shows how to embed an application component along with the
 
 >[!NOTE]
 >
->See the example above to view properties of each of the components below.
+>See the example above to view the properties of each of the components below.
 
 ### Channel {#channel}
 
@@ -129,9 +129,9 @@ The Embedded page has the following properties:
 
 >[!NOTE]
 >
->To learn in detail about embedded sequences, see [Embedded Sequences](embedded-sequences.md) under Authoring Screens section.
+>To learn in detail about embedded sequences, see [Embedded Sequences](embedded-sequences.md) under the Authoring Screens section.
 
-An Embedded Sequence lets you add an embedded sequence channel inside your existing channel (with other assets).
+An Embedded Sequence lets you add an Embedded Sequence channel inside your existing channel (with other assets).
 
 The Embedded Sequence has the following page properties:
 
@@ -151,16 +151,16 @@ The Embedded Sequence has the following page properties:
   </tr>
   <tr>
    <td><strong><em>Strategy</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence runs fully on each cycle of the parent sequence. The other possible value is <strong>single</strong>. Such value only shows one item of the subsequence on each run. For example, the first item on the first loop, and the second item on the second loop.</td>
+   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to the <strong>original</strong> means that the subsequence runs fully on each cycle of the parent sequence. The other possible value is <strong>single</strong>. Such a value only shows one item of the subsequence on each run. For example, the first item on the first loop, and the second item on the second loop.</td>
   </tr>
  </tbody>
 </table>
 
 ### Dynamic Embedded Sequence {#dynamic-embedded-sequence}
 
-A dynamic embedded sequence lets you add a sequence similar to the above mentioned except by channel role.
+A dynamic Embedded Sequence lets you add a sequence similar to the above mentioned except by channel role.
 
-To learn about embedded sequences, see [Embedded Sequences](embedded-sequences.md) under Authoring Screens section.
+To learn more about embedded sequences, see [Embedded Sequences](embedded-sequences.md) under the Authoring Screens section.
 
 The dynamic embedded sequence has the following properties:
 
@@ -180,14 +180,14 @@ The dynamic embedded sequence has the following properties:
   </tr>
   <tr>
    <td><strong><em>Strategy</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence runs fully on each cycle of the parent sequence. The other possible value is <strong>single</strong>. Such value would only show one item of the subsequence on each run. For example, the first item on the first loop, and the second item on the second loop.</td>
+   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to the <strong>original</strong> means that the subsequence runs fully on each cycle of the parent sequence. The other possible value is <strong>single</strong>. Such a value would only show one item of the subsequence on each run. For example, the first item on the first loop, and the second item on the second loop.</td>
   </tr>
  </tbody>
 </table>
 
 ### Experience Fragment {#experience-fragment}
 
-An Experience Fragment lets you add an Experience Fragment (group of one or more components including content and layout that can be referenced within pages) to your AEM Screens channel. Drag and drop the component to AEM Editor and click the Experience Fragment.
+An Experience Fragment lets you add an Experience Fragment (a group of one or more components including content and layout that can be referenced within pages) to your AEM Screens channel. Drag and drop the component to AEM Editor and click the Experience Fragment.
 
 To learn more about how to create an Experience Fragment and apply it to an AEM Screens project, see [Using Experience Fragments](experience-fragments-in-screens.md).
 
@@ -200,7 +200,7 @@ To learn more about how to create an Experience Fragment and apply it to an AEM 
 | ***Duration*** |Select the entire duration of the Experience Fragment that plays in the channel. |
 | **Offline Config** |
 | ***Client-side Libraries*** |JavaScript and CSS files. |
-| ***Static Files*** |Static files that you can add as offline configs to your Experience Fragment. |
+| ***Static Files*** |Static files that you can add as offline configurations to your Experience Fragment. |
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ The transition component has the following properties:
   </tr>
   <tr>
    <td><strong><em>Active Until</em></strong></td>
-   <td>Timestamp that describes until when the transition can be active.</td>
+   <td>The timestamp describes until when the transition can be active.</td>
   </tr>
   <tr>
    <td><strong><em>Schedule</em></strong></td>

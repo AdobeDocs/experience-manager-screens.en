@@ -8,11 +8,11 @@ exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
 ---
 # Replicating Data Triggers to Publish Servers {#replicating-data-triggers}
 
-When using ContextHub and AEM Targeting Engine to customize content based on data triggers in an author/publish setup, all the ContextHub and Personalization related configurations are not automatically replicated with the channels when they are published.
+When using ContextHub and AEM Targeting Engine to customize content based on data triggers in an author/publish setup, all the ContextHub and Personalization related configurations are not automatically replicated with the channels when published.
 
 This page helps you learn the manual steps required to publish these configurations separately.
 
-This basically comes down to manual publishing:
+This process basically comes down to manual publishing the following:
 
 1. ContextHub Store and UI modules configurations
 1. Personalization audiences
@@ -58,7 +58,7 @@ Follow the steps below to replicate the data triggers to publish server.
 
 1. Click **Next** and **Publish**.
 
-### Replicating the Activities  {#replicating-activities}
+### Replicating the Activities {#replicating-activities}
 
 1. Navigate to your AEM instance > **Personalization** > **Activities** or use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` to navigate directly.
 
@@ -86,12 +86,12 @@ If replication is successful, you should view the following structure on the pub
 
 If the test connection fails while replicating the ContextHub configurations, follow the section below for troubleshooting the issue:
 
-1. Navigate to Tools > **Deployment** > **Distribution** > **Publish Agent**.
+1. Navigate to **Tools** > **Deployment** > **Distribution** > **Publish Agent**.
 
-1. Click **Edit** from the action bar and ensure that the endpoint URL in **Importer Endpoints** field is also pointing to the publishing server URL in Distribution Agent.
+1. Click **Edit** from the action bar and ensure that the endpoint URL in the **Importer Endpoints** field is also pointing to the publishing server URL in Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. If you are not using the default admin credentials, then you must configure the distribution agent with a different username and password.
+1. If you are not using the default admin credentials, then you must configure the Distribution Agent with a different username and password.
 
    Follow the steps below:
 
