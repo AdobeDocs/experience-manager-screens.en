@@ -1,6 +1,6 @@
 ---
 title: Creating and Managing Schedules
-description: Learn about Schedules that let you organize channels into reusable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+description: Learn about Schedules that let you organize channels into reusable groups so that you do not have to repeat their assignment individually.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -12,7 +12,7 @@ exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
 ---
 # Creating and Managing Schedules {#creating-and-managing-schedules}
 
-**Schedules** in AEM Screens let you organize channels into reusable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
+**Schedules** in AEM Screens let you organize channels into reusable groups. Doing so means that you do not have to repeat their assignment individually for each display on which you want to show your content.
 
 Schedules, when combined with ***DayParting***, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
 
@@ -24,7 +24,7 @@ Schedules, when combined with ***DayParting***, lets you set a global schedule w
 
 You can create a schedule for your Screens project that can manage all the activities for your use case.
 
-Follow the steps below to create schedule for your channel:
+Follow the steps below to create a schedule for your channel:
 
 1. Click the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Navigate to Screens project and click **Schedules**.
@@ -38,7 +38,7 @@ You can see a schedule folder with the designated name and title in your project
 
 ## Viewing Dashboard {#viewing-dashboard}
 
-After you have created schedules folder in your project, you can view the details from the schedules dashboard.
+After you have created a schedules folder in your project, you can view the details from the schedules dashboard.
 
 Follow the steps below to view the schedule dashboard. The following example shows the dashboard of the `We.Retail` project:
 

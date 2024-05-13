@@ -23,7 +23,7 @@ This section covers the following topics on updating content-as-a-service:
 
 ## Overview {#overview}
 
-Bulk Offline Update, lets you update all the channels in bulk. It avoids the hassle of navigating to a particular channel and update the content. Rather, you can update all the content in channels for one specific project in one instant.
+Bulk Offline Update lets you update all the channels in bulk. It avoids the hassle of navigating to a particular channel and update the content. Rather, you can update all the content in channels for one specific project in one instant.
 
 You can also schedule this activity for a time of lower network traffic.
 
@@ -33,14 +33,14 @@ You can also schedule this activity for a time of lower network traffic.
 
 ## Using Bulk Offline Update {#using-bulk-offline-update}
 
-You can manually use bulk offline update from the User Interface (UI) or schedule the bulk update from OSGi services.
+You can manually use bulk Offline Update from the User Interface (UI) or schedule the bulk update from OSGi services.
 
 ### Using AEM Screens User Interface {#using-aem-screens-user-interface}
 
 Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Navigate to your AEM Screens project.
-1. Click the project and click **Update Offline Content** from the action bar to manually update the channel content.
+1. Click the project and click **Update Offline Content** from the action bar to update the channel content manually.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -49,7 +49,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Adobe Experience Manager Web Console Configuration.
-1. Search for bulk offline update services.
+1. Search for bulk Offline Update services.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

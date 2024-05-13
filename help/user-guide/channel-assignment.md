@@ -9,7 +9,7 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 # Channel Assignment {#channel-assignment}
 
 >[!IMPORTANT]
->This section highlights the Channel assignment and scheduling of channels for Feature packs older than AEM 6.5.5 Screens version.
+>This section highlights the Channel Assignment and scheduling of channels for Feature packs older than AEM 6.5.5 Screens version.
 
 When you have set up a display, assign a channel to a display to view your content.
 
@@ -34,21 +34,21 @@ Follow the steps below to assign a channel to a display:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the properties from the **Channel Assignment** dialog box from the section below. See [Channel Properties](#channel-properties) section for more information about channel properties.
+   You can configure the properties from the **Channel Assignment** dialog box from the section below. See the [Channel Properties](#channel-properties) section for more information about channel properties.
 
 ## Understanding Channel Properties from Channel Assignment {#channel-properties}
 
 ### Reference Channel {#ref-channel}
 
-Reference channel lets you provide a reference to the desired channel, either by channel name or by channel path.
+A Reference channel lets you provide a reference to the desired channel, either by channel name or by channel path.
 
 * **by path** &ndash; You provide an explicit reference using the absolute path of the channel.
 
-* **by name** &ndash; You enter the name of the channel that resolves to an actual channel by context. This feature lets you create a local version of a channel to dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **by name** &ndash; You enter the name of the channel that resolves to an actual channel by context. This feature lets you create a local version of a channel so you can dynamically resolve location-specific content. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 ### Channel Role {#role-channel}
 
-Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role.
+Channel role defines the context of the display. The role targets various actions and is independent of the actual channel that fulfills the role.
 
 ### Priority {#priority-channel}
 
@@ -70,9 +70,9 @@ Priority is used to order the assignments in case multiple ones match the playin
 >
 > This option is only available with <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
-As a Content Author, specify when a channel is interrupted so you can choose to cut off non-critical content, but optionally let important content play before cutting off its playback because of scheduling.
+As a Content Author, specify when a channel is interrupted. Doing so lets you cut off non-critical content if desired, but optionally let important content play before cutting off its playback because of scheduling.
 
-Click from one of following options that are available to set the interruption method from the **Channel Assignment** dialog box:
+Click from one of the following options that are available to set the interruption method from the **Channel Assignment** dialog box:
 
 * **Immediately** &ndash; Whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content.
 * **At end of current item** &ndash; When a new schedule activates or an update is received, you can optionally wait for the current item in the sequence to finish playing. Only after that can you refresh or play the new content.
@@ -94,7 +94,7 @@ Schedule lets you provide a description in text when the channel should appear. 
 
 ### DayParting {#dayparting}
 
-Schedules when combined with **DayParting**, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
+Schedules, when combined with **DayParting**, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
 
 DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens lets you schedule channels in terms of DayPparting within a day, week, or month as per the requirement.
 
@@ -156,7 +156,7 @@ Here, you create DayParting as per month, so that channel content plays as per t
 
 #### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
 
-This example shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
+This example shows the DayParting for a store that displays their winter collection with the same schedule in the month of December. But since the channel B has the priority set as 2, during that week; channel B plays its content rather than channel A.
 
 | **Channel** |**Role** |**Priority** |**Schedule** |
 |---|---|---|---|

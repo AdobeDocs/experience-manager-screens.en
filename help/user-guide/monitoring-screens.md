@@ -55,7 +55,7 @@ Check the **Device Details** panel so you can view the device IP, Storage usage,
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Also, click **Clear cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
+Also, click **Clear Cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
 
 Also, click **...** from the top-right corner of the **Device Details** panel to restart or refresh the status of your player.
 
@@ -138,13 +138,13 @@ AEM provides built-in monitoring for:
 
 * *Heartbeat* every 5 seconds to indicate that the AEM Screens Player is in operation.
 * *Screenshot* from the Player that shows what is displayed on the Player.
-* The *AEM Screens Player Firmware* version installed on the Player.
+* The *AEM Screens Player Firmware* version is installed on the Player.
 * *Free storage space* on the Player.
 
 Recommendations for remote monitoring with third-party software:
 
-* CPU usage on Players.
-* Check if AEM Screens Player process is running.
+* CPU usage in Players.
+* Check if the AEM Screens Player process is running.
 * Remote restart/reboot of the Player.
 * Real-time Notifications.
 

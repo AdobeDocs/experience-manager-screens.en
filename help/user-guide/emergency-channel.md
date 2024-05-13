@@ -14,7 +14,7 @@ exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 
 ## Use case description {#use-case-description}
 
-This section describes a use case example that emphasizes on creating and managing an emergency channel that the Content Author can switch from a sequence channel if there is a precondition.
+This section describes a use case example. It emphasizes creating and managing an emergency channel that the Content Author can switch from a sequence channel, if there is a precondition.
 
 ### Preconditions {#preconditions}
 
@@ -52,7 +52,7 @@ Follow the steps below to set up an emergency channel:
 
     1. Click the channel (**MainAdChannel**).
     1. Click **Edit** from the action bar.
-    1. Drag-and-drop few assets to your channel.
+    1. Drag-and-drop a few assets to your channel.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
@@ -78,7 +78,7 @@ Follow the steps below to set up an emergency channel:
 
 1. **Creating a Location**
 
-    1. Navigate to **Locations** folder.
+    1. Navigate to the **Locations** folder.
     1. Click **Create** from the action bar and create a location titled **Store** from the wizard.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -179,4 +179,4 @@ If there is an emergency, perform the following steps:
 
 The **EmergencyChannel** continues to display its content until the Content Author resets the Priority Value to 1.
 
-When the Content Author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel** which causes normal playback to resume.
+When the Content Author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel**. Doing so causes normal playback to resume.
