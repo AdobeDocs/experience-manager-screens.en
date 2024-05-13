@@ -37,7 +37,7 @@ When you have completed the preceding steps, you are ready to enable targeting i
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenRetail** *(sequence channel)* created in an AEM Screens channel.
 
 1. Click the channel **DataDrivenRetail** and click **Properties** from the action bar.
 
@@ -61,7 +61,7 @@ Follow the steps below to enable targeting in your channels.
 
    >[!NOTE]
    >
-   >If you have set up everything correctly, you see **Targeting** option in the drop-down from the editor, as shown in the figure below.
+   >If you have set up everything correctly, you see the **Targeting** option in the drop-down from the editor, as shown in the figure below.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

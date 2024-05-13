@@ -1,6 +1,6 @@
 ---
 title: Experience Fragments Activation
-description: A use case example to help you learn about experience fragments activation as it relates to AEM Screens.
+description: A use case example to help you learn about Experience Fragments activation as it relates to AEM Screens.
 ---
 
 # Experience Fragments Activation: OmniChannel Experience {#experience-fragments-activation}
@@ -26,7 +26,7 @@ Create a project titled as **DemoProject** and a sequence channel titled as **Te
 
 ### Implementing the Experience Fragment in an AEM Screens Project {#experience-fragments-implementation}
 
-When you have created an Experience Fragment and applied it in your AEM Screens project, **DemoProject** you can enhance the Experience Fragment as per your requirements.
+When you have created an Experience Fragment and applied it in your AEM Screens project, **DemoProject**, you can enhance the Experience Fragment as per your requirements.
 
 ### Increasing Text Size {#increasing-text-size}
 

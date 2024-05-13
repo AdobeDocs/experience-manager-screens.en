@@ -15,15 +15,15 @@ This guide highlights an introduction to proxy servers followed by the varied ne
 
 ## Overview to Proxy Servers {#proxy-servers}
 
-An Internet connection relies on the usage of a Proxy Server. A Proxy Server is a dedicated computer or a software system running on a computer. It acts as an intermediary between an endpoint device, such as a computer, and another server from which a user or client is requesting a service. The proxy server can exist in the same machine as a firewall server or it can exist on a separate server, which forwards requests through the firewall.
+An Internet connection relies on the usage of a proxy server. A proxy server is a dedicated computer or a software system running on a computer. It acts as an intermediary between an endpoint device, such as a computer, and another server from which a user or client is requesting a service. The proxy server can exist in the same machine as a firewall server or it can exist on a separate server, which forwards requests through the firewall.
 
-An advantage of a proxy server is that its cache can serve all users. If one or more Internet sites are frequently requested, these are likely to be in the proxy's cache, and this further improves user response time. A proxy can also log its interactions, which can be used for troubleshooting.
+An advantage of a proxy server is that its cache can serve all users. If one or more Internet sites are frequently requested, these sites are likely to be in the proxy's cache. Such caching further improves user response time. A proxy can also log its interactions, which can be used for troubleshooting.
 
-When a proxy server receives a request for an Internet resource (such as a Web page or while connecting to an AEM Publisher), it scans its local cache of previously called urls. If it finds the page, it returns it to the user without forwarding the request to the Internet. If the page is not in the cache, the proxy server (acts as a client) on behalf of the user and requests the page from the server in the Internet. When the content is returned, the proxy server relates it to the original request and forwards it to the user.
+When a proxy server receives a request for an Internet resource (such as a Web page or while connecting to an AEM Publisher), it scans its local cache of previously called urls. If it finds the page, it returns it to the user without forwarding the request to the Internet. If the page is not in the cache, the proxy server acts as a client on behalf of the user and requests the page from the server in the Internet. When the content is returned, the proxy server relates it to the original request and forwards it to the user.
 
 ## Understanding the Standard Network Setups {#network-setups}
 
-To implement a network Setup, see the following scenarios with their strengths and deployment details. 
+To implement a Network Setup, see the following scenarios with their strengths and deployment details. 
 
 This Guide highlights four different kinds of Network Setups within an Organization:
 

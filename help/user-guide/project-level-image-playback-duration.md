@@ -15,7 +15,7 @@ This feature lets you define image playback duration at the project level. All i
 Before using this feature, set up a project as a prerequisite to start implementing this functionality. For example,
 
 1. Create an AEM Screens project (in this example, **ProjectLevelPlayback**).
-1. Create a sequence channel as **PlayBackChannel** under **Channels** folder.
+1. Create a sequence channel as **PlayBackChannel** under the **Channels** folder.
 1. Add content to **PlayBackChannel**.
 
    ![assets](assets/image_playback1.png)
@@ -58,7 +58,7 @@ Follow the steps below to learn how to update Project Level Image Playback Durat
 
 ### Viewing the Result {#viewing-the-result}
 
-After you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (default value).
+After you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (the default value).
 
 ![channel_preview](assets/channel_preview.gif)
 

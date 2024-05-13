@@ -16,7 +16,7 @@ The following tutorial walks through the steps and best practices for extending 
 
 ## Overview {#overview}
 
-This tutorial is intended for developers who are new to AEM Screens. In this tutorial, the Screens Image component is extended to create a Poster component. A title, description, and logo are overlaid on top of an image to create a compelling experience in a Sequence Channel.
+This tutorial is intended for developers who are new to AEM Screens. In this tutorial, the Screens Image component is extended to create a Poster component. A title, description, and logo are overlaid on top of an image to create a compelling experience in a Sequence channel.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ This tutorial is intended for developers who are new to AEM Screens. In this tut
 
 ![Custom Poster component](assets/2018-05-07_at_4_09pm.png)
 
-Custom Poster component is created by extending the Image component.
+A `Custom Poster` component is created by extending the Image component.
 
 ## Prerequisites {#prerequisites}
 
@@ -62,11 +62,11 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
    AEM Screens `We.Retail Run Ui.Apps` and `Ui.Content` packages installed by way of CRX Package Manager
 
-## Create the Poster Component {#poster-cmp}
+## Create the Poster component {#poster-cmp}
 
 The Poster component extends the out-of-the-box AEM Screens Image component. A mechanism of Sling, `sling:resourceSuperType`, is used to inherit the core functionality of the Image component without having to copy and paste. More information about the basics of [Sling Request Processing can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-The Poster component is rendered in full screen in preview/production mode. In edit mode, it is important to render the component differently to facilitate authoring the sequence channel.
+The Poster component is rendered in full screen in preview/production mode. In edit mode, it is important to render the component differently to facilitate authoring the Sequence channel.
 
 1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (or IDE of choice) beneath to `/apps/weretail-run/components/content`create a `cq:Component` named `poster`.
 
@@ -128,7 +128,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    Copied dialog from `/libs/wcm/foundation/components/image/cq:dialog` to `/apps/weretail-run/components/content/poster`
 
-   The AEM Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **Sling Resource Merger** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
+   The AEM Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore, the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **Sling Resource Merger** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
 
 1. Update the `cq:dialog` beneath `/apps/weretail-run/components/content/poster` with the following changes represented in XML:
 
@@ -236,7 +236,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    The property `sling:hideChildren`= `"[linkURL,size]`" is used on the `items` node to ensure that the **linkURL** and **size** fields are hidden from the dialog. Removing these nodes from the poster dialog is not enough. The property `sling:hideResource="{Boolean}true"` on the accessibility tab is used to hide the entire tab.
 
-   Two click fields are added to the dialog to give authors control over the text position and color of the Title and Description.
+   Two click fields are added to the dialog box, Text Position and Text Color, to give authors control over the position of the text and color of the Title and Description.
 
    ![Poster - Final Dialog Structure](assets/2018-05-03_at_4_49pm.png)
 
@@ -272,11 +272,11 @@ The Poster component is rendered in full screen in preview/production mode. In e
    </div>
    ```
 
-   The production markup for the Poster Component is seen directly above. The HTL script overrides `screens/core/components/content/image/production.html`. The `image.js` is a server-side script that creates a POJO-like Image object. The Image object can then be called to render the `src` as an inline style background-image.
+   The production markup for the Poster component is seen directly above. The HTL script overrides `screens/core/components/content/image/production.html`. The `image.js` is a server-side script that creates a POJO-like Image object. The Image object can then be called to render the `src` as an inline style background-image.
 
    `The h1` and h2 tags are added display the Title and Description based on the component properties: `${properties.jcr:title}` and `${properties.jcr:description}`.
 
-   Surrounding the `h1` and `h2` tags is a div wrapper with three CSS classes with variations of " `cmp-poster__text`". The value for the `textPosition` and `textColor` properties are used to change the CSS class rendered based on the dialog selection of the author. In the next section CSS from client libraries are written to enable these changes in display.
+   Surrounding the `h1` and `h2` tags is a div wrapper with three CSS classes with variations of "`cmp-poster__text`." The value for the `textPosition` and `textColor` properties are used to change the CSS class rendered based on the dialog selection of the author. In the next section CSS from client libraries are written to enable these changes in display.
 
    A logo is also included as an overlay in the component. In this example, the path to the` We.Retail` logo is hard-coded in the DAM. Depending on the use case, it might make more sense to create a dialog field to make the logo path a dynamically populated value.
 
@@ -304,7 +304,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
    </div>
    ```
 
-   The **edit** markup for the Poster Component is seen directly above. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
+   The **edit** markup for the Poster component is seen directly above. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
 
    The `aem-Screens-editWrapper`is added so that the component is not rendered full-screen in the editor. The `data-emptytext` attribute ensures that a placeholder is displayed when no image or content has been populated.
 
@@ -333,9 +333,9 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    Properties for /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   The `categories` property is a string that identifies the client library. The `cq.screens.components` category is used in both Edit and Preview/Production mode. Therefore any CSS/JS defined in the `shared` clientlib is loaded in all modes.
+   The `categories` property is a string that identifies the client library. The `cq.screens.components` category is used in both Edit and Preview/Production mode. Therefore, any CSS/JS defined in the `shared` clientlib is loaded in all modes.
 
-   It is a best practice to never expose any paths directly to /apps in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced by way of a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   As a best practice, never expose any paths directly to `/apps` in a production environment. The `allowProxy` property ensures the client library CSS and JS is referenced through a prefix of `/etc.clientlibs`. More information about the [allowProxy property can be found here.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Create file named `css.txt` beneath the shared folder.
 
@@ -359,7 +359,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
 
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -428,7 +428,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
 
    .cmp-poster {
@@ -486,11 +486,11 @@ A third client library category: `cq.screens.components.edit` could be used to a
 | `cq.screens.components.edit` |Styles and scripts that are only used in edit mode |
 | `cq.screens.components.production` |Styles and scripts that are only used in production mode |
 
-## Add Poster Component to a Sequence Channel {#add-sequence-channel}
+## Add Poster component to a Sequence channel {#add-sequence-channel}
 
-The Poster component is used on a Sequence Channel. The starter package for this tutorial included an Idle Channel. The Idle Channel is pre-configured to allow components of the group **`We.Retail Run - Content`**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
+The Poster component is used on a Sequence channel. The starter package for this tutorial included an Idle channel. The Idle channel is pre-configured to allow components of the group **`We.Retail Run - Content`**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
 
-1. Open the Idle Channel from the `We.Retail` Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Open the Idle channel from the `We.Retail` Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Drag + Drop a new instance of the **Poster** component from the side bar on to the page.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
@@ -505,7 +505,7 @@ The Poster component is used on a Sequence Channel. The starter package for this
 
 ## Putting it all together {#putting-it-all-together}
 
-The below video shows the finished component and how it can be added to a Sequence channel. The Channel is then added to a Location display and ultimately assigned to a Screens player.
+The below video shows the finished component and how it can be added to a Sequence channel. The channel is then added to a Location display and ultimately assigned to a Screens player.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

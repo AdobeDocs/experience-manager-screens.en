@@ -68,7 +68,7 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 
    >[!CAUTION]
    >
-   >You should have set up your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab.
+   >Your **ContextHub** **Configurations** using the channel **Properties** > **Personalization** tab should already be set up.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -79,6 +79,6 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
 1. **Checking the Preview**
 
     1. Click **Preview.** Also, open your Google Sheet and update its value.
-    1. Change the value to less than 50. You should be able to view an image of a cold drink. If the value in Google Sheets is 50 or greater, you should see an image of a hot drink.
+    1. Change the value to less than 50. You can view an image of a cold drink. If the value in Google Sheets is 50 or greater, you should see an image of a hot drink.
 
     ![result3](assets/result3.gif)

@@ -16,7 +16,7 @@ AEM components are used to hold, format, and render the content made available o
 
 >[!NOTE]
 >
->To learn about the details of creating AEM Components, see Developing AEM Components.
+>To learn about the details of creating AEM components, see Developing AEM components.
 
 ## Authoring Channels {#authoring-channels}
 
@@ -41,8 +41,8 @@ The built-in components use the following client library categories:
 
 | **Component** |**Client Library** |
 |---|---|
-| *cq.screens.components.edit* |CSS and JS which has to be loaded during authoring |
-| *cq.screens.components.production* |CSS and JS which has to be loaded when the channel is running |
+| *cq.screens.components.edit* |CSS and JS that has to be loaded during authoring |
+| *cq.screens.components.production* |CSS and JS that has to be loaded when the channel is running |
 | *cq.screens.components* |shared CSS and JS |
 
 >[!NOTE]

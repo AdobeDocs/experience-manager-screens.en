@@ -35,17 +35,16 @@ The planning includes:
 
 ## Summary of Key Considerations Involved in Day 2 Support {#summary-of-key-considerations-involved-in-day-support}
 
-Following are some key considerations for Day 2 Support:
+The following are some key considerations for Day 2 Support:
 
-* To ensure alignment and smooth transition from implementation to operational support, the AEM Implementor works with the Audio-Video Integrator to ensure that the appropriate support scripts are defined as part of the Day 2 Support plan.
+* To ensure alignment and smooth transition from implementation to operational support, the AEM Implementor works with the Audio-Video Integrator. Together, they ensure that the appropriate support scripts are defined as part of the Day 2 Support plan.
 * Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio-Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
-
 * Requirements such as remote device management, Help Desk availability and on-site technician support are practically a given at this stage of the Digital Signage industry's evolution. Beyond this baseline need, Audio-Video Integrators should also explore cost variables between pro-active vs. reactive monitoring and support models.
 * To prepare for long-term success, it is paramount to establish a Day 2 Support Level Agreement (also called an 'S.L.A.') in partnership with the Audio-Video Integrator. SLAs detail post-deployment support services and help to set client expectations.
-* A key resource used in the successful management of multiple networks is the Knowledge Base. SharePoint is a popular platform for this type of resource. The Knowledge Base includes pre-scripted Q&A for NOC agents to follow, ensuring inbound issue resolution requests are handled in a consistent manner. Knowledge Bases typically include reference materials for system configurations and site locations including cut-sheets for hardware and reference materials for systems software. 
+* A key resource used in the successful management of multiple networks is the Knowledge Base. SharePoint is a popular platform for this type of resource. The Knowledge Base includes pre-scripted Q&A for NOC agents to follow, ensuring inbound issue resolution requests are handled in a consistent manner. Knowledge Bases typically include reference materials for system configurations and site locations. The Knowledge Base can sometime include cut-sheets for hardware and reference materials for systems software. 
 * Monitoring and management capabilities are largely dependent on Media Player Operating Systems and screen capabilities. Windows Operating Systems offer the greatest level of detail. For deployments running on Android&trade; or iOS devices, Mobile Device Management (also known as MDM) is employed.
 * Some screen manufacturers offer the ability to monitor screens independent of Media Players, while others require an external device.
-* Audio-Video Integrators use a mix of technologies, so solutions remain flexible to best address the end-client's needs.
+* Audio-Video Integrators use a mix of technologies, ensuring that solutions remain flexible for best addressing the end-client's needs.
 
 ## Part 5: Video Tutorial on Support Considerations {#part-video-tutorial-on-support-considerations}
 

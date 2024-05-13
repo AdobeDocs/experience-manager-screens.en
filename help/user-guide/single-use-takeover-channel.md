@@ -1,6 +1,6 @@
 ---
 title: Single-Use TakeOver Channel
-description: Follow this use case for creating a Single-Use TakeOver Channel.
+description: Follow this use case for creating a single-use takeover channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
@@ -60,7 +60,7 @@ Follow the steps below to set up a project:
 
    ![asset](assets/single-takeover4.png)
 
-1. Set up a location and display for your channels. For instance, the following **Lobby** location and  **MainLobbyDisplay** display are set up for this project.
+1. Set up a location and display for your channels. For instance, the following **Lobby** location and **MainLobbyDisplay** display are set up for this project.
 
    ![asset](assets/single-takeover5.png)
 
@@ -87,12 +87,12 @@ Follow the steps below to set up a project:
        >[!NOTE]
        >Priority can be any value that is higher than the priority value of the normal playing channel.
     * **Supported Events**: Click the **Idle Screen** and **Timer**.
-    * **Schedule**: Enter the text for the schedule that you want this channel to run the display. For example, the text here allows the content to play 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
+    * **Schedule**: Enter the text for the schedule that you want this channel to run on the display. For example, the text here allows the content to play 2 minutes before 12:00 A.M. on Dec 31 until 12:01 A.M.
     The text in the **Schedule** mentioned in this example is *on the 31 day of December after 23:58 and also on the 1 day of January before 00.01*.
 
       ![asset](assets/single-takeover8.png)
 
-      Navigate to the display from **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay** and click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
+      Navigate to the display from **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay**. Click **Dashboard** from the action bar so you can view the assigned channels with their priorities, as shown below.
 
       >[!NOTE]
       >It is mandatory to set the priority of the takeover channel as the highest.
