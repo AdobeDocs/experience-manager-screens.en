@@ -9,7 +9,7 @@ exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 >
 >Typical stakeholders for this activity are Marketing/Business Strategists.
 
-AEM Screens offers the ability to locally capture every trackable event that each player device executes. This data is locally stored until it can be uploaded to the cloud for processing. In addition to all the event data, a deviceID and timestamp are also added. This ensures that data from one player is distinguishable from another player and data run at different times of the day can be evaluated separately, if desired.
+AEM Screens can locally capture every trackable event that each player device runs. This data is locally stored until it can be uploaded to the cloud for processing. In addition to all the event data, a deviceID and timestamp are also added. This functionality ensures that data from one player is distinguishable from another player. And, data run at different times of the day can be evaluated separately, if desired.
 
 There are two fundamental reasons that you may want to capture this data.
 

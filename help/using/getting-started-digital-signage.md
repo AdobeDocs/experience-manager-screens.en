@@ -7,7 +7,7 @@ exl-id: e3913be2-9028-4773-a034-e16924a71e04
 
 Before diving into AEM Screens implementation best practices, it is important to think of the project as a digital signage project, instead of a traditional software development.
 
-This section provides recommendations on major key elements that are critical  before an AEM Screens project implementation.
+This section provides recommendations on major key elements that are critical to an AEM Screens project implementation.
 
 ## Key Elements in Digital Signage {#key-elements}
 
@@ -34,14 +34,14 @@ Defining the key elements is essential before implementing a digital signage pro
    Connectivity emphasizes on the following questions:
    * Networked (cell or wi-fi) or standalone?
      * Must you allow for USB content updates?
-     * Must you allow for usage data collection?
+     * Must you allow for usage of data collection?
   
 1. **Installation**
 
    Installation includes:
    * Displays: landscape or portrait
    * How is the screen mounted?
-     * Portrait versus landscape
+     * Portrait orientation versus landscape orientation
      * Full housing
      * Cover plate
    * Fixture support
@@ -73,7 +73,7 @@ Defining the key elements is essential before implementing a digital signage pro
 
 1. **Environment**
 
-   Environment emphasizes on:
+   The environment emphasizes on:
    * Display location?
      * Inside vs. Outside
      * Out-of-reach or directly exposed

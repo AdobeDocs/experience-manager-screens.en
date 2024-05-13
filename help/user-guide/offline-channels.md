@@ -25,7 +25,7 @@ The workflow for the process is the following:
 1. Collect all related assets.
 1. Package everything in a zip file.
 1. Download the zip and extract it locally.
-1. Display local copy of the content.
+1. Display a local copy of the content.
 
 ## Update Handlers {#update-handlers}
 
@@ -61,7 +61,7 @@ The ***ContentSync*** uses update handlers to parse and collect all necessary pa
   </tr>
   <tr>
    <td><code>copy</code></td> 
-   <td>copy the specified structure from path</td> 
+   <td>copy the specified structure from the path</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -71,14 +71,14 @@ The ***ContentSync*** uses update handlers to parse and collect all necessary pa
 
 Follow the steps below to test the ContentSync configuration:
 
-1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Click your config in the list
-1. Click Clear Cache
-1. Click Update Cache
-1. Click Download Full
-1. Extract the zip file
-1. Start a local server in the extracted folder 
-1. Open your start page and check your app status
+1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Click your config in the list.
+1. Click **Clear Cache**.
+1. Click **Update Cache**.
+1. Click **Download Full**.
+1. Extract the zip file.
+1. Start a local server in the extracted folder. 
+1. Open your start page and check your app status.
 
 ## Enabling Offline Config for a Channel {#enabling-offline-config-for-a-channel}
 
@@ -112,4 +112,4 @@ Follow the steps below to enable offline config for a channel:
 
 >[!NOTE]
 >
->To learn more about the template for custom offline resource handlers and the minimum requirements in the `pom.xml` for that specific project, see [Template for Custom Handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Developing a Custom Component for AEM Screens**.
+>Learn about the template for custom offline resource handlers. And, learn more about the minimum requirements in the `pom.xml` for the project. See [Template for Custom Handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Developing a Custom Component for AEM Screens**.

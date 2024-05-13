@@ -21,7 +21,7 @@ This page covers the following topics:
 
 ## Overview {#overview}
 
-An ***Experience Fragment*** is a group of one or more components including content and layout that can be referenced within pages. Experience fragments can contain any component, such as one or multiple components that can contain anything within a paragraph system that is referenced into the complete experience or requested by a third endpoint.
+An ***Experience Fragment*** is a group of one or more components including content and layout that can be referenced within pages. Experience Fragments can contain any component. For example, it can contain one or multiple components that can contain anything within a paragraph system that is referenced into the complete experience or requested by a third endpoint.
 
 
 ## Using Experience Fragments in AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -29,7 +29,7 @@ An ***Experience Fragment*** is a group of one or more components including cont
 >[!NOTE]
 >The following example uses **`We.Retail`** as a demo project from where the Experience Fragment is applied from a **Sites** page to an AEM Screens project.
 
-As an example, the following workflow demonstrates the use of experience fragments from `We.Retail` in Sites. You can choose a web page and use that content in your AEM Screens channel in one of your projects.
+As an example, the following workflow demonstrates the use of Experience Fragments from `We.Retail` in Sites. You can choose a web page and use that content in your AEM Screens channel in one of your projects.
 
 ### Pre-requisites {#pre-requisites}
 
@@ -62,7 +62,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
 1. **Navigate to a Sites page in We.Retail**
 
-    1. Navigate to Sites and click **`We.Retail`** > **United States** > **English** > **Equipment** and click this page so you can use this as an Experience Fragment for your Screens channel. 
+    1. Navigate to Sites and click **`We.Retail`** > **United States** > **English** > **Equipment** and click this page so you can use it as an Experience Fragment for your Screens channel. 
     
     1. Click **Edit** from the action bar so you can open the page you want to use as an Experience Fragment for your Screens channel.
 
@@ -86,7 +86,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
    
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Note: To click an easier option, click the check mark to the right of the field so you can open the selection dialog box.
+   To select an easier option, click the check mark to the right of the field so you can open the selection dialog box.
 
 1. **Creating Live Copy of Experience Fragment**
 
@@ -95,13 +95,13 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Click the **ScreensFragment** from **Create Live Copy** wizard and click **Next**.
+   c. Click the **ScreensFragment** from the **Create Live Copy** wizard and click **Next**.
 
    d. Enter the **Title** and **Name** as **Screens**.
 
    e. Click **Create** so you can create the Live Copy.
 
-   f. Click **Done** so you can  move back to **ScreensFragment** page.
+   f. Click **Done** so you can move back to the **ScreensFragment** page.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -115,7 +115,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
     
     1. Click the **Offline Config** tab, as shown in the figure below.
 
-   You can add the **Client-side Libraries** (Java&trade; and css) and **Static Files** to your Experience Fragment.  
+   You can add the **Client-side Libraries** (Java&trade; and CSS) and **Static Files** to your Experience Fragment.  
 
    The following example shows the addition of client-side libraries and the fonts as a part of static files to your Experience Fragment.  ![fragment](assets/fragment.gif)
 
@@ -131,11 +131,11 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
    e. Click the **Experience Fragment** component and click the top left (wrench) icon so you can open the **Experience Fragment** dialog box.
 
-   f. Click the **Screens** live copy of the fragment you created in *Step 3* in **Path**.
+   f. Click the **Screens** Live Copy of the fragment that you created in *Step 3* in **Path**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Click the **Screens** live copy of the fragment you created in *Step 3* in the **Experience Fragment**.
+   f. Click the **Screens** Live Copy of the fragment that you created in *Step 3* in the **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -153,7 +153,7 @@ Follow the steps below to apply the content from **`We.Retail`** to your **TestC
 
 ### Validating the Result {#validating-the-result}
 
-After completion of preceding steps, you can validate your Experience Fragment in **ChannelOne** by:
+After completion of the preceding steps, you can validate your Experience Fragment in **ChannelOne** by:
 
 1. Navigating to the **TestChannel**.
 1. Selecting the **Preview** from the action bar.
@@ -165,7 +165,7 @@ View the content from the **Sites** page (live-copy of the Experience Fragment) 
 
 ***Live Copy*** refers to the copy (of the source), maintained by synchronization actions as defined by the rollout configurations.
 
-Because the Experience Fragment you created is a live copy from the **Sites** pages, and you change that particular fragment from the primary page, you view the changes in your channel. Or, view the destination where you have used the Experience Fragment.
+Because the Experience Fragment you created is a Live Copy from the **Sites** pages, and you change that particular fragment from the primary page, you view the changes in your channel. Or, view the destination where you have used the Experience Fragment.
 
 >[!NOTE]
 >

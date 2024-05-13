@@ -1,6 +1,6 @@
 ---
 title: Configuring ContextHub in AEM Screens
-description: Learn about ContextHub in the targeting engine so you can define data store for data trigger content change.
+description: Learn about ContextHub in the targeting engine so you can define a data store for data trigger content change.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -27,15 +27,15 @@ Before you get into the details of creating and managing inventory-driven channe
 
 **Audience** &ndash; Defines the rule.
 
-**Segment** &ndash; The version of asset to play for the given rule. For example, if the temperature is below 50 degrees Fahrenheit, then the screen displays an image of a hot drink, otherwise a cold drink.
+**Segment** &ndash; The version of an asset to play for the given rule. For example, if the temperature is below 50 degrees Fahrenheit, then the screen displays an image of a hot drink, otherwise a cold drink.
 
-The following diagram provides a visual representation of how ContextHub Configurations coincide with Activity, Audience, and Channels.
+The following diagram provides a visual representation of how ContextHub configurations coincide with Activity, Audience, and Channels.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Preconditions {#preconditions}
 
-Before you start configuring Context Hub Configurations for an AEM Screens project, set up Google Sheets (for demonstration purposes).
+Before you start configuring ContextHub configurations for an AEM Screens project, set up Google Sheets (for demonstration purposes).
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Before you start configuring Context Hub Configurations for an AEM Screens proje
 
 You can set up the data store as a Local I/O event or as a local database event. 
 
-The following asset level data triggers example showcases a local database event that sets up a data store such as an excel sheet that lets you use ContextHub configurations and segments path to AEM Screens channel.
+The following asset level data triggers example showcases a local database event. The event sets up a data store such as an Excel sheet that lets you use ContextHub configurations and segments path to the AEM Screens channel.
 
 After you have set up the `google` sheet correctly, as shown in the example below: 
 
@@ -61,13 +61,13 @@ The following validation is what you view when you check your connection by ente
 
 >[!NOTE]
 >
->The specific example below showcases the google sheets as a data store that triggers an asset change if the value is higher than 100 or less than 50.
+>The specific example below showcases the Google Sheets as a data store that triggers an asset change if the value is higher than 100 or less than 50.
 
 ## Step 2: Setting up Store Configurations {#step-setting-store-configurations}
 
 1. **Navigating to ContextHub**
 
-   Navigate to your AEM instance and click the tools icon from left sidebar. Click **Sites** > **ContextHub**, as shown in the figure below.
+   Navigate to your AEM instance and click the tools icon from the left sidebar. Click **Sites** > **ContextHub**, as shown in the figure below.
 
    ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -140,7 +140,7 @@ The following validation is what you view when you check your connection by ente
 
       >[!CAUTION]
       >
-      >If you create your Google Sheets store configurations outside of the global folder (for example, in your own project folder), then targeting does not work out-of-the-box.
+      >If you create your Google Sheets to store configurations outside of the global folder (for example, in your own project folder), then targeting does not work out-of-the-box.
 
 1. **Setting up Store Segmentation**
 
@@ -160,7 +160,7 @@ The following validation is what you view when you check your connection by ente
 
     1. Navigate from your AEM instance to **Personalization** > **Audiences** > **screens**.
 
-    1. Click **Create** > **Create Context Hub Segment.** The **New ContextHub Segment** dialog box opens.
+    1. Click **Create** > **Create ContextHub Segment.** The **New ContextHub Segment** dialog box opens.
 
     1. Enter the **Title** as `**Higherthan50**` and click **Create**. Similarly, create another segment titled as `**Lowerthan50**`.
 
@@ -213,7 +213,7 @@ Follow the steps below to create a brand in your activities and areas under the 
 
 ## Step 5: Creating the Segments in an Activity {#step-setting-up-audience-segmentation}
 
-After you have set up a data store and defined your activity (brand and area), follow steps below to create segments in your activity.
+After you have set up a data store and defined your activity (brand and area), follow the steps below to create segments in your activity.
 
 1. **Creating Segments in Activities**
 
@@ -283,7 +283,7 @@ After you have set up a data store and defined your activity (brand and area), f
 
 Follow the steps below to enable targeting in your channels.
 
-1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens Channel.
+1. Navigate to one of the AEM Screens channels. The following steps demonstrate how to enable targeting by using **DataDrivenChannel** created in an AEM Screens channel.
 
 1. Click the channel **TargetChannel** and click **Properties** from the action bar.
 
@@ -298,7 +298,7 @@ Follow the steps below to enable targeting in your channels.
 
        >[!NOTE]
        >
-       >Use the ContextHub and the Segments path, where you initially saved your context hub configurations and segments.
+       >Use the ContextHub and the Segments path, where you initially saved your ContextHub configurations and segments.
 
        ![image](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -306,7 +306,7 @@ Follow the steps below to enable targeting in your channels.
 
       >[!NOTE]
       >
-      >If you have set up everything correctly, you see **Targeting** option in the drop-down from the editor, as shown in the figure below.
+      >If you have set up everything correctly, you see the **Targeting** option in the drop-down from the editor, as shown in the figure below.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 

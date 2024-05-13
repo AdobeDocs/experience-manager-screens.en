@@ -9,11 +9,11 @@ exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 >
 >A typical stakeholder for this activity is a Marketing/Business Strategist.
 
-Content is a major factor in driving engagement. In the pre-sales phase, it is important to define a business content strategy that considers how the application use hardware, software, and connectivity resources to deliver the intended value to your client's customers.
+Content is a major factor in driving engagement. In the pre-sales phase, it is important to define a business content strategy. That strategy considers how the application use hardware, software, and connectivity resources to deliver the intended value to your client's customers.
 
-A well-defined business content strategy sets a path to create, distribute, and track the usage of content in relation to the buyer's journey and the marketing touch points in the sales funnel. Getting the right message to the right customer at the right time is crucial. 
+A well-defined business content strategy sets a path to create, distribute, and track the usage of content in relation to the buyer's journey. It also considers the marketing touch points in the sales funnel. Getting the right message to the right customer at the right time is crucial. 
 
-Consider how the Screens application can help to achieve this and determine KPIs to help measure the success of the application in delivering that content.
+Consider how the Screens application can help to achieve this strategy and determine KPIs to help measure the success of the application in delivering that content.
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-title: Use workflow to automate asset updates for an AEM Screens channel
+title: Use a workflow to automate asset updates for an AEM Screens channel
 description: Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 ---
 
-# Use workflow to automate asset updates for an AEM Screens channel {#automate-channel-updates-workflow}
+# Use a workflow to automate asset updates for an AEM Screens channel {#automate-channel-updates-workflow}
 
-Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel. In this example, when an image is added to a specific folder, a workflow is triggered that applies a dynamic text overlay (watermark process) and assigns the image to a Screens channel. Lessons learned from this example can be applied to a wide variety of automation scenarios.
+Learn how to create a workflow to automatically process assets uploaded to Adobe Experience Manager and dynamically assign them to a Screens channel. In this example, a workflow is triggered when an image is added to a specific folder. The workflow applies a dynamic text overlay (watermark process) and assigns the image to a Screens channel. Lessons learned from this example can be applied to a wide variety of automation scenarios.
 
 ## Prerequisites {#prerequisites}
 
@@ -32,7 +32,7 @@ The below video illustrates how to install a sample code package that introduces
 
 ## Workflow model {#workflow-model}
 
-A custom folder metadata schema was created to capture the target Screens channel that images should be added. Two workflow models are used to automate the asset processing. The **DAM Update Asset** workflow is modified to call a custom workflow, **Screens Demo Asset Processing** which inspects the asset's containing folder to determine the target Screens channel. The **Screens Demo Asset Processing** workflow is also responsible for applying the watermark to the image.
+A custom folder metadata schema was created to capture the target Screens channel that images should be added. Two workflow models are used to automate the asset processing. The **DAM Update Asset** workflow is edited to call a custom workflow, **Screens Demo Asset Processing that inspects the asset's containing folder to determine the target Screens channel. The **Screens Demo Asset Processing** workflow is also responsible for applying the watermark to the image.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

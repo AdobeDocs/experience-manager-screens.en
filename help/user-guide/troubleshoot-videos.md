@@ -12,7 +12,7 @@ exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
 ---
 # Video Playback Configuration and Troubleshooting {#video-playback-configuration-and-troubleshooting}
 
-When you upload a video to the DAM and add it your channel, you might encounter issues in which the video may not play in the AEM Screens Player.
+When you upload a video to the DAM and add it to your channel, you might encounter issues in which the video may not play in the AEM Screens Player.
 
 The following sections describe how to debug and troubleshoot video playing in your channel.
 
@@ -27,19 +27,19 @@ To view the video:
 
 There should be different renditions (an MP4 or M4V).
 
-If there is no rendition, make sure you have ffmpeg installed on the OS where AEM is running.
+If there is no rendition, make sure you have FFMPEG installed on the OS where AEM is running.
 
 >[!CAUTION]
 >
->If there is no rendition, make sure you have ffmpeg installed on the OS where AEM is running.
+>If there is no rendition, make sure you have FFMPEG installed on the OS where AEM is running.
 >
->Click [here](https://www.ffmpeg.org/download.html) to install ffmpeg.
+>Click [here](https://www.ffmpeg.org/download.html) to install FFMPEG.
 
 ## Video Assets {#video-assets}
 
 If you do not see a source attribute under video, it could be that the video did not get trans-coded. If the video is transcoded properly, it appears in the dashboard, as shown in the following:
 
-Check ffmpeg is installed and the video profiles.
+Check that FFMPEG is installed and the video profiles.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -51,7 +51,7 @@ Check ffmpeg is installed and the video profiles.
 
 1. Upload a test video and click **Ok** so you can begin the transcoding.
 
-   If the transcoded video fails, expand the ffmpeg output to understand any errors in the console output of ffmpeg.
+   If the transcoded video fails, expand the FFMPEG output to understand any errors in the console output of FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -74,13 +74,13 @@ Check the list of profiles from the page design if the video component is not co
 1. Click the video and open the **Edit** dialog. Open the **Profiles** tab.
 
    >[!NOTE]
-   >Click different profiles (at least "High Quality H.264" profile should be there).
+   >Click different profiles (at least the "High Quality H.264" profile should be there).
 
 ### Checking the Video in the Web Player {#checking-the-video-in-the-web-player}
 
 Use the **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` to validate playback in browsers (Chrome and Safari). Chrome is used on Android&trade; devices while Safari is the OS X and iOS browser.
 
-If the video does not run on Safari, it does not run in the OS X and iOS players either. This is likely an encoding issue and the video must be re-encoded.
+If the video does not run on Safari, it does not run in the OS X and iOS players either. This issue is likely an encoding issue and the video must be re-encoded.
 
 To use a DAM workflow to create FullHD renditions, do the following:
 
@@ -103,11 +103,11 @@ Follow the steps below to troubleshoot Google's autoplay policy flag issue:
 1. Navigate to ***chrome://flags/#autoplay-policy***
 1. Change **Autoplay policy** from **Default** to **no user gesture is required**
 
-1. Relaunch your web browser and update the player
+1. Relaunch your Web browser and update the player
 
 >[!NOTE]
 >
->To learn more about the best practices for good user experiences with the new autoplay policies in Chrome, see documentation for *Autoplay Policy Changes* at `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>To learn more about best practices for good user experiences with the new autoplay policies in Chrome. See *Autoplay Policy Changes* at `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Syncing Video across Multiple Players {#syncing-video-across-multiple-players}
 

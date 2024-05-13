@@ -5,9 +5,9 @@ exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 ---
 # Recommended Approach {#recommended-approach}
 
-It is a recommended best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or is deployed to various devices and locations.
+It is best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or is deployed to various devices and locations.
 
-## Guidelines before Developing a Digital Signage Strategy {#signage-strategy}
+## Guidelines for Developing a Digital Signage Strategy {#signage-strategy}
 
 See the few recommendations before developing and deploying a digital signage project:
 
@@ -34,7 +34,7 @@ See the few recommendations before developing and deploying a digital signage pr
   > Upfront costs are often higher on an AEM Screens project because of the need to invest in hardware, fixtures, and site designs. Therefore, keeping initial content solutions simpler can help manage budget expectations.
 
 * **Estimating Large-Scale Deliverables**:
- If the solution is delivered on a large scale, it is recommended that you roll out the components of the application to carefully chosen pilot locations for trial use. Deliver to new locations and devices as the application passes validation.
+ If the solution is delivered on a large scale, roll out the components of the application to carefully chosen pilot locations for trial use. Deliver to new locations and devices as the application passes validation.
 
   >[!NOTE]
   >
@@ -46,5 +46,5 @@ See the few recommendations before developing and deploying a digital signage pr
 * **Developing a Roadmap**:
  If your client wants a feature-rich product, deliver a slice of the planned functionality early in the project and schedule other features for future phases. A feature-heavy first deliverable carries greater risk and is more difficult to validate with the client.
 
-* **Understanding Scope of Custom Integrations**:
+* **Understanding the Scope of Custom Integrations**:
  Interactive components with touch screen interaction, motion sensor, or RFID require significant custom development in the implementation method. A slideshow, video advertisement, or static menu can be delivered as graphical content or HTML on a Screens channel.
