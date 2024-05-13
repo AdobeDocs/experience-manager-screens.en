@@ -22,6 +22,6 @@ Follow the guidelines below to set up the environment for your AEM Screens proje
 
 1. Identify any development packages (for example, WCM Core components) or third-party tool kits (for example, SAP Hybris) that are required.
 
-1. Install the same software packages on your local development environment.
+1. Install the same software packages in your local development environment.
 
 1. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations create problems when deploying and testing.

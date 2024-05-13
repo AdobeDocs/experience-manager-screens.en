@@ -25,7 +25,7 @@ To follow along with the videos, you need the following:
 
 1. A Screens Player
 
-To download AEM Screens Player, click [here](https://download.macromedia.com/screens/). Also, AEM Screens is available in [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+To download AEM Screens Player, click [here](https://download.macromedia.com/screens/). Also, AEM Screens is available in the [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 The below video detail the creation of a new channel, authoring new content and adding a channel to a reusable schedule. It loosely follows the first half of the [Screens Kickstart Guide](kickstart-for-aem-screens.md).
 

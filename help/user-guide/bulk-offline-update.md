@@ -37,7 +37,7 @@ You can also schedule this activity for a time of lower network traffic.
 
 ## Using Bulk Offline Update {#using-bulk-offline-update}
 
-You can manually use bulk offline update from the User Interface (UI) or schedule the bulk update from OSGi services.
+You can manually use Bulk Offline Update from the User Interface (UI) or schedule the bulk update from OSGi services.
 
 ### Using AEM Screens User Interface {#using-aem-screens-user-interface}
 
@@ -53,7 +53,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Adobe Experience Manager Web Console Configuration.
-1. Search for bulk offline update services.
+1. Search for Bulk Offline Update services.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
