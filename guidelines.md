@@ -82,4 +82,5 @@ Try to avoid any direct references to a specific version throughout the document
 
 In an article, always refer to the product by its full name **Adobe Experience Manager** the first time it is used. Thereafter, it can be referred to as **AEM**.
 
-Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of AEM.
+Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of AEM. 
+
