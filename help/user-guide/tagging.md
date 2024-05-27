@@ -8,17 +8,17 @@ exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 
 >[!CAUTION]
 >
->The **Tagging** feature is only available if it is enabled for your tenant. Please contact AEM Screens engineering to enable it. 
+>The **Tagging** feature is only available if it is enabled for your tenant. Please contact AEM Screens Engineering to enable it. 
 
 ## Introduction {#introduction}
 
-You now can create tags on Screens Cloud and use them to classify displays and players.
+User can create tags on Screens Cloud and use them to classify displays and players.
 
 ## Create and manage tags {#create-and-manage-tags}
 
 ![VIDEO create tag](assets/tagging/create-tag.mp4).
 
-Use same action menu to rename a tag or delete them.
+Use the same action menu to rename a tag or delete them.
 
 >[!NOTE]
 > 
@@ -27,17 +27,17 @@ Use same action menu to rename a tag or delete them.
 
 ## Manage tags assignments {#manage-tags-assignments}
 
-Displays & Players now can be tagged. You can tag one with at max 30 tags.
+Use created tags on Displays & Players. You can tag one with at max 30 tags.
 
 ![VIDEO manage tags assigments](assets/tagging/assign-tags-to-players.mp4).
 
 ## Filter by Tags {#filter-by-tags}
 
-Select tags to filter list of displays or players.
+Select tags to filter the list of displays or players.
 
 ![VIDEO filter by tags](assets/tagging/filter-by-tags.mp4).
 
 >[!NOTE]
 > 
-> tags defined on screens cloud are not related/synced with tags defined in AEM.
+> Tags defined on screens cloud are not related/synced with tags defined in AEM.
 > 
