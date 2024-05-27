@@ -39,5 +39,5 @@ Select tags to filter the list of displays or players.
 
 >[!NOTE]
 > 
-> Tags defined on screens cloud are not related/synced with tags defined in AEM.
+> Tags defined on Screens Cloud are not related/synced with tags defined in AEM.
 > 
