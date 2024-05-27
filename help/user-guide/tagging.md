@@ -14,7 +14,7 @@ exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 You now can create tags on Screens Cloud and use them to classify displays and players.
 
 ## Create and manage tags {#create-and-manage-tags}
-![VIDEO create tag](assets/create-tag.mp4).
+![VIDEO create tag](assets/tagging/create-tag.mp4).
 
 Use same action menu to rename a tag or delete them.
 
@@ -26,13 +26,13 @@ Use same action menu to rename a tag or delete them.
 ## Manage tags assignments {#manage-tags-assignments}
 Displays & Players now can be tagged. You can tag one with at max 30 tags.
 
-![VIDEO manage tags assigments](assets/assign-tags-to-players.mp4).
+![VIDEO manage tags assigments](assets/tagging/assign-tags-to-players.mp4).
 
 ## Filter by Tags {#filter by tags}
 
 Select tags to filter list of displays or players.
 
-![VIDEO filter by tags](assets/filter-by-tags.mp4).
+![VIDEO filter by tags](assets/tagging/filter-by-tags.mp4).
 
 >[!NOTE]
 > 
