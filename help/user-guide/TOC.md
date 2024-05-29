@@ -78,6 +78,7 @@ role: User
         + [Channel Level Bulk Image Playback Duration](channel-level-image-playback.md)
         + [Command Sync](using-command-sync.md)
         + [Authoring with Data Triggers](authoring-data-triggers.md)
+        + [Using Tags](tagging.md)        
         + [Voice Recognition](voice-recognition.md)
         + [Content Assignment Report](content-assignment-report.md)
         + [Thumbnail Support for Videos](thumbnail-support.md)
