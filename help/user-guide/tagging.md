@@ -28,12 +28,12 @@ Use the same action menu to rename a tag or delete them.
 
 Use created tags on Displays & Players.
 
+![manage tags assigments](assets/tagging/assign-tags-to-players.gif).
+
 >[!NOTE]
 > 
 > A display or a player can have at max 100 tags.
 > At most, 30 items can be tagged in one go.
-
-![manage tags assigments](assets/tagging/assign-tags-to-players.gif).
 
 ## Filter by Tags {#filter-by-tags}
 
