@@ -22,7 +22,6 @@ Use the same action menu to rename a tag or delete them.
 
 >[!NOTE]
 > 
-> Tag Name can only contain letters, numbers, dashes and underscore. Name should start and end with letters or numbers only.
 > A total of 500 tags are allowed for a tenant
 
 ## Manage tags assignments {#manage-tags-assignments}
