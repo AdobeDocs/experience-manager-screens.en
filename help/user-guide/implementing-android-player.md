@@ -86,7 +86,7 @@ Follow the steps below to sign the Android&trade; apk using the manufacturer's k
 
 ## Understanding Android&trade; Watchdog Services {#android-watchdog-services}
 
-The cross-Android watchdog service is implemented as a Cordova plugin using *AlarmManager*.
+The cross-Android&trade; watchdog service is implemented as a Cordova plugin using *AlarmManager*.
 
 The following diagram shows the implementation of the watchdog service:
 
