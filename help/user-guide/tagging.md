@@ -33,7 +33,7 @@ Use created tags on Displays & Players.
 >[!NOTE]
 > 
 > A display or a player can have at max 100 tags.
-> At most, 30 items can be tagged in one go.
+> At most 30 items can be tagged in one go.
 
 ## Filter by Tags {#filter-by-tags}
 
