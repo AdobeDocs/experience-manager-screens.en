@@ -17,6 +17,7 @@ role: User
     + [Kickstart Guide](kickstart-for-aem-screens.md)
     + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
     + [Key Terms](screens-glossary.md)
+    + [Screens Terminology and Concepts](screens-concepts-feature-video-understand.md)
 + Digital Signage Network Basics {#digital-signage-network}
     + [Part 1: Project Roles and Responsibilities](project-roles-responsibilities.md)
     + [Part 2: Considerations as Projects are Scoped](project-considerations.md)
