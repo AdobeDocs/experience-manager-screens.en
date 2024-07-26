@@ -108,6 +108,7 @@ role: User
     + [Creating Custom Templates for MultiZone Layouts](creating-custom-templates-multizone-layouts.md)
     + [Applying Custom Branding and Styling for Text Overlays](custom-branding-text-overlays.md)
     + [Adaptive Renditions: Architectural Overview and Configurations](/help/user-guide/adaptive-renditions.md)
+    + [Automate Asset Updates for an AEM Screens Channel](automate-channel-updates-workflow.md)
 + Troubleshooting and FAQs {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
