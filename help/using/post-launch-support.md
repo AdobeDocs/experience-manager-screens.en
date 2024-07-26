@@ -4,7 +4,7 @@ description: Learn about Post-launch support for AEM Screens in the Best Practic
 
 ---
 
-# Post-launch support {#post-launch-support}
+# Post-launch Support {#post-launch-support}
 
 Do not overlook Post-launch support in the early stage. 
 
