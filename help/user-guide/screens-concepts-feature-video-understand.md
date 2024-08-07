@@ -7,9 +7,8 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-
+exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
 ---
-
 # AEM Screens Overview Video {#aem-screens-overview-video}
 
 ## Screens Terminology and Concepts {#terminology-and-concepts}
@@ -36,4 +35,3 @@ The below video detail the creation of a new channel, authoring new content and 
 The below video shows the creation of a location, display, and device configuration. The video also shows the steps for registering a device and assigning the device to a display. It loosely follows the second half of the [Screens Kickstart Guide](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
-

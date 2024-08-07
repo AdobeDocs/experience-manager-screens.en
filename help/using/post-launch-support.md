@@ -1,9 +1,8 @@
 ---
 title: Post-launch support
 description: Learn about Post-launch support for AEM Screens in the Best Practices Guide.
-
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 ---
-
 # Post-launch Support {#post-launch-support}
 
 Do not overlook Post-launch support in the early stage. 
