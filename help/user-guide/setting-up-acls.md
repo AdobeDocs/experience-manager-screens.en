@@ -1,6 +1,6 @@
 ---
 title: Setting up ACLs
-description: Learn how to segregate projects using ACLs so that each individual or team handles their own project.
+description: Learn how to segregate projects using Access Control Lists (ACLs) so that each individual or team handles their own project.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 ---
-# Setting up ACLs {#setting-up-acls}
+# Setting up Access Control Lists (ACLs) {#setting-up-acls}
 
-The following section explains how to segregate projects using ACLs so that each individual or team handles their own project.
+The following section explains how to segregate projects using Access Control Lists (ACLs) so that each individual or team handles their own project.
 
 As an AEM administrator, you want to ensure that team members of a project do not interfere with other projects. Each user is assigned specific roles as per project requirements.
 
