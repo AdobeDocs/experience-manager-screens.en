@@ -22,14 +22,18 @@ Use the same action menu to rename a tag or delete them.
 
 >[!NOTE]
 > 
-> Tag Name can only contain letters, numbers, dashes and underscore. Name should start and end with letters or numbers only.
 > A total of 500 tags are allowed for a tenant
 
 ## Manage tags assignments {#manage-tags-assignments}
 
-Use created tags on Displays & Players. You can tag one with at max 30 tags.
+Use created tags on Displays & Players.
 
 ![manage tags assigments](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> A display or a player can have at max 100 tags.
+> At most 30 items can be tagged in one go.
 
 ## Filter by Tags {#filter-by-tags}
 

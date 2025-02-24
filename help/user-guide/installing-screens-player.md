@@ -51,6 +51,7 @@ The following properties are included in each `ping`:
 |lastContentChange {string}|timestamp of the last content change|
 
 >[!NOTE]
+>
 >Optionally, a more advanced property can be enabled from the player preferences (Enable Playback Monitoring) and that is:
 >
 >|Property|Description|

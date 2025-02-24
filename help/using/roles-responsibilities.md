@@ -39,6 +39,10 @@ The Audio-Video Integrator is the Hardware Vendor-Partner. They are the party th
 
 An Audio-Video Integrator is responsible for conducting discovery with end-customers to define requirements, determining project scope to design, build, and effectively manage deployments around digital signage hardware.
 
+>[!NOTE]
+>
+> You must have an Audio Video Integrator as part of your AEM Screens deployment.
+
 #### Considering Hardware Partner {#selecting-hardware-partner}
 
 It is crucial to click the right Hardware Partner. The following questions must be considered:
