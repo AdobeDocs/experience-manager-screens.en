@@ -24,7 +24,7 @@ level: Intermediate
 
 ### What's New {#what-is-new}
 
- This release includes fixes for the package conflict users face with SP21 and above
+ This release includes fixes for the package conflict users face with Service Pack 21 and above.
 
 ### Bug Fixes {#bug-fixes}
 
