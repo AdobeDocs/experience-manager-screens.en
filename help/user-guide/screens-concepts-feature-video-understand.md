@@ -7,9 +7,8 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-
+exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
 ---
-
 # AEM Screens Overview Video {#aem-screens-overview-video}
 
 ## Screens Terminology and Concepts {#terminology-and-concepts}
@@ -25,7 +24,7 @@ To follow along with the videos, you need the following:
 
 1. A Screens Player
 
-To download AEM Screens Player, click [here](https://download.macromedia.com/screens/). Also, AEM Screens is available in the [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+To download AEM Screens Player, click [here](https://download.macromedia.com/screens/). Also, AEM Screens is available in the Google Play Store. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 The below video detail the creation of a new channel, authoring new content and adding a channel to a reusable schedule. It loosely follows the first half of the [Screens Kickstart Guide](kickstart-for-aem-screens.md).
 
@@ -36,4 +35,3 @@ The below video detail the creation of a new channel, authoring new content and 
 The below video shows the creation of a location, display, and device configuration. The video also shows the steps for registering a device and assigning the device to a display. It loosely follows the second half of the [Screens Kickstart Guide](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
-
