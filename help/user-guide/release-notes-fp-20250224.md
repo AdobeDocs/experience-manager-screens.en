@@ -27,8 +27,8 @@ level: Intermediate
  * This release includes fixes for the package conflict users face with Service Pack 21 and above.
  
  * **Update on AEM Screens Players**
-    * The Linux-based AEM Screens Player is now deprecated. Users are encouraged to migrate to other player platforms or CMS solutions
-    * No further enhancements will be made to the Android-based AEM Screens Player. It is recommended to transition to an alternative player or CMS.
+    * The Linux-based AEM Screens Player is now deprecated. Users are encouraged to migrate to other hardware player operating system that is supported by AEM Screens Player software.
+    * No further updates or enhancements will be made to the Android-based AEM Screens Player. Users are encouraged to migrate to an alternative hardware player operating system that is supported by AEM Screens Player software.
 
 ### Bug Fixes {#bug-fixes}
 
