@@ -31,8 +31,9 @@ Use created tags on Displays & Players.
 ![manage tags assigments](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
->  
->At most 30 items can be tagged in one go.
+>
+> A display or a player can have at max 30 tags assigned.
+> At most 30 items can be tagged in one go.
 
 ## Filter by Tags {#filter-by-tags}
 
