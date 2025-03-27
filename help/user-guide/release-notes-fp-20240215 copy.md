@@ -16,7 +16,7 @@ exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
 
  AEM Screens released AEM 6.5 Feature Pack 11.6.
 
- You can download the latest Feature Pack for AEM Screens 6.5.11.3 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP11.6**.
+ You can download the latest Feature Pack for AEM Screens 6.5.11.6 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP11.6**.
 
 ## Release Date {#release-date}
 
