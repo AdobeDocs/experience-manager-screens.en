@@ -9,7 +9,7 @@ level: Intermediate
 
  >[!CAUTION]
  >Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
- >Adobe recommends that you use FP11.5 with SP(servicepack) >= 21. 
+ >Avoid using version FP11.5 with Service Pack >21. Instead, use Feature Pack version 11.6 or higher.
  
 
 ## Availability {#availability}
@@ -25,10 +25,6 @@ level: Intermediate
 ### What's New {#what-is-new}
 
  * This release includes fixes for the package conflict users face with Service Pack 21 and above.
- 
- * **Update on AEM Screens Players**
-    * The Linux-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that is being supported by AEM Screens.
-    * No further updates or enhancements will be made to the Android-based AEM Screens Player. Users are encouraged to migrate to an alternative operating system that is being supported by AEM Screens.
 
 ### Bug Fixes {#bug-fixes}
 
