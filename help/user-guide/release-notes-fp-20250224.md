@@ -9,7 +9,7 @@ level: Intermediate
 
  >[!CAUTION]
  >Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
- >Avoid using version FP11.5 with Service Pack >21. Instead, use Feature Pack version 11.6 or higher.
+ >FeaturePack (FP) version 11.5 is compatible with ServicePack (SP) up to version 21.
  
 
 ## Availability {#availability}
