@@ -4,6 +4,7 @@ description: Learn more information about the AEM Screens Feature Pack 20250327 
 feature: Feature Pack
 role: Developer
 level: Intermediate
+exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
 ---
 # Release Notes for Feature Pack 20250327 {#release-notes-for-screens-feature-pack}
 
@@ -36,4 +37,3 @@ level: Intermediate
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
 
 * Screens Dashboard not working. (SCRNS-4749)
-   
