@@ -113,6 +113,9 @@ role: User
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
 + Release Notes {#release-notes}
+    + [Release Notes for Feature Pack 20250327](release-notes-fp-20250327.md)
+    + [Release Notes for Feature Pack 20250224](release-notes-fp-20250224.md)
+    + [Release Notes for Feature Pack 20240715](release-notes-fp-20240715.md)
     + [Release Notes for Feature Pack 202401](release-notes-fp-20250215.md)
     + [Release Notes for Feature Pack 202401](release-notes-fp-202401.md)
     + [Release Notes for Feature Pack 20240116](release-notes-fp-20240116.md)
