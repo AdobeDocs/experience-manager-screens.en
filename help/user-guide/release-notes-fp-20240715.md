@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Screens Feature Pack 20240715
-description: Learn more information about the AEM Screens Feature Pack 20240715 that was released on June 15, 2024.
+description: Learn more information about the AEM Screens Feature Pack 20240715 that was released on July 15, 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -20,7 +20,7 @@ level: Intermediate
 
 ## Release Date {#release-date}
 
- The Release Date for AEM Screens Feature Pack 20240715 is June 15, 2024.
+ The Release Date for AEM Screens Feature Pack 20240715 is July 15, 2024.
 
 ### What's New {#what-is-new}
 
