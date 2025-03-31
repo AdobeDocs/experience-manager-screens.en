@@ -29,3 +29,4 @@ level: Intermediate
 ### Bug Fixes {#bug-fixes}
 
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
+* Vuln fix at /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
