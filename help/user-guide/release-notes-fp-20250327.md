@@ -10,7 +10,7 @@ exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
 
  >[!CAUTION]
  >Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
- >Adobe recommends that you use FP11.6 with SP(servicepack) >= 21.
+ >Please use FP11.6 with SP(servicepack) version 22 or higher.
 
 ## Availability {#availability}
 
@@ -36,5 +36,5 @@ exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
 
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
 
-* Screens Dashboard not wokring. (SCRNS-4749)
+* Screens Dashboard not working. (SCRNS-4749)
    
