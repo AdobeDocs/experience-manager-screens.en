@@ -34,6 +34,4 @@ exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
 
 ### Bug Fixes {#bug-fixes}
 
-* Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
-
 * Screens Dashboard not working. (SCRNS-4749)
