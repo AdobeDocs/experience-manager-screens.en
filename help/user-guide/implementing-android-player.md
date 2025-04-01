@@ -13,6 +13,9 @@ exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 ---
 # Implementing Android&trade; Player {#implementing-android-player}
 
+>[!CAUTION]
+>Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+
 This section describes configuring the Android&trade; player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
 
 Also, **Watchdog** is a solution to recover the player from crashes. An application must register itself with the watchdog service and then periodically send messages to the service that it is alive. In case the watchdog service does not receive a keep-alive message within a stipulated time, the service attempts to reboot the device. It does so for a clean recovery (if it has the sufficient privileges) or restarts the application.
