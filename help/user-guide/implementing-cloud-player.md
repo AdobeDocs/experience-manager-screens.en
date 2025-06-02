@@ -61,7 +61,7 @@ To do bulk provisioning of cloud player on multiple devices:
 
 ## Bulk Provisioning on Chrome OS {#bulk-provisioning-chrome}
 
-Learn more about bulk provisioning on Chrome OS. See [Install Cloud Player on Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Learn more about bulk provisioning on Chrome OS. See [Install Cloud Player on Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## Configuration required on AEM instances {#bulk-provisioning-config-aem}
 
