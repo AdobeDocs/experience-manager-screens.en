@@ -76,7 +76,7 @@ The device registration process is done on two separate machines:
    >
    >The **Register New** lets you register a new device.
    >
-   >The **Assign Display** lets you directly add the device to a display.
+   >**Assign Display** lets you directly add the device to a display.
 
    If you click **Finish**, assign the device to a display.
 

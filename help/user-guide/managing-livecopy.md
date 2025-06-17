@@ -87,7 +87,7 @@ The mode **Live Copy Status**, as shown in the figure below, lets you view the r
 
 You can also cancel the inheritance from the live copy, so the content becomes independent of the original branch.
 
-The following example shows that you click the image in the edit mode and click the cancel inheritance symbol on the top right.
+The following example shows that you click the image in the edit mode and click the **Cancel Inheritance** icon on the top right.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 

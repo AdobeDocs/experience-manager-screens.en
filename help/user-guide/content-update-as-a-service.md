@@ -55,7 +55,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Add the following properties:
 
-   **Project Path** Specify the path of your AEM Screens project. The path is usually `/content/screens/<Name of your project>`.
+   **Project Path** - Specifies the path of your AEM Screens project. The path is usually `/content/screens/<Name of your project>`.
 
    *For example*, `/content/screens/we-retail`. You can find this path in the URL by selecting any project under AEM Screens (do not click the icon).
 
@@ -63,6 +63,6 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
    >
    >Specify the project path relative to your channel.
 
-   **Schedule Frequency** Specify a time, for example, 5:00 P.M. or 17:00 at which this service should update offline content.
+   **Schedule Frequency** - Specifies a time, for example, 5:00 P.M. or 17:00 at which this service should update offline content.
 
 1. Click **Save** so you can save your settings. All your content is updated at the specified time.

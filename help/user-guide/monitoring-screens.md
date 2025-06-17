@@ -108,6 +108,7 @@ Also, click **Settings** from the top-right corner to update device preferences.
 
 >[!NOTE]
 >You can click any one of the following Log levels:
+>
 >* **Disable**
 >* **Debug**
 >* **Info**
@@ -120,7 +121,7 @@ Also, click **Settings** from the top-right corner to update device preferences.
 
 Enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back.
 
-Currently some of these features are only available if the *Apache Sling Referrer Filter Allow Empty* is enabled in the OSGi configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
+Currently some of these features are only available if the *`Apache Sling Referrer Filter Allow Empty`* is enabled in the OSGi configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
 
 Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 

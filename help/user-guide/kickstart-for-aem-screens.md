@@ -22,7 +22,7 @@ Follow the steps below to create a sample project for AEM Screens and further pu
 
 >[!IMPORTANT]
 >**OSGi Configuration Settings**
->You must enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the Apache Sling Referrer Filter Allow Empty is enabled in the OSGi Configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
+>You must enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. Currently some of these features are only available if the `Apache Sling` Referrer Filter Allow Empty is enabled in the OSGi Configuration. The dashboard may display a warning that security settings may prevent some of these features from working.
 >Follow the steps below to enable the ***Apache Sling Referrer Filter Allow Empty***:
 
 
@@ -156,7 +156,7 @@ When the project setup is complete, assign the channel to a display to view the 
       
 1. The **Channel Assignment** dialog box opens.
 
-1. From the **Settings** option, choose the channel **by path** and **Supported Events** such as **Initial Load** and **Idle Screen**.
+1. From the **Settings** option, choose the channel **by path** and **Supported Events**, such as **Initial Load** and **Idle Screen**.
 
    >[!NOTE]
    >

@@ -74,7 +74,7 @@ Follow the steps below to create a workflow for your video:
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Click the **Arguments** tab.
-1. In the **Command Line - Step Properties** dialog box, enter the format in the **Mime Types** (as ***video/mp4***) and the command as (***/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4***). This command starts the workflow in the **Commands** field.
+1. In the **Command Line - Step Properties** dialog box, enter the format in the **Mime Types** (as ***video/mp4***) and the command as (***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***). This command starts the workflow in the **Commands** field.
 
    See the details on **Mime Types** and **Commands** in the note below.
 

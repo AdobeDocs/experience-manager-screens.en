@@ -108,7 +108,7 @@ Follow the steps below to view the updated design to text overlay:
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigate to your *static.css* file in CRXDE Lite, and add the font such as, `font-family: "Lucida Console", Courier, monospace;` to this file, as shown below.
+1. Navigate to your *static.css* file in CRXDE Lite, and add the font such as `font-family: "Lucida Console", Courier, monospace;` to this file, as shown below.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

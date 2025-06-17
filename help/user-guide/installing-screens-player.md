@@ -27,7 +27,7 @@ To download **AEM Screens Player**, visit the [AEM 6.5 Player Downloads](https:/
 
 ## Basic Playback Monitoring {#playback-monitoring}
 
-The player reports various playback metrics with each `ping` that defaults to 30 seconds. Based on these metrics, it can detect various edge cases such as stuck experience, blank screen, and scheduling issues. It lets us understand and troubleshoot issues on the device, and thus expedites an investigation and corrective measures for you.
+The player reports various playback metrics with each `ping` that defaults to 30 seconds. Based on these metrics, it can detect various edge cases, such as stuck experience, blank screen, and scheduling issues. It lets us understand and troubleshoot issues on the device, and thus expedites an investigation and corrective measures for you.
 
 Basic Playback monitoring in an AEM Screens Player lets you do the following:
 

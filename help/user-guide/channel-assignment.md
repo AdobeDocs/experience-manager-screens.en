@@ -96,7 +96,7 @@ Schedule lets you provide a description in text when the channel should appear. 
 
 Schedules, when combined with **DayParting**, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.
 
-DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens lets you schedule channels in terms of DayPparting within a day, week, or month as per the requirement.
+DayParting is referred to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens lets you schedule channels in terms of DayPparting within a day, week, or month as per the requirement.
 
 The following examples explain Day-parting in channels in three different scenarios:
 

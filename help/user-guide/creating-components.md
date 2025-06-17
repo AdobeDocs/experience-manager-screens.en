@@ -1,5 +1,5 @@
 ---
-title: Creating Components
+title: Create Components
 description: Learn about how AEM components are used to hold, format, and render the content made available on your webpages.
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,7 +10,7 @@ role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
 ---
-# Creating Components {#creating-components}
+# Create components {#creating-components}
 
 AEM components are used to hold, format, and render the content made available on your webpages.
 
@@ -18,17 +18,17 @@ AEM components are used to hold, format, and render the content made available o
 >
 >To learn about the details of creating AEM components, see Developing AEM components.
 
-## Authoring Channels {#authoring-channels}
+## Author channels {#authoring-channels}
 
 The channel is the central object of content delivered to a set of displays. Therefore, a Content Author would typically open a channel in the editor to add or modify content. Because the Channel is a ***`cq:Page`***, it follows the same traditional UX pattern to add and change components on the channel.
 
-However, because components within a channel are typically rendered full screen, the authoring experience suffers when trying to edit single components or compose new orders. Therefore, the channel relies on selectors to render different views of the components. The authoring environment uses the edit selector to activate the custom channel rendering.
+However, because components within a channel are typically rendered full screen, the authoring experience suffers when trying to edit single components or compose new orders. Therefore, the channel relies on selectors to render different views of the components. The authoring environment uses the `edit` selector to activate the custom channel rendering.
 
 For example, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
 The user does not have to take care of adding the selector to the URL while editing. A client-side logic is listening to the layer switch event and adds the selector if the channel has the dedicated resource type *screens/core/components/channel*.
 
-## Rendering Components {#rendering-components}
+## Render components {#rendering-components}
 
 To enable proper authoring, components must provide the following two renderings:
 

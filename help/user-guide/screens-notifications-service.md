@@ -47,7 +47,7 @@ Follow the steps below for configuring the email notification settings:
 
 1. Define the following fields so you can configure your settings for the email:
 
-   **Devices Path** Enter the path to the Screens Projects that you want to monitor. The path is usually `/home/users/screens/<Name of your project>`.
+   **Devices Path** &ndash; Enter the path to the Screens Projects that you want to monitor. The path is usually `/home/users/screens/<Name of your project>`.
 
    For example, if your project is **`We.Retail`**, use the project path as ***/home/users/screens/we-retail***.
 

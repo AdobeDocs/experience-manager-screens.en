@@ -42,7 +42,7 @@ You can configure preferences for your device from the Device dashboard, accessi
 
 Enabling the **Admin UI** from the preferences panel allows the user to open the admin settings from the Screens Player. Also, if you disable this option from the device dashboard, the user cannot open the Admin UI from the player.
 
-To view the Admin UI from the Screens Player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse. Information is displayed after registration is complete and the channels are loaded.
+To view the Admin UI from the Screens Player, long press the top-left corner to open the Admin menu, on your touch-enabled AEM Screens Player, or by using a mouse. Information is displayed after registration is completed and the channels are loaded.
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ The following section provides the hardware selection guidelines for a Screens P
 * Always source ***Commercial*** or ***Industrial*** Grade components for both PC player and Display Panel or Projector.
 
 * Always engage with vendors who serve the digital signage market.
-* Always consider environmental factors such as ambient temperature and relative humidity.
+* Always consider environmental factors, such as ambient temperature and relative humidity.
 * Always review power requirements and power conditioning.
 * Carefully review the performance needs and I/O ports required for application.
 

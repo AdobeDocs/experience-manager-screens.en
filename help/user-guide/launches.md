@@ -1,5 +1,5 @@
 ---
-title: Content Update using Screens Launch
+title: Content Updates using Screens Launch
 description: Learn how to create a future version of the channels, known as Launch, and setting a live date for the launch to make content live on devices or players.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,7 +11,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 ---
-# Content Update using Screens Launch {#launches}
+# Content Updates using Screens Launch {#launches}
 
 Content authors can create a future version of the channels and further set the live date for this launch. This ability allows the content to be live in devices or players on the specified live date.
 
@@ -52,7 +52,7 @@ For example, the server is in PST and the devices are in EST. The maximum time d
 
 Therefore, 3 hours 56 minutes (14160 seconds). 
 
-So, whenever you schedule any launch live, the promotion starts early by taking into account this offset. In the above equation, most of the items do not take much time. You can use a decent guess for this offset when know the maximum time difference between the server and any player.
+So, whenever you schedule any launch live, the promotion starts early by taking into account this offset. In the above equation, most of the items do not take much time. You can use a decent guess for this offset when you know the maximum time difference between the server and any player.
 
 >[!NOTE]
 >

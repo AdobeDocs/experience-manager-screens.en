@@ -108,7 +108,7 @@ The following is a sample RACI chart using the role definitions.
 
 * **Responsible**: Does the work to complete the task.
 
-* **Accountable**: Delegates work and are the last party to review the task before it is complete.
+* **Accountable**: Delegates work and are the last party to review the task before it is completed.
 
 * **Consulted**: Reviews the task or deliverable to provide input.
 
@@ -124,7 +124,7 @@ The following table summarizes the **Day Zero: Pre-sales Considerations**:
 | Agreement on Roles and Responsibilities |  RA |  RA | RA |  RA |
 | Alignment on Strategic Goals |  CI |  I | RA |  RA |
 | Reporting Needs and ROI Identification |  I |  C | RA |  C |
-| Site Visit and Hardware Requirements |  RA |  I | C |  C |
+| Site Visits and Hardware Requirements |  RA |  I | C |  C |
 | Support Process Definition |  C |  I | RA |  I |
 | Define Scope of Work and Project Plan |  RA |  RA | C |  C |
 
@@ -140,7 +140,7 @@ The following table summarizes the **Day One: Project Implementation (Applicatio
 | Architecture Design |  I |  RA | I |  I |
 | Validate Data Structure with UI Design |  I |  RA | C |  C |
 | Application Development | RA |RA | RA |  RA |
-| AEM Screens Project Set Up |  I |  RA | C |  I |
+| AEM Screens Project Setup |  I |  RA | C |  I |
 | Analytics Implementation |  I |  RA | C |  - |
 | Testing and Deployment |  RA |  C | RA |  I |
 | Server Configuration |  I |  RA | I |  I |

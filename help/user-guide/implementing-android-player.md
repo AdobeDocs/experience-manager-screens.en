@@ -14,7 +14,7 @@ exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 # Implementing Android&trade; Player {#implementing-android-player}
 
 >[!CAUTION]
->The Android-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that is being supported by AEM Screens.
+>The Android-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that AEM Screens supports.
 
 This section describes configuring the Android&trade; player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
 
@@ -68,7 +68,7 @@ Due to Android&trade;'s architecture, rebooting the device requires that the app
 
 ### Signage of Android&trade; `apks` using Manufacturer Keys {#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android&trade; such as *PowerManager* or *HDMIControlServices*, sign the Android&trade; `apk` using the manufacturer's keys.
+To access some of the privileged APIs of Android&trade;, such as *PowerManager* or *HDMIControlServices*, sign the Android&trade; `apk` using the manufacturer's keys.
 
 >[!CAUTION]
 >
@@ -124,7 +124,7 @@ Follow the steps below to allow bulk provisioning in the Android&trade; player:
 1. When the player application launches, this configuration file is read and points to the applicable AEM server where it is registered and then controlled.
 
    >[!NOTE]
-   >This file is *read only* the first time that the application is launched and cannot be used for subsequent configurations. If the player is launched before the configuration file was dropped, simply uninstall and reinstall the application on the device.
+   >This file is *read only* the first time that the application is launched and cannot be used for subsequent configurations. If the player is launched before the configuration file is dropped, simply uninstall and reinstall the application on the device.
 
 ### Policy Attributes {#policy-attributes}
 
@@ -137,7 +137,7 @@ The following table summarizes the policy attributes with an example policy JSON
 | *rebootSchedule* |The schedule to reboot applies to all platforms. |
 | *enableAdminUI* |Enable the Admin UI to configure the device on site. Set to *false* once it is fully configured and in production. |
 | *enableOSD* |Enable the channel switcher UI for users to switch channels on the device. Consider setting it to *false* after it is fully configured and in production. |
-| *enableActivityUI* |Enable if you want to show the progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| *enableActivityUI* |Enable if you want to show the progress of activities, such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
 | *enableNativeVideo* |Enable if you want to use native hardware acceleration for video playback (Android&trade; only). |
 
 ### Example JSON Policy {#example-json}

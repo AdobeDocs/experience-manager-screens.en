@@ -69,7 +69,7 @@ The following table summarizes the path with the permissions at the project leve
 
 >[!NOTE]
 >
->Sometimes, you can separate author functions (such as managing assets and creating channels) from admin functions (such as registering players). In such a scenario, create two groups and add the authors group to contributors and the admin group to both contributors and user-administrators.
+>Sometimes, you can separate author functions (such as managing assets and creating channels) from admin functions (such as registering players). In such a scenario, create two groups and add the author's group to contributors and the admin group to both contributors and user-administrators.
 
 ### Creating Groups {#creating-groups}
 

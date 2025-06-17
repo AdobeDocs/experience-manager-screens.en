@@ -120,8 +120,8 @@ The following table summarizes the policy attributes with an example policy JSON
 | resolution |The resolution of the device. |
 | rebootSchedule |The schedule to reboot the player.|
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
-| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting to false, once it is fully configured and in production. |
-| enableActivityUI |Enable so you can show the progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting it to false once it is fully configured and in production. |
+| enableActivityUI |Enable so you can show the progress of activities, such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
 | cloudMode |Set to true if you want the Windows Player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 
@@ -154,11 +154,11 @@ Follow the steps below to enable Kiosk mode:
 
 1. Enable Shell Launcher.
 
-   See ***Configure Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** page by Microsoft&reg; Windows support for additional information.
+   See ***Configure Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** page by Microsoft&reg; Windows support for additional information.
 
 1. Create a non-administrative user (if you already do not have one) to be used for Kiosk. It can be a local or domain user.
 1. Install the Windows Player for that Kiosk user from the [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page.
-1. See [Use Shell Launcher to create a Windows 10 kiosk](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) to modify your PowerShell script for more information.
+1. See [Use Shell Launcher to create a Windows 10 kiosk](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) to modify your PowerShell script for more information.
 
    Modify the PowerShell script so you can replace the username with the one you created. Ensure that the path to the application executable is correct. This sets the custom shell as the Windows Player application for the kiosk user and set the default as explorer.exe for other users.
 
@@ -177,7 +177,7 @@ The sample script in the links enables and disables the custom shell. Therefore,
 
 >[!NOTE]
 >
->In some Windows environments, the PowerShell scripts maybe restricted by policy (especially unsigned scripts). To run your script, temporarily disable and reenable this restriction to run the script. Open a PowerShell window and use these commands.
+>Some Windows environments restrict PowerShell scripts by policy, especially if the scripts are unsigned. To run your script, temporarily disable and reenable this restriction to run the script. Open a PowerShell window and use these commands.
 >
 >*`set-executionpolicy unrestricted`* - to remove restrictions temporarily.
 >

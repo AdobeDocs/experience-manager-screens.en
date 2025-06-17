@@ -142,7 +142,7 @@ Follow the steps below to set up an absolute strategy:
 
 1. Open **Date & Time** preferences on each OS X box
 1. Check **Set date and time automatically**
-1. Paste value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in the dropdown or simply run *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Paste value 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in the dropdown or simply run *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Start the 2+ players
 
 It may take some time before the players start a new aligned sequence.

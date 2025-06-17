@@ -1,10 +1,10 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Best Practices Guide for AEM Screens Projects
+user-guide-title: Best practices for AEM Screens projects
 breadcrumb-title: AEM Screens Best Practices Guide
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
@@ -12,7 +12,7 @@ feature: Content
 role: User
 ---
 
-# Best Practices Guide for AEM Screens Projects {#using}
+# Best practices for AEM Screens projects {#using}
 
 + [About this Guide](about-guide.md)
 + Overview {#overview}

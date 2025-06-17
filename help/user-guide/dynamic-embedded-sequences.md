@@ -304,7 +304,7 @@ Follow the steps below to create groups, users, and modify the ACLs as per the p
     1. Click **Create Group** and enter **Global-Author** in **ID**.
     1. Click **Save & Close**.
 
-   Similarly, create two other groups such as **Region-Author** and **Store-Author**.
+   Similarly, create two other groups, such as **Region-Author** and **Store-Author**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -312,12 +312,12 @@ Follow the steps below to create groups, users, and modify the ACLs as per the p
 
     1. Navigate to **Adobe Experience Manager**.
     1. Click **Tools** > **Security** > **Users**.
-    1. Click **Create User** and enter **Global-User** in **ID**.
+    1. Click **Create User**, then in **ID**, enter **Global-User**.
     1. Enter **Password** and confirm the password for this user.
     1. Click the **Groups** tab and enter the group name in **Click Group**, for example, enter **Global-Author** to add **Global-User** to that specific group.
     1. Click **Save & Close**.
 
-   Similarly, create two other users such as **Region-User** and **Store-User**, and add them to **Region-Author** and **Store-Author** respectively.
+   Similarly, create two other users, such as **Region-User** and **Store-User**, and add them to **Region-Author** and **Store-Author** respectively.
 
    >[!NOTE]
    >It is a best practice to add users in a group and then assign permissions to each particular group of users.

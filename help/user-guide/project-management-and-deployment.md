@@ -35,9 +35,9 @@ To support a successful Digital Signage deployment, it is customary to segment t
 
 The first stage is called ***Day Zero***. This stage includes all pre-sales and discovery efforts required when defining a project's scope. The second stage, ***Day One***, refers to all activities included in the deployment effort. Finally, ***Day Two*** refers to all ongoing operations and support elements as part of the total solution.
 
-Day Zero activities entail Pre-Sales, Client Discovery, Application Needs Analysis, and Project Scope definition. This stage can also include initial engagement and definition of project requirements for project management, in preparation for Deployment.
+Activities of ***Day Zero*** entail Pre-Sales, Client Discovery, Application Needs Analysis, and Project Scope definition. This stage can also include initial engagement and definition of project requirements for project management, in preparation for Deployment.
 
-Day Zero consists of eight key steps covering all aspects of the project management ramp-up:
+All ***Day Zero*** consists of eight key steps covering all aspects of the project management ramp-up:
 
 * Defining the Scope of Work
 * Defining the project schedule
