@@ -45,7 +45,7 @@ Follow the instructions below to download the Content Assignment Report:
 
    ![image](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. The downloaded spreadsheet consists of two tabs such as **Locations** and **Content**. The Location tab displays four columns such as **Locations**, **Displays**, **Channels**, and **Devices** that can be used for investigating these four entities pertaining to your AEM Screens project.
+1. The downloaded spreadsheet consists of two tabs, such as **Locations** and **Content**. The Location tab displays four columns such as **Locations**, **Displays**, **Channels**, and **Devices** that can be used for investigating these four entities pertaining to your AEM Screens project.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

@@ -99,7 +99,7 @@ Follow the steps below to implement the functionality:
     1. Click the **Channel Path**, then click **Channel Level Activation** > ***Channels*** > ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
     1. Click the **Priority** and set to **1**.
-    1. Click the **Supported Events** such as **Initial Load** and **Idle Screen**.
+    1. Click the **Supported Events**, such as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)

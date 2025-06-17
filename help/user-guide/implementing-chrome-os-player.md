@@ -137,8 +137,8 @@ The following table summarizes the policies with their functions.
 | resolution |The resolution of the device. |
 | rebootSchedule |The schedule to reboot the player.|
 | enableAdminUI |Enable the Admin UI to configure the device on site. Set to false once it is fully configured and in production. |
-| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting to false, once it is fully configured and in production. |
-| enableActivityUI |Enable so you can show the progress of activities such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
+| enableOSD |Enable the channel switcher UI for users to switch channels on the device. Consider setting it to false once it is fully configured and in production. |
+| enableActivityUI |Enable so you can show the progress of activities, such as download and sync. Enable for troubleshooting and disable once it is fully configured and in production. |
 | cloudMode |Set to true if you want the Chrome Player to connect to Screens as a Cloud Service. Set to false to connect to AMS or on-prem AEM. |
 | cloudToken |Registration token to register against Screens as a Cloud Service. |
 

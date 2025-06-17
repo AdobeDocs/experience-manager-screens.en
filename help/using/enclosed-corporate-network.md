@@ -54,7 +54,7 @@ The performance of the Internet connection, besides the network reachability, ha
 
 The performance of the Local Area Network (LAN), besides the network reachability, has to provide sufficient bandwidth to operate AEM Screens content updates smoothly. 
 
-The LAN network within corporate organizations is usually at least 1000 MBit/sec network, so that there is sufficient bandwidth to connect many devices with good performance to the system. While using other active Network components, it is mandatory that all of those do match to the Network bandwidth requirements. 
+The LAN network within corporate organizations is usually at least 1000 MBit/sec network, so that there is sufficient bandwidth to connect many devices with good performance to the system. While using other active Network components, it is mandatory that all of them match the Network bandwidth requirements. 
 
 For example, the Network components should at least match the 100 Mbps standard and match the bandwidth provided by the Internet access/router specification.
 

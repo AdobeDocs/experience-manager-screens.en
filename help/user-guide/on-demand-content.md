@@ -7,15 +7,15 @@ role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
 ---
-# On-Demand Content Update {#on-demand}
+# On-demand content update {#on-demand}
 
 This section describes On-demand content for managing publications. 
 
-## Managing Publication: Delivering Content Updates from Author to Publish to Device {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Manage publication: deliver content updates from author to publish to device {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-You can publish and unpublish content from AEM Screens. The Manage Publication feature lets you deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule.
+You can publish and unpublish content from AEM Screens. **Manage Publication** lets you deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channels, location, device, application, or a schedule.
 
-### Managing Publication for an AEM Screens Project {#managing-publication-for-an-aem-screens-project}
+### Manage publication for an AEM Screens project {#managing-publication-for-an-aem-screens-project}
 
 Follow the steps below to deliver content updates from author to publishing to device for an AEM Screens Project:
 
@@ -40,7 +40,7 @@ Follow the steps below to deliver content updates from author to publishing to d
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
-   **Understanding Include Children dialog box**
+   **Understand Include Children dialog box**
  
      The steps mentioned above shows how you can publish the entire content. In case you want to use the other three alternatives available, you have to check that particular option.
      For example, the following image show how you can manage and update only the modified pages in your project:
@@ -66,7 +66,7 @@ Follow the steps below to deliver content updates from author to publishing to d
    >
    >
    >    1. The workflow does not work if there are no changes in the project and nothing for **Update Offline Content**.
-   >    1. The workflow will not work if the author does not complete the replication process (contents are still uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
+   >    1. The workflow does not work if the author does not complete the replication process (contents are uploading to publish instance) after selecting the **Publish** button in the managing publication workflow.
 
    >[!CAUTION]
    >As a content creator, if you want to see the changes in the devices that are attached to the author instance, click **Update Offline Content** from the channel dashboard or by selecting the project. In this case, the update of offline content is only performed in the author instance.
@@ -84,7 +84,7 @@ Follow the steps below to deliver content updates from author to publishing to d
    >
    >Trigger the update offline content in Author instance, if you have a player registered to the author server. Update of offline content is not required for the player registered to the Publishing instance.
 
-### Managing Publication for a Channel {#managing-publication-for-a-channel}
+### Manage publication for a channel {#managing-publication-for-a-channel}
 
 Follow the steps below to deliver content updates from Author > Publish > device for a Channel in an AEM Screens Project:
 
@@ -117,7 +117,7 @@ Follow the steps below to deliver content updates from Author > Publish > device
    >
    >Publish first, then trigger the update offline content as summarized in the preceding steps.
 
-### Channel and Device Reassignment: {#channel-and-device-re-assignment}
+### Channel and device reassignment: {#channel-and-device-re-assignment}
 
 If you have reassigned a device, publish both the initial display and the new display, once the device has been reassigned to the new display.
 

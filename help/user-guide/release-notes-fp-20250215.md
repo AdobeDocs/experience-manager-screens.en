@@ -24,16 +24,16 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 
 ### What's New {#what-is-new}
 
- * This release fixes the package conflict that users face with Service Pack 21 and above.
+* This release fixes the package conflict that users face with Service Pack 21 and above.
 
- * This release fixes the issue with card view with SP22 and above.
+* This release fixes the issue with card view with SP22 and above.
 
- * **Update on AEM Screens Players**
-    * The Linux-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that is being supported by AEM Screens.
-    * No further updates or enhancements will be made to the Android-based AEM Screens Player. Users are encouraged to migrate to an alternative operating system that is being supported by AEM Screens.
+* **Update on AEM Screens Players**
+    * The Linux-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that AEM Screens supports.
+    * No further updates or enhancements are made to the Android-based AEM Screens Player. Users are encouraged to migrate to an alternative operating system that AEM Screens supports.
 
 ### Bug Fixes {#bug-fixes}
 
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
 
-* Screens Dashboard not wokring. (SCRNS-4749)
+* Screens Dashboard not working. (SCRNS-4749)

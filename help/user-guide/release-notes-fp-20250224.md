@@ -25,9 +25,9 @@ exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
 
 ### What's New {#what-is-new}
 
- * This release includes fixes for the package conflict users face with Service Pack 21 and above.
+* This release includes fixes for the package conflict users face with Service Pack 21 and above.
 
 ### Bug Fixes {#bug-fixes}
 
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
-* Vuln fix at /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* Vulnerability fix at `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` (SCRNS-4607)

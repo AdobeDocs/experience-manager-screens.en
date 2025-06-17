@@ -283,7 +283,7 @@ The transition component has the following properties:
   </tr>
   <tr>
    <td><strong><em>Active From</em></strong></td>
-   <td>Timestamp that describes from when the transition can be active.<br /> </td>
+   <td>Timestamp that describes when the transition can be active.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Active Until</em></strong></td>

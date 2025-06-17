@@ -96,7 +96,7 @@ If the test connection fails while replicating the ContextHub configurations, fo
    Follow the steps below:
 
    1. Navigate to Tools > **Operations** > **Web Console** `http://localhost:4502/system/console/configMgr`so you can open the **Adobe Experience Manager Web Console screen**.
-   1. Search for **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
+   1. Search for **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

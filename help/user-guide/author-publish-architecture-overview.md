@@ -65,13 +65,13 @@ The following diagram illustrates the replication process:
 
 ### Screens Replication Agents and Commands {#screens-replication-agents-and-commands}
 
-Custom Screens specific replication agents are created to send commands from the Author instance to the AEM Screens device. The AEM Publish instances serve as an intermediary to forward these commands to the device.
+Custom Screens specific replication agents are created to send commands from the Author instance to the AEM Screens device. The AEM publish instances serve as an intermediary to forward these commands to the device.
 
 This workflow allows authors to continue to manage the device such as, send device updates and take screenshots from the author environment. The AEM Screens replication agents have a custom transport configuration, like standard replication agents.
 
 ### Messaging between Publish Instances {#messaging-between-publish-instances}
 
-Often a command is only meant to be sent to a device a single time. However, in a load-balanced publish architecture, the publish instance the device is connecting to is unknown.
+Often a command is only meant to be sent to a device a single time. However, in a load-balanced publish architecture, the publishing instance that the device is connecting to is unknown.
 
 Therefore, the author instance sends the message to all Publish instances. However, only a single message should then be relayed to the device. To ensure correct messaging, communication must take place between publish instances. This communication is achieved using *Apache ActiveMQ Artemis*. Each publish instance is placed in a loosely coupled Topology using the Oak-based Sling discovery service. ActiveMQ is configured so that each publish instance can communicate and create a single message queue. The AEM Screens device polls the AEM publish farm by way of the load balancer and picks up the command from the top of the queue.
 

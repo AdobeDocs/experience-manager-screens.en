@@ -39,7 +39,7 @@ SmartSync feature provides several benefits to your AEM Screens project such as 
 
 >[!NOTE]
 >
->Adobe strongly recommends on using SmartSync for AEM Screens projects.
+>Adobe recommends that you use SmartSync for AEM Screens projects.
 
 ## Migrating from ContentSync to SmartSync {#migrating-from-contentsync-to-smartsync}
 

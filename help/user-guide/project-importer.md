@@ -52,7 +52,7 @@ The data model for Project Importer is described below:
 The spreadsheet (CSV/XLS) file thus requires the following columns:
 
 * **path {string}** &ndash; The path for the location to be imported, where the root of the path is the location folder for the project (that is, *`/foo`* is imported to *`/content/screens/<project>/locations/foo`*)
-* **template {string}** &ndash; The template to use for the new location, for now the only allowed value is "location", but this value is extended to all the Screens templates in the future (`display`, `sequencechannel`, and so on)
+* **template {string}** &ndash; The template to use for the new location, for now the only allowed value is "location", but this value is extended to all the `Screens` templates in the future (`display`, `sequencechannel`, and so on)
 * **[./*] {string}** &ndash; Any optional property to be set on the location (that is, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). The current release allows no filtering.
 
 >[!NOTE]

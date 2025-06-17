@@ -128,7 +128,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    Copied dialog from `/libs/wcm/foundation/components/image/cq:dialog` to `/apps/weretail-run/components/content/poster`
 
-   The AEM Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore, the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **Sling Resource Merger** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
+   The AEM Screens `image` component is supertyped to the WCM Foundation `image` component. Therefore, the `poster` component inherits functionality from both. The dialog for the poster component is made up of a combination of the Screens and Foundation dialogs. Features of the **`Sling Resource Merger`** are used to hide irrelevant dialog fields and tabs that are inherited from the supertyped components.
 
 1. Update the `cq:dialog` beneath `/apps/weretail-run/components/content/poster` with the following changes represented in XML:
 
@@ -304,7 +304,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
    </div>
    ```
 
-   The **edit** markup for the Poster component is seen directly above. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
+   The **edited** markup for the Poster component is seen directly above. The HTL script overrides `/libs/screens/core/components/content/image/edit.html`. The markup is similar to the `production.html` markup and displays the title and description on top of the image.
 
    The `aem-Screens-editWrapper`is added so that the component is not rendered full-screen in the editor. The `data-emptytext` attribute ensures that a placeholder is displayed when no image or content has been populated.
 
@@ -352,7 +352,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but must be compiled outside of AEM.
+   Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. You can use Sass or other pre-compilers, but you must compile them outside of AEM.
 
 1. Populate `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` with the following:
 

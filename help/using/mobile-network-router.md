@@ -81,7 +81,7 @@ While considering which Data Network should be used, Adobe recommends that you a
 
 ### Local Area Network {#lan-connection}
 
-The performance of the LAN, besides the already described network reachability, has to provide sufficient bandwidth to operate AEM Screens content downloads smoothly. In these days, the LAN network is usually at least matching a 100-Mbps network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. While using other Active Network Components, it is mandatory that all of those do match to the network bandwidth requirements.
+The performance of the LAN, besides the already described network reachability, has to provide sufficient bandwidth to operate AEM Screens content downloads smoothly. In these days, the LAN network is usually at least matching a 100-Mbps network, so that there should be sufficient bandwidth to connect many devices with good performance to the system. While using other Active Network Components, it is mandatory that all of them match the network bandwidth requirements.
 
 For example, the Network Components should at least match the 100 Mbps standard and match the bandwidth provided by the Internet Access/Router specification.
 

@@ -133,7 +133,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
    Screens components require two different renderings depending on which [authoring mode](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools) is being used:
 
     1. **Production**: Preview or Publish mode (wcmmode=disabled)
-    1. **Edit**: used for all other authoring modes, i.e edit, design, scaffolding, developer...
+    1. **Edit**: used for all other authoring modes, that is, edit, design, scaffolding, developer...
 
    `helloworld.html`acts as a switch, checking which authoring mode is active and redirecting to another HTL script. A common convention used by screens components is to have an `edit.html` script for Edit mode and a `production.html` script for Production mode.
 
@@ -309,7 +309,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview-Product
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but must be compiled outside of AEM.
+   Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. You can use Sass or other pre-compilers, but you must compile them outside of AEM.
 
 1. Populate `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` with the following:
 

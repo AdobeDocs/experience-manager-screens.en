@@ -31,7 +31,7 @@ Defining the key elements is essential before implementing a digital signage pro
 
 1. **Connectivity**
 
-   Connectivity emphasizes on the following questions:
+   Connectivity emphasizes the following questions:
    * Networked (cell or wi-fi) or standalone?
      * Must you allow for USB content updates?
      * Must you allow for usage of data collection?

@@ -60,7 +60,7 @@ A device config acts as a placeholder for an actual digital signage device that 
 1. Click your display folder and click **View Dashboard** in the action bar.
 1. Click **+ Add Device Config** on the top-right of the **Devices** panel.
 
-1. Click the **Device Config** as the required template as and click **Next**.
+1. Click the **Device Config** as the required template and click **Next**.
 
 1. Enter the properties as required and click **Create**.
 

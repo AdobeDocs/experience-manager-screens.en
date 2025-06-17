@@ -1,5 +1,5 @@
 ---
-title: Managing Devices
+title: Manage Devices
 description: Learn about device assignment and management in AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,7 +10,7 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
 ---
-# Managing Devices {#managing-devices}
+# Manage devices {#managing-devices}
 
 This page describes the device assignment.
 
@@ -34,7 +34,7 @@ Follow the steps below to assign a device to a display:
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Click an unassigned device from the list, and click the **Assign Device** in the action bar.
+1. Click an unassigned device from the list, then in the action bar, click **Assign Device**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 

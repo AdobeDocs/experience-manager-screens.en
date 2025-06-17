@@ -8,7 +8,7 @@ exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 >[!NOTE]
 >A typical stakeholder for this activity is a Marketing/Business Strategist.
 
-This stage includes all pre-sales and discovery efforts required to define the project scope fully. The work done during Day Zero sets the tone for the rest of the project and influences the overall success of the application being built.
+This stage includes all pre-sales and discovery efforts required to define the project scope fully. The work completed on `Day Zero` establishes the foundation for the project and directly impacts the application's overall success.
 At this stage, key vendors are identified and brought together to help formulate the project plan. It is important during this stage that buy-in is also established with key project stakeholders within the client company. These stakeholders include sales executives, marketing managers, and IT teams. These people all have an important part to play in the development of the application and its continued maintenance.
 
 ## Key Deliverables {#key-deliverables}

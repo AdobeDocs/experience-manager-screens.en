@@ -34,7 +34,7 @@ See **[Dispatcher Configurations for AEM Screens](https://experienceleague.adobe
 Install FFMpeg following the steps for the appropriate OS (usually RHEL):
 
 1. If installing by enabling EPEL and RPMFusion, you can install all the gstreamer codecs to broaden support for FFmpeg conversions
-1. If the AAC codec is marked as experimental, ffmpeg conversions fail. To avoid this add `-strict -2` to the video profiles (/etc/dam/video in AEM 6.3 and moved to /libs/settings/dam/video in AEM 6.4)
+1. If the AAC codec is marked as experimental, ffmpeg conversions fail. To avoid this issue, add `-strict -2` to the video profiles (`/etc/dam/video` in AEM 6.3 and moved to `/libs/settings/dam/video in AEM 6.4`)
 
    >[!NOTE]
    >

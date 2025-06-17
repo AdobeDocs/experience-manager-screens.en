@@ -192,7 +192,7 @@ The following table summarizes the standard data model for events. It lists all 
    <td>required for AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Adobe Analytics support for Custom Page Name</td> 
+   <td>Support for Custom Page Name in Adobe Analytics</td> 
   </tr>
   <tr>
    <td> </td> 

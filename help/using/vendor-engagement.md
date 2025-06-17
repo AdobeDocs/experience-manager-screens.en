@@ -14,6 +14,6 @@ In this activity, it is important to identify all the key vendors required in as
 
 * Define capabilities and tasks for each vendor as it relates to the product category they support.
 
-* Confirm delivery *lead times* for all deliverables. Create a deployment plan that accommodates for all lead times working backwards from one or more desired install dates of the first required installations.
+* Confirm delivery *lead times* for all deliverables. Create a deployment plan that accommodates all lead times working backwards from one or more desired install dates of the first required installations.
 
 By completing all the previous steps, you should now have a comprehensive *Day 1* deployment plan ready to execute.

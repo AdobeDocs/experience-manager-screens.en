@@ -72,7 +72,7 @@ As a follow-up, the needed Data Package must be at least:
 
 The performance concerns of the Local Area Network (LAN), besides the network reachability, are to provide sufficient bandwidth to operate AEM Screens smoothly. The recommendation for the LAN network speeds is to start at 100-Mbps networks at least, so that there is sufficient bandwidth to connect many devices with good performance to the system. 
 
-While using other active network components, it is mandatory that all of those do match to the network bandwidth requirements. For example, the network components should at least match the 100 Mbps standard and match the bandwidth provided by the Internet access or Router specification. Otherwise, the total bandwidth is limited by the weakest link in the network chain.
+While using other active network components, it is mandatory that all of them match the network bandwidth requirements. For example, the network components should at least match the 100 Mbps standard and match the bandwidth provided by the Internet access or Router specification. Otherwise, the total bandwidth is limited by the weakest link in the network chain.
 
 ## Downloading Media and Assets {#download}
 
