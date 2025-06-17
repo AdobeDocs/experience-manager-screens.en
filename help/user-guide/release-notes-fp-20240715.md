@@ -25,8 +25,8 @@ exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
 
 ### What's New {#what-is-new}
 
- * This release includes security fixes only.
+This release includes security fixes only.
 
 ### Bug Fixes {#bug-fixes}
 
-* XSS issue at /libs/screens/clientlibs/libs/scripts/scroll/tests/index.html (SCRNS-4359)
+XSS issue at `/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html` (SCRNS-4359)

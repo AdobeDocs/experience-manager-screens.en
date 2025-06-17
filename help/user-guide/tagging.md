@@ -8,7 +8,7 @@ exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 
 >[!CAUTION]
 >
->The **Tagging** feature is only available if it is enabled for your tenant. Please contact AEM Screens Engineering to enable it. 
+>The **Tagging** feature is only available if it is enabled for your tenant. Contact AEM Screens Engineering to enable it. 
 
 ## Introduction {#introduction}
 
