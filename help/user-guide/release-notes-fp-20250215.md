@@ -37,3 +37,5 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 * Package Conflict with Service Pack 21 and Screens Feature Pack. (SCRNS-4638)
 
 * Screens Dashboard not working. (SCRNS-4749)
+
+* XSS issue at /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js (SCRNS-4761)
