@@ -4,12 +4,11 @@ description: Learn more information about the AEM Screens Feature Pack 20251007 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
 ---
 # Release Notes for Feature Pack 20251007 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 >Use FP11.7 with SP(servicepack) version 22 or higher.
 
 ## Availability {#availability}
