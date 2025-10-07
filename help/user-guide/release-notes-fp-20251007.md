@@ -31,3 +31,4 @@ The Release Date for AEM Screens Feature Pack 20251007 is Oct 07, 2025.
 * XSS issue at /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js (SCRNS-4866)
 * XSS issue at /libs/screens/dcc/components/dashboard/clientlibs/link-schedule.js (SCRNS-4840)
 * XSS issue at /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.copy.js (SCRNS-4865)
+* XSS issue at /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js (SCRNS-4856)
