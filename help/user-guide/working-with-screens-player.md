@@ -138,6 +138,10 @@ There are two types of updates for the AEM Screens Player:
 
 ## Hardware Selection Guidelines for Player Device {#hardware-selection-guidelines-for-player-device}
 
+>[!NOTE]
+>
+>**DEPRECATED:** This hardware selection guidance is deprecated and should not be used for new deployments. Hardware specifications and recommendations should be provided by a qualified AV integrator based on your specific deployment requirements and use cases.
+
 The following section provides the hardware selection guidelines for a Screens Project:
 
 * Always source ***Commercial*** or ***Industrial*** Grade components for both PC player and Display Panel or Projector.
