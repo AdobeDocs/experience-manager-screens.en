@@ -4,6 +4,7 @@ description: Learn more information about the AEM Screens Feature Pack 20251007 
 feature: Feature Pack
 role: Developer
 level: Intermediate
+exl-id: 2dc029ec-6fab-40e6-b387-d48ff89e0138
 ---
 # Release Notes for Feature Pack 20251007 {#release-notes-for-screens-feature-pack}
 
