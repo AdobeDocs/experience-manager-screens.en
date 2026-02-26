@@ -8,7 +8,7 @@ exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 ## Introduction {#introduction}
 
 >[!CAUTION]
->This feature is only supported on AEM on-premise (AEM 6.x). It is not supported on AEM as a Cloud Service.
+>This feature is only supported on AEM on-premise (AEM 6.5). It is not supported on AEM as a Cloud Service.
 
 Adaptive Renditions lets devices click the best rendition automatically for a device based on customer-defined rules. The devices automatically download and play the most appropriate rendition of an asset based on these rules, allowing customers to focus on designing the *main* experience only.
 
