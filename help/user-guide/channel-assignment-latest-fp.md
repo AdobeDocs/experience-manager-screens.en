@@ -204,9 +204,9 @@ Here, each day is divided into different time slots, so that channel content pla
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
-|Breakfast|Daily|6:00 A.M.|11:00 A.M.|  
-|Lunch|Daily|11:00 A.M.|3:00 P.M.|  
-|Dinner|Daily|3:00 P.M.|8:00 P.M.|  
+|Breakfast|Daily|6:00 A.M.|11:00 A.M.|
+|Lunch|Daily|11:00 A.M.|3:00 P.M.|
+|Dinner|Daily|3:00 P.M.|8:00 P.M.|
 
 #### Playing content on a particular day of the week {#playing-content-on-a-particular-day-of-the-week}
 
@@ -214,8 +214,8 @@ This example shows the DayParting implemented in a casino where live event occur
 
 |**Name**|**Repeats**|**Start**|**End**|
 |---|---|---|---|
-|Weekend|Weekly: Saturday and Sunday|8:00 P.M.|10:00 P.M.|  
-|Specials|Daily: Monday through Friday|10:00 P.M.|1:00 A.M.| 
+|Weekend|Weekly: Saturday and Sunday|8:00 P.M.|10:00 P.M.|
+|Specials|Daily: Monday through Friday|10:00 P.M.|1:00 A.M.|
 
 >[!NOTE]
 >

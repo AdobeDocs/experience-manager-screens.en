@@ -1,7 +1,7 @@
 ---
 title: Tagging on Screens Cloud
 description: This page describes how tags can be created, managed and used on Screens Cloud.
-index: yes
+index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
 ---
 # Tagging on Screens Cloud {#tagging-on-Screens-Cloud}
