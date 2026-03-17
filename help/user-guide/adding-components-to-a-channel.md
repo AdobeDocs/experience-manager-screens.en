@@ -195,10 +195,10 @@ To learn more about how to create an Experience Fragment and apply it to an AEM 
 
 | **Property** |**Description** |
 |---|---|
-| **Experience Fragment** |
+| **Experience Fragment** | |
 | ***Experience Fragment*** |Select the Experience Fragment. |
 | ***Duration*** |Select the entire duration of the Experience Fragment that plays in the channel. |
-| **Offline Config** |
+| **Offline Config** ||
 | ***Client-side Libraries*** |JavaScript and CSS files. |
 | ***Static Files*** |Static files that you can add as offline configurations to your Experience Fragment. |
 
@@ -214,15 +214,15 @@ The image asset has three tabs namely **Image**, **Accessibility**, and **Sequen
 
 | **Property** |**Description** |
 |---|---|
-| **Image** |
+| **Image** ||
 | ***Image Asset*** |Click the image asset. |
 | ***Title*** |Title of the image. |
 | ***Link To*** |Add a link to the image. |
 | ***Description*** |Brief description for the image. |
 | ***Size*** |Size of the image. |
-| **Accessibility** |
+| **Accessibility** ||
 | ***Alternative Text*** |Alternative text to the image. |
-| **Sequence** |
+| **Sequence** ||
 | ***Duration*** |By default the duration is set to *8000 milliseconds*. If you want to change the playback duration of the image, update the **Duration** field. |
 
 ### Transition {#transition}

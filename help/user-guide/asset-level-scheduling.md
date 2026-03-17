@@ -23,12 +23,14 @@ The following topics are covered in this section:
 * Multi-asset Activation
 * Global Override For Universal Start Time
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Overview {#overview}
 
@@ -181,7 +183,8 @@ The following table summarizes a few example expressions that you can add to the
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***Multi-asset Activation*** lets the user click multiple assets and apply a playback schedule to all selected assets.
 

@@ -57,6 +57,8 @@ The following figure defines the personas and their roles for Experience Manager
 
    Follow the **[Best Practices Guide for Experience Manager Screens Projects](/help/using/about-guide.md)** that is designed to identify common pitfalls while implementing an Experience Manager Screens project. The material focuses primarily on Project Roles and Responsibilities. It focuses on RACI Chart for Different Roles, Experience Manager Platform Configurations, and Support and Monitoring.
 
-<!-- DEAD LINK * **New Adobe Customer Support Experience**
+<!-- 
+DEAD LINK * **New Adobe Customer Support Experience**
 
-   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. -->
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. 
+-->

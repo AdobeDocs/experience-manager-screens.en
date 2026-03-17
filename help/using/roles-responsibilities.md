@@ -183,7 +183,7 @@ The following table summarizes the **Day Two: Post Launch Support RACI Chart**:
 
 | **Phase** | **Author** |**Developer** | **Technician** |
 |---|---|---|---|
-| *Day Two: Post-Launch Support* |
+| *Day Two: Post-Launch Support* | | | |
 | Agreement on Roles and Responsibilities |  RA |  RA | RA |
 | Tier 1 Support |  I |  I | RA |
 | Tier 2 Support |  I |  C | RA |

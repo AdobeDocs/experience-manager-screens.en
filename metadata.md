@@ -2,8 +2,10 @@
 cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
-index: y
+index: true
 git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
 recommendations: noDisplay
 ---

@@ -109,7 +109,8 @@ Click the other device (in this case, Windows Player) from the **DEVICES** panel
 
 1. Click the device from the list and click **Save**.
 
-   >[NOTE:]
+   >[!NOTE]
+   >
    > The **Sync to primary device** dialog box shows the list of primary devices. Select the one preferred.
 
 1. When the device (Windows Player) is synced to the primary (Chrome Player), you can see the device synced in the **DEVICES** panel.
@@ -134,5 +135,6 @@ To remove the syncing from the primary device, follow the steps below:
 
 1. Click **Confirm** to de-sync the selected device from the primary.
 
-   >[NOTE:]
+   >[!NOTE]
+   >
    > If you click the primary device and use the de-sync option, then all the devices connected to the primary are de-synced in one step.

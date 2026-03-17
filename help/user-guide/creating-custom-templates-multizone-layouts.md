@@ -29,8 +29,8 @@ There are two important considerations that you must be aware of before creating
    | **Layout Name** | **Description** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | A three-zone landscape layout that lets you create three zones:<br>* Zone 1 as 20% of the horizontal and vertical screen from the left<br>* Zone 2 as 80% of the horizontal screen and 20% of the vertical screen right justified<br>* Zone 3 as 100% of the horizontal and 80% of the vertical screen. The aspect ratio is 16:9 |
-   | `Upper20-PortraitHD2Zone` | A two-zone portrait template that covers 20% of the screen from the top, with an aspect ratio of 16:9 | 
-   | `Right20-LandscapeSD3Zone` | A three-zone template that covers 20% of the screen from the right, with an aspect ratio of 4:3 | 
+   | `Upper20-PortraitHD2Zone` | A two-zone portrait template that covers 20% of the screen from the top, with an aspect ratio of 16:9 |
+   | `Right20-LandscapeSD3Zone` | A three-zone template that covers 20% of the screen from the right, with an aspect ratio of 4:3 |
 
       >[!IMPORTANT]
       >The zones defined within the custom layout may not match with the overall aspect ratio of the entire layout. The naming convention followed in this document specifies the aspect ratio of the custom layout as a whole.
