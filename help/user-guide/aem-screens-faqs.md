@@ -23,7 +23,7 @@ This topic provides answers to commonly asked FAQs related to an AEM Screens pro
 * With the player running on your system, navigate to `http://localhost:24502`. Check if all the content is downloaded correctly.
 * Check the assets so you can ensure that the appropriate renditions are created and the correct rendition is being played.
 * Check for any scheduled content and if the times are correct. Check if the time set up in the player is correct.
-* Inspect the player console logs and check for any errors. Right-click and inspect to see the console logs. If you are using the Windows Player, press `CTRL + ALT +I` to bring up dev console to view the logs.
+* Inspect the player console logs and check for any errors. Right-click and inspect to see the console logs. If you are using the Windows Player, press `CTRL + ALT +I` to bring up dev console to view the log files.
 
 ### 2. How to resolve Grey Screen Issue in AEM Screens by Creating a Default Channel or Schedule?
 
