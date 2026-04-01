@@ -2,6 +2,18 @@
 title: AEM Platform Configurations
 description: The page describes AEM Platform Configurations
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # AEM Platform Configurations {#platform-configurations}
 

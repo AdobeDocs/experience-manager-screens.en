@@ -2,6 +2,15 @@
 title: Adaptive Renditions Architectural Overview and Configurations
 description: Learn about the architectural overview and configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Adaptive Renditions: Architectural Overview and Configurations {#adaptive-renditions}
 

@@ -9,6 +9,18 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 

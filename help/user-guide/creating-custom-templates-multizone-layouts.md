@@ -6,6 +6,18 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Creating Custom Templates for MultiZone Layouts {#creating-custom-templates-multizone}
 

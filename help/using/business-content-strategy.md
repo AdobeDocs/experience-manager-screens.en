@@ -2,6 +2,20 @@
 title: Business content strategy for AEM Screens
 description: Learn more about marketing and business content strategy as it relates to AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 ---
 # Business content strategy {#business-content}
 

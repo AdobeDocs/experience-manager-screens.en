@@ -10,6 +10,35 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+TQID: https://experienceleague.adobe.com/iV8Z83vtW57mb4nIdoC5MQCNo-Ttpw6wrGZqSpMKT18
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
+  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+    internal-label: Displays
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
 # Adding Components to a Channel{#adding-components-to-a-channel}
 

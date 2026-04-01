@@ -5,6 +5,33 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Voice Recognition in AEM Screens {#voice-recognition}
 

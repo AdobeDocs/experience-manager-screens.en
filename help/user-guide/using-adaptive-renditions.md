@@ -2,6 +2,15 @@
 title: Using Adaptive Renditions in AEM Screens
 description: Learn how to use Adaptive Renditions in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Using Adaptive Renditions in AEM Screens {#adaptive-renditions}
 

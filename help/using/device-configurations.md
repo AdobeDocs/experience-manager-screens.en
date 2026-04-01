@@ -2,6 +2,15 @@
 title: Device Specifications
 description: Learn more about device specifications as it pertains to AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+TQID: https://experienceleague.adobe.com/nRZXWarHxFk1wgwR5YLLNcxx3OKs-fWKq1U9uB7yeBw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Device Configurations {#device-configurations}
 

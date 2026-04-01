@@ -10,6 +10,18 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # New Project Importer from File {#new-project-importer-from-file}
 

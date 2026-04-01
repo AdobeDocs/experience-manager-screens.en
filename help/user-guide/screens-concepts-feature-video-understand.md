@@ -8,6 +8,15 @@ content-type: reference
 docset: aem65
 targetaudience: target-audience new
 exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
+TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # AEM Screens Overview Video {#aem-screens-overview-video}
 
