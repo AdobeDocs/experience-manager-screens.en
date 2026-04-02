@@ -31,3 +31,4 @@ The Release Date for AEM Screens Feature Pack 20260318 is Mar 18, 2026.
 * XSS issue at /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js (SCRNS-4856)
 * XSS issue at /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.assignChannel.js (SCRNS-5068)
 * XSS issue at /libs/screens/dcc/components/importreview/clientlibs/js/script.js (SCRNS-5100)
+* XSS issue at /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js
