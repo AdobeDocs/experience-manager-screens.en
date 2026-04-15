@@ -21,7 +21,7 @@ You can download the latest Feature Pack for AEM Screens 6.5.11.8 Release from t
 
 ## Release Date {#release-date}
 
-The Release Date for AEM Screens Feature Pack 20260318 is Mar 18, 2026.
+The Release Date for AEM Screens Feature Pack 20260318 is March 18, 2026.
 
 ### What's New {#what-is-new}
 
