@@ -2,6 +2,22 @@
 title: Considerations as Projects are Scoped
 description: Learn more about the considerations as an AEM Screens project is scoped.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
+TQID: https://experienceleague.adobe.com/7klqpBq6hYXV2Uq9CTumo1k3MupO4h-Ewptnd3wyO8Y
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 ---
 # Considerations as Projects are Scoped {#pre-sales-considerations}
 

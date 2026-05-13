@@ -2,6 +2,15 @@
 title: Thumbnail Support for Videos in AEM Screens
 description: Learn how to add Thumbnail Support for Videos in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+TQID: https://experienceleague.adobe.com/VlgvGuLabotRAwprPRl4UFIAycPi7M1oqz47nQZIpVU
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Thumbnail Support for Videos {#thumbnail-support-videos}
 
