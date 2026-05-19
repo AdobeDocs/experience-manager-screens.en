@@ -7,6 +7,7 @@ product_v2:
     internal-label: "Experience Manager"
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: "Experience Manager Screens"
+usetq: true
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
