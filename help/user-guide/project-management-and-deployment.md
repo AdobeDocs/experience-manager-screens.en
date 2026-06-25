@@ -27,6 +27,9 @@ level_v2:
 ---
 # Part 4: Project Management and Deployment {#part-project-management-and-deployment}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 This page highlights part 4 of a 5-part series designed to cover project management and deployment preparation and define key factors the Audio-Video Integrator is accountable for related to project management and deployment preparation.
 
 ## Overview {#overview}

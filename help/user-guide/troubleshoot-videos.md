@@ -27,6 +27,9 @@ topic_v2:
 ---
 # Video Playback Configuration and Troubleshooting {#video-playback-configuration-and-troubleshooting}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 When you upload a video to the DAM and add it to your channel, you might encounter issues in which the video may not play in the AEM Screens Player.
 
 The following sections describe how to debug and troubleshoot video playing in your channel.

@@ -32,6 +32,10 @@ level_v2:
 ---
 # Creating and Managing Projects {#creating-and-managing-projects}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
+
 The AEM Screens is available by selecting the Adobe Experience Manager link (top left) and then Screens.
 
 Alternatively, you can navigate directly to: `http://localhost:4502/screens.html/content/screens`

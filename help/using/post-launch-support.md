@@ -14,6 +14,9 @@ role_v2:
 ---
 # Post-launch Support {#post-launch-support}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Do not overlook Post-launch support in the early stage. 
 
 Ensuring sites receive adequate support from your hardware vendor is crucial for their business operations. The **Audio-Video Integrator** should work closely with business stakeholders and identify the requirements needed from different aspects.

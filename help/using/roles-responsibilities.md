@@ -28,6 +28,9 @@ topic_v2:
 ---
 # Project Roles and Responsibilities {#roles-responsibilities}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 As an experienced AEM implementor, you likely have seen the roles being referred to as *Authors*, *Developers*, and *IT Technicians*.
 
 In a typical AEM Screens project, the roles are further refined as they each serve an important purpose in the project.

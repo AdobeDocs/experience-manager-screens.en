@@ -33,6 +33,9 @@ topic_v2:
 ---
 # Implementing Android&trade; Player {#implementing-android-player}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 >[!CAUTION]
 >The Android-based AEM Screens Player is officially deprecated. Users are advised to migrate to another operating system that AEM Screens supports.
 

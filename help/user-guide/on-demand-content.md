@@ -27,6 +27,9 @@ level_v2:
 ---
 # On-demand content update {#on-demand}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 This section describes On-demand content for managing publications. 
 
 ## Manage publication: deliver content updates from author to publish to device {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}

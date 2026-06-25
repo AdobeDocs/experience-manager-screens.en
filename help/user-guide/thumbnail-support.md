@@ -14,6 +14,9 @@ role_v2:
 ---
 # Thumbnail Support for Videos {#thumbnail-support-videos}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 ## Introduction {#introduction}
 
 A Content Author can define a thumbnail for videos so that the image is used as a placeholder. It can properly test content playback and targeting, while the appropriate team finalizes the actual video. The image can also be used in case the playback of the video fails.

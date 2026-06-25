@@ -30,6 +30,9 @@ topic_v2:
 ---
 # Troubleshooting Device Control Center {#troubleshooting-device-control-center}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 You can monitor and troubleshoot performance for your AEM Screens Player activity and device using the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.
 
 ## Monitor and Troubleshoot from Device Control Center {#monitor-and-troubleshoot-from-device-control-center}

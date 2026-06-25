@@ -14,6 +14,9 @@ role_v2:
 ---
 # Day Two Platform Support and Maintenance {#day-two-support-maintenance}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 AEM Screens requires several packages for projects to function. All environments must be running the same version of Adobe Experience Manager.
 
 Follow the guidelines for support and maintenance for Day Two of the project development phase:

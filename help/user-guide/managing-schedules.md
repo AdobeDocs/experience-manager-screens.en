@@ -36,6 +36,9 @@ level_v2:
 ---
 # Create and manage schedules {#creating-and-managing-schedules}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 **Schedules** in AEM Screens let you organize channels into reusable groups. Doing so means that you do not have to repeat their assignment individually for each display on which you want to show your content.
 
 Schedules, when combined with ***DayParting***, lets you set a global schedule with multiple channels running at specific times of the day, and reuse that set up for all your displays at once.

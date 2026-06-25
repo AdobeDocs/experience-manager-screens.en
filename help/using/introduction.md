@@ -17,6 +17,9 @@ topic_v2:
 ---
 # Introduction to AEM Screens {#introduction}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 **AEM Screens** is a Digital Signage Solution that lets you author, publish, and play dynamic and interactive digital experiences. It involves different types of in-venue display screens in concert with a comprehensive omni-channel digital marketing strategy.
 
 AEM Screens lets you create:

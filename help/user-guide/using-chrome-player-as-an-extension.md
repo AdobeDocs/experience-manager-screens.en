@@ -23,6 +23,9 @@ topic_v2:
 ---
 # Using Chrome player as an Extension {#using-chrome-player}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 ChromeOS player can be installed as a Chrome browser plugin in developer mode without requiring an actual Chrome player device. 
 
  >[!CAUTION]

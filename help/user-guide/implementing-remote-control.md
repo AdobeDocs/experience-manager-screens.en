@@ -24,6 +24,9 @@ level_v2:
 ---
 # Using the Screens Remote Control {#implementing-remote-control}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 The remote control feature makes it easier to access the Admin UI, channel switcher, or features, such as Clear Cache and reload. Also, it provides you with a method to see the local firmware version and system information on the player. This ability is especially useful because it can be difficult to connect a mouse. Or, operate on production devices that are out of reach and even more so if the player has lost connection with AEM. It is also useful when using Samsung RMS because the resolution difference can make it difficult to locate and open the Admin UI using a mouse. 
 
 ## Common Remote Control Key Combinations {#using-common-remote-control}
