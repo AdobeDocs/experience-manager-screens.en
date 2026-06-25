@@ -27,6 +27,9 @@ topic_v2:
 ---
 # Setting up Access Control Lists (ACLs) {#setting-up-acls}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 The following section explains how to segregate projects using Access Control Lists (ACLs) so that each individual or team handles their own project.
 
 As an AEM administrator, you want to ensure that team members of a project do not interfere with other projects. Each user is assigned specific roles as per project requirements.

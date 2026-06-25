@@ -33,6 +33,9 @@ topic_v2:
 ---
 # Creating and Managing Channels {#creating-and-managing-channels}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 A Channel displays a sequence of content (images and videos) and also displays a website or a single-page application.
 
 This page shows creating and managing channels for AEM Screens.

@@ -29,6 +29,9 @@ This section describes a functionality to bulk-import a set of locations from a 
 
 ## Introduction {#introduction}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 When you are setting up an AEM Screens project for the first time in your organization, create all the locations too. If your project involves many locations, it results in a tedious task that involves much selecting and waiting in the UI.
 
 The goal of this feature is to reduce the time required to set up the project and thus resolve budgeting issues.

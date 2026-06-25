@@ -20,6 +20,9 @@ level_v2:
 ---
 # Glossary {#glossary}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 **Application Channel** &ndash; An Application Channel shows an application created by a developer that displays interactive content.
 
 **Attract Loop** &ndash; An attract loop is defined as the *home* or *idle* state when the display has two or more states that it can exist in. Its role is to *attract* customers over to the display and encourage them to engage, usually by touching the screen but could also be by interacting with a product.

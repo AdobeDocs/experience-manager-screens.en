@@ -27,6 +27,9 @@ topic_v2:
 ---
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Dispatcher is Adobe Experience Manager's caching, or load-balancing tool, or both.
 
 The following page provides the guidelines for configuring a Dispatcher for an AEM Screens project.

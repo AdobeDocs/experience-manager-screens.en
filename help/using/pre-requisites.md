@@ -17,6 +17,9 @@ topic_v2:
 ---
 # Pre-requisites {#prerequisites}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Before diving deep into the details of implementing an AEM Screens project, it is recommended you follow specific tutorials and reading materials.
 
 ## Learning AEM (Adobe Experience Manager) {#learning-aem}

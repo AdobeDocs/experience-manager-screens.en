@@ -42,6 +42,9 @@ topic_v2:
 ---
 # Adding Components to a Channel{#adding-components-to-a-channel}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Components are the fundamental elements of the AEM (Adobe Experience Manager) experience. You can use several components and add it to your channel in an AEM Screens project.
 
 ## Components in AEM Screens {#components-in-aem-screens}

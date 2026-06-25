@@ -29,6 +29,9 @@ topic_v2:
 ---
 # Implementing Chrome OS Player {#implementing-chrome-os-player}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 This section describes how to implement the Chrome OS Player using the Chrome Management Console.
 
 ## Using Chrome Management Console {#using-chrome-management-console}

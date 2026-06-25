@@ -31,6 +31,9 @@ level_v2:
 
 ## Use case description {#use-case-description}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 This section describes a use-case example that emphasizes on how to set up a multi-zone layout channel that alternates with a single-zone layout channel. The multi-zone channel has sequencing image/video assets and it shows how you can set up a project that alternates from multi-zone to single-zone and conversely.
 
 ### Preconditions {#preconditions}

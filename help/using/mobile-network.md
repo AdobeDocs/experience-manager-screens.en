@@ -17,6 +17,9 @@ topic_v2:
 ---
 # Direct Mobile Network {#mobile-network-setup}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 AEM Screens Players can also be connected using mobile or cellular networks running at least a 3G network.
 
 Within AEM Screens, the required content is physically downloaded to the player controller or computer and properly stored within the underlying Operating System. Therefore, the given bandwidth only impacts initial download times, and content updates, and does not influence the performance of regular playback of Displays.

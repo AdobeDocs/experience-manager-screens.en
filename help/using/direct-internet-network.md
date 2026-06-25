@@ -21,6 +21,9 @@ topic_v2:
 ---
 # Direct Internet Network (Wired/Wireless) {#direct-internet-access}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 The Direct Internet Network contains an entry access point for Internet access to reach the AEM Cloud Services that AEM Screens must have to connect to. 
 
 The standard Ports for AEM Screens communication are:

@@ -24,6 +24,9 @@ topic_v2:
 ---
 # Recommended Approach {#recommended-approach}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 It is best practice to think of any enterprise-level AEM Screens project as a long-term undertaking. A project duration of one or more years is likely, particularly if the solution allows for complex user interaction or is deployed to various devices and locations.
 
 ## Guidelines for Developing a Digital Signage Strategy {#signage-strategy}

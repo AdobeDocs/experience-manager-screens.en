@@ -19,6 +19,9 @@ topic_v2:
 ---
 # Basics of a Digital Signage Project {#basics-digital-signage}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Before diving into AEM Screens implementation best practices, it is important to think of the project as a digital signage project, instead of a traditional software development.
 
 This section provides recommendations on major key elements that are critical to an AEM Screens project implementation.

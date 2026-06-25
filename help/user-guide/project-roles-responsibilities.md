@@ -34,6 +34,9 @@ topic_v2:
 ---
 # Part 1: Project Roles and Responsibilities {#part-project-roles-and-responsibilities}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 This page highlights part 1 of a 5-part series. It is designed to help team members better understand the roles, responsibilities, and time lines required during the sales and project life cycle for a digital signage project.
 
 ## Overview {#overview}

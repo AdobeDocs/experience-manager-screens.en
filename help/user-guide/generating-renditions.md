@@ -35,6 +35,9 @@ topic_v2:
 ---
 # Video Renditions {#video-renditions}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 You can generate manual and automatic full HD renditions. The following section describes the workflow to add renditions to your assets.
 
 ## Automatically Generating Full HD Renditions {#automatically-generating-full-hd-renditions}

@@ -37,6 +37,9 @@ level_v2:
 ---
 # Content Updates using Screens Launch {#launches}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Content authors can create a future version of the channels and further set the live date for this launch. This ability allows the content to be live in devices or players on the specified live date.
 
 With the help of ***Screens Launch***, authors can preview each channel in the launch and should be able to initiate a request for review. Approvers group gets notification and can approve or reject the request. When the live date is reached, the content plays in the devices.

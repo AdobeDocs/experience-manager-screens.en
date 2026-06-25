@@ -30,6 +30,9 @@ topic_v2:
 ---
 # REST APIs{#rest-apis}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 AEM Screens provides a simple RESTful API that follows the [Siren](https://github.com/kevinswiber/siren) specification. It lets you navigate the content structure and send commands to devices in the environment.
 
 The API is accessible at [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).

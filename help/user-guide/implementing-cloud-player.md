@@ -26,6 +26,9 @@ topic_v2:
 ---
 # Implementing Cloud Player {#implementing-cloud-player}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 AEM Screens has traditionally offered distinct native player applications for various platforms including ChromeOS, Windows, Android&trade;, and `Tizen`. However, in response to the evolving needs of users, Adobe introduced an innovative solution - the AEM Screens Cloud Player.
 
 The Cloud Player represents a significant departure from Adobe's previous native applications. It is a Progressive Web App (PWA), hosted on a server. This transformative approach empowers customers with a platform-independent player that runs directly within a web browser.

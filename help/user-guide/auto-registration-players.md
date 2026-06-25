@@ -25,6 +25,9 @@ topic_v2:
 ---
 # Auto Registration of Players {#auto-registration}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Bulk registering thousands of players manually can become cumbersome and adds time and cost. To simplify this process, the bulk registration feature lets you specify a pre-shared key in AEM that can be provisioned into a player either through a configuration file or a Mobile Device Management (MDM) solution.
 
 ## Implementing Auto Registration of Players {#bulk-registering-implementation}

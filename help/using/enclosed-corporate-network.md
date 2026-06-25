@@ -19,6 +19,9 @@ topic_v2:
 ---
 # Enclosed Corporate Network (Wired/Wireless) {#enclosed-corporate-networks}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 The Enclosed Corporate Network SetUp is applicable to smaller, larger, and enterprise businesses. It can be theoretically more complex, and the logical setup is shown in the figure below.
 
 ![](/help/using/assets/enclosed-network-1.png)

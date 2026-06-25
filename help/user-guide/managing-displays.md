@@ -34,6 +34,9 @@ level_v2:
 ---
 # Creating and Managing Displays {#creating-and-managing-displays}
 
+>[!IMPORTANT]
+>This content is valid for AEM on-premise/AMS (AEM 6.5LTS and AEM 6.5). For AEM as a Cloud Service Screens content refer to the [AEM as a Cloud Service guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 A display is a virtual grouping of screens that are positioned next to each other. The display is permanent in respect to an installation. It is the object content authors work with and always reference to as logical display rather than their physical counter parts.
 
 When you create a location, you have to create a display for your location.
