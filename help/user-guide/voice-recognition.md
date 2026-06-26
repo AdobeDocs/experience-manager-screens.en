@@ -208,3 +208,4 @@ Similarly, if you use a word with a keyword **cold** such as *I would like to ha
 **Desired Output for Split Screens Channel**
 
 The **Main** channel is playing its content. However, when you use words with the keyword **hot** and **cold** together, such as *I would like to see the menu for hot and cold beverages*, the channel plays the contents of the **SplitScreen** channel. If you say *back to the main menu*, it reverts to the **Main** channel.
+

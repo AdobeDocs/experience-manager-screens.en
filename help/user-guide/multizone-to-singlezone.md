@@ -102,3 +102,4 @@ The output demonstrates how a multi-zone layout plays for *10000 milliseconds*. 
 >[!NOTE]
 >
 >You can customize your channel transition (from multi-zone to single-zone layout or conversely), as per your requirements.
+

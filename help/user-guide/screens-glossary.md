@@ -46,3 +46,4 @@ level_v2:
 **Sequence Channel** &ndash; A Sequence Channel is a page that you can author containing components that show one by one in a slideshow.
 
 **Zones** &ndash; Zones are segmentation of displays that are used as primary addressable entities for channels. In instances, where displays span multiple screens it is advantageous to define the zones to match the screen dimensions, especially if the screens show a prominent physical border.
+

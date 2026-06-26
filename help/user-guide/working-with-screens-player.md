@@ -229,3 +229,4 @@ The following table summarizes the hardware configurations with typical use case
   </tr>
  </tbody>
 </table>
+

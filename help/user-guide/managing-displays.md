@@ -153,3 +153,4 @@ Also, click the device config to view properties, assign a device, or delete it 
 When you complete creating a display for your location, assign a channel for your display.
 
 See [Assign Channels](channel-assignment.md) for more details.
+

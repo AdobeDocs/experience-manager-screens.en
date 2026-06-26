@@ -134,3 +134,4 @@ If the test connection fails while replicating the ContextHub configurations, fo
 
    1. Update the `(name=default)` with `(name=slingTransportSecretProvider)`.
    1. Click **Save** and run the test connection again from the **Distribution Agent** screen from your AEM instance again.
+

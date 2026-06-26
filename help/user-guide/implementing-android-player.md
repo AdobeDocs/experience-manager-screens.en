@@ -225,3 +225,4 @@ Also, you should check with your EMM vendor on AppConfig support. Most popular o
 ### Using the Screens Remote Control {#using-remote-control}
 
 AEM Screens provides Remote Control functionality. Learn more about this feature here: [Screens Remote Control](implementing-remote-control.md)
+

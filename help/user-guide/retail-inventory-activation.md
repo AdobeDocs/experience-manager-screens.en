@@ -141,3 +141,4 @@ Follow the steps below to implement the Retail Inventory Activation use case:
     1. Change the value for all three different columns. Notice the display image updates as per the highest value in the inventory.
 
    ![retail_result](assets/retail_result.gif)
+

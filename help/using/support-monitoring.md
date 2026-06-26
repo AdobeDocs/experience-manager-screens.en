@@ -52,3 +52,4 @@ Device monitoring related to monitoring the physical device if you encounter a b
    * Check if the *display* is powered on.
    * Check if the *computer* is powered on and is sending a signal.
    * Right-click, inspect, and check *applicable logs*.
+

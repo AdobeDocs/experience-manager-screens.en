@@ -88,3 +88,4 @@ Follow the tutorial below to understand exactly how each party factors into the 
 When you understand the project roles and responsibilities in implementing a digital signage project, follow the next tutorial. It delves into topics such as testing and pre-sales considerations as the project is scoped when developing AEM Screens opportunities.
 
 Navigate to **[Part 2: Considerations as Projects are Scoped](project-considerations.md)** for more details.
+

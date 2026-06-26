@@ -76,3 +76,4 @@ To enable the feature, add at least one mapping rule and make sure that the rend
 
    >[!NOTE]
    >After completing the migration, ensure to remove all configuration references from channels, displays, and locations and add a single one to the project content node.
+

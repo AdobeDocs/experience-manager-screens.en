@@ -292,3 +292,4 @@ The following table summarizes a few example expressions that you can add to the
 >[!NOTE]
 >
 >When defining days of the week and months, you can both use the short-hand and full-name notations, such as, Mon/Monday and Jan/January. Also, you can also use _military time_ notation (14:00) instead of *A.M./P.M.* (2:00 P.M.).
+

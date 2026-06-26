@@ -196,3 +196,4 @@ This example shows the DayParting for a store that displays their winter collect
 >
 >* [Handling Recurrence in Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [Handling Recurrence for Assets in a Channel](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+

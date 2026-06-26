@@ -167,3 +167,4 @@ After you set up the required configurations for your project, follow the steps 
 1. Click **Preview**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+

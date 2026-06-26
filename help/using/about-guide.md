@@ -53,3 +53,4 @@ This guide provides a comprehensive insight and practical advice to imagine, des
 >
 > * **UX** is considered to mean the digital signage experiences delivered to end customers.
 > * **UI** is considered to mean the user interface that lets you create and manage your projects in Screens.
+

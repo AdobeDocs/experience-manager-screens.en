@@ -57,3 +57,4 @@ The following table outlines the different types of network setups with advantag
 |**Direct Mobile Network**|Easy to SetUp<br>Good Choice for Mid-size or Larger Installations<br>Good Scalability<br>Encapsulated Screens|Mandatory Internet connection|
 |**Mobile Network with Mobile Data Router and Active Network Components**|Easy to SetUp<br>Good Choice for Mid-size or Larger Installations<br>Dedicated Network can be Encapsulated<br>Few Points of Failure<br>Relatively Inexpensive<br>Good scalability|Mandatory Internet Data Plan|
 |**Enclosed Corporate Network (Wired/Wireless)**|High flexibility and scalability<br>Highly Secure due to Different Lines of Defense<br>Encapsulated Networks<br>Easy to Monitor and Maintain<br>Reliable|Complicated and Expensive<br>Recommended for Network Specialists or System Integrators|
+

@@ -149,3 +149,4 @@ Follow the steps below to ensure that your changes are propagated from the origi
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    Notice that the image is now deleted from the live copy channel too.
+

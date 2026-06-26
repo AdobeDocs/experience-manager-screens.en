@@ -107,3 +107,4 @@ Defining the key elements is essential before implementing a digital signage pro
    * Must you capture each serial number for tracking purposes?
    * Are there any back-up power requirements (uninterrupted power supply)?
    * How are system updates deployed? And how are devices monitored remotely? Is an MDM solution required?
+

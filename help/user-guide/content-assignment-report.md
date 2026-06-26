@@ -76,3 +76,4 @@ Follow the instructions below to download the Content Assignment Report:
 1. Selecting any of the channels from the **Channels** column opens the **Content** tab. In turn, it directly navigates you to that channel and gives you information on assets (images and videos) associated with that specific channel.
 
    ![image](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

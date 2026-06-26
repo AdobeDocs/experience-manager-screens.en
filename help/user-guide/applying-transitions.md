@@ -76,3 +76,4 @@ Follow the steps below to add a transition component to your AEM Screens project
 1. Also, if you add an **Embedded Sequence** component (that includes a sequence channel) to this channel editor, you can add a transition component at the end. Doing so ensures that the content plays in the correct order, as seen in the following image:
 
    ![image3](assets/transitions5.png)
+

@@ -38,3 +38,4 @@ From a **Channel Level view**, you should create wireframes that show how channe
 On a **Project Level**, you can start to model how multiple screens or experiences can work together in a physical space to provide a complete multi-touchpoint user journey. 
 
 These strategies should align with the UX Journey map previously created.
+

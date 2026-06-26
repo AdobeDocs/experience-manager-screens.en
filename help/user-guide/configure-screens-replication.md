@@ -142,3 +142,4 @@ Follow the section below to update settings in the AEM Screens Replication agent
    ![image](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
    If the connection verification is successful, you have completed configuring the Screens Replication Agent.
+

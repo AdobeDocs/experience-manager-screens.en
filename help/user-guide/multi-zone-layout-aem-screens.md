@@ -211,3 +211,4 @@ Check the Screens player so you can view the output that displays the content in
 The left zone is a sequence channel and the right zone includes a video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+

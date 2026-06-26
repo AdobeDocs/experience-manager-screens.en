@@ -164,3 +164,4 @@ Follow the steps below to set up an absolute strategy:
 1. Start the 2+ players
 
 It may take some time before the players start a new aligned sequence.
+

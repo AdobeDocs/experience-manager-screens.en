@@ -263,3 +263,4 @@ Follow these two prerequisites before configuring a Dispatcher (manifest version
 ```
 
 * This rule ensures the `segments.js` file is invalidated and latest is fetched when modified.
+

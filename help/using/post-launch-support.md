@@ -66,3 +66,4 @@ A few considerations and questions that help you define post-launch support:
 1. Which of your retail locations require 24/7 monitoring?
 
 1. Are the displays a part of your business? (that is, car configuration, sales alerts)
+

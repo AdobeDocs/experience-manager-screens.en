@@ -267,3 +267,4 @@ As such, the Content Author can designate playback of a specific asset. They can
 1. For a global override, enter the activation time in the **Timezone override** section for the asset. If you do not enter anything in this area, the timezone applied is the player's timezone.
 
 
+

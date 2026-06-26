@@ -35,3 +35,4 @@ Let Project leaders and key stake holders experiment with the placement of digit
 
 >[!NOTE]
 > Start collecting analytics during the pilot so you can help business teams validate the success of the solution against the specific metrics they are trying to achieve. Knowing how the pilot is performing helps the business team determine what improvements must be made.
+

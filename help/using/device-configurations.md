@@ -45,3 +45,4 @@ Based on the information gathered during *Day Zero*, confirm the following infor
 >[!NOTE]
 >
 >It is also important to validate the specifications for the hardware selected to ensure it can support the application being developed. For example, if the application is intended to run five High Definition videos at the same time, does the hardware support it?
+

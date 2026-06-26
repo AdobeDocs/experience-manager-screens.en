@@ -174,3 +174,4 @@ It is recommended to deploy the Player hardware and OS in a way that allows remo
 #### Other Resources {#additional-resources}
 
 See [Video Playback Configuration and Troubleshooting](troubleshoot-videos.md) if you want to debug and troubleshoot videos playing in your channel.
+

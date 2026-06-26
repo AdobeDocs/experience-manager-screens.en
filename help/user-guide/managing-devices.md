@@ -90,3 +90,4 @@ Follow the steps below to assign a device to a display:
 ### The Next Steps {#the-next-steps}
 
 After you are familiar with assigning channel to a display, see t[Monitor and troubleshoot](monitoring-screens.md).
+

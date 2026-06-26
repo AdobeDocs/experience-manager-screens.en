@@ -101,3 +101,4 @@ Follow the use case steps below to implement the hospitality reservation activat
     1. Update the value in **`Restaurant1`** and **`Restaurant2`** columns. If **`Restaurant1`** > **`Restaurant2`,** you should be able to view an image of *Steak* food otherwise, *Thai* food image displays on your screen.
 
    ![result5](assets/result5.gif)
+

@@ -112,3 +112,4 @@ Follow the steps below to implement the Travel Center Local Temperature Activati
     1. Change the value to less than 50. You can view an image of a cold drink. If the value in Google Sheets is 50 or greater, you should see an image of a hot drink.
 
     ![result3](assets/result3.gif)
+

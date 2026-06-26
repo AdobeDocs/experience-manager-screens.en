@@ -36,3 +36,4 @@ Various example Use Cases have been created to serve as a reference or starting 
 >[!NOTE]
 > During the UX design phase, confirm that the data extracted by the UI design is adequately supported.
 > For example, it is likely that not all decision makers are familiar with the data structure of their product database. They may choose descriptors on their UX solution that are not primary fields in the data layer. Identifying early where manipulation of the data may be necessary and communicating it to the client prevents misunderstandings later. If the client decides to expand or alter the UI labeling after development has begun, more effort is required to accommodate the changes.
+

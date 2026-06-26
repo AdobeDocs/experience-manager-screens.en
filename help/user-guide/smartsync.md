@@ -101,3 +101,4 @@ Follow the steps below to transition from ContentSync to SmartSync:
 1. When you have enabled SmartSync, navigate to your project and click **Update Offline Content** *(from the action bar),* as shown in the figure below.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
+

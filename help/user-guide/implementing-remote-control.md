@@ -61,3 +61,4 @@ The following diagram illustrates the key usage on a Samsung remote:
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
 ```
+

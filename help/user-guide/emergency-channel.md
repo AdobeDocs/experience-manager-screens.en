@@ -203,3 +203,4 @@ If there is an emergency, perform the following steps:
 The **EmergencyChannel** continues to display its content until the Content Author resets the Priority Value to 1.
 
 When the Content Author receives the instructions that the emergency has been cleared, they should update the priority of the **MainAdChannel**. Doing so causes normal playback to resume.
+

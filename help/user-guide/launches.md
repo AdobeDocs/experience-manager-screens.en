@@ -230,3 +230,4 @@ You can delete the launch using the **Delete Launch** option from the **PENDING 
 >[!CAUTION]
 >
 >This action also deletes all the descendants (nested launches).
+

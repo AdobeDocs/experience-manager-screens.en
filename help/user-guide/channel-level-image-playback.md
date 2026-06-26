@@ -90,3 +90,4 @@ Follow the steps below to learn how to update Channel Level Image Playback Durat
 After you have updated the channel playback duration (in this example, all three images), notice that the images now play for 3 seconds rather than 8 seconds (the default value).
 
 ![channel_preview](assets/channel_preview.gif)
+

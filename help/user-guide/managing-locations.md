@@ -78,3 +78,4 @@ To edit/access the properties of a location:
 After you create a location, create a display for your location.
 
 See [Creating and Managing Displays](managing-displays.md).
+

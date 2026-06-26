@@ -114,3 +114,4 @@ The following tables offer a good overview of what network connectivity key data
 >All information refers to the consumption of each device in the network requesting and downloading an Internet source. Each of those requests adds up and extends the Download Time.
 
 ![](/help/using/assets/mobile-router-download.png)
+

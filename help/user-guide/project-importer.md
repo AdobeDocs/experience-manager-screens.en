@@ -127,3 +127,4 @@ Follow the steps below to import a file to a location folder with the minimum re
 1. As a result, you can now view all the locations imported to your project.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

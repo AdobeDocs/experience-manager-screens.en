@@ -45,3 +45,4 @@ Key deliverables at this stage include:
 >Identify the data that is needed for the application, and where it is coming from, as soon as possible. Deeper exploration happens during implementation. However, be sure you take time during *Day Zero* to find out what data the client intends to use. Find out where that data is stored currently, and how the application being built can access it. Notifying the development team before challenges arise helps to make an implementation go more smoothly.
 
 Watch the video [Considerations as Projects are Scoped](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+
