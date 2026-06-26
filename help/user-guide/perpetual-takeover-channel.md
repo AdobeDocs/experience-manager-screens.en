@@ -142,3 +142,4 @@ The following table summarizes a few example expressions that you can add to the
 >[!NOTE]
 >
 >You can also use _military time_ notation (14:00) instead of *A.M./P.M.* (2:00 P.M.).
+

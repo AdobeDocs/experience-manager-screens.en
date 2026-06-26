@@ -154,3 +154,4 @@ Set the ***Java&trade; encoding*** to Unicode. For example, `*Dfile.encoding=Cp1
 >[!NOTE]
 >
 >Use HTTPS for AEM Screens Server in production use.
+

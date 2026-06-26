@@ -123,3 +123,4 @@ Follow the steps below to add an embedded sequence to your channel:
 1. Click the **Duration (milliseconds)** in the **Sequence** tab for your embedded channel in the sequence.
 
 ![latest](assets/latest.gif)
+

@@ -34,3 +34,4 @@ In the feedback loop use case, you do not need to be concerned with visual repor
 
 The second use case using analytics is to process playback events and usage data for human consumption by way of reports and dashboards.
 You can use this data to create a Heat map of an interactive experience to determine the preferred journey map through the application. You can also choose to create a dashboard that provides a graphical interpretation of how many times consumers interact with the application.
+

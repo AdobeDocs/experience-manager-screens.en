@@ -65,3 +65,4 @@ An AEM Site must be formatted for use at the dimensions of the display device it
 
 >[!NOTE]
 >Many AEM Sites components are not compatible with AEM Screens. AEM Screens comes with many of its own out-of-the-box components allowing you to build digital experiences without requiring customization. If project requirements allow, use built-in AEM Screens functionality where possible.
+

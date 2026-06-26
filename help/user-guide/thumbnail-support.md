@@ -73,3 +73,4 @@ Thumbnail in videos supports the following use cases:
 * A video component with both the video (if the video has correct rendition) and thumbnail set plays the video.
 
 * A video component with the video set plays the thumbnail, if there is a playback error, or skips to the next item in case the thumbnail is not configured.
+

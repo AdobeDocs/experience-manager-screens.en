@@ -145,3 +145,4 @@ Follow the steps below to integrate the SPA with Adobe Analytics with offline ca
    >[!NOTE]
    >
    >The player firmware automatically adds more details about the player and its runtime environment to the custom analytics data that you send. Hence, you may have to capture low-level OS/device details unless necessary. Focus on the business analytics data.
+

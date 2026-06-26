@@ -181,3 +181,4 @@ Or, you can follow the steps below:
 To change the background color, add the following code to the xml file (step 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

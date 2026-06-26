@@ -140,3 +140,4 @@ Follow the steps below to view the updated design to text overlay:
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Now, you are ready to update your brand and custom styling for text overlays added to your assets.
+

@@ -246,3 +246,4 @@ This example shows the DayParting implemented in a casino where live event occur
 >[!NOTE]
 >
 >Also, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
+

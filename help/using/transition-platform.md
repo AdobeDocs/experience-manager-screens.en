@@ -40,3 +40,4 @@ Examples include how and when to use the following:
 In this phase, review all the required tasks and activities that require attention and properly document them so assigned tasks can be properly tracked in the deployment phase.
 
 Also, review all pre-defined activities as possible candidates for automation in this phase.
+

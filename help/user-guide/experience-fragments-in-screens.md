@@ -232,3 +232,4 @@ Follow the steps below to confirm the changes in your channel:
 
 The following image illustrates the changes in your **TestChannel**:   
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
+

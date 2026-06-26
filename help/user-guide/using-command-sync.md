@@ -161,3 +161,4 @@ To remove the syncing from the primary device, follow the steps below:
    >[!NOTE]
    >
    > If you click the primary device and use the de-sync option, then all the devices connected to the primary are de-synced in one step.
+

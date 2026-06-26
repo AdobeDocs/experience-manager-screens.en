@@ -93,3 +93,4 @@ The following steps show the creation of an applications folder to your **Applic
 ### The Next Steps {#the-next-steps}
 
 When you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+

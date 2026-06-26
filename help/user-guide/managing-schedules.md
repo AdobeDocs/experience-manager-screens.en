@@ -84,3 +84,4 @@ Follow the steps below to view the schedule dashboard. The following example sho
    **Assigned Channels Panel** - Click +Assign Channel from the top-right corner from the ASSIGNED CHANNELS Panel to open the Channel Assignment dialog box. 
 
    **Assigned Displays Panel** - Click any of the displays from the ASSIGNED DISPLAYS Panel to open the display dashboard.
+

@@ -185,3 +185,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 ### Other Resources {#additional-resources}
 
 To learn more about AEM Screens Player, see [AEM Screens Player](working-with-screens-player.md).
+

@@ -252,3 +252,4 @@ All the assets in your channel are now playing on your Chrome OS player.
 Congratulations you are now playing content in an AEM Screens channel!
 
 ![image](assets/kickstart/demo-video-screens.gif)
+

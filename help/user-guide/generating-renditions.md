@@ -112,3 +112,4 @@ Follow the steps below to generate full HD renditions manually:
 1. Open the **Renditions** side rail. Notice the new full HD renditions.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
+

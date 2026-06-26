@@ -111,3 +111,4 @@ Follow the tutorial below to learn about the content strategy, I/O layers, asset
 Understand the elements that are identified during project discovery, along with stakeholder input to assess the project and prepare an appropriate design. Learn the key terms involved in an overall project plan. Such terms include project cycle, actions surrounding hardware testing, Proof Of Concept, pilots, and rollouts.
 
 Navigate to **[Testing, POCs, Pilots & Rollouts](testing-pocs-pilots-rollouts.md)** for more details.
+

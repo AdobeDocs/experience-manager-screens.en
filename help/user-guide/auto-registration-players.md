@@ -66,3 +66,4 @@ Follow the section below to consider some of the best practices for Security:
 
    >[!NOTE]
    >Default display assignment currently only works for bulk registration. It does not work for manual registration when a registration code is unavailable.
+

@@ -32,3 +32,4 @@ Follow the guidelines for support and maintenance for Day Two of the project dev
 1. Install the same software packages into your local development environment.
 
 1. Instruct your client to adopt the same configuration on all of their QA, Stage, and Production servers. Mismatched server configurations create problems when deploying and testing.
+

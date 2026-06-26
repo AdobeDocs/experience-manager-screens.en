@@ -169,3 +169,4 @@ The following table summarizes the policies with their functions.
 ### Using the Screens Remote Control {#using-remote-control}
 
 AEM Screens provides Remote Control functionality. Learn more about this feature here: [Screens Remote Control](implementing-remote-control.md)
+

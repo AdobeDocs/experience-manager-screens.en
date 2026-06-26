@@ -131,3 +131,4 @@ You set the schedule frequency as 1:00 A.M. and the ping timeout as 60. Then, if
 **Scenario 2**
 
 You set the schedule frequency as 1 and the ping timeout as 60. Then, if your AEM Screens device does not ping at once at any particular time of the day, you receive an email notification that confirms device inactivity.
+

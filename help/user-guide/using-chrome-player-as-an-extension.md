@@ -79,3 +79,4 @@ Follow the steps below to upgrade the player extension if a new version of the p
 1. Extract the new zip in the same location as the old folder
 1. Launch Chrome and navigate to `chrome://extensions`
 1. Check the player icon and click the refresh or reload button
+
