@@ -97,7 +97,7 @@ You can view the desired output from the player or just by selecting **Preview**
 
 The output demonstrates how a multi-zone layout plays for *10000 milliseconds*. Then, it switches to a single zone layout that has a playback duration of *3000 milliseconds*. And finally, it switches back to the multi-zone layout.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/30366)
+>[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >

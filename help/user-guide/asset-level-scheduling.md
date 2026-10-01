@@ -176,8 +176,9 @@ The following table summarizes a few example expressions that you can add to the
 | `on February,May,August,November` | the asset plays in the channel in February, May, August, and November |
 | `on February-July` | the asset plays in the channel from February to the end of July |
 
-   >[!NOTE]
-   >When defining days of the week and months, you can both use the short-hand and full-name notations, such as, Mon/Monday and Jan/January.
+>[!NOTE]
+>
+>When defining days of the week and months, you can both use the short-hand and full-name notations, such as, Mon/Monday and Jan/January.
 
 ### Combination of Partings {#combined-parting}
 
@@ -185,8 +186,9 @@ The following table summarizes a few example expressions that you can add to the
 
 1. After entering the start date/time and end/date time, you can use an expression or a natural text version to specify your recurrence schedule.
    
-   >[!NOTE]
-   >You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
+>[!NOTE]
+>
+>>You can skip or include the **Active from** and **Active Until** fields and add the expression to the Schedules field, as per your requirement.
 
 1. Enter the expression into the **Schedule** and your asset displays for the particular interval of day and time.
 
@@ -200,8 +202,9 @@ The following table summarizes a few example expressions that you can add to the
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | the asset in the channel starts playing after 2:00 P.M. on January 1, continues playing for the whole day on January 2 all the way until 3:00 A.M. on January 3 |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | the asset in the channel starts player after 2:00 P.M. on January 1, continues playing until 3:00 A.M. on January 2, then it starts again on January 2 at 2:00 P.M. and continues playing until 3:00 A.M. on January 3 |
 
-   >[!NOTE]
-   >When defining days of the week and months, you can both use the short-hand and full-name notations, such as, Mon/Monday and Jan/January. Also, you can also use _military time_ notation (14:00) instead of *A.M./P.M.*(2:00 P.M.).
+>[!NOTE]
+>
+>When defining days of the week and months, you can both use the short-hand and full-name notations, such as, Mon/Monday and Jan/January. Also, you can also use _military time_ notation (14:00) instead of *A.M./P.M.*(2:00 P.M.).
 
 
 ## Multi-asset Activation {#multi-asset-scheduling}
@@ -265,6 +268,3 @@ As such, the Content Author can designate playback of a specific asset. They can
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
  
 1. For a global override, enter the activation time in the **Timezone override** section for the asset. If you do not enter anything in this area, the timezone applied is the player's timezone.
-
-
-

@@ -26,22 +26,23 @@ topic_v2:
 ---
 # Release Notes for Feature Pack 202112 {#release-notes-for-feature-pack}
 
- >[!CAUTION]
- >Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
+>[!CAUTION]
+>
+>Adobe recommends that you upgrade to the latest version of Adobe Experience Manager (AEM). AEM Screens provides maintenance support for the AEM 6.3 Screens platform.
 
 ## Availability {#availability}
 
- AEM Screens released AEM 6.5 Feature Pack 11.
+AEM Screens released AEM 6.5 Feature Pack 11.
 
- You can download the latest Feature Pack for AEM Screens 6.5.11 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP11**.
+You can download the latest Feature Pack for AEM Screens 6.5.11 Release from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) using your Adobe ID. Navigate to the **Adobe Experience Manager** tab and search for **Screens** to get the latest Feature Pack titled as **AEM 6.5 Screens FP11**.
 
 ## Release Date {#release-date}
 
- The Release Date for AEM Screens Feature Pack 202203 is March 25, 2022.
+The Release Date for AEM Screens Feature Pack 202203 is March 25, 2022.
 
 ### What's New {#what-is-new}
 
- This release includes bug fixes only.
+This release includes bug fixes only.
 
 ### Bug Fixes {#bug-fixes}
 
