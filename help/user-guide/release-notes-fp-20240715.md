@@ -23,9 +23,11 @@ topic_v2:
 ---
 # Release Notes for Feature Pack 20240715 {#release-notes-for-screens-feature-pack}
 
- >[!CAUTION]
- >Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
- >FeaturePack (FP) version 11.4 is compatible with ServicePack (SP) up to version 20.
+>[!CAUTION]
+>
+>Adobe recommends that you upgrade to the latest version of 6.5 Adobe Experience Manager (AEM 6.5). You can get the latest version information from [here](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>
+>FeaturePack (FP) version 11.4 is compatible with ServicePack (SP) up to version 20.
  
 
 ## Availability {#availability}

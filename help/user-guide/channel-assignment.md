@@ -33,6 +33,7 @@ level_v2:
 # Channel Assignment {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >This section highlights the Channel Assignment and scheduling of channels for Feature packs older than AEM 6.5.5 Screens version.
 
 When you have set up a display, assign a channel to a display to view your content.
@@ -80,8 +81,9 @@ Channel role defines the context of the display. The role targets various action
 
 Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value always takes precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
-   >[!NOTE]
-   >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Also, the assigned channels are sorted based on descending priority.
+>[!NOTE]
+>
+>The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Also, the assigned channels are sorted based on descending priority.
 
 ### Supported Events {#supported-events-channel}
 

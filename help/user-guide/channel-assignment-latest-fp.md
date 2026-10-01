@@ -160,9 +160,9 @@ Channel role defines the context of the display. Various actions target the role
 
 Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value always takes precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.
 
-   >[!NOTE]
-   >
-   >The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Also, the assigned channels are sorted based on descending priority.
+>[!NOTE]
+>
+>The priority for a channel is set as a number (1 for minimum) in the **Channel Assignment** dialog box, as mentioned above. Also, the assigned channels are sorted based on descending priority.
 
 ### Supported Events {#supported-events-channel}
 
@@ -174,7 +174,8 @@ Priority is used to order the assignments in case multiple ones match the playin
 ### Interruption Method {#interruption-method-channel}
 
 >[!IMPORTANT]
-> This option is only available with <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+>
+>This option is only available with <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
 As a Content Author, you can specify when a channel is interrupted. Doing so lets choose to cut off non-critical content. But it also gives you the option to let important content play back in full before cutting it short because of scheduling.
 
@@ -183,13 +184,15 @@ Select from one of the following options that are available to set the interrupt
 * **Immediately** &ndash; Whenever the schedule activates or an update is received, you can cut off the playback and immediately refresh or play the new content
 * **End of the current item** &ndash; When a new schedule activates or an update is received, you can optionally wait for the current item in the sequence to finish playing. Then, only after that, you can refresh or play the new content.
 
-   >[!NOTE]
-   >This option is selected by default.
+>[!NOTE]
+>
+>This option is selected by default.
 
 * **At the end of the sequence** &ndash; When a new schedule activates or an update is received, you can optionally wait for the whole sequence to reach its end. Then, just before the desired sequence, you can loop back to the first element, refresh, or play the new content.
 
-   >[!NOTE]
-   >Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred. The reason is because the player waits for the end of the item or sequence (after the specified time) before refreshing. The delay depends on the playback duration of the item.
+>[!NOTE]
+>
+>Using the second or third option may result in the scheduling times defined on the assignment to be slightly deferred. The reason is because the player waits for the end of the item or sequence (after the specified time) before refreshing. The delay depends on the playback duration of the item.
 
 The following properties are set from the **Schedule** option in the **Channel Assignment** dialog box.
 
