@@ -10,12 +10,20 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-TQID: https://experienceleague.adobe.com/KKpBuSTtOex2pEiA19fzMIv0IIngpQdE9It8yLS-Eds
+TQID: 'https://experienceleague.adobe.com/KKpBuSTtOex2pEiA19fzMIv0IIngpQdE9It8yLS-Eds'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: b11fa279-92da-4577-9046-7d5b4af111cd
+    internal-label: Device registration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
