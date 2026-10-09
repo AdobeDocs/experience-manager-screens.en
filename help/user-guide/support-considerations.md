@@ -1,5 +1,5 @@
 ---
-title: "Part 5: Support Considerations"
+title: 'Part 5: Support Considerations'
 description: Learn how hardware, software, and connectivity issues are addressed. Explore cost estimations and frameworks for onsite support. Also, learn how SLA parameters, operational budgets, and NOC handoffs are managed.
 contentOwner: jsyal
 content-type: reference
@@ -10,12 +10,18 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-TQID: https://experienceleague.adobe.com/ZSU00dlWZg6UJ7vYrmjbEQngzu7YC7lZ18XUigFp4aM
+TQID: 'https://experienceleague.adobe.com/ZSU00dlWZg6UJ7vYrmjbEQngzu7YC7lZ18XUigFp4aM'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

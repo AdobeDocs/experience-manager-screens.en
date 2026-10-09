@@ -1,5 +1,5 @@
 ---
-title: "Part 2: Considerations as Projects are Scoped"
+title: 'Part 2: Considerations as Projects are Scoped'
 description: Learn about the content strategy, I/O layers, asset types, and audience segmentation in AEM Screens. Read about day parts, business operations requirements, and site readiness considerations.
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,7 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-TQID: https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8
+TQID: 'https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -21,6 +21,11 @@ feature_v2:
     internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
     internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

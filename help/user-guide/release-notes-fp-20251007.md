@@ -5,12 +5,15 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 2dc029ec-6fab-40e6-b387-d48ff89e0138
-TQID: https://experienceleague.adobe.com/0zMBuROP2wkvVXm74S-0lxNwZYWhKOCMQRazFg4z4xo
+TQID: 'https://experienceleague.adobe.com/0zMBuROP2wkvVXm74S-0lxNwZYWhKOCMQRazFg4z4xo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

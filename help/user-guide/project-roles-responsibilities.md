@@ -1,11 +1,11 @@
 ---
-title: "Part 1: Project Roles and Responsibilities"
+title: 'Part 1: Project Roles and Responsibilities'
 description: In this tutorial, understand the roles, responsibilities, and time lines required during the sales and project life cycles for a digital signage project.
 feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-TQID: https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo
+TQID: 'https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -16,6 +16,11 @@ feature_v2:
     internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
     internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

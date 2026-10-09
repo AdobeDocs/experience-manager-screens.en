@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
+TQID: 'https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -14,6 +14,10 @@ product_v2:
 feature_v2:
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
     internal-label: Personalization
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: 60214ccf-ef04-5996-803b-33ea3ff710bf
+    internal-label: Data Trigger
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

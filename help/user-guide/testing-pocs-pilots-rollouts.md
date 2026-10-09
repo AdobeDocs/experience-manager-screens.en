@@ -1,5 +1,5 @@
 ---
-title: "Part 3: Testing, POCs, Pilots & Rollouts"
+title: 'Part 3: Testing, POCs, Pilots & Rollouts'
 description: Learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots, and rollouts.
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,7 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-TQID: https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw
+TQID: 'https://experienceleague.adobe.com/A4H90bjOjBOkU41MkPk6uLqo6Lbb377KAPaVi-0n1Vw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -21,6 +21,11 @@ feature_v2:
     internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
     internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

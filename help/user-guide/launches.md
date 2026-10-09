@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+TQID: 'https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
     internal-label: Experience Manager Screens
@@ -19,6 +19,8 @@ product_v2:
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
     internal-label: Authoring Screens
+  - id: 633abde6-4dea-52af-a785-d12d741851d7
+    internal-label: Launches
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
     internal-label: Channels
